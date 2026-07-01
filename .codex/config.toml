@@ -1,0 +1,12 @@
+# Codex configuration for this loop-engineered repository.
+#
+# Codex reads AGENTS.md natively as project instructions — that file is the
+# single source of truth for how to work here (loop workflow, three hard stops,
+# guardrails, maker-checker split). Do not duplicate it; edit AGENTS.md instead.
+#
+# Subagents encoding the maker-checker split live in .codex/agents/:
+#   - maker.toml    implements one task per pass
+#   - checker.toml  adversarially verifies the maker's work
+#
+# Project docs are large enough to matter; keep the whole instruction set loaded.
+project_doc_max_bytes = 65536

@@ -1,0 +1,31 @@
+name: verify
+
+# External back-pressure: CI runs the SAME mechanical check the loop runs
+# (scripts/check.sh). Green CI is the honest signal that keeps agents accountable
+# — "tests pass" must mean a real green run, not a claim.
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Lint the harness scripts themselves.
+      - name: shellcheck harness scripts
+        run: sudo apt-get update -qq && sudo apt-get install -y shellcheck
+
+      # Run the project's single source of truth for "is the work good?".
+      # It auto-detects the stack; on the empty scaffold it is a passing no-op.
+      - name: scripts/check.sh
+        run: |
+          chmod +x scripts/*.sh scripts/lib/*.sh
+          scripts/check.sh

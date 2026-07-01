@@ -1,0 +1,36 @@
+---
+description: Non-negotiable safety guardrails and hard stops for autonomous loops.
+alwaysApply: true
+---
+
+# Guardrails & hard stops
+
+A loop is delegated authority. Bound it. Full detail in
+[`docs/guardrails.md`](/docs/guardrails.md); this rule is always applied.
+
+## The three hard stops (an unattended loop MUST halt on any)
+
+1. **Max iterations** — never exceed `MAX_ITERATIONS` passes.
+2. **No progress** — if `MAX_NO_PROGRESS` passes produce no measurable change
+   (no new commit, check still red at the same point), halt.
+3. **Budget** — stop at the `BUDGET_USD` token/dollar ceiling.
+
+Blocked, exhausted, and stagnant runs are NOT successful. Never dress them up as
+done.
+
+## Gate these behind a human (stop and write the ask to `memory/handoff.md`)
+
+- Production deploys and release promotion.
+- Destructive operations: `rm -rf`, dropping/truncating data, `git push --force`,
+  history rewrites, deleting branches.
+- Financial actions, privacy-sensitive data, credentials.
+- External messages: emails, Slack/Discord posts, comments or PRs on third-party
+  repos/issues (unless the task explicitly authorizes it).
+
+## Always
+
+- Protect uncommitted work in progress; only touch files for the current task.
+- Never write secrets to `specs/`, `memory/`, `skills/`, logs, or commit
+  messages. Secrets belong only in git-ignored `.env`.
+- Prefer named CLIs over heavy MCP servers to save context.
+- Record evidence, not claims. Keep changes small enough to review and revert.

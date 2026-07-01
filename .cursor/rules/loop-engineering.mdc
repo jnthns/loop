@@ -1,0 +1,34 @@
+---
+description: Core loop-engineering contract for this repository. Always applied.
+alwaysApply: true
+---
+
+# Loop-engineering contract
+
+This repo is a loop-engineered workspace. **[`AGENTS.md`](/AGENTS.md) is the single
+source of truth** — read and follow it. This rule is a summary, not a replacement.
+
+## Every pass follows the loop
+
+`OBSERVE → ACT → CHECK → DECIDE → HANDOFF`
+
+- **Observe** fresh state from disk: `specs/spec.md`, `specs/PLAN.md`,
+  `specs/STATUS.md`, `memory/handoff.md`. Never rely on memory of a prior run.
+- **Act** on exactly **one** highest-priority unchecked task from `specs/PLAN.md`.
+  Make one small, reversible change. No grab-bags, no huge diffs.
+- **Check** with `scripts/check.sh`. The check decides success, not your opinion.
+- **Decide** to continue only while progress is measurable and budget remains.
+- **Handoff:** tick the task in `specs/PLAN.md`, append evidence to
+  `specs/STATUS.md`, rewrite `memory/handoff.md`, commit atomically.
+
+## Rules you must not break
+
+- A loop is a task with a check. Never claim "done" without the check exiting 0.
+- Maker ≠ checker: a separate verifier grades the work (`scripts/verify.sh`).
+- Evidence over claims. Freeze the check between passes.
+- Fresh context per task; state on disk. Small atomic commits.
+- If you do something twice or something hard, capture a `skills/*/SKILL.md`.
+- Signal completion of the whole build by writing `ALL TASKS DONE` to
+  `specs/STATUS.md` only when every task is checked and the check is green.
+
+See [`.cursor/rules/guardrails.mdc`](/.cursor/rules/guardrails.mdc) for safety.

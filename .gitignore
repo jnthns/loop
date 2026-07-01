@@ -1,0 +1,32 @@
+# Secrets & local config — never commit
+.env
+.env.*
+!.env.example
+
+# Loop runtime state (kept on disk, not in git)
+memory/.budget
+*.loop.log
+loops.log
+run-*.log
+
+# Agent worktrees / scratch
+.worktrees/
+tmp/
+*.tmp
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# --- Language artifacts (uncomment/extend once a stack is chosen) ---
+# node_modules/
+# dist/
+# build/
+# .next/
+# __pycache__/
+# .venv/
+# target/
+# coverage/
