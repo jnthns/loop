@@ -50,3 +50,58 @@ guardrails_forbidden_cmd() {
   esac
   return 1
 }
+
+# guardrails_check_plan_consistency [status_file] [sentinel] [plan_file] — the
+# maker once ticked every box in specs/PLAN.md in a commit that added no app
+# code, and a prior handoff.md claimed the build was done as a result (see
+# specs/STATUS.md Pass 2). This is the tripwire: the done-sentinel must never
+# be trusted on its own — it can only mean success if every task in the plan
+# is actually checked. Returns 0 if consistent (or if the sentinel is absent —
+# nothing to check yet), 1 if the sentinel is present but the plan disagrees.
+guardrails_check_plan_consistency() {
+  local status_file="${1:-specs/STATUS.md}"
+  local sentinel="${2:-ALL TASKS DONE}"
+  local plan="${3:-specs/PLAN.md}"
+  [ -f "$status_file" ] || return 0
+  grep -q "^$sentinel" "$status_file" 2>/dev/null || return 0
+  if [ ! -f "$plan" ]; then
+    echo "guardrail: '$sentinel' present in $status_file but $plan is missing." >&2
+    return 1
+  fi
+  if grep -q '^- \[ \]' "$plan"; then
+    echo "guardrail: '$sentinel' found in $status_file but $plan still has" >&2
+    echo "           unchecked tasks. The sentinel cannot be trusted on its own." >&2
+    return 1
+  fi
+  return 0
+}
+
+# guardrails_check_plan_evidence [plan_file] — for every task checked
+# `- [x]` in the plan, any backtick-quoted token that looks like a filename
+# (has a dot extension) must exist on disk. Catches a task being ticked
+# without the file it names ever being created — the exact failure mode in
+# specs/STATUS.md Pass 2, where 20 tasks were ticked with no app source
+# committed. Returns 0 if every referenced file exists, 1 otherwise.
+guardrails_check_plan_evidence() {
+  local plan="${1:-specs/PLAN.md}"
+  [ -f "$plan" ] || return 0
+  local missing=0 in_checked=0 line path rest match
+  while IFS= read -r line; do
+    case "$line" in
+      '- [x]'*) in_checked=1 ;;
+      '- ['*) in_checked=0 ;;
+    esac
+    [ "$in_checked" -eq 1 ] || continue
+    rest="$line"
+    while [[ "$rest" =~ \`([]A-Za-z0-9_./[-]+\.[A-Za-z0-9]+)\` ]]; do
+      match="${BASH_REMATCH[0]}"
+      path="${BASH_REMATCH[1]}"
+      rest="${rest#*"$match"}"
+      if [ ! -e "$path" ]; then
+        echo "guardrail: $plan marks a task done but referenced file is missing: $path" >&2
+        missing=1
+      fi
+    done
+  done <"$plan"
+  return "$missing"
+}

@@ -15,9 +15,19 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
+# shellcheck source=scripts/lib/guardrails.sh
+. scripts/lib/guardrails.sh
+
 echo "== verify: re-running the mechanical check =="
 if ! scripts/check.sh; then
   echo "REJECT: mechanical check failed." >&2
+  exit 1
+fi
+
+echo "== verify: checking specs/PLAN.md ticks match evidence on disk =="
+if ! guardrails_check_plan_evidence specs/PLAN.md; then
+  echo "REJECT: a task is marked done in specs/PLAN.md but the file it names" >&2
+  echo "        does not exist. See specs/STATUS.md Pass 2 for why this gate exists." >&2
   exit 1
 fi
 

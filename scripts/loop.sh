@@ -56,6 +56,11 @@ guardrails_check_env || exit 2
 guardrails_protect_wip || exit 2
 [ -f "$LOOP_FILE" ] || { log "loop file not found: $LOOP_FILE"; exit 2; }
 [ -f "$STATUS_FILE" ] || { log "status file not found: $STATUS_FILE"; exit 2; }
+if ! guardrails_check_plan_consistency "$STATUS_FILE" "$DONE_SENTINEL"; then
+  log "repo state is inconsistent before the loop even starts (see above). Fix"
+  log "specs/PLAN.md / $STATUS_FILE by hand before running the loop."
+  exit 2
+fi
 
 budget_reset
 
@@ -69,12 +74,17 @@ iteration=0
 noprogress=0
 reason="unknown"
 
-is_done() { grep -q "^$DONE_SENTINEL" "$STATUS_FILE"; }
 head_sha() { git rev-parse HEAD 2>/dev/null || echo "no-git"; }
 
 # --- The loop ----------------------------------------------------------------
 while true; do
-  if is_done; then reason="success: '$DONE_SENTINEL' found in $STATUS_FILE"; break; fi
+  if grep -q "^$DONE_SENTINEL" "$STATUS_FILE" 2>/dev/null; then
+    if guardrails_check_plan_consistency "$STATUS_FILE" "$DONE_SENTINEL"; then
+      reason="success: '$DONE_SENTINEL' found in $STATUS_FILE"; break
+    else
+      reason="blocked: '$DONE_SENTINEL' present in $STATUS_FILE but specs/PLAN.md disagrees — state is inconsistent, needs human review"; break
+    fi
+  fi
 
   iteration=$((iteration + 1))
   if [ "$iteration" -gt "$MAX_ITERATIONS" ]; then
@@ -95,10 +105,26 @@ while true; do
   set -e
   [ "$agent_status" -ne 0 ] && log "agent exited non-zero ($agent_status)"
 
+  # A pass that leaves uncommitted changes behind violates the "commit
+  # atomically" contract (AGENTS.md §2.5) — this is exactly how the app's
+  # source was lost in the past (see specs/STATUS.md Pass 2): work sat
+  # untracked in a container that then disappeared. Treat it as a REJECT.
+  dirty_after=0
+  if [ -n "$(git status --porcelain 2>/dev/null)" ]; then
+    log "WARNING: working tree is dirty after the agent pass — uncommitted"
+    log "         changes were left behind instead of being committed."
+    dirty_after=1
+  fi
+
   # Maker-checker gate: an independent verify decides if the pass counts.
+  # A new commit existing is NOT sufficient evidence of progress on its own —
+  # a commit that only ticks specs/PLAN.md boxes without real work behind
+  # them must not reset the no-progress counter (see specs/STATUS.md Pass 2).
+  verify_ok=1
   if scripts/verify.sh; then
     log "verify: APPROVE"
   else
+    verify_ok=0
     log "verify: REJECT (pass not accepted)"
   fi
 
@@ -106,13 +132,14 @@ while true; do
   [ "$(printf '%.0f' "${COST_PER_ITERATION_USD:-0}" 2>/dev/null || echo 0)" != "0" ] && \
     budget_add "$COST_PER_ITERATION_USD"
 
-  # No-progress detection: a pass that produced no new commit is idle.
+  # No-progress detection: only an APPROVEd pass with a clean tree and a new
+  # commit counts as real progress.
   after="$(head_sha)"
-  if [ "$before" = "$after" ]; then
-    noprogress=$((noprogress + 1))
-    log "no new commit this pass (idle $noprogress/$MAX_NO_PROGRESS)"
-  else
+  if [ "$before" != "$after" ] && [ "$verify_ok" -eq 1 ] && [ "$dirty_after" -eq 0 ]; then
     noprogress=0
+  else
+    noprogress=$((noprogress + 1))
+    log "no accepted progress this pass (idle $noprogress/$MAX_NO_PROGRESS)"
   fi
   if [ "$noprogress" -ge "$MAX_NO_PROGRESS" ]; then
     reason="stop: no progress for $MAX_NO_PROGRESS consecutive passes"; break
