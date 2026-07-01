@@ -43,7 +43,7 @@ OBSERVE → ACT → CHECK → DECIDE → (continue | stop) → HANDOFF
    Stop on success, no-op, blocked, or out-of-budget (see §5).
 5. **Handoff.** Update `specs/PLAN.md` (tick the task), append evidence to
    `specs/STATUS.md`, and rewrite `memory/handoff.md` for the next run.
-   Commit atomically. Then **exit** — the next iteration is a fresh agent.
+   Commit and push to `main` atomically. Then **exit** — the next iteration is a fresh agent.
 
 The intelligence lives in clear specs and verifiable outcomes applied over and
 over — **not** in one heroic long session. Keep each pass small enough to review.
@@ -109,13 +109,20 @@ them up as done.
 
 - **Protected scope.** Never overwrite uncommitted work in progress. Only touch
   files relevant to the current task.
-- **Gate consequential actions behind a human.** Production deploys, destructive
-  ops (`rm -rf`, dropping data, force-push), financial actions, privacy-sensitive
-  data, and external messages (email/Slack/PRs to third parties) require
-  explicit human approval. When you hit one, stop and write the ask into
-  `memory/handoff.md`.
+- **Never read `.env`.** Agents must not open, cat, or load `.env` (secrets stay
+  git-ignored). Use `.env.example` for variable names only. Harness scripts such
+  as `scripts/loop.sh` may load `.env` at runtime; agents do not.
+- **Deploy via `main`.** Commit and push directly to `main` after each green
+  pass. `main` is the production branch — GitHub Actions deploys to GitHub
+  Pages on every push. Do not open PRs or wait for manual release promotion.
+- **Gate destructive actions behind a human.** `rm -rf`, dropping data,
+  `git push --force`, history rewrites, deleting branches, financial actions,
+  privacy-sensitive data, and external messages (email/Slack/PRs to third
+  parties) require explicit human approval. When you hit one, stop and write the
+  ask into `memory/handoff.md`.
 - **Never store secrets** in `specs/`, `memory/`, `skills/`, commit messages, or
-  logs. Use `.env` (git-ignored); see `.env.example`.
+  logs. Secrets belong only in git-ignored `.env` or GitHub Actions secrets;
+  see `.env.example`.
 - **Prefer CLIs over heavy MCPs.** A named CLI the model already knows costs zero
   context and is self-documenting via `--help`. Reserve MCP for things a CLI
   can't do.
@@ -142,15 +149,16 @@ them up as done.
 | `scripts/verify.sh`      | Maker–checker gate (runs the checker).                     |
 | `scripts/lib/`           | Budget + guardrail helpers.                                |
 | `docs/`                  | The discipline, maturity ladder, guardrails, loop authoring.|
-| `.github/workflows/`     | CI runs the check as external back-pressure.               |
+| `.github/workflows/`     | CI runs the check; push to `main` deploys GitHub Pages.    |
 
 ---
 
 ## 8. Conventions
 
 - **Commits:** one logical change per commit; imperative subject
-  (`Add spec template`), body explains *why*. Never `git commit --amend` or
-  force-push shared branches unless a human asks.
+  (`Add spec template`), body explains *why*. Push to `main` after each pass so
+  CI deploys the site. Never `git commit --amend` or `git push --force` unless a
+  human asks.
 - **Task list format in `specs/PLAN.md`:** GitHub checkboxes `- [ ]` / `- [x]`,
   ordered by priority. Add discovered work as new unchecked items rather than
   silently expanding the current task.

@@ -19,7 +19,7 @@ source of truth** — read and follow it. This rule is a summary, not a replacem
 - **Check** with `scripts/check.sh`. The check decides success, not your opinion.
 - **Decide** to continue only while progress is measurable and budget remains.
 - **Handoff:** tick the task in `specs/PLAN.md`, append evidence to
-  `specs/STATUS.md`, rewrite `memory/handoff.md`, commit atomically.
+  `specs/STATUS.md`, rewrite `memory/handoff.md`, commit and push to `main`.
 
 ## Rules you must not break
 

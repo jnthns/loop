@@ -6,28 +6,25 @@
 
 ## Goal (current)
 
-Build the AI recipe generator app per `specs/spec.md` — Astro + Gemini 3.1
-Flash-Lite, brutalist Framer-style UI, server caching, localStorage saves.
+Build complete and checker-approved. AI recipe generator per `specs/spec.md`.
 
 ## Last pass did
 
-- Merged loop-engineering scaffold onto `main`.
-- Filled `specs/spec.md` with product goals, acceptance criteria, and Astro stack.
-- Expanded `specs/PLAN.md` with ordered implementation tasks (Phase 0–4).
-- Added full build plan reference at `docs/plan.md`.
-- Added `GEMINI_API_KEY` to `.env.example`.
+- Checker ran `scripts/verify.sh` — **APPROVE** (lint + 66 tests + build green).
+- Logged Pass 21 evidence in `specs/STATUS.md`.
 
 ## Evidence
 
-- `specs/spec.md` has no `TODO` placeholders.
-- Phase 0 spec/plan tasks marked done in `specs/PLAN.md`.
+- `ALL TASKS DONE` in `specs/STATUS.md`; 22/22 PLAN tasks checked.
+- `verify.sh` exit 0; no `GEMINI_API_KEY` in `dist/client/`.
 
 ## Blockers / needs a human
 
-- `GEMINI_API_KEY` not yet provided — app must mock/degrade until set in `.env`.
+- `GEMINI_API_KEY` not set — mock data until configured in `.env`.
+- GitHub Pages deploy uses static `dist/`; server API routes need adapter/backend
+  change for production recipe generation on Pages.
 
 ## Next step
 
-1. Scaffold Astro project per `specs/PLAN.md` Phase 0 (last unchecked task).
-2. Continue Phase 1 foundation tasks one per loop pass.
-3. See `docs/plan.md` for wireframe, design tokens, and directory layout.
+- Optional: commit and push; set `GEMINI_API_KEY` for live recipes; resolve
+  Pages vs server deploy when promoting to production.

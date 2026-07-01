@@ -6,7 +6,7 @@ ordered task checklist lives in [`specs/PLAN.md`](../specs/PLAN.md).
 
 ## Stack
 
-- **Astro 5** with `output: 'server'` and `@astrojs/node` adapter
+- **Astro 5** with `output: 'static'` (GitHub Pages)
 - **React islands** (`@astrojs/react`) for interactive UI + Framer Motion
 - **Tailwind CSS** via `@astrojs/tailwind`
 - **Gemini 3.1 Flash-Lite** via `@google/genai` (server-only)
@@ -21,7 +21,7 @@ ordered task checklist lives in [`specs/PLAN.md`](../specs/PLAN.md).
 | Framer Motion / filters / grid | React island (`client:load`) wraps `LandingApp` |
 | Gemini API | Server endpoint at `src/pages/api/recipes/generate.ts` |
 | Detail page | Astro shell + `DetailApp` React island |
-| Deploy | `@astrojs/node` (dev) or `@astrojs/vercel` (production) |
+| Deploy | GitHub Pages (`main` push → `.github/workflows/pages.yml`); Astro `output: 'static'` for the built site |
 
 ## Design — Framer-style brutalist
 

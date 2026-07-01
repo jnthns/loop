@@ -33,16 +33,35 @@ Don't move the benchmark after every result, or progress becomes impossible to
 compare. When optimizing a prompt or model, evaluate against a fresh holdout set
 so you're not overfitting to the cases you've been tuning on.
 
-## Gate consequential actions behind a human
+## Never read `.env`
+
+Agents must **not** read `.env` — no `cat .env`, editor open, or tool read of
+that path. Secrets stay git-ignored; `.env.example` is the only reference for
+variable names and shape. Harness scripts (`scripts/loop.sh`) may source `.env`
+at runtime; that is not permission for agents to inspect it.
+
+## Deploy via `main` (GitHub Pages)
+
+Production deploy is automatic, not human-gated:
+
+1. Agent completes a pass with `scripts/check.sh` green.
+2. Agent commits and **pushes directly to `main`**.
+3. `.github/workflows/pages.yml` runs the check, builds the site, and deploys
+   to GitHub Pages.
+
+Do not open PRs, wait for manual release promotion, or run ad-hoc deploy commands.
+`main` is the deploy branch.
+
+## Gate destructive actions behind a human
 
 These require explicit human approval. When an agent hits one, it must stop and
 write the request into `memory/handoff.md`:
 
-- Production deploys and release promotion.
 - Destructive operations: `rm -rf`, dropping/truncating data, `git push --force`,
   history rewrites, deleting branches.
 - Financial actions; anything touching money or billing.
-- Privacy-sensitive data and credentials.
+- Privacy-sensitive data and credentials (agents never read `.env`; humans set
+  GitHub Actions secrets when needed).
 - External messages: email, Slack/Discord, comments/PRs on third-party repos.
 
 `guardrails_forbidden_cmd` in `scripts/lib/guardrails.sh` flags obvious cases, but
@@ -56,9 +75,11 @@ relevant to the current task and never clobber uncommitted human work.
 
 ## Never store secrets
 
-Not in `specs/`, `memory/`, `skills/`, commit messages, or logs. Secrets live only
-in git-ignored `.env` (see `.env.example`). `guardrails_scan_secrets` is a
-best-effort tripwire, not a real scanner — don't rely on it alone.
+Not in `specs/`, `memory/`, `skills/`, commit messages, or logs. Secrets live in
+git-ignored `.env` (local harness) or GitHub Actions repository secrets (CI).
+See `.env.example` for names only — agents never read `.env`.
+`guardrails_scan_secrets` is a best-effort tripwire, not a real scanner — don't
+rely on it alone.
 
 ## Demand evidence, not claims
 

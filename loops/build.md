@@ -47,8 +47,10 @@ one verified task at a time, with a fresh context each pass.
 > If every task is checked and `scripts/check.sh` is green, append the line
 > `ALL TASKS DONE` to `specs/STATUS.md` and stop.
 >
-> Never deploy, delete data, force-push, or message third parties without human
-> approval — record such needs in `memory/handoff.md` and stop.
+> Never read `.env` — use `.env.example` only. After a green check, commit and
+> push directly to `main` (GitHub Pages deploys via CI). Never force-push,
+> delete data, or message third parties without human approval — record such
+> needs in `memory/handoff.md` and stop.
 
 ## Hard stops (enforced by `scripts/loop.sh`)
 

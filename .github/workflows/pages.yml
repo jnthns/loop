@@ -1,0 +1,70 @@
+name: pages
+
+# Push to main runs the mechanical check, builds the site artifact, and deploys
+# to GitHub Pages. Agents commit and push to main; CI owns production deploy.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: scripts/check.sh
+        run: |
+          chmod +x scripts/*.sh scripts/lib/*.sh
+          scripts/check.sh
+
+      - name: Build site artifact
+        id: build
+        run: |
+          set -euo pipefail
+          if [ -f package.json ] && node -e "const s=require('./package.json').scripts||{}; process.exit(s.build?0:1)" 2>/dev/null; then
+            if [ -f package-lock.json ]; then npm ci; else npm install; fi
+            npm run build
+            if [ -d dist ]; then
+              echo "path=dist" >> "$GITHUB_OUTPUT"
+            elif [ -d build ]; then
+              echo "path=build" >> "$GITHUB_OUTPUT"
+            else
+              echo "package.json build ran but no dist/ or build/ output found" >&2
+              exit 1
+            fi
+          elif [ -d site ]; then
+            echo "path=site" >> "$GITHUB_OUTPUT"
+          else
+            echo "No build output or site/ directory to deploy" >&2
+            exit 1
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.build.outputs.path }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -18,9 +18,18 @@ A loop is delegated authority. Bound it. Full detail in
 Blocked, exhausted, and stagnant runs are NOT successful. Never dress them up as
 done.
 
+## Never read `.env`
+
+Agents must not open, read, or load `.env`. Use `.env.example` for reference
+only. Harness scripts may source `.env` at runtime; agents do not.
+
+## Deploy via `main`
+
+Push directly to `main` after each green pass. `main` deploys to GitHub Pages
+via CI — do not gate deploys behind a human or open PRs for release.
+
 ## Gate these behind a human (stop and write the ask to `memory/handoff.md`)
 
-- Production deploys and release promotion.
 - Destructive operations: `rm -rf`, dropping/truncating data, `git push --force`,
   history rewrites, deleting branches.
 - Financial actions, privacy-sensitive data, credentials.
@@ -31,6 +40,6 @@ done.
 
 - Protect uncommitted work in progress; only touch files for the current task.
 - Never write secrets to `specs/`, `memory/`, `skills/`, logs, or commit
-  messages. Secrets belong only in git-ignored `.env`.
+  messages. Secrets belong in git-ignored `.env` or GitHub Actions secrets.
 - Prefer named CLIs over heavy MCP servers to save context.
 - Record evidence, not claims. Keep changes small enough to review and revert.

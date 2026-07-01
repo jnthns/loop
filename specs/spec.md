@@ -32,12 +32,18 @@ An AI-powered recipe generator with a brutalist Framer-style landing page — ho
 - Real dish photography or Gemini image generation (use brutalist CSS gradient placeholders v1).
 - User accounts, auth, or cloud sync of saved recipes.
 - Shopping lists, nutrition facts, or meal planning.
-- Production deploy configuration (user adds API key and deploys later).
+- User-managed deploy steps (push to `main` deploys via GitHub Actions).
 
 ## 5. Constraints & decisions
 
-- **Tech stack:** Astro 5 (`output: 'server'`), `@astrojs/react` (React islands), `@astrojs/tailwind`, `@astrojs/node`, TypeScript, Vitest, Framer Motion, `@fontsource/syne`, Zod, `@google/genai`.
-- **Runtime/deploy target:** Node adapter for dev/preview; `@astrojs/vercel` optional for production.
+- **Tech stack:** Astro 5 (`output: 'static'` for GitHub Pages), `@astrojs/react`
+  (React islands), `@astrojs/tailwind`, TypeScript, Vitest, Framer Motion,
+  `@fontsource/syne`, Zod, `@google/genai`.
+- **Runtime/deploy target:** GitHub Pages (static site from `npm run build` →
+  `dist/`). Push to `main` triggers `.github/workflows/pages.yml`. Until the
+  Astro app exists, CI deploys the placeholder in `site/`. Server API routes
+  need `output: 'static'` plus a compatible adapter or external backend — see
+  `memory/handoff.md` for the Pages vs server-API constraint.
 - **AI model:** `gemini-3.1-flash-lite` per [Google GenAI docs](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite). SDK: `@google/genai` (not deprecated `@google/generative-ai`).
 - **Hard constraints:** `GEMINI_API_KEY` server-only; no secrets in specs/, memory/, or commits.
 - **Explicit trade-offs:** React islands for interactivity (minimal JS vs full SPA); sessionStorage for detail-page routing (no re-fetch); placeholder images over image gen for v1.

@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # guardrails.sh — safety helpers shared by the loop scripts.
 # Source this file; do not execute it. See docs/guardrails.md.
+#
+# Agents must never read .env (see docs/guardrails.md). This script may be
+# sourced by loop.sh after a human creates .env locally.
 
 # guardrails_check_env — warn on obviously unsafe configuration.
 guardrails_check_env() {

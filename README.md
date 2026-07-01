@@ -11,6 +11,26 @@ ingredients; Gemini generates tailored recipes; favorites save to localStorage.
 - Task checklist: [`specs/PLAN.md`](specs/PLAN.md)
 - Build plan (wireframe + architecture): [`docs/plan.md`](docs/plan.md)
 
+## Recipe app — quick start
+
+Run the Astro dev server locally:
+
+```bash
+npm install
+cp .env.example .env          # optional: set GEMINI_API_KEY for live AI recipes
+npm run dev                   # http://localhost:4321
+```
+
+**Environment:** Copy `.env.example` to `.env` (git-ignored). Set `GEMINI_API_KEY`
+to your [Google AI Studio](https://aistudio.google.com/apikey) key for real Gemini
+recipes on the server. Leave it empty to use built-in mock data — the app still runs.
+
+**Mechanical check** (lint, test, build — same as CI):
+
+```bash
+scripts/check.sh
+```
+
 > A loop is a task with a check. A task without a check is just hope.
 
 This synthesizes the established teachings of agentic / loop engineering: Geoffrey
@@ -29,10 +49,14 @@ mechanical check → continue or stop by explicit rules → record evidence and 
 off. Each pass is a **fresh agent with a clean context** that re-reads the truth
 from `specs/` and `memory/`. The agent forgets; the repo doesn't.
 
-## Quick start
+## Loop harness — quick start
+
+Autonomous agents build and verify the app using the loop in
+[`AGENTS.md`](AGENTS.md) — read that file first for the full operational contract
+(`OBSERVE → ACT → CHECK → DECIDE → HANDOFF`).
 
 ```bash
-cp .env.example .env          # configure AGENT_CMD, budgets, GEMINI_API_KEY
+cp .env.example .env          # configure AGENT_CMD, budgets, optional GEMINI_API_KEY
 
 # Product is defined — start the build loop:
 #   specs/spec.md   (recipe generator — Astro + Gemini)
@@ -46,8 +70,9 @@ AGENT_CMD=echo MAX_ITERATIONS=1 scripts/loop.sh
 scripts/loop.sh
 ```
 
-The runner stops on success (`ALL TASKS DONE` in `specs/STATUS.md`) or on any of
-the **three hard stops**: max iterations, no-progress, or budget.
+Each pass runs `scripts/check.sh` as the fixed mechanical gate. The runner stops
+on success (`ALL TASKS DONE` in `specs/STATUS.md`) or on any of the **three hard
+stops**: max iterations, no-progress, or budget.
 
 ## What's in here
 
@@ -63,7 +88,7 @@ the **three hard stops**: max iterations, no-progress, or budget.
 | `skills/`            | Reusable named skills (`SKILL.md`) — the compounding asset.         |
 | `scripts/`           | `loop.sh` (runner + hard stops), `check.sh`, `verify.sh`, `lib/`.   |
 | `docs/`              | The discipline, maturity ladder, guardrails, loop authoring.       |
-| `.github/workflows/` | CI runs `check.sh` as external back-pressure.                       |
+| `.github/workflows/` | CI runs `check.sh`; push to `main` deploys GitHub Pages.            |
 
 ## The principles baked in
 
@@ -73,7 +98,9 @@ the **three hard stops**: max iterations, no-progress, or budget.
 - **Evidence over claims** — "done" means the check exits 0.
 - **Maker ≠ checker** — a separate verifier grades the work.
 - **Skills compound** — capture repeated/hard work as a named skill.
-- **Bounded authority** — the three hard stops + human gates on consequential actions.
+- **Bounded authority** — the three hard stops + human gates on destructive actions.
+- **Deploy on `main`** — push directly to `main`; GitHub Pages updates via CI.
+- **Never read `.env`** — agents use `.env.example` only; secrets stay local or in Actions secrets.
 - **Stay the engineer** — read what the loop produces; avoid comprehension debt.
 
 ## Adopt it safely
