@@ -6,25 +6,28 @@
 
 ## Goal (current)
 
-Set up the loop-engineering harness, then help fill `specs/spec.md` so a real
-build can begin. The app's purpose is not chosen yet.
+Build the AI recipe generator app per `specs/spec.md` — Astro + Gemini 3.1
+Flash-Lite, brutalist Framer-style UI, server caching, localStorage saves.
 
 ## Last pass did
 
-- Scaffolded the harness (instructions, subagents, specs, loops, skills, scripts,
-  docs, CI).
+- Merged loop-engineering scaffold onto `main`.
+- Filled `specs/spec.md` with product goals, acceptance criteria, and Astro stack.
+- Expanded `specs/PLAN.md` with ordered implementation tasks (Phase 0–4).
+- Added full build plan reference at `docs/plan.md`.
+- Added `GEMINI_API_KEY` to `.env.example`.
 
 ## Evidence
 
-- `scripts/check.sh` exits 0 on the empty repo.
+- `specs/spec.md` has no `TODO` placeholders.
+- Phase 0 spec/plan tasks marked done in `specs/PLAN.md`.
 
 ## Blockers / needs a human
 
-- `specs/spec.md` still has `TODO` placeholders — the product's purpose must be
-  decided before app code is written.
+- `GEMINI_API_KEY` not yet provided — app must mock/degrade until set in `.env`.
 
 ## Next step
 
-1. Fill `specs/spec.md` (use `skills/create-spec/SKILL.md`).
-2. Run the `planner` subagent to expand `specs/PLAN.md`.
-3. Start the build loop: `scripts/loop.sh` (see `loops/build.md`).
+1. Scaffold Astro project per `specs/PLAN.md` Phase 0 (last unchecked task).
+2. Continue Phase 1 foundation tasks one per loop pass.
+3. See `docs/plan.md` for wireframe, design tokens, and directory layout.

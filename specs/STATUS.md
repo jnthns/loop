@@ -24,3 +24,12 @@ empty scaffold. Remove the comment markers only when the build is truly finished
 - State: harness initialized; `specs/spec.md` is still a template (purpose TBD).
 - Next: fill `specs/spec.md`, then run the `planner` to expand `specs/PLAN.md`.
 - Evidence: `scripts/check.sh` exits 0 on the empty repo (no project yet).
+
+### Pass 1 — product plan committed to main
+
+- State: loop harness merged; recipe generator product defined in `specs/spec.md`;
+  implementation checklist in `specs/PLAN.md`; full plan in `docs/plan.md`.
+- Product: AI recipe generator (Astro + Gemini 3.1 Flash-Lite, brutalist UI).
+- Next: Phase 0 — scaffold Astro project (`output: 'server'`).
+- Evidence: no `TODO` markers in `specs/spec.md`; Phase 0 spec tasks checked in
+  `specs/PLAN.md`.

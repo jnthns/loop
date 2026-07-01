@@ -3,11 +3,13 @@
 A **loop-engineered workspace** — a fully-harnessed system for building software
 with autonomous coding agents, safely and verifiably.
 
-The *purpose of the app has not been chosen yet.* What lives here today is the
-**harness**: the outer-loop system (agents, instructions, specs, skills, a loop
-library, and a self-halting runner) that lets an agent build the eventual app one
-verified task at a time. Decide the product in [`specs/spec.md`](specs/spec.md)
-and start the loop.
+The app being built is an **AI recipe generator** — a brutalist Framer-style
+landing page where users pick protein, country, flavor profile, and extra
+ingredients; Gemini generates tailored recipes; favorites save to localStorage.
+
+- Product spec: [`specs/spec.md`](specs/spec.md)
+- Task checklist: [`specs/PLAN.md`](specs/PLAN.md)
+- Build plan (wireframe + architecture): [`docs/plan.md`](docs/plan.md)
 
 > A loop is a task with a check. A task without a check is just hope.
 
@@ -30,16 +32,17 @@ from `specs/` and `memory/`. The agent forgets; the repo doesn't.
 ## Quick start
 
 ```bash
-cp .env.example .env          # configure AGENT_CMD, budgets, keys
+cp .env.example .env          # configure AGENT_CMD, budgets, GEMINI_API_KEY
 
-# 1) Decide what to build:
-#    fill specs/spec.md  (skills/create-spec/SKILL.md)
-#    then expand specs/PLAN.md via the `planner` subagent
+# Product is defined — start the build loop:
+#   specs/spec.md   (recipe generator — Astro + Gemini)
+#   specs/PLAN.md   (ordered task checklist)
+#   docs/plan.md    (wireframe + architecture)
 
-# 2) Dry-run the harness with a mock agent (no real work, safe):
+# Dry-run the harness with a mock agent (no real work, safe):
 AGENT_CMD=echo MAX_ITERATIONS=1 scripts/loop.sh
 
-# 3) Point AGENT_CMD at a real agent CLI and let it build:
+# Point AGENT_CMD at a real agent CLI and let it build:
 scripts/loop.sh
 ```
 
@@ -54,6 +57,7 @@ the **three hard stops**: max iterations, no-progress, or budget.
 | `CLAUDE.md`, `.cursor/rules/`, `.codex/` | Tool entrypoints that defer to `AGENTS.md`.    |
 | `.claude/agents/`, `.codex/agents/` | `planner` / `maker` / `checker` subagents.         |
 | `specs/`             | `spec.md` (what to build), `PLAN.md` (checklist), `STATUS.md` (progress + sentinel). |
+| `docs/plan.md`       | Full build plan — wireframe, design tokens, directory layout.     |
 | `memory/handoff.md`  | Durable state between runs. No secrets.                             |
 | `loops/`             | The Loop Library — reusable loop definitions.                       |
 | `skills/`            | Reusable named skills (`SKILL.md`) — the compounding asset.         |
@@ -81,6 +85,7 @@ once the loop produces work you'd have merged by hand. See
 
 ## Learn more
 
+- [`docs/plan.md`](docs/plan.md) — recipe app build plan.
 - [`docs/loop-engineering.md`](docs/loop-engineering.md) — the discipline & lineage.
 - [`docs/loop-library.md`](docs/loop-library.md) — how to author loops.
 - [`AGENTS.md`](AGENTS.md) — the operational contract every agent follows.
