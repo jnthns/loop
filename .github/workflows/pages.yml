@@ -43,10 +43,8 @@ jobs:
               echo "package.json build ran but no dist/ or build/ output found" >&2
               exit 1
             fi
-          elif [ -d site ]; then
-            echo "path=site" >> "$GITHUB_OUTPUT"
           else
-            echo "No build output or site/ directory to deploy" >&2
+            echo "No package.json with build script found" >&2
             exit 1
           fi
 

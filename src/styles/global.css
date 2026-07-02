@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brutal-black: #000000;
+    --brutal-white: #ffffff;
+    --brutal-accent: #ffe500;
+    --brutal-border: 3px solid var(--brutal-black);
+    --brutal-radius: 0;
+  }
+
+  *,
+  *::before,
+  *::after {
+    border-radius: var(--brutal-radius);
+  }
+
+  body {
+    @apply bg-brutal-white font-sans text-brutal-black antialiased;
+  }
+}

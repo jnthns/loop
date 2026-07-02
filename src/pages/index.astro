@@ -1,0 +1,11 @@
+---
+import { LandingApp } from '../components/landing/LandingApp';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout>
+  <main class="p-8">
+    <h1 class="mb-8 text-3xl font-bold">Recipe Generator</h1>
+    <LandingApp client:load />
+  </main>
+</BaseLayout>
