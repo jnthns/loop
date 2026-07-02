@@ -9,6 +9,11 @@ memory/.budget
 loops.log
 run-*.log
 
+# Astro / build artifacts
+.astro/
+.tmp-home.html
+node_modules/.vite/
+
 # Agent worktrees / scratch
 .worktrees/
 tmp/
@@ -21,9 +26,9 @@ Thumbs.db
 .idea/
 .vscode/
 
-# --- Language artifacts (uncomment/extend once a stack is chosen) ---
-# node_modules/
-# dist/
+# --- Language artifacts ---
+node_modules/
+dist/
 # build/
 # .next/
 # __pycache__/

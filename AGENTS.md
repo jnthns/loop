@@ -34,6 +34,7 @@ OBSERVE → ACT → CHECK → DECIDE → (continue | stop) → HANDOFF
    - `specs/spec.md` — what we are building and the acceptance criteria.
    - `specs/PLAN.md` — the ordered task checklist.
    - `specs/STATUS.md` — progress log + the `ALL TASKS DONE` sentinel.
+   - `specs/BACKLOG.md` — queued goals for the next campaigns (the spine).
    - `memory/handoff.md` — the last run's handoff (what was tried, what's next).
 2. **Act.** Pick the **single** highest-priority unchecked task from
    `specs/PLAN.md`. Make one small, reversible change toward it. No grab-bags.
@@ -112,9 +113,10 @@ them up as done.
 - **Never read `.env`.** Agents must not open, cat, or load `.env` (secrets stay
   git-ignored). Use `.env.example` for variable names only. Harness scripts such
   as `scripts/loop.sh` may load `.env` at runtime; agents do not.
-- **Deploy via `main`.** Commit and push directly to `main` after each green
-  pass. `main` is the production branch — GitHub Actions deploys to GitHub
-  Pages on every push. Do not open PRs or wait for manual release promotion.
+- **Deploy via `main`.** Agents commit locally each pass; `scripts/loop.sh` pushes
+  to `main` only after `scripts/verify.sh` APPROVEs. `main` is the production
+  branch — GitHub Actions deploys to GitHub Pages on every push. Do not open PRs
+  or wait for manual release promotion.
 - **Gate destructive actions behind a human.** `rm -rf`, dropping data,
   `git push --force`, history rewrites, deleting branches, financial actions,
   privacy-sensitive data, and external messages (email/Slack/PRs to third
@@ -141,6 +143,8 @@ them up as done.
 | `specs/spec.md`          | Source-of-truth product spec (fill in the app's purpose).  |
 | `specs/PLAN.md`          | Ordered implementation checklist.                          |
 | `specs/STATUS.md`        | Progress log + `ALL TASKS DONE` sentinel.                  |
+| `specs/BACKLOG.md`       | Goal queue — next campaigns after the current one finishes.|
+| `specs/archive/`         | Archived `PLAN.md` + `STATUS.md` per completed campaign.   |
 | `memory/handoff.md`      | Durable per-run handoff. No secrets.                       |
 | `loops/`                 | The Loop Library (reusable loop definitions).              |
 | `skills/`                | Reusable named skills (`SKILL.md`).                        |
@@ -156,9 +160,9 @@ them up as done.
 ## 8. Conventions
 
 - **Commits:** one logical change per commit; imperative subject
-  (`Add spec template`), body explains *why*. Push to `main` after each pass so
-  CI deploys the site. Never `git commit --amend` or `git push --force` unless a
-  human asks.
+  (`Add spec template`), body explains *why*. The loop runner pushes to `main`
+  after verify APPROVEs so CI deploys the site. Never `git commit --amend` or
+  `git push --force` unless a human asks.
 - **Task list format in `specs/PLAN.md`:** GitHub checkboxes `- [ ]` / `- [x]`,
   ordered by priority. Add discovered work as new unchecked items rather than
   silently expanding the current task.

@@ -19,6 +19,8 @@ rules — not a script and not an agent. Each file here is a filled-in copy of
 | ---------------------- | ------------------------------------------------------------- |
 | `_template.md`         | Author a new loop (Trigger, Inputs, Action, Check, Stop).     |
 | `build.md`             | Build the app from `specs/` — the main Ralph-style loop.      |
+| `intake.md`            | Archive a finished campaign and promote the next backlog goal.|
+| `triage.md`            | Turn CI/check/audit signals into new queued backlog goals.    |
 | `test-stabilizer.md`   | Kill flaky tests until N green runs in a row.                 |
 | `housekeeper.md`       | Remove dead code / stale files without breaking the build.    |
 | `fresh-clone.md`       | Guarantee a clean clone reaches the documented ready state.   |

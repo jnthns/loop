@@ -6,25 +6,27 @@
 
 ## Goal (current)
 
-Build complete and checker-approved. AI recipe generator per `specs/spec.md`.
+Add goal spine so the loop can iterate across multiple campaigns (backlog, intake, triage).
 
 ## Last pass did
 
-- Committed guardrails + GitHub Pages workflow (`0d2ccd2`); pushed to `main`.
-- Triggered first `pages` workflow run (check, build, deploy).
+- Added `specs/BACKLOG.md` goal queue with goal-001 (done) and goal-002 (queued).
+- Archived completed recipe-generator campaign to `specs/archive/01-recipe-generator/`.
+- Added `loops/intake.md` (promote next goal after `ALL TASKS DONE`) and `loops/triage.md` (CI/check → backlog).
+- Updated `scripts/loop.sh`: intake on done+queued backlog; `git push` only after `verify.sh` APPROVE.
+- Default `COST_PER_ITERATION_USD=0.25` in `budget.sh` / `.env.example`.
+- Extended `.gitignore` for `.astro/`, `.tmp-home.html`, vitest cache.
 
 ## Evidence
 
-- `ALL TASKS DONE` in `specs/STATUS.md`; 22/22 PLAN tasks checked.
-- GitHub Pages enabled; deploy on every push to `main` via `.github/workflows/pages.yml`.
-- First deploy run: https://github.com/jnthns/loop/actions/runs/28532242129 (check status in Actions).
+- Harness docs updated: `AGENTS.md`, `README.md`, `loops/README.md`, `loops/build.md`.
+- App sources committed to `main` (see git log).
 
 ## Blockers / needs a human
 
-- `GEMINI_API_KEY` not set — mock data until configured in `.env` (agents never read `.env`).
-- Full Astro app + API routes are not in the Pages commit yet; workflow builds from repo when `package.json` exists on `main`. Server API on static Pages still needs adapter/backend for live recipe generation in production.
+- None for spine work. goal-002 (live Gemini on static Pages) needs an architecture decision before intake promotes it.
 
 ## Next step
 
-- Confirm Pages workflow completes green; set `GEMINI_API_KEY` in GitHub Actions secrets if deploying the full app with live Gemini.
-- Commit remaining app sources (untracked `src/`, `package.json`, etc.) when ready for production site content on Pages.
+- Run `LOOP_FILE=loops/triage.md scripts/loop.sh` to queue goals from CI signals, or
+- Let `scripts/loop.sh` run intake to promote goal-002 when ready to start that campaign.

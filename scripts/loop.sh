@@ -13,10 +13,12 @@
 # Usage:
 #   scripts/loop.sh                 # runs loops/build.md with configured AGENT_CMD
 #   LOOP_FILE=loops/housekeeper.md scripts/loop.sh
+#   LOOP_FILE=loops/triage.md scripts/loop.sh
 #   AGENT_CMD=echo MAX_ITERATIONS=1 scripts/loop.sh   # dry run with a mock agent
 #
-# Config (env or .env): AGENT_CMD, LOOP_FILE, MAX_ITERATIONS, MAX_NO_PROGRESS,
-#   BUDGET_USD, COST_PER_ITERATION_USD, STATUS_FILE, DONE_SENTINEL, ALLOW_DIRTY.
+# Config (env or .env): AGENT_CMD, LOOP_FILE, INTAKE_FILE, MAX_ITERATIONS,
+#   MAX_NO_PROGRESS, BUDGET_USD, COST_PER_ITERATION_USD, STATUS_FILE,
+#   DONE_SENTINEL, BACKLOG_FILE, ALLOW_DIRTY.
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
@@ -36,7 +38,9 @@ fi
 
 # --- Defaults ----------------------------------------------------------------
 : "${LOOP_FILE:=loops/build.md}"
+: "${INTAKE_FILE:=loops/intake.md}"
 : "${STATUS_FILE:=specs/STATUS.md}"
+: "${BACKLOG_FILE:=specs/BACKLOG.md}"
 : "${DONE_SENTINEL:=ALL TASKS DONE}"
 : "${MAX_ITERATIONS:=25}"
 : "${MAX_NO_PROGRESS:=3}"
@@ -70,11 +74,84 @@ noprogress=0
 reason="unknown"
 
 is_done() { grep -q "^$DONE_SENTINEL" "$STATUS_FILE"; }
+
+# True when BACKLOG.md lists at least one goal with Status: queued.
+has_queued_goal() {
+  [ -f "$BACKLOG_FILE" ] && grep -qiE '\*\*Status:\*\*[[:space:]]*queued' "$BACKLOG_FILE"
+}
+
 head_sha() { git rev-parse HEAD 2>/dev/null || echo "no-git"; }
+
+# Push approved commits only (called after verify APPROVE).
+maybe_push_approved() {
+  if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+    return 0
+  fi
+  local unpushed=""
+  if git rev-parse '@{u}' >/dev/null 2>&1; then
+    unpushed="$(git log '@{u}..HEAD' --oneline 2>/dev/null || true)"
+  elif git rev-parse origin/main >/dev/null 2>&1; then
+    unpushed="$(git log origin/main..HEAD --oneline 2>/dev/null || true)"
+  elif git rev-parse origin/HEAD >/dev/null 2>&1; then
+    local default_branch
+    default_branch="$(git symbolic-ref --short origin/HEAD 2>/dev/null | sed 's|^origin/||')"
+    if [ -n "$default_branch" ]; then
+      unpushed="$(git log "origin/$default_branch..HEAD" --oneline 2>/dev/null || true)"
+    fi
+  fi
+  if [ -n "$unpushed" ]; then
+    log "pushing approved commits to remote"
+    git push
+  fi
+}
+
+run_agent_pass() {
+  local pass_prompt="$1"
+  set +e
+  $AGENT_CMD "$pass_prompt"
+  local agent_status=$?
+  set -e
+  [ "$agent_status" -ne 0 ] && log "agent exited non-zero ($agent_status)"
+}
 
 # --- The loop ----------------------------------------------------------------
 while true; do
-  if is_done; then reason="success: '$DONE_SENTINEL' found in $STATUS_FILE"; break; fi
+  if is_done; then
+    if has_queued_goal; then
+      log "done sentinel found — backlog has queued goals; running intake"
+      [ -f "$INTAKE_FILE" ] || { log "intake file not found: $INTAKE_FILE"; exit 2; }
+      iteration=$((iteration + 1))
+      if [ "$iteration" -gt "$MAX_ITERATIONS" ]; then
+        reason="stop: reached MAX_ITERATIONS ($MAX_ITERATIONS) during intake"; break
+      fi
+      if budget_exceeded; then
+        reason="stop: budget exceeded (\$$(budget_spent) >= \$$BUDGET_USD)"; break
+      fi
+      log "---- intake pass $iteration/$MAX_ITERATIONS ----"
+      before="$(head_sha)"
+      run_agent_pass "$(cat "$INTAKE_FILE")"
+      if scripts/verify.sh; then
+        log "verify: APPROVE (intake)"
+        maybe_push_approved
+      else
+        log "verify: REJECT (intake pass not accepted)"
+      fi
+      [ "$(printf '%.0f' "${COST_PER_ITERATION_USD:-0}" 2>/dev/null || echo 0)" != "0" ] && \
+        budget_add "$COST_PER_ITERATION_USD"
+      after="$(head_sha)"
+      if [ "$before" = "$after" ]; then
+        noprogress=$((noprogress + 1))
+        log "no new commit this pass (idle $noprogress/$MAX_NO_PROGRESS)"
+      else
+        noprogress=0
+      fi
+      if [ "$noprogress" -ge "$MAX_NO_PROGRESS" ]; then
+        reason="stop: no progress for $MAX_NO_PROGRESS consecutive passes"; break
+      fi
+      continue
+    fi
+    reason="success: '$DONE_SENTINEL' found in $STATUS_FILE (backlog empty)"; break
+  fi
 
   iteration=$((iteration + 1))
   if [ "$iteration" -gt "$MAX_ITERATIONS" ]; then
@@ -88,18 +165,15 @@ while true; do
   before="$(head_sha)"
 
   # One fresh agent, one bounded pass. The prompt tells it to read state from
-  # disk, do one task, run the check, hand off, commit, and exit.
-  set +e
-  $AGENT_CMD "$prompt"
-  agent_status=$?
-  set -e
-  [ "$agent_status" -ne 0 ] && log "agent exited non-zero ($agent_status)"
+  # disk, do one task, run the check, hand off, commit locally, and exit.
+  run_agent_pass "$prompt"
 
   # Maker-checker gate: an independent verify decides if the pass counts.
   if scripts/verify.sh; then
     log "verify: APPROVE"
+    maybe_push_approved
   else
-    log "verify: REJECT (pass not accepted)"
+    log "verify: REJECT (pass not accepted — commit stays local)"
   fi
 
   # Budget accounting (estimate unless the agent wrote a real number).

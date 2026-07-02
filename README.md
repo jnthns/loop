@@ -71,8 +71,14 @@ scripts/loop.sh
 ```
 
 Each pass runs `scripts/check.sh` as the fixed mechanical gate. The runner stops
-on success (`ALL TASKS DONE` in `specs/STATUS.md`) or on any of the **three hard
-stops**: max iterations, no-progress, or budget.
+on success (`ALL TASKS DONE` in `specs/STATUS.md` **and** no queued goals in
+`specs/BACKLOG.md`) or on any of the **three hard stops**: max iterations,
+no-progress, or budget. When a campaign finishes but the backlog has queued goals,
+`scripts/loop.sh` runs `loops/intake.md` to start the next one.
+
+> **Windows:** harness scripts (`scripts/*.sh`) require **Git Bash** or **WSL**.
+> PowerShell cannot run them natively. Use `bash scripts/check.sh` or open a Git
+> Bash terminal for `scripts/loop.sh`.
 
 ## What's in here
 
@@ -81,7 +87,7 @@ stops**: max iterations, no-progress, or budget.
 | `AGENTS.md`          | **Single source of truth** for agent behavior (read this first).   |
 | `CLAUDE.md`, `.cursor/rules/`, `.codex/` | Tool entrypoints that defer to `AGENTS.md`.    |
 | `.claude/agents/`, `.codex/agents/` | `planner` / `maker` / `checker` subagents.         |
-| `specs/`             | `spec.md` (what to build), `PLAN.md` (checklist), `STATUS.md` (progress + sentinel). |
+| `specs/`             | `spec.md` (what to build), `PLAN.md` (checklist), `STATUS.md` (progress + sentinel), `BACKLOG.md` (goal queue), `archive/` (finished campaigns). |
 | `docs/plan.md`       | Full build plan — wireframe, design tokens, directory layout.     |
 | `memory/handoff.md`  | Durable state between runs. No secrets.                             |
 | `loops/`             | The Loop Library — reusable loop definitions.                       |
@@ -99,7 +105,7 @@ stops**: max iterations, no-progress, or budget.
 - **Maker ≠ checker** — a separate verifier grades the work.
 - **Skills compound** — capture repeated/hard work as a named skill.
 - **Bounded authority** — the three hard stops + human gates on destructive actions.
-- **Deploy on `main`** — push directly to `main`; GitHub Pages updates via CI.
+- **Deploy on `main`** — agents commit locally; `scripts/loop.sh` pushes after verify APPROVE; GitHub Pages updates via CI.
 - **Never read `.env`** — agents use `.env.example` only; secrets stay local or in Actions secrets.
 - **Stay the engineer** — read what the loop produces; avoid comprehension debt.
 
