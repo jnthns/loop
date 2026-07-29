@@ -1,0 +1,185 @@
+@import 'tailwindcss';
+
+/* ---------------------------------------------------------------------------
+   Design posture: information density over decoration.
+   One type family, a restrained neutral palette, a single accent, and hierarchy
+   carried by weight and rule strength rather than color. Everything adapts to
+   the reader's light/dark preference.
+   --------------------------------------------------------------------------- */
+
+:root {
+  color-scheme: light dark;
+
+  --app-bg: oklch(98.5% 0.002 260);
+  --app-surface: oklch(100% 0 0);
+  --app-surface-alt: oklch(97% 0.003 260);
+  --app-line: oklch(90.5% 0.005 260);
+  --app-line-strong: oklch(80% 0.008 260);
+  --app-ink: oklch(24% 0.012 260);
+  --app-muted: oklch(52% 0.014 260);
+  --app-accent: oklch(52% 0.15 255);
+  --app-accent-soft: oklch(95.5% 0.03 255);
+  --app-warn: oklch(58% 0.14 55);
+  --app-warn-soft: oklch(95% 0.04 65);
+  --app-good: oklch(52% 0.11 155);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --app-bg: oklch(17% 0.008 260);
+    --app-surface: oklch(20.5% 0.009 260);
+    --app-surface-alt: oklch(23.5% 0.01 260);
+    --app-line: oklch(29% 0.012 260);
+    --app-line-strong: oklch(38% 0.014 260);
+    --app-ink: oklch(93% 0.005 260);
+    --app-muted: oklch(66% 0.013 260);
+    --app-accent: oklch(75% 0.13 255);
+    --app-accent-soft: oklch(28% 0.05 255);
+    --app-warn: oklch(78% 0.13 65);
+    --app-warn-soft: oklch(30% 0.05 60);
+    --app-good: oklch(74% 0.12 155);
+  }
+}
+
+@theme inline {
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
+
+  --color-bg: var(--app-bg);
+  --color-surface: var(--app-surface);
+  --color-surface-alt: var(--app-surface-alt);
+  --color-line: var(--app-line);
+  --color-line-strong: var(--app-line-strong);
+  --color-ink: var(--app-ink);
+  --color-muted: var(--app-muted);
+  --color-accent: var(--app-accent);
+  --color-accent-soft: var(--app-accent-soft);
+  --color-warn: var(--app-warn);
+  --color-warn-soft: var(--app-warn-soft);
+  --color-good: var(--app-good);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--app-bg);
+    color: var(--app-ink);
+    font-family: var(--font-sans);
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    font-feature-settings: 'cv05', 'ss01';
+  }
+
+  /* Numbers line up in tables and ledgers. */
+  table,
+  [data-numeric] {
+    font-variant-numeric: tabular-nums;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--app-accent);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* A small-caps metadata label — used everywhere for field names. */
+  .label {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--app-muted);
+  }
+
+  .rule {
+    border-color: var(--app-line);
+  }
+
+  .prose-article {
+    max-width: 68ch;
+  }
+
+  .prose-article > * + * {
+    margin-top: 0.9em;
+  }
+
+  .prose-article h2 {
+    margin-top: 1.9em;
+    font-size: 1.0625rem;
+    font-weight: 650;
+  }
+
+  .prose-article h3 {
+    margin-top: 1.5em;
+    font-size: 0.9375rem;
+    font-weight: 650;
+  }
+
+  .prose-article ul,
+  .prose-article ol {
+    padding-left: 1.25rem;
+  }
+
+  .prose-article ul {
+    list-style: disc;
+  }
+
+  .prose-article ol {
+    list-style: decimal;
+  }
+
+  .prose-article li + li {
+    margin-top: 0.3em;
+  }
+
+  .prose-article a {
+    color: var(--app-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .prose-article code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    background: var(--app-surface-alt);
+    border: 1px solid var(--app-line);
+    padding: 0.05em 0.3em;
+  }
+
+  .prose-article blockquote {
+    border-left: 2px solid var(--app-line-strong);
+    padding-left: 0.9rem;
+    color: var(--app-muted);
+  }
+
+  .prose-article table {
+    width: 100%;
+    font-size: 0.875rem;
+    border-collapse: collapse;
+  }
+
+  .prose-article th,
+  .prose-article td {
+    border: 1px solid var(--app-line);
+    padding: 0.35rem 0.55rem;
+    text-align: left;
+  }
+}

@@ -6,10 +6,12 @@
 > `.codex/*`) intentionally defer to this document. If they ever disagree, this
 > file wins.
 
-This repository is a **loop-engineered workspace**. The app it will eventually
-build has not been chosen yet. What exists today is the *harness*: the outer-loop
-system that lets an agent build, verify, and ship software autonomously and
-safely. Read this whole file before doing anything.
+This repository is a **loop-engineered workspace**. Two things live here: the
+*harness* — the outer-loop system that lets an agent build, verify, and ship
+software autonomously and safely — and the *app* the harness is currently
+building, a **dynasty fantasy football guide** (see `specs/spec.md`). The harness
+is the durable asset; the app is what it is pointed at today. Read this whole
+file before doing anything.
 
 ---
 
@@ -122,7 +124,12 @@ them up as done.
   ask into `memory/handoff.md`.
 - **Never store secrets** in `specs/`, `memory/`, `skills/`, commit messages, or
   logs. Secrets belong only in git-ignored `.env` or GitHub Actions secrets;
-  see `.env.example`.
+  see `.env.example`. The current app needs none.
+- **Builds must never require network.** External data (RSS news) is fetched by a
+  scheduled CI job and committed as `data/*.json`. Tests and builds read the
+  committed snapshot and fixtures, never the live internet.
+- **Never write an uncited claim** into the knowledge base. Every article needs
+  at least one entry in its `sources[]` frontmatter; the check enforces it.
 - **Prefer CLIs over heavy MCPs.** A named CLI the model already knows costs zero
   context and is self-documenting via `--help`. Reserve MCP for things a CLI
   can't do.
@@ -138,7 +145,9 @@ them up as done.
 | `.cursor/rules/`         | Always-applied Cursor rules → defer here.                  |
 | `.claude/agents/`        | `planner`, `maker`, `checker` subagents (Claude Code).     |
 | `.codex/agents/`         | `maker`, `checker` subagents (Codex).                      |
-| `specs/spec.md`          | Source-of-truth product spec (fill in the app's purpose).  |
+| `specs/spec.md`          | Source-of-truth product spec (the dynasty guide).          |
+| `data/*.json`            | Committed app data — news, players, team, insights.        |
+| `src/`                   | The Astro app (pages, islands, schemas, content).          |
 | `specs/PLAN.md`          | Ordered implementation checklist.                          |
 | `specs/STATUS.md`        | Progress log + `ALL TASKS DONE` sentinel.                  |
 | `memory/handoff.md`      | Durable per-run handoff. No secrets.                       |

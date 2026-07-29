@@ -12,24 +12,24 @@ appends the exact line below (uncommented) at the end of this file:
 
 <!-- ALL TASKS DONE -->
 
-(The sentinel above is commented out on purpose so the loop does not stop on the
-empty scaffold. Remove the comment markers only when the build is truly finished.)
+(The sentinel above is commented out on purpose so the loop does not stop early.
+Remove the comment markers only when the build is truly finished.)
 
 ---
 
 ## Log
 
-### Pass 0 — scaffold created
+### Pass 0 — product pivot to dynasty fantasy football guide
 
-- State: harness initialized; `specs/spec.md` is still a template (purpose TBD).
-- Next: fill `specs/spec.md`, then run the `planner` to expand `specs/PLAN.md`.
-- Evidence: `scripts/check.sh` exits 0 on the empty repo (no project yet).
-
-### Pass 1 — product plan committed to main
-
-- State: loop harness merged; recipe generator product defined in `specs/spec.md`;
-  implementation checklist in `specs/PLAN.md`; full plan in `docs/plan.md`.
-- Product: AI recipe generator (Astro + Gemini 3.1 Flash-Lite, brutalist UI).
-- Next: Phase 0 — scaffold Astro project (`output: 'server'`).
-- Evidence: no `TODO` markers in `specs/spec.md`; Phase 0 spec tasks checked in
+- State: the previous product (an AI recipe generator) is retired. The loop
+  harness is unchanged and remains the asset; only the app being built changed.
+- Product: a dynasty fantasy football guide — RSS news panel on every page, a
+  team page (roster + alternatives + editable budgets), and a knowledge base
+  organized by facet that the loop grows over time.
+- Decisions recorded in `specs/spec.md` §5: Astro 5 static on GitHub Pages
+  (`base: '/loop'`), committed news snapshot refreshed by CI cron (builds never
+  need network), committed `data/*.json` as source of truth, no runtime LLM and
+  no API keys.
+- Next: Phase 0 reset, then scaffold the Astro project.
+- Evidence: `specs/spec.md` has no `TODO` markers; Phase 0 tasks enumerated in
   `specs/PLAN.md`.

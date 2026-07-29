@@ -1,4 +1,4 @@
-﻿# Handoff — durable state between runs
+# Handoff — durable state between runs
 
 > The model forgets everything between passes; this file is its short-term memory.
 > The **maker** rewrites it at the end of every pass. The next run reads it first.
@@ -6,25 +6,36 @@
 
 ## Goal (current)
 
-Build complete and checker-approved. AI recipe generator per `specs/spec.md`.
+Build the dynasty fantasy football guide described in `specs/spec.md`, working
+down `specs/PLAN.md` one task per pass.
 
 ## Last pass did
 
-- Committed guardrails + GitHub Pages workflow (`0d2ccd2`); pushed to `main`.
-- Triggered first `pages` workflow run (check, build, deploy).
+- Retired the recipe generator product. Rewrote `specs/spec.md`, `specs/PLAN.md`,
+  `specs/STATUS.md`, and this file for the dynasty app. Harness untouched.
 
 ## Evidence
 
-- `ALL TASKS DONE` in `specs/STATUS.md`; 22/22 PLAN tasks checked.
-- GitHub Pages enabled; deploy on every push to `main` via `.github/workflows/pages.yml`.
-- First deploy run: https://github.com/jnthns/loop/actions/runs/28532242129 (check status in Actions).
+- `specs/spec.md` §6 holds 13 acceptance criteria, each with a named check.
+- `specs/PLAN.md` phases 0–8, all unchecked.
 
 ## Blockers / needs a human
 
-- `GEMINI_API_KEY` not set — mock data until configured in `.env` (agents never read `.env`).
-- Full Astro app + API routes are not in the Pages commit yet; workflow builds from repo when `package.json` exists on `main`. Server API on static Pages still needs adapter/backend for live recipe generation in production.
+- League format unconfirmed. Seed `data/team.json` assumes 12-team superflex,
+  1 PPR. Replace with the real settings when known — the loop's advice keys off
+  whatever is committed there.
+- League platform unconfirmed. Manual roster entry is the primary path; a keyless
+  Sleeper adapter is optional and additive.
+
+## Constraints worth re-reading before coding
+
+- **Builds must never require network.** Sandboxes and forks block egress; the
+  news fetch is a separate CI-cron step that commits `data/news.json`.
+- **No API keys anywhere.** The site is static and calls nothing at runtime.
+- `base: '/loop'` — every internal link goes through `import.meta.env.BASE_URL`,
+  or GitHub Pages 404s.
 
 ## Next step
 
-- Confirm Pages workflow completes green; set `GEMINI_API_KEY` in GitHub Actions secrets if deploying the full app with live Gemini.
-- Commit remaining app sources (untracked `src/`, `package.json`, etc.) when ready for production site content on Pages.
+- Phase 0: strip Gemini references from `.env.example`, `AGENTS.md`, `README.md`,
+  and replace `docs/plan.md` with the dynasty architecture doc.
