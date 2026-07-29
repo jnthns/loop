@@ -112,6 +112,27 @@ Remove the comment markers only when the build is truly finished.)
   `npm run news:fetch -- --fixtures` → 9 items in, 8 retained across RSS + Atom +
   ESPN JSON.
 
+### Pass 6 — first live run, and the flaw it exposed
+
+- `verify` and `pages` went **green on `main`** — the CI ordering fix works, and
+  the site deployed for the first time.
+- `refresh` ran against the **real Sleeper league** and went red. The sync itself
+  worked: the rendered roster in the failure output shows the live league has
+  **no taxi and no IR slots**, the hand-written auction budget survived intact,
+  and the targets were preserved and reattached.
+- The failure was mine: `tests/team-app.test.tsx`, `dashboard.test.tsx`,
+  `cross-reference.test.ts`, `news-pipeline.test.ts`, and `espn-source.test.ts`
+  all asserted against `data/team.json` / `data/players.json` — files the sync
+  rewrites every six hours. That made an ordinary roster move fail the build:
+  **a check that moves**, which is precisely what `AGENTS.md` §3.6 forbids.
+- Fix: `tests/fixtures/league.ts` is a frozen league that behavior tests use.
+  Only `schemas.test.ts` and `insights.test.ts` read the synced files, and they
+  assert shape and referential integrity, never specific players.
+  `tests/data-coupling.test.ts` enforces the split so it cannot regress.
+- The fixture deliberately keeps TAXI and IR slots even though the live league
+  has neither, so those code paths stay covered.
+- Evidence: `scripts/check.sh` → typecheck 0 errors, 318 tests, 23 pages, passed.
+
 #### What is NOT done
 
 - **The independent checker has not run.** `CHECKER_CMD` is unset, so

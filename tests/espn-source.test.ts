@@ -3,12 +3,11 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { parseEspnNews } from '~/lib/news/sources/espn';
 import { NewsSchema } from '~/lib/schemas/news';
-import { PlayersSchema } from '~/lib/schemas/players';
 import { mergeNews } from '~/lib/news/merge';
 import { parseFeed } from '~/lib/news/normalize';
-import playersRaw from '../data/players.json';
+import { fixturePlayerNames } from './fixtures/league';
 
-const players = PlayersSchema.parse(playersRaw).map((p) => ({ id: p.id, name: p.name }));
+const players = fixturePlayerNames;
 const raw = JSON.parse(
   readFileSync(join(process.cwd(), 'tests/fixtures/espn-api.json'), 'utf8'),
 );

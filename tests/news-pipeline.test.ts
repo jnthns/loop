@@ -4,10 +4,10 @@ import { describe, expect, it } from 'vitest';
 import { canonicalUrl, newsId, parseFeed, stripHtml } from '~/lib/news/normalize';
 import { mergeNews } from '~/lib/news/merge';
 import { NewsSchema, type Feed } from '~/lib/schemas/news';
-import { PlayersSchema } from '~/lib/schemas/players';
-import playersRaw from '../data/players.json';
+import { fixturePlayerNames } from './fixtures/league';
 
-const players = PlayersSchema.parse(playersRaw).map((p) => ({ id: p.id, name: p.name }));
+// Frozen fixture, not data/players.json — the sync rewrites that file.
+const players = fixturePlayerNames;
 
 const fixture = (name: string) =>
   readFileSync(join(process.cwd(), 'tests/fixtures', name), 'utf8');

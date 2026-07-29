@@ -146,6 +146,11 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
       every backlog item names a check)
 - [x] Add the ship-to-main rule as a skill and in `AGENTS.md`. (check: no PR
       step remains in the documented workflow)
+- [x] Decouple the tests from the synced data files. The first live sync turned
+      CI red (run 30433592381) because component tests asserted against
+      `data/team.json`, which the sync rewrites — a check that moves.
+      (check: `tests/data-coupling.test.ts` fails if any behavior test imports a
+      synced data file)
 - [ ] Verify the first live refresh in CI and confirm the site renders at
       https://jnthns.github.io/loop/. (check: `refresh.yml` and `pages.yml` both
       green on `main`; `data/news.json` non-empty)

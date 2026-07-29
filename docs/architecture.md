@@ -112,9 +112,16 @@ GitHub Pages, project-scoped at `https://jnthns.github.io/loop/`. That means
 
 - `.github/workflows/pages.yml` — on push to `main`: `scripts/check.sh`, build,
   deploy `dist/`.
-- `.github/workflows/refresh.yml` — on cron: fetch feeds, commit `data/news.json`
-  only if it changed. That push triggers `pages.yml`, so news refresh and deploy
-  are one pipeline.
+- `.github/workflows/refresh.yml` — on a 6-hourly cron: sync Sleeper, fetch news,
+  run the check, and commit only what changed under `data/`. That push triggers
+  `pages.yml`, so a data refresh and a deploy are one pipeline.
+- `.github/workflows/verify.yml` — on every push and PR: the same
+  `scripts/check.sh` the loop runs.
+
+All three install dependencies **before** running `scripts/check.sh`. That
+ordering is not incidental: the check auto-detects `package.json` and shells out
+to `astro`, so without `npm ci` first it exits 127 and CI reports a failure that
+looks like a code problem.
 
 ## 7. Why not the obvious alternatives
 

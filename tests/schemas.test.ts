@@ -10,6 +10,13 @@ import players from '../data/players.json';
 import team from '../data/team.json';
 import insights from '../data/insights.json';
 
+/**
+ * This file, and this file alone (with tests/insights.test.ts), asserts against
+ * the synced data files. It checks **shape and referential integrity**, never
+ * specific players — those change every six hours when the Sleeper sync runs.
+ * Behavior tests use tests/fixtures/league.ts; tests/data-coupling.test.ts
+ * enforces that split.
+ */
 describe('committed data files', () => {
   it('data/feeds.json is valid', () => {
     expect(FeedsSchema.safeParse(feeds).success).toBe(true);

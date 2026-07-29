@@ -19,8 +19,7 @@ import {
 } from '~/lib/schemas/sleeper';
 import { PlayersSchema, type Player } from '~/lib/schemas/players';
 import { TeamSchema } from '~/lib/schemas/team';
-import teamRaw from '../data/team.json';
-import playersRaw from '../data/players.json';
+import { fixturePlayers, fixtureTeam } from './fixtures/league';
 
 const fixture = (name: string) =>
   JSON.parse(readFileSync(join(process.cwd(), 'tests/fixtures/sleeper', name), 'utf8'));
@@ -29,8 +28,9 @@ const league = SleeperLeagueSchema.parse(fixture('league.json'));
 const rosters = SleeperRosterSchema.array().parse(fixture('rosters.json'));
 const myRoster = rosters[0];
 const rawPlayers = fixture('players.json') as Record<string, unknown>;
-const committedTeam = TeamSchema.parse(teamRaw);
-const committedPlayers = PlayersSchema.parse(playersRaw);
+// The "previous team" the sync merges into is the frozen fixture, not the live
+// data file — otherwise this test would assert against its own output.
+const committedTeam = fixtureTeam;
 
 const sleeperPlayer = (id: string): SleeperPlayer => SleeperPlayerSchema.parse(rawPlayers[id]);
 
@@ -287,8 +287,8 @@ describe('applySleeperToTeam', () => {
   });
 
   it('reports targets that have since been acquired instead of pruning them', () => {
-    expect(result.satisfiedTargets).toContain('t-rb2-jeanty');
-    expect(result.team.targets.some((t) => t.id === 't-rb2-jeanty')).toBe(true);
+    expect(result.satisfiedTargets).toContain('t-rb2-1');
+    expect(result.team.targets.some((t) => t.id === 't-rb2-1')).toBe(true);
   });
 
   it('leaves the auction budget completely untouched', () => {
@@ -358,8 +358,8 @@ describe('applySleeperToTeam', () => {
   });
 });
 
-describe('the committed seed data still parses after the schema change', () => {
-  it('players.json validates with the new optional Sleeper fields', () => {
-    expect(PlayersSchema.safeParse(committedPlayers).success).toBe(true);
+describe('the fixture league still parses after the schema change', () => {
+  it('validates with the new optional Sleeper fields', () => {
+    expect(PlayersSchema.safeParse(fixturePlayers).success).toBe(true);
   });
 });

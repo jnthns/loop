@@ -2,14 +2,14 @@ import { describe, expect, it } from 'vitest';
 import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { TeamApp } from '~/components/TeamApp';
-import { PlayersSchema } from '~/lib/schemas/players';
 import { TeamSchema } from '~/lib/schemas/team';
 import { STORAGE_KEY, loadOverlay, serializeTeam } from '~/lib/team/storage';
-import playersRaw from '../data/players.json';
-import teamRaw from '../data/team.json';
+import { fixturePlayers, fixtureTeam } from './fixtures/league';
 
-const players = PlayersSchema.parse(playersRaw);
-const committed = TeamSchema.parse(teamRaw);
+// Deliberately NOT data/team.json: the Sleeper sync rewrites that file every six
+// hours, so asserting against it would turn a roster move into a red build.
+const players = fixturePlayers;
+const committed = fixtureTeam;
 
 function mount() {
   return render(<TeamApp committed={committed} players={players} />);
@@ -82,19 +82,19 @@ describe('TeamApp — alternatives', () => {
   it('shows how many alternatives a slot has', () => {
     mount();
     const row = rows().find((r) => r.dataset.slot === 'sflex-1')!;
-    expect(within(row).getByRole('button', { name: '3 alts' })).toBeInTheDocument();
+    expect(within(row).getByRole('button', { name: '2 alts' })).toBeInTheDocument();
   });
 
   it('lists them in priority order with rationale and cost, under their own slot', async () => {
     const user = userEvent.setup();
     mount();
     const row = rows().find((r) => r.dataset.slot === 'sflex-1')!;
-    await user.click(within(row).getByRole('button', { name: '3 alts' }));
+    await user.click(within(row).getByRole('button', { name: '2 alts' }));
 
     const panel = screen.getByTestId('targets-row');
     expect(panel.dataset.slot).toBe('sflex-1');
     const targets = within(panel).getAllByTestId('target');
-    expect(targets).toHaveLength(3);
+    expect(targets).toHaveLength(2);
     expect(targets[0]).toHaveTextContent('1. Caleb Williams');
     expect(targets[0]).toHaveTextContent(/Superflex punishes/);
     expect(targets[0]).toHaveTextContent('Likely cost');

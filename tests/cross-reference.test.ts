@@ -6,14 +6,12 @@ import {
   rosterAlerts,
   watchLists,
 } from '~/lib/insights/cross-reference';
-import { PlayersSchema } from '~/lib/schemas/players';
-import { TeamSchema } from '~/lib/schemas/team';
 import type { NewsItem } from '~/lib/schemas/news';
-import playersRaw from '../data/players.json';
-import teamRaw from '../data/team.json';
+import { fixturePlayers, fixtureTeam } from './fixtures/league';
 
-const players = PlayersSchema.parse(playersRaw);
-const team = TeamSchema.parse(teamRaw);
+// Frozen fixture, not the synced data files — see tests/fixtures/league.ts.
+const players = fixturePlayers;
+const team = fixtureTeam;
 const NOW = new Date('2026-09-10T12:00:00.000Z');
 
 function item(o: Partial<NewsItem> & Pick<NewsItem, 'id'>): NewsItem {
