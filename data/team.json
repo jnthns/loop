@@ -1,5 +1,5 @@
 {
-  "leagueName": "First Dynasty League",
+  "leagueName": "DyNastyNasty",
   "teamName": "My Team",
   "format": {
     "teams": 12,
@@ -7,54 +7,300 @@
     "ppr": 1,
     "tePremium": 0.5,
     "rosterSlots": [
-      { "id": "qb-1", "kind": "QB", "label": "QB" },
-      { "id": "rb-1", "kind": "RB", "label": "RB1" },
-      { "id": "rb-2", "kind": "RB", "label": "RB2" },
-      { "id": "wr-1", "kind": "WR", "label": "WR1" },
-      { "id": "wr-2", "kind": "WR", "label": "WR2" },
-      { "id": "wr-3", "kind": "WR", "label": "WR3" },
-      { "id": "te-1", "kind": "TE", "label": "TE" },
-      { "id": "flex-1", "kind": "FLEX", "label": "FLEX" },
-      { "id": "sflex-1", "kind": "SUPERFLEX", "label": "SUPERFLEX" },
-      { "id": "k-1", "kind": "K", "label": "K" },
-      { "id": "def-1", "kind": "DEF", "label": "D/ST" },
-      { "id": "bn-1", "kind": "BN", "label": "Bench 1" },
-      { "id": "bn-2", "kind": "BN", "label": "Bench 2" },
-      { "id": "bn-3", "kind": "BN", "label": "Bench 3" },
-      { "id": "bn-4", "kind": "BN", "label": "Bench 4" },
-      { "id": "bn-5", "kind": "BN", "label": "Bench 5" },
-      { "id": "bn-6", "kind": "BN", "label": "Bench 6" },
-      { "id": "taxi-1", "kind": "TAXI", "label": "Taxi 1" },
-      { "id": "taxi-2", "kind": "TAXI", "label": "Taxi 2" },
-      { "id": "ir-1", "kind": "IR", "label": "IR" }
+      {
+        "id": "qb-1",
+        "kind": "QB",
+        "label": "QB"
+      },
+      {
+        "id": "rb-1",
+        "kind": "RB",
+        "label": "RB1"
+      },
+      {
+        "id": "rb-2",
+        "kind": "RB",
+        "label": "RB2"
+      },
+      {
+        "id": "wr-1",
+        "kind": "WR",
+        "label": "WR1"
+      },
+      {
+        "id": "wr-2",
+        "kind": "WR",
+        "label": "WR2"
+      },
+      {
+        "id": "wr-3",
+        "kind": "WR",
+        "label": "WR3"
+      },
+      {
+        "id": "te-1",
+        "kind": "TE",
+        "label": "TE"
+      },
+      {
+        "id": "flex-1",
+        "kind": "FLEX",
+        "label": "FLEX1"
+      },
+      {
+        "id": "flex-2",
+        "kind": "FLEX",
+        "label": "FLEX2"
+      },
+      {
+        "id": "superflex-1",
+        "kind": "SUPERFLEX",
+        "label": "SUPERFLEX"
+      },
+      {
+        "id": "bn-1",
+        "kind": "BN",
+        "label": "Bench 1"
+      },
+      {
+        "id": "bn-2",
+        "kind": "BN",
+        "label": "Bench 2"
+      },
+      {
+        "id": "bn-3",
+        "kind": "BN",
+        "label": "Bench 3"
+      },
+      {
+        "id": "bn-4",
+        "kind": "BN",
+        "label": "Bench 4"
+      },
+      {
+        "id": "bn-5",
+        "kind": "BN",
+        "label": "Bench 5"
+      },
+      {
+        "id": "bn-6",
+        "kind": "BN",
+        "label": "Bench 6"
+      },
+      {
+        "id": "bn-7",
+        "kind": "BN",
+        "label": "Bench 7"
+      },
+      {
+        "id": "bn-8",
+        "kind": "BN",
+        "label": "Bench 8"
+      },
+      {
+        "id": "bn-9",
+        "kind": "BN",
+        "label": "Bench 9"
+      },
+      {
+        "id": "bn-10",
+        "kind": "BN",
+        "label": "Bench 10"
+      },
+      {
+        "id": "bn-11",
+        "kind": "BN",
+        "label": "Bench 11"
+      },
+      {
+        "id": "bn-12",
+        "kind": "BN",
+        "label": "Bench 12"
+      },
+      {
+        "id": "bn-13",
+        "kind": "BN",
+        "label": "Bench 13"
+      },
+      {
+        "id": "bn-14",
+        "kind": "BN",
+        "label": "Bench 14"
+      },
+      {
+        "id": "bn-15",
+        "kind": "BN",
+        "label": "Bench 15"
+      },
+      {
+        "id": "bn-16",
+        "kind": "BN",
+        "label": "Bench 16"
+      }
     ]
   },
   "roster": [
-    { "slotId": "qb-1", "playerId": "jayden-daniels", "acquired": "Startup 1.04", "notes": "" },
-    { "slotId": "rb-1", "playerId": "bijan-robinson", "acquired": "Startup 1.02", "notes": "" },
-    { "slotId": "rb-2", "playerId": "devon-achane", "acquired": "Startup 3.09", "notes": "" },
-    { "slotId": "wr-1", "playerId": "jamarr-chase", "acquired": "Startup 1.01", "notes": "" },
-    { "slotId": "wr-2", "playerId": "brian-thomas-jr", "acquired": "Startup 2.11", "notes": "" },
-    { "slotId": "wr-3", "playerId": "nico-collins", "acquired": "Startup 4.02", "notes": "" },
-    { "slotId": "te-1", "playerId": "sam-laporta", "acquired": "Startup 5.06", "notes": "" },
-    { "slotId": "flex-1", "playerId": "puka-nacua", "acquired": "Startup 3.02", "notes": "" },
-    { "slotId": "sflex-1", "playerId": "bo-nix", "acquired": "Startup 8.07", "notes": "Weakest starting slot on the roster." },
-    { "slotId": "k-1", "playerId": "brandon-aubrey", "acquired": "Startup 19.11", "notes": "" },
-    { "slotId": "def-1", "playerId": "den-def", "acquired": "Startup 20.02", "notes": "" },
-    { "slotId": "bn-1", "playerId": "rome-odunze", "acquired": "Startup 6.10", "notes": "" },
-    { "slotId": "bn-2", "playerId": "marvin-harrison-jr", "acquired": "Trade", "notes": "" },
-    { "slotId": "bn-3", "playerId": null, "acquired": "", "notes": "" },
-    { "slotId": "bn-4", "playerId": null, "acquired": "", "notes": "" },
-    { "slotId": "bn-5", "playerId": null, "acquired": "", "notes": "" },
-    { "slotId": "bn-6", "playerId": null, "acquired": "", "notes": "" },
-    { "slotId": "taxi-1", "playerId": null, "acquired": "", "notes": "" },
-    { "slotId": "taxi-2", "playerId": null, "acquired": "", "notes": "" },
-    { "slotId": "ir-1", "playerId": null, "acquired": "", "notes": "" }
+    {
+      "slotId": "qb-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "rb-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "rb-2",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "wr-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "wr-2",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "wr-3",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "te-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "flex-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "flex-2",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "superflex-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-2",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-3",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-4",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-5",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-6",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-7",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-8",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-9",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-10",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-11",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-12",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-13",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-14",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-15",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-16",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    }
   ],
   "targets": [
     {
       "id": "t-sflex-daniels-tier",
-      "slotId": "sflex-1",
+      "slotId": "qb-1",
       "playerId": "caleb-williams",
       "priority": 1,
       "rationale": "Superflex punishes one-QB rosters more than any other format decision. A second startable QB on a rookie deal is the highest-leverage upgrade available.",
@@ -62,7 +308,7 @@
     },
     {
       "id": "t-sflex-mahomes",
-      "slotId": "sflex-1",
+      "slotId": "qb-1",
       "playerId": "patrick-mahomes",
       "priority": 2,
       "rationale": "Buys a bigger win-now edge at a shorter window. Only correct if the rest of the roster says contend.",
@@ -70,7 +316,7 @@
     },
     {
       "id": "t-sflex-allen",
-      "slotId": "sflex-1",
+      "slotId": "qb-1",
       "playerId": "josh-allen",
       "priority": 3,
       "rationale": "Same trade-off as Mahomes with more rushing floor and the same age problem. Compare offers, do not chase the name.",
@@ -124,10 +370,30 @@
       "kind": "auction",
       "total": 200,
       "entries": [
-        { "id": "a-chase", "label": "Ja'Marr Chase", "amount": 62, "date": "2026-08-15" },
-        { "id": "a-bijan", "label": "Bijan Robinson", "amount": 48, "date": "2026-08-15" },
-        { "id": "a-daniels", "label": "Jayden Daniels", "amount": 41, "date": "2026-08-15" },
-        { "id": "a-btj", "label": "Brian Thomas Jr.", "amount": 24, "date": "2026-08-15" }
+        {
+          "id": "a-chase",
+          "label": "Ja'Marr Chase",
+          "amount": 62,
+          "date": "2026-08-15"
+        },
+        {
+          "id": "a-bijan",
+          "label": "Bijan Robinson",
+          "amount": 48,
+          "date": "2026-08-15"
+        },
+        {
+          "id": "a-daniels",
+          "label": "Jayden Daniels",
+          "amount": 41,
+          "date": "2026-08-15"
+        },
+        {
+          "id": "a-btj",
+          "label": "Brian Thomas Jr.",
+          "amount": 24,
+          "date": "2026-08-15"
+        }
       ]
     },
     {
@@ -135,7 +401,14 @@
       "label": "FAAB — 2026 season",
       "kind": "faab",
       "total": 100,
-      "entries": [{ "id": "f-open", "label": "Week 1 waivers", "amount": 0, "date": "" }]
+      "entries": [
+        {
+          "id": "f-open",
+          "label": "Week 1 waivers",
+          "amount": 0,
+          "date": ""
+        }
+      ]
     }
   ]
 }

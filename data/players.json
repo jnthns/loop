@@ -1,5 +1,36 @@
 [
   {
+    "id": "caleb-williams",
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "nflTeam": "CHI",
+    "age": 25,
+    "tier": "starter",
+    "notes": "Draft capital plus age; value swings hardest on scheme and supporting cast."
+  },
+  {
+    "id": "diego-pavia",
+    "name": "Diego Pavia",
+    "pos": "QB",
+    "nflTeam": "FA",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13427",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "dillon-gabriel",
+    "name": "Dillon Gabriel",
+    "pos": "QB",
+    "nflTeam": "CLE",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12486",
+    "rosteredInLeague": false
+  },
+  {
     "id": "josh-allen",
     "name": "Josh Allen",
     "pos": "QB",
@@ -9,22 +40,26 @@
     "notes": "Rushing floor is the whole dynasty case at QB; that floor is also what ages first."
   },
   {
-    "id": "jayden-daniels",
-    "name": "Jayden Daniels",
+    "id": "kirk-cousins",
+    "name": "Kirk Cousins",
     "pos": "QB",
-    "nflTeam": "WAS",
-    "age": 26,
-    "tier": "cornerstone",
-    "notes": "Dual-threat on a rookie contract — the archetype superflex leagues price highest."
+    "nflTeam": "LV",
+    "age": 37,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "1166",
+    "rosteredInLeague": false
   },
   {
-    "id": "caleb-williams",
-    "name": "Caleb Williams",
+    "id": "malik-willis",
+    "name": "Malik Willis",
     "pos": "QB",
-    "nflTeam": "CHI",
-    "age": 25,
+    "nflTeam": "MIA",
+    "age": 27,
     "tier": "starter",
-    "notes": "Draft capital plus age; value swings hardest on scheme and supporting cast."
+    "notes": "",
+    "sleeperId": "8161",
+    "rosteredInLeague": false
   },
   {
     "id": "patrick-mahomes",
@@ -36,49 +71,15 @@
     "notes": "Elite production, shortening dynasty window. Classic sell-high-into-a-contender asset."
   },
   {
-    "id": "bo-nix",
-    "name": "Bo Nix",
+    "id": "quinn-ewers",
+    "name": "Quinn Ewers",
     "pos": "QB",
-    "nflTeam": "DEN",
-    "age": 26,
-    "tier": "depth",
-    "notes": "Startable superflex QB2 whose value is entirely format-dependent."
-  },
-  {
-    "id": "bijan-robinson",
-    "name": "Bijan Robinson",
-    "pos": "RB",
-    "nflTeam": "ATL",
-    "age": 24,
-    "tier": "cornerstone",
-    "notes": "Three-down back with receiving work — the only RB profile worth cornerstone pricing."
-  },
-  {
-    "id": "jahmyr-gibbs",
-    "name": "Jahmyr Gibbs",
-    "pos": "RB",
-    "nflTeam": "DET",
-    "age": 24,
-    "tier": "cornerstone",
-    "notes": "Receiving volume insulates him from the usual RB aging cliff."
-  },
-  {
-    "id": "saquon-barkley",
-    "name": "Saquon Barkley",
-    "pos": "RB",
-    "nflTeam": "PHI",
-    "age": 29,
-    "tier": "win-now",
-    "notes": "Past the typical RB age curve. Production is real; the resale window is not."
-  },
-  {
-    "id": "devon-achane",
-    "name": "De'Von Achane",
-    "pos": "RB",
     "nflTeam": "MIA",
-    "age": 25,
+    "age": 23,
     "tier": "starter",
-    "notes": "Efficiency-dependent profile; volume risk if the offense changes shape."
+    "notes": "",
+    "sleeperId": "12500",
+    "rosteredInLeague": false
   },
   {
     "id": "ashton-jeanty",
@@ -90,76 +91,156 @@
     "notes": "First-round rookie capital at RB — the market prices this at its peak on day one."
   },
   {
-    "id": "jamarr-chase",
-    "name": "Ja'Marr Chase",
-    "pos": "WR",
-    "nflTeam": "CIN",
-    "age": 26,
-    "tier": "cornerstone",
-    "notes": "Peak-age alpha WR. In dynasty this is the asset class you overpay for and keep."
-  },
-  {
-    "id": "justin-jefferson",
-    "name": "Justin Jefferson",
-    "pos": "WR",
-    "nflTeam": "MIN",
-    "age": 27,
-    "tier": "cornerstone",
-    "notes": "Production independent of quarterback play — rare and worth a premium."
-  },
-  {
-    "id": "malik-nabers",
-    "name": "Malik Nabers",
-    "pos": "WR",
-    "nflTeam": "NYG",
+    "id": "brashard-smith",
+    "name": "Brashard Smith",
+    "pos": "RB",
+    "nflTeam": "KC",
     "age": 23,
-    "tier": "cornerstone",
-    "notes": "Target share on a bad offense still compounds; age is doing the work here."
-  },
-  {
-    "id": "nico-collins",
-    "name": "Nico Collins",
-    "pos": "WR",
-    "nflTeam": "HOU",
-    "age": 27,
     "tier": "starter",
-    "notes": "Late-breakout profile; the market discounts these relative to draft-capital darlings."
+    "notes": "",
+    "sleeperId": "12455",
+    "rosteredInLeague": false
   },
   {
-    "id": "brian-thomas-jr",
-    "name": "Brian Thomas Jr.",
-    "pos": "WR",
+    "id": "devin-singletary",
+    "name": "Devin Singletary",
+    "pos": "RB",
+    "nflTeam": "NYG",
+    "age": 28,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "6130",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "emanuel-wilson",
+    "name": "Emanuel Wilson",
+    "pos": "RB",
+    "nflTeam": "SEA",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "11435",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "isaiah-davis",
+    "name": "Isaiah Davis",
+    "pos": "RB",
+    "nflTeam": "NYJ",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11571",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "j-mari-taylor",
+    "name": "J'Mari Taylor",
+    "pos": "RB",
     "nflTeam": "JAX",
     "age": 24,
-    "tier": "cornerstone",
-    "notes": "Early production plus age — the two inputs that actually predict WR dynasty value."
-  },
-  {
-    "id": "rome-odunze",
-    "name": "Rome Odunze",
-    "pos": "WR",
-    "nflTeam": "CHI",
-    "age": 24,
-    "tier": "depth",
-    "notes": "Draft capital without a target monopoly. A patience asset, not a producer yet."
-  },
-  {
-    "id": "puka-nacua",
-    "name": "Puka Nacua",
-    "pos": "WR",
-    "nflTeam": "LAR",
-    "age": 25,
     "tier": "starter",
-    "notes": "Volume-driven; the question is what the target share looks like post-Kupp era."
+    "notes": "",
+    "sleeperId": "13348",
+    "rosteredInLeague": false
   },
   {
-    "id": "marvin-harrison-jr",
-    "name": "Marvin Harrison Jr.",
-    "pos": "WR",
+    "id": "justice-hill",
+    "name": "Justice Hill",
+    "pos": "RB",
+    "nflTeam": "BAL",
+    "age": 28,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5995",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "kareem-hunt",
+    "name": "Kareem Hunt",
+    "pos": "RB",
+    "nflTeam": "FA",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4098",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "keaton-mitchell",
+    "name": "Keaton Mitchell",
+    "pos": "RB",
+    "nflTeam": "LAC",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9511",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "malik-davis",
+    "name": "Malik Davis",
+    "pos": "RB",
+    "nflTeam": "DAL",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "8800",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "marshawn-lloyd",
+    "name": "MarShawn Lloyd",
+    "pos": "RB",
+    "nflTeam": "GB",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "11581",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "najee-harris",
+    "name": "Najee Harris",
+    "pos": "RB",
+    "nflTeam": "FA",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "7528",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "saquon-barkley",
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "nflTeam": "PHI",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "Past the typical RB age curve. Production is real; the resale window is not."
+  },
+  {
+    "id": "seth-mcgowan",
+    "name": "Seth McGowan",
+    "pos": "RB",
+    "nflTeam": "IND",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13424",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "trey-benson",
+    "name": "Trey Benson",
+    "pos": "RB",
     "nflTeam": "ARI",
     "age": 24,
     "tier": "starter",
-    "notes": "Pedigree buy-low candidate whenever the market reacts to a slow stretch."
+    "notes": "",
+    "sleeperId": "11589",
+    "rosteredInLeague": false
   },
   {
     "id": "brock-bowers",
@@ -171,6 +252,83 @@
     "notes": "Young TEs who produce immediately are the scarcest asset in dynasty."
   },
   {
+    "id": "colby-parkinson",
+    "name": "Colby Parkinson",
+    "pos": "TE",
+    "nflTeam": "LAR",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6865",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "darren-waller",
+    "name": "Darren Waller",
+    "pos": "TE",
+    "nflTeam": "FA",
+    "age": 33,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2505",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "eli-raridon",
+    "name": "Eli Raridon",
+    "pos": "TE",
+    "nflTeam": "NE",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13421",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "erick-all",
+    "name": "Erick All",
+    "pos": "TE",
+    "nflTeam": "CIN",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11592",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "joe-royer",
+    "name": "Joe Royer",
+    "pos": "TE",
+    "nflTeam": "CLE",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13435",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "jonnu-smith",
+    "name": "Jonnu Smith",
+    "pos": "TE",
+    "nflTeam": "FA",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4144",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "taysom-hill",
+    "name": "Taysom Hill",
+    "pos": "TE",
+    "nflTeam": "FA",
+    "age": 35,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4381",
+    "rosteredInLeague": false
+  },
+  {
     "id": "trey-mcbride",
     "name": "Trey McBride",
     "pos": "TE",
@@ -180,30 +338,265 @@
     "notes": "Reception volume at TE — worth more in TE-premium formats than the consensus rank."
   },
   {
-    "id": "sam-laporta",
-    "name": "Sam LaPorta",
+    "id": "zach-ertz",
+    "name": "Zach Ertz",
     "pos": "TE",
-    "nflTeam": "DET",
+    "nflTeam": "FA",
+    "age": 35,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "1339",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "caleb-douglas",
+    "name": "Caleb Douglas",
+    "pos": "WR",
+    "nflTeam": "MIA",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13296",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "calvin-austin",
+    "name": "Calvin Austin",
+    "pos": "WR",
+    "nflTeam": "NYG",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8125",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "chimere-dike",
+    "name": "Chimere Dike",
+    "pos": "WR",
+    "nflTeam": "TEN",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12540",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "cj-daniels",
+    "name": "CJ Daniels",
+    "pos": "WR",
+    "nflTeam": "LAR",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13270",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "colbie-young",
+    "name": "Colbie Young",
+    "pos": "WR",
+    "nflTeam": "CIN",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13477",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "cyrus-allen",
+    "name": "Cyrus Allen",
+    "pos": "WR",
+    "nflTeam": "KC",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13413",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "devaughn-vele",
+    "name": "Devaughn Vele",
+    "pos": "WR",
+    "nflTeam": "NO",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "11834",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "jalen-nailor",
+    "name": "Jalen Nailor",
+    "pos": "WR",
+    "nflTeam": "LV",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8180",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "jalen-tolbert",
+    "name": "Jalen Tolbert",
+    "pos": "WR",
+    "nflTeam": "MIA",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8117",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "john-metchie",
+    "name": "John Metchie",
+    "pos": "WR",
+    "nflTeam": "CAR",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8147",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "keenan-allen",
+    "name": "Keenan Allen",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 33,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "1479",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "kyle-williams",
+    "name": "Kyle Williams",
+    "pos": "WR",
+    "nflTeam": "NE",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12547",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "malik-benson",
+    "name": "Malik Benson",
+    "pos": "WR",
+    "nflTeam": "LV",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13329",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "malik-nabers",
+    "name": "Malik Nabers",
+    "pos": "WR",
+    "nflTeam": "NYG",
+    "age": 23,
+    "tier": "cornerstone",
+    "notes": "Target share on a bad offense still compounds; age is doing the work here."
+  },
+  {
+    "id": "marvin-mims",
+    "name": "Marvin Mims",
+    "pos": "WR",
+    "nflTeam": "DEN",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9494",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "odell-beckham",
+    "name": "Odell Beckham",
+    "pos": "WR",
+    "nflTeam": "NYG",
+    "age": 33,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2078",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "roman-wilson",
+    "name": "Roman Wilson",
+    "pos": "WR",
+    "nflTeam": "PIT",
     "age": 25,
     "tier": "starter",
-    "notes": "Efficient in a crowded offense; touchdown variance drives most of his perceived value."
+    "notes": "",
+    "sleeperId": "11630",
+    "rosteredInLeague": false
   },
   {
-    "id": "brandon-aubrey",
-    "name": "Brandon Aubrey",
-    "pos": "K",
+    "id": "ryan-flournoy",
+    "name": "Ryan Flournoy",
+    "pos": "WR",
     "nflTeam": "DAL",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "11783",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "savion-williams",
+    "name": "Savion Williams",
+    "pos": "WR",
+    "nflTeam": "GB",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12482",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "tank-dell",
+    "name": "Tank Dell",
+    "pos": "WR",
+    "nflTeam": "HOU",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "9502",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "treylon-burks",
+    "name": "Treylon Burks",
+    "pos": "WR",
+    "nflTeam": "WAS",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8135",
+    "rosteredInLeague": false
+  },
+  {
+    "id": "tyreek-hill",
+    "name": "Tyreek Hill",
+    "pos": "WR",
+    "nflTeam": "FA",
     "age": 31,
     "tier": "depth",
-    "notes": "Kickers are not dynasty assets. Roster one, never trade for one."
+    "notes": "",
+    "sleeperId": "3321",
+    "rosteredInLeague": false
   },
   {
-    "id": "den-def",
-    "name": "Denver Broncos D/ST",
-    "pos": "DEF",
-    "nflTeam": "DEN",
-    "age": 30,
-    "tier": "depth",
-    "notes": "Streaming asset. Age is a schema placeholder — team defenses do not have one."
+    "id": "zavion-thomas",
+    "name": "Zavion Thomas",
+    "pos": "WR",
+    "nflTeam": "CHI",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13411",
+    "rosteredInLeague": false
   }
 ]
