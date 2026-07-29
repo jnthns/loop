@@ -39,14 +39,15 @@ letting them rot.
   synced players have an empty `notes`. That is a placeholder judgement sitting
   in the same field as a real one. (size: M · check: no shortlisted player
   retains a default tier with an empty note)
-- [P0] **Confirm the draft data matches Sleeper.** `data/draft.json` will be
-  populated by the next live sync; the mapping is proven only against fixtures.
-  (size: S · check: draft date, type, and your slot match the Sleeper app, and
-  the first pick number equals your slot)
+- [P0] **Confirm the draft details against the Sleeper app.** The live sync
+  reports snake, 12 teams, 30 rounds, 2026-08-14. Order is not set yet, so the
+  slot-to-picks path is still fixture-only. (size: S · check: date/type/rounds
+  match Sleeper, and once the order is drawn, pick 1 equals your slot)
 
 ## P1 — next up
 
-- [P1] **A real draft board.** The shortlist is 8 targets; a startup is 26 rounds.
+- [P1] **A real draft board — the startup is 2026-08-14, so this has a deadline.**
+  The shortlist is 8 targets; a startup is 30 rounds.
   A tiered board you can work down live — filter by position, mark players gone,
   see who is left in each tier — is the thing you would actually have open on
   draft night. (size: L · check: board renders every rostered-eligible player by

@@ -166,6 +166,22 @@ Remove the comment markers only when the build is truly finished.)
   your slot 7 → picks 7, 18, 31, 42, 55` (snake arithmetic verified against a
   full 12-team draft in `tests/draft.test.ts`).
 
+### Pass 8 — the chain verified, and the real draft
+
+- **The `workflow_run` chain fires.** `refresh #4` committed `fe18577`, and
+  `pages #6` started with event `workflow_run` on that exact SHA — the hop that
+  had been silently missing since the refresh workflow was written. Verified by
+  watching it, not by reading the YAML.
+- **The real draft, from Sleeper:** `pre_draft`, **snake, 12 teams, 30 rounds**,
+  scheduled **2026-08-14T15:00:29Z** — about two weeks out. The draft order is
+  **not yet set**, so `myDraftSlot` is null and `myPicks` is empty; the app says
+  "not set" rather than inventing a slot, which is the correct behavior and worth
+  keeping when the order does land.
+- Team name resolved to `comebackedOnYou` — the Sleeper display name, because no
+  custom team name is set in the league. That is the documented fallback.
+- Evidence: `data/draft.json` on `main` at `fe18577`; `pages #6` event
+  `workflow_run`, head SHA `fe18577`.
+
 #### What is NOT done
 
 - **The independent checker has not run.** `CHECKER_CMD` is unset, so

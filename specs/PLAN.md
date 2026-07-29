@@ -174,9 +174,9 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
 - [x] Reattach targets by slot kind, not just position eligibility — the live
       sync had silently moved superflex targets onto QB1. (check: regression test
       asserts they land on the SUPERFLEX slot)
-- [ ] Confirm the deploy fix live and check the site renders real data at
-      https://jnthns.github.io/loop/. (check: github-pages deployment SHA is past
-      `296402e`, and the news panel shows real items)
+- [x] Confirm the deploy fix live. (check: `refresh #4` committed `fe18577` and
+      `pages #6` started with event `workflow_run` on that SHA — the missing hop,
+      verified by watching it rather than by reading the YAML)
 
 ---
 
