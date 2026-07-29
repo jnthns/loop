@@ -319,6 +319,45 @@ describe('applySleeperToTeam', () => {
     expect(out.team.roster.find((r) => r.slotId === 'qb-1')!.notes).toBe('keep me');
   });
 
+  it('reattaches a target to the SAME SLOT KIND, not just an eligible one', () => {
+    // Regression: the live league calls the superflex slot `superflex-1` while
+    // the fixture calls it `sflex-1`. Matching on position eligibility alone
+    // moved superflex QB targets onto QB1, quietly changing what they meant.
+    const out = applySleeperToTeam(committedTeam, {
+      league,
+      roster: myRoster,
+      players: mapped,
+      season: '2026',
+    });
+    const superflexSlot = out.team.format.rosterSlots.find((s) => s.kind === 'SUPERFLEX')!;
+    const movedTargets = out.team.targets.filter((t) =>
+      committedTeam.targets.some((old) => old.id === t.id && old.slotId === 'sflex-1'),
+    );
+    expect(movedTargets.length).toBeGreaterThan(0);
+    for (const target of movedTargets) {
+      expect(target.slotId, `${target.id} should land on the SUPERFLEX slot`).toBe(
+        superflexSlot.id,
+      );
+    }
+  });
+
+  it('still falls back to position eligibility when the kind is gone entirely', () => {
+    const noSuperflex = {
+      ...league,
+      roster_positions: ['QB', 'RB', 'WR', 'TE', 'BN', 'BN'],
+    };
+    const out = applySleeperToTeam(committedTeam, {
+      league: noSuperflex,
+      roster: myRoster,
+      players: mapped,
+      season: '2026',
+    });
+    const slotIds = new Set(out.team.format.rosterSlots.map((s) => s.id));
+    for (const target of out.team.targets) {
+      expect(slotIds.has(target.slotId), `${target.id} dangling on ${target.slotId}`).toBe(true);
+    }
+  });
+
   it('reattaches targets whose slot no longer exists in the new format', () => {
     const stale = {
       ...committedTeam,

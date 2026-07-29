@@ -133,6 +133,39 @@ Remove the comment markers only when the build is truly finished.)
   has neither, so those code paths stay covered.
 - Evidence: `scripts/check.sh` → typecheck 0 errors, 318 tests, 23 pages, passed.
 
+### Pass 7 — the data was never reaching the site
+
+- **Design error, mine, asserted without verifying.** Pass 5 claimed "a data
+  refresh and a deploy are one pipeline". They were not. GitHub does not trigger
+  workflows from pushes made with `GITHUB_TOKEN` (anti-recursion), so
+  `refresh.yml`'s data commits never fired `pages.yml`. The live site sat on
+  `296402e`, deployed 08:03 — *before* any data landed — while `main` carried
+  235 news items, 56 players, and 50 trending rows nobody could see. The cron and
+  the sync were both working perfectly; only the last hop was missing.
+  Fix: `pages.yml` chains off `refresh` with a `workflow_run` trigger, guarded on
+  a successful conclusion. `docs/architecture.md`, `specs/spec.md` §5, and
+  `loops/news-refresh.md` all said the wrong thing and are corrected.
+- **The app was built for the wrong phase.** The live roster is 0/26 filled
+  because the startup draft has not happened. `/team` rendered 26 blank rows,
+  which reads as a broken sync. Now: `data/draft.json` from Sleeper (status,
+  type, schedule, your slot, and your pick numbers), a draft panel, an explicit
+  "empty until the draft" notice, and the targets promoted to a draft shortlist.
+  All keyed off `draft.status`, so it becomes a roster page on its own the moment
+  picks are made.
+- **Two bugs found by writing the tests, not by running the app:**
+  - Target reattachment matched on position eligibility, so the live sync had
+    silently moved the superflex QB targets onto QB1 (the real league names the
+    slot `superflex-1`, the fixture `sflex-1`). Now matches slot kind first.
+  - A target whose player is absent from the player file dangled on a
+    nonexistent slot, which would fail referential integrity. Now falls back to
+    the bench.
+- Team name now comes from `/league/<id>/users` instead of being stuck on
+  "My Team" forever.
+- Evidence: `scripts/check.sh` → typecheck 0 errors, 366 tests, 23 pages, passed.
+  `npm run sync:sleeper -- --fixtures` → `draft: pre_draft, snake, 26 rounds ·
+  your slot 7 → picks 7, 18, 31, 42, 55` (snake arithmetic verified against a
+  full 12-team draft in `tests/draft.test.ts`).
+
 #### What is NOT done
 
 - **The independent checker has not run.** `CHECKER_CMD` is unset, so

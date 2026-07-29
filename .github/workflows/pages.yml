@@ -10,6 +10,17 @@ name: pages
 on:
   push:
     branches: [main]
+
+  # GitHub deliberately does NOT trigger workflows from pushes made with
+  # GITHUB_TOKEN — an anti-recursion safeguard. So the data commits that
+  # refresh.yml pushes never fire the `push` trigger above, and for six hours
+  # this repo committed real news that the live site could not see.
+  # `workflow_run` is the sanctioned way across that boundary, and it needs no
+  # PAT, which keeps the repo's zero-secrets property.
+  workflow_run:
+    workflows: [refresh]
+    types: [completed]
+
   workflow_dispatch:
 
 permissions:
@@ -27,8 +38,18 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # A failed refresh must never deploy. Non-workflow_run events (push,
+    # workflow_dispatch) carry no conclusion, so they pass this gate.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     steps:
+      # Explicit ref: on a workflow_run event the default checkout is whatever
+      # the default branch pointed at when the event fired, which is subtle
+      # enough to be worth stating rather than relying on.
       - uses: actions/checkout@v5
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:

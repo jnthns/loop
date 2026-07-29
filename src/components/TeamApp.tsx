@@ -4,10 +4,13 @@ import type { Budget, RosterSlot, SlotKind, Team } from '~/lib/schemas/team';
 import { eligiblePositions } from '~/lib/schemas/team';
 import { allocated, formatMoney, isOverspent, perSlotRemaining, remaining } from '~/lib/team/budget';
 import { clearOverlay, saveOverlay, loadOverlay, serializeTeam } from '~/lib/team/storage';
+import { NO_DRAFT, type Draft } from '~/lib/schemas/draft';
+import DraftPanel from '~/components/DraftPanel';
 
 export interface TeamAppProps {
   committed: Team;
   players: Player[];
+  draft?: Draft;
 }
 
 const GROUPS: { key: string; title: string; kinds: SlotKind[]; note?: string }[] = [
@@ -26,10 +29,11 @@ const GROUPS: { key: string; title: string; kinds: SlotKind[]; note?: string }[]
   { key: 'ir', title: 'Injured reserve', kinds: ['IR'] },
 ];
 
-export function TeamApp({ committed, players }: TeamAppProps) {
+export function TeamApp({ committed, players, draft = NO_DRAFT }: TeamAppProps) {
   const [team, setTeam] = useState<Team>(committed);
   const [overlayActive, setOverlayActive] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
+  const [showEmptyRoster, setShowEmptyRoster] = useState(false);
 
   // Read the overlay after mount so the server-rendered markup matches the
   // committed baseline and hydration stays stable.
@@ -65,6 +69,11 @@ export function TeamApp({ committed, players }: TeamAppProps) {
     () => team.roster.filter((r) => r.playerId === null).length,
     [team.roster],
   );
+
+  // An entirely empty roster before a draft is the expected state, not a bug —
+  // and rendering 26 blank rows implies otherwise. Lead with the draft instead.
+  const rosterIsEmpty = openSlots === team.roster.length && team.roster.length > 0;
+  const preDraft = rosterIsEmpty && draft.status !== 'complete';
 
   const targetsBySlot = useMemo(() => {
     const map = new Map<string, typeof team.targets>();
@@ -139,7 +148,46 @@ export function TeamApp({ committed, players }: TeamAppProps) {
         </div>
       </section>
 
-      {GROUPS.map((group) => {
+      {preDraft && (
+        <DraftPanel
+          draft={draft}
+          rosterSize={team.roster.length}
+          auctionTotal={team.budgets.find((b) => b.kind === 'auction')?.total ?? null}
+        />
+      )}
+
+      {preDraft && (
+        <section
+          data-testid="empty-roster-notice"
+          className="border border-dashed border-line p-4"
+        >
+          <h2 className="text-sm font-semibold">Roster is empty until the draft</h2>
+          <p className="mt-1 max-w-2xl text-[13px] text-muted">
+            All {team.roster.length} slots are unfilled — that is what Sleeper reports, not a sync
+            failure. Your shortlist below is the useful surface right now; the roster table fills
+            itself the moment the draft happens.
+          </p>
+          <button
+            type="button"
+            onClick={() => setShowEmptyRoster((v) => !v)}
+            aria-expanded={showEmptyRoster}
+            className="mt-2 border border-line px-2.5 py-1 text-xs"
+          >
+            {showEmptyRoster ? 'Hide empty roster' : 'Show empty roster anyway'}
+          </button>
+        </section>
+      )}
+
+      {preDraft && team.targets.length > 0 && (
+        <ShortlistSection
+          team={team}
+          playerById={playerById}
+          onAssign={setSlotPlayer}
+        />
+      )}
+
+      {(!preDraft || showEmptyRoster) &&
+        GROUPS.map((group) => {
         const slots = team.format.rosterSlots.filter((s) => group.kinds.includes(s.kind));
         if (slots.length === 0) return null;
         return (
@@ -204,6 +252,78 @@ export function TeamApp({ committed, players }: TeamAppProps) {
 
       {slotById.size === 0 && <p className="text-sm text-muted">No roster slots configured.</p>}
     </div>
+  );
+}
+
+/**
+ * Pre-draft, the target list stops being "alternatives for a slot" and becomes
+ * the shortlist — the thing you actually work from on draft night. Same data,
+ * grouped by slot need instead of buried under empty rows.
+ */
+function ShortlistSection({
+  team,
+  playerById,
+  onAssign,
+}: {
+  team: Team;
+  playerById: Map<string, Player>;
+  onAssign: (slotId: string, playerId: string) => void;
+}) {
+  const slotLabel = new Map(team.format.rosterSlots.map((s) => [s.id, s.label]));
+  const bySlot = new Map<string, Team['targets']>();
+  for (const target of [...team.targets].sort((a, b) => a.priority - b.priority)) {
+    bySlot.set(target.slotId, [...(bySlot.get(target.slotId) ?? []), target]);
+  }
+
+  return (
+    <section aria-labelledby="shortlist" data-testid="shortlist">
+      <div className="mb-2 flex items-baseline justify-between gap-3 border-b border-line pb-1.5">
+        <h2 id="shortlist" className="text-sm font-semibold">
+          Draft shortlist
+        </h2>
+        <span className="label">{team.targets.length} targets</span>
+      </div>
+      <div className="grid gap-5 lg:grid-cols-2">
+        {[...bySlot.entries()].map(([slotId, targets]) => (
+          <div key={slotId} data-testid="shortlist-group" data-slot={slotId}>
+            <h3 className="label mb-1">{slotLabel.get(slotId) ?? slotId}</h3>
+            <ol className="space-y-2">
+              {targets.map((target) => {
+                const player = playerById.get(target.playerId);
+                return (
+                  <li key={target.id} data-testid="shortlist-target" className="text-[13px]">
+                    <div className="flex flex-wrap items-baseline gap-x-2">
+                      <span className="font-medium">
+                        {target.priority}. {player?.name ?? target.playerId}
+                      </span>
+                      {player && (
+                        <span className="text-muted">
+                          {player.pos} · {player.nflTeam} · age {player.age}
+                        </span>
+                      )}
+                      <button
+                        type="button"
+                        onClick={() => onAssign(slotId, target.playerId)}
+                        className="ml-auto border border-line px-2 py-0.5 text-xs"
+                      >
+                        Drafted
+                      </button>
+                    </div>
+                    <p className="mt-0.5 max-w-2xl text-muted">{target.rationale}</p>
+                    {target.cost && (
+                      <p className="mt-0.5 text-[12px]">
+                        <span className="label">Likely cost</span>{' '}
+                        <span className="text-muted">{target.cost}</span>
+                      </p>
+                    )}
+                  </li>
+                );
+              })}
+            </ol>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
 

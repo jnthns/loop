@@ -52,8 +52,12 @@ the same run's tagging better.
 > If `data/news.json` is unchanged, stop without committing. A no-op is a
 > legitimate outcome — quiet news days exist.
 >
-> Otherwise commit `data/news.json` alone with the message `Refresh news
-> snapshot` and push to `main`. The push triggers `pages.yml`, which redeploys.
+> Otherwise commit the changed files under `data/` and push to `main`.
+>
+> The deploy is chained by a `workflow_run` trigger in `pages.yml`, **not** by
+> this push: GitHub does not trigger workflows from `GITHUB_TOKEN` pushes. If you
+> ever find the site stale while `main` has fresh data, that trigger is the first
+> thing to check.
 
 ## Notes for whoever reads this next
 

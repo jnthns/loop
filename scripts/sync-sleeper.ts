@@ -24,6 +24,8 @@ import { fileURLToPath } from 'node:url';
 
 import { SleeperConfigSchema, type SleeperConfig } from '../src/lib/schemas/sleeper.ts';
 import {
+  SleeperDraftPickSchema,
+  SleeperDraftSchema,
   SleeperLeagueSchema,
   SleeperPlayerSchema,
   SleeperRosterSchema,
@@ -35,7 +37,8 @@ import {
 import { PlayersSchema, type Player } from '../src/lib/schemas/players.ts';
 import { TeamSchema } from '../src/lib/schemas/team.ts';
 import { TrendingSchema, type TrendingPlayer } from '../src/lib/schemas/trending.ts';
-import { applySleeperToTeam, toPlayer } from '../src/lib/sleeper/map.ts';
+import { DraftSchema, NO_DRAFT, type Draft } from '../src/lib/schemas/draft.ts';
+import { applySleeperToTeam, toDraft, toPlayer, teamNameFor } from '../src/lib/sleeper/map.ts';
 import * as api from '../src/lib/sleeper/client.ts';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -71,6 +74,9 @@ interface Snapshot {
   trendingAdds: { player_id: string; count: number }[];
   trendingDrops: { player_id: string; count: number }[];
   config: SleeperConfig;
+  teamName: string | null;
+  rawDraft: import('../src/lib/schemas/sleeper.ts').SleeperDraft | null;
+  rawDraftPicks: import('../src/lib/schemas/sleeper.ts').SleeperDraftPick[];
 }
 
 /** Offline path: everything comes from tests/fixtures/sleeper/. */
@@ -84,6 +90,12 @@ function fixtureSnapshot(config: SleeperConfig): Snapshot {
     if (parsed.success) players[id] = parsed.data;
   }
   const trending = SleeperTrendingSchema.parse(readFixture('trending-add.json'));
+  const rawDraft = existsSync(join(FIXTURES, 'draft.json'))
+    ? SleeperDraftSchema.parse(readFixture('draft.json'))
+    : null;
+  const rawDraftPicks = existsSync(join(FIXTURES, 'draft-picks.json'))
+    ? SleeperDraftPickSchema.array().parse(readFixture('draft-picks.json'))
+    : [];
 
   return {
     league,
@@ -94,6 +106,9 @@ function fixtureSnapshot(config: SleeperConfig): Snapshot {
     trendingAdds: trending,
     trendingDrops: [],
     config,
+    teamName: 'Fixture Team',
+    rawDraft,
+    rawDraftPicks,
   };
 }
 
@@ -146,11 +161,28 @@ async function liveSnapshot(config: SleeperConfig): Promise<Snapshot | null> {
       : '  · player dump: skipped (synced within 24h)',
   );
 
-  // Market signal is a nice-to-have; never fail a roster sync over it.
-  const [trendingAdds, trendingDrops] = await Promise.all([
+  // Market signal, team name, and draft are all nice-to-haves relative to the
+  // roster; none of them should fail a sync.
+  const [trendingAdds, trendingDrops, users, drafts] = await Promise.all([
     api.getTrending('add', 24, 25).catch(() => []),
     api.getTrending('drop', 24, 25).catch(() => []),
+    api.getLeagueUsers(leagueId).catch(() => []),
+    api.getDrafts(leagueId).catch(() => []),
   ]);
+
+  const teamName = teamNameFor(users, userId);
+  if (teamName) console.log(`  · team name: ${teamName}`);
+
+  // Newest draft first is Sleeper's order; the current season's is the one we want.
+  const rawDraft = drafts.find((d) => d.season === season) ?? drafts[0] ?? null;
+  const rawDraftPicks = rawDraft
+    ? await api.getDraftPicks(rawDraft.draft_id).catch(() => [])
+    : [];
+  if (rawDraft) {
+    console.log(`  · draft ${rawDraft.draft_id}: ${rawDraft.status} (${rawDraftPicks.length} picks)`);
+  } else {
+    console.log('  · no draft found for this league yet');
+  }
 
   return {
     league,
@@ -161,6 +193,9 @@ async function liveSnapshot(config: SleeperConfig): Promise<Snapshot | null> {
     trendingAdds,
     trendingDrops,
     config: { ...config, userId, leagueId, season, candidateLeagues: [] },
+    teamName,
+    rawDraft,
+    rawDraftPicks,
   };
 }
 
@@ -291,7 +326,32 @@ async function main() {
     roster: myRoster,
     players,
     season: snapshot.season,
+    teamName: snapshot.teamName ?? undefined,
   });
+
+  const sleeperIdToPlayerId = new Map(
+    players.filter((p) => p.sleeperId).map((p) => [p.sleeperId!, p.id]),
+  );
+  const draft: Draft = snapshot.rawDraft
+    ? DraftSchema.parse(
+        toDraft({
+          draft: snapshot.rawDraft,
+          picks: snapshot.rawDraftPicks,
+          userId: snapshot.userId,
+          rosterId: myRoster.roster_id,
+          sleeperIdToPlayerId,
+        }),
+      )
+    : NO_DRAFT;
+
+  if (draft.status !== 'none') {
+    console.log(
+      `  · draft: ${draft.status}, ${draft.type || 'unknown type'}, ${draft.rounds} rounds` +
+        (draft.myDraftSlot
+          ? ` · your slot ${draft.myDraftSlot} → picks ${draft.myPicks.slice(0, 5).join(', ')}${draft.myPicks.length > 5 ? '…' : ''}`
+          : ' · draft order not set yet'),
+    );
+  }
 
   const team = TeamSchema.parse(result.team);
   const validPlayers = PlayersSchema.parse(players);
@@ -338,6 +398,7 @@ async function main() {
   writeData('team.json', team);
   writeData('players.json', validPlayers);
   writeData('trending.json', trending);
+  writeData('draft.json', draft);
   writeData('sleeper.json', {
     ...snapshot.config,
     lastPlayerSync:
@@ -346,7 +407,9 @@ async function main() {
         : snapshot.config.lastPlayerSync,
     lastSyncedAt: new Date().toISOString(),
   });
-  console.log('Wrote data/team.json, data/players.json, data/trending.json, data/sleeper.json');
+  console.log(
+    'Wrote data/team.json, data/players.json, data/trending.json, data/draft.json, data/sleeper.json',
+  );
 }
 
 main().catch((error) => {

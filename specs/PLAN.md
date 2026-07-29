@@ -151,9 +151,32 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
       `data/team.json`, which the sync rewrites — a check that moves.
       (check: `tests/data-coupling.test.ts` fails if any behavior test imports a
       synced data file)
-- [ ] Verify the first live refresh in CI and confirm the site renders at
-      https://jnthns.github.io/loop/. (check: `refresh.yml` and `pages.yml` both
-      green on `main`; `data/news.json` non-empty)
+- [x] Verify the first live refresh in CI. (check: `refresh.yml` green on `main`;
+      `data/news.json` holds 235 real items and `data/team.json` the real league)
+
+## Phase 10 — Make the data reach the site, and build for a pre-draft league
+
+- [x] Fix the deploy chain. `GITHUB_TOKEN` pushes do not trigger workflows, so
+      `refresh`'s data commits never fired `pages` and the live site sat on
+      pre-data `296402e` for six hours. `pages.yml` now chains off `refresh` with
+      a `workflow_run` trigger guarded on success. (check: a `pages` run appears
+      with event `workflow_run` and the deployment SHA advances)
+- [x] Pull the draft from Sleeper into `data/draft.json` — status, type,
+      schedule, your slot, your pick numbers. (check: `tests/draft.test.ts`,
+      including snake pick numbers covering a full 12-team draft with no repeats)
+- [x] Lead `/team` with the draft and a shortlist while the roster is empty, and
+      say plainly that empty is expected. (check: `tests/pre-draft.test.tsx` —
+      no slot rows pre-draft, all of them once players exist)
+- [x] Summarize open slots on the dashboard instead of listing 26. (check:
+      dashboard test asserts the summary replaces the list only when empty)
+- [x] Take the team name from `/league/<id>/users`. (check: `teamNameFor` unit
+      tests, including the blank-team-name fallback)
+- [x] Reattach targets by slot kind, not just position eligibility — the live
+      sync had silently moved superflex targets onto QB1. (check: regression test
+      asserts they land on the SUPERFLEX slot)
+- [ ] Confirm the deploy fix live and check the site renders real data at
+      https://jnthns.github.io/loop/. (check: github-pages deployment SHA is past
+      `296402e`, and the news panel shows real items)
 
 ---
 

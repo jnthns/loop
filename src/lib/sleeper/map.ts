@@ -9,7 +9,15 @@ import type {
   Team,
 } from '~/lib/schemas/team';
 import { eligiblePositions as eligibleFor } from '~/lib/schemas/team';
-import type { SleeperLeague, SleeperPlayer, SleeperRoster } from '~/lib/schemas/sleeper';
+import type { Draft, DraftPick, DraftStatus } from '~/lib/schemas/draft';
+import type {
+  SleeperDraft,
+  SleeperDraftPick,
+  SleeperLeague,
+  SleeperLeagueUser,
+  SleeperPlayer,
+  SleeperRoster,
+} from '~/lib/schemas/sleeper';
 
 /**
  * Sleeper's shapes -> ours. Everything here is pure and tested against committed
@@ -241,6 +249,108 @@ export function rosterToEntries(
   };
 }
 
+/* --------------------------------- draft --------------------------------- */
+
+/**
+ * Overall pick numbers for a given draft slot.
+ *
+ * Snake drafts reverse every other round, which is exactly the arithmetic people
+ * get wrong under pressure — and in a startup, knowing that your picks are
+ * 7, 18, 31, 42 rather than 7, 19, 31, 43 changes who you plan to take.
+ * Linear drafts do not reverse. Auctions have no pick numbers at all.
+ */
+export function pickNumbersForSlot(
+  slot: number,
+  teams: number,
+  rounds: number,
+  type: string,
+): number[] {
+  if (slot < 1 || slot > teams || teams < 1 || rounds < 1) return [];
+  if (type.includes('auction')) return [];
+
+  const snake = !type.includes('linear');
+  const picks: number[] = [];
+  for (let round = 1; round <= rounds; round += 1) {
+    const reversed = snake && round % 2 === 0;
+    const positionInRound = reversed ? teams - slot + 1 : slot;
+    picks.push((round - 1) * teams + positionInRound);
+  }
+  return picks;
+}
+
+const DRAFT_STATUS_MAP: Record<string, DraftStatus> = {
+  pre_draft: 'pre_draft',
+  drafting: 'drafting',
+  paused: 'paused',
+  complete: 'complete',
+};
+
+export interface DraftInput {
+  draft: SleeperDraft;
+  picks: SleeperDraftPick[];
+  /** This manager's Sleeper user id — how we find their slot in draft_order. */
+  userId: string;
+  rosterId: number | null;
+  /** Resolves a Sleeper player id to our slug, for picks already made. */
+  sleeperIdToPlayerId?: Map<string, string>;
+}
+
+export function toDraft(input: DraftInput): Draft {
+  const { draft, picks, userId, rosterId } = input;
+
+  const teams = Number(draft.settings.teams ?? 12) || 12;
+  const rounds = Number(draft.settings.rounds ?? 1) || 1;
+  const type = draft.type ?? '';
+
+  // Sleeper gives the slot two ways; draft_order is keyed by user, which is the
+  // one that survives a roster id changing hands.
+  const fromOrder = draft.draft_order?.[userId];
+  const fromSlots =
+    rosterId === null
+      ? undefined
+      : Object.entries(draft.slot_to_roster_id ?? {}).find(([, r]) => r === rosterId)?.[0];
+  const myDraftSlot = fromOrder ?? (fromSlots ? Number(fromSlots) : null) ?? null;
+
+  const mappedPicks: DraftPick[] = picks
+    .map((p) => ({
+      pick: p.pick_no,
+      round: p.round,
+      slot: p.draft_slot,
+      rosterId: p.roster_id ?? null,
+      playerId: p.player_id
+        ? (input.sleeperIdToPlayerId?.get(p.player_id) ?? null)
+        : null,
+      playerName: [p.metadata?.first_name, p.metadata?.last_name].filter(Boolean).join(' '),
+      pos: p.metadata?.position ?? '',
+      nflTeam: (p.metadata?.team ?? '').toUpperCase(),
+      mine: rosterId !== null && p.roster_id === rosterId,
+    }))
+    .sort((a, b) => a.pick - b.pick);
+
+  return {
+    draftId: draft.draft_id,
+    status: DRAFT_STATUS_MAP[draft.status] ?? 'none',
+    type,
+    startTime:
+      typeof draft.start_time === 'number' && draft.start_time > 0
+        ? new Date(draft.start_time).toISOString()
+        : null,
+    teams,
+    rounds,
+    myDraftSlot,
+    myPicks: myDraftSlot ? pickNumbersForSlot(myDraftSlot, teams, rounds, type) : [],
+    picks: mappedPicks,
+  };
+}
+
+/** Team name lives on the league user, not the league. */
+export function teamNameFor(users: SleeperLeagueUser[], userId: string): string | null {
+  const me = users.find((u) => u.user_id === userId);
+  if (!me) return null;
+  const named = me.metadata?.team_name?.trim();
+  return named || me.display_name?.trim() || null;
+}
+
 /* --------------------------------- FAAB ---------------------------------- */
 
 /**
@@ -331,17 +441,34 @@ export function applySleeperToTeam(previous: Team, input: SyncInput): SyncResult
     .map((t) => t.id);
 
   // Slot ids change with the league's roster settings, so a target pointing at a
-  // slot that no longer exists gets reattached to the first slot that can hold
-  // its position rather than silently failing referential integrity.
-  const slotIds = new Set(format.rosterSlots.map((s) => s.id));
+  // slot that no longer exists is reattached rather than left dangling.
+  //
+  // Match on slot KIND first. Matching on position eligibility alone moved the
+  // superflex QB targets onto QB1 the first time the real league synced, because
+  // that format calls the slot `superflex-1` rather than `sflex-1` — technically
+  // eligible, but it silently changed what the target meant.
+  const slotById = new Map(format.rosterSlots.map((s) => [s.id, s]));
+  const previousSlotKind = new Map(previous.format.rosterSlots.map((s) => [s.id, s.kind]));
   const playerPos = new Map(input.players.map((p) => [p.id, p.pos]));
+
   const targets = previous.targets.map((target) => {
-    if (slotIds.has(target.slotId)) return target;
+    if (slotById.has(target.slotId)) return target;
+
+    const oldKind = previousSlotKind.get(target.slotId);
+    const sameKind = oldKind && format.rosterSlots.find((s) => s.kind === oldKind);
+    if (sameKind) return { ...target, slotId: sameKind.id };
+
     const pos = playerPos.get(target.playerId);
-    const fallback = format.rosterSlots.find(
-      (s) => pos && eligibleFor(s.kind).includes(pos),
-    );
-    return fallback ? { ...target, slotId: fallback.id } : target;
+    const eligible = format.rosterSlots.find((s) => pos && eligibleFor(s.kind).includes(pos));
+    if (eligible) return { ...target, slotId: eligible.id };
+
+    // Last resort: the bench, which can hold anyone. Reached when the target's
+    // player is not in the player file at all — a target for someone outside the
+    // league, say. Leaving the target pointing at a slot that no longer exists
+    // would break referential integrity and fail the build, which is a worse
+    // outcome than filing it on the bench for a human to re-slot.
+    const bench = format.rosterSlots.find((s) => s.kind === 'BN') ?? format.rosterSlots[0];
+    return bench ? { ...target, slotId: bench.id } : target;
   });
 
   return {

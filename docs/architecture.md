@@ -113,8 +113,13 @@ GitHub Pages, project-scoped at `https://jnthns.github.io/loop/`. That means
 - `.github/workflows/pages.yml` — on push to `main`: `scripts/check.sh`, build,
   deploy `dist/`.
 - `.github/workflows/refresh.yml` — on a 6-hourly cron: sync Sleeper, fetch news,
-  run the check, and commit only what changed under `data/`. That push triggers
-  `pages.yml`, so a data refresh and a deploy are one pipeline.
+  run the check, and commit only what changed under `data/`.
+
+**The refresh does not deploy by pushing.** GitHub does not trigger workflows
+from pushes made with `GITHUB_TOKEN` (anti-recursion), so `pages.yml` chains off
+`refresh` with a `workflow_run` trigger instead, guarded on a successful
+conclusion. This was learned the hard way: for six hours the repo committed real
+news that the live site could not see, because the push-only trigger never fired.
 - `.github/workflows/verify.yml` — on every push and PR: the same
   `scripts/check.sh` the loop runs.
 

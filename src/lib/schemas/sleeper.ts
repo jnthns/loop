@@ -92,7 +92,49 @@ export const SleeperTrendingSchema = z.array(
   z.object({ player_id: z.string(), count: z.number() }),
 );
 
+/** A league member. Sleeper carries the team name here, not on the league. */
+export const SleeperLeagueUserSchema = z.object({
+  user_id: z.string(),
+  display_name: z.string().optional(),
+  metadata: z.looseObject({ team_name: z.string().optional() }).nullable().optional(),
+});
+
+export const SleeperDraftSchema = z.object({
+  draft_id: z.string(),
+  status: z.string(),
+  type: z.string().optional(),
+  season: z.string().optional(),
+  /** Epoch milliseconds. */
+  start_time: z.number().nullable().optional(),
+  settings: z.record(z.string(), z.number()).default({}),
+  /** user_id -> draft slot (1-indexed). */
+  draft_order: z.record(z.string(), z.number()).nullable().optional(),
+  /** draft slot -> roster_id. */
+  slot_to_roster_id: z.record(z.string(), z.number()).nullable().optional(),
+});
+
+export const SleeperDraftPickSchema = z.object({
+  pick_no: z.number(),
+  round: z.number(),
+  draft_slot: z.number(),
+  roster_id: z.number().nullable().optional(),
+  player_id: z.string().nullable().optional(),
+  picked_by: z.string().nullable().optional(),
+  metadata: z
+    .looseObject({
+      first_name: z.string().optional(),
+      last_name: z.string().optional(),
+      position: z.string().optional(),
+      team: z.string().optional(),
+    })
+    .nullable()
+    .optional(),
+});
+
 export type SleeperLeague = z.infer<typeof SleeperLeagueSchema>;
 export type SleeperRoster = z.infer<typeof SleeperRosterSchema>;
 export type SleeperPlayer = z.infer<typeof SleeperPlayerSchema>;
 export type SleeperTrending = z.infer<typeof SleeperTrendingSchema>;
+export type SleeperLeagueUser = z.infer<typeof SleeperLeagueUserSchema>;
+export type SleeperDraft = z.infer<typeof SleeperDraftSchema>;
+export type SleeperDraftPick = z.infer<typeof SleeperDraftPickSchema>;

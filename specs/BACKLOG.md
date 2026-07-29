@@ -34,28 +34,30 @@ letting them rot.
   unset, so nothing has adversarially graded the work; `specs/spec.md` §10 says
   the build is not done until it has. (size: S · check: `CHECKER_CMD=... scripts/verify.sh`
   prints APPROVE, then the `ALL TASKS DONE` sentinel goes in)
-- [P0] **Verify the live synced roster slot for slot.** The first live sync ran
-  and mapped the real league — which has no taxi or IR slots — but the run failed
-  on coupled tests before the commit step, so nothing landed. (size: S · check:
-  after a green `refresh.yml`, `data/team.json` matches the Sleeper app slot for
-  slot, and `/team` renders it)
 - [P0] **Replace the fixture-era `tier` and `notes` on synced players.** The sync
-  fills `tier` from `defaultTier()` — age and position only. That is a placeholder
-  judgement presented in the same field as a real one. (size: M · check: every
-  rostered player has a hand- or loop-written note; no default tiers on starters)
+  fills `tier` from `defaultTier()` — age and position only — and 48 of the 56
+  synced players have an empty `notes`. That is a placeholder judgement sitting
+  in the same field as a real one. (size: M · check: no shortlisted player
+  retains a default tier with an empty note)
+- [P0] **Confirm the draft data matches Sleeper.** `data/draft.json` will be
+  populated by the next live sync; the mapping is proven only against fixtures.
+  (size: S · check: draft date, type, and your slot match the Sleeper app, and
+  the first pick number equals your slot)
 
 ## P1 — next up
 
-- [P1] **Replace remaining seed player notes and tiers.** Sleeper supplies name,
-  team, and age; `tier` and `notes` are still defaults from `defaultTier()`.
-  (size: M · check: no player retains a default note; spot-check ten rows)
+- [P1] **A real draft board.** The shortlist is 8 targets; a startup is 26 rounds.
+  A tiered board you can work down live — filter by position, mark players gone,
+  see who is left in each tier — is the thing you would actually have open on
+  draft night. (size: L · check: board renders every rostered-eligible player by
+  tier, and marking one gone removes it everywhere)
+- [P1] **Rookie-pick assets.** Dynasty rosters hold future picks; `data/team.json`
+  has no concept of one, so trade capital is invisible. (size: M · check: picks
+  render as assets with schema + component tests)
 - [P1] **League transactions view.** Sleeper exposes trades and waiver claims per
   week — seeing what the league just did is most of scouting your leaguemates.
-  (size: M · check: `/team` or a new route lists the last N transactions with a
-  schema test over a fixture)
-- [P1] **Rookie-pick assets on the roster.** Dynasty rosters hold future picks;
-  `data/team.json` currently has no concept of one. (size: M · check: picks
-  render as assets and count toward trade capital, with schema + component tests)
+  (size: M · check: a route lists the last N transactions with a schema test over
+  a fixture)
 
 ## P2 — worth doing
 

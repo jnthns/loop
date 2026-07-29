@@ -69,8 +69,10 @@ knowledge library that grows every pass.
   project-scoped, so every internal link goes through `import.meta.env.BASE_URL`.
   Push to `main` runs `.github/workflows/pages.yml` (check → build → deploy).
 - **News freshness:** committed snapshot + CI cron.
-  `.github/workflows/refresh.yml` runs the fetch on a schedule, commits
-  `data/news.json` only when it changed, and that push redeploys Pages.
+  `.github/workflows/refresh.yml` runs the fetch on a schedule and commits
+  `data/*.json` only when it changed. `pages.yml` then deploys via a
+  `workflow_run` trigger — **not** via the push, because GitHub does not trigger
+  workflows from `GITHUB_TOKEN` pushes.
   **Builds must never require network** — sandboxes and forks block egress.
 - **Data location:** `data/*.json` is committed and is the source of truth, so
   the loop can read the real roster and tailor advice. The UI writes edits to

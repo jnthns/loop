@@ -1,10 +1,16 @@
 import {
+  SleeperDraftPickSchema,
+  SleeperDraftSchema,
   SleeperLeagueSchema,
+  SleeperLeagueUserSchema,
   SleeperRosterSchema,
   SleeperStateSchema,
   SleeperTrendingSchema,
   SleeperUserSchema,
+  type SleeperDraft,
+  type SleeperDraftPick,
   type SleeperLeague,
+  type SleeperLeagueUser,
   type SleeperPlayer,
   type SleeperRoster,
   type SleeperTrending,
@@ -92,6 +98,21 @@ export function getAllPlayers(): Promise<Record<string, SleeperPlayer>> {
     }
     return out;
   });
+}
+
+/** League members — the only place Sleeper carries a team name. */
+export function getLeagueUsers(leagueId: string): Promise<SleeperLeagueUser[]> {
+  return get(`/league/${leagueId}/users`, (raw) => SleeperLeagueUserSchema.array().parse(raw));
+}
+
+/** Drafts for a league, newest first. A league may have none. */
+export function getDrafts(leagueId: string): Promise<SleeperDraft[]> {
+  return get(`/league/${leagueId}/drafts`, (raw) => SleeperDraftSchema.array().parse(raw));
+}
+
+/** Picks made so far. Empty before a draft starts. */
+export function getDraftPicks(draftId: string): Promise<SleeperDraftPick[]> {
+  return get(`/draft/${draftId}/picks`, (raw) => SleeperDraftPickSchema.array().parse(raw));
 }
 
 /** League-wide adds or drops in the last N hours — market signal, not news. */

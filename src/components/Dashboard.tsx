@@ -3,6 +3,8 @@ import type { Player } from '~/lib/schemas/players';
 import type { Team } from '~/lib/schemas/team';
 import type { Alert, FacetCoverage } from '~/lib/insights/cross-reference';
 import type { Trending, TrendingPlayer } from '~/lib/schemas/trending';
+import type { Draft } from '~/lib/schemas/draft';
+import { draftSummary } from '~/lib/schemas/draft';
 import { relativeTime } from '~/lib/time';
 
 export interface DashboardProps {
@@ -18,6 +20,14 @@ export interface DashboardProps {
   trending?: Trending;
   /** Player ids on the roster, used to flag market moves that concern you. */
   rosteredPlayerIds?: string[];
+  /** The league's draft, when Sleeper knows about one. */
+  draft?: Draft;
+  /**
+   * True when no roster slot is filled. Passed explicitly rather than inferred
+   * from `rosteredPlayerIds`, which is about flagging news and would read an
+   * omitted prop as an empty roster.
+   */
+  rosterEmpty?: boolean;
   now?: Date;
 }
 
@@ -37,6 +47,8 @@ export function Dashboard({
   newsCount,
   trending,
   rosteredPlayerIds = [],
+  draft,
+  rosterEmpty = false,
   now,
 }: DashboardProps) {
   const owned = new Set(rosteredPlayerIds);
@@ -150,8 +162,12 @@ export function Dashboard({
       <section aria-labelledby="next" data-testid="roster-section">
         <SectionHead
           id="next"
-          title="Roster to-do"
-          note="Open slots and the top alternative for each priority need."
+          title={rosterEmpty ? 'Draft to-do' : 'Roster to-do'}
+          note={
+            draft && draft.status !== 'none'
+              ? draftSummary(draft)
+              : 'Open slots and the top alternative for each priority need.'
+          }
           link={{ href: links.team, label: 'My team' }}
         />
         <div className="grid gap-6 sm:grid-cols-2">
@@ -159,6 +175,20 @@ export function Dashboard({
             <h3 className="label mb-1.5">Open slots</h3>
             {openSlots.length === 0 ? (
               <p className="text-[13px] text-muted">Every slot is filled.</p>
+            ) : rosterEmpty ? (
+              // Listing 26 empty slots one per line is noise, and it implies the
+              // roster is broken rather than undrafted.
+              <p className="text-[13px]" data-testid="open-slots-summary">
+                <span className="font-medium" data-numeric>
+                  All {openSlots.length}
+                </span>{' '}
+                <span className="text-muted">
+                  — the draft has not happened yet.
+                  {draft && draft.myDraftSlot
+                    ? ` You pick ${draft.myDraftSlot} of ${draft.teams}.`
+                    : ''}
+                </span>
+              </p>
             ) : (
               <ul className="text-[13px]" data-testid="open-slots">
                 {openSlots.map((slot) => (
@@ -170,7 +200,7 @@ export function Dashboard({
             )}
           </div>
           <div>
-            <h3 className="label mb-1.5">Top targets</h3>
+            <h3 className="label mb-1.5">{rosterEmpty ? 'Shortlist' : 'Top targets'}</h3>
             {topTargets.length === 0 ? (
               <p className="text-[13px] text-muted">No targets listed.</p>
             ) : (

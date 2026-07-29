@@ -183,4 +183,32 @@ describe('Dashboard', () => {
     mount({ gaps: [] });
     expect(screen.getByText('Every facet has recent coverage.')).toBeInTheDocument();
   });
+
+  it('summarizes open slots instead of listing 26 of them before a draft', () => {
+    mount({
+      rosterEmpty: true,
+      draft: {
+        draftId: 'd1',
+        status: 'pre_draft',
+        type: 'snake',
+        startTime: null,
+        teams: 12,
+        rounds: 26,
+        myDraftSlot: 7,
+        myPicks: [7, 18],
+        picks: [],
+      },
+    });
+    expect(screen.queryByTestId('open-slots')).not.toBeInTheDocument();
+    const summary = screen.getByTestId('open-slots-summary');
+    expect(summary).toHaveTextContent(/the draft has not happened yet/i);
+    expect(summary).toHaveTextContent('You pick 7 of 12');
+    expect(screen.getByRole('heading', { name: /Draft to-do/ })).toBeInTheDocument();
+  });
+
+  it('keeps the per-slot list once the roster has players', () => {
+    mount({ rosterEmpty: false });
+    expect(screen.getByTestId('open-slots')).toBeInTheDocument();
+    expect(screen.queryByTestId('open-slots-summary')).not.toBeInTheDocument();
+  });
 });

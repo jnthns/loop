@@ -4,8 +4,12 @@ name: refresh
 #
 # Every six hours it pulls the real league from Sleeper and the latest news from
 # RSS + ESPN, commits whatever actually changed under data/, and pushes to main.
-# That push triggers pages.yml, so a data refresh and a deploy are one pipeline.
 # Builds and tests stay hermetic: they only ever read the committed snapshot.
+#
+# The deploy is chained via a `workflow_run` trigger in pages.yml, NOT by this
+# job's push. Pushes made with GITHUB_TOKEN do not trigger workflows — GitHub's
+# anti-recursion safeguard — so relying on the push meant six hours of committed
+# news never reached the site. Do not "simplify" pages.yml back to push-only.
 #
 # Cost: this repo is public, so Actions minutes are unlimited. Even on the
 # private-repo free tier this would be ~4 runs/day x ~2 min = well under the
