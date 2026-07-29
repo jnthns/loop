@@ -1,3 +1,4 @@
+import { isFantasyRelevant } from '~/lib/news/normalize';
 import type { NewsItem } from '~/lib/schemas/news';
 
 export interface MergeOptions {
@@ -36,6 +37,7 @@ export function mergeNews(
   const cutoff = now.getTime() - maxAgeDays * DAY;
 
   return [...byId.values()]
+    .filter((item) => isFantasyRelevant(item))
     .filter((item) => {
       const at = new Date(item.publishedAt).getTime();
       return Number.isNaN(at) ? true : at >= cutoff;
