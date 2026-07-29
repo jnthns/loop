@@ -1,10 +1,10 @@
 {
-  "draftId": null,
-  "status": "none",
-  "type": "",
-  "startTime": null,
+  "draftId": "1355043174896136192",
+  "status": "pre_draft",
+  "type": "snake",
+  "startTime": "2026-08-14T15:00:29.000Z",
   "teams": 12,
-  "rounds": 1,
+  "rounds": 30,
   "myDraftSlot": null,
   "myPicks": [],
   "picks": []
