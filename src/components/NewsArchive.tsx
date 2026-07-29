@@ -56,13 +56,15 @@ export function NewsArchive({ items, watchedPlayerIds = [], now }: NewsArchivePr
     options: [string, number][],
     onChange: (v: string) => void,
   ) => (
-    <label className="flex flex-col gap-1">
+    <label className="flex min-w-0 flex-col gap-1">
       <span className="label">{label}</span>
       <select
         aria-label={label}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="border border-line bg-surface px-2 py-1.5 text-sm"
+        className={`rounded-[0.375rem] border bg-surface px-2 py-1.5 text-sm ${
+          value ? 'border-tone-line font-semibold text-tone' : 'border-line'
+        }`}
       >
         <option value={ALL}>All</option>
         {options.map(([option, count]) => (
@@ -75,8 +77,8 @@ export function NewsArchive({ items, watchedPlayerIds = [], now }: NewsArchivePr
   );
 
   return (
-    <div>
-      <div className="mb-4 flex flex-wrap items-end gap-3 border border-line bg-surface-alt p-3">
+    <div data-tone="amber">
+      <div className="card mb-5 flex flex-wrap items-end gap-3 p-3">
         {select('Source', filter.source, sources, (source) => setFilter((f) => ({ ...f, source })))}
         {select('Tag', filter.tag, tags, (tag) => setFilter((f) => ({ ...f, tag })))}
         {select('Team', filter.team, teams, (team) => setFilter((f) => ({ ...f, team })))}
@@ -85,6 +87,7 @@ export function NewsArchive({ items, watchedPlayerIds = [], now }: NewsArchivePr
             type="checkbox"
             checked={filter.mineOnly}
             onChange={(e) => setFilter((f) => ({ ...f, mineOnly: e.target.checked }))}
+            className="accent-[var(--tone)]"
           />
           My players only
         </label>
@@ -92,24 +95,28 @@ export function NewsArchive({ items, watchedPlayerIds = [], now }: NewsArchivePr
           <button
             type="button"
             onClick={() => setFilter({ source: ALL, tag: ALL, team: ALL, mineOnly: false })}
-            className="pb-1.5 text-sm text-accent hover:underline"
+            className="section-link pb-1.5"
           >
             Reset
           </button>
         )}
-        <p className="ml-auto pb-1.5 text-xs text-muted" data-testid="result-count" data-numeric>
+        <p
+          className="ml-auto pb-1.5 text-xs font-semibold text-muted"
+          data-testid="result-count"
+          data-numeric
+        >
           {visible.length} of {items.length}
         </p>
       </div>
 
       {visible.length === 0 ? (
-        <p className="border border-line border-dashed p-6 text-sm text-muted">
+        <p className="empty">
           {items.length === 0
             ? 'No news on file yet. The news-refresh loop populates data/news.json on a schedule.'
             : 'No items match these filters.'}
         </p>
       ) : (
-        <ul className="divide-y divide-line border-y border-line">
+        <ul className="rows">
           {visible.map((item) => {
             const mine = item.players.some((p) => watched.has(p));
             return (
@@ -117,22 +124,39 @@ export function NewsArchive({ items, watchedPlayerIds = [], now }: NewsArchivePr
                 key={item.id}
                 data-testid="archive-item"
                 data-relevant={mine ? 'true' : 'false'}
-                className={mine ? 'border-l-2 border-l-accent pl-3' : 'pl-3'}
+                className={mine ? 'border-l-[3px] border-l-tone bg-tone-soft/40' : ''}
               >
-                <a href={item.url} target="_blank" rel="noreferrer" className="block py-3 group">
-                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block px-3.5 py-3 hover:bg-surface-alt"
+                >
+                  <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
                     <span className="label">{item.source}</span>
-                    <time dateTime={item.publishedAt} className="text-[11px] text-muted" data-numeric>
+                    <time
+                      dateTime={item.publishedAt}
+                      className="text-[11px] text-muted"
+                      data-numeric
+                    >
                       {relativeTime(item.publishedAt, now)}
                     </time>
-                    {mine && <span className="text-[11px] font-semibold text-accent">your player</span>}
+                    {mine && <span className="chip chip-tone">your player</span>}
                   </div>
-                  <p className="mt-0.5 text-sm font-medium group-hover:underline">{item.title}</p>
+                  <p className="mt-1 text-[0.9375rem] font-semibold group-hover:underline">
+                    {item.title}
+                  </p>
                   {item.summary && (
                     <p className="mt-1 max-w-3xl text-[13px] text-muted">{item.summary}</p>
                   )}
                   {item.tags.length > 0 && (
-                    <p className="mt-1 text-[11px] text-muted">{item.tags.join(' · ')}</p>
+                    <p className="mt-1.5 flex flex-wrap gap-1">
+                      {item.tags.map((tag) => (
+                        <span key={tag} className="chip">
+                          {tag}
+                        </span>
+                      ))}
+                    </p>
                   )}
                 </a>
               </li>

@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import { getFacet } from '~/lib/knowledge/facets';
+import { facetTone } from '~/lib/ui/tone';
 import { href } from '~/lib/url';
 import { absoluteDate, daysSince } from '~/lib/time';
 
@@ -18,46 +19,61 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 const facet = getFacet(entry.data.facet);
 const age = daysSince(entry.data.updated);
+const tone = facetTone(entry.data.facet);
 ---
 
-<BaseLayout title={entry.data.title} lede={entry.data.summary}>
-  <p class="mb-5 flex flex-wrap gap-x-2 text-xs">
-    <a href={href('/knowledge')} class="text-accent hover:underline">Knowledge</a>
+<BaseLayout
+  title={entry.data.title}
+  lede={entry.data.summary}
+  tone={tone}
+  eyebrow={facet?.title ?? entry.data.facet}
+>
+  <p class="mb-5 flex flex-wrap items-center gap-x-2 text-xs">
+    <a href={href('/knowledge')} class="section-link">Knowledge</a>
     <span class="text-muted">/</span>
-    <a href={href(`/knowledge/${entry.data.facet}`)} class="text-accent hover:underline">
+    <a href={href(`/knowledge/${entry.data.facet}`)} class="section-link">
       {facet?.title ?? entry.data.facet}
     </a>
   </p>
 
   <dl
     data-testid="article-meta"
-    class="mb-6 grid grid-cols-2 gap-x-6 gap-y-2 border border-line bg-surface-alt p-3 sm:grid-cols-4"
+    class="card-tone mb-7 grid grid-cols-2 divide-line sm:grid-cols-4 sm:divide-x"
   >
-    <div>
+    <div class="px-3 py-2.5">
       <dt class="label">Facet</dt>
-      <dd class="text-sm">{facet?.title ?? entry.data.facet}</dd>
+      <dd class="mt-0.5 text-sm font-semibold text-tone">{facet?.title ?? entry.data.facet}</dd>
     </div>
-    <div>
+    <div class="px-3 py-2.5">
       <dt class="label">Confidence</dt>
-      <dd class="text-sm">{entry.data.confidence}</dd>
+      <dd class="mt-0.5 text-sm font-semibold">{entry.data.confidence}</dd>
     </div>
-    <div>
+    <div class="px-3 py-2.5">
       <dt class="label">Updated</dt>
-      <dd class="text-sm" data-numeric>{absoluteDate(entry.data.updated)}</dd>
+      <dd class="mt-0.5 text-sm font-semibold" data-numeric>{absoluteDate(entry.data.updated)}</dd>
     </div>
-    <div>
+    <div class="px-3 py-2.5">
       <dt class="label">Age</dt>
-      <dd class="text-sm" data-numeric>{Number.isFinite(age) ? `${age}d` : '—'}</dd>
+      <dd class="mt-0.5 text-sm font-semibold" data-numeric>
+        {Number.isFinite(age) ? `${age}d` : '—'}
+      </dd>
     </div>
   </dl>
 
-  <article class="prose-article text-[15px]">
+  <article class="prose-article text-[15.5px]">
     <Content />
   </article>
 
-  <section class="mt-10 border-t border-line pt-5" data-testid="sources">
-    <h2 class="label mb-2">Sources ({entry.data.sources.length})</h2>
-    <ol class="space-y-1 text-[13px]">
+  <section class="mt-12" data-testid="sources" aria-labelledby="sources-heading">
+    <div class="section-head">
+      <div class="section-head__row">
+        <h2 id="sources-heading" class="section-head__title">
+          Sources
+          <span class="badge" data-numeric>{entry.data.sources.length}</span>
+        </h2>
+      </div>
+    </div>
+    <ol class="rows text-[13px]">
       {
         entry.data.sources.map((source) => (
           <li>
@@ -65,7 +81,7 @@ const age = daysSince(entry.data.updated);
               href={source.url}
               target="_blank"
               rel="noreferrer"
-              class="text-accent hover:underline"
+              class="block px-3 py-2 font-semibold text-tone hover:bg-surface-alt hover:underline"
             >
               {source.label}
             </a>
@@ -82,7 +98,11 @@ const age = daysSince(entry.data.updated);
 
   {
     entry.data.tags.length > 0 && (
-      <p class="mt-6 text-[11px] text-muted">{entry.data.tags.join(' · ')}</p>
+      <p class="mt-7 flex flex-wrap gap-1">
+        {entry.data.tags.map((tag) => (
+          <span class="chip">{tag}</span>
+        ))}
+      </p>
     )
   }
 </BaseLayout>

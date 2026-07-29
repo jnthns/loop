@@ -27,103 +27,141 @@ const priorities = ['P0', 'P1', 'P2', 'P3'];
   title="Progress"
   lede="What the loop has finished, what it does next, and what is queued behind that."
 >
-  <section aria-labelledby="plan" class="mb-10">
-    <div class="mb-3 flex flex-wrap items-baseline justify-between gap-x-3 border-b border-line pb-1.5">
-      <h2 id="plan" class="text-sm font-semibold">Plan</h2>
-      <span class="label" data-testid="plan-total" data-numeric>
-        {plan.done}/{plan.total} tasks · {plan.percent}%
-      </span>
+  <section aria-labelledby="plan" class="mb-12" data-tone="teal">
+    <div class="section-head">
+      <div class="section-head__row">
+        <h2 id="plan" class="section-head__title">Plan</h2>
+        <span class="chip chip-tone" data-testid="plan-total" data-numeric>
+          {plan.done}/{plan.total} tasks · {plan.percent}%
+        </span>
+      </div>
     </div>
 
-    <div class="mb-4 h-1.5 w-full bg-surface-alt" aria-hidden="true">
-      <div class="h-full bg-accent" style={`width: ${plan.percent}%`}></div>
+    <div class="card mb-5 p-3.5">
+      <div class="mb-2 flex items-baseline justify-between">
+        <span class="label">Overall</span>
+        <span class="text-lg font-bold text-tone" data-numeric>{plan.percent}%</span>
+      </div>
+      <div class="meter" aria-hidden="true">
+        <div class="meter__fill" style={`width: ${plan.percent}%`}></div>
+      </div>
     </div>
 
-    <table class="w-full text-sm">
-      <thead>
-        <tr class="border-b border-line text-left">
-          <th class="label py-1.5">Phase</th>
-          <th class="label w-20 py-1.5">Done</th>
-          <th class="label w-40 py-1.5">Progress</th>
-        </tr>
-      </thead>
-      <tbody>
-        {
-          plan.phases.map((phase) => (
-            <tr class="border-b border-line" data-testid="phase-row">
-              <td class="py-1.5">
-                {phase.title}
-                {phase.next && (
-                  <span class="block text-[12px] text-muted">Next: {phase.next}</span>
-                )}
-              </td>
-              <td class="py-1.5" data-numeric>
-                {phase.done}/{phase.total}
-              </td>
-              <td class="py-1.5">
-                <div class="h-1.5 w-full bg-surface-alt">
-                  <div
-                    class={phase.done === phase.total ? 'h-full bg-good' : 'h-full bg-accent'}
-                    style={`width: ${phase.total === 0 ? 0 : Math.round((phase.done / phase.total) * 100)}%`}
-                  />
-                </div>
-              </td>
-            </tr>
-          ))
-        }
-      </tbody>
-    </table>
+    <div class="rows overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b border-line bg-surface-alt text-left">
+            <th class="label px-3 py-2">Phase</th>
+            <th class="label w-20 px-3 py-2">Done</th>
+            <th class="label w-40 px-3 py-2">Progress</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            plan.phases.map((phase) => {
+              const complete = phase.done === phase.total;
+              return (
+                <tr
+                  class="border-b border-line last:border-b-0"
+                  data-testid="phase-row"
+                  data-tone={complete ? 'green' : 'teal'}
+                >
+                  <td class="px-3 py-2">
+                    <span class="font-semibold">{phase.title}</span>
+                    {phase.next && (
+                      <span class="block text-[12px] text-muted">Next: {phase.next}</span>
+                    )}
+                  </td>
+                  <td class="px-3 py-2" data-numeric>
+                    <span class="badge">
+                      {phase.done}/{phase.total}
+                    </span>
+                  </td>
+                  <td class="px-3 py-2">
+                    <div class="meter">
+                      <div
+                        class="meter__fill"
+                        style={`width: ${phase.total === 0 ? 0 : Math.round((phase.done / phase.total) * 100)}%`}
+                      />
+                    </div>
+                  </td>
+                </tr>
+              );
+            })
+          }
+        </tbody>
+      </table>
+    </div>
 
-    <p class="mt-3 text-[13px]" data-testid="next-task">
-      <span class="label">Next task</span>{' '}
+    <p class="card-tone mt-4 p-3 text-[13px]" data-testid="next-task" data-tone="orange">
+      <span class="label text-tone">Next task</span>{' '}
       {plan.nextTask ?? 'Nothing unchecked in the plan.'}
     </p>
   </section>
 
-  <section aria-labelledby="backlog" class="mb-10">
-    <div class="mb-3 flex flex-wrap items-baseline justify-between gap-x-3 border-b border-line pb-1.5">
-      <h2 id="backlog" class="text-sm font-semibold">Backlog</h2>
-      <span class="label" data-numeric>{backlog.items.length} queued</span>
+  <section aria-labelledby="backlog" class="mb-12" data-tone="violet">
+    <div class="section-head">
+      <div class="section-head__row">
+        <h2 id="backlog" class="section-head__title">
+          Backlog
+          <span class="badge" data-numeric>{backlog.items.length}</span>
+        </h2>
+      </div>
+      <p class="section-head__note">
+        Nothing moves from here into the plan without a named mechanical check — if you cannot
+        say what would prove it done, it is not ready to schedule.
+      </p>
     </div>
-    <p class="mb-3 max-w-2xl text-[13px] text-muted">
-      Nothing moves from here into the plan without a named mechanical check — if
-      you cannot say what would prove it done, it is not ready to schedule.
-    </p>
 
-    {
-      priorities.map((priority) => {
-        const items = backlog.items.filter((i) => i.priority === priority);
-        if (items.length === 0) return null;
-        return (
-          <div class="mb-4" data-testid="backlog-group" data-priority={priority}>
-            <h3 class="label mb-1.5">
-              {priority} · {PRIORITY_NOTE[priority]} ({items.length})
-            </h3>
-            <ul class="text-[13px]">
-              {items.map((item) => (
-                <li class="border-b border-line py-1.5" data-testid="backlog-item">
-                  <span class="font-medium">{item.title}</span>
-                  {item.detail && <span class="block text-muted">{item.detail}</span>}
-                </li>
-              ))}
-            </ul>
-          </div>
-        );
-      })
-    }
+    <div class="space-y-4">
+      {
+        priorities.map((priority) => {
+          const items = backlog.items.filter((i) => i.priority === priority);
+          if (items.length === 0) return null;
+          const tone =
+            priority === 'P0'
+              ? 'rose'
+              : priority === 'P1'
+                ? 'orange'
+                : priority === 'P2'
+                  ? 'amber'
+                  : 'slate';
+          return (
+            <div class="card-tone" data-testid="backlog-group" data-priority={priority} data-tone={tone}>
+              <div class="panel-head">
+                <h3 class="panel-title text-[0.8125rem]">
+                  {priority} · {PRIORITY_NOTE[priority]}
+                </h3>
+                <span class="badge" data-numeric>{items.length}</span>
+              </div>
+              <ul class="divide-y divide-line text-[13px]">
+                {items.map((item) => (
+                  <li class="px-3 py-2" data-testid="backlog-item">
+                    <span class="font-semibold">{item.title}</span>
+                    {item.detail && <span class="mt-0.5 block text-muted">{item.detail}</span>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        })
+      }
+    </div>
   </section>
 
-  <section aria-labelledby="passes">
-    <div class="mb-3 flex flex-wrap items-baseline justify-between gap-x-3 border-b border-line pb-1.5">
-      <h2 id="passes" class="text-sm font-semibold">Recorded passes</h2>
-      <span class="label" data-testid="sentinel">
-        {status.allTasksDone ? 'ALL TASKS DONE' : 'build in progress'}
-      </span>
+  <section aria-labelledby="passes" data-tone={status.allTasksDone ? 'green' : 'blue'}>
+    <div class="section-head">
+      <div class="section-head__row">
+        <h2 id="passes" class="section-head__title">Recorded passes</h2>
+        <span class="chip chip-tone" data-testid="sentinel">
+          {status.allTasksDone ? 'ALL TASKS DONE' : 'build in progress'}
+        </span>
+      </div>
     </div>
-    <ol class="text-[13px]">
+    <ol class="rows text-[13px]">
       {
         status.passes.map((pass) => (
-          <li class="border-b border-line py-1.5" data-testid="pass">
+          <li class="px-3 py-2" data-testid="pass">
             {pass}
           </li>
         ))
