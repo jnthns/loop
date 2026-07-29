@@ -34,39 +34,41 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
 
 ## Phase 2 — Data layer
 
-- [ ] Add Zod schemas in `src/lib/schemas/` for feeds, news, players, team,
+- [x] Add Zod schemas in `src/lib/schemas/` for feeds, news, players, team,
       insights. (check: unit test per schema — valid parses, invalid throws)
-- [ ] Add seed `data/feeds.json`, `data/players.json`, `data/team.json`,
+- [x] Add seed `data/feeds.json`, `data/players.json`, `data/team.json`,
       empty `data/news.json` and `data/insights.json`. (check: schema tests
       validate every committed data file)
-- [ ] Add typed data loaders in `src/lib/data/` that parse at import time.
+- [x] Add typed data loaders in `src/lib/data/` that parse at import time.
       (check: unit test — a malformed fixture throws with a useful message)
-- [ ] Configure the `knowledge` content collection with the frontmatter contract
+- [x] Configure the `knowledge` content collection with the frontmatter contract
       and the fixed facet list in `src/lib/knowledge/facets.ts`. (check:
       collection schema test; unknown facet rejected)
 
 ## Phase 3 — App shell
 
-- [ ] Build `BaseLayout.astro`: nav rail + main column + right news panel,
+- [x] Build `BaseLayout.astro`: nav rail + main column + right news panel,
       dark-mode-aware tokens, dense typographic scale. (check: build passes;
       layout test asserts all three regions)
-- [ ] Build `NewsPanel` island rendering newest items with source + relative
+- [x] Build `NewsPanel` island rendering newest items with source + relative
       time. (check: component test renders N items, newest first)
-- [ ] Make the panel a drawer below `lg` with a toggle. (check: component test
+- [x] Make the panel a drawer below `lg` with a toggle. (check: component test
       on open/close state)
 
 ## Phase 4 — News pipeline
 
-- [ ] Add `scripts/fetch-news.ts` with `fast-xml-parser`: RSS + Atom → normalized
+- [x] Add `scripts/fetch-news.ts` with `fast-xml-parser`: RSS + Atom → normalized
       items, stable id from canonical URL. (check: unit tests over
-      `tests/fixtures/rss.xml` and `atom.xml`, offline)
-- [ ] Add merge/dedupe + retention cap in `src/lib/news/merge.ts`. (check: unit
+      `tests/fixtures/espn-nfl.xml` (RSS) and `reddit-dynastyff.xml` (Atom), offline)
+- [x] Add merge/dedupe + retention cap in `src/lib/news/merge.ts`. (check: unit
       test — same fixture twice yields no duplicate ids; cap enforced)
-- [ ] Add `--fixtures` offline mode and `npm run news:fetch`. (check: running it
-      offline writes a schema-valid `data/news.json`)
-- [ ] Build `/news` archive with source/tag/team filters. (check: component test
+- [x] Add `--fixtures` offline mode and `npm run news:fetch`. (check: running it
+      offline parses and validates without network. `--fixtures` implies
+      `--dry-run` — fixture headlines are invented, and committing them would put
+      fake news in front of a reader.)
+- [x] Build `/news` archive with source/tag/team filters. (check: component test
       filters narrow the list)
-- [ ] Add `.github/workflows/news.yml` — cron + `workflow_dispatch`, commit only
+- [x] Add `.github/workflows/news.yml` — cron + `workflow_dispatch`, commit only
       on change. (check: `workflow_dispatch` present; commit step guarded by
       `git diff --quiet`)
 

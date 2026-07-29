@@ -1,0 +1,101 @@
+---
+import '~/styles/global.css';
+import NewsPanel from '~/components/NewsPanel';
+import { href, isActive } from '~/lib/url';
+import { newsByDate, team } from '~/lib/data';
+
+interface Props {
+  title: string;
+  /** Short line under the page title — what this page is for. */
+  lede?: string;
+}
+
+const { title, lede } = Astro.props;
+const path = Astro.url.pathname;
+
+const NAV = [
+  { label: 'Dashboard', path: '/', hint: 'What changed' },
+  { label: 'My team', path: '/team', hint: 'Roster, targets, budget' },
+  { label: 'Knowledge', path: '/knowledge', hint: 'Dynasty playbook' },
+  { label: 'News', path: '/news', hint: 'Full archive' },
+];
+
+// Players the manager owns or is chasing — the news panel flags these.
+const watchedPlayerIds = [
+  ...team.roster.map((r) => r.playerId).filter((id): id is string => Boolean(id)),
+  ...team.targets.map((t) => t.playerId),
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A dynasty fantasy football guide that compounds." />
+    <link rel="icon" href={href('/favicon.svg')} type="image/svg+xml" />
+    <title>{title} · Dynasty Guide</title>
+  </head>
+  <body class="min-h-screen">
+    <div class="mx-auto grid min-h-screen max-w-[1500px] grid-cols-1 lg:grid-cols-[13rem_minmax(0,1fr)_20rem]">
+      <!-- Nav: top bar on small screens, left rail from lg. -->
+      <header
+        class="sticky top-0 z-20 border-b border-line bg-surface lg:static lg:border-r lg:border-b-0"
+      >
+        <div class="flex items-center gap-4 px-4 py-3 lg:block lg:px-4 lg:py-5">
+          <a href={href('/')} class="block shrink-0">
+            <span class="block text-sm font-semibold tracking-tight">Dynasty Guide</span>
+            <span class="hidden text-[11px] text-muted lg:block">{team.teamName} · {team.leagueName}</span>
+          </a>
+          <nav aria-label="Main" class="min-w-0 flex-1 lg:mt-6">
+            <ul class="flex gap-1 overflow-x-auto lg:block lg:space-y-0.5 lg:overflow-visible">
+              {
+                NAV.map((item) => {
+                  const active = isActive(path, item.path);
+                  return (
+                    <li>
+                      <a
+                        href={href(item.path)}
+                        aria-current={active ? 'page' : undefined}
+                        class:list={[
+                          'block whitespace-nowrap px-2.5 py-1.5 text-sm lg:px-2',
+                          active
+                            ? 'bg-accent-soft font-semibold text-accent lg:border-l-2 lg:border-accent'
+                            : 'text-muted hover:text-ink lg:border-l-2 lg:border-transparent',
+                        ]}
+                      >
+                        {item.label}
+                        <span class="hidden text-[11px] font-normal text-muted lg:block">
+                          {item.hint}
+                        </span>
+                      </a>
+                    </li>
+                  );
+                })
+              }
+            </ul>
+          </nav>
+          <p class="hidden pt-6 text-[11px] leading-relaxed text-muted lg:block">
+            Built by a loop. Every claim in the knowledge base cites a source; every
+            suggestion cites a news item.
+          </p>
+        </div>
+      </header>
+
+      <main class="min-w-0 px-5 py-6 lg:px-8 lg:py-8">
+        <div class="mb-6 border-b border-line pb-4">
+          <h1 class="text-xl font-semibold tracking-tight">{title}</h1>
+          {lede && <p class="mt-1 max-w-2xl text-sm text-muted">{lede}</p>}
+        </div>
+        <slot />
+      </main>
+
+      <NewsPanel
+        client:load
+        items={newsByDate.slice(0, 40)}
+        watchedPlayerIds={watchedPlayerIds}
+        archiveHref={href('/news')}
+      />
+    </div>
+  </body>
+</html>

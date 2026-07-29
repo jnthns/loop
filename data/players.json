@@ -1,0 +1,209 @@
+[
+  {
+    "id": "josh-allen",
+    "name": "Josh Allen",
+    "pos": "QB",
+    "nflTeam": "BUF",
+    "age": 30,
+    "tier": "win-now",
+    "notes": "Rushing floor is the whole dynasty case at QB; that floor is also what ages first."
+  },
+  {
+    "id": "jayden-daniels",
+    "name": "Jayden Daniels",
+    "pos": "QB",
+    "nflTeam": "WAS",
+    "age": 26,
+    "tier": "cornerstone",
+    "notes": "Dual-threat on a rookie contract — the archetype superflex leagues price highest."
+  },
+  {
+    "id": "caleb-williams",
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "nflTeam": "CHI",
+    "age": 25,
+    "tier": "starter",
+    "notes": "Draft capital plus age; value swings hardest on scheme and supporting cast."
+  },
+  {
+    "id": "patrick-mahomes",
+    "name": "Patrick Mahomes",
+    "pos": "QB",
+    "nflTeam": "KC",
+    "age": 31,
+    "tier": "win-now",
+    "notes": "Elite production, shortening dynasty window. Classic sell-high-into-a-contender asset."
+  },
+  {
+    "id": "bo-nix",
+    "name": "Bo Nix",
+    "pos": "QB",
+    "nflTeam": "DEN",
+    "age": 26,
+    "tier": "depth",
+    "notes": "Startable superflex QB2 whose value is entirely format-dependent."
+  },
+  {
+    "id": "bijan-robinson",
+    "name": "Bijan Robinson",
+    "pos": "RB",
+    "nflTeam": "ATL",
+    "age": 24,
+    "tier": "cornerstone",
+    "notes": "Three-down back with receiving work — the only RB profile worth cornerstone pricing."
+  },
+  {
+    "id": "jahmyr-gibbs",
+    "name": "Jahmyr Gibbs",
+    "pos": "RB",
+    "nflTeam": "DET",
+    "age": 24,
+    "tier": "cornerstone",
+    "notes": "Receiving volume insulates him from the usual RB aging cliff."
+  },
+  {
+    "id": "saquon-barkley",
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "nflTeam": "PHI",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "Past the typical RB age curve. Production is real; the resale window is not."
+  },
+  {
+    "id": "devon-achane",
+    "name": "De'Von Achane",
+    "pos": "RB",
+    "nflTeam": "MIA",
+    "age": 25,
+    "tier": "starter",
+    "notes": "Efficiency-dependent profile; volume risk if the offense changes shape."
+  },
+  {
+    "id": "ashton-jeanty",
+    "name": "Ashton Jeanty",
+    "pos": "RB",
+    "nflTeam": "LV",
+    "age": 23,
+    "tier": "starter",
+    "notes": "First-round rookie capital at RB — the market prices this at its peak on day one."
+  },
+  {
+    "id": "jamarr-chase",
+    "name": "Ja'Marr Chase",
+    "pos": "WR",
+    "nflTeam": "CIN",
+    "age": 26,
+    "tier": "cornerstone",
+    "notes": "Peak-age alpha WR. In dynasty this is the asset class you overpay for and keep."
+  },
+  {
+    "id": "justin-jefferson",
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "nflTeam": "MIN",
+    "age": 27,
+    "tier": "cornerstone",
+    "notes": "Production independent of quarterback play — rare and worth a premium."
+  },
+  {
+    "id": "malik-nabers",
+    "name": "Malik Nabers",
+    "pos": "WR",
+    "nflTeam": "NYG",
+    "age": 23,
+    "tier": "cornerstone",
+    "notes": "Target share on a bad offense still compounds; age is doing the work here."
+  },
+  {
+    "id": "nico-collins",
+    "name": "Nico Collins",
+    "pos": "WR",
+    "nflTeam": "HOU",
+    "age": 27,
+    "tier": "starter",
+    "notes": "Late-breakout profile; the market discounts these relative to draft-capital darlings."
+  },
+  {
+    "id": "brian-thomas-jr",
+    "name": "Brian Thomas Jr.",
+    "pos": "WR",
+    "nflTeam": "JAX",
+    "age": 24,
+    "tier": "cornerstone",
+    "notes": "Early production plus age — the two inputs that actually predict WR dynasty value."
+  },
+  {
+    "id": "rome-odunze",
+    "name": "Rome Odunze",
+    "pos": "WR",
+    "nflTeam": "CHI",
+    "age": 24,
+    "tier": "depth",
+    "notes": "Draft capital without a target monopoly. A patience asset, not a producer yet."
+  },
+  {
+    "id": "puka-nacua",
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "nflTeam": "LAR",
+    "age": 25,
+    "tier": "starter",
+    "notes": "Volume-driven; the question is what the target share looks like post-Kupp era."
+  },
+  {
+    "id": "marvin-harrison-jr",
+    "name": "Marvin Harrison Jr.",
+    "pos": "WR",
+    "nflTeam": "ARI",
+    "age": 24,
+    "tier": "starter",
+    "notes": "Pedigree buy-low candidate whenever the market reacts to a slow stretch."
+  },
+  {
+    "id": "brock-bowers",
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "nflTeam": "LV",
+    "age": 24,
+    "tier": "cornerstone",
+    "notes": "Young TEs who produce immediately are the scarcest asset in dynasty."
+  },
+  {
+    "id": "trey-mcbride",
+    "name": "Trey McBride",
+    "pos": "TE",
+    "nflTeam": "ARI",
+    "age": 27,
+    "tier": "starter",
+    "notes": "Reception volume at TE — worth more in TE-premium formats than the consensus rank."
+  },
+  {
+    "id": "sam-laporta",
+    "name": "Sam LaPorta",
+    "pos": "TE",
+    "nflTeam": "DET",
+    "age": 25,
+    "tier": "starter",
+    "notes": "Efficient in a crowded offense; touchdown variance drives most of his perceived value."
+  },
+  {
+    "id": "brandon-aubrey",
+    "name": "Brandon Aubrey",
+    "pos": "K",
+    "nflTeam": "DAL",
+    "age": 31,
+    "tier": "depth",
+    "notes": "Kickers are not dynasty assets. Roster one, never trade for one."
+  },
+  {
+    "id": "den-def",
+    "name": "Denver Broncos D/ST",
+    "pos": "DEF",
+    "nflTeam": "DEN",
+    "age": 30,
+    "tier": "depth",
+    "notes": "Streaming asset. Age is a schema placeholder — team defenses do not have one."
+  }
+]

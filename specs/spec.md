@@ -31,8 +31,9 @@ knowledge library that grows every pass.
 1. A **news panel is present on every page**, rendering the newest items from
    `data/news.json` with source and timestamp.
 2. `scripts/fetch-news.ts` turns the feed registry in `data/feeds.json` into a
-   **schema-valid, deduped `data/news.json`**, and runs **offline against
-   fixtures** (`--fixtures`) so the build never needs network.
+   **schema-valid, deduped `data/news.json`**, and its parse/merge path runs
+   **offline against fixtures** (`--fixtures`, which implies `--dry-run`) so the
+   build never needs network.
 3. A **`/team` page** renders the roster by slot from `data/team.json`, shows
    **alternative players per slot**, and exposes **editable budget ledgers**
    (auction/cap and FAAB), persisting edits to `localStorage` with JSON export.
