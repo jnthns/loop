@@ -6,36 +6,51 @@
 
 ## Goal (current)
 
-Build the dynasty fantasy football guide described in `specs/spec.md`, working
-down `specs/PLAN.md` one task per pass.
+The dynasty fantasy football guide in `specs/spec.md` is built. Remaining work is
+verification and real data, not features.
 
 ## Last pass did
 
-- Retired the recipe generator product. Rewrote `specs/spec.md`, `specs/PLAN.md`,
-  `specs/STATUS.md`, and this file for the dynasty app. Harness untouched.
+- Added the three app loops (`news-refresh`, `knowledge-curator`,
+  `roster-review`), the `curate-knowledge` skill, and `tests/insights.test.ts`
+  so the roster-review citation contract is enforced before that loop ever runs.
 
 ## Evidence
 
-- `specs/spec.md` §6 holds 13 acceptance criteria, each with a named check.
-- `specs/PLAN.md` phases 0–8, all unchecked.
+- `scripts/check.sh`: typecheck 0 errors, `vitest run` 220/220, `astro build`
+  22 pages, `check.sh passed.`
+- `npm run news:fetch -- --fixtures`: 6 items in, 5 retained — dedupe verified
+  offline.
+- `dist/` internal links are all `/loop/`-prefixed.
 
 ## Blockers / needs a human
 
-- League format unconfirmed. Seed `data/team.json` assumes 12-team superflex,
-  1 PPR. Replace with the real settings when known — the loop's advice keys off
-  whatever is committed there.
-- League platform unconfirmed. Manual roster entry is the primary path; a keyless
-  Sleeper adapter is optional and additive.
+1. **The independent checker has not run.** `CHECKER_CMD` is unset. Until a
+   separate agent grades this work, the build is not done by the repo's own
+   definition and `ALL TASKS DONE` stays commented out in `specs/STATUS.md`.
+   Run `CHECKER_CMD="<agent> -p" scripts/verify.sh`.
+2. **No real news yet.** This environment's proxy blocks the feed hosts (403 on
+   CONNECT), so `data/news.json` is empty and the pipeline has only run against
+   fixtures. Trigger the `news` workflow (`workflow_dispatch`) once in CI to get
+   the first real snapshot; that push also redeploys Pages.
+3. **Seed data is placeholder.** `data/team.json` assumes a 12-team superflex,
+   1 PPR, +0.5 TE-premium league, and `data/players.json` carries ages as of
+   2026 / teams as of 2025. Replacing these with the real league is the highest
+   -value human edit in the repo — every suggestion keys off them. See
+   `data/README.md`.
+4. **This work is on `claude/repo-purpose-clarification-qrpg37`, not `main`.**
+   `AGENTS.md` §6 says deploy from `main`; merging is a human decision.
 
 ## Constraints worth re-reading before coding
 
-- **Builds must never require network.** Sandboxes and forks block egress; the
-  news fetch is a separate CI-cron step that commits `data/news.json`.
+- **Builds must never require network.** The news fetch is a separate CI job.
 - **No API keys anywhere.** The site is static and calls nothing at runtime.
-- `base: '/loop'` — every internal link goes through `import.meta.env.BASE_URL`,
-  or GitHub Pages 404s.
+- `base: '/loop'` — internal links go through `src/lib/url.ts` or Pages 404s.
+- **No uncited claims.** Knowledge articles need `sources[]`; insights
+  suggestions need a resolving `newsRefs`/`knowledgeRefs`. Both are tested.
 
 ## Next step
 
-- Phase 0: strip Gemini references from `.env.example`, `AGENTS.md`, `README.md`,
-  and replace `docs/plan.md` with the dynasty architecture doc.
+- Run the independent checker, then tick the last item in `specs/PLAN.md` and
+  append the sentinel — or fix whatever it rejects.
+- Then merge to `main` and dispatch the `news` workflow.

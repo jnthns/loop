@@ -30,6 +30,7 @@ Code and Codex discover `SKILL.md` files.
 | `write-a-loop`        | Author a new, trustworthy loop from the template.      |
 | `run-checks`          | Run the project's mechanical check the canonical way.  |
 | `commit-atomically`   | Make one small, reviewable, well-described commit.     |
+| `curate-knowledge`    | Write one sourced article into the knowledge base.     |
 
 To capture a new skill after a successful hard task, see `write-a-loop` for the
 extraction pattern (decisions, sequence, checks, failure-avoidance; strip secrets;

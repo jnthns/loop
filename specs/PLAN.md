@@ -106,15 +106,22 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
 
 ## Phase 8 — Loops, skills, ship
 
-- [ ] Add `loops/news-refresh.md`, `loops/knowledge-curator.md`,
+- [x] Add `loops/news-refresh.md`, `loops/knowledge-curator.md`,
       `loops/roster-review.md` per `loops/_template.md`. (check: each names all
       five parts and a mechanical check)
-- [ ] Add the `curate-knowledge` skill in `skills/`. (check: `SKILL.md` follows
-      the existing skill format)
-- [ ] Update `README.md` and `docs/` for the dynasty app + new loops. (check: no
-      dead links; quick start runs)
-- [ ] Final green pass: `scripts/check.sh` exits 0, checker approves, append
-      `ALL TASKS DONE` to `specs/STATUS.md`. (check: sentinel present)
+- [x] Add the citation-resolution test the `roster-review` loop promises, so its
+      contract is enforced before it ever writes. (check: `tests/insights.test.ts`
+      — dangling news/knowledge refs fail)
+- [x] Add the `curate-knowledge` skill in `skills/`. (check: `SKILL.md` follows
+      the existing skill format, frontmatter included)
+- [x] Update `README.md`, `loops/README.md`, `skills/README.md`, and `docs/` for
+      the dynasty app + new loops. (check: no dead relative links)
+- [ ] Final green pass: `scripts/check.sh` exits 0 **and an independent checker
+      approves**, then append `ALL TASKS DONE` to `specs/STATUS.md`. (check:
+      sentinel present). Blocked on the checker only — see `specs/STATUS.md`
+      Pass 4: the mechanical check is green, but `CHECKER_CMD` is unset, so no
+      independent agent has graded this work. Run
+      `CHECKER_CMD="<agent> -p" scripts/verify.sh` before ticking this.
 
 ---
 
