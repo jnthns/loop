@@ -1,7 +1,44 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '~/layouts/BaseLayout.astro';
+import Dashboard from '~/components/Dashboard';
+import { getPlayer, newsByDate, players, team } from '~/lib/data';
+import { coverageGaps, facetCoverage, openSlots, rosterAlerts } from '~/lib/insights/cross-reference';
+import { href } from '~/lib/url';
+
+const articles = await getCollection('knowledge');
+
+const alerts = rosterAlerts(newsByDate, team, players);
+const alertIds = new Set(alerts.map((a) => a.item.id));
+const digest = newsByDate.filter((item) => !alertIds.has(item.id)).slice(0, 8);
+
+const gaps = coverageGaps(
+  facetCoverage(articles.map((a) => ({ facet: a.data.facet, updated: a.data.updated }))),
+);
+
+const slotLabels = new Map(team.format.rosterSlots.map((s) => [s.id, s.label]));
+const topTargets = team.targets
+  .filter((t) => t.priority === 1)
+  .map((target) => ({
+    target,
+    player: getPlayer(target.playerId),
+    slotLabel: slotLabels.get(target.slotId) ?? target.slotId,
+  }));
 ---
 
-<BaseLayout title="Dashboard" lede="What changed since you last looked.">
-  <p class="text-sm text-muted">Dashboard sections land in a later pass.</p>
+<BaseLayout title="Dashboard" lede="What changed since you last looked, and what it means for your roster.">
+  <Dashboard
+    alerts={alerts}
+    digest={digest}
+    gaps={gaps}
+    openSlots={openSlots(team)}
+    topTargets={topTargets}
+    newsCount={newsByDate.length}
+    links={{
+      news: href('/news'),
+      team: href('/team'),
+      knowledge: href('/knowledge'),
+      facet: (id: string) => href(`/knowledge/${id}`),
+    }}
+  />
 </BaseLayout>

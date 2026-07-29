@@ -22,7 +22,7 @@ const knowledge = defineCollection({
       .array(
         z.object({
           label: z.string(),
-          url: z.string().url(),
+          url: z.url(),
         }),
       )
       .min(1, 'every knowledge article must cite at least one source'),

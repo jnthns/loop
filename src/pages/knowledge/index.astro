@@ -1,0 +1,68 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { FACETS } from '~/lib/knowledge/facets';
+import { href } from '~/lib/url';
+import { absoluteDate, daysSince } from '~/lib/time';
+
+const articles = await getCollection('knowledge');
+
+const facets = FACETS.map((facet) => {
+  const entries = articles
+    .filter((a) => a.data.facet === facet.id)
+    .sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime());
+  return { ...facet, entries, newest: entries[0]?.data.updated ?? null };
+});
+
+const total = articles.length;
+const thinnest = [...facets].sort((a, b) => a.entries.length - b.entries.length)[0];
+---
+
+<BaseLayout
+  title="Knowledge"
+  lede="The dynasty playbook, organized by facet. Written and revised by the loop; every article cites its sources."
+>
+  <p class="mb-6 text-xs text-muted">
+    {total} article{total === 1 ? '' : 's'} across {FACETS.length} facets
+    {
+      thinnest && thinnest.entries.length === 0 && (
+        <>
+          {' · '}thinnest coverage: <strong class="font-semibold">{thinnest.title}</strong>
+        </>
+      )
+    }
+  </p>
+
+  <ul class="grid gap-px border border-line bg-line sm:grid-cols-2">
+    {
+      facets.map((facet) => (
+        <li class="bg-surface" data-testid="facet-card" data-facet={facet.id}>
+          <a href={href(`/knowledge/${facet.id}`)} class="block h-full p-4 hover:bg-surface-alt">
+            <div class="flex items-baseline justify-between gap-3">
+              <h2 class="text-sm font-semibold">{facet.title}</h2>
+              <span class="label shrink-0" data-numeric>
+                {facet.entries.length}
+              </span>
+            </div>
+            <p class="mt-1 text-[13px] text-muted">{facet.blurb}</p>
+            <p class="mt-2 text-[11px] text-muted">
+              {facet.newest
+                ? `Updated ${absoluteDate(facet.newest)} · ${daysSince(facet.newest)}d ago`
+                : 'No articles yet — the curator loop fills gaps first.'}
+            </p>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <section class="mt-10 border-t border-line pt-5">
+    <h2 class="label mb-2">How this grows</h2>
+    <p class="max-w-2xl text-[13px] text-muted">
+      The <code class="font-mono">knowledge-curator</code> loop writes or revises exactly one
+      article per pass, starting with the thinnest or stalest facet, and grounds it in items
+      from the news archive. An article with no sources fails the build, so nothing here is
+      asserted without a citation.
+    </p>
+  </section>
+</BaseLayout>

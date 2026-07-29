@@ -74,34 +74,34 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
 
 ## Phase 5 — Team page
 
-- [ ] Build roster view grouped by slot from `data/team.json`. (check: component
+- [x] Build roster view grouped by slot from `data/team.json`. (check: component
       test — one row per slot, starters/bench grouped)
-- [ ] Build the alternatives/targets list per slot with rationale + priority.
+- [x] Build the alternatives/targets list per slot with rationale + priority.
       (check: component test — targets render under their slot)
-- [ ] Build editable budget ledgers (auction + FAAB) with
+- [x] Build editable budget ledgers (auction + FAAB) with
       `remaining = total − allocated`. (check: unit test on the math; component
       test on edit)
-- [ ] Add the localStorage overlay + JSON export. (check: round-trip test parses
+- [x] Add the localStorage overlay + JSON export. (check: round-trip test parses
       against `TeamSchema`)
 
 ## Phase 6 — Knowledge base
 
-- [ ] Build `/knowledge` facet index with article counts and last-updated.
+- [x] Build `/knowledge` facet index with article counts and last-updated.
       (check: route test lists all facets)
-- [ ] Build `/knowledge/[facet]` and `/knowledge/[facet]/[slug]` with sources,
+- [x] Build `/knowledge/[facet]` and `/knowledge/[facet]/[slug]` with sources,
       confidence, and updated date. (check: route test — facet page lists only
       its own articles)
-- [ ] Add the ≥1-source content test. (check: a sourceless fixture article fails
+- [x] Add the ≥1-source content test. (check: a sourceless fixture article fails
       the test)
-- [ ] Seed one substantive article per facet. (check: every facet has ≥1 article;
+- [x] Seed one substantive article per facet. (check: every facet has ≥1 article;
       facet index shows no empty facets)
 
 ## Phase 7 — Dashboard
 
-- [ ] Add the roster × news cross-reference selector in
+- [x] Add the roster × news cross-reference selector in
       `src/lib/insights/cross-reference.ts`. (check: unit test — fixture news
       mentioning a rostered player is flagged, others are not)
-- [ ] Build `/` dashboard: latest digest, roster alerts, stale-knowledge nudges.
+- [x] Build `/` dashboard: latest digest, roster alerts, stale-knowledge nudges.
       (check: component test renders all three sections)
 
 ## Phase 8 — Loops, skills, ship

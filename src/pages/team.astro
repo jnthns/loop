@@ -1,0 +1,12 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import TeamApp from '~/components/TeamApp';
+import { players, team } from '~/lib/data';
+---
+
+<BaseLayout
+  title="My team"
+  lede="The roster the loop reads. Slots, the alternatives worth chasing for each one, and what you have left to spend."
+>
+  <TeamApp client:load committed={team} players={players} />
+</BaseLayout>

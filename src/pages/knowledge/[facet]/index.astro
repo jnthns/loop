@@ -1,0 +1,60 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { FACETS } from '~/lib/knowledge/facets';
+import { href } from '~/lib/url';
+import { absoluteDate } from '~/lib/time';
+
+export const getStaticPaths = (async () => {
+  const articles = await getCollection('knowledge');
+  return FACETS.map((facet) => ({
+    params: { facet: facet.id },
+    props: {
+      facet,
+      entries: articles
+        .filter((a) => a.data.facet === facet.id)
+        .sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime()),
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { facet, entries } = Astro.props;
+---
+
+<BaseLayout title={facet.title} lede={facet.blurb}>
+  <p class="mb-4">
+    <a href={href('/knowledge')} class="text-xs text-accent hover:underline">← All facets</a>
+  </p>
+
+  {
+    entries.length === 0 ? (
+      <p class="border border-dashed border-line p-6 text-sm text-muted">
+        Nothing filed under this facet yet. The curator loop prioritizes empty facets.
+      </p>
+    ) : (
+      <ul class="divide-y divide-line border-y border-line">
+        {entries.map((entry) => (
+          <li data-testid="article-link" data-facet={entry.data.facet}>
+            <a
+              href={href(`/knowledge/${entry.id}`)}
+              class="group block py-3.5"
+            >
+              <div class="flex flex-wrap items-baseline gap-x-2">
+                <h2 class="text-sm font-semibold group-hover:underline">{entry.data.title}</h2>
+                <span class="label">{entry.data.confidence} confidence</span>
+                <time class="text-[11px] text-muted" datetime={entry.data.updated.toISOString()}>
+                  {absoluteDate(entry.data.updated)}
+                </time>
+              </div>
+              <p class="mt-1 max-w-3xl text-[13px] text-muted">{entry.data.summary}</p>
+              {entry.data.tags.length > 0 && (
+                <p class="mt-1 text-[11px] text-muted">{entry.data.tags.join(' · ')}</p>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</BaseLayout>
