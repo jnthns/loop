@@ -178,6 +178,17 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
       `pages #6` started with event `workflow_run` on that SHA — the missing hop,
       verified by watching it rather than by reading the YAML)
 
+## Phase 11 — Make it readable
+
+- [x] Give the app a color-coded visual system: a nine-family tone palette in
+      `src/styles/global.css` consumed through `--tone*`, one assignment table in
+      `src/lib/ui/tone.ts` (a tone per route and facet, a fixed hue per
+      position), prominent `.section-head` headers, a gradient page hero, and
+      cards/chips/meters in place of hairline rules. (check: `tests/tone.test.ts`
+      — every tone declared light and dark, every facet mapped to a distinct one,
+      every position given a hue; plus the existing role/name/testid suites still
+      green, which is what proves the restyle kept the semantics)
+
 ---
 
 <!--

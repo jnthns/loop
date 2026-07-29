@@ -16,30 +16,50 @@ const lastUpdated = newsByDate[0]?.publishedAt;
   title="News"
   lede="Every item the pipeline has gathered. The side panel is the condensed view of this same archive."
 >
-  <p class="mb-4 text-xs text-muted">
-    {enabledFeeds.length} feed{enabledFeeds.length === 1 ? '' : 's'} · {newsByDate.length} item{
-      newsByDate.length === 1 ? '' : 's'
-    } on file{lastUpdated ? ` · newest ${new Date(lastUpdated).toLocaleDateString('en-US')}` : ''}
+  <p class="mb-5 flex flex-wrap gap-1.5">
+    <span class="chip chip-tone">
+      {enabledFeeds.length} feed{enabledFeeds.length === 1 ? '' : 's'}
+    </span>
+    <span class="chip">
+      {newsByDate.length} item{newsByDate.length === 1 ? '' : 's'} on file
+    </span>
+    {
+      lastUpdated && (
+        <span class="chip">newest {new Date(lastUpdated).toLocaleDateString('en-US')}</span>
+      )
+    }
   </p>
 
   <NewsArchive client:load items={newsByDate} watchedPlayerIds={watchedPlayerIds} />
 
-  <section class="mt-10 border-t border-line pt-5">
-    <h2 class="label mb-2">Sources</h2>
-    <ul class="grid gap-1 text-sm sm:grid-cols-2">
+  <section class="mt-12" aria-labelledby="sources" data-tone="teal">
+    <div class="section-head">
+      <div class="section-head__row">
+        <h2 id="sources" class="section-head__title">
+          Sources
+          <span class="badge" data-numeric>{enabledFeeds.length}</span>
+        </h2>
+      </div>
+      <p class="section-head__note">
+        Edit <code class="font-mono">data/feeds.json</code> to add or park a source.
+      </p>
+    </div>
+    <ul class="grid gap-2 text-sm sm:grid-cols-2">
       {
         enabledFeeds.map((feed) => (
-          <li class="flex items-baseline justify-between gap-3 border-b border-line py-1">
-            <a href={feed.url} target="_blank" rel="noreferrer" class="hover:underline">
-              {feed.name}
+          <li class="card card-link">
+            <a
+              href={feed.url}
+              target="_blank"
+              rel="noreferrer"
+              class="flex items-center justify-between gap-3 px-3 py-2"
+            >
+              <span class="font-semibold hover:underline">{feed.name}</span>
+              <span class="chip chip-tone">{feed.category}</span>
             </a>
-            <span class="label">{feed.category}</span>
           </li>
         ))
       }
     </ul>
-    <p class="mt-3 text-xs text-muted">
-      Edit <code class="font-mono">data/feeds.json</code> to add or park a source.
-    </p>
   </section>
 </BaseLayout>

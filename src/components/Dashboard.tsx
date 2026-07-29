@@ -6,6 +6,8 @@ import type { Trending, TrendingPlayer } from '~/lib/schemas/trending';
 import type { Draft } from '~/lib/schemas/draft';
 import { draftSummary } from '~/lib/schemas/draft';
 import { relativeTime } from '~/lib/time';
+import { facetTone } from '~/lib/ui/tone';
+import { Chip, EmptyState, PosTag, SectionHead } from '~/components/ui/Primitives';
 
 export interface DashboardProps {
   alerts: Alert[];
@@ -34,6 +36,9 @@ export interface DashboardProps {
 /**
  * The dashboard answers one question: what changed that concerns me?
  *
+ * Each section owns a tone — alerts rose, news amber, market orange, roster
+ * green, knowledge violet — so a long scroll stays navigable by color alone.
+ *
  * Rendered without a client directive — it is static HTML in production, and a
  * plain function to test.
  */
@@ -53,10 +58,11 @@ export function Dashboard({
 }: DashboardProps) {
   const owned = new Set(rosteredPlayerIds);
   return (
-    <div className="space-y-10">
+    <div className="space-y-12">
       <section aria-labelledby="alerts" data-testid="alerts-section">
         <SectionHead
           id="alerts"
+          tone="rose"
           title="Roster alerts"
           note="News mentioning players you own or are chasing."
           count={alerts.length}
@@ -72,33 +78,40 @@ export function Dashboard({
             Nothing in the last 30 days mentions your players. That is usually good news.
           </EmptyState>
         ) : (
-          <ul className="divide-y divide-line border-y border-line">
+          <ul className="rows">
             {alerts.map(({ item, matches, relation }) => (
               <li
                 key={item.id}
                 data-testid="alert"
                 data-relation={relation}
-                className={`border-l-2 pl-3 ${
-                  relation === 'rostered' ? 'border-l-accent' : 'border-l-line-strong'
-                }`}
+                data-tone={relation === 'rostered' ? 'rose' : 'amber'}
+                className="border-l-[3px] border-l-tone"
               >
-                <a href={item.url} target="_blank" rel="noreferrer" className="group block py-3">
-                  <div className="flex flex-wrap items-baseline gap-x-2">
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block px-3.5 py-3 hover:bg-surface-alt"
+                >
+                  <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                    <Chip tone={relation === 'rostered' ? 'rose' : 'amber'}>
+                      {relation === 'rostered' ? 'on your roster' : 'a target'}
+                    </Chip>
                     <span className="label">{item.source}</span>
                     <time dateTime={item.publishedAt} className="text-[11px] text-muted">
                       {relativeTime(item.publishedAt, now)}
                     </time>
-                    <span
-                      className={`text-[11px] font-semibold ${
-                        relation === 'rostered' ? 'text-accent' : 'text-muted'
-                      }`}
-                    >
-                      {relation === 'rostered' ? 'on your roster' : 'a target'}
-                    </span>
                   </div>
-                  <p className="mt-0.5 text-sm font-medium group-hover:underline">{item.title}</p>
-                  <p className="mt-0.5 text-[12px] text-muted">
-                    {matches.map((m) => m.player.name).join(', ')}
+                  <p className="mt-1 text-[0.9375rem] font-semibold group-hover:underline">
+                    {item.title}
+                  </p>
+                  <p className="mt-1 flex flex-wrap gap-1.5">
+                    {matches.map((m) => (
+                      <span key={m.player.id} className="chip">
+                        {m.player.name}
+                        <PosTag pos={m.player.pos} className="ml-0.5" />
+                      </span>
+                    ))}
                   </p>
                 </a>
               </li>
@@ -110,6 +123,7 @@ export function Dashboard({
       <section aria-labelledby="digest" data-testid="digest-section">
         <SectionHead
           id="digest"
+          tone="amber"
           title="Latest news"
           note="Everything else the pipeline picked up."
           count={digest.length}
@@ -121,17 +135,26 @@ export function Dashboard({
             scheduled refresh.
           </EmptyState>
         ) : (
-          <ul className="divide-y divide-line border-y border-line">
+          <ul className="rows" data-tone="amber">
             {digest.map((item) => (
               <li key={item.id} data-testid="digest-item">
-                <a href={item.url} target="_blank" rel="noreferrer" className="group block py-2.5">
-                  <div className="flex flex-wrap items-baseline gap-x-2">
-                    <span className="label">{item.source}</span>
-                    <time dateTime={item.publishedAt} className="text-[11px] text-muted">
-                      {relativeTime(item.publishedAt, now)}
-                    </time>
-                  </div>
-                  <p className="mt-0.5 text-[13px] group-hover:underline">{item.title}</p>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group flex items-baseline gap-3 px-3.5 py-2.5 hover:bg-surface-alt"
+                >
+                  <time
+                    dateTime={item.publishedAt}
+                    className="w-10 shrink-0 text-[11px] font-semibold text-tone"
+                    data-numeric
+                  >
+                    {relativeTime(item.publishedAt, now)}
+                  </time>
+                  <span className="min-w-0">
+                    <span className="block text-[13.5px] group-hover:underline">{item.title}</span>
+                    <span className="label mt-0.5 block">{item.source}</span>
+                  </span>
                 </a>
               </li>
             ))}
@@ -142,6 +165,7 @@ export function Dashboard({
       <section aria-labelledby="market" data-testid="market-section">
         <SectionHead
           id="market"
+          tone="orange"
           title="League market"
           note="What Sleeper managers added and dropped in the last 24 hours. Counts, not analysis — nobody wrote these."
           count={(trending?.adds.length ?? 0) + (trending?.drops.length ?? 0)}
@@ -152,9 +176,21 @@ export function Dashboard({
             <code className="font-mono">sync:sleeper</code> run.
           </EmptyState>
         ) : (
-          <div className="grid gap-6 sm:grid-cols-2">
-            <TrendingList title="Most added" rows={trending.adds} owned={owned} testid="trending-adds" />
-            <TrendingList title="Most dropped" rows={trending.drops} owned={owned} testid="trending-drops" />
+          <div className="grid gap-5 sm:grid-cols-2">
+            <TrendingList
+              title="Most added"
+              tone="green"
+              rows={trending.adds}
+              owned={owned}
+              testid="trending-adds"
+            />
+            <TrendingList
+              title="Most dropped"
+              tone="rose"
+              rows={trending.drops}
+              owned={owned}
+              testid="trending-drops"
+            />
           </div>
         )}
       </section>
@@ -162,6 +198,7 @@ export function Dashboard({
       <section aria-labelledby="next" data-testid="roster-section">
         <SectionHead
           id="next"
+          tone="green"
           title={rosterEmpty ? 'Draft to-do' : 'Roster to-do'}
           note={
             draft && draft.status !== 'none'
@@ -170,16 +207,16 @@ export function Dashboard({
           }
           link={{ href: links.team, label: 'My team' }}
         />
-        <div className="grid gap-6 sm:grid-cols-2">
-          <div>
-            <h3 className="label mb-1.5">Open slots</h3>
+        <div className="grid gap-5 sm:grid-cols-2">
+          <div className="card-tone p-3.5" data-tone="slate">
+            <h3 className="label mb-2">Open slots</h3>
             {openSlots.length === 0 ? (
               <p className="text-[13px] text-muted">Every slot is filled.</p>
             ) : rosterEmpty ? (
               // Listing 26 empty slots one per line is noise, and it implies the
               // roster is broken rather than undrafted.
               <p className="text-[13px]" data-testid="open-slots-summary">
-                <span className="font-medium" data-numeric>
+                <span className="text-lg font-bold text-tone" data-numeric>
                   All {openSlots.length}
                 </span>{' '}
                 <span className="text-muted">
@@ -190,25 +227,26 @@ export function Dashboard({
                 </span>
               </p>
             ) : (
-              <ul className="text-[13px]" data-testid="open-slots">
+              <ul className="flex flex-wrap gap-1.5 text-[13px]" data-testid="open-slots">
                 {openSlots.map((slot) => (
-                  <li key={slot.slotId} className="border-b border-line py-1">
+                  <li key={slot.slotId} className="chip">
                     {slot.label}
                   </li>
                 ))}
               </ul>
             )}
           </div>
-          <div>
-            <h3 className="label mb-1.5">{rosterEmpty ? 'Shortlist' : 'Top targets'}</h3>
+          <div className="card-tone p-3.5" data-tone="green">
+            <h3 className="label mb-2">{rosterEmpty ? 'Shortlist' : 'Top targets'}</h3>
             {topTargets.length === 0 ? (
               <p className="text-[13px] text-muted">No targets listed.</p>
             ) : (
-              <ul className="text-[13px]" data-testid="top-targets">
+              <ul className="space-y-1.5 text-[13px]" data-testid="top-targets">
                 {topTargets.map(({ target, player, slotLabel }) => (
-                  <li key={target.id} className="border-b border-line py-1">
-                    <span className="font-medium">{player?.name ?? target.playerId}</span>{' '}
-                    <span className="text-muted">for {slotLabel}</span>
+                  <li key={target.id} className="flex items-center gap-2">
+                    <PosTag pos={player?.pos} />
+                    <span className="font-semibold">{player?.name ?? target.playerId}</span>
+                    <span className="ml-auto text-[11px] text-muted">{slotLabel}</span>
                   </li>
                 ))}
               </ul>
@@ -220,6 +258,7 @@ export function Dashboard({
       <section aria-labelledby="coverage" data-testid="coverage-section">
         <SectionHead
           id="coverage"
+          tone="violet"
           title="Knowledge gaps"
           note="Where the curator loop should write next."
           count={gaps.length}
@@ -228,15 +267,20 @@ export function Dashboard({
         {gaps.length === 0 ? (
           <EmptyState>Every facet has recent coverage.</EmptyState>
         ) : (
-          <ul className="grid gap-px border border-line bg-line sm:grid-cols-2">
+          <ul className="grid gap-3 sm:grid-cols-2">
             {gaps.map((gap) => (
-              <li key={gap.id} data-testid="gap" data-reason={gap.reason} className="bg-surface">
-                <a href={links.facet(gap.id)} className="block p-3 hover:bg-surface-alt">
+              <li
+                key={gap.id}
+                data-testid="gap"
+                data-reason={gap.reason}
+                data-tone={facetTone(gap.id)}
+              >
+                <a href={links.facet(gap.id)} className="card-tone card-link block h-full p-3.5">
                   <div className="flex items-baseline justify-between gap-2">
-                    <span className="text-sm font-medium">{gap.title}</span>
-                    <span className="label">{gap.reason}</span>
+                    <span className="text-sm font-bold">{gap.title}</span>
+                    <span className="chip chip-tone">{gap.reason}</span>
                   </div>
-                  <p className="mt-0.5 text-[12px] text-muted">
+                  <p className="mt-1 text-[12px] text-muted">
                     {gap.count === 0
                       ? 'No articles yet'
                       : `${gap.count} article${gap.count === 1 ? '' : 's'} · oldest gap ${gap.ageDays}d`}
@@ -256,35 +300,49 @@ function TrendingList({
   rows,
   owned,
   testid,
+  tone,
 }: {
   title: string;
   rows: TrendingPlayer[];
   owned: Set<string>;
   testid: string;
+  tone: 'green' | 'rose';
 }) {
+  const top = rows.slice(0, 10);
+  const max = Math.max(1, ...top.map((r) => r.count));
   return (
-    <div>
-      <h3 className="label mb-1.5">{title}</h3>
-      {rows.length === 0 ? (
-        <p className="text-[13px] text-muted">Nothing in this window.</p>
+    <div className="card-tone" data-tone={tone}>
+      <div className="panel-head">
+        <h3 className="panel-title text-[0.8125rem]">{title}</h3>
+        <span className="label">adds/drops · 24h</span>
+      </div>
+      {top.length === 0 ? (
+        <p className="p-3.5 text-[13px] text-muted">Nothing in this window.</p>
       ) : (
-        <ul className="text-[13px]" data-testid={testid}>
-          {rows.slice(0, 10).map((row) => {
+        <ul className="divide-y divide-line text-[13px]" data-testid={testid}>
+          {top.map((row) => {
             const mine = row.playerId !== null && owned.has(row.playerId);
             return (
               <li
                 key={row.sleeperId}
                 data-testid="trending-row"
                 data-mine={mine ? 'true' : 'false'}
-                className="flex items-baseline justify-between gap-2 border-b border-line py-1"
+                className={`relative flex items-center gap-2 px-3 py-1.5 ${
+                  mine ? 'bg-tone-soft' : ''
+                }`}
               >
-                <span className={mine ? 'font-semibold text-accent' : ''}>
+                {/* A count bar, not a chart — relative volume at a glance. */}
+                <span
+                  aria-hidden="true"
+                  className="absolute inset-y-0 left-0 bg-tone-soft/60"
+                  style={{ width: `${Math.round((row.count / max) * 100)}%` }}
+                />
+                <PosTag pos={row.pos} className="relative" />
+                <span className={`relative min-w-0 truncate ${mine ? 'font-bold text-tone' : ''}`}>
                   {row.name}
-                  <span className="ml-1.5 text-muted">
-                    {row.pos} · {row.nflTeam}
-                  </span>
+                  <span className="ml-1.5 text-[11px] text-muted">{row.nflTeam}</span>
                 </span>
-                <span className="shrink-0 text-muted" data-numeric>
+                <span className="relative ml-auto shrink-0 font-semibold text-muted" data-numeric>
                   {row.count.toLocaleString('en-US')}
                 </span>
               </li>
@@ -293,45 +351,6 @@ function TrendingList({
         </ul>
       )}
     </div>
-  );
-}
-
-function SectionHead({
-  id,
-  title,
-  note,
-  count,
-  link,
-}: {
-  id: string;
-  title: string;
-  note: string;
-  count?: number;
-  link?: { href: string; label: string };
-}) {
-  return (
-    <div className="mb-2 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 border-b border-line pb-1.5">
-      <h2 id={id} className="text-sm font-semibold">
-        {title}
-        {count !== undefined && (
-          <span className="ml-2 text-xs font-normal text-muted" data-numeric>
-            {count}
-          </span>
-        )}
-      </h2>
-      {link && (
-        <a href={link.href} className="text-xs text-accent hover:underline">
-          {link.label}
-        </a>
-      )}
-      <p className="w-full text-[12px] text-muted">{note}</p>
-    </div>
-  );
-}
-
-function EmptyState({ children }: { children: React.ReactNode }) {
-  return (
-    <p className="border border-dashed border-line p-4 text-[13px] text-muted">{children}</p>
   );
 }
 

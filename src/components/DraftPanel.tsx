@@ -1,5 +1,6 @@
 import type { Draft } from '~/lib/schemas/draft';
 import { draftSummary } from '~/lib/schemas/draft';
+import { PosTag } from '~/components/ui/Primitives';
 
 export interface DraftPanelProps {
   draft: Draft;
@@ -21,7 +22,9 @@ export function DraftPanel({ draft, rosterSize, auctionTotal }: DraftPanelProps)
   const scheduled = draft.startTime ? new Date(draft.startTime) : null;
   const isAuction = draft.type.includes('auction');
   const perPick =
-    auctionTotal && rosterSize && rosterSize > 0 ? Math.round((auctionTotal / rosterSize) * 100) / 100 : null;
+    auctionTotal && rosterSize && rosterSize > 0
+      ? Math.round((auctionTotal / rosterSize) * 100) / 100
+      : null;
 
   const facts: [string, string][] = [
     ['Status', draft.status.replace('_', '-')],
@@ -46,14 +49,16 @@ export function DraftPanel({ draft, rosterSize, auctionTotal }: DraftPanelProps)
     <section
       data-testid="draft-panel"
       data-status={draft.status}
+      data-tone="violet"
       aria-labelledby="draft-heading"
-      className="border border-line"
+      className="card-tone"
     >
-      <div className="flex flex-wrap items-baseline justify-between gap-x-3 border-b border-line bg-surface-alt px-3 py-2">
-        <h2 id="draft-heading" className="text-sm font-semibold">
+      <div className="panel-head">
+        <h2 id="draft-heading" className="panel-title flex items-center gap-2">
+          <span className="size-2 rounded-full bg-tone" aria-hidden="true" />
           Draft
         </h2>
-        <p className="text-[12px] text-muted">{draftSummary(draft)}</p>
+        <p className="text-[12px] font-semibold text-tone">{draftSummary(draft)}</p>
       </div>
 
       {draft.status === 'none' ? (
@@ -64,11 +69,11 @@ export function DraftPanel({ draft, rosterSize, auctionTotal }: DraftPanelProps)
         </p>
       ) : (
         <>
-          <dl className="grid grid-cols-2 gap-x-6 gap-y-2 p-3 sm:grid-cols-3 lg:grid-cols-6">
+          <dl className="grid grid-cols-2 divide-line sm:grid-cols-3 lg:grid-cols-6 lg:divide-x">
             {facts.map(([label, value]) => (
-              <div key={label}>
+              <div key={label} className="px-3 py-2.5">
                 <dt className="label">{label}</dt>
-                <dd className="text-sm font-medium" data-numeric>
+                <dd className="mt-0.5 text-[0.9375rem] font-bold" data-numeric>
                   {value}
                 </dd>
               </div>
@@ -77,22 +82,24 @@ export function DraftPanel({ draft, rosterSize, auctionTotal }: DraftPanelProps)
 
           {draft.myPicks.length > 0 && (
             <div className="border-t border-line p-3">
-              <h3 className="label mb-1.5">Your picks</h3>
+              <h3 className="label mb-2">Your picks</h3>
               <ol className="flex flex-wrap gap-1.5" data-testid="my-picks">
                 {draft.myPicks.map((pick, i) => (
                   <li
                     key={pick}
-                    className="border border-line px-1.5 py-0.5 text-[12px]"
+                    className="rounded-[0.375rem] border border-tone-line bg-tone-soft px-1.5 py-0.5 text-[12px] font-bold text-tone"
                     data-numeric
                     title={`Round ${i + 1}`}
                   >
-                    <span className="text-muted">R{i + 1}</span> {pick}
+                    <span className="opacity-70">R{i + 1}</span> {pick}
                   </li>
                 ))}
               </ol>
               <p className="mt-2 text-[12px] text-muted">
                 Overall pick numbers, one per round
-                {draft.type.includes('snake') ? ' — snake order, so every other round reverses' : ''}
+                {draft.type.includes('snake')
+                  ? ' — snake order, so every other round reverses'
+                  : ''}
                 .
               </p>
             </div>
@@ -101,7 +108,9 @@ export function DraftPanel({ draft, rosterSize, auctionTotal }: DraftPanelProps)
           {isAuction && perPick !== null && (
             <p className="border-t border-line p-3 text-[13px]">
               <span className="label">Budget per slot</span>{' '}
-              <span data-numeric>${perPick}</span>{' '}
+              <span className="font-bold text-tone" data-numeric>
+                ${perPick}
+              </span>{' '}
               <span className="text-muted">
                 across {rosterSize} roster spots — the number that actually constrains an auction.
               </span>
@@ -110,25 +119,24 @@ export function DraftPanel({ draft, rosterSize, auctionTotal }: DraftPanelProps)
 
           {draft.picks.length > 0 && (
             <div className="border-t border-line p-3">
-              <h3 className="label mb-1.5">Picks made ({draft.picks.length})</h3>
-              <ul className="text-[13px]" data-testid="draft-picks">
+              <h3 className="label mb-2">Picks made ({draft.picks.length})</h3>
+              <ul className="divide-y divide-line text-[13px]" data-testid="draft-picks">
                 {draft.picks.slice(-12).map((pick) => (
                   <li
                     key={pick.pick}
                     data-testid="draft-pick"
                     data-mine={pick.mine ? 'true' : 'false'}
-                    className={`flex items-baseline gap-2 border-b border-line py-1 ${
-                      pick.mine ? 'font-medium text-accent' : ''
+                    className={`flex items-center gap-2 py-1.5 ${
+                      pick.mine ? 'font-semibold text-tone' : ''
                     }`}
                   >
-                    <span className="w-14 shrink-0 text-muted" data-numeric>
+                    <span className="w-11 shrink-0 text-[11px] text-muted" data-numeric>
                       {pick.round}.{String(pick.slot).padStart(2, '0')}
                     </span>
-                    <span>{pick.playerName || '—'}</span>
-                    <span className="text-muted">
-                      {[pick.pos, pick.nflTeam].filter(Boolean).join(' · ')}
-                    </span>
-                    {pick.mine && <span className="ml-auto text-[11px]">yours</span>}
+                    <PosTag pos={pick.pos} />
+                    <span className="min-w-0 truncate">{pick.playerName || '—'}</span>
+                    <span className="text-[11px] text-muted">{pick.nflTeam}</span>
+                    {pick.mine && <span className="chip chip-tone ml-auto">yours</span>}
                   </li>
                 ))}
               </ul>
