@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import { NewsItemSchema, type NewsItem } from '~/lib/schemas/news';
-import { canonicalUrl, enrich, newsId, stripHtml } from '~/lib/news/normalize';
+import { canonicalUrl, enrich, isFantasyRelevant, newsId, stripHtml } from '~/lib/news/normalize';
 
 /**
  * ESPN's public JSON news endpoint:
@@ -97,12 +97,13 @@ export function parseEspnNews(raw: unknown, options: EspnParseOptions = {}): New
       .filter((p) => athleteNames.some((n) => n.toLowerCase() === p.name.toLowerCase()))
       .map((p) => p.id);
 
-    items.push({
+    const merged = {
       ...enriched,
       players: [...new Set([...enriched.players, ...namedPlayers])],
       teams: [...new Set([...enriched.teams, ...teamAbbrs])],
       tags: [...new Set([...enriched.tags, ...teamAbbrs])],
-    });
+    };
+    if (isFantasyRelevant(merged)) items.push(merged);
   }
 
   return items;

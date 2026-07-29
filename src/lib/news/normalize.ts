@@ -164,7 +164,9 @@ export function parseFeed(xml: string, feed: Feed, options: ParseOptions = {}): 
       teams: [],
     };
     const parsed = NewsItemSchema.safeParse(candidate);
-    if (parsed.success) items.push(enrich(parsed.data, options.players ?? []));
+    if (!parsed.success) continue;
+    const enriched = enrich(parsed.data, options.players ?? []);
+    if (isFantasyRelevant(enriched)) items.push(enriched);
   }
   return items;
 }
@@ -207,14 +209,96 @@ export const NFL_TEAMS: Record<string, string> = {
 
 /** Keyword tags worth surfacing — dynasty managers scan for these. */
 const KEYWORD_TAGS: [RegExp, string][] = [
-  [/\b(injur|hamstring|acl|concussion|ir\b|out for the season)/i, 'injury'],
-  [/\b(trade|traded|acquire[sd]?)\b/i, 'trade'],
-  [/\b(sign(s|ed|ing)?|contract|extension|restructure)\b/i, 'contract'],
+  [/\b(injur(?:y|ed|ies)?|hamstring|acl|concussion|ir\b|out for the season|tweaked|strain|sprain|torn|fracture|surgery|carted|helped off|pup\b|nfi\b)/i, 'injury'],
+  [/\b(trade|traded|acquire[sd]?|trade request)\b/i, 'trade'],
+  [/\b(sign(s|ed|ing)?|contract|extension|restructure|hold-?in|holdout)\b/i, 'contract'],
   [/\b(draft|rookie|combine|prospect)\b/i, 'rookie'],
   [/\b(suspend|suspension|arrest)\b/i, 'discipline'],
-  [/\b(waive[ds]?|release[ds]?|cut)\b/i, 'roster-move'],
-  [/\b(starter|depth chart|snap count|target share|workload)\b/i, 'usage'],
+  [/\b(waive[ds]?|release[ds]?|cut|claimed|workout for|placed on)\b/i, 'roster-move'],
+  [
+    /\b(starter|depth chart|snap count|snap share|target share|workload|first-team|named starter|starting role|with the (offense|defense))\b/i,
+    'usage',
+  ],
+  [
+    /\b(not participating|skipped practice|missed practice|full go|full speed|cleared to return|activated|deactivated|ruled out|questionable|doubtful|dnp\b|limited participant|unlikely to be ready|practices for|ready for week)\b/i,
+    'availability',
+  ],
 ];
+
+/** Tags that mean the item may affect roster or player output. */
+const ACTIONABLE_TAGS = new Set([
+  'injury',
+  'trade',
+  'contract',
+  'discipline',
+  'roster-move',
+  'usage',
+  'availability',
+]);
+
+/**
+ * Headlines that name a player but carry no roster, health, or usage signal —
+ * praise pieces, human-interest stories, betting roundups, community threads.
+ */
+const NOISE_PATTERNS: RegExp[] = [
+  /\bwants to be remembered\b/i,
+  /\bhas it all\b/i,
+  /\bcan become the best\b/i,
+  /\bbetting preview\b/i,
+  /\bodds:\s/i,
+  /\bmegathread\b/i,
+  /\bAMA\b/,
+  /\bdaily links\b/i,
+  /\bmorning briefing\b/i,
+  /\bopen thread\b/i,
+  /\bsleepers.*busts.*predictions\b/i,
+  /\breading the tea leaves\b/i,
+  /\bresponds to criticism\b/i,
+  /\bclerical error\b/i,
+  /\bred helmets\b/i,
+  /\blotteries run\b/i,
+  /\b(dynasty|fantasy) community\b/i,
+  /\bis it time to (buy|sell)\b/i,
+  /\bdraft pick value\b/i,
+  /\btraining camp:\s*latest intel\b/i,
+  /\bposition battles to watch\b/i,
+  /\badvanced stats to know\b/i,
+  /\bcan'?t afford to have someone trip\b/i,
+  /\bwhich .{0,40} starter do we see first\b/i,
+  /\bwhy .{0,40} expects\b/i,
+  /\bfinal season with\b/i,
+  /\bsounds nice, but probably isn'?t happening\b/i,
+];
+
+/** Extra prose signals when tagging missed an obvious event. */
+const RELEVANCE_SIGNALS: RegExp[] = [
+  /\b(helped off the field|carted into|not putting any weight on)\b/i,
+  /\b(qb battle|position battle)\b/i,
+  /\b(will start|expected to start|won'?t start)\b/i,
+  /\b(in a .{0,12} jersey with the (offense|defense))\b/i,
+  /\b(failed physical|landed on)\b/i,
+];
+
+/**
+ * True when an item reports something that can change playing time, health,
+ * or roster status — not puff pieces or fantasy-community chatter.
+ */
+export function isFantasyRelevant(item: NewsItem): boolean {
+  const haystack = `${item.title} ${item.summary}`;
+  if (NOISE_PATTERNS.some((re) => re.test(haystack))) return false;
+
+  const actionableTags = item.tags.filter((t) => ACTIONABLE_TAGS.has(t));
+  if (actionableTags.length > 0) return true;
+
+  if (RELEVANCE_SIGNALS.some((re) => re.test(haystack))) return true;
+
+  // "Rookie" alone often means dynasty meta, not a camp report — require usage context.
+  if (item.tags.includes('rookie') && /\b(first-team|practice|participat|camp|starter|depth chart|injur|out|limited)\b/i.test(haystack)) {
+    return true;
+  }
+
+  return false;
+}
 
 /** Attach players, teams, and keyword tags to an item from its text. */
 export function enrich(item: NewsItem, players: { id: string; name: string }[]): NewsItem {

@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { canonicalUrl, newsId, parseFeed, stripHtml } from '~/lib/news/normalize';
+import { canonicalUrl, isFantasyRelevant, newsId, parseFeed, stripHtml } from '~/lib/news/normalize';
 import { mergeNews } from '~/lib/news/merge';
 import { NewsSchema, type Feed } from '~/lib/schemas/news';
 import { fixturePlayerNames } from './fixtures/league';
@@ -114,21 +114,27 @@ describe('parseFeed — RSS', () => {
 describe('parseFeed — Atom', () => {
   const items = parseFeed(fixture('reddit-dynastyff.xml'), atomFeed, { players });
 
-  it('parses Atom entries', () => {
-    expect(items).toHaveLength(3);
+  it('parses Atom entries that report actionable news', () => {
+    expect(items).toHaveLength(1);
+    expect(items[0].title).toContain('Bijan Robinson');
     expect(NewsSchema.safeParse(items).success).toBe(true);
   });
 
+  it('drops dynasty discussion threads with no roster or health signal', () => {
+    expect(items.some((i) => i.title.includes('sell Saquon'))).toBe(false);
+    expect(items.some((i) => i.title.includes('draft pick value'))).toBe(false);
+  });
+
   it('reads the alternate link href', () => {
-    expect(items[0].url).toBe('https://example.com/r/DynastyFF/sell-barkley');
+    expect(items[0].url).toBe('https://example.com/nfl/story/robinson-injury');
   });
 
   it('prefers published over updated', () => {
-    expect(items[0].publishedAt).toBe('2026-09-10T10:45:00.000Z');
+    expect(items[0].publishedAt).toBe('2026-09-09T15:00:00.000Z');
   });
 
   it('reads content when there is no summary', () => {
-    expect(items[0].summary).toContain('dynasty rule');
+    expect(items[0].summary).toContain('Cross-posted');
   });
 });
 
@@ -157,8 +163,8 @@ describe('mergeNews', () => {
 
   it('collapses the same story arriving from two different feeds', () => {
     const merged = mergeNews(rss, atom, { now });
-    // 3 RSS + 3 Atom, but one Atom entry is the same URL as an RSS entry.
-    expect(merged).toHaveLength(5);
+    // 3 actionable RSS + 1 actionable Atom (injury cross-post), deduped.
+    expect(merged).toHaveLength(3);
     expect(new Set(merged.map((i) => i.id)).size).toBe(merged.length);
   });
 
@@ -189,5 +195,88 @@ describe('mergeNews', () => {
   it('drops items past the age cutoff', () => {
     const merged = mergeNews([], rss, { now, maxAgeDays: 1 });
     expect(merged.length).toBeLessThan(rss.length);
+  });
+
+  it('prunes fluff already on file when merging', () => {
+    const fluff = {
+      id: 'fluff123',
+      title: "Ben Johnson: Caleb Williams has it all, there's nothing he can't do",
+      url: 'https://example.com/fluff',
+      source: 'ESPN',
+      sourceId: 'espn-api',
+      publishedAt: '2026-09-10T12:00:00.000Z',
+      summary: 'Praise without roster or health signal.',
+      tags: ['league-news'],
+      players: ['caleb-williams'],
+      teams: ['CHI'],
+    };
+    const merged = mergeNews([fluff], rss, { now });
+    expect(merged.some((i) => i.id === 'fluff123')).toBe(false);
+  });
+});
+
+describe('isFantasyRelevant', () => {
+  const base = {
+    id: 'x',
+    url: 'https://example.com/x',
+    source: 'ESPN',
+    sourceId: 'espn-api',
+    publishedAt: '2026-09-10T12:00:00.000Z',
+    summary: '',
+    players: [],
+    teams: [],
+  };
+
+  it('keeps injury and availability reports', () => {
+    expect(
+      isFantasyRelevant({
+        ...base,
+        title: "Ravens' Madubuike (neck) practices for 1st time in 10 months",
+        tags: ['league-news', 'availability'],
+      }),
+    ).toBe(true);
+    expect(
+      isFantasyRelevant({
+        ...base,
+        title: 'Bijan Robinson not participating in Falcons practice, seeks new contract',
+        tags: ['league-news', 'contract', 'availability'],
+      }),
+    ).toBe(true);
+  });
+
+  it('keeps coach usage and roster-move signals', () => {
+    expect(
+      isFantasyRelevant({
+        ...base,
+        title: 'HC Reid on rookie WR Cyrus Allen working with the first-team offense',
+        tags: ['dynasty', 'rookie', 'usage'],
+      }),
+    ).toBe(true);
+    expect(
+      isFantasyRelevant({
+        ...base,
+        title: 'Texans sign WR DJ Turner',
+        tags: ['league-news', 'roster-move'],
+      }),
+    ).toBe(true);
+  });
+
+  it('drops praise and human-interest fluff', () => {
+    expect(
+      isFantasyRelevant({
+        ...base,
+        title: "Ben Johnson: Caleb Williams has it all, there's nothing he can't do",
+        tags: ['league-news'],
+        players: ['caleb-williams'],
+      }),
+    ).toBe(false);
+    expect(
+      isFantasyRelevant({
+        ...base,
+        title: 'Saquon Barkley wants to be remembered for more than backward hurdle',
+        tags: ['league-news'],
+        players: ['saquon-barkley'],
+      }),
+    ).toBe(false);
   });
 });
