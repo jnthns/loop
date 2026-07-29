@@ -9,7 +9,22 @@
 The app is built and connected to the real league. Remaining work is verifying
 the first live data pull and whatever `specs/BACKLOG.md` promotes next.
 
-## Last pass did (round 3)
+## Last pass did (round 4)
+
+- **Gave the app a color-coded visual system.** It read as one long gray column.
+  Now: nine tone families in `src/styles/global.css` (light + dark) consumed via
+  `--tone` / `--tone-soft` / `--tone-line`; one assignment table in
+  `src/lib/ui/tone.ts` (tone per route and facet, fixed hue per position);
+  `.section-head` with an 18px title, tone bar and count badge; a gradient page
+  hero; cards, chips, position tags and meters instead of hairline rules.
+- Shared primitives live in `src/components/ui/Primitives.tsx` — use
+  `SectionHead`, `PosTag`, `Chip`, `EmptyState` rather than re-inventing them.
+- `tests/tone.test.ts` freezes the contract (every tone declared in both schemes,
+  every facet a distinct tone, every position a hue).
+- On branch `cursor/visual-design-overhaul-f688` with a PR open, not on `main` —
+  the platform running this pass required a branch. Merging is the human's call.
+
+## Previously (round 3)
 
 - **Fixed the deploy chain.** `GITHUB_TOKEN` pushes do not trigger workflows, so
   `refresh`'s data commits never fired `pages`. The live site had been stuck on
@@ -21,7 +36,7 @@ the first live data pull and whatever `specs/BACKLOG.md` promotes next.
 - Fixed target reattachment (slot kind first) and the dangling-target case;
   team name now comes from `/league/<id>/users`.
 
-## Previously
+## Earlier
 
 - Fixed red CI (no `npm ci` before `check.sh` — `astro: not found`, exit 127).
   `verify` and `pages` are now green on `main`; the site deployed.
@@ -35,7 +50,9 @@ the first live data pull and whatever `specs/BACKLOG.md` promotes next.
 
 ## Evidence
 
-- `scripts/check.sh`: typecheck 0 errors, 318 tests, 23 pages, passed.
+- `scripts/check.sh`: typecheck 0 errors, 373 tests in 19 files, 23 pages, passed.
+- The restyle was checked by eye as well as mechanically: `dist/` served locally
+  and screenshotted with headless Chrome at 1500px and 430px, light and dark.
 - `verify` #7 and `pages` #3 green on `main` (commit `6d326b0`).
 - The first live `refresh` proved the sync works: it read the real league, which
   has **no taxi and no IR slots**, and preserved the auction budget and targets.
@@ -60,6 +77,12 @@ by the owner. That is why `/team` leads with the draft rather than the roster.
 
 ## Constraints worth re-reading before coding
 
+- **Never hard-code a color.** Set `data-tone` (or `data-pos`) and read
+  `--tone*` / the `tone` Tailwind colors. New facets need a row in
+  `src/lib/ui/tone.ts` or `tests/tone.test.ts` fails.
+- **Keep count badges and decorative arrows out of accessible names.** The test
+  suite queries headings and links by name; putting a count inside an `h2` breaks
+  it, which is exactly how the first attempt at this went red.
 - **Ship to `main` directly.** No PRs. See `skills/ship-to-main/SKILL.md`.
 - **Builds must never require network.** All fetching happens in `refresh.yml`.
 - **The deploy is chained by `workflow_run`, not by the refresh's push.** Pushes
@@ -79,10 +102,8 @@ by the owner. That is why `/team` leads with the draft rather than the roster.
 
 ## Next step
 
-- Confirm the `workflow_run` chain: after a `refresh` that commits data, a
-  `pages` run must appear with event `workflow_run` and the github-pages
-  deployment SHA must advance to that data commit. A deploy triggered by a human
-  push does not prove the chain.
+- Merge `cursor/visual-design-overhaul-f688` so `pages` deploys the new design,
+  then confirm the deploy landed rather than assuming it.
 - Then the P0s above, then the draft board (P1) — the shortlist holds 8 players
   and a startup is 26 rounds, so the board is what you would actually want open
   on draft night.

@@ -196,3 +196,43 @@ Remove the comment markers only when the build is truly finished.)
   or settings the mapper skips, which is tracked as a P0 in `specs/BACKLOG.md`.
 - Seed roster and player data are placeholders until that first sync lands (see
   `data/README.md`).
+
+### Pass 9 — a color-coded visual system
+
+- Request: the app was hard to parse — "more prominent section headers and
+  general formatting improvements". It was accurate: every section header was the
+  same 13px semibold line above the same hairline rule, alerts looked like news
+  looked like the market, and one blue accent was the only color in the UI.
+- **Tone palette.** Nine hue families (blue, violet, teal, green, amber, orange,
+  rose, pink, slate) declared in `src/styles/global.css` for light and dark, read
+  through `--tone` / `--tone-soft` / `--tone-line`. A component sets `data-tone`
+  or `data-pos` and never names a color; `--color-tone*` exposes the same values
+  as Tailwind utilities, so `bg-tone-soft` follows whatever tone is in scope.
+- **One assignment table.** `src/lib/ui/tone.ts` maps routes, knowledge facets,
+  and positions, so the coding is learnable: knowledge violet, roster green,
+  market amber, alerts rose; QB rose, RB green, WR blue, TE amber.
+- **Headers and formatting.** `.section-head` (18px title, tone bar, count badge
+  beside the heading, note underneath) shared through
+  `src/components/ui/Primitives.tsx`; a gradient page hero with an eyebrow;
+  rounded shadowed cards with a tone top edge and hover lift; chips, position
+  tags, gradient meters, count bars behind market rows; richer article
+  typography.
+- Accessible names were preserved deliberately: count badges sit beside headings
+  rather than inside them, and the `→` on section links is `aria-hidden`. Every
+  `data-testid`, section id, ARIA label, and link target is unchanged — which is
+  why the existing suites are the evidence that this was a restyle and not a
+  rewrite.
+- Evidence: `scripts/check.sh` passed — `astro check` 0 errors over 60 files,
+  **373 tests in 19 files** (up from 366, with 6 new in `tests/tone.test.ts` and one more phase case in the plan parser),
+  23 pages built. Verified visually, not just mechanically: the built site was
+  served and screenshotted headless at 1500px and 430px wide, light and dark —
+  dashboard, team, knowledge, news, progress, and an article. The first pass of
+  those screenshots is what caught two facet marks rendering the same "RO".
+
+#### What is NOT done
+
+- The independent checker still has not run (`CHECKER_CMD` unset) — unchanged,
+  and still the reason the sentinel stays commented out.
+- This work is on `cursor/visual-design-overhaul-f688` with a PR open rather than
+  pushed straight to `main`, because the run's platform requires a branch and PR.
+  `AGENTS.md` §6 says ship direct to `main`; the merge is the human's call here.
