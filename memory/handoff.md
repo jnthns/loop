@@ -6,51 +6,48 @@
 
 ## Goal (current)
 
-The dynasty fantasy football guide in `specs/spec.md` is built. Remaining work is
-verification and real data, not features.
+The app is built and connected to the real league. Remaining work is verifying
+the first live data pull and whatever `specs/BACKLOG.md` promotes next.
 
 ## Last pass did
 
-- Added the three app loops (`news-refresh`, `knowledge-curator`,
-  `roster-review`), the `curate-knowledge` skill, and `tests/insights.test.ts`
-  so the roster-review citation contract is enforced before that loop ever runs.
+- Fixed red CI (no `npm ci` before `check.sh` — `astro: not found`, exit 127).
+- Added the keyless Sleeper sync, ESPN's JSON news API, and `data/trending.json`.
+- Replaced `news.yml` with `refresh.yml` (sync → fetch → check → commit → push).
+- Added `specs/BACKLOG.md`, `npm run progress`, and the `/progress` route.
+- Added the ship-to-main rule; merged this work to `main`.
 
 ## Evidence
 
-- `scripts/check.sh`: typecheck 0 errors, `vitest run` 220/220, `astro build`
-  22 pages, `check.sh passed.`
-- `npm run news:fetch -- --fixtures`: 6 items in, 5 retained — dedupe verified
-  offline.
-- `dist/` internal links are all `/loop/`-prefixed.
+- `scripts/check.sh`: typecheck 0 errors, 299 tests, 23 pages, passed.
+- `npm run sync:sleeper -- --fixtures`: 13/20 slots, 22 players, 8 targets kept.
+- `npm run progress`: 41/42 plan tasks, 12 backlog items (2 × P0).
 
 ## Blockers / needs a human
 
-1. **The independent checker has not run.** `CHECKER_CMD` is unset. Until a
-   separate agent grades this work, the build is not done by the repo's own
-   definition and `ALL TASKS DONE` stays commented out in `specs/STATUS.md`.
-   Run `CHECKER_CMD="<agent> -p" scripts/verify.sh`.
-2. **No real news yet.** This environment's proxy blocks the feed hosts (403 on
-   CONNECT), so `data/news.json` is empty and the pipeline has only run against
-   fixtures. Trigger the `news` workflow (`workflow_dispatch`) once in CI to get
-   the first real snapshot; that push also redeploys Pages.
-3. **Seed data is placeholder.** `data/team.json` assumes a 12-team superflex,
-   1 PPR, +0.5 TE-premium league, and `data/players.json` carries ages as of
-   2026 / teams as of 2025. Replacing these with the real league is the highest
-   -value human edit in the repo — every suggestion keys off them. See
-   `data/README.md`.
-4. **This work is on `claude/repo-purpose-clarification-qrpg37`, not `main`.**
-   `AGENTS.md` §6 says deploy from `main`; merging is a human decision.
+1. **The first live refresh has not run.** This container's proxy blocks
+   api.sleeper.app and the news hosts, so every network path is fixture-tested
+   only. Dispatch `refresh.yml` and read the log. Two things to check: the
+   resolved league is the right one, and the synced roster matches the Sleeper
+   app slot for slot.
+2. **If the account has several NFL leagues,** the sync stops and writes them to
+   `data/sleeper.json` as `candidateLeagues`. Pick one, set `leagueId`, commit.
+3. **The independent checker still has not run.** `CHECKER_CMD` is unset, so
+   nothing has adversarially graded any of this. Tracked as P0 in the backlog.
 
 ## Constraints worth re-reading before coding
 
-- **Builds must never require network.** The news fetch is a separate CI job.
-- **No API keys anywhere.** The site is static and calls nothing at runtime.
+- **Ship to `main` directly.** No PRs. See `skills/ship-to-main/SKILL.md`.
+- **Builds must never require network.** All fetching happens in `refresh.yml`.
+- **No API keys anywhere** — Sleeper and ESPN are both keyless.
 - `base: '/loop'` — internal links go through `src/lib/url.ts` or Pages 404s.
-- **No uncited claims.** Knowledge articles need `sources[]`; insights
-  suggestions need a resolving `newsRefs`/`knowledgeRefs`. Both are tested.
+- **No uncited claims**, and no fabricated data: counts are not news, and the
+  sync writes nothing on failure rather than guessing.
+- **Discovered work goes to `specs/BACKLOG.md`,** and only reaches
+  `specs/PLAN.md` once it has a named mechanical check.
 
 ## Next step
 
-- Run the independent checker, then tick the last item in `specs/PLAN.md` and
-  append the sentinel — or fix whatever it rejects.
-- Then merge to `main` and dispatch the `news` workflow.
+- Dispatch `refresh.yml`, confirm it and `pages.yml` go green, and check the site
+  at https://jnthns.github.io/loop/.
+- Then work the P0 items in `specs/BACKLOG.md`.

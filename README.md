@@ -18,12 +18,20 @@ alternative targets, and editable budgets; `/knowledge` is the library that grow
 ```bash
 npm install
 npm run dev                   # http://localhost:4321/loop/
-npm run news:fetch            # refresh data/news.json from data/feeds.json
+npm run sync:sleeper          # pull the real league from Sleeper into data/
+npm run news:fetch            # refresh data/news.json from feeds + ESPN
+npm run progress              # where the build stands
 ```
 
-**No API keys.** The site is static and calls nothing at runtime — the loop is the
-intelligence and the repo is the database. News is fetched by a scheduled GitHub
-Action and committed as `data/news.json`, so **the build never needs network**.
+**No API keys.** Sleeper's read API and ESPN's news API are both free and
+keyless, so this repo has no secrets at all. The site is static and calls nothing
+at runtime — the loop is the intelligence and the repo is the database. All
+external data is fetched by a scheduled GitHub Action and committed under
+`data/`, so **the build never needs network**.
+
+Your league is configured in `data/sleeper.json` (a username and a league id —
+about as sensitive as a league URL). `.github/workflows/refresh.yml` re-syncs it
+every six hours.
 
 **Mechanical check** (lint, typecheck, test, build — same as CI):
 
@@ -82,7 +90,7 @@ whole point of the app living in a loop-engineered repo:
 | Loop                                                     | Trigger       | One bounded action per pass                                 |
 | -------------------------------------------------------- | ------------- | ----------------------------------------------------------- |
 | [`loops/build.md`](loops/build.md)                       | manual        | Implement the next unchecked task in `specs/PLAN.md`        |
-| [`loops/news-refresh.md`](loops/news-refresh.md)         | cron          | Fetch feeds, dedupe, tag, commit `data/news.json`           |
+| [`loops/news-refresh.md`](loops/news-refresh.md)         | cron/6h       | Sync Sleeper, fetch news, commit what changed under `data/` |
 | [`loops/knowledge-curator.md`](loops/knowledge-curator.md) | after refresh | Write or update **one** cited article in the thinnest facet |
 | [`loops/roster-review.md`](loops/roster-review.md)       | weekly        | Cross-reference roster × news × knowledge into `data/insights.json` |
 
@@ -93,7 +101,7 @@ whole point of the app living in a loop-engineered repo:
 | `AGENTS.md`          | **Single source of truth** for agent behavior (read this first).   |
 | `CLAUDE.md`, `.cursor/rules/`, `.codex/` | Tool entrypoints that defer to `AGENTS.md`.    |
 | `.claude/agents/`, `.codex/agents/` | `planner` / `maker` / `checker` subagents.         |
-| `specs/`             | `spec.md` (what to build), `PLAN.md` (checklist), `STATUS.md` (progress + sentinel). |
+| `specs/`             | `spec.md` (what to build), `PLAN.md` (checklist), `BACKLOG.md` (queue), `STATUS.md` (log + sentinel). |
 | `data/`              | The app's database — news, players, team, insights. All committed. |
 | `src/`               | The Astro app — pages, islands, schemas, knowledge content.        |
 | `docs/architecture.md` | Layout, data flow, directory shape, deployment.                  |
@@ -113,7 +121,8 @@ whole point of the app living in a loop-engineered repo:
 - **Maker ≠ checker** — a separate verifier grades the work.
 - **Skills compound** — capture repeated/hard work as a named skill.
 - **Bounded authority** — the three hard stops + human gates on destructive actions.
-- **Deploy on `main`** — push directly to `main`; GitHub Pages updates via CI.
+- **Ship to `main`** — finished work is pushed straight to `main`, never via a
+  PR; GitHub Pages deploys on every push.
 - **Hermetic builds** — no network, no keys; external data is fetched by CI and committed.
 - **No uncited claims** — every knowledge article carries its sources.
 - **Stay the engineer** — read what the loop produces; avoid comprehension debt.

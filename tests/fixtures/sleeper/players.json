@@ -1,0 +1,187 @@
+{
+  "6813": {
+    "player_id": "6813",
+    "full_name": "Jayden Daniels",
+    "first_name": "Jayden",
+    "last_name": "Daniels",
+    "position": "QB",
+    "fantasy_positions": ["QB"],
+    "team": "WAS",
+    "age": 26,
+    "status": "Active",
+    "years_exp": 2
+  },
+  "8138": {
+    "player_id": "8138",
+    "full_name": "Bijan Robinson",
+    "first_name": "Bijan",
+    "last_name": "Robinson",
+    "position": "RB",
+    "fantasy_positions": ["RB"],
+    "team": "ATL",
+    "age": 24,
+    "status": "Active",
+    "years_exp": 3
+  },
+  "9226": {
+    "player_id": "9226",
+    "full_name": "De'Von Achane",
+    "position": "RB",
+    "fantasy_positions": ["RB"],
+    "team": "MIA",
+    "age": 25,
+    "status": "Active"
+  },
+  "6794": {
+    "player_id": "6794",
+    "full_name": "Ja'Marr Chase",
+    "position": "WR",
+    "fantasy_positions": ["WR"],
+    "team": "CIN",
+    "age": 26,
+    "status": "Active"
+  },
+  "9500": {
+    "player_id": "9500",
+    "full_name": "Brian Thomas Jr.",
+    "position": "WR",
+    "fantasy_positions": ["WR"],
+    "team": "JAX",
+    "age": 24,
+    "status": "Active"
+  },
+  "7553": {
+    "player_id": "7553",
+    "full_name": "Nico Collins",
+    "position": "WR",
+    "fantasy_positions": ["WR"],
+    "team": "HOU",
+    "age": 27,
+    "status": "Active"
+  },
+  "9227": {
+    "player_id": "9227",
+    "full_name": "Sam LaPorta",
+    "position": "TE",
+    "fantasy_positions": ["TE"],
+    "team": "DET",
+    "age": 25,
+    "status": "Active"
+  },
+  "9493": {
+    "player_id": "9493",
+    "full_name": "Puka Nacua",
+    "position": "WR",
+    "fantasy_positions": ["WR"],
+    "team": "LAR",
+    "age": 25,
+    "status": "Active"
+  },
+  "6650": {
+    "player_id": "6650",
+    "full_name": "Brandon Aubrey",
+    "position": "K",
+    "fantasy_positions": ["K"],
+    "team": "DAL",
+    "age": 31,
+    "status": "Active"
+  },
+  "DEN": {
+    "player_id": "DEN",
+    "full_name": "Denver Broncos",
+    "position": "DEF",
+    "fantasy_positions": ["DEF"],
+    "team": "DEN",
+    "age": null,
+    "status": "Active"
+  },
+  "9502": {
+    "player_id": "9502",
+    "full_name": "Rome Odunze",
+    "position": "WR",
+    "fantasy_positions": ["WR"],
+    "team": "CHI",
+    "age": 24,
+    "status": "Active"
+  },
+  "9756": {
+    "player_id": "9756",
+    "full_name": "Marvin Harrison Jr.",
+    "position": "WR",
+    "fantasy_positions": ["WR"],
+    "team": "ARI",
+    "age": 24,
+    "status": "Active",
+    "injury_status": "IR"
+  },
+  "10222": {
+    "player_id": "10222",
+    "full_name": "Ashton Jeanty",
+    "position": "RB",
+    "fantasy_positions": ["RB"],
+    "team": "LV",
+    "age": 23,
+    "status": "Active"
+  },
+  "4046": {
+    "player_id": "4046",
+    "full_name": "Patrick Mahomes",
+    "position": "QB",
+    "fantasy_positions": ["QB"],
+    "team": "KC",
+    "age": 31,
+    "status": "Active"
+  },
+  "8155": {
+    "player_id": "8155",
+    "full_name": "Brock Bowers",
+    "position": "TE",
+    "fantasy_positions": ["TE"],
+    "team": "LV",
+    "age": 24,
+    "status": "Active"
+  },
+  "6786": {
+    "player_id": "6786",
+    "full_name": "Justin Jefferson",
+    "position": "WR",
+    "fantasy_positions": ["WR"],
+    "team": "MIN",
+    "age": 27,
+    "status": "Active"
+  },
+  "9509": {
+    "player_id": "9509",
+    "full_name": "Malik Nabers",
+    "position": "WR",
+    "fantasy_positions": ["WR"],
+    "team": "NYG",
+    "age": 23,
+    "status": "Active"
+  },
+  "9999": {
+    "player_id": "9999",
+    "full_name": "Trending Freeagent",
+    "position": "RB",
+    "fantasy_positions": ["RB"],
+    "team": null,
+    "age": 24,
+    "status": "Active"
+  },
+  "1111": {
+    "player_id": "1111",
+    "full_name": "No Position Guy",
+    "position": null,
+    "fantasy_positions": null,
+    "team": "BUF",
+    "age": 25
+  },
+  "2222": {
+    "player_id": "2222",
+    "full_name": "No Age Guy",
+    "position": "WR",
+    "fantasy_positions": ["WR"],
+    "team": "BUF",
+    "age": null
+  }
+}

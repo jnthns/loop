@@ -1,0 +1,140 @@
+---
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { parseProgress } from '~/lib/progress/parse';
+
+// The harness's state files are the source of truth for progress. Reading them
+// at build time keeps one set of numbers instead of a dashboard that drifts from
+// what the loop actually sees.
+const read = (file: string) => readFileSync(join(process.cwd(), 'specs', file), 'utf8');
+const { plan, backlog, status } = parseProgress({
+  plan: read('PLAN.md'),
+  backlog: read('BACKLOG.md'),
+  status: read('STATUS.md'),
+});
+
+const PRIORITY_NOTE: Record<string, string> = {
+  P0: 'Correctness and trust',
+  P1: 'Next up',
+  P2: 'Worth doing',
+  P3: 'Someday',
+};
+const priorities = ['P0', 'P1', 'P2', 'P3'];
+---
+
+<BaseLayout
+  title="Progress"
+  lede="What the loop has finished, what it does next, and what is queued behind that."
+>
+  <section aria-labelledby="plan" class="mb-10">
+    <div class="mb-3 flex flex-wrap items-baseline justify-between gap-x-3 border-b border-line pb-1.5">
+      <h2 id="plan" class="text-sm font-semibold">Plan</h2>
+      <span class="label" data-testid="plan-total" data-numeric>
+        {plan.done}/{plan.total} tasks · {plan.percent}%
+      </span>
+    </div>
+
+    <div class="mb-4 h-1.5 w-full bg-surface-alt" aria-hidden="true">
+      <div class="h-full bg-accent" style={`width: ${plan.percent}%`}></div>
+    </div>
+
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="border-b border-line text-left">
+          <th class="label py-1.5">Phase</th>
+          <th class="label w-20 py-1.5">Done</th>
+          <th class="label w-40 py-1.5">Progress</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          plan.phases.map((phase) => (
+            <tr class="border-b border-line" data-testid="phase-row">
+              <td class="py-1.5">
+                {phase.title}
+                {phase.next && (
+                  <span class="block text-[12px] text-muted">Next: {phase.next}</span>
+                )}
+              </td>
+              <td class="py-1.5" data-numeric>
+                {phase.done}/{phase.total}
+              </td>
+              <td class="py-1.5">
+                <div class="h-1.5 w-full bg-surface-alt">
+                  <div
+                    class={phase.done === phase.total ? 'h-full bg-good' : 'h-full bg-accent'}
+                    style={`width: ${phase.total === 0 ? 0 : Math.round((phase.done / phase.total) * 100)}%`}
+                  />
+                </div>
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+
+    <p class="mt-3 text-[13px]" data-testid="next-task">
+      <span class="label">Next task</span>{' '}
+      {plan.nextTask ?? 'Nothing unchecked in the plan.'}
+    </p>
+  </section>
+
+  <section aria-labelledby="backlog" class="mb-10">
+    <div class="mb-3 flex flex-wrap items-baseline justify-between gap-x-3 border-b border-line pb-1.5">
+      <h2 id="backlog" class="text-sm font-semibold">Backlog</h2>
+      <span class="label" data-numeric>{backlog.items.length} queued</span>
+    </div>
+    <p class="mb-3 max-w-2xl text-[13px] text-muted">
+      Nothing moves from here into the plan without a named mechanical check — if
+      you cannot say what would prove it done, it is not ready to schedule.
+    </p>
+
+    {
+      priorities.map((priority) => {
+        const items = backlog.items.filter((i) => i.priority === priority);
+        if (items.length === 0) return null;
+        return (
+          <div class="mb-4" data-testid="backlog-group" data-priority={priority}>
+            <h3 class="label mb-1.5">
+              {priority} · {PRIORITY_NOTE[priority]} ({items.length})
+            </h3>
+            <ul class="text-[13px]">
+              {items.map((item) => (
+                <li class="border-b border-line py-1.5" data-testid="backlog-item">
+                  <span class="font-medium">{item.title}</span>
+                  {item.detail && <span class="block text-muted">{item.detail}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })
+    }
+  </section>
+
+  <section aria-labelledby="passes">
+    <div class="mb-3 flex flex-wrap items-baseline justify-between gap-x-3 border-b border-line pb-1.5">
+      <h2 id="passes" class="text-sm font-semibold">Recorded passes</h2>
+      <span class="label" data-testid="sentinel">
+        {status.allTasksDone ? 'ALL TASKS DONE' : 'build in progress'}
+      </span>
+    </div>
+    <ol class="text-[13px]">
+      {
+        status.passes.map((pass) => (
+          <li class="border-b border-line py-1.5" data-testid="pass">
+            {pass}
+          </li>
+        ))
+      }
+    </ol>
+    <p class="mt-3 max-w-2xl text-[11px] text-muted">
+      Read from <code class="font-mono">specs/PLAN.md</code>,{' '}
+      <code class="font-mono">specs/BACKLOG.md</code>, and{' '}
+      <code class="font-mono">specs/STATUS.md</code> at build time — the same files
+      the loop reads, so these numbers cannot drift from what it sees. The same
+      report is available on the command line via <code class="font-mono">npm run progress</code>.
+    </p>
+  </section>
+</BaseLayout>

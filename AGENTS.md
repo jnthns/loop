@@ -114,9 +114,14 @@ them up as done.
 - **Never read `.env`.** Agents must not open, cat, or load `.env` (secrets stay
   git-ignored). Use `.env.example` for variable names only. Harness scripts such
   as `scripts/loop.sh` may load `.env` at runtime; agents do not.
-- **Deploy via `main`.** Commit and push directly to `main` after each green
-  pass. `main` is the production branch — GitHub Actions deploys to GitHub
-  Pages on every push. Do not open PRs or wait for manual release promotion.
+- **Ship to `main`, always.** Completed work is pushed **directly to `main`** —
+  no pull request, no feature branch, no waiting for review. `main` is
+  production: every push runs `pages.yml` and deploys to GitHub Pages. This is a
+  single-user personal app; `scripts/check.sh` and the checker are the gate, and
+  a PR would add a waiting step and nothing else. If you are on a working
+  branch, merge it to `main` and push rather than leaving finished work parked.
+  See `skills/ship-to-main/SKILL.md`. This does **not** relax anything else:
+  never push a red check, and the destructive-action gates below still hold.
 - **Gate destructive actions behind a human.** `rm -rf`, dropping data,
   `git push --force`, history rewrites, deleting branches, financial actions,
   privacy-sensitive data, and external messages (email/Slack/PRs to third
@@ -146,6 +151,8 @@ them up as done.
 | `.claude/agents/`        | `planner`, `maker`, `checker` subagents (Claude Code).     |
 | `.codex/agents/`         | `maker`, `checker` subagents (Codex).                      |
 | `specs/spec.md`          | Source-of-truth product spec (the dynasty guide).          |
+| `specs/BACKLOG.md`       | Intake queue — discovered work goes here, not into PLAN.   |
+| `scripts/progress.sh`    | `npm run progress` — phase progress, queue depth, sentinel.|
 | `data/*.json`            | Committed app data — news, players, team, insights.        |
 | `src/`                   | The Astro app (pages, islands, schemas, content).          |
 | `specs/PLAN.md`          | Ordered implementation checklist.                          |
@@ -166,11 +173,16 @@ them up as done.
 
 - **Commits:** one logical change per commit; imperative subject
   (`Add spec template`), body explains *why*. Push to `main` after each pass so
-  CI deploys the site. Never `git commit --amend` or `git push --force` unless a
-  human asks.
+  CI deploys the site — directly, never via a PR. Never `git commit --amend` or
+  `git push --force` unless a human asks. Direct-to-main raises the value of a
+  clean history, because `git revert` is the rollback plan.
 - **Task list format in `specs/PLAN.md`:** GitHub checkboxes `- [ ]` / `- [x]`,
-  ordered by priority. Add discovered work as new unchecked items rather than
-  silently expanding the current task.
+  ordered by priority. Never silently expand an in-progress task.
+- **Discovered work goes to `specs/BACKLOG.md`,** not straight into the plan. An
+  item is only promoted to `specs/PLAN.md` once it has a **named mechanical
+  check** — if you cannot say what would prove it done, it is not ready to
+  schedule. `npm run progress` reports plan progress, queue depth, and sentinel
+  state; the same view is at `/progress` in the app.
 - **When the plan is empty:** if `specs/spec.md` still has unfilled `TODO`
   placeholders, the correct first action is to help fill the spec (or run the
   `create-spec` skill), not to write app code.

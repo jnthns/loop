@@ -1,8 +1,13 @@
 # Loop: news-refresh
 
-Keeps the committed news snapshot current. This is the loop the whole app sits
-on: nothing else in the repo touches the network, so if this stops, the guide
-quietly goes stale while still looking fine.
+Keeps the committed data snapshot current — the real league from Sleeper, and
+the news from RSS + ESPN. This is the loop the whole app sits on: nothing else in
+the repo touches the network, so if this stops, the guide quietly goes stale
+while still looking fine.
+
+Both halves run in `.github/workflows/refresh.yml`. The Sleeper sync goes first,
+because news enrichment matches against the player file and a fresh roster makes
+the same run's tagging better.
 
 ## Contract
 
@@ -20,15 +25,22 @@ quietly goes stale while still looking fine.
 
 | Part        | This loop's answer                                                                             |
 | ----------- | ---------------------------------------------------------------------------------------------- |
-| **Trigger** | Cron, every six hours (`.github/workflows/news.yml`), plus `workflow_dispatch`.                 |
-| **Inputs**  | `data/feeds.json` (enabled feeds), `data/news.json` (existing archive), `data/players.json`.    |
-| **Action**  | Fetch each enabled feed, normalize, enrich, merge into the archive. One write, one file.        |
-| **Check**   | Script exits 0, output parses against `NewsSchema`, no duplicate ids, `scripts/check.sh` green. |
-| **Stop**    | Snapshot unchanged 🟰 / all feeds failed 🛑 / written and committed ✅                            |
+| **Trigger** | Cron, every six hours (`.github/workflows/refresh.yml`), plus `workflow_dispatch`.                 |
+| **Inputs**  | `data/sleeper.json`, `data/feeds.json`, `data/news.json`, `data/players.json`, `data/team.json`. |
+| **Action**  | Sync the league from Sleeper, then fetch and merge news. Writes only under `data/`.             |
+| **Check**   | Both scripts exit 0 and `scripts/check.sh` is green — schemas, no duplicate ids, build passes.  |
+| **Stop**    | Snapshot unchanged 🟰 / all sources failed 🛑 / league ambiguous 🙋 / written and committed ✅     |
 
 ## Prompt (run each pass)
 
-> Run `npm run news:fetch`. Read the per-feed output.
+> Run `npm run sync:sleeper`, then `npm run news:fetch`. Read both outputs.
+>
+> If the Sleeper sync reports several candidate leagues, stop: it has written
+> them to `data/sleeper.json` and a human must pick one. Do not guess.
+>
+> If the Sleeper sync fails for any other reason, it wrote nothing — the
+> committed roster is intact. Note it and continue with the news fetch; a
+> Sleeper outage must not cost a news refresh.
 >
 > If a feed reports a non-200 or a parse failure, do **not** remove it from
 > `data/feeds.json` — note it in `memory/handoff.md` so a human can decide

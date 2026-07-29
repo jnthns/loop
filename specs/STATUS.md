@@ -79,13 +79,50 @@ Remove the comment markers only when the build is truly finished.)
   `/loop/`-prefixed hrefs on every internal link (checked across the dashboard,
   team, facet index, and facet pages).
 
+### Pass 5 — Sleeper, richer news, progress tracker, ship to main
+
+- **Fixed red CI.** `verify.yml` and `pages.yml` both ran `scripts/check.sh`
+  before any `npm ci`, so `astro check` exited 127 (`astro: not found`) on every
+  Node commit — run 30426608107. Both now set up Node and install first; the
+  dead `site/` fallback in `pages.yml` is gone so a missing `dist/` fails loudly.
+- **Sleeper sync** (`scripts/sync-sleeper.ts`, keyless): resolves
+  `comebackedOnYou` → league → roster. Sleeper owns format, roster, and FAAB;
+  `targets[]`, per-slot notes, and the auction budget are preserved. A fetch
+  failure writes nothing rather than blanking a good roster, and several
+  candidate leagues stop the run for a human to choose.
+- **ESPN's keyless JSON news API** added as a second source, merging through the
+  existing dedupe. Its category list names athletes outright, which beats
+  substring-matching prose.
+- **Sleeper add/drop counts** land in `data/trending.json`, deliberately *not* in
+  `data/news.json` — filing a count as news would mean inventing a headline and a
+  URL. The dashboard labels it market signal, and a test asserts the section
+  contains no links.
+- **`refresh.yml`** replaces `news.yml`: sync → fetch → check → commit only what
+  changed under `data/` → push to `main`, which triggers the deploy. Public repo,
+  so Actions minutes are unlimited; ~10 Sleeper calls per run.
+- **Progress tracker and backlog**: `specs/BACKLOG.md` with a promotion gate (no
+  plan task without a named check), `npm run progress`, and a `/progress` route
+  reading the same files the loop reads.
+- **Ship-to-main rule**: `skills/ship-to-main/SKILL.md` plus `AGENTS.md` §6/§8.
+  No PRs; the check and the checker are the gate.
+- Evidence: `scripts/check.sh` → typecheck 0 errors, `vitest run` 299/299,
+  `astro build` 23 pages, `check.sh passed.`
+  `npm run sync:sleeper -- --fixtures` → 13/20 slots filled, 22 players retained,
+  8 targets preserved, 1 satisfied target reported not deleted.
+  `npm run news:fetch -- --fixtures` → 9 items in, 8 retained across RSS + Atom +
+  ESPN JSON.
+
 #### What is NOT done
 
 - **The independent checker has not run.** `CHECKER_CMD` is unset, so
   `scripts/verify.sh` would fall back to the mechanical check alone — explicitly
   a weaker gate. Per `specs/spec.md` §10 the build is not done until a separate
   checker approves, so the sentinel stays commented out.
-- `data/news.json` is empty. This environment's egress proxy returns 403 on
-  CONNECT for the feed hosts, so the pipeline has only been exercised against
-  fixtures. The first real snapshot arrives when `news.yml` runs in CI.
-- Seed roster and player data are placeholders (see `data/README.md`).
+- `data/news.json` and `data/trending.json` are empty, and `data/sleeper.json`
+  still has null ids. This environment's egress proxy returns 403 on CONNECT for
+  api.sleeper.app and the news hosts, so **every network path has been exercised
+  only against committed fixtures**. The first real data arrives when
+  `refresh.yml` runs in CI — and the live Sleeper league may contain slot kinds
+  or settings the mapper skips, which is tracked as a P0 in `specs/BACKLOG.md`.
+- Seed roster and player data are placeholders until that first sync lands (see
+  `data/README.md`).

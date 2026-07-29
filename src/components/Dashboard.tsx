@@ -2,6 +2,7 @@ import type { NewsItem } from '~/lib/schemas/news';
 import type { Player } from '~/lib/schemas/players';
 import type { Team } from '~/lib/schemas/team';
 import type { Alert, FacetCoverage } from '~/lib/insights/cross-reference';
+import type { Trending, TrendingPlayer } from '~/lib/schemas/trending';
 import { relativeTime } from '~/lib/time';
 
 export interface DashboardProps {
@@ -13,6 +14,10 @@ export interface DashboardProps {
   /** Base-path-aware hrefs, built by the page. */
   links: { news: string; team: string; knowledge: string; facet: (id: string) => string };
   newsCount: number;
+  /** Sleeper add/drop counts — market signal, not news. */
+  trending?: Trending;
+  /** Player ids on the roster, used to flag market moves that concern you. */
+  rosteredPlayerIds?: string[];
   now?: Date;
 }
 
@@ -30,8 +35,11 @@ export function Dashboard({
   topTargets,
   links,
   newsCount,
+  trending,
+  rosteredPlayerIds = [],
   now,
 }: DashboardProps) {
+  const owned = new Set(rosteredPlayerIds);
   return (
     <div className="space-y-10">
       <section aria-labelledby="alerts" data-testid="alerts-section">
@@ -119,6 +127,26 @@ export function Dashboard({
         )}
       </section>
 
+      <section aria-labelledby="market" data-testid="market-section">
+        <SectionHead
+          id="market"
+          title="League market"
+          note="What Sleeper managers added and dropped in the last 24 hours. Counts, not analysis — nobody wrote these."
+          count={(trending?.adds.length ?? 0) + (trending?.drops.length ?? 0)}
+        />
+        {!trending || (trending.adds.length === 0 && trending.drops.length === 0) ? (
+          <EmptyState>
+            No market data yet. It arrives with the next{' '}
+            <code className="font-mono">sync:sleeper</code> run.
+          </EmptyState>
+        ) : (
+          <div className="grid gap-6 sm:grid-cols-2">
+            <TrendingList title="Most added" rows={trending.adds} owned={owned} testid="trending-adds" />
+            <TrendingList title="Most dropped" rows={trending.drops} owned={owned} testid="trending-drops" />
+          </div>
+        )}
+      </section>
+
       <section aria-labelledby="next" data-testid="roster-section">
         <SectionHead
           id="next"
@@ -189,6 +217,51 @@ export function Dashboard({
           </ul>
         )}
       </section>
+    </div>
+  );
+}
+
+function TrendingList({
+  title,
+  rows,
+  owned,
+  testid,
+}: {
+  title: string;
+  rows: TrendingPlayer[];
+  owned: Set<string>;
+  testid: string;
+}) {
+  return (
+    <div>
+      <h3 className="label mb-1.5">{title}</h3>
+      {rows.length === 0 ? (
+        <p className="text-[13px] text-muted">Nothing in this window.</p>
+      ) : (
+        <ul className="text-[13px]" data-testid={testid}>
+          {rows.slice(0, 10).map((row) => {
+            const mine = row.playerId !== null && owned.has(row.playerId);
+            return (
+              <li
+                key={row.sleeperId}
+                data-testid="trending-row"
+                data-mine={mine ? 'true' : 'false'}
+                className="flex items-baseline justify-between gap-2 border-b border-line py-1"
+              >
+                <span className={mine ? 'font-semibold text-accent' : ''}>
+                  {row.name}
+                  <span className="ml-1.5 text-muted">
+                    {row.pos} · {row.nflTeam}
+                  </span>
+                </span>
+                <span className="shrink-0 text-muted" data-numeric>
+                  {row.count.toLocaleString('en-US')}
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+      )}
     </div>
   );
 }

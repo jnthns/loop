@@ -13,12 +13,17 @@ at runtime. Every fact the site shows is a file in the repo, and the loop's job 
 to improve those files on a schedule:
 
 ```
-RSS feeds ──(CI cron)──► scripts/fetch-news.ts ──► data/news.json ──┐
-                                                                    ├──► static build ──► GitHub Pages
-knowledge-curator loop ──► src/content/knowledge/<facet>/*.md ──────┤
-roster-review loop ─────► data/insights.json ───────────────────────┘
-owner edits ────────────► data/team.json
+RSS + ESPN API ──(CI cron)──► scripts/fetch-news.ts ──► data/news.json ────┐
+Sleeper API ─────(CI cron)──► scripts/sync-sleeper.ts ─► data/team.json    │
+                                                        data/players.json  ├──► static build ──► Pages
+                                                        data/trending.json │
+knowledge-curator loop ─────► src/content/knowledge/<facet>/*.md ──────────┤
+roster-review loop ─────────► data/insights.json ──────────────────────────┘
 ```
+
+Every external API used is **free and keyless** — Sleeper's read API and ESPN's
+public JSON news endpoint both need no token, which is why this repo has no
+secrets at all.
 
 Three consequences worth internalizing:
 
@@ -61,6 +66,7 @@ numeric, and `prefers-color-scheme` for dark mode. No animation library.
 | `/knowledge/[facet]`             | static           | Articles in one facet                                         |
 | `/knowledge/[facet]/[slug]`      | static           | Article + sources, confidence, updated date                   |
 | `/news`                          | static + island  | Full archive with source/tag/team filters                     |
+| `/progress`                      | static           | Plan progress, backlog queue, recorded passes                 |
 
 ## 4. Directory shape
 
@@ -106,7 +112,7 @@ GitHub Pages, project-scoped at `https://jnthns.github.io/loop/`. That means
 
 - `.github/workflows/pages.yml` — on push to `main`: `scripts/check.sh`, build,
   deploy `dist/`.
-- `.github/workflows/news.yml` — on cron: fetch feeds, commit `data/news.json`
+- `.github/workflows/refresh.yml` — on cron: fetch feeds, commit `data/news.json`
   only if it changed. That push triggers `pages.yml`, so news refresh and deploy
   are one pipeline.
 

@@ -64,11 +64,61 @@ function mount(overrides: Partial<DashboardProps> = {}) {
 }
 
 describe('Dashboard', () => {
-  it('renders all four sections', () => {
+  it('renders every section', () => {
     mount();
-    for (const id of ['alerts-section', 'digest-section', 'roster-section', 'coverage-section']) {
+    for (const id of [
+      'alerts-section',
+      'digest-section',
+      'market-section',
+      'roster-section',
+      'coverage-section',
+    ]) {
       expect(screen.getByTestId(id)).toBeInTheDocument();
     }
+  });
+
+  it('shows Sleeper market activity with counts', () => {
+    mount({
+      trending: {
+        capturedAt: '2026-09-10T12:00:00.000Z',
+        lookbackHours: 24,
+        adds: [
+          { playerId: 'ashton-jeanty', sleeperId: '10222', name: 'Ashton Jeanty', pos: 'RB', nflTeam: 'LV', count: 2140 },
+          { playerId: null, sleeperId: '9999', name: 'Some Rookie', pos: 'WR', nflTeam: 'FA', count: 880 },
+        ],
+        drops: [
+          { playerId: 'jamarr-chase', sleeperId: '6794', name: "Ja'Marr Chase", pos: 'WR', nflTeam: 'CIN', count: 12 },
+        ],
+      },
+      rosteredPlayerIds: ['jamarr-chase'],
+    });
+
+    expect(screen.getByText('2,140')).toBeInTheDocument();
+    const dropped = within(screen.getByTestId('trending-drops')).getAllByTestId('trending-row');
+    expect(dropped[0].dataset.mine).toBe('true');
+    const added = within(screen.getByTestId('trending-adds')).getAllByTestId('trending-row');
+    expect(added[0].dataset.mine).toBe('false');
+  });
+
+  it('does not present market counts as news', () => {
+    mount({
+      trending: {
+        capturedAt: '2026-09-10T12:00:00.000Z',
+        lookbackHours: 24,
+        adds: [
+          { playerId: null, sleeperId: '1', name: 'Someone', pos: 'RB', nflTeam: 'FA', count: 5 },
+        ],
+        drops: [],
+      },
+    });
+    // Market rows are plain text, never links pretending to be articles.
+    expect(within(screen.getByTestId('market-section')).queryAllByRole('link')).toHaveLength(0);
+    expect(screen.getByText(/Counts, not analysis/)).toBeInTheDocument();
+  });
+
+  it('explains an empty market rather than rendering a blank block', () => {
+    mount({ trending: undefined });
+    expect(screen.getByText(/No market data yet/)).toBeInTheDocument();
   });
 
   it('surfaces news about rostered players, labelled as such', () => {

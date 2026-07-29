@@ -11,6 +11,10 @@ export const TIERS = ['cornerstone', 'starter', 'win-now', 'depth', 'dart-throw'
 export const TierSchema = z.enum(TIERS);
 
 export const PlayerSchema = z.object({
+  /**
+   * Our own slug, not Sleeper's numeric id. Slugs keep `data/team.json` targets
+   * readable and stable across a sync, and keep diffs reviewable.
+   */
   id: z.string().min(1),
   name: z.string().min(1),
   pos: PositionSchema,
@@ -20,6 +24,10 @@ export const PlayerSchema = z.object({
   age: z.number().int().min(18).max(50),
   tier: TierSchema,
   notes: z.string().default(''),
+  /** Sleeper's player_id, when this row came from or was matched to Sleeper. */
+  sleeperId: z.string().optional(),
+  /** True when the player is rostered by someone in the league. */
+  rosteredInLeague: z.boolean().optional(),
 });
 
 export const PlayersSchema = z.array(PlayerSchema);

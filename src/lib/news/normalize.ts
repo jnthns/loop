@@ -56,7 +56,11 @@ export function canonicalUrl(raw: string): string {
     const url = new URL(raw.trim());
     url.hash = '';
     for (const key of [...url.searchParams.keys()]) {
-      if (/^(utm_|ref|ref_src|ref_url|cmp|icid|smid)/i.test(key)) url.searchParams.delete(key);
+      // ESPN uses ex_cid, Yahoo uses .tsrc, most others use utm_*. Any of them
+      // would otherwise split one story into several "distinct" items.
+      if (/^(utm_|ref|ref_src|ref_url|cmp|icid|smid|ex_cid|\.tsrc|src|source)$|^utm/i.test(key)) {
+        url.searchParams.delete(key);
+      }
     }
     url.search = url.searchParams.toString() ? `?${url.searchParams.toString()}` : '';
     const path = url.pathname.replace(/\/+$/, '');

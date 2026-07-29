@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import Dashboard from '~/components/Dashboard';
-import { getPlayer, newsByDate, players, team } from '~/lib/data';
+import { getPlayer, newsByDate, players, team, trending } from '~/lib/data';
 import { coverageGaps, facetCoverage, openSlots, rosterAlerts } from '~/lib/insights/cross-reference';
 import { href } from '~/lib/url';
 
@@ -34,6 +34,8 @@ const topTargets = team.targets
     openSlots={openSlots(team)}
     topTargets={topTargets}
     newsCount={newsByDate.length}
+    trending={trending}
+    rosteredPlayerIds={team.roster.map((r) => r.playerId).filter((id): id is string => Boolean(id))}
     links={{
       news: href('/news'),
       team: href('/team'),

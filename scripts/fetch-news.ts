@@ -23,6 +23,7 @@ import { FeedsSchema, NewsSchema, type Feed, type NewsItem } from '../src/lib/sc
 import { PlayersSchema } from '../src/lib/schemas/players.ts';
 import { parseFeed } from '../src/lib/news/normalize.ts';
 import { mergeNews } from '../src/lib/news/merge.ts';
+import { ESPN_NEWS_URL, parseEspnNews } from '../src/lib/news/sources/espn.ts';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = join(ROOT, 'data');
@@ -68,6 +69,37 @@ function readFixture(feed: Feed): string | null {
   return null;
 }
 
+/**
+ * ESPN's keyless JSON news API. A failure here is logged and skipped, exactly
+ * like a dead RSS host — one source must never lose a whole run.
+ */
+async function readEspn(players: { id: string; name: string }[]) {
+  if (useFixtures) {
+    const path = join(FIXTURES, 'espn-api.json');
+    if (!existsSync(path)) return [];
+    return parseEspnNews(JSON.parse(readFileSync(path, 'utf8')), { players });
+  }
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+  try {
+    const res = await fetch(ESPN_NEWS_URL, {
+      headers: { 'user-agent': USER_AGENT, accept: 'application/json' },
+      signal: controller.signal,
+    });
+    if (!res.ok) {
+      console.warn(`  ! espn-api: HTTP ${res.status}`);
+      return [];
+    }
+    return parseEspnNews(await res.json(), { players });
+  } catch (error) {
+    console.warn(`  ! espn-api: ${(error as Error).message}`);
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function main() {
   const feeds = FeedsSchema.parse(readJson('feeds.json')).filter((f) => f.enabled);
   const players = PlayersSchema.parse(readJson('players.json')).map((p) => ({
@@ -97,6 +129,15 @@ async function main() {
     throw new Error(
       `--fixtures found no tests/fixtures/<feed-id>.xml for any enabled feed. Available: ${available}`,
     );
+  }
+
+  // ESPN's JSON API alongside the RSS feeds: same merge, same ids, but it names
+  // the athletes an article is about instead of leaving us to match on prose.
+  const espnItems = await readEspn(players);
+  if (espnItems.length > 0) {
+    sourcesRead += 1;
+    console.log(`  · espn-api: ${espnItems.length} item(s)`);
+    incoming.push(...espnItems);
   }
 
   const merged = mergeNews(existing, incoming);

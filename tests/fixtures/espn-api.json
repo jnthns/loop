@@ -1,0 +1,33 @@
+{
+  "header": "NFL News",
+  "articles": [
+    {
+      "headline": "Bengals restructure Ja'Marr Chase deal to create cap room",
+      "description": "<p>Cincinnati reworked the contract ahead of the deadline.</p>",
+      "published": "2026-09-10T08:00:00Z",
+      "links": { "web": { "href": "https://example.com/espn/chase-restructure?ex_cid=rss" } },
+      "categories": [
+        { "type": "athlete", "athlete": { "displayName": "Ja'Marr Chase" } },
+        { "type": "team", "team": { "abbreviation": "cin" } }
+      ]
+    },
+    {
+      "headline": "Bowers expected to see career-high snap share",
+      "description": "Las Vegas plans to lean on its tight end.",
+      "published": "2026-09-09T22:15:00Z",
+      "links": { "web": { "href": "https://example.com/espn/bowers-snaps" } },
+      "categories": [{ "type": "athlete", "athlete": { "displayName": "Brock Bowers" } }]
+    },
+    {
+      "headline": "Week 2 injury report roundup",
+      "description": "Everything to know before Sunday.",
+      "published": "2026-09-09T12:00:00Z",
+      "links": { "web": { "href": "https://example.com/espn/injury-roundup" } }
+    },
+    {
+      "headline": "Article with no link at all",
+      "description": "The parser must drop this.",
+      "published": "2026-09-09T11:00:00Z"
+    }
+  ]
+}

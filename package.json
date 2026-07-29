@@ -11,7 +11,9 @@
     "typecheck": "astro check",
     "test": "vitest run",
     "test:watch": "vitest",
-    "news:fetch": "tsx scripts/fetch-news.ts"
+    "news:fetch": "tsx scripts/fetch-news.ts",
+    "sync:sleeper": "tsx scripts/sync-sleeper.ts",
+    "progress": "bash scripts/progress.sh"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",

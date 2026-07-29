@@ -123,6 +123,33 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
       independent agent has graded this work. Run
       `CHECKER_CMD="<agent> -p" scripts/verify.sh` before ticking this.
 
+## Phase 9 — Connect it to reality
+
+- [x] Fix CI: `verify.yml` and `pages.yml` ran `scripts/check.sh` before any
+      `npm ci`, so `astro check` exited 127 on every Node commit. (check: both
+      workflows green on a push)
+- [x] Build the Sleeper sync — `data/sleeper.json` config, keyless client, pure
+      mappers, `scripts/sync-sleeper.ts`. Sleeper owns roster/format/FAAB;
+      targets, notes, and the auction budget are preserved. (check:
+      `tests/sleeper-map.test.ts` asserts targets and auction budget survive)
+- [x] Add ESPN's keyless JSON news API as a second source, merging through the
+      same dedupe. (check: `tests/espn-source.test.ts`, offline)
+- [x] Capture Sleeper add/drop counts as market signal in `data/trending.json` —
+      deliberately NOT as news, since inventing a headline and URL for a count
+      would be fabrication. (check: dashboard test asserts no links in the market
+      section)
+- [x] Replace `news.yml` with `refresh.yml`: sync Sleeper, fetch news, run the
+      check, commit only what changed, push to `main`. (check: cron +
+      `workflow_dispatch` present; commit guarded by `git diff --quiet`)
+- [x] Add `specs/BACKLOG.md`, `scripts/progress.sh`, and the `/progress` route.
+      (check: `tests/progress.test.ts` agrees with a raw checkbox count, and
+      every backlog item names a check)
+- [x] Add the ship-to-main rule as a skill and in `AGENTS.md`. (check: no PR
+      step remains in the documented workflow)
+- [ ] Verify the first live refresh in CI and confirm the site renders at
+      https://jnthns.github.io/loop/. (check: `refresh.yml` and `pages.yml` both
+      green on `main`; `data/news.json` non-empty)
+
 ---
 
 <!--

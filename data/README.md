@@ -5,13 +5,31 @@ Every file here is committed, schema-validated at build time
 runtime API: if a fact is not in this directory or in
 `src/content/knowledge/`, the app does not know it.
 
-| File            | Written by                           | Notes                                                     |
-| --------------- | ------------------------------------ | --------------------------------------------------------- |
-| `feeds.json`    | a human                              | RSS/Atom registry. Set `enabled: false` to park a feed.    |
-| `news.json`     | `scripts/fetch-news.ts` (CI cron)    | Normalized, deduped items. Do not hand-edit.               |
-| `players.json`  | a human, or the Sleeper adapter      | Player reference rows.                                     |
-| `team.json`     | a human (or the UI's JSON export)    | Roster, targets, budgets, league format.                   |
-| `insights.json` | the `roster-review` loop             | Dated briefings; every suggestion cites news or knowledge. |
+| File            | Written by                                | Notes                                                      |
+| --------------- | ----------------------------------------- | ---------------------------------------------------------- |
+| `sleeper.json`  | a human, then filled in by the sync       | Which league to track. No secrets — Sleeper's API is keyless. |
+| `feeds.json`    | a human                                   | RSS/Atom registry. Set `enabled: false` to park a feed.     |
+| `news.json`     | `scripts/fetch-news.ts` (CI cron)         | Normalized, deduped items. Do not hand-edit.                |
+| `players.json`  | `scripts/sync-sleeper.ts` (CI cron)       | Only players that matter; `tier` and `notes` survive a sync.|
+| `team.json`     | Sleeper for roster/format/FAAB; you for the rest | See the ownership split below.                       |
+| `trending.json` | `scripts/sync-sleeper.ts` (CI cron)       | League-wide add/drop counts. Market signal, **not news**.   |
+| `insights.json` | the `roster-review` loop                  | Dated briefings; every suggestion cites news or knowledge.  |
+
+## Who owns what in `team.json`
+
+The sync overwrites only what Sleeper genuinely knows. Everything you wrote by
+hand survives — an automated job deleting your own prose would make the file
+untrustworthy, and an untrustworthy roster makes every downstream suggestion
+worthless.
+
+| Sleeper owns (overwritten every sync) | You own (never touched)                    |
+| ------------------------------------- | ------------------------------------------ |
+| `format` — slots, teams, PPR, TE premium | `targets[]` — rationale and cost         |
+| `roster[]` player assignments          | per-slot `notes` (when the player is unchanged) |
+| the `faab` budget total and spend       | the `auction` budget, entirely             |
+
+A target whose player you have since acquired is **reported, not deleted** — the
+sync tells you, and pruning it stays your call.
 
 ## Seed data provenance — read this before trusting it
 
