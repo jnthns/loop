@@ -12,27 +12,29 @@ the first live data pull and whatever `specs/BACKLOG.md` promotes next.
 ## Last pass did
 
 - Fixed red CI (no `npm ci` before `check.sh` — `astro: not found`, exit 127).
+  `verify` and `pages` are now green on `main`; the site deployed.
 - Added the keyless Sleeper sync, ESPN's JSON news API, and `data/trending.json`.
 - Replaced `news.yml` with `refresh.yml` (sync → fetch → check → commit → push).
 - Added `specs/BACKLOG.md`, `npm run progress`, and the `/progress` route.
-- Added the ship-to-main rule; merged this work to `main`.
+- Added the ship-to-main rule; merged to `main`.
+- **Decoupled the tests from the synced data files** after the first live sync
+  turned CI red. Behavior tests now use `tests/fixtures/league.ts`;
+  `tests/data-coupling.test.ts` stops the coupling coming back.
 
 ## Evidence
 
-- `scripts/check.sh`: typecheck 0 errors, 299 tests, 23 pages, passed.
-- `npm run sync:sleeper -- --fixtures`: 13/20 slots, 22 players, 8 targets kept.
-- `npm run progress`: 41/42 plan tasks, 12 backlog items (2 × P0).
+- `scripts/check.sh`: typecheck 0 errors, 318 tests, 23 pages, passed.
+- `verify` #7 and `pages` #3 green on `main` (commit `6d326b0`).
+- The first live `refresh` proved the sync works: it read the real league, which
+  has **no taxi and no IR slots**, and preserved the auction budget and targets.
 
 ## Blockers / needs a human
 
-1. **The first live refresh has not run.** This container's proxy blocks
-   api.sleeper.app and the news hosts, so every network path is fixture-tested
-   only. Dispatch `refresh.yml` and read the log. Two things to check: the
-   resolved league is the right one, and the synced roster matches the Sleeper
-   app slot for slot.
-2. **If the account has several NFL leagues,** the sync stops and writes them to
-   `data/sleeper.json` as `candidateLeagues`. Pick one, set `leagueId`, commit.
-3. **The independent checker still has not run.** `CHECKER_CMD` is unset, so
+1. **Confirm the live roster is right.** The sync ran but its output was never
+   committed (the run failed on the coupled tests before the commit step). Open
+   the app after the next `refresh` and check the roster slot for slot against
+   Sleeper. Tracked as P0 in `specs/BACKLOG.md`.
+2. **The independent checker still has not run.** `CHECKER_CMD` is unset, so
    nothing has adversarially graded any of this. Tracked as P0 in the backlog.
 
 ## Constraints worth re-reading before coding

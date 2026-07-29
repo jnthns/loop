@@ -34,10 +34,15 @@ letting them rot.
   unset, so nothing has adversarially graded the work; `specs/spec.md` §10 says
   the build is not done until it has. (size: S · check: `CHECKER_CMD=... scripts/verify.sh`
   prints APPROVE, then the `ALL TASKS DONE` sentinel goes in)
-- [P0] **Verify the first live Sleeper sync.** The mapping is tested only against
-  fixtures; this container cannot reach the API. The real league may have slot
-  kinds or settings the mapper skips. (size: S · check: dispatch `refresh.yml`,
-  confirm the committed roster matches the Sleeper app slot for slot)
+- [P0] **Verify the live synced roster slot for slot.** The first live sync ran
+  and mapped the real league — which has no taxi or IR slots — but the run failed
+  on coupled tests before the commit step, so nothing landed. (size: S · check:
+  after a green `refresh.yml`, `data/team.json` matches the Sleeper app slot for
+  slot, and `/team` renders it)
+- [P0] **Replace the fixture-era `tier` and `notes` on synced players.** The sync
+  fills `tier` from `defaultTier()` — age and position only. That is a placeholder
+  judgement presented in the same field as a real one. (size: M · check: every
+  rostered player has a hand- or loop-written note; no default tiers on starters)
 
 ## P1 — next up
 
