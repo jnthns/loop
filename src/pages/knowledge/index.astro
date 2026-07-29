@@ -15,6 +15,20 @@ const facets = FACETS.map((facet) => {
   return { ...facet, entries, newest: entries[0]?.data.updated ?? null };
 });
 
+// Word initials, not the first two letters — "Roster construction" and "Rookie
+// drafts" would both read "RO" and the marks would stop distinguishing anything.
+const CONNECTORS = new Set(['vs', 'and', 'the', 'of', 'a']);
+const initials = (title: string) => {
+  const words = title
+    .split(/[\s-]+/)
+    .filter((word) => word && !CONNECTORS.has(word.toLowerCase()));
+  if (words.length === 1) return words[0].slice(0, 2).toUpperCase();
+  return words
+    .slice(0, 2)
+    .map((word) => word[0].toUpperCase())
+    .join('');
+};
+
 const total = articles.length;
 const thinnest = [...facets].sort((a, b) => a.entries.length - b.entries.length)[0];
 ---
@@ -48,7 +62,7 @@ const thinnest = [...facets].sort((a, b) => a.entries.length - b.entries.length)
                 class="grid size-8 shrink-0 place-items-center rounded-[0.5rem] border border-tone-line bg-tone-soft text-[13px] font-black text-tone"
                 aria-hidden="true"
               >
-                {facet.title.slice(0, 2).toUpperCase()}
+                {initials(facet.title)}
               </span>
               <span class="badge" data-numeric>
                 {facet.entries.length}
