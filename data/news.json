@@ -1,10 +1,122 @@
 [
   {
+    "id": "175m63u15jiu7y",
+    "title": "The Gabe Jacas injury waiver is unusual",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-gabe-jacas-injury-waiver-is-unusual",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-30T01:36:29.000Z",
+    "summary": "The Patriots and linebacker Gabe Jacas took a long time to work out a rookie contract for reasons unrelated to the standard terms of his rookie deal.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "rookie",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "afu7gr198asyr",
+    "title": "The Gabe Jacas injury waiver is unusual",
+    "url": "https://sports.yahoo.com/articles/gabe-jacas-injury-waiver-unusual-013629530.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-30T01:36:29.000Z",
+    "summary": "The Patriots and linebacker Gabe Jacas took a long time to work out a rookie contract for reasons unrelated to the standard terms of his rookie deal.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "rookie",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1uaw8on16n86ad",
+    "title": "Start of Training Camp Rundown",
+    "url": "https://sports.yahoo.com/articles/start-training-camp-rundown-011131499.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-30T01:11:31.000Z",
+    "summary": "The Minnesota Vikings start training camp this week and there are a bunch of news items that have coincided with that this week worth addressing. As a reminder, rookies and quarterbacks reported on Sunday, while veterans reported on Tuesday. Wednesday’s practice included the first press conferences of training camp. Jamal Adams Acquisition The Vikings acquired […]",
+    "tags": [
+      "league-news",
+      "trade",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "MIN"
+    ]
+  },
+  {
+    "id": "oh0nlr18b0sb7",
+    "title": "The sharps are buying Caleb Williams above market. Are they right?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vaevnd/the_sharps_are_buying_caleb_williams_above_market",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-07-30T01:01:50.000Z",
+    "summary": "I track completed trades across roughly 200K Sleeper dynasty leagues, and I flag managers with strong long term trade results, draft performance, and high win % separately. Caleb Williams has the widest gap between poll value and actual sale price of any premium player right now. The season: 19.2 PPG, 3,942 passing yards, 27 TD to 7 INT in year two under Ben Johnson. The market: his KTC value is ~",
+    "tags": [
+      "dynasty",
+      "trade",
+      "rookie"
+    ],
+    "players": [
+      "caleb-williams"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1l6706znyi9o",
+    "title": "Rams coach Sean McVay provides more insight on Justin Dedich hand injury",
+    "url": "https://sports.yahoo.com/articles/rams-coach-sean-mcvay-provides-000703883.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-30T00:07:03.000Z",
+    "summary": "Rams coach Sean McVay provided some more details on Justin Dedich's injury, which he had described as \"a hand accident around the Fourth of July.\"",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
     "id": "1wvrufp1gdfv1f",
     "title": "Kellen Moore confirms Bryan Bresee's knee injury \"doesn't look great\"",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kellen-moore-confirms-bryan-bresees-knee-injury-doesnt-look-great",
     "source": "Pro Football Talk",
     "sourceId": "pft",
+    "publishedAt": "2026-07-29T23:57:35.000Z",
+    "summary": "Not long after defensive tackle Bryan Bresee went down with a knee injury came word that the Saints feared a torn ACL.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "qqu9ms8w7roe",
+    "title": "Kellen Moore confirms Bryan Bresee's knee injury \"doesn't look great\"",
+    "url": "https://sports.yahoo.com/articles/kellen-moore-confirms-bryan-bresees-235735081.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
     "publishedAt": "2026-07-29T23:57:35.000Z",
     "summary": "Not long after defensive tackle Bryan Bresee went down with a knee injury came word that the Saints feared a torn ACL.",
     "tags": [
@@ -169,7 +281,7 @@
   },
   {
     "id": "1o44j8h1tlmfnj",
-    "title": "Browns free agency: Jadeveon Clowney rumored to have at least 1 other team ‘in the mix’",
+    "title": "Browns free agency: Jadeveon Clowney rumored to have at least 2 other teams ‘in the mix’",
     "url": "https://sports.yahoo.com/articles/browns-free-agency-jadeveon-clowney-220125340.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
@@ -201,6 +313,45 @@
     "players": [],
     "teams": [
       "DAL"
+    ]
+  },
+  {
+    "id": "slzhths1aj6t",
+    "title": "Eagles’ Jonathan Greenard placed on PUP in rough start to $98 million tenure",
+    "url": "https://sports.yahoo.com/articles/eagles-jonathan-greenard-placed-pup-215453642.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-29T21:54:53.000Z",
+    "summary": "The Eagles lost a major defensive chess piece in an offseason injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "roster-move",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "9w5wqh1lqya23",
+    "title": "Even in limited capacity, Malik Nabers brings 'aura' as Giants open training camp",
+    "url": "https://sports.yahoo.com/articles/even-limited-capacity-malik-nabers-215331329.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-29T21:53:31.000Z",
+    "summary": "Confidence that Malik Nabers would return for the start of the 2026-27 season had waned in the months since his injury. But seeing Nabers with his quarterback, hours after he took part in individual drills, changed that outlook.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "NYG"
     ]
   },
   {
