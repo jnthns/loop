@@ -321,3 +321,17 @@ Remove the comment markers only when the build is truly finished.)
   independent checker still has not run; the 24h player-dump throttle means
   the pool composition will drift only once a day even as camp news breaks —
   worth knowing, not necessarily worth changing before the startup.
+
+### Pass 12 — live Sleeper sync, draft order drawn (2026-07-30)
+
+- Ran `npm run sync:sleeper` against the live API. Sleeper now reports draft
+  order: user `1355422066613948416` is **slot 4** (verified via
+  `GET /draft/1355043174896136192` → `draft_order[...] === 4`).
+- `data/draft.json` updated: `myDraftSlot: 4`, `myPicks`
+  `[4, 21, 28, 45, …, 357]` (30 snake picks). `data/trending.json` refreshed.
+  Player dump skipped (within 24h) — pool unchanged at 39 QB / 288 players;
+  news-match 70/194 (~36%).
+- Phase 12 pool-verify task ticked in `specs/PLAN.md`. Backlog draft-order
+  item narrowed to "confirm live picks once the draft starts."
+- Evidence: `scripts/check.sh` → typecheck 0 errors, vitest 437/437, build
+  26 pages, `check.sh passed.`

@@ -218,7 +218,7 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
       news item; general claims may cite references; never assert a
       transaction or depth chart from memory. (check: both files name the
       split and the `asOf`/`time-sensitive` convention)
-- [ ] Verify the pool fix against a live sync. (check: after a live `refresh`,
+- [x] Verify the pool fix against a live sync. (check: after a live `refresh`,
       `data/players.json` has QBs in the dozens and the share of `data/news.json`
       items matching a known player is well above 16/147)
 
