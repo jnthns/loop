@@ -26,7 +26,6 @@ const NAV = [
   { label: 'Dashboard', path: '/', hint: 'What changed' },
   { label: 'My team', path: '/team', hint: 'Roster, targets, budget' },
   { label: 'Knowledge', path: '/knowledge', hint: 'Dynasty playbook' },
-  { label: 'News', path: '/news', hint: 'Full archive' },
   { label: 'Teams', path: '/teams', hint: 'NFL investment board' },
   { label: 'Progress', path: '/progress', hint: 'Plan and backlog' },
 ];
@@ -156,7 +155,6 @@ const watchedPlayerIds = [
         client:load
         items={newsByDate.slice(0, 40)}
         watchedPlayerIds={watchedPlayerIds}
-        archiveHref={href('/news')}
       />
     </div>
   </body>
