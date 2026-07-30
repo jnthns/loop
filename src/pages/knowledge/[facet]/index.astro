@@ -1,0 +1,67 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { FACETS } from '~/lib/knowledge/facets';
+import { facetTone } from '~/lib/ui/tone';
+import { href } from '~/lib/url';
+import { absoluteDate } from '~/lib/time';
+
+export const getStaticPaths = (async () => {
+  const articles = await getCollection('knowledge');
+  return FACETS.map((facet) => ({
+    params: { facet: facet.id },
+    props: {
+      facet,
+      entries: articles
+        .filter((a) => a.data.facet === facet.id)
+        .sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime()),
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { facet, entries } = Astro.props;
+const tone = facetTone(facet.id);
+---
+
+<BaseLayout title={facet.title} lede={facet.blurb} tone={tone} eyebrow="Knowledge">
+  <p class="mb-5">
+    <a href={href('/knowledge')} class="section-link">← All facets</a>
+  </p>
+
+  {
+    entries.length === 0 ? (
+      <p class="empty">
+        Nothing filed under this facet yet. The curator loop prioritizes empty facets.
+      </p>
+    ) : (
+      <ul class="grid gap-3">
+        {entries.map((entry) => (
+          <li data-testid="article-link" data-facet={entry.data.facet}>
+            <a href={href(`/knowledge/${entry.id}`)} class="card-tone card-link block p-4">
+              <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <h2 class="text-base font-bold hover:underline">{entry.data.title}</h2>
+                <span class="chip chip-tone">{entry.data.confidence} confidence</span>
+                <time
+                  class="text-[11px] text-muted"
+                  datetime={entry.data.updated.toISOString()}
+                  data-numeric
+                >
+                  {absoluteDate(entry.data.updated)}
+                </time>
+              </div>
+              <p class="mt-1.5 max-w-3xl text-[13px] text-muted">{entry.data.summary}</p>
+              {entry.data.tags.length > 0 && (
+                <p class="mt-2 flex flex-wrap gap-1">
+                  {entry.data.tags.map((tag) => (
+                    <span class="chip">{tag}</span>
+                  ))}
+                </p>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</BaseLayout>

@@ -1,0 +1,65 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import NewsArchive from '~/components/NewsArchive';
+import { newsByDate, team, feeds } from '~/lib/data';
+
+const watchedPlayerIds = [
+  ...team.roster.map((r) => r.playerId).filter((id): id is string => Boolean(id)),
+  ...team.targets.map((t) => t.playerId),
+];
+
+const enabledFeeds = feeds.filter((f) => f.enabled);
+const lastUpdated = newsByDate[0]?.publishedAt;
+---
+
+<BaseLayout
+  title="News"
+  lede="Every item the pipeline has gathered. The side panel is the condensed view of this same archive."
+>
+  <p class="mb-5 flex flex-wrap gap-1.5">
+    <span class="chip chip-tone">
+      {enabledFeeds.length} feed{enabledFeeds.length === 1 ? '' : 's'}
+    </span>
+    <span class="chip">
+      {newsByDate.length} item{newsByDate.length === 1 ? '' : 's'} on file
+    </span>
+    {
+      lastUpdated && (
+        <span class="chip">newest {new Date(lastUpdated).toLocaleDateString('en-US')}</span>
+      )
+    }
+  </p>
+
+  <NewsArchive client:load items={newsByDate} watchedPlayerIds={watchedPlayerIds} />
+
+  <section class="mt-12" aria-labelledby="sources" data-tone="teal">
+    <div class="section-head">
+      <div class="section-head__row">
+        <h2 id="sources" class="section-head__title">
+          Sources
+          <span class="badge" data-numeric>{enabledFeeds.length}</span>
+        </h2>
+      </div>
+      <p class="section-head__note">
+        Edit <code class="font-mono">data/feeds.json</code> to add or park a source.
+      </p>
+    </div>
+    <ul class="grid gap-2 text-sm sm:grid-cols-2">
+      {
+        enabledFeeds.map((feed) => (
+          <li class="card card-link">
+            <a
+              href={feed.url}
+              target="_blank"
+              rel="noreferrer"
+              class="flex items-center justify-between gap-3 px-3 py-2"
+            >
+              <span class="font-semibold hover:underline">{feed.name}</span>
+              <span class="chip chip-tone">{feed.category}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</BaseLayout>

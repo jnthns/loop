@@ -1,10 +1,18 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 
-// https://astro.build/config
+// GitHub Pages serves this repo project-scoped at https://jnthns.github.io/loop/,
+// so `base` must be set and every internal link must go through
+// `import.meta.env.BASE_URL` (see src/lib/url.ts). Getting this wrong 404s in
+// production while working fine in dev.
 export default defineConfig({
-  output: 'static',
-  integrations: [react(), tailwind()],
+  site: 'https://jnthns.github.io',
+  base: '/loop',
+  trailingSlash: 'ignore',
+  integrations: [react()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });

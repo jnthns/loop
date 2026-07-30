@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Synthetic RSS 2.0 fixture. Headlines here are INVENTED for parser tests and
+  must never be presented as real news — this is why `news:fetch --fixtures`
+  implies a dry run.
+-->
+<rss version="2.0">
+  <channel>
+    <title>ESPN NFL</title>
+    <link>https://www.espn.com/nfl/</link>
+    <description>NFL news</description>
+    <item>
+      <title>Falcons say Bijan Robinson avoided serious injury, no timetable yet</title>
+      <link>https://example.com/nfl/story/robinson-injury?utm_source=rss&amp;utm_medium=feed</link>
+      <description>&lt;p&gt;The Falcons said Bijan Robinson escaped a hamstring scare, though the team has not set a return date.&lt;/p&gt;</description>
+      <pubDate>Wed, 09 Sep 2026 14:30:00 GMT</pubDate>
+      <guid>https://example.com/nfl/story/robinson-injury</guid>
+    </item>
+    <item>
+      <title>Bengals sign Ja'Marr Chase to a restructured contract</title>
+      <link>https://example.com/nfl/story/chase-contract</link>
+      <description>Cincinnati restructured the deal to create cap room.</description>
+      <pubDate>Tue, 08 Sep 2026 09:15:00 GMT</pubDate>
+      <guid>https://example.com/nfl/story/chase-contract</guid>
+    </item>
+    <item>
+      <title>Raiders trade for veteran offensive lineman</title>
+      <link>https://example.com/nfl/story/raiders-trade</link>
+      <description>Las Vegas acquired a starter ahead of Week 2.</description>
+      <pubDate>Mon, 07 Sep 2026 22:05:00 GMT</pubDate>
+      <guid>https://example.com/nfl/story/raiders-trade</guid>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/nfl/story/untitled</link>
+      <description>An entry with no title, which the parser must drop.</description>
+      <pubDate>Mon, 07 Sep 2026 20:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

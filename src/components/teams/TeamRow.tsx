@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+﻿import { useState } from 'react';
 import type { TeamEntry } from '../../lib/nfl/types';
 import { CoachTile } from './CoachTile';
 import { PlayerTile } from './PlayerTile';
@@ -18,12 +17,7 @@ export function TeamRow({ team, index }: TeamRowProps) {
   const diff = team.pointsFor - team.pointsAgainst;
 
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 12 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: Math.min(index * 0.06, 0.6), duration: 0.3 }}
-      aria-label={`${team.displayName} picks`}
-    >
+    <section aria-label={`${team.displayName} picks`} style={{ animationDelay: `${Math.min(index * 60, 600)}ms` }}>
       <header className="flex flex-wrap items-center gap-2 border-brutal border-brutal-black bg-brutal-black px-3 py-2 text-brutal-white">
         {team.logo && (
           <img src={team.logo} alt="" className="h-6 w-6 bg-brutal-white p-0.5" loading="lazy" />
@@ -60,6 +54,6 @@ export function TeamRow({ team, index }: TeamRowProps) {
         />
       )}
       <div className="h-4" />
-    </motion.section>
+    </section>
   );
 }

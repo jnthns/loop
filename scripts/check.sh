@@ -34,7 +34,8 @@ if [ -f package.json ]; then
   pm="npm"
   [ -f pnpm-lock.yaml ] && pm="pnpm"
   [ -f yarn.lock ] && pm="yarn"
-  has_script() { node -e "const s=require('./package.json').scripts||{}; process.exit(s['$1']?0:1)" 2>/dev/null; }
+  # Note: process.exit() rejects booleans on Node >= 22, so branch to a number.
+  has_script() { node -e "process.exit((require('./package.json').scripts||{})['$1'] ? 0 : 1)" 2>/dev/null; }
   for s in lint typecheck test build; do
     if has_script "$s"; then run "$pm run $s" "$pm" run "$s"; fi
   done

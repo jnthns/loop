@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Synthetic Atom fixture. Reddit serves Atom while most sports desks serve RSS,
+  so the parser has to handle both shapes. Invented content — see the note in
+  espn-nfl.xml.
+-->
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>r/DynastyFF</title>
+  <link rel="alternate" href="https://www.reddit.com/r/DynastyFF/" />
+  <updated>2026-09-10T11:00:00+00:00</updated>
+  <entry>
+    <title>Is it time to sell Saquon Barkley?</title>
+    <link rel="alternate" href="https://example.com/r/DynastyFF/sell-barkley/" />
+    <updated>2026-09-10T11:00:00+00:00</updated>
+    <published>2026-09-10T10:45:00+00:00</published>
+    <content type="html">&lt;p&gt;He is 29 and producing. Every dynasty rule says sell, but the Eagles workload is enormous.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Rookie draft pick value after the first round</title>
+    <link rel="alternate" href="https://example.com/r/DynastyFF/rookie-value" />
+    <published>2026-09-09T18:20:00+00:00</published>
+    <summary>Where does the value curve flatten for rookie picks?</summary>
+  </entry>
+  <entry>
+    <title>Falcons say Bijan Robinson avoided serious injury, no timetable yet</title>
+    <link rel="alternate" href="https://example.com/nfl/story/robinson-injury" />
+    <published>2026-09-09T15:00:00+00:00</published>
+    <summary>Cross-posted from ESPN — the same story from a second feed.</summary>
+  </entry>
+</feed>

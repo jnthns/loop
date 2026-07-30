@@ -1,0 +1,414 @@
+{
+  "leagueName": "DyNastyNasty",
+  "teamName": "comebackedOnYou",
+  "format": {
+    "teams": 12,
+    "superflex": true,
+    "ppr": 1,
+    "tePremium": 0.5,
+    "rosterSlots": [
+      {
+        "id": "qb-1",
+        "kind": "QB",
+        "label": "QB"
+      },
+      {
+        "id": "rb-1",
+        "kind": "RB",
+        "label": "RB1"
+      },
+      {
+        "id": "rb-2",
+        "kind": "RB",
+        "label": "RB2"
+      },
+      {
+        "id": "wr-1",
+        "kind": "WR",
+        "label": "WR1"
+      },
+      {
+        "id": "wr-2",
+        "kind": "WR",
+        "label": "WR2"
+      },
+      {
+        "id": "wr-3",
+        "kind": "WR",
+        "label": "WR3"
+      },
+      {
+        "id": "te-1",
+        "kind": "TE",
+        "label": "TE"
+      },
+      {
+        "id": "flex-1",
+        "kind": "FLEX",
+        "label": "FLEX1"
+      },
+      {
+        "id": "flex-2",
+        "kind": "FLEX",
+        "label": "FLEX2"
+      },
+      {
+        "id": "superflex-1",
+        "kind": "SUPERFLEX",
+        "label": "SUPERFLEX"
+      },
+      {
+        "id": "bn-1",
+        "kind": "BN",
+        "label": "Bench 1"
+      },
+      {
+        "id": "bn-2",
+        "kind": "BN",
+        "label": "Bench 2"
+      },
+      {
+        "id": "bn-3",
+        "kind": "BN",
+        "label": "Bench 3"
+      },
+      {
+        "id": "bn-4",
+        "kind": "BN",
+        "label": "Bench 4"
+      },
+      {
+        "id": "bn-5",
+        "kind": "BN",
+        "label": "Bench 5"
+      },
+      {
+        "id": "bn-6",
+        "kind": "BN",
+        "label": "Bench 6"
+      },
+      {
+        "id": "bn-7",
+        "kind": "BN",
+        "label": "Bench 7"
+      },
+      {
+        "id": "bn-8",
+        "kind": "BN",
+        "label": "Bench 8"
+      },
+      {
+        "id": "bn-9",
+        "kind": "BN",
+        "label": "Bench 9"
+      },
+      {
+        "id": "bn-10",
+        "kind": "BN",
+        "label": "Bench 10"
+      },
+      {
+        "id": "bn-11",
+        "kind": "BN",
+        "label": "Bench 11"
+      },
+      {
+        "id": "bn-12",
+        "kind": "BN",
+        "label": "Bench 12"
+      },
+      {
+        "id": "bn-13",
+        "kind": "BN",
+        "label": "Bench 13"
+      },
+      {
+        "id": "bn-14",
+        "kind": "BN",
+        "label": "Bench 14"
+      },
+      {
+        "id": "bn-15",
+        "kind": "BN",
+        "label": "Bench 15"
+      },
+      {
+        "id": "bn-16",
+        "kind": "BN",
+        "label": "Bench 16"
+      }
+    ]
+  },
+  "roster": [
+    {
+      "slotId": "qb-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "rb-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "rb-2",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "wr-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "wr-2",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "wr-3",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "te-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "flex-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "flex-2",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "superflex-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-1",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-2",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-3",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-4",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-5",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-6",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-7",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-8",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-9",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-10",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-11",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-12",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-13",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-14",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-15",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-16",
+      "playerId": null,
+      "acquired": "",
+      "notes": ""
+    }
+  ],
+  "targets": [
+    {
+      "id": "t-sflex-daniels-tier",
+      "slotId": "qb-1",
+      "playerId": "caleb-williams",
+      "priority": 1,
+      "rationale": "Superflex punishes one-QB rosters more than any other format decision. A second startable QB on a rookie deal is the highest-leverage upgrade available.",
+      "cost": "2027 1st + bench WR"
+    },
+    {
+      "id": "t-sflex-mahomes",
+      "slotId": "qb-1",
+      "playerId": "patrick-mahomes",
+      "priority": 2,
+      "rationale": "Buys a bigger win-now edge at a shorter window. Only correct if the rest of the roster says contend.",
+      "cost": "2027 1st + 2028 1st"
+    },
+    {
+      "id": "t-sflex-allen",
+      "slotId": "qb-1",
+      "playerId": "josh-allen",
+      "priority": 3,
+      "rationale": "Same trade-off as Mahomes with more rushing floor and the same age problem. Compare offers, do not chase the name.",
+      "cost": "2027 1st + RB2"
+    },
+    {
+      "id": "t-te-bowers",
+      "slotId": "te-1",
+      "playerId": "brock-bowers",
+      "priority": 1,
+      "rationale": "TE premium (0.5 PPR bonus) makes an every-down young TE a genuine positional advantage rather than a luxury.",
+      "cost": "WR3 + 2027 1st"
+    },
+    {
+      "id": "t-te-mcbride",
+      "slotId": "te-1",
+      "playerId": "trey-mcbride",
+      "priority": 2,
+      "rationale": "Most of the TE-premium benefit at a fraction of the acquisition cost. The efficient version of the same upgrade.",
+      "cost": "2027 2nd + bench piece"
+    },
+    {
+      "id": "t-rb2-jeanty",
+      "slotId": "rb-2",
+      "playerId": "ashton-jeanty",
+      "priority": 1,
+      "rationale": "Youngest usable RB2 available. Note the market prices first-round rookie RBs at their absolute peak — this is a buy only at a discount.",
+      "cost": "2027 1st"
+    },
+    {
+      "id": "t-rb2-barkley",
+      "slotId": "rb-2",
+      "playerId": "saquon-barkley",
+      "priority": 2,
+      "rationale": "Pure win-now rental. Acquire only with a contending roster and never at a first-round price.",
+      "cost": "2027 2nd"
+    },
+    {
+      "id": "t-wr3-nabers",
+      "slotId": "wr-3",
+      "playerId": "malik-nabers",
+      "priority": 1,
+      "rationale": "Age-23 alpha target share. The one target here worth genuinely overpaying for.",
+      "cost": "WR3 + 2027 1st + 2028 1st"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "startup-auction",
+      "label": "Startup auction cap",
+      "kind": "auction",
+      "total": 200,
+      "entries": [
+        {
+          "id": "a-chase",
+          "label": "Ja'Marr Chase",
+          "amount": 62,
+          "date": "2026-08-15"
+        },
+        {
+          "id": "a-bijan",
+          "label": "Bijan Robinson",
+          "amount": 48,
+          "date": "2026-08-15"
+        },
+        {
+          "id": "a-daniels",
+          "label": "Jayden Daniels",
+          "amount": 41,
+          "date": "2026-08-15"
+        },
+        {
+          "id": "a-btj",
+          "label": "Brian Thomas Jr.",
+          "amount": 24,
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "faab-2026",
+      "label": "FAAB — 2026 season",
+      "kind": "faab",
+      "total": 100,
+      "entries": [
+        {
+          "id": "f-open",
+          "label": "Week 1 waivers",
+          "amount": 0,
+          "date": ""
+        }
+      ]
+    }
+  ]
+}

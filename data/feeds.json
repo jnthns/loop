@@ -1,0 +1,44 @@
+[
+  {
+    "id": "espn-nfl",
+    "name": "ESPN NFL",
+    "url": "https://www.espn.com/espn/rss/nfl/news",
+    "category": "league-news",
+    "enabled": true
+  },
+  {
+    "id": "pft",
+    "name": "Pro Football Talk",
+    "url": "https://profootballtalk.nbcsports.com/feed/",
+    "category": "league-news",
+    "enabled": true
+  },
+  {
+    "id": "cbs-nfl",
+    "name": "CBS Sports NFL",
+    "url": "https://www.cbssports.com/rss/headlines/nfl/",
+    "category": "league-news",
+    "enabled": true
+  },
+  {
+    "id": "yahoo-nfl",
+    "name": "Yahoo Sports NFL",
+    "url": "https://sports.yahoo.com/nfl/rss.xml",
+    "category": "league-news",
+    "enabled": true
+  },
+  {
+    "id": "reddit-dynastyff",
+    "name": "r/DynastyFF",
+    "url": "https://www.reddit.com/r/DynastyFF/.rss",
+    "category": "dynasty",
+    "enabled": true
+  },
+  {
+    "id": "reddit-fantasyfootball",
+    "name": "r/fantasyfootball",
+    "url": "https://www.reddit.com/r/fantasyfootball/.rss",
+    "category": "fantasy",
+    "enabled": true
+  }
+]

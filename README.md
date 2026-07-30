@@ -3,29 +3,37 @@
 A **loop-engineered workspace** — a fully-harnessed system for building software
 with autonomous coding agents, safely and verifiably.
 
-The app being built is an **AI recipe generator** — a brutalist Framer-style
-landing page where users pick protein, country, flavor profile, and extra
-ingredients; Gemini generates tailored recipes; favorites save to localStorage.
+The app being built is a **dynasty fantasy football guide** — a knowledge base
+that compounds. RSS news is gathered on a schedule, the loop files what matters
+into articles organized by facet, and everything is cross-referenced against one
+real roster. A news panel sits on every page; `/team` holds the roster,
+alternative targets, and editable budgets; `/knowledge` is the library that grows.
 
 - Product spec: [`specs/spec.md`](specs/spec.md)
 - Task checklist: [`specs/PLAN.md`](specs/PLAN.md)
-- Build plan (wireframe + architecture): [`docs/plan.md`](docs/plan.md)
+- Architecture (layout, data flow, deployment): [`docs/architecture.md`](docs/architecture.md)
 
-## Recipe app — quick start
-
-Run the Astro dev server locally:
+## App — quick start
 
 ```bash
 npm install
-cp .env.example .env          # optional: set GEMINI_API_KEY for live AI recipes
-npm run dev                   # http://localhost:4321
+npm run dev                   # http://localhost:4321/loop/
+npm run sync:sleeper          # pull the real league from Sleeper into data/
+npm run news:fetch            # refresh data/news.json from feeds + ESPN
+npm run progress              # where the build stands
 ```
 
-**Environment:** Copy `.env.example` to `.env` (git-ignored). Set `GEMINI_API_KEY`
-to your [Google AI Studio](https://aistudio.google.com/apikey) key for real Gemini
-recipes on the server. Leave it empty to use built-in mock data — the app still runs.
+**No API keys.** Sleeper's read API and ESPN's news API are both free and
+keyless, so this repo has no secrets at all. The site is static and calls nothing
+at runtime — the loop is the intelligence and the repo is the database. All
+external data is fetched by a scheduled GitHub Action and committed under
+`data/`, so **the build never needs network**.
 
-**Mechanical check** (lint, test, build — same as CI):
+Your league is configured in `data/sleeper.json` (a username and a league id —
+about as sensitive as a league URL). `.github/workflows/refresh.yml` re-syncs it
+every six hours.
+
+**Mechanical check** (lint, typecheck, test, build — same as CI):
 
 ```bash
 scripts/check.sh
@@ -56,12 +64,12 @@ Autonomous agents build and verify the app using the loop in
 (`OBSERVE → ACT → CHECK → DECIDE → HANDOFF`).
 
 ```bash
-cp .env.example .env          # configure AGENT_CMD, budgets, optional GEMINI_API_KEY
+cp .env.example .env          # configure AGENT_CMD and the budget ceilings
 
 # Product is defined — start the build loop:
-#   specs/spec.md   (recipe generator — Astro + Gemini)
-#   specs/PLAN.md   (ordered task checklist)
-#   docs/plan.md    (wireframe + architecture)
+#   specs/spec.md          (dynasty guide — Astro, static, no keys)
+#   specs/PLAN.md          (ordered task checklist)
+#   docs/architecture.md   (layout, data flow, deployment)
 
 # Dry-run the harness with a mock agent (no real work, safe):
 AGENT_CMD=echo MAX_ITERATIONS=1 scripts/loop.sh
@@ -71,14 +79,20 @@ scripts/loop.sh
 ```
 
 Each pass runs `scripts/check.sh` as the fixed mechanical gate. The runner stops
-on success (`ALL TASKS DONE` in `specs/STATUS.md` **and** no queued goals in
-`specs/BACKLOG.md`) or on any of the **three hard stops**: max iterations,
-no-progress, or budget. When a campaign finishes but the backlog has queued goals,
-`scripts/loop.sh` runs `loops/intake.md` to start the next one.
+on success (`ALL TASKS DONE` in `specs/STATUS.md`) or on any of the **three hard
+stops**: max iterations, no-progress, or budget.
 
-> **Windows:** harness scripts (`scripts/*.sh`) require **Git Bash** or **WSL**.
-> PowerShell cannot run them natively. Use `bash scripts/check.sh` or open a Git
-> Bash terminal for `scripts/loop.sh`.
+## The loops that keep the app growing
+
+Beyond the build loop, three scheduled loops keep the guide current — this is the
+whole point of the app living in a loop-engineered repo:
+
+| Loop                                                     | Trigger       | One bounded action per pass                                 |
+| -------------------------------------------------------- | ------------- | ----------------------------------------------------------- |
+| [`loops/build.md`](loops/build.md)                       | manual        | Implement the next unchecked task in `specs/PLAN.md`        |
+| [`loops/news-refresh.md`](loops/news-refresh.md)         | cron/6h       | Sync Sleeper, fetch news, commit what changed under `data/` |
+| [`loops/knowledge-curator.md`](loops/knowledge-curator.md) | after refresh | Write or update **one** cited article in the thinnest facet |
+| [`loops/roster-review.md`](loops/roster-review.md)       | weekly        | Cross-reference roster × news × knowledge into `data/insights.json` |
 
 ## What's in here
 
@@ -87,8 +101,10 @@ no-progress, or budget. When a campaign finishes but the backlog has queued goal
 | `AGENTS.md`          | **Single source of truth** for agent behavior (read this first).   |
 | `CLAUDE.md`, `.cursor/rules/`, `.codex/` | Tool entrypoints that defer to `AGENTS.md`.    |
 | `.claude/agents/`, `.codex/agents/` | `planner` / `maker` / `checker` subagents.         |
-| `specs/`             | `spec.md` (what to build), `PLAN.md` (checklist), `STATUS.md` (progress + sentinel), `BACKLOG.md` (goal queue), `archive/` (finished campaigns). |
-| `docs/plan.md`       | Full build plan — wireframe, design tokens, directory layout.     |
+| `specs/`             | `spec.md` (what to build), `PLAN.md` (checklist), `BACKLOG.md` (queue), `STATUS.md` (log + sentinel). |
+| `data/`              | The app's database — news, players, team, insights. All committed. |
+| `src/`               | The Astro app — pages, islands, schemas, knowledge content.        |
+| `docs/architecture.md` | Layout, data flow, directory shape, deployment.                  |
 | `memory/handoff.md`  | Durable state between runs. No secrets.                             |
 | `loops/`             | The Loop Library — reusable loop definitions.                       |
 | `skills/`            | Reusable named skills (`SKILL.md`) — the compounding asset.         |
@@ -105,8 +121,10 @@ no-progress, or budget. When a campaign finishes but the backlog has queued goal
 - **Maker ≠ checker** — a separate verifier grades the work.
 - **Skills compound** — capture repeated/hard work as a named skill.
 - **Bounded authority** — the three hard stops + human gates on destructive actions.
-- **Deploy on `main`** — agents commit locally; `scripts/loop.sh` pushes after verify APPROVE; GitHub Pages updates via CI.
-- **Never read `.env`** — agents use `.env.example` only; secrets stay local or in Actions secrets.
+- **Ship to `main`** — finished work is pushed straight to `main`, never via a
+  PR; GitHub Pages deploys on every push.
+- **Hermetic builds** — no network, no keys; external data is fetched by CI and committed.
+- **No uncited claims** — every knowledge article carries its sources.
 - **Stay the engineer** — read what the loop produces; avoid comprehension debt.
 
 ## Adopt it safely
@@ -118,7 +136,7 @@ once the loop produces work you'd have merged by hand. See
 
 ## Learn more
 
-- [`docs/plan.md`](docs/plan.md) — recipe app build plan.
+- [`docs/architecture.md`](docs/architecture.md) — how the app is built.
 - [`docs/loop-engineering.md`](docs/loop-engineering.md) — the discipline & lineage.
 - [`docs/loop-library.md`](docs/loop-library.md) — how to author loops.
 - [`AGENTS.md`](AGENTS.md) — the operational contract every agent follows.

@@ -1,0 +1,89 @@
+name: refresh
+
+# The only job in this repo that touches the network.
+#
+# Every six hours it pulls the real league from Sleeper and the latest news from
+# RSS + ESPN, commits whatever actually changed under data/, and pushes to main.
+# Builds and tests stay hermetic: they only ever read the committed snapshot.
+#
+# The deploy is chained via a `workflow_run` trigger in pages.yml, NOT by this
+# job's push. Pushes made with GITHUB_TOKEN do not trigger workflows — GitHub's
+# anti-recursion safeguard — so relying on the push meant six hours of committed
+# news never reached the site. Do not "simplify" pages.yml back to push-only.
+#
+# Cost: this repo is public, so Actions minutes are unlimited. Even on the
+# private-repo free tier this would be ~4 runs/day x ~2 min = well under the
+# 2000 min/month allowance. All APIs used are free and keyless — there are no
+# secrets to configure.
+
+on:
+  schedule:
+    # Every six hours, off the hour so we are not competing with everyone
+    # else's :00 cron.
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+env:
+  ASTRO_TELEMETRY_DISABLED: '1'
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Sleeper first: news enrichment matches against the player file, so a
+      # fresh roster makes the news tagging better on the same run.
+      #
+      # continue-on-error: a Sleeper outage must not block the news refresh.
+      # The sync writes nothing when it fails, so the committed roster survives.
+      - name: Sync Sleeper league
+        id: sleeper
+        continue-on-error: true
+        run: npm run sync:sleeper
+
+      - name: Fetch news
+        run: npm run news:fetch
+
+      # The data has to survive the same gate as everything else. If a refresh
+      # produces something that fails the schema, we do not want it on main.
+      - name: scripts/check.sh
+        run: |
+          chmod +x scripts/*.sh scripts/lib/*.sh
+          scripts/check.sh
+
+      - name: Commit only what changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/; then
+            echo "No data changes — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Refresh league and news data
+
+          $(git diff --cached --stat | tail -n 1)"
+          git push
+
+      - name: Report a failed Sleeper sync
+        if: steps.sleeper.outcome == 'failure'
+        run: |
+          echo "::warning::Sleeper sync failed; news was refreshed anyway and the" \
+               "committed roster is unchanged. Check data/sleeper.json — if" \
+               "candidateLeagues is populated, a human needs to pick a leagueId."

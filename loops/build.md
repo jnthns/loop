@@ -19,10 +19,10 @@ one verified task at a time, with a fresh context each pass.
 | Part        | Answer                                                                    |
 | ----------- | ------------------------------------------------------------------------ |
 | **Trigger** | Manual goal — a human starts `scripts/loop.sh` (or a scheduled kickoff).  |
-| **Inputs**  | `specs/spec.md`, `specs/PLAN.md`, `specs/STATUS.md`, `specs/BACKLOG.md`, `memory/handoff.md`. |
+| **Inputs**  | `specs/spec.md`, `specs/PLAN.md`, `specs/STATUS.md`, `memory/handoff.md`. |
 | **Action**  | Implement the single highest-priority unchecked task in `specs/PLAN.md`.  |
 | **Check**   | `scripts/check.sh` (lint + test + build) and any task-specific test.      |
-| **Stop**    | `ALL TASKS DONE` present ✅ (and backlog empty) / no unchecked task 🟰 / blocker 🙋 / budget 🛑 |
+| **Stop**    | `ALL TASKS DONE` present ✅ / no unchecked task 🟰 / blocker 🙋 / budget 🛑 |
 
 ## Prompt (run each pass)
 
@@ -41,16 +41,14 @@ one verified task at a time, with a fresh context each pass.
 >
 > On green: tick the task in `specs/PLAN.md`, append the real check output as
 > evidence to `specs/STATUS.md`, rewrite `memory/handoff.md` (goal, change,
-> evidence, blockers, next step — no secrets), and commit locally with an
-> imperative message. **Do not push** — `scripts/loop.sh` runs
-> `scripts/verify.sh` and pushes to `main` only on APPROVE. Then stop.
+> evidence, blockers, next step — no secrets), and commit atomically with an
+> imperative message. Then stop.
 >
 > If every task is checked and `scripts/check.sh` is green, append the line
-> `ALL TASKS DONE` to `specs/STATUS.md` and stop. If `specs/BACKLOG.md` has
-> queued goals, `scripts/loop.sh` will run intake to start the next campaign.
+> `ALL TASKS DONE` to `specs/STATUS.md` and stop.
 >
-> Never read `.env` — use `.env.example` only. Never `git push` yourself during
-> a loop pass. Never force-push,
+> Never read `.env` — use `.env.example` only. After a green check, commit and
+> push directly to `main` (GitHub Pages deploys via CI). Never force-push,
 > delete data, or message third parties without human approval — record such
 > needs in `memory/handoff.md` and stop.
 

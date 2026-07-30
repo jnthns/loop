@@ -1,17 +1,13 @@
----
-import { TeamsApp } from '../components/teams/TeamsApp';
-import BaseLayout from '../layouts/BaseLayout.astro';
+﻿---
+import { TeamsApp } from '~/components/teams/TeamsApp';
+import BaseLayout from '~/layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="NFL Team Investment Board"
-  description="Teams ranked by winning vs losing outlook, with coach scheme profiles and recommended offensive players backed by ESPN and Sleeper data."
+  title="NFL team board"
+  lede="Teams ranked by outlook with coach schemes and recommended offensive players (ESPN + Sleeper)."
+  tone="orange"
+  eyebrow="Teams"
 >
-  <main class="p-8">
-    <div class="mb-8 flex flex-wrap items-baseline gap-4">
-      <h1 class="text-3xl font-bold uppercase">Team Investment Board</h1>
-      <a href="/" class="border-brutal border-brutal-black px-2 py-1 text-xs font-bold uppercase">← Recipes</a>
-    </div>
-    <TeamsApp client:load />
-  </main>
+  <TeamsApp client:load />
 </BaseLayout>

@@ -1,0 +1,20 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import TeamApp from '~/components/TeamApp';
+import { draft, players, team } from '~/lib/data';
+import { href } from '~/lib/url';
+
+const articleLinks = {
+  positionalBuilds: href('/knowledge/roster-construction/superflex-positional-builds'),
+  offseasonLandscape: href('/knowledge/startup-drafts/2026-offseason-landscape'),
+};
+
+const empty = team.roster.every((r) => r.playerId === null);
+const lede = empty
+  ? 'The startup has not happened yet — this page leads with the draft and your shortlist, and becomes a roster the moment picks are made.'
+  : 'The roster the loop reads. Slots, the alternatives worth chasing for each one, and what you have left to spend.';
+---
+
+<BaseLayout title={team.teamName} lede={lede}>
+  <TeamApp client:load committed={team} players={players} draft={draft} articleLinks={articleLinks} />
+</BaseLayout>

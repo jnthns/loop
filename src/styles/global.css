@@ -1,23 +1,699 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+/* ---------------------------------------------------------------------------
+   Design posture: a dense working tool that is still pleasant to read.
+
+   Hierarchy comes from three things, in order: type scale, a colored tone per
+   region, and rule strength. Every section, facet, and position carries a tone
+   so the eye can find "the roster part" or "the trading part" without reading
+   a word. Tones are set once via `data-tone` / `data-pos` and consumed through
+   `--tone*`, so a component never hard-codes a hue.
+   --------------------------------------------------------------------------- */
+
+:root {
+  color-scheme: light dark;
+
+  /* Surfaces and text ---------------------------------------------------- */
+  --app-bg: oklch(98.6% 0.004 265);
+  --app-bg-deep: oklch(96.4% 0.007 265);
+  --app-surface: oklch(100% 0 0);
+  --app-surface-alt: oklch(97.4% 0.005 265);
+  --app-line: oklch(91% 0.007 265);
+  --app-line-strong: oklch(80% 0.011 265);
+  --app-ink: oklch(22% 0.016 265);
+  --app-ink-soft: oklch(38% 0.015 265);
+  --app-muted: oklch(52% 0.016 265);
+
+  /* Semantic roles ------------------------------------------------------- */
+  --app-accent: oklch(52% 0.17 260);
+  --app-accent-soft: oklch(95.5% 0.032 260);
+  --app-accent-line: oklch(84% 0.075 260);
+  --app-warn: oklch(54% 0.15 60);
+  --app-warn-soft: oklch(95.5% 0.045 75);
+  --app-good: oklch(50% 0.13 155);
+  --app-good-soft: oklch(95.5% 0.04 158);
+
+  /* The tone palette. Each family: ink (text/icon), soft (tint), line
+     (border). Assigned to sections, facets, and positions below. */
+  --t-blue: oklch(52% 0.17 260);
+  --t-blue-soft: oklch(95.5% 0.032 260);
+  --t-blue-line: oklch(84% 0.08 260);
+
+  --t-violet: oklch(52% 0.19 300);
+  --t-violet-soft: oklch(95.5% 0.033 300);
+  --t-violet-line: oklch(84% 0.08 300);
+
+  --t-teal: oklch(48% 0.11 195);
+  --t-teal-soft: oklch(95.5% 0.033 195);
+  --t-teal-line: oklch(83% 0.07 195);
+
+  --t-green: oklch(48% 0.13 155);
+  --t-green-soft: oklch(95.5% 0.04 158);
+  --t-green-line: oklch(83% 0.08 158);
+
+  --t-amber: oklch(50% 0.13 75);
+  --t-amber-soft: oklch(95.5% 0.05 82);
+  --t-amber-line: oklch(84% 0.09 82);
+
+  --t-orange: oklch(52% 0.16 45);
+  --t-orange-soft: oklch(95.5% 0.04 45);
+  --t-orange-line: oklch(84% 0.08 45);
+
+  --t-rose: oklch(52% 0.18 15);
+  --t-rose-soft: oklch(95.5% 0.032 15);
+  --t-rose-line: oklch(85% 0.07 15);
+
+  --t-pink: oklch(52% 0.19 340);
+  --t-pink-soft: oklch(95.5% 0.032 340);
+  --t-pink-line: oklch(85% 0.07 340);
+
+  --t-slate: oklch(45% 0.02 265);
+  --t-slate-soft: oklch(96% 0.006 265);
+  --t-slate-line: oklch(87% 0.01 265);
+
+  /* Default tone — anything without `data-tone` reads as the accent. */
+  --tone: var(--t-blue);
+  --tone-soft: var(--t-blue-soft);
+  --tone-line: var(--t-blue-line);
+
+  --radius: 0.625rem;
+  --radius-sm: 0.375rem;
+  --radius-lg: 1rem;
+
+  --shadow-card: 0 1px 2px oklch(22% 0.02 265 / 0.06), 0 1px 1px oklch(22% 0.02 265 / 0.04);
+  --shadow-lift: 0 6px 16px oklch(22% 0.02 265 / 0.09), 0 2px 4px oklch(22% 0.02 265 / 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --app-bg: oklch(16.5% 0.012 265);
+    --app-bg-deep: oklch(13.5% 0.012 265);
+    --app-surface: oklch(20.5% 0.013 265);
+    --app-surface-alt: oklch(24% 0.014 265);
+    --app-line: oklch(29.5% 0.016 265);
+    --app-line-strong: oklch(40% 0.02 265);
+    --app-ink: oklch(94% 0.006 265);
+    --app-ink-soft: oklch(80% 0.011 265);
+    --app-muted: oklch(67% 0.015 265);
+
+    --app-accent: oklch(76% 0.14 262);
+    --app-accent-soft: oklch(28% 0.055 262);
+    --app-accent-line: oklch(40% 0.09 262);
+    --app-warn: oklch(80% 0.14 78);
+    --app-warn-soft: oklch(30% 0.06 70);
+    --app-good: oklch(76% 0.13 158);
+    --app-good-soft: oklch(28% 0.06 158);
+
+    --t-blue: oklch(76% 0.14 262);
+    --t-blue-soft: oklch(28% 0.055 262);
+    --t-blue-line: oklch(41% 0.09 262);
+
+    --t-violet: oklch(78% 0.13 300);
+    --t-violet-soft: oklch(28% 0.055 300);
+    --t-violet-line: oklch(41% 0.09 300);
+
+    --t-teal: oklch(80% 0.1 195);
+    --t-teal-soft: oklch(27% 0.045 195);
+    --t-teal-line: oklch(40% 0.07 195);
+
+    --t-green: oklch(78% 0.13 158);
+    --t-green-soft: oklch(27% 0.055 158);
+    --t-green-line: oklch(40% 0.09 158);
+
+    --t-amber: oklch(82% 0.13 85);
+    --t-amber-soft: oklch(28% 0.06 78);
+    --t-amber-line: oklch(41% 0.09 78);
+
+    --t-orange: oklch(79% 0.14 50);
+    --t-orange-soft: oklch(28% 0.06 45);
+    --t-orange-line: oklch(41% 0.09 45);
+
+    --t-rose: oklch(78% 0.14 15);
+    --t-rose-soft: oklch(28% 0.06 15);
+    --t-rose-line: oklch(41% 0.09 15);
+
+    --t-pink: oklch(79% 0.14 340);
+    --t-pink-soft: oklch(28% 0.06 340);
+    --t-pink-line: oklch(41% 0.09 340);
+
+    --t-slate: oklch(72% 0.02 265);
+    --t-slate-soft: oklch(26% 0.012 265);
+    --t-slate-line: oklch(38% 0.016 265);
+
+    --shadow-card: 0 1px 2px oklch(0% 0 0 / 0.4);
+    --shadow-lift: 0 8px 24px oklch(0% 0 0 / 0.45), 0 2px 6px oklch(0% 0 0 / 0.3);
+  }
+}
+
+/* Tone assignment. Set `data-tone` on any wrapper and everything inside that
+   reads `--tone*` (or the `tone` Tailwind colors) follows it. */
+[data-tone='blue'] {
+  --tone: var(--t-blue);
+  --tone-soft: var(--t-blue-soft);
+  --tone-line: var(--t-blue-line);
+}
+[data-tone='violet'] {
+  --tone: var(--t-violet);
+  --tone-soft: var(--t-violet-soft);
+  --tone-line: var(--t-violet-line);
+}
+[data-tone='teal'] {
+  --tone: var(--t-teal);
+  --tone-soft: var(--t-teal-soft);
+  --tone-line: var(--t-teal-line);
+}
+[data-tone='green'] {
+  --tone: var(--t-green);
+  --tone-soft: var(--t-green-soft);
+  --tone-line: var(--t-green-line);
+}
+[data-tone='amber'] {
+  --tone: var(--t-amber);
+  --tone-soft: var(--t-amber-soft);
+  --tone-line: var(--t-amber-line);
+}
+[data-tone='orange'] {
+  --tone: var(--t-orange);
+  --tone-soft: var(--t-orange-soft);
+  --tone-line: var(--t-orange-line);
+}
+[data-tone='rose'] {
+  --tone: var(--t-rose);
+  --tone-soft: var(--t-rose-soft);
+  --tone-line: var(--t-rose-line);
+}
+[data-tone='pink'] {
+  --tone: var(--t-pink);
+  --tone-soft: var(--t-pink-soft);
+  --tone-line: var(--t-pink-line);
+}
+[data-tone='slate'] {
+  --tone: var(--t-slate);
+  --tone-soft: var(--t-slate-soft);
+  --tone-line: var(--t-slate-line);
+}
+
+/* Positions get fixed colors so a roster reads at a glance. */
+[data-pos='QB'] {
+  --tone: var(--t-rose);
+  --tone-soft: var(--t-rose-soft);
+  --tone-line: var(--t-rose-line);
+}
+[data-pos='RB'] {
+  --tone: var(--t-green);
+  --tone-soft: var(--t-green-soft);
+  --tone-line: var(--t-green-line);
+}
+[data-pos='WR'] {
+  --tone: var(--t-blue);
+  --tone-soft: var(--t-blue-soft);
+  --tone-line: var(--t-blue-line);
+}
+[data-pos='TE'] {
+  --tone: var(--t-amber);
+  --tone-soft: var(--t-amber-soft);
+  --tone-line: var(--t-amber-line);
+}
+[data-pos='K'] {
+  --tone: var(--t-teal);
+  --tone-soft: var(--t-teal-soft);
+  --tone-line: var(--t-teal-line);
+}
+[data-pos='DEF'],
+[data-pos='DST'] {
+  --tone: var(--t-slate);
+  --tone-soft: var(--t-slate-soft);
+  --tone-line: var(--t-slate-line);
+}
+[data-pos='FLEX'],
+[data-pos='SUPERFLEX'] {
+  --tone: var(--t-violet);
+  --tone-soft: var(--t-violet-soft);
+  --tone-line: var(--t-violet-line);
+}
+
+@theme inline {
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
+
+  --color-bg: var(--app-bg);
+  --color-bg-deep: var(--app-bg-deep);
+  --color-surface: var(--app-surface);
+  --color-surface-alt: var(--app-surface-alt);
+  --color-line: var(--app-line);
+  --color-line-strong: var(--app-line-strong);
+  --color-ink: var(--app-ink);
+  --color-ink-soft: var(--app-ink-soft);
+  --color-muted: var(--app-muted);
+  --color-accent: var(--app-accent);
+  --color-accent-soft: var(--app-accent-soft);
+  --color-accent-line: var(--app-accent-line);
+  --color-warn: var(--app-warn);
+  --color-warn-soft: var(--app-warn-soft);
+  --color-good: var(--app-good);
+  --color-good-soft: var(--app-good-soft);
+
+  /* Tone-aware Tailwind colors: `text-tone`, `bg-tone-soft`, `border-tone-line`
+     all resolve against whatever `data-tone` is in scope. */
+  --color-tone: var(--tone);
+  --color-tone-soft: var(--tone-soft);
+  --color-tone-line: var(--tone-line);
+
+  --radius-card: var(--radius);
+}
 
 @layer base {
-  :root {
-    --brutal-black: #000000;
-    --brutal-white: #ffffff;
-    --brutal-accent: #ffe500;
-    --brutal-border: 3px solid var(--brutal-black);
-    --brutal-radius: 0;
-  }
-
-  *,
-  *::before,
-  *::after {
-    border-radius: var(--brutal-radius);
+  html {
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
-    @apply bg-brutal-white font-sans text-brutal-black antialiased;
+    background-color: var(--app-bg);
+    color: var(--app-ink);
+    font-family: var(--font-sans);
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    font-feature-settings: 'cv05', 'ss01';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Numbers line up in tables and ledgers. */
+  table,
+  [data-numeric] {
+    font-variant-numeric: tabular-nums;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--app-accent);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  ::selection {
+    background: var(--app-accent-soft);
+  }
+}
+
+@layer components {
+  /* A small-caps metadata label — used everywhere for field names. */
+  .label {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--app-muted);
+  }
+
+  /* Same shape as `.label` but in the region's tone — for eyebrows above a
+     heading, where the color is doing the categorizing. */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--tone);
+  }
+
+  .eyebrow::before {
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 2px;
+    background: var(--tone);
+  }
+
+  .rule {
+    border-color: var(--app-line);
+  }
+
+  /* ---- Section headers -------------------------------------------------
+     The main navigational aid on long pages: a tone bar, a heading two steps
+     larger than body text, an optional count, and the note underneath. */
+  .section-head {
+    position: relative;
+    margin-bottom: 0.875rem;
+    padding-bottom: 0.625rem;
+    border-bottom: 1px solid var(--app-line);
+  }
+
+  .section-head::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 3.5rem;
+    height: 2px;
+    background: var(--tone);
+    border-radius: 2px;
+  }
+
+  .section-head__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.25rem 0.75rem;
+  }
+
+  .section-head__title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 680;
+    letter-spacing: -0.02em;
+  }
+
+  .section-head__title::before {
+    content: '';
+    width: 0.25rem;
+    height: 1.05rem;
+    border-radius: 999px;
+    background: var(--tone);
+    flex: none;
+  }
+
+  .section-head__note {
+    width: 100%;
+    margin-top: 0.25rem;
+    max-width: 60ch;
+    font-size: 0.8125rem;
+    color: var(--app-muted);
+  }
+
+  .section-link {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--tone);
+  }
+
+  .section-link:hover {
+    text-decoration: underline;
+  }
+
+  /* ---- Badges, chips, pills ------------------------------------------- */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5rem;
+    padding: 0.05rem 0.4rem;
+    border-radius: 999px;
+    background: var(--tone-soft);
+    color: var(--tone);
+    border: 1px solid var(--tone-line);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.05rem 0.4rem;
+    border-radius: var(--radius-sm);
+    background: var(--app-surface-alt);
+    border: 1px solid var(--app-line);
+    color: var(--app-muted);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+
+  .chip-tone {
+    background: var(--tone-soft);
+    border-color: var(--tone-line);
+    color: var(--tone);
+  }
+
+  /* Position tag — reads as a colored key across roster, market and draft. */
+  .pos-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.25rem;
+    padding: 0.05rem 0.35rem;
+    border-radius: var(--radius-sm);
+    background: var(--tone-soft);
+    color: var(--tone);
+    border: 1px solid var(--tone-line);
+    font-size: 0.625rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+  }
+
+  /* ---- Surfaces -------------------------------------------------------- */
+  .card {
+    background: var(--app-surface);
+    border: 1px solid var(--app-line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-card);
+  }
+
+  /* A card whose top edge carries the tone — used for panels that belong to a
+     category (a facet, a budget, the draft). */
+  .card-tone {
+    background: var(--app-surface);
+    border: 1px solid var(--app-line);
+    border-top: 2px solid var(--tone);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+  }
+
+  .card-link {
+    transition:
+      box-shadow 140ms ease,
+      transform 140ms ease,
+      border-color 140ms ease,
+      background-color 140ms ease;
+  }
+
+  .card-link:hover {
+    box-shadow: var(--shadow-lift);
+    border-color: var(--tone-line);
+    transform: translateY(-1px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card-link,
+    .card-link:hover {
+      transition: none;
+      transform: none;
+    }
+  }
+
+  .panel-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.25rem 0.75rem;
+    padding: 0.5rem 0.75rem;
+    background: linear-gradient(to right, var(--tone-soft), transparent 85%);
+    border-bottom: 1px solid var(--app-line);
+  }
+
+  .panel-title {
+    font-size: 0.9375rem;
+    font-weight: 680;
+    letter-spacing: -0.015em;
+  }
+
+  .empty {
+    border: 1px dashed var(--app-line-strong);
+    border-radius: var(--radius);
+    background: var(--app-surface-alt);
+    padding: 1rem;
+    font-size: 0.8125rem;
+    color: var(--app-muted);
+  }
+
+  /* A row list that reads as one block: hairlines inside, rounded outside. */
+  .rows {
+    border: 1px solid var(--app-line);
+    border-radius: var(--radius);
+    background: var(--app-surface);
+    overflow: hidden;
+  }
+
+  .rows > * + * {
+    border-top: 1px solid var(--app-line);
+  }
+
+  /* ---- Meters ---------------------------------------------------------- */
+  .meter {
+    height: 0.5rem;
+    width: 100%;
+    border-radius: 999px;
+    background: var(--app-surface-alt);
+    border: 1px solid var(--app-line);
+    overflow: hidden;
+  }
+
+  .meter__fill {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(to right, var(--tone-line), var(--tone));
+  }
+
+  /* ---- Page hero (in the layout) --------------------------------------- */
+  .page-hero {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--app-line);
+    background:
+      radial-gradient(120% 140% at 0% 0%, var(--tone-soft), transparent 62%),
+      linear-gradient(to bottom, var(--app-surface), var(--app-bg));
+  }
+
+  .page-hero::after {
+    content: '';
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 2px;
+    background: linear-gradient(to right, var(--tone), var(--tone-line) 40%, transparent 78%);
+  }
+
+  .page-title {
+    font-size: 1.75rem;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+  }
+
+  /* ---- Article typography --------------------------------------------- */
+  .prose-article {
+    max-width: 68ch;
+  }
+
+  .prose-article > * + * {
+    margin-top: 0.9em;
+  }
+
+  .prose-article h2 {
+    position: relative;
+    margin-top: 2em;
+    padding-left: 0.75rem;
+    font-size: 1.1875rem;
+    font-weight: 680;
+  }
+
+  .prose-article h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.18em;
+    bottom: 0.18em;
+    width: 0.1875rem;
+    border-radius: 999px;
+    background: var(--tone);
+  }
+
+  .prose-article h3 {
+    margin-top: 1.6em;
+    font-size: 1rem;
+    font-weight: 680;
+    color: var(--app-ink);
+  }
+
+  .prose-article ul,
+  .prose-article ol {
+    padding-left: 1.25rem;
+  }
+
+  .prose-article ul {
+    list-style: disc;
+  }
+
+  .prose-article ol {
+    list-style: decimal;
+  }
+
+  .prose-article li::marker {
+    color: var(--tone);
+  }
+
+  .prose-article li + li {
+    margin-top: 0.3em;
+  }
+
+  .prose-article a {
+    color: var(--tone);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .prose-article strong {
+    font-weight: 650;
+  }
+
+  .prose-article code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    background: var(--app-surface-alt);
+    border: 1px solid var(--app-line);
+    border-radius: var(--radius-sm);
+    padding: 0.05em 0.3em;
+  }
+
+  .prose-article blockquote {
+    border-left: 3px solid var(--tone);
+    background: var(--tone-soft);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    padding: 0.6rem 0.9rem;
+    color: var(--app-ink-soft);
+  }
+
+  .prose-article table {
+    width: 100%;
+    font-size: 0.875rem;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid var(--app-line);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .prose-article thead {
+    background: var(--app-surface-alt);
+  }
+
+  .prose-article th,
+  .prose-article td {
+    border-bottom: 1px solid var(--app-line);
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+  }
+
+  .prose-article th {
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--app-muted);
+  }
+
+  .prose-article tr:last-child td {
+    border-bottom: 0;
   }
 }

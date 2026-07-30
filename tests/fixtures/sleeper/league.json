@@ -1,0 +1,40 @@
+{
+  "league_id": "1000000000000000001",
+  "name": "First Dynasty League",
+  "season": "2026",
+  "total_rosters": 12,
+  "roster_positions": [
+    "QB",
+    "RB",
+    "RB",
+    "WR",
+    "WR",
+    "WR",
+    "TE",
+    "FLEX",
+    "SUPER_FLEX",
+    "K",
+    "DEF",
+    "BN",
+    "BN",
+    "BN",
+    "BN",
+    "BN",
+    "BN",
+    "TAXI",
+    "TAXI",
+    "IR"
+  ],
+  "scoring_settings": {
+    "rec": 1,
+    "bonus_rec_te": 0.5,
+    "pass_td": 4,
+    "rush_td": 6
+  },
+  "settings": {
+    "waiver_budget": 100,
+    "taxi_slots": 2,
+    "reserve_slots": 1,
+    "type": 2
+  }
+}

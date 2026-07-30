@@ -9,7 +9,7 @@
 # Source this file; do not execute it.
 
 : "${BUDGET_USD:=5}"                 # hard dollar ceiling for one loop run
-: "${COST_PER_ITERATION_USD:=0.25}"  # rough per-pass estimate added each pass
+: "${COST_PER_ITERATION_USD:=0}"     # rough estimate added each pass if >0
 : "${BUDGET_LEDGER:=memory/.budget}" # running total (git-ignored)
 
 budget_reset() {

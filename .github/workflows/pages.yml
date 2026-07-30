@@ -1,11 +1,26 @@
 name: pages
 
-# Push to main runs the mechanical check, builds the site artifact, and deploys
-# to GitHub Pages. Agents commit and push to main; CI owns production deploy.
+# Push to main runs the mechanical check, builds the site, and deploys to
+# GitHub Pages. Agents commit and push to main; CI owns production deploy.
+#
+# The site is served project-scoped at https://jnthns.github.io/loop/, which is
+# why astro.config.mjs sets base: '/loop'. If internal links ever 404 in
+# production but work in dev, that is the setting to look at.
 
 on:
   push:
     branches: [main]
+
+  # GitHub deliberately does NOT trigger workflows from pushes made with
+  # GITHUB_TOKEN — an anti-recursion safeguard. So the data commits that
+  # refresh.yml pushes never fire the `push` trigger above, and for six hours
+  # this repo committed real news that the live site could not see.
+  # `workflow_run` is the sanctioned way across that boundary, and it needs no
+  # PAT, which keeps the repo's zero-secrets property.
+  workflow_run:
+    workflows: [refresh]
+    types: [completed]
+
   workflow_dispatch:
 
 permissions:
@@ -17,36 +32,48 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+env:
+  ASTRO_TELEMETRY_DISABLED: '1'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    # A failed refresh must never deploy. Non-workflow_run events (push,
+    # workflow_dispatch) carry no conclusion, so they pass this gate.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     steps:
-      - uses: actions/checkout@v4
+      # Explicit ref: on a workflow_run event the default checkout is whatever
+      # the default branch pointed at when the event fired, which is subtle
+      # enough to be worth stating rather than relying on.
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # Install before the check: check.sh runs typecheck/test/build, all of
+      # which need node_modules.
+      - run: npm ci
 
       - name: scripts/check.sh
         run: |
           chmod +x scripts/*.sh scripts/lib/*.sh
           scripts/check.sh
 
-      - name: Build site artifact
-        id: build
+      # check.sh already ran `astro build`, so dist/ exists by now. Assert it
+      # rather than falling back to some other directory — a missing dist means
+      # something is wrong, and deploying stale or empty output would hide it.
+      - name: Verify build output
         run: |
           set -euo pipefail
-          if [ -f package.json ] && node -e "const s=require('./package.json').scripts||{}; process.exit(s.build?0:1)" 2>/dev/null; then
-            if [ -f package-lock.json ]; then npm ci; else npm install; fi
-            npm run build
-            if [ -d dist ]; then
-              echo "path=dist" >> "$GITHUB_OUTPUT"
-            elif [ -d build ]; then
-              echo "path=build" >> "$GITHUB_OUTPUT"
-            else
-              echo "package.json build ran but no dist/ or build/ output found" >&2
-              exit 1
-            fi
-          else
-            echo "No package.json with build script found" >&2
-            exit 1
-          fi
+          test -d dist || { echo "dist/ missing after build" >&2; exit 1; }
+          test -f dist/index.html || { echo "dist/index.html missing" >&2; exit 1; }
+          echo "dist/ contains $(find dist -name '*.html' | wc -l) page(s)"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -54,7 +81,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ steps.build.outputs.path }}
+          path: dist
 
   deploy:
     needs: build

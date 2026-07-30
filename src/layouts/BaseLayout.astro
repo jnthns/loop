@@ -1,29 +1,141 @@
 ---
-import '../styles/global.css';
-import '@fontsource/syne/700.css';
+import '~/styles/global.css';
+import NewsPanel from '~/components/NewsPanel';
+import { href, isActive } from '~/lib/url';
+import { newsByDate, team } from '~/lib/data';
+import { routeTone, type Tone } from '~/lib/ui/tone';
 
 interface Props {
-  title?: string;
-  description?: string;
+  title: string;
+  /** Short line under the page title — what this page is for. */
+  lede?: string;
+  /**
+   * Overrides the route's tone. Article pages pass their facet's tone so the
+   * page reads as part of that facet rather than as generic "knowledge".
+   */
+  tone?: Tone;
+  /** Small-caps line above the title. Defaults to the active nav section. */
+  eyebrow?: string;
 }
 
-const {
-  title = 'Recipe Generator',
-  description = 'AI-powered recipe ideas with a brutalist twist.',
-} = Astro.props;
+const { title, lede, tone, eyebrow } = Astro.props;
+const path = Astro.url.pathname;
+
+const NAV = [
+  { label: 'Dashboard', path: '/', hint: 'What changed' },
+  { label: 'My team', path: '/team', hint: 'Roster, targets, budget' },
+  { label: 'Knowledge', path: '/knowledge', hint: 'Dynasty playbook' },
+  { label: 'News', path: '/news', hint: 'Full archive' },
+  { label: 'Teams', path: '/teams', hint: 'NFL investment board' },
+  { label: 'Progress', path: '/progress', hint: 'Plan and backlog' },
+];
+
+const current = NAV.find((item) => isActive(path, item.path));
+const pageTone: Tone = tone ?? routeTone(current?.path ?? '/');
+const pageEyebrow = eyebrow ?? current?.label ?? 'Dynasty Guide';
+
+// Players the manager owns or is chasing — the news panel flags these.
+const watchedPlayerIds = [
+  ...team.roster.map((r) => r.playerId).filter((id): id is string => Boolean(id)),
+  ...team.targets.map((t) => t.playerId),
+];
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="generator" content={Astro.generator} />
-    <meta name="description" content={description} />
-    <title>{title}</title>
+    <meta name="description" content="A dynasty fantasy football guide that compounds." />
+    <link rel="icon" href={href('/favicon.svg')} type="image/svg+xml" />
+    <title>{title} · Dynasty Guide</title>
   </head>
-  <body class="min-h-screen bg-brutal-white font-sans text-brutal-black">
-    <slot />
+  <body class="min-h-screen bg-bg-deep">
+    <div
+      class="mx-auto grid min-h-screen max-w-[1560px] grid-cols-1 bg-bg lg:grid-cols-[14rem_minmax(0,1fr)_21rem]"
+      data-tone={pageTone}
+    >
+      <!-- Nav: top bar on small screens, left rail from lg. -->
+      <header
+        class="sticky top-0 z-20 border-b border-line bg-surface/95 backdrop-blur lg:static lg:border-r lg:border-b-0 lg:bg-surface"
+      >
+        <div class="flex items-center gap-4 px-4 py-3 lg:block lg:px-4 lg:py-5">
+          <a href={href('/')} class="flex shrink-0 items-center gap-2.5">
+            <span
+              class="grid size-8 place-items-center rounded-[0.5rem] border border-tone-line bg-tone-soft text-[13px] font-black text-tone"
+              aria-hidden="true">DG</span
+            >
+            <span class="block">
+              <span class="block text-sm font-bold tracking-tight">Dynasty Guide</span>
+              <span class="hidden text-[11px] text-muted lg:block">
+                {team.teamName} · {team.leagueName}
+              </span>
+            </span>
+          </a>
+          <nav aria-label="Main" class="min-w-0 flex-1 lg:mt-7">
+            <p class="label mb-2 hidden lg:block">Sections</p>
+            <ul class="flex gap-1 overflow-x-auto lg:block lg:space-y-1 lg:overflow-visible">
+              {
+                NAV.map((item) => {
+                  const active = isActive(path, item.path);
+                  return (
+                    <li data-tone={routeTone(item.path)}>
+                      <a
+                        href={href(item.path)}
+                        aria-current={active ? 'page' : undefined}
+                        class:list={[
+                          'group flex items-center gap-2 rounded-[0.5rem] px-2.5 py-1.5 text-sm whitespace-nowrap transition-colors',
+                          active
+                            ? 'bg-tone-soft font-semibold text-tone lg:border lg:border-tone-line'
+                            : 'text-muted hover:bg-surface-alt hover:text-ink lg:border lg:border-transparent',
+                        ]}
+                      >
+                        <span
+                          class:list={[
+                            'size-1.5 shrink-0 rounded-full',
+                            active ? 'bg-tone' : 'bg-line-strong group-hover:bg-tone',
+                          ]}
+                          aria-hidden="true"
+                        />
+                        <span class="min-w-0">
+                          {item.label}
+                          <span class="hidden text-[11px] font-normal text-muted lg:block">
+                            {item.hint}
+                          </span>
+                        </span>
+                      </a>
+                    </li>
+                  );
+                })
+              }
+            </ul>
+          </nav>
+          <p
+            class="hidden rounded-[0.5rem] border border-line bg-surface-alt p-2.5 text-[11px] leading-relaxed text-muted lg:mt-7 lg:block"
+          >
+            Built by a loop. Every claim in the knowledge base cites a source; every suggestion
+            cites a news item.
+          </p>
+        </div>
+      </header>
+
+      <main class="min-w-0">
+        <div class="page-hero px-5 py-7 lg:px-8 lg:py-9">
+          <p class="eyebrow">{pageEyebrow}</p>
+          <h1 class="page-title mt-2">{title}</h1>
+          {lede && <p class="mt-2 max-w-2xl text-[0.9375rem] text-muted">{lede}</p>}
+        </div>
+        <div class="px-5 py-7 lg:px-8 lg:py-8">
+          <slot />
+        </div>
+      </main>
+
+      <NewsPanel
+        client:load
+        items={newsByDate.slice(0, 40)}
+        watchedPlayerIds={watchedPlayerIds}
+        archiveHref={href('/news')}
+      />
+    </div>
   </body>
 </html>

@@ -9,11 +9,6 @@ memory/.budget
 loops.log
 run-*.log
 
-# Astro / build artifacts
-.astro/
-.tmp-home.html
-node_modules/.vite/
-
 # Agent worktrees / scratch
 .worktrees/
 tmp/
@@ -29,9 +24,5 @@ Thumbs.db
 # --- Language artifacts ---
 node_modules/
 dist/
-# build/
-# .next/
-# __pycache__/
-# .venv/
-# target/
-# coverage/
+.astro/
+coverage/

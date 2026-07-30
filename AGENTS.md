@@ -6,10 +6,12 @@
 > `.codex/*`) intentionally defer to this document. If they ever disagree, this
 > file wins.
 
-This repository is a **loop-engineered workspace**. The app it will eventually
-build has not been chosen yet. What exists today is the *harness*: the outer-loop
-system that lets an agent build, verify, and ship software autonomously and
-safely. Read this whole file before doing anything.
+This repository is a **loop-engineered workspace**. Two things live here: the
+*harness* — the outer-loop system that lets an agent build, verify, and ship
+software autonomously and safely — and the *app* the harness is currently
+building, a **dynasty fantasy football guide** (see `specs/spec.md`). The harness
+is the durable asset; the app is what it is pointed at today. Read this whole
+file before doing anything.
 
 ---
 
@@ -34,7 +36,6 @@ OBSERVE → ACT → CHECK → DECIDE → (continue | stop) → HANDOFF
    - `specs/spec.md` — what we are building and the acceptance criteria.
    - `specs/PLAN.md` — the ordered task checklist.
    - `specs/STATUS.md` — progress log + the `ALL TASKS DONE` sentinel.
-   - `specs/BACKLOG.md` — queued goals for the next campaigns (the spine).
    - `memory/handoff.md` — the last run's handoff (what was tried, what's next).
 2. **Act.** Pick the **single** highest-priority unchecked task from
    `specs/PLAN.md`. Make one small, reversible change toward it. No grab-bags.
@@ -113,10 +114,14 @@ them up as done.
 - **Never read `.env`.** Agents must not open, cat, or load `.env` (secrets stay
   git-ignored). Use `.env.example` for variable names only. Harness scripts such
   as `scripts/loop.sh` may load `.env` at runtime; agents do not.
-- **Deploy via `main`.** Agents commit locally each pass; `scripts/loop.sh` pushes
-  to `main` only after `scripts/verify.sh` APPROVEs. `main` is the production
-  branch — GitHub Actions deploys to GitHub Pages on every push. Do not open PRs
-  or wait for manual release promotion.
+- **Ship to `main`, always.** Completed work is pushed **directly to `main`** —
+  no pull request, no feature branch, no waiting for review. `main` is
+  production: every push runs `pages.yml` and deploys to GitHub Pages. This is a
+  single-user personal app; `scripts/check.sh` and the checker are the gate, and
+  a PR would add a waiting step and nothing else. If you are on a working
+  branch, merge it to `main` and push rather than leaving finished work parked.
+  See `skills/ship-to-main/SKILL.md`. This does **not** relax anything else:
+  never push a red check, and the destructive-action gates below still hold.
 - **Gate destructive actions behind a human.** `rm -rf`, dropping data,
   `git push --force`, history rewrites, deleting branches, financial actions,
   privacy-sensitive data, and external messages (email/Slack/PRs to third
@@ -124,7 +129,12 @@ them up as done.
   ask into `memory/handoff.md`.
 - **Never store secrets** in `specs/`, `memory/`, `skills/`, commit messages, or
   logs. Secrets belong only in git-ignored `.env` or GitHub Actions secrets;
-  see `.env.example`.
+  see `.env.example`. The current app needs none.
+- **Builds must never require network.** External data (RSS news) is fetched by a
+  scheduled CI job and committed as `data/*.json`. Tests and builds read the
+  committed snapshot and fixtures, never the live internet.
+- **Never write an uncited claim** into the knowledge base. Every article needs
+  at least one entry in its `sources[]` frontmatter; the check enforces it.
 - **Prefer CLIs over heavy MCPs.** A named CLI the model already knows costs zero
   context and is self-documenting via `--help`. Reserve MCP for things a CLI
   can't do.
@@ -140,11 +150,13 @@ them up as done.
 | `.cursor/rules/`         | Always-applied Cursor rules → defer here.                  |
 | `.claude/agents/`        | `planner`, `maker`, `checker` subagents (Claude Code).     |
 | `.codex/agents/`         | `maker`, `checker` subagents (Codex).                      |
-| `specs/spec.md`          | Source-of-truth product spec (fill in the app's purpose).  |
+| `specs/spec.md`          | Source-of-truth product spec (the dynasty guide).          |
+| `specs/BACKLOG.md`       | Intake queue — discovered work goes here, not into PLAN.   |
+| `scripts/progress.sh`    | `npm run progress` — phase progress, queue depth, sentinel.|
+| `data/*.json`            | Committed app data — news, players, team, insights.        |
+| `src/`                   | The Astro app (pages, islands, schemas, content).          |
 | `specs/PLAN.md`          | Ordered implementation checklist.                          |
 | `specs/STATUS.md`        | Progress log + `ALL TASKS DONE` sentinel.                  |
-| `specs/BACKLOG.md`       | Goal queue — next campaigns after the current one finishes.|
-| `specs/archive/`         | Archived `PLAN.md` + `STATUS.md` per completed campaign.   |
 | `memory/handoff.md`      | Durable per-run handoff. No secrets.                       |
 | `loops/`                 | The Loop Library (reusable loop definitions).              |
 | `skills/`                | Reusable named skills (`SKILL.md`).                        |
@@ -160,12 +172,17 @@ them up as done.
 ## 8. Conventions
 
 - **Commits:** one logical change per commit; imperative subject
-  (`Add spec template`), body explains *why*. The loop runner pushes to `main`
-  after verify APPROVEs so CI deploys the site. Never `git commit --amend` or
-  `git push --force` unless a human asks.
+  (`Add spec template`), body explains *why*. Push to `main` after each pass so
+  CI deploys the site — directly, never via a PR. Never `git commit --amend` or
+  `git push --force` unless a human asks. Direct-to-main raises the value of a
+  clean history, because `git revert` is the rollback plan.
 - **Task list format in `specs/PLAN.md`:** GitHub checkboxes `- [ ]` / `- [x]`,
-  ordered by priority. Add discovered work as new unchecked items rather than
-  silently expanding the current task.
+  ordered by priority. Never silently expand an in-progress task.
+- **Discovered work goes to `specs/BACKLOG.md`,** not straight into the plan. An
+  item is only promoted to `specs/PLAN.md` once it has a **named mechanical
+  check** — if you cannot say what would prove it done, it is not ready to
+  schedule. `npm run progress` reports plan progress, queue depth, and sentinel
+  state; the same view is at `/progress` in the app.
 - **When the plan is empty:** if `specs/spec.md` still has unfilled `TODO`
   placeholders, the correct first action is to help fill the spec (or run the
   `create-spec` skill), not to write app code.

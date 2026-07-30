@@ -1,0 +1,44 @@
+[
+  {
+    "pick_no": 1,
+    "round": 1,
+    "draft_slot": 1,
+    "roster_id": 2,
+    "player_id": "6794",
+    "picked_by": "u2",
+    "metadata": {
+      "first_name": "Ja'Marr",
+      "last_name": "Chase",
+      "position": "WR",
+      "team": "cin"
+    }
+  },
+  {
+    "pick_no": 7,
+    "round": 1,
+    "draft_slot": 7,
+    "roster_id": 1,
+    "player_id": "8138",
+    "picked_by": "u1",
+    "metadata": {
+      "first_name": "Bijan",
+      "last_name": "Robinson",
+      "position": "RB",
+      "team": "atl"
+    }
+  },
+  {
+    "pick_no": 18,
+    "round": 2,
+    "draft_slot": 6,
+    "roster_id": 1,
+    "player_id": "9500",
+    "picked_by": "u1",
+    "metadata": {
+      "first_name": "Brian",
+      "last_name": "Thomas Jr.",
+      "position": "WR",
+      "team": "jax"
+    }
+  }
+]

@@ -1,14 +1,48 @@
 ---
-import { LandingApp } from '../components/landing/LandingApp';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import Dashboard from '~/components/Dashboard';
+import { draft, getPlayer, newsByDate, players, team, trending } from '~/lib/data';
+import { coverageGaps, facetCoverage, openSlots, rosterAlerts } from '~/lib/insights/cross-reference';
+import { href } from '~/lib/url';
+
+const articles = await getCollection('knowledge');
+
+const alerts = rosterAlerts(newsByDate, team, players);
+const alertIds = new Set(alerts.map((a) => a.item.id));
+const digest = newsByDate.filter((item) => !alertIds.has(item.id)).slice(0, 8);
+
+const gaps = coverageGaps(
+  facetCoverage(articles.map((a) => ({ facet: a.data.facet, updated: a.data.updated }))),
+);
+
+const slotLabels = new Map(team.format.rosterSlots.map((s) => [s.id, s.label]));
+const topTargets = team.targets
+  .filter((t) => t.priority === 1)
+  .map((target) => ({
+    target,
+    player: getPlayer(target.playerId),
+    slotLabel: slotLabels.get(target.slotId) ?? target.slotId,
+  }));
 ---
 
-<BaseLayout>
-  <main class="p-8">
-    <div class="mb-8 flex flex-wrap items-baseline gap-4">
-      <h1 class="text-3xl font-bold">Recipe Generator</h1>
-      <a href="/teams" class="border-brutal border-brutal-black px-2 py-1 text-xs font-bold uppercase">NFL Team Board →</a>
-    </div>
-    <LandingApp client:load />
-  </main>
+<BaseLayout title="Dashboard" lede="What changed since you last looked, and what it means for your roster.">
+  <Dashboard
+    alerts={alerts}
+    digest={digest}
+    gaps={gaps}
+    openSlots={openSlots(team)}
+    topTargets={topTargets}
+    newsCount={newsByDate.length}
+    trending={trending}
+    draft={draft}
+    rosterEmpty={team.roster.every((r) => r.playerId === null)}
+    rosteredPlayerIds={team.roster.map((r) => r.playerId).filter((id): id is string => Boolean(id))}
+    links={{
+      news: href('/news'),
+      team: href('/team'),
+      knowledge: href('/knowledge'),
+      facet: (id: string) => href(`/knowledge/${id}`),
+    }}
+  />
 </BaseLayout>
