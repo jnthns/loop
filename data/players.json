@@ -1,12 +1,135 @@
 [
   {
+    "id": "baker-mayfield",
+    "name": "Baker Mayfield",
+    "pos": "QB",
+    "nflTeam": "TB",
+    "age": 31,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "4892",
+    "rosteredInLeague": false,
+    "rank": 64
+  },
+  {
+    "id": "ben-roethlisberger",
+    "name": "Ben Roethlisberger",
+    "pos": "QB",
+    "nflTeam": "PIT",
+    "age": 39,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "138",
+    "rosteredInLeague": false,
+    "rank": 176
+  },
+  {
+    "id": "bo-nix",
+    "name": "Bo Nix",
+    "pos": "QB",
+    "nflTeam": "DEN",
+    "age": 26,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11563",
+    "rosteredInLeague": false,
+    "rank": 34
+  },
+  {
+    "id": "brock-purdy",
+    "name": "Brock Purdy",
+    "pos": "QB",
+    "nflTeam": "SF",
+    "age": 26,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "8183",
+    "rosteredInLeague": false,
+    "rank": 37
+  },
+  {
+    "id": "bryce-young",
+    "name": "Bryce Young",
+    "pos": "QB",
+    "nflTeam": "CAR",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9228",
+    "rosteredInLeague": false,
+    "rank": 98
+  },
+  {
+    "id": "c-j-stroud",
+    "name": "C.J. Stroud",
+    "pos": "QB",
+    "nflTeam": "HOU",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9758",
+    "rosteredInLeague": false,
+    "rank": 80
+  },
+  {
     "id": "caleb-williams",
     "name": "Caleb Williams",
     "pos": "QB",
     "nflTeam": "CHI",
-    "age": 25,
+    "age": 24,
     "tier": "starter",
-    "notes": "Draft capital plus age; value swings hardest on scheme and supporting cast."
+    "notes": "",
+    "sleeperId": "11560",
+    "rosteredInLeague": false,
+    "rank": 15
+  },
+  {
+    "id": "cam-ward",
+    "name": "Cam Ward",
+    "pos": "QB",
+    "nflTeam": "TEN",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12522",
+    "rosteredInLeague": false,
+    "rank": 75
+  },
+  {
+    "id": "dak-prescott",
+    "name": "Dak Prescott",
+    "pos": "QB",
+    "nflTeam": "DAL",
+    "age": 33,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "3294",
+    "rosteredInLeague": false,
+    "rank": 45
+  },
+  {
+    "id": "daniel-jones",
+    "name": "Daniel Jones",
+    "pos": "QB",
+    "nflTeam": "IND",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "5870",
+    "rosteredInLeague": false,
+    "rank": 109
+  },
+  {
+    "id": "derek-carr",
+    "name": "Derek Carr",
+    "pos": "QB",
+    "nflTeam": "FA",
+    "age": 34,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "2028",
+    "rosteredInLeague": false,
+    "rank": 201
   },
   {
     "id": "diego-pavia",
@@ -17,7 +140,8 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13427",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 9999999
   },
   {
     "id": "dillon-gabriel",
@@ -28,7 +152,128 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "12486",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "drake-maye",
+    "name": "Drake Maye",
+    "pos": "QB",
+    "nflTeam": "NE",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11564",
+    "rosteredInLeague": false,
+    "rank": 3
+  },
+  {
+    "id": "fernando-mendoza",
+    "name": "Fernando Mendoza",
+    "pos": "QB",
+    "nflTeam": "LV",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13269",
+    "rosteredInLeague": false,
+    "rank": 39
+  },
+  {
+    "id": "j-j-mccarthy",
+    "name": "J.J. McCarthy",
+    "pos": "QB",
+    "nflTeam": "MIN",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11565",
+    "rosteredInLeague": false,
+    "rank": 200
+  },
+  {
+    "id": "jack-strand",
+    "name": "Jack Strand",
+    "pos": "QB",
+    "nflTeam": "ATL",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13602",
+    "rosteredInLeague": false,
+    "rank": 9999999
+  },
+  {
+    "id": "jalen-hurts",
+    "name": "Jalen Hurts",
+    "pos": "QB",
+    "nflTeam": "PHI",
+    "age": 27,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "6904",
+    "rosteredInLeague": false,
+    "rank": 26
+  },
+  {
+    "id": "jared-goff",
+    "name": "Jared Goff",
+    "pos": "QB",
+    "nflTeam": "DET",
+    "age": 31,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "3163",
+    "rosteredInLeague": false,
+    "rank": 66
+  },
+  {
+    "id": "jaxson-dart",
+    "name": "Jaxson Dart",
+    "pos": "QB",
+    "nflTeam": "NYG",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12508",
+    "rosteredInLeague": false,
+    "rank": 24
+  },
+  {
+    "id": "jayden-daniels",
+    "name": "Jayden Daniels",
+    "pos": "QB",
+    "nflTeam": "WAS",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11566",
+    "rosteredInLeague": false,
+    "rank": 9
+  },
+  {
+    "id": "joe-burrow",
+    "name": "Joe Burrow",
+    "pos": "QB",
+    "nflTeam": "CIN",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6770",
+    "rosteredInLeague": false,
+    "rank": 11
+  },
+  {
+    "id": "jordan-love",
+    "name": "Jordan Love",
+    "pos": "QB",
+    "nflTeam": "GB",
+    "age": 27,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "6804",
+    "rosteredInLeague": false,
+    "rank": 50
   },
   {
     "id": "josh-allen",
@@ -37,7 +282,22 @@
     "nflTeam": "BUF",
     "age": 30,
     "tier": "win-now",
-    "notes": "Rushing floor is the whole dynasty case at QB; that floor is also what ages first."
+    "notes": "",
+    "sleeperId": "4984",
+    "rosteredInLeague": false,
+    "rank": 1
+  },
+  {
+    "id": "justin-herbert",
+    "name": "Justin Herbert",
+    "pos": "QB",
+    "nflTeam": "LAC",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6797",
+    "rosteredInLeague": false,
+    "rank": 25
   },
   {
     "id": "kirk-cousins",
@@ -48,7 +308,32 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "1166",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 368
+  },
+  {
+    "id": "kyler-murray",
+    "name": "Kyler Murray",
+    "pos": "QB",
+    "nflTeam": "MIN",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "5849",
+    "rosteredInLeague": false,
+    "rank": 92
+  },
+  {
+    "id": "lamar-jackson",
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "nflTeam": "BAL",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "4881",
+    "rosteredInLeague": false,
+    "rank": 12
   },
   {
     "id": "malik-willis",
@@ -59,16 +344,44 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "8161",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 109
+  },
+  {
+    "id": "matthew-stafford",
+    "name": "Matthew Stafford",
+    "pos": "QB",
+    "nflTeam": "LAR",
+    "age": 38,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "421",
+    "rosteredInLeague": false,
+    "rank": 103
+  },
+  {
+    "id": "michael-penix",
+    "name": "Michael Penix",
+    "pos": "QB",
+    "nflTeam": "ATL",
+    "age": 26,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11559",
+    "rosteredInLeague": false,
+    "rank": 199
   },
   {
     "id": "patrick-mahomes",
     "name": "Patrick Mahomes",
     "pos": "QB",
     "nflTeam": "KC",
-    "age": 31,
+    "age": 30,
     "tier": "win-now",
-    "notes": "Elite production, shortening dynasty window. Classic sell-high-into-a-contender asset."
+    "notes": "",
+    "sleeperId": "4046",
+    "rosteredInLeague": false,
+    "rank": 26
   },
   {
     "id": "quinn-ewers",
@@ -79,16 +392,176 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "12500",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 396
+  },
+  {
+    "id": "sam-darnold",
+    "name": "Sam Darnold",
+    "pos": "QB",
+    "nflTeam": "SEA",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "4943",
+    "rosteredInLeague": false,
+    "rank": 84
+  },
+  {
+    "id": "tom-brady",
+    "name": "Tom Brady",
+    "pos": "QB",
+    "nflTeam": "FA",
+    "age": 45,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "167",
+    "rosteredInLeague": false,
+    "rank": 74
+  },
+  {
+    "id": "trevor-lawrence",
+    "name": "Trevor Lawrence",
+    "pos": "QB",
+    "nflTeam": "JAX",
+    "age": 26,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "7523",
+    "rosteredInLeague": false,
+    "rank": 31
+  },
+  {
+    "id": "tua-tagovailoa",
+    "name": "Tua Tagovailoa",
+    "pos": "QB",
+    "nflTeam": "ATL",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6768",
+    "rosteredInLeague": false,
+    "rank": 183
+  },
+  {
+    "id": "ty-simpson",
+    "name": "Ty Simpson",
+    "pos": "QB",
+    "nflTeam": "LAR",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13275",
+    "rosteredInLeague": false,
+    "rank": 141
+  },
+  {
+    "id": "tyler-shough",
+    "name": "Tyler Shough",
+    "pos": "QB",
+    "nflTeam": "NO",
+    "age": 26,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12545",
+    "rosteredInLeague": false,
+    "rank": 81
+  },
+  {
+    "id": "aaron-jones",
+    "name": "Aaron Jones",
+    "pos": "RB",
+    "nflTeam": "MIN",
+    "age": 31,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4199",
+    "rosteredInLeague": false,
+    "rank": 85
+  },
+  {
+    "id": "alvin-kamara",
+    "name": "Alvin Kamara",
+    "pos": "RB",
+    "nflTeam": "NO",
+    "age": 31,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4035",
+    "rosteredInLeague": false,
+    "rank": 119
   },
   {
     "id": "ashton-jeanty",
     "name": "Ashton Jeanty",
     "pos": "RB",
     "nflTeam": "LV",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12527",
+    "rosteredInLeague": false,
+    "rank": 12
+  },
+  {
+    "id": "audric-estime",
+    "name": "Audric Estime",
+    "pos": "RB",
+    "nflTeam": "NO",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11579",
+    "rosteredInLeague": false,
+    "rank": 190
+  },
+  {
+    "id": "bhayshul-tuten",
+    "name": "Bhayshul Tuten",
+    "pos": "RB",
+    "nflTeam": "JAX",
     "age": 23,
     "tier": "starter",
-    "notes": "First-round rookie capital at RB — the market prices this at its peak on day one."
+    "notes": "",
+    "sleeperId": "12490",
+    "rosteredInLeague": false,
+    "rank": 44
+  },
+  {
+    "id": "bijan-robinson",
+    "name": "Bijan Robinson",
+    "pos": "RB",
+    "nflTeam": "ATL",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9509",
+    "rosteredInLeague": false,
+    "rank": 1
+  },
+  {
+    "id": "blake-corum",
+    "name": "Blake Corum",
+    "pos": "RB",
+    "nflTeam": "LAR",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "11586",
+    "rosteredInLeague": false,
+    "rank": 68
+  },
+  {
+    "id": "braelon-allen",
+    "name": "Braelon Allen",
+    "pos": "RB",
+    "nflTeam": "NYJ",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11576",
+    "rosteredInLeague": false,
+    "rank": 135
   },
   {
     "id": "brashard-smith",
@@ -99,7 +572,200 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "12455",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 182
+  },
+  {
+    "id": "breece-hall",
+    "name": "Breece Hall",
+    "pos": "RB",
+    "nflTeam": "NYJ",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8155",
+    "rosteredInLeague": false,
+    "rank": 27
+  },
+  {
+    "id": "brian-robinson",
+    "name": "Brian Robinson",
+    "pos": "RB",
+    "nflTeam": "ATL",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "8154",
+    "rosteredInLeague": false,
+    "rank": 80
+  },
+  {
+    "id": "bucky-irving",
+    "name": "Bucky Irving",
+    "pos": "RB",
+    "nflTeam": "TB",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11584",
+    "rosteredInLeague": false,
+    "rank": 22
+  },
+  {
+    "id": "cam-skattebo",
+    "name": "Cam Skattebo",
+    "pos": "RB",
+    "nflTeam": "NYG",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12481",
+    "rosteredInLeague": false,
+    "rank": 39
+  },
+  {
+    "id": "chase-brown",
+    "name": "Chase Brown",
+    "pos": "RB",
+    "nflTeam": "CIN",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "9224",
+    "rosteredInLeague": false,
+    "rank": 16
+  },
+  {
+    "id": "chris-carson",
+    "name": "Chris Carson",
+    "pos": "RB",
+    "nflTeam": "FA",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4273",
+    "rosteredInLeague": false,
+    "rank": 200
+  },
+  {
+    "id": "chris-rodriguez",
+    "name": "Chris Rodriguez",
+    "pos": "RB",
+    "nflTeam": "JAX",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "10219",
+    "rosteredInLeague": false,
+    "rank": 141
+  },
+  {
+    "id": "christian-mccaffrey",
+    "name": "Christian McCaffrey",
+    "pos": "RB",
+    "nflTeam": "SF",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4034",
+    "rosteredInLeague": false,
+    "rank": 5
+  },
+  {
+    "id": "chuba-hubbard",
+    "name": "Chuba Hubbard",
+    "pos": "RB",
+    "nflTeam": "CAR",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "7594",
+    "rosteredInLeague": false,
+    "rank": 66
+  },
+  {
+    "id": "d-andre-swift",
+    "name": "D'Andre Swift",
+    "pos": "RB",
+    "nflTeam": "CHI",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "6790",
+    "rosteredInLeague": false,
+    "rank": 47
+  },
+  {
+    "id": "damien-harris",
+    "name": "Damien Harris",
+    "pos": "RB",
+    "nflTeam": "FA",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5890",
+    "rosteredInLeague": false,
+    "rank": 126
+  },
+  {
+    "id": "david-montgomery",
+    "name": "David Montgomery",
+    "pos": "RB",
+    "nflTeam": "HOU",
+    "age": 29,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5892",
+    "rosteredInLeague": false,
+    "rank": 48
+  },
+  {
+    "id": "de-von-achane",
+    "name": "De'Von Achane",
+    "pos": "RB",
+    "nflTeam": "MIA",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9226",
+    "rosteredInLeague": false,
+    "rank": 10
+  },
+  {
+    "id": "demond-claiborne",
+    "name": "Demond Claiborne",
+    "pos": "RB",
+    "nflTeam": "MIN",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13347",
+    "rosteredInLeague": false,
+    "rank": 176
+  },
+  {
+    "id": "derrick-henry",
+    "name": "Derrick Henry",
+    "pos": "RB",
+    "nflTeam": "BAL",
+    "age": 32,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "3198",
+    "rosteredInLeague": false,
+    "rank": 22
+  },
+  {
+    "id": "devin-neal",
+    "name": "Devin Neal",
+    "pos": "RB",
+    "nflTeam": "NO",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12476",
+    "rosteredInLeague": false,
+    "rank": 169
   },
   {
     "id": "devin-singletary",
@@ -110,7 +776,20 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "6130",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "dylan-sampson",
+    "name": "Dylan Sampson",
+    "pos": "RB",
+    "nflTeam": "CLE",
+    "age": 21,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12469",
+    "rosteredInLeague": false,
+    "rank": 129
   },
   {
     "id": "emanuel-wilson",
@@ -121,7 +800,56 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "11435",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 161
+  },
+  {
+    "id": "emmett-johnson",
+    "name": "Emmett Johnson",
+    "pos": "RB",
+    "nflTeam": "KC",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13337",
+    "rosteredInLeague": false,
+    "rank": 113
+  },
+  {
+    "id": "ezekiel-elliott",
+    "name": "Ezekiel Elliott",
+    "pos": "RB",
+    "nflTeam": "FA",
+    "age": 29,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "3164",
+    "rosteredInLeague": false,
+    "rank": 111
+  },
+  {
+    "id": "frank-gore",
+    "name": "Frank Gore",
+    "pos": "RB",
+    "nflTeam": "FA",
+    "age": 38,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "232",
+    "rosteredInLeague": false,
+    "rank": 187
+  },
+  {
+    "id": "gus-edwards",
+    "name": "Gus Edwards",
+    "pos": "RB",
+    "nflTeam": "FA",
+    "age": 29,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5248",
+    "rosteredInLeague": false,
+    "rank": 104
   },
   {
     "id": "isaiah-davis",
@@ -132,7 +860,32 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "11571",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "isiah-pacheco",
+    "name": "Isiah Pacheco",
+    "pos": "RB",
+    "nflTeam": "DET",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "8205",
+    "rosteredInLeague": false,
+    "rank": 151
+  },
+  {
+    "id": "j-k-dobbins",
+    "name": "J.K. Dobbins",
+    "pos": "RB",
+    "nflTeam": "DEN",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "6806",
+    "rosteredInLeague": false,
+    "rank": 75
   },
   {
     "id": "j-mari-taylor",
@@ -143,7 +896,200 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13348",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "jacory-croskey-merritt",
+    "name": "Jacory Croskey-Merritt",
+    "pos": "RB",
+    "nflTeam": "WAS",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "12533",
+    "rosteredInLeague": false,
+    "rank": 95
+  },
+  {
+    "id": "jadarian-price",
+    "name": "Jadarian Price",
+    "pos": "RB",
+    "nflTeam": "SEA",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13286",
+    "rosteredInLeague": false,
+    "rank": 63
+  },
+  {
+    "id": "jahmyr-gibbs",
+    "name": "Jahmyr Gibbs",
+    "pos": "RB",
+    "nflTeam": "DET",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9221",
+    "rosteredInLeague": false,
+    "rank": 2
+  },
+  {
+    "id": "james-conner",
+    "name": "James Conner",
+    "pos": "RB",
+    "nflTeam": "ARI",
+    "age": 31,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4137",
+    "rosteredInLeague": false,
+    "rank": 92
+  },
+  {
+    "id": "james-cook",
+    "name": "James Cook",
+    "pos": "RB",
+    "nflTeam": "BUF",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8138",
+    "rosteredInLeague": false,
+    "rank": 5
+  },
+  {
+    "id": "jarquez-hunter",
+    "name": "Jarquez Hunter",
+    "pos": "RB",
+    "nflTeam": "LAR",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11569",
+    "rosteredInLeague": false,
+    "rank": 191
+  },
+  {
+    "id": "javonte-williams",
+    "name": "Javonte Williams",
+    "pos": "RB",
+    "nflTeam": "DAL",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7588",
+    "rosteredInLeague": false,
+    "rank": 32
+  },
+  {
+    "id": "jaydon-blue",
+    "name": "Jaydon Blue",
+    "pos": "RB",
+    "nflTeam": "DAL",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12457",
+    "rosteredInLeague": false,
+    "rank": 189
+  },
+  {
+    "id": "jaylen-warren",
+    "name": "Jaylen Warren",
+    "pos": "RB",
+    "nflTeam": "PIT",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "8228",
+    "rosteredInLeague": false,
+    "rank": 52
+  },
+  {
+    "id": "jaylen-wright",
+    "name": "Jaylen Wright",
+    "pos": "RB",
+    "nflTeam": "MIA",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11643",
+    "rosteredInLeague": false,
+    "rank": 174
+  },
+  {
+    "id": "jeremiyah-love",
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "nflTeam": "ARI",
+    "age": 21,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13287",
+    "rosteredInLeague": false,
+    "rank": 15
+  },
+  {
+    "id": "jonah-coleman",
+    "name": "Jonah Coleman",
+    "pos": "RB",
+    "nflTeam": "DEN",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13345",
+    "rosteredInLeague": false,
+    "rank": 118
+  },
+  {
+    "id": "jonathan-taylor",
+    "name": "Jonathan Taylor",
+    "pos": "RB",
+    "nflTeam": "IND",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "6813",
+    "rosteredInLeague": false,
+    "rank": 4
+  },
+  {
+    "id": "jonathon-brooks",
+    "name": "Jonathon Brooks",
+    "pos": "RB",
+    "nflTeam": "CAR",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11583",
+    "rosteredInLeague": false,
+    "rank": 112
+  },
+  {
+    "id": "jordan-mason",
+    "name": "Jordan Mason",
+    "pos": "RB",
+    "nflTeam": "MIN",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "8408",
+    "rosteredInLeague": false,
+    "rank": 112
+  },
+  {
+    "id": "josh-jacobs",
+    "name": "Josh Jacobs",
+    "pos": "RB",
+    "nflTeam": "GB",
+    "age": 28,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5850",
+    "rosteredInLeague": false,
+    "rank": 20
   },
   {
     "id": "justice-hill",
@@ -154,7 +1100,32 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "5995",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "kaelon-black",
+    "name": "Kaelon Black",
+    "pos": "RB",
+    "nflTeam": "SF",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13414",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "kaleb-johnson",
+    "name": "Kaleb Johnson",
+    "pos": "RB",
+    "nflTeam": "PIT",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12504",
+    "rosteredInLeague": false,
+    "rank": 173
   },
   {
     "id": "kareem-hunt",
@@ -165,7 +1136,20 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "4098",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 242
+  },
+  {
+    "id": "kaytron-allen",
+    "name": "Kaytron Allen",
+    "pos": "RB",
+    "nflTeam": "WAS",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13405",
+    "rosteredInLeague": false,
+    "rank": 157
   },
   {
     "id": "keaton-mitchell",
@@ -176,7 +1160,80 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "9511",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 148
+  },
+  {
+    "id": "kendre-miller",
+    "name": "Kendre Miller",
+    "pos": "RB",
+    "nflTeam": "NO",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9757",
+    "rosteredInLeague": false,
+    "rank": 180
+  },
+  {
+    "id": "kenneth-walker",
+    "name": "Kenneth Walker",
+    "pos": "RB",
+    "nflTeam": "KC",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8151",
+    "rosteredInLeague": false,
+    "rank": 7
+  },
+  {
+    "id": "kenny-gainwell",
+    "name": "Kenny Gainwell",
+    "pos": "RB",
+    "nflTeam": "TB",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "7567",
+    "rosteredInLeague": false,
+    "rank": 86
+  },
+  {
+    "id": "kimani-vidal",
+    "name": "Kimani Vidal",
+    "pos": "RB",
+    "nflTeam": "LAC",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11647",
+    "rosteredInLeague": false,
+    "rank": 141
+  },
+  {
+    "id": "kyle-monangai",
+    "name": "Kyle Monangai",
+    "pos": "RB",
+    "nflTeam": "CHI",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12534",
+    "rosteredInLeague": false,
+    "rank": 61
+  },
+  {
+    "id": "kyren-williams",
+    "name": "Kyren Williams",
+    "pos": "RB",
+    "nflTeam": "LAR",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8150",
+    "rosteredInLeague": false,
+    "rank": 26
   },
   {
     "id": "malik-davis",
@@ -187,7 +1244,8 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "8800",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "marshawn-lloyd",
@@ -198,7 +1256,20 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "11581",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "mike-washington",
+    "name": "Mike Washington",
+    "pos": "RB",
+    "nflTeam": "LV",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13305",
+    "rosteredInLeague": false,
+    "rank": 139
   },
   {
     "id": "najee-harris",
@@ -209,7 +1280,104 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "7528",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 219
+  },
+  {
+    "id": "nicholas-singleton",
+    "name": "Nicholas Singleton",
+    "pos": "RB",
+    "nflTeam": "TEN",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13288",
+    "rosteredInLeague": false,
+    "rank": 167
+  },
+  {
+    "id": "omarion-hampton",
+    "name": "Omarion Hampton",
+    "pos": "RB",
+    "nflTeam": "LAC",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12507",
+    "rosteredInLeague": false,
+    "rank": 12
+  },
+  {
+    "id": "quinshon-judkins",
+    "name": "Quinshon Judkins",
+    "pos": "RB",
+    "nflTeam": "CLE",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12512",
+    "rosteredInLeague": false,
+    "rank": 45
+  },
+  {
+    "id": "rachaad-white",
+    "name": "Rachaad White",
+    "pos": "RB",
+    "nflTeam": "WAS",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "8136",
+    "rosteredInLeague": false,
+    "rank": 119
+  },
+  {
+    "id": "ray-davis",
+    "name": "Ray Davis",
+    "pos": "RB",
+    "nflTeam": "BUF",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "11575",
+    "rosteredInLeague": false,
+    "rank": 167
+  },
+  {
+    "id": "rhamondre-stevenson",
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "nflTeam": "NE",
+    "age": 28,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "7611",
+    "rosteredInLeague": false,
+    "rank": 58
+  },
+  {
+    "id": "rico-dowdle",
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "nflTeam": "PIT",
+    "age": 28,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "7021",
+    "rosteredInLeague": false,
+    "rank": 65
+  },
+  {
+    "id": "rj-harvey",
+    "name": "RJ Harvey",
+    "pos": "RB",
+    "nflTeam": "DEN",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "12489",
+    "rosteredInLeague": false,
+    "rank": 40
   },
   {
     "id": "saquon-barkley",
@@ -217,8 +1385,23 @@
     "pos": "RB",
     "nflTeam": "PHI",
     "age": 29,
-    "tier": "win-now",
-    "notes": "Past the typical RB age curve. Production is real; the resale window is not."
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4866",
+    "rosteredInLeague": false,
+    "rank": 13
+  },
+  {
+    "id": "sean-tucker",
+    "name": "Sean Tucker",
+    "pos": "RB",
+    "nflTeam": "TB",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9506",
+    "rosteredInLeague": false,
+    "rank": 155
   },
   {
     "id": "seth-mcgowan",
@@ -229,7 +1412,68 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13424",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "tank-bigsby",
+    "name": "Tank Bigsby",
+    "pos": "RB",
+    "nflTeam": "PHI",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9225",
+    "rosteredInLeague": false,
+    "rank": 147
+  },
+  {
+    "id": "todd-gurley",
+    "name": "Todd Gurley",
+    "pos": "RB",
+    "nflTeam": "FA",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2315",
+    "rosteredInLeague": false,
+    "rank": 27
+  },
+  {
+    "id": "tony-pollard",
+    "name": "Tony Pollard",
+    "pos": "RB",
+    "nflTeam": "TEN",
+    "age": 29,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5967",
+    "rosteredInLeague": false,
+    "rank": 63
+  },
+  {
+    "id": "travis-etienne",
+    "name": "Travis Etienne",
+    "pos": "RB",
+    "nflTeam": "NO",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "7543",
+    "rosteredInLeague": false,
+    "rank": 30
+  },
+  {
+    "id": "treveyon-henderson",
+    "name": "TreVeyon Henderson",
+    "pos": "RB",
+    "nflTeam": "NE",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12529",
+    "rosteredInLeague": false,
+    "rank": 37
   },
   {
     "id": "trey-benson",
@@ -240,16 +1484,128 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "11589",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 114
+  },
+  {
+    "id": "tyjae-spears",
+    "name": "Tyjae Spears",
+    "pos": "RB",
+    "nflTeam": "TEN",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "9508",
+    "rosteredInLeague": false,
+    "rank": 122
+  },
+  {
+    "id": "tyler-allgeier",
+    "name": "Tyler Allgeier",
+    "pos": "RB",
+    "nflTeam": "ARI",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8132",
+    "rosteredInLeague": false,
+    "rank": 89
+  },
+  {
+    "id": "tyrone-tracy",
+    "name": "Tyrone Tracy",
+    "pos": "RB",
+    "nflTeam": "NYG",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "11655",
+    "rosteredInLeague": false,
+    "rank": 110
+  },
+  {
+    "id": "woody-marks",
+    "name": "Woody Marks",
+    "pos": "RB",
+    "nflTeam": "HOU",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "12474",
+    "rosteredInLeague": false,
+    "rank": 105
+  },
+  {
+    "id": "zach-charbonnet",
+    "name": "Zach Charbonnet",
+    "pos": "RB",
+    "nflTeam": "SEA",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "9753",
+    "rosteredInLeague": false,
+    "rank": 101
+  },
+  {
+    "id": "aj-barner",
+    "name": "AJ Barner",
+    "pos": "TE",
+    "nflTeam": "SEA",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11603",
+    "rosteredInLeague": false,
+    "rank": 126
+  },
+  {
+    "id": "brenton-strange",
+    "name": "Brenton Strange",
+    "pos": "TE",
+    "nflTeam": "JAX",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9480",
+    "rosteredInLeague": false,
+    "rank": 104
   },
   {
     "id": "brock-bowers",
     "name": "Brock Bowers",
     "pos": "TE",
     "nflTeam": "LV",
-    "age": 24,
-    "tier": "cornerstone",
-    "notes": "Young TEs who produce immediately are the scarcest asset in dynasty."
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11604",
+    "rosteredInLeague": false,
+    "rank": 18
+  },
+  {
+    "id": "cade-otton",
+    "name": "Cade Otton",
+    "pos": "TE",
+    "nflTeam": "TB",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8111",
+    "rosteredInLeague": false,
+    "rank": 148
+  },
+  {
+    "id": "chig-okonkwo",
+    "name": "Chig Okonkwo",
+    "pos": "TE",
+    "nflTeam": "WAS",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8210",
+    "rosteredInLeague": false,
+    "rank": 137
   },
   {
     "id": "colby-parkinson",
@@ -260,7 +1616,56 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "6865",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 136
+  },
+  {
+    "id": "colston-loveland",
+    "name": "Colston Loveland",
+    "pos": "TE",
+    "nflTeam": "CHI",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12517",
+    "rosteredInLeague": false,
+    "rank": 41
+  },
+  {
+    "id": "dallas-goedert",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "nflTeam": "PHI",
+    "age": 31,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5022",
+    "rosteredInLeague": false,
+    "rank": 94
+  },
+  {
+    "id": "dalton-kincaid",
+    "name": "Dalton Kincaid",
+    "pos": "TE",
+    "nflTeam": "BUF",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "10236",
+    "rosteredInLeague": false,
+    "rank": 81
+  },
+  {
+    "id": "dalton-schultz",
+    "name": "Dalton Schultz",
+    "pos": "TE",
+    "nflTeam": "HOU",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5001",
+    "rosteredInLeague": false,
+    "rank": 98
   },
   {
     "id": "darren-waller",
@@ -271,7 +1676,20 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "2505",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 249
+  },
+  {
+    "id": "david-njoku",
+    "name": "David Njoku",
+    "pos": "TE",
+    "nflTeam": "LAC",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4033",
+    "rosteredInLeague": false,
+    "rank": 131
   },
   {
     "id": "eli-raridon",
@@ -282,7 +1700,20 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13421",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "eli-stowers",
+    "name": "Eli Stowers",
+    "pos": "TE",
+    "nflTeam": "PHI",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13349",
+    "rosteredInLeague": false,
+    "rank": 140
   },
   {
     "id": "erick-all",
@@ -293,7 +1724,92 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "11592",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "george-kittle",
+    "name": "George Kittle",
+    "pos": "TE",
+    "nflTeam": "SF",
+    "age": 32,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4217",
+    "rosteredInLeague": false,
+    "rank": 97
+  },
+  {
+    "id": "gunnar-helm",
+    "name": "Gunnar Helm",
+    "pos": "TE",
+    "nflTeam": "TEN",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12502",
+    "rosteredInLeague": false,
+    "rank": 153
+  },
+  {
+    "id": "harold-fannin",
+    "name": "Harold Fannin",
+    "pos": "TE",
+    "nflTeam": "CLE",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12506",
+    "rosteredInLeague": false,
+    "rank": 63
+  },
+  {
+    "id": "hunter-henry",
+    "name": "Hunter Henry",
+    "pos": "TE",
+    "nflTeam": "NE",
+    "age": 31,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "3214",
+    "rosteredInLeague": false,
+    "rank": 92
+  },
+  {
+    "id": "isaiah-likely",
+    "name": "Isaiah Likely",
+    "pos": "TE",
+    "nflTeam": "NYG",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8131",
+    "rosteredInLeague": false,
+    "rank": 113
+  },
+  {
+    "id": "jake-ferguson",
+    "name": "Jake Ferguson",
+    "pos": "TE",
+    "nflTeam": "DAL",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8110",
+    "rosteredInLeague": false,
+    "rank": 97
+  },
+  {
+    "id": "jake-tonges",
+    "name": "Jake Tonges",
+    "pos": "TE",
+    "nflTeam": "SF",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8698",
+    "rosteredInLeague": false,
+    "rank": 178
   },
   {
     "id": "joe-royer",
@@ -304,7 +1820,8 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13435",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 9999999
   },
   {
     "id": "jonnu-smith",
@@ -315,7 +1832,116 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "4144",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 206
+  },
+  {
+    "id": "juwan-johnson",
+    "name": "Juwan Johnson",
+    "pos": "TE",
+    "nflTeam": "NO",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7002",
+    "rosteredInLeague": false,
+    "rank": 103
+  },
+  {
+    "id": "kenyon-sadiq",
+    "name": "Kenyon Sadiq",
+    "pos": "TE",
+    "nflTeam": "NYJ",
+    "age": 21,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13330",
+    "rosteredInLeague": false,
+    "rank": 109
+  },
+  {
+    "id": "kyle-pitts",
+    "name": "Kyle Pitts",
+    "pos": "TE",
+    "nflTeam": "ATL",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "7553",
+    "rosteredInLeague": false,
+    "rank": 71
+  },
+  {
+    "id": "mark-andrews",
+    "name": "Mark Andrews",
+    "pos": "TE",
+    "nflTeam": "BAL",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5012",
+    "rosteredInLeague": false,
+    "rank": 96
+  },
+  {
+    "id": "mason-taylor",
+    "name": "Mason Taylor",
+    "pos": "TE",
+    "nflTeam": "NYJ",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12498",
+    "rosteredInLeague": false,
+    "rank": 138
+  },
+  {
+    "id": "oronde-gadsden",
+    "name": "Oronde Gadsden",
+    "pos": "TE",
+    "nflTeam": "LAC",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12493",
+    "rosteredInLeague": false,
+    "rank": 83
+  },
+  {
+    "id": "rob-gronkowski",
+    "name": "Rob Gronkowski",
+    "pos": "TE",
+    "nflTeam": "FA",
+    "age": 32,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "515",
+    "rosteredInLeague": false,
+    "rank": 118
+  },
+  {
+    "id": "sam-laporta",
+    "name": "Sam LaPorta",
+    "pos": "TE",
+    "nflTeam": "DET",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "10859",
+    "rosteredInLeague": false,
+    "rank": 76
+  },
+  {
+    "id": "t-j-hockenson",
+    "name": "T.J. Hockenson",
+    "pos": "TE",
+    "nflTeam": "MIN",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "5844",
+    "rosteredInLeague": false,
+    "rank": 128
   },
   {
     "id": "taysom-hill",
@@ -326,16 +1952,92 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "4381",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 321
+  },
+  {
+    "id": "terrance-ferguson",
+    "name": "Terrance Ferguson",
+    "pos": "TE",
+    "nflTeam": "LAR",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12487",
+    "rosteredInLeague": false,
+    "rank": 141
+  },
+  {
+    "id": "theo-johnson",
+    "name": "Theo Johnson",
+    "pos": "TE",
+    "nflTeam": "NYG",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11597",
+    "rosteredInLeague": false,
+    "rank": 144
+  },
+  {
+    "id": "thomas-odukoya",
+    "name": "Thomas Odukoya",
+    "pos": "TE",
+    "nflTeam": "FA",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8924",
+    "rosteredInLeague": false,
+    "rank": 104
+  },
+  {
+    "id": "travis-kelce",
+    "name": "Travis Kelce",
+    "pos": "TE",
+    "nflTeam": "KC",
+    "age": 36,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "1466",
+    "rosteredInLeague": false,
+    "rank": 106
   },
   {
     "id": "trey-mcbride",
     "name": "Trey McBride",
     "pos": "TE",
     "nflTeam": "ARI",
-    "age": 27,
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8130",
+    "rosteredInLeague": false,
+    "rank": 17
+  },
+  {
+    "id": "tucker-kraft",
+    "name": "Tucker Kraft",
+    "pos": "TE",
+    "nflTeam": "GB",
+    "age": 25,
     "tier": "starter",
-    "notes": "Reception volume at TE — worth more in TE-premium formats than the consensus rank."
+    "notes": "",
+    "sleeperId": "9484",
+    "rosteredInLeague": false,
+    "rank": 67
+  },
+  {
+    "id": "tyler-warren",
+    "name": "Tyler Warren",
+    "pos": "TE",
+    "nflTeam": "IND",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12518",
+    "rosteredInLeague": false,
+    "rank": 50
   },
   {
     "id": "zach-ertz",
@@ -346,7 +2048,164 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "1339",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 275
+  },
+  {
+    "id": "a-j-brown",
+    "name": "A.J. Brown",
+    "pos": "WR",
+    "nflTeam": "NE",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "5859",
+    "rosteredInLeague": false,
+    "rank": 18
+  },
+  {
+    "id": "adam-thielen",
+    "name": "Adam Thielen",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 35,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "1689",
+    "rosteredInLeague": false,
+    "rank": 163
+  },
+  {
+    "id": "adonai-mitchell",
+    "name": "Adonai Mitchell",
+    "pos": "WR",
+    "nflTeam": "NYJ",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11625",
+    "rosteredInLeague": false,
+    "rank": 162
+  },
+  {
+    "id": "alec-pierce",
+    "name": "Alec Pierce",
+    "pos": "WR",
+    "nflTeam": "IND",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8142",
+    "rosteredInLeague": false,
+    "rank": 82
+  },
+  {
+    "id": "alshon-jeffery",
+    "name": "Alshon Jeffery",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 31,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "1149",
+    "rosteredInLeague": false,
+    "rank": 161
+  },
+  {
+    "id": "amari-cooper",
+    "name": "Amari Cooper",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 31,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2309",
+    "rosteredInLeague": false,
+    "rank": 183
+  },
+  {
+    "id": "amon-ra-st-brown",
+    "name": "Amon-Ra St. Brown",
+    "pos": "WR",
+    "nflTeam": "DET",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7547",
+    "rosteredInLeague": false,
+    "rank": 8
+  },
+  {
+    "id": "antonio-brown",
+    "name": "Antonio Brown",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 33,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "536",
+    "rosteredInLeague": false,
+    "rank": 89
+  },
+  {
+    "id": "antonio-williams",
+    "name": "Antonio Williams",
+    "pos": "WR",
+    "nflTeam": "WAS",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13301",
+    "rosteredInLeague": false,
+    "rank": 156
+  },
+  {
+    "id": "brandin-cooks",
+    "name": "Brandin Cooks",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 32,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2197",
+    "rosteredInLeague": false,
+    "rank": 151
+  },
+  {
+    "id": "brandon-aiyuk",
+    "name": "Brandon Aiyuk",
+    "pos": "WR",
+    "nflTeam": "SF",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6803",
+    "rosteredInLeague": false,
+    "rank": 177
+  },
+  {
+    "id": "brian-thomas",
+    "name": "Brian Thomas",
+    "pos": "WR",
+    "nflTeam": "JAX",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11631",
+    "rosteredInLeague": false,
+    "rank": 66
+  },
+  {
+    "id": "bryce-ford-wheaton",
+    "name": "Bryce Ford-Wheaton",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "9499",
+    "rosteredInLeague": false,
+    "rank": 44
   },
   {
     "id": "caleb-douglas",
@@ -357,7 +2216,8 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13296",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "calvin-austin",
@@ -368,7 +2228,44 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "8125",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "calvin-ridley",
+    "name": "Calvin Ridley",
+    "pos": "WR",
+    "nflTeam": "TEN",
+    "age": 31,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4981",
+    "rosteredInLeague": false,
+    "rank": 180
+  },
+  {
+    "id": "carnell-tate",
+    "name": "Carnell Tate",
+    "pos": "WR",
+    "nflTeam": "TEN",
+    "age": 21,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13279",
+    "rosteredInLeague": false,
+    "rank": 61
+  },
+  {
+    "id": "ceedee-lamb",
+    "name": "CeeDee Lamb",
+    "pos": "WR",
+    "nflTeam": "DAL",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6786",
+    "rosteredInLeague": false,
+    "rank": 10
   },
   {
     "id": "chimere-dike",
@@ -379,7 +2276,44 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "12540",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 175
+  },
+  {
+    "id": "chris-godwin",
+    "name": "Chris Godwin",
+    "pos": "WR",
+    "nflTeam": "TB",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4037",
+    "rosteredInLeague": false,
+    "rank": 88
+  },
+  {
+    "id": "chris-olave",
+    "name": "Chris Olave",
+    "pos": "WR",
+    "nflTeam": "NO",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8144",
+    "rosteredInLeague": false,
+    "rank": 26
+  },
+  {
+    "id": "christian-watson",
+    "name": "Christian Watson",
+    "pos": "WR",
+    "nflTeam": "GB",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8167",
+    "rosteredInLeague": false,
+    "rank": 63
   },
   {
     "id": "cj-daniels",
@@ -390,7 +2324,8 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13270",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "colbie-young",
@@ -401,7 +2336,20 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13477",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 9999999
+  },
+  {
+    "id": "courtland-sutton",
+    "name": "Courtland Sutton",
+    "pos": "WR",
+    "nflTeam": "DEN",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5045",
+    "rosteredInLeague": false,
+    "rank": 72
   },
   {
     "id": "cyrus-allen",
@@ -412,7 +2360,56 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13413",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 9999999
+  },
+  {
+    "id": "darnell-mooney",
+    "name": "Darnell Mooney",
+    "pos": "WR",
+    "nflTeam": "NYG",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7090",
+    "rosteredInLeague": false,
+    "rank": 194
+  },
+  {
+    "id": "davante-adams",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "nflTeam": "LAR",
+    "age": 33,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2133",
+    "rosteredInLeague": false,
+    "rank": 46
+  },
+  {
+    "id": "deebo-samuel",
+    "name": "Deebo Samuel",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5872",
+    "rosteredInLeague": false,
+    "rank": 79
+  },
+  {
+    "id": "denzel-boston",
+    "name": "Denzel Boston",
+    "pos": "WR",
+    "nflTeam": "CLE",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13346",
+    "rosteredInLeague": false,
+    "rank": 144
   },
   {
     "id": "devaughn-vele",
@@ -423,7 +2420,212 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "11834",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 209
+  },
+  {
+    "id": "devonta-smith",
+    "name": "DeVonta Smith",
+    "pos": "WR",
+    "nflTeam": "PHI",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7525",
+    "rosteredInLeague": false,
+    "rank": 39
+  },
+  {
+    "id": "dj-moore",
+    "name": "DJ Moore",
+    "pos": "WR",
+    "nflTeam": "BUF",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "4983",
+    "rosteredInLeague": false,
+    "rank": 54
+  },
+  {
+    "id": "dk-metcalf",
+    "name": "DK Metcalf",
+    "pos": "WR",
+    "nflTeam": "PIT",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "5846",
+    "rosteredInLeague": false,
+    "rank": 73
+  },
+  {
+    "id": "drake-london",
+    "name": "Drake London",
+    "pos": "WR",
+    "nflTeam": "ATL",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "8112",
+    "rosteredInLeague": false,
+    "rank": 14
+  },
+  {
+    "id": "elic-ayomanor",
+    "name": "Elic Ayomanor",
+    "pos": "WR",
+    "nflTeam": "TEN",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12499",
+    "rosteredInLeague": false,
+    "rank": 185
+  },
+  {
+    "id": "emeka-egbuka",
+    "name": "Emeka Egbuka",
+    "pos": "WR",
+    "nflTeam": "TB",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12514",
+    "rosteredInLeague": false,
+    "rank": 43
+  },
+  {
+    "id": "garrett-wilson",
+    "name": "Garrett Wilson",
+    "pos": "WR",
+    "nflTeam": "NYJ",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8146",
+    "rosteredInLeague": false,
+    "rank": 38
+  },
+  {
+    "id": "george-pickens",
+    "name": "George Pickens",
+    "pos": "WR",
+    "nflTeam": "DAL",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "8137",
+    "rosteredInLeague": false,
+    "rank": 23
+  },
+  {
+    "id": "germie-bernard",
+    "name": "Germie Bernard",
+    "pos": "WR",
+    "nflTeam": "PIT",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13274",
+    "rosteredInLeague": false,
+    "rank": 194
+  },
+  {
+    "id": "henry-ruggs",
+    "name": "Henry Ruggs",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "6789",
+    "rosteredInLeague": false,
+    "rank": 124
+  },
+  {
+    "id": "isaac-teslaa",
+    "name": "Isaac TeSlaa",
+    "pos": "WR",
+    "nflTeam": "DET",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12535",
+    "rosteredInLeague": false,
+    "rank": 184
+  },
+  {
+    "id": "isaiah-bond",
+    "name": "Isaiah Bond",
+    "pos": "WR",
+    "nflTeam": "CLE",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12503",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "ja-kobi-lane",
+    "name": "Ja'Kobi Lane",
+    "pos": "WR",
+    "nflTeam": "BAL",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13293",
+    "rosteredInLeague": false,
+    "rank": 182
+  },
+  {
+    "id": "ja-marr-chase",
+    "name": "Ja'Marr Chase",
+    "pos": "WR",
+    "nflTeam": "CIN",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7564",
+    "rosteredInLeague": false,
+    "rank": 3
+  },
+  {
+    "id": "jakobi-meyers",
+    "name": "Jakobi Meyers",
+    "pos": "WR",
+    "nflTeam": "JAX",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "5947",
+    "rosteredInLeague": false,
+    "rank": 77
+  },
+  {
+    "id": "jalen-coker",
+    "name": "Jalen Coker",
+    "pos": "WR",
+    "nflTeam": "CAR",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11646",
+    "rosteredInLeague": false,
+    "rank": 132
+  },
+  {
+    "id": "jalen-mcmillan",
+    "name": "Jalen McMillan",
+    "pos": "WR",
+    "nflTeam": "TB",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11618",
+    "rosteredInLeague": false,
+    "rank": 162
   },
   {
     "id": "jalen-nailor",
@@ -434,7 +2636,8 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "8180",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 167
   },
   {
     "id": "jalen-tolbert",
@@ -445,7 +2648,104 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "8117",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "jameson-williams",
+    "name": "Jameson Williams",
+    "pos": "WR",
+    "nflTeam": "DET",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "8148",
+    "rosteredInLeague": false,
+    "rank": 52
+  },
+  {
+    "id": "jauan-jennings",
+    "name": "Jauan Jennings",
+    "pos": "WR",
+    "nflTeam": "MIN",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7049",
+    "rosteredInLeague": false,
+    "rank": 123
+  },
+  {
+    "id": "jaxon-smith-njigba",
+    "name": "Jaxon Smith-Njigba",
+    "pos": "WR",
+    "nflTeam": "SEA",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9488",
+    "rosteredInLeague": false,
+    "rank": 5
+  },
+  {
+    "id": "jayden-higgins",
+    "name": "Jayden Higgins",
+    "pos": "WR",
+    "nflTeam": "HOU",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12484",
+    "rosteredInLeague": false,
+    "rank": 126
+  },
+  {
+    "id": "jayden-reed",
+    "name": "Jayden Reed",
+    "pos": "WR",
+    "nflTeam": "GB",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "10222",
+    "rosteredInLeague": false,
+    "rank": 111
+  },
+  {
+    "id": "jaylen-waddle",
+    "name": "Jaylen Waddle",
+    "pos": "WR",
+    "nflTeam": "DEN",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7526",
+    "rosteredInLeague": false,
+    "rank": 42
+  },
+  {
+    "id": "jaylin-noel",
+    "name": "Jaylin Noel",
+    "pos": "WR",
+    "nflTeam": "HOU",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12536",
+    "rosteredInLeague": false,
+    "rank": 190
+  },
+  {
+    "id": "jerry-jeudy",
+    "name": "Jerry Jeudy",
+    "pos": "WR",
+    "nflTeam": "CLE",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6783",
+    "rosteredInLeague": false,
+    "rank": 160
   },
   {
     "id": "john-metchie",
@@ -456,7 +2756,92 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "8147",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "jordan-addison",
+    "name": "Jordan Addison",
+    "pos": "WR",
+    "nflTeam": "MIN",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9756",
+    "rosteredInLeague": false,
+    "rank": 98
+  },
+  {
+    "id": "jordyn-tyson",
+    "name": "Jordyn Tyson",
+    "pos": "WR",
+    "nflTeam": "NO",
+    "age": 21,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13281",
+    "rosteredInLeague": false,
+    "rank": 69
+  },
+  {
+    "id": "josh-downs",
+    "name": "Josh Downs",
+    "pos": "WR",
+    "nflTeam": "IND",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9500",
+    "rosteredInLeague": false,
+    "rank": 121
+  },
+  {
+    "id": "justin-jefferson",
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "nflTeam": "MIN",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6794",
+    "rosteredInLeague": false,
+    "rank": 11
+  },
+  {
+    "id": "kayshon-boutte",
+    "name": "Kayshon Boutte",
+    "pos": "WR",
+    "nflTeam": "NE",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9504",
+    "rosteredInLeague": false,
+    "rank": 164
+  },
+  {
+    "id": "kc-concepcion",
+    "name": "KC Concepcion",
+    "pos": "WR",
+    "nflTeam": "CLE",
+    "age": 21,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13298",
+    "rosteredInLeague": false,
+    "rank": 116
+  },
+  {
+    "id": "keandre-lambert-smith",
+    "name": "KeAndre Lambert-Smith",
+    "pos": "WR",
+    "nflTeam": "LAC",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12670",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "keenan-allen",
@@ -467,7 +2852,20 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "1479",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 116
+  },
+  {
+    "id": "khalil-shakir",
+    "name": "Khalil Shakir",
+    "pos": "WR",
+    "nflTeam": "BUF",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8134",
+    "rosteredInLeague": false,
+    "rank": 120
   },
   {
     "id": "kyle-williams",
@@ -478,7 +2876,44 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "12547",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 195
+  },
+  {
+    "id": "ladd-mcconkey",
+    "name": "Ladd McConkey",
+    "pos": "WR",
+    "nflTeam": "LAC",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11635",
+    "rosteredInLeague": false,
+    "rank": 41
+  },
+  {
+    "id": "luther-burden",
+    "name": "Luther Burden",
+    "pos": "WR",
+    "nflTeam": "CHI",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12519",
+    "rosteredInLeague": false,
+    "rank": 40
+  },
+  {
+    "id": "makai-lemon",
+    "name": "Makai Lemon",
+    "pos": "WR",
+    "nflTeam": "PHI",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13294",
+    "rosteredInLeague": false,
+    "rank": 77
   },
   {
     "id": "malik-benson",
@@ -489,7 +2924,8 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13329",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "malik-nabers",
@@ -497,8 +2933,23 @@
     "pos": "WR",
     "nflTeam": "NYG",
     "age": 23,
-    "tier": "cornerstone",
-    "notes": "Target share on a bad offense still compounds; age is doing the work here."
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11632",
+    "rosteredInLeague": false,
+    "rank": 19
+  },
+  {
+    "id": "marvin-harrison",
+    "name": "Marvin Harrison",
+    "pos": "WR",
+    "nflTeam": "ARI",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11628",
+    "rosteredInLeague": false,
+    "rank": 76
   },
   {
     "id": "marvin-mims",
@@ -509,7 +2960,80 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "9494",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 192
+  },
+  {
+    "id": "matthew-golden",
+    "name": "Matthew Golden",
+    "pos": "WR",
+    "nflTeam": "GB",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12501",
+    "rosteredInLeague": false,
+    "rank": 132
+  },
+  {
+    "id": "michael-pittman",
+    "name": "Michael Pittman",
+    "pos": "WR",
+    "nflTeam": "PIT",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6819",
+    "rosteredInLeague": false,
+    "rank": 98
+  },
+  {
+    "id": "michael-wilson",
+    "name": "Michael Wilson",
+    "pos": "WR",
+    "nflTeam": "ARI",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "10232",
+    "rosteredInLeague": false,
+    "rank": 75
+  },
+  {
+    "id": "mike-evans",
+    "name": "Mike Evans",
+    "pos": "WR",
+    "nflTeam": "SF",
+    "age": 32,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2216",
+    "rosteredInLeague": false,
+    "rank": 57
+  },
+  {
+    "id": "nico-collins",
+    "name": "Nico Collins",
+    "pos": "WR",
+    "nflTeam": "HOU",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7569",
+    "rosteredInLeague": false,
+    "rank": 19
+  },
+  {
+    "id": "noah-brown",
+    "name": "Noah Brown",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4234",
+    "rosteredInLeague": false,
+    "rank": 150
   },
   {
     "id": "odell-beckham",
@@ -520,7 +3044,104 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "2078",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "omar-cooper",
+    "name": "Omar Cooper",
+    "pos": "WR",
+    "nflTeam": "NYJ",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13276",
+    "rosteredInLeague": false,
+    "rank": 146
+  },
+  {
+    "id": "parker-washington",
+    "name": "Parker Washington",
+    "pos": "WR",
+    "nflTeam": "JAX",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9487",
+    "rosteredInLeague": false,
+    "rank": 87
+  },
+  {
+    "id": "pat-bryant",
+    "name": "Pat Bryant",
+    "pos": "WR",
+    "nflTeam": "DEN",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12492",
+    "rosteredInLeague": false,
+    "rank": 172
+  },
+  {
+    "id": "puka-nacua",
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "nflTeam": "LAR",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9493",
+    "rosteredInLeague": false,
+    "rank": 5
+  },
+  {
+    "id": "quentin-johnston",
+    "name": "Quentin Johnston",
+    "pos": "WR",
+    "nflTeam": "LAC",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9754",
+    "rosteredInLeague": false,
+    "rank": 103
+  },
+  {
+    "id": "rashee-rice",
+    "name": "Rashee Rice",
+    "pos": "WR",
+    "nflTeam": "KC",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "10229",
+    "rosteredInLeague": false,
+    "rank": 23
+  },
+  {
+    "id": "rashid-shaheed",
+    "name": "Rashid Shaheed",
+    "pos": "WR",
+    "nflTeam": "SEA",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8676",
+    "rosteredInLeague": false,
+    "rank": 150
+  },
+  {
+    "id": "ricky-pearsall",
+    "name": "Ricky Pearsall",
+    "pos": "WR",
+    "nflTeam": "SF",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11638",
+    "rosteredInLeague": false,
+    "rank": 86
   },
   {
     "id": "roman-wilson",
@@ -531,7 +3152,32 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "11630",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "rome-odunze",
+    "name": "Rome Odunze",
+    "pos": "WR",
+    "nflTeam": "CHI",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11620",
+    "rosteredInLeague": false,
+    "rank": 63
+  },
+  {
+    "id": "romeo-doubs",
+    "name": "Romeo Doubs",
+    "pos": "WR",
+    "nflTeam": "NE",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8121",
+    "rosteredInLeague": false,
+    "rank": 113
   },
   {
     "id": "ryan-flournoy",
@@ -542,7 +3188,8 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "11783",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 199
   },
   {
     "id": "savion-williams",
@@ -553,7 +3200,20 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "12482",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "stefon-diggs",
+    "name": "Stefon Diggs",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 32,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2449",
+    "rosteredInLeague": false,
+    "rank": 121
   },
   {
     "id": "tank-dell",
@@ -564,7 +3224,104 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "9502",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 187
+  },
+  {
+    "id": "ted-hurst",
+    "name": "Ted Hurst",
+    "pos": "WR",
+    "nflTeam": "TB",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13317",
+    "rosteredInLeague": false,
+    "rank": 196
+  },
+  {
+    "id": "tee-higgins",
+    "name": "Tee Higgins",
+    "pos": "WR",
+    "nflTeam": "CIN",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "6801",
+    "rosteredInLeague": false,
+    "rank": 36
+  },
+  {
+    "id": "terry-mclaurin",
+    "name": "Terry McLaurin",
+    "pos": "WR",
+    "nflTeam": "WAS",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "5927",
+    "rosteredInLeague": false,
+    "rank": 45
+  },
+  {
+    "id": "tetairoa-mcmillan",
+    "name": "Tetairoa McMillan",
+    "pos": "WR",
+    "nflTeam": "CAR",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12526",
+    "rosteredInLeague": false,
+    "rank": 37
+  },
+  {
+    "id": "tory-horton",
+    "name": "Tory Horton",
+    "pos": "WR",
+    "nflTeam": "SEA",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12497",
+    "rosteredInLeague": false,
+    "rank": 199
+  },
+  {
+    "id": "travis-hunter",
+    "name": "Travis Hunter",
+    "pos": "WR",
+    "nflTeam": "JAX",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12530",
+    "rosteredInLeague": false,
+    "rank": 145
+  },
+  {
+    "id": "tre-tucker",
+    "name": "Tre Tucker",
+    "pos": "WR",
+    "nflTeam": "LV",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "10213",
+    "rosteredInLeague": false,
+    "rank": 188
+  },
+  {
+    "id": "tre-harris",
+    "name": "Tre' Harris",
+    "pos": "WR",
+    "nflTeam": "LAC",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12509",
+    "rosteredInLeague": false,
+    "rank": 179
   },
   {
     "id": "treylon-burks",
@@ -575,7 +3332,32 @@
     "tier": "win-now",
     "notes": "",
     "sleeperId": "8135",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "troy-franklin",
+    "name": "Troy Franklin",
+    "pos": "WR",
+    "nflTeam": "DEN",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11627",
+    "rosteredInLeague": false,
+    "rank": 171
+  },
+  {
+    "id": "tyler-lockett",
+    "name": "Tyler Lockett",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 33,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2374",
+    "rosteredInLeague": false,
+    "rank": 131
   },
   {
     "id": "tyreek-hill",
@@ -586,7 +3368,68 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "3321",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 145
+  },
+  {
+    "id": "tyrell-williams",
+    "name": "Tyrell Williams",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 29,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "2583",
+    "rosteredInLeague": false,
+    "rank": 198
+  },
+  {
+    "id": "wan-dale-robinson",
+    "name": "Wan'Dale Robinson",
+    "pos": "WR",
+    "nflTeam": "TEN",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "8126",
+    "rosteredInLeague": false,
+    "rank": 102
+  },
+  {
+    "id": "william-fuller",
+    "name": "William Fuller",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "3157",
+    "rosteredInLeague": false,
+    "rank": 119
+  },
+  {
+    "id": "xavier-worthy",
+    "name": "Xavier Worthy",
+    "pos": "WR",
+    "nflTeam": "KC",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11624",
+    "rosteredInLeague": false,
+    "rank": 120
+  },
+  {
+    "id": "zachariah-branch",
+    "name": "Zachariah Branch",
+    "pos": "WR",
+    "nflTeam": "ATL",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13320",
+    "rosteredInLeague": false,
+    "rank": 180
   },
   {
     "id": "zavion-thomas",
@@ -597,6 +3440,19 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "13411",
-    "rosteredInLeague": false
+    "rosteredInLeague": false,
+    "rank": 9999999
+  },
+  {
+    "id": "zay-flowers",
+    "name": "Zay Flowers",
+    "pos": "WR",
+    "nflTeam": "BAL",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9997",
+    "rosteredInLeague": false,
+    "rank": 44
   }
 ]

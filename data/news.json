@@ -30,7 +30,9 @@
       "contract",
       "LAR"
     ],
-    "players": [],
+    "players": [
+      "puka-nacua"
+    ],
     "teams": [
       "LAR"
     ]
@@ -48,7 +50,9 @@
       "contract",
       "TB"
     ],
-    "players": [],
+    "players": [
+      "baker-mayfield"
+    ],
     "teams": [
       "TB"
     ]
@@ -141,7 +145,9 @@
       "league-news",
       "roster-move"
     ],
-    "players": [],
+    "players": [
+      "alvin-kamara"
+    ],
     "teams": []
   },
   {
@@ -156,7 +162,9 @@
       "league-news",
       "roster-move"
     ],
-    "players": [],
+    "players": [
+      "alvin-kamara"
+    ],
     "teams": []
   },
   {
@@ -208,7 +216,9 @@
       "contract",
       "PHI"
     ],
-    "players": [],
+    "players": [
+      "jalen-hurts"
+    ],
     "teams": [
       "PHI"
     ]
@@ -320,7 +330,9 @@
       "injury",
       "SF"
     ],
-    "players": [],
+    "players": [
+      "ricky-pearsall"
+    ],
     "teams": [
       "SF"
     ]
@@ -374,7 +386,9 @@
       "injury",
       "CLE"
     ],
-    "players": [],
+    "players": [
+      "harold-fannin"
+    ],
     "teams": [
       "CLE"
     ]
@@ -393,7 +407,8 @@
       "LV"
     ],
     "players": [
-      "kirk-cousins"
+      "kirk-cousins",
+      "fernando-mendoza"
     ],
     "teams": [
       "LV"
@@ -594,7 +609,9 @@
       "roster-move",
       "LAR"
     ],
-    "players": [],
+    "players": [
+      "matthew-stafford"
+    ],
     "teams": [
       "LAR"
     ]
@@ -650,7 +667,9 @@
       "injury",
       "GB"
     ],
-    "players": [],
+    "players": [
+      "tucker-kraft"
+    ],
     "teams": [
       "GB"
     ]
@@ -667,7 +686,10 @@
       "league-news",
       "contract"
     ],
-    "players": [],
+    "players": [
+      "bijan-robinson",
+      "jahmyr-gibbs"
+    ],
     "teams": []
   },
   {
@@ -684,7 +706,9 @@
       "ATL",
       "DET"
     ],
-    "players": [],
+    "players": [
+      "jonathan-taylor"
+    ],
     "teams": [
       "ATL",
       "DET"
@@ -974,7 +998,8 @@
       "CIN"
     ],
     "players": [
-      "erick-all"
+      "erick-all",
+      "joe-burrow"
     ],
     "teams": [
       "CIN"
@@ -1190,7 +1215,9 @@
       "dynasty",
       "injury"
     ],
-    "players": [],
+    "players": [
+      "ricky-pearsall"
+    ],
     "teams": []
   },
   {
@@ -1292,7 +1319,10 @@
       "league-news",
       "contract"
     ],
-    "players": [],
+    "players": [
+      "bijan-robinson",
+      "jahmyr-gibbs"
+    ],
     "teams": []
   },
   {
@@ -1325,7 +1355,10 @@
       "dynasty",
       "usage"
     ],
-    "players": [],
+    "players": [
+      "alvin-kamara",
+      "travis-etienne"
+    ],
     "teams": []
   },
   {
@@ -1631,7 +1664,10 @@
       "ATL",
       "DET"
     ],
-    "players": [],
+    "players": [
+      "bijan-robinson",
+      "jahmyr-gibbs"
+    ],
     "teams": [
       "ATL",
       "DET"
@@ -1722,7 +1758,9 @@
       "dynasty",
       "availability"
     ],
-    "players": [],
+    "players": [
+      "bucky-irving"
+    ],
     "teams": []
   },
   {
@@ -1790,7 +1828,10 @@
       "contract",
       "ATL"
     ],
-    "players": [],
+    "players": [
+      "michael-penix",
+      "tua-tagovailoa"
+    ],
     "teams": [
       "ATL"
     ]
@@ -1807,7 +1848,9 @@
       "dynasty",
       "usage"
     ],
-    "players": [],
+    "players": [
+      "travis-hunter"
+    ],
     "teams": []
   },
   {
@@ -2089,7 +2132,10 @@
       "dynasty",
       "trade"
     ],
-    "players": [],
+    "players": [
+      "a-j-brown",
+      "marvin-harrison"
+    ],
     "teams": []
   },
   {
@@ -2481,7 +2527,9 @@
       "SEA",
       "availability"
     ],
-    "players": [],
+    "players": [
+      "zach-charbonnet"
+    ],
     "teams": [
       "SEA"
     ]
@@ -2905,7 +2953,9 @@
       "contract",
       "TB"
     ],
-    "players": [],
+    "players": [
+      "baker-mayfield"
+    ],
     "teams": [
       "TB"
     ]
@@ -3031,7 +3081,9 @@
       "rookie",
       "LAR"
     ],
-    "players": [],
+    "players": [
+      "ty-simpson"
+    ],
     "teams": [
       "LAR"
     ]
@@ -3100,7 +3152,8 @@
       "contract"
     ],
     "players": [
-      "patrick-mahomes"
+      "patrick-mahomes",
+      "cam-ward"
     ],
     "teams": []
   },
@@ -3154,7 +3207,9 @@
       "injury",
       "IND"
     ],
-    "players": [],
+    "players": [
+      "daniel-jones"
+    ],
     "teams": [
       "IND"
     ]
@@ -3221,7 +3276,9 @@
       "contract",
       "SF"
     ],
-    "players": [],
+    "players": [
+      "brandon-aiyuk"
+    ],
     "teams": [
       "SF"
     ]
@@ -3239,7 +3296,9 @@
       "trade",
       "PHI"
     ],
-    "players": [],
+    "players": [
+      "a-j-brown"
+    ],
     "teams": [
       "PHI"
     ]
