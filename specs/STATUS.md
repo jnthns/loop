@@ -335,3 +335,42 @@ Remove the comment markers only when the build is truly finished.)
   item narrowed to "confirm live picks once the draft starts."
 - Evidence: `scripts/check.sh` → typecheck 0 errors, vitest 437/437, build
   26 pages, `check.sh passed.`
+
+### Pass 13 — `/builds`: expert-backed archetypes and pick targets
+
+- **What:** a new `/builds` page that ranks seven startup build archetypes for
+  this league's actual format and draft slot, then produces targets across all
+  30 owned picks. Delivered as eight bounded commits (`da1ca97`..`2e18f2e`).
+- **Data:** new `scripts/sync-market.ts` pulls DynastyProcess's free, keyless
+  CSVs — FantasyPros expert consensus rankings and KeepTradeCut-derived trade
+  values, in the `_2qb` superflex columns that match this league — and commits
+  `data/market.json`. The join is `fp_id → fantasypros_id → sleeper_id`, an
+  exact id lookup: 646/646 rows, 0 unmatched, 98.3% Sleeper coverage. Write
+  floors (400 players, 40 picks, 60% match rate) verified by forcing a breach:
+  exit 1, snapshot byte-identical. Zero new secrets; the no-network build
+  guarantee holds.
+- **Measured fact the model rests on:** mean `valueSf/value1qb` is **2.96**
+  across the top 24 QBs against **0.78** for WRs. The superflex QB premium is
+  the largest effect in the data, and the scoring lets it dominate rather than
+  asserting it.
+- **Three modelling bugs found by checking output against the real board, not
+  by the tests** (all now have regression tests):
+  1. `formatFit` normalized by the largest position weight, rewarding breadth —
+     a flat "want everything" profile scored the maximum and beat every sharp
+     thesis. Now a cosine against the format's slot shares.
+  2. `ageBias` was declared and never read, so youth-first and win-now —
+     deliberate opposites — tied and both surfaced as top pick at once.
+  3. `need` had minimums but no saturation or format floor: the sheet returned
+     seven QBs in eight picks, while archetypes not naming QB drafted none at
+     all across 30 rounds — rosters that cannot legally start in superflex.
+- **Citations:** 13 traced to `data/news.json` (CI-harvested from live RSS), 8
+  to stable index pages, **0 fabricated**, labels checked against article
+  titles. This was audited mechanically because egress policy blocks every
+  external host, so a hallucinated URL could not be caught by fetching it.
+- **Evidence:** `scripts/check.sh` → typecheck 0 errors, vitest 552/552 across
+  31 files, build 26 pages, `check.sh passed.` `dist/builds/index.html` renders
+  all 30 owned pick numbers matching `data/draft.json`.
+- **Known limits:** per-player deep-link templates (Sleeper/KTC/FantasyPros/
+  ESPN) are unverified — no host is reachable from CI's sandbox — and are kept
+  in one table in `src/lib/market/dynastyprocess.ts` for a single-point fix.
+  The page serializes all seven plans (1.1 MB, 136 KB gzipped).

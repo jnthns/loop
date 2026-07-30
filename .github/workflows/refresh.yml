@@ -56,6 +56,16 @@ jobs:
         continue-on-error: true
         run: npm run sync:sleeper
 
+      # DynastyProcess expert consensus rankings and superflex trade values.
+      # continue-on-error for the same reason as Sleeper: a bad CDN day must not
+      # block the rest of the refresh. The sync writes nothing when it fails —
+      # and refuses to write a truncated file via its row-count and match-rate
+      # floors — so the committed snapshot survives either way.
+      - name: Sync dynasty market
+        id: market
+        continue-on-error: true
+        run: npm run sync:market
+
       - name: Fetch news
         run: npm run news:fetch
 
@@ -80,6 +90,14 @@ jobs:
 
           $(git diff --cached --stat | tail -n 1)"
           git push
+
+      - name: Report a failed market sync
+        if: steps.market.outcome == 'failure'
+        run: |
+          echo "::warning::Market sync failed; the committed data/market.json is" \
+               "unchanged, so /builds still renders the previous snapshot. Check" \
+               "whether DynastyProcess changed a CSV column name — the sync" \
+               "asserts its headers and fails loudly rather than writing nulls."
 
       - name: Report a failed Sleeper sync
         if: steps.sleeper.outcome == 'failure'
