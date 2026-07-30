@@ -39,10 +39,11 @@ letting them rot.
   synced players have an empty `notes`. That is a placeholder judgement sitting
   in the same field as a real one. (size: M · check: no shortlisted player
   retains a default tier with an empty note)
-- [P0] **Confirm the draft details against the Sleeper app.** The live sync
-  reports snake, 12 teams, 30 rounds, 2026-08-14. Order is not set yet, so the
-  slot-to-picks path is still fixture-only. (size: S · check: date/type/rounds
-  match Sleeper, and once the order is drawn, pick 1 equals your slot)
+- [P0] **Confirm pick numbers track the live draft once it starts.** Order is
+  drawn — slot 4, picks 4/21/28/… confirmed against Sleeper on 2026-07-30. The
+  `picks[]` array is still empty pre-draft; once picks land, each should map to
+  the right player. (size: S · check: after pick 1, `data/draft.json` pick 4
+  matches Sleeper's `/draft/{id}/picks`)
 
 ## P1 — next up
 

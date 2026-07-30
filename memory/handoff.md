@@ -10,20 +10,17 @@ The app is built, deployed, and connected to the real league. Remaining work is
 the P0 backlog items — mostly *verifying* things this sandbox cannot reach live
 — plus the draft board (P1) before the 2026-08-14 startup.
 
-## Last pass did (round 6)
+## Last pass did (round 7)
 
-- **Verified the round-5 pool fix live — and found a second bug while doing
-  it.** Pushed round 5, dispatched `refresh`; it went green but
-  `data/players.json` didn't move (still 8 QB / 56 players). The job log
-  showed why: the 5MB Sleeper player dump is throttled to once/24h, the last
-  fetch predated the fix, so the sync fetched nothing and `selectPlayers()`
-  fell back to the stale list. Green pipeline, fix never actually ran.
-  Back-dated `lastPlayerSync` in `data/sleeper.json`, pushed, dispatched
-  again — this time it fired.
-- **Confirmed from the committed data:** `data/players.json` went from 8 QB
-  / 56 players to **39 QB / 288 players** (117 WR, 90 RB, 42 TE, all with
-  `rank`). News-match rate rose from 16/147 (~11%) to **68/186 (~37%)**.
-  Backlog item closed and removed (see `specs/STATUS.md` Pass 11 for detail).
+- **Live Sleeper sync — draft order is now drawn.** Ran `npm run sync:sleeper`
+  against the API; Sleeper reports **slot 4** for user `comebackedOnYou`
+  (`draft_order["1355422066613948416"]: 4`, verified via
+  `GET /draft/1355043174896136192`). `data/draft.json` updated:
+  `myDraftSlot: 4`, `myPicks` 4/21/28/…/357 (30 snake picks). Trending
+  counts refreshed. Player dump skipped (within 24h) — pool still 39 QB /
+  288 players. News-match rate 70/194 (~36%).
+- **Phase 12 pool-verify task ticked** in `specs/PLAN.md` — criteria met from
+  the prior live refresh and reconfirmed this pass.
 
 ## Earlier context (round 5)
 
@@ -72,30 +69,25 @@ the P0 backlog items — mostly *verifying* things this sandbox cannot reach liv
 
 ## Evidence (this pass)
 
-- Live `refresh` confirmed the pool fix from the committed data itself:
-  `data/players.json` 8 QB / 56 players → **39 QB / 288 players** (117 WR,
-  90 RB, 42 TE, all with `rank`). News-match rate 16/147 → **68/186**.
-- The first `refresh` dispatch after shipping the fix went green but did
-  *not* exercise it — the Sleeper player dump is throttled to once/24h and
-  the last fetch predated the fix, so the sync fetched nothing and
-  `selectPlayers()` fell back to the stale list. Had to back-date
-  `lastPlayerSync` in `data/sleeper.json` and dispatch again. Green CI is not
-  proof of anything by itself — read the job log, read the committed data.
+- `npm run sync:sleeper` → slot 4, picks 4/21/28/…/357; `scripts/check.sh`
+  green (437/437 tests).
+- Sleeper API cross-check: `draft_order["1355422066613948416"] === 4`.
+- Pool unchanged (player dump within 24h): 39 QB / 288 players; news-match
+  70/194 (~36%).
 
 ## The league, as Sleeper reports it
 
 **DyNastyNasty** · 12-team · superflex · 1 PPR · +0.5 TE premium.
 Slots: QB, RB×2, WR×3, TE, FLEX×2, SUPERFLEX, BN×16 — no K, no D/ST, no taxi,
 no IR. Roster is 0/26 filled — the startup draft has not happened. Startup is
-**snake, 30 rounds, 2026-08-14**; draft order not yet drawn
-(`myDraftSlot: null` as of the last live sync). Player pool is now 288
+**snake, 30 rounds, 2026-08-14**; **draft order drawn — you are slot 4**
+(picks 4, 21, 28, 45…). Player pool is 288
 players (39 QB / 90 RB / 117 WR / 42 TE), refreshed daily.
 
 ## Blockers / needs a human
 
-1. **Confirm the draft details against the Sleeper app** once the order is
-   drawn — date/type/rounds already match; `myPicks` is still fixture-tested
-   only. P0 in the backlog.
+1. **Confirm live picks once the draft starts** — order is set (slot 4);
+   `picks[]` is still empty pre-draft. P0 in the backlog.
 2. **Most synced players carry a `defaultTier()` guess and an empty note** —
    a placeholder judgement in the field where a real one goes, now across
    ~288 players rather than 56. P0 in the backlog.
