@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { NewsItem } from '~/lib/schemas/news';
+import { facetCounts, queryNews, type NewsSort } from '~/lib/news/query';
 import { relativeTime } from '~/lib/time';
 
 export const NEWS_RAIL_STORAGE_KEY = 'dynasty-guide:news-rail';
@@ -12,6 +13,24 @@ export interface NewsPanelProps {
   /** Injected in tests so relative times are deterministic. */
   now?: Date;
 }
+
+type Filter = {
+  source: string;
+  tag: string;
+  team: string;
+  query: string;
+  mineOnly: boolean;
+  dedupeTitles: boolean;
+};
+
+const ALL = '';
+
+const SORT_OPTIONS: { value: NewsSort; label: string }[] = [
+  { value: 'newest', label: 'Newest first' },
+  { value: 'oldest', label: 'Oldest first' },
+  { value: 'source', label: 'Source A–Z' },
+  { value: 'title', label: 'Title A–Z' },
+];
 
 function readCollapsedPreference(): boolean {
   try {
@@ -48,6 +67,16 @@ export function NewsPanel({
 }: NewsPanelProps) {
   const [open, setOpen] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [filter, setFilter] = useState<Filter>({
+    source: ALL,
+    tag: ALL,
+    team: ALL,
+    query: '',
+    mineOnly: false,
+    dedupeTitles: false,
+  });
+  const [sort, setSort] = useState<NewsSort>('newest');
 
   useEffect(() => {
     setCollapsed(readCollapsedPreference());
@@ -62,13 +91,67 @@ export function NewsPanel({
   }
 
   const watched = useMemo(() => new Set(watchedPlayerIds), [watchedPlayerIds]);
-  const visible = useMemo(
-    () => [...items].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0, limit),
-    [items, limit],
+
+  const sources = useMemo(() => facetCounts(items, 'source'), [items]);
+  const tags = useMemo(() => facetCounts(items, 'tag'), [items]);
+  const teams = useMemo(() => facetCounts(items, 'team'), [items]);
+
+  const filtered = useMemo(
+    () =>
+      queryNews(
+        items,
+        {
+          source: filter.source || undefined,
+          tag: filter.tag || undefined,
+          team: filter.team || undefined,
+          query: filter.query || undefined,
+          mineOnly: filter.mineOnly,
+          watchedPlayerIds,
+          dedupeTitles: filter.dedupeTitles,
+        },
+        sort,
+      ),
+    [items, filter, sort, watchedPlayerIds],
   );
+
+  const visible = useMemo(() => filtered.slice(0, limit), [filtered, limit]);
+
   const relevantCount = useMemo(
     () => visible.filter((i) => i.players.some((p) => watched.has(p))).length,
     [visible, watched],
+  );
+
+  const active =
+    filter.source ||
+    filter.tag ||
+    filter.team ||
+    filter.query ||
+    filter.mineOnly ||
+    filter.dedupeTitles ||
+    sort !== 'newest';
+
+  const select = (
+    label: string,
+    value: string,
+    options: [string, number][],
+    onChange: (v: string) => void,
+  ) => (
+    <label className="flex min-w-0 flex-col gap-0.5">
+      <span className="label text-[10px]">{label}</span>
+      <select
+        aria-label={label}
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="rounded-[0.375rem] border border-line bg-surface px-1.5 py-1 text-[11px]"
+      >
+        <option value={ALL}>All</option>
+        {options.map(([option, count]) => (
+          <option key={option} value={option}>
+            {option} ({count})
+          </option>
+        ))}
+      </select>
+    </label>
   );
 
   return (
@@ -129,6 +212,14 @@ export function NewsPanel({
               <div className="flex items-center gap-3">
                 <button
                   type="button"
+                  onClick={() => setFiltersOpen((v) => !v)}
+                  className="text-xs font-semibold text-muted hover:text-ink"
+                  aria-expanded={filtersOpen}
+                >
+                  {filtersOpen ? 'Hide filters' : 'Filter'}
+                </button>
+                <button
+                  type="button"
                   onClick={toggleCollapsed}
                   className="hidden text-xs font-semibold text-muted hover:text-ink lg:inline"
                   aria-expanded={!collapsed}
@@ -146,6 +237,87 @@ export function NewsPanel({
                 </button>
               </div>
             </div>
+
+            {filtersOpen && (
+              <div className="mt-3 space-y-2 border-t border-line pt-3">
+                <label className="flex flex-col gap-0.5">
+                  <span className="label text-[10px]">Search</span>
+                  <input
+                    type="search"
+                    aria-label="Search"
+                    placeholder="Title or summary…"
+                    value={filter.query}
+                    onChange={(e) => setFilter((f) => ({ ...f, query: e.target.value }))}
+                    className="rounded-[0.375rem] border border-line bg-surface px-2 py-1 text-[11px]"
+                  />
+                </label>
+                <div className="grid grid-cols-2 gap-2">
+                  {select('Source', filter.source, sources, (source) =>
+                    setFilter((f) => ({ ...f, source })),
+                  )}
+                  {select('Tag', filter.tag, tags, (tag) => setFilter((f) => ({ ...f, tag })))}
+                  {select('Team', filter.team, teams, (team) => setFilter((f) => ({ ...f, team })))}
+                  <label className="flex min-w-0 flex-col gap-0.5">
+                    <span className="label text-[10px]">Sort</span>
+                    <select
+                      aria-label="Sort"
+                      value={sort}
+                      onChange={(e) => setSort(e.target.value as NewsSort)}
+                      className="rounded-[0.375rem] border border-line bg-surface px-1.5 py-1 text-[11px]"
+                    >
+                      {SORT_OPTIONS.map(({ value, label }) => (
+                        <option key={value} value={value}>
+                          {label}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                </div>
+                <div className="flex flex-wrap gap-x-3 gap-y-1 text-[11px]">
+                  <label className="flex items-center gap-1.5">
+                    <input
+                      type="checkbox"
+                      checked={filter.mineOnly}
+                      onChange={(e) => setFilter((f) => ({ ...f, mineOnly: e.target.checked }))}
+                      className="accent-[var(--tone)]"
+                    />
+                    My players
+                  </label>
+                  <label className="flex items-center gap-1.5">
+                    <input
+                      type="checkbox"
+                      checked={filter.dedupeTitles}
+                      onChange={(e) => setFilter((f) => ({ ...f, dedupeTitles: e.target.checked }))}
+                      className="accent-[var(--tone)]"
+                    />
+                    Hide duplicate titles
+                  </label>
+                </div>
+                {active && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setFilter({
+                        source: ALL,
+                        tag: ALL,
+                        team: ALL,
+                        query: '',
+                        mineOnly: false,
+                        dedupeTitles: false,
+                      });
+                      setSort('newest');
+                    }}
+                    className="section-link text-[11px]"
+                  >
+                    Reset
+                  </button>
+                )}
+                <p className="text-[10px] font-semibold text-muted" data-testid="result-count" data-numeric>
+                  {filtered.length} of {items.length}
+                </p>
+              </div>
+            )}
+
             {relevantCount > 0 && (
               <p className="mt-2 rounded-[0.5rem] border border-tone-line bg-tone-soft px-2 py-1 text-[11px] text-tone">
                 <strong className="font-bold">{relevantCount}</strong> item
@@ -156,9 +328,15 @@ export function NewsPanel({
 
           {visible.length === 0 ? (
             <p className="px-4 py-6 text-xs text-muted">
-              No news yet. The <code className="font-mono">news-refresh</code> loop fills{' '}
-              <code className="font-mono">data/news.json</code> on a schedule; run{' '}
-              <code className="font-mono">npm run news:fetch</code> to populate it now.
+              {items.length === 0 ? (
+                <>
+                  No news yet. The <code className="font-mono">news-refresh</code> loop fills{' '}
+                  <code className="font-mono">data/news.json</code> on a schedule; run{' '}
+                  <code className="font-mono">npm run news:fetch</code> to populate it now.
+                </>
+              ) : (
+                'No items match these filters.'
+              )}
             </p>
           ) : (
             <ul className="divide-y divide-line">

@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import Dashboard from '~/components/Dashboard';
 import { draft, getPlayer, newsByDate, players, team, trending } from '~/lib/data';
+import { dedupeByTitle } from '~/lib/news/dedupe';
 import { coverageGaps, facetCoverage, openSlots, rosterAlerts } from '~/lib/insights/cross-reference';
 import { href } from '~/lib/url';
 
@@ -10,7 +11,9 @@ const articles = await getCollection('knowledge');
 
 const alerts = rosterAlerts(newsByDate, team, players);
 const alertIds = new Set(alerts.map((a) => a.item.id));
-const digest = newsByDate.filter((item) => !alertIds.has(item.id)).slice(0, 8);
+const digest = dedupeByTitle(newsByDate)
+  .filter((item) => !alertIds.has(item.id))
+  .slice(0, 8);
 
 const gaps = coverageGaps(
   facetCoverage(articles.map((a) => ({ facet: a.data.facet, updated: a.data.updated }))),

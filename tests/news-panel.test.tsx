@@ -107,4 +107,57 @@ describe('NewsPanel', () => {
     expect(aside.dataset.collapsed).toBe('false');
     expect(localStorage.getItem('dynasty-guide:news-rail')).toBe('expanded');
   });
+
+  it('filters by source when the filter panel is open', async () => {
+    const user = userEvent.setup();
+    const mixed = [
+      item({ id: 'a', title: 'ESPN story' }),
+      item({ id: 'b', title: 'Reddit thread', source: 'r/DynastyFF', sourceId: 'reddit-dynastyff' }),
+    ];
+    render(<NewsPanel items={mixed} now={NOW} />);
+    await user.click(screen.getByRole('button', { name: 'Filter' }));
+    await user.selectOptions(screen.getByLabelText('Source'), 'r/DynastyFF');
+    expect(screen.getAllByTestId('news-item')).toHaveLength(1);
+    expect(screen.getByText('Reddit thread')).toBeInTheDocument();
+  });
+
+  it('searches title and summary text', async () => {
+    const user = userEvent.setup();
+    const searchable = [
+      item({ id: 'a', title: 'Quiet day', summary: 'nothing actionable' }),
+      item({ id: 'b', title: 'Busy day', summary: 'hamstring tweak' }),
+    ];
+    render(<NewsPanel items={searchable} now={NOW} />);
+    await user.click(screen.getByRole('button', { name: 'Filter' }));
+    await user.type(screen.getByLabelText('Search'), 'hamstring');
+    expect(screen.getAllByTestId('news-item')).toHaveLength(1);
+    expect(screen.getByText('Busy day')).toBeInTheDocument();
+  });
+
+  it('sorts oldest first', async () => {
+    const user = userEvent.setup();
+    const dated = [
+      item({ id: 'new', publishedAt: '2026-09-10T12:00:00.000Z', title: 'Newer' }),
+      item({ id: 'old', publishedAt: '2026-09-08T10:00:00.000Z', title: 'Older' }),
+    ];
+    render(<NewsPanel items={dated} now={NOW} limit={10} />);
+    await user.click(screen.getByRole('button', { name: 'Filter' }));
+    await user.selectOptions(screen.getByLabelText('Sort'), 'Oldest first');
+    const rows = screen.getAllByTestId('news-item');
+    expect(rows[0]).toHaveTextContent('Older');
+    expect(rows[1]).toHaveTextContent('Newer');
+  });
+
+  it('hides duplicate titles when toggled', async () => {
+    const user = userEvent.setup();
+    const dupes = [
+      item({ id: 'one', title: 'Same headline', publishedAt: '2026-09-10T12:00:00.000Z' }),
+      item({ id: 'two', title: 'Same headline.', publishedAt: '2026-09-09T10:00:00.000Z' }),
+      item({ id: 'three', title: 'Different story' }),
+    ];
+    render(<NewsPanel items={dupes} now={NOW} limit={10} />);
+    await user.click(screen.getByRole('button', { name: 'Filter' }));
+    await user.click(screen.getByLabelText('Hide duplicate titles'));
+    expect(screen.getAllByTestId('news-item')).toHaveLength(2);
+  });
 });
