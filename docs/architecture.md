@@ -65,7 +65,6 @@ numeric, and `prefers-color-scheme` for dark mode. No animation library.
 | `/knowledge`                     | static           | Facet index — counts, last-updated, coverage gaps             |
 | `/knowledge/[facet]`             | static           | Articles in one facet                                         |
 | `/knowledge/[facet]/[slug]`      | static           | Article + sources, confidence, updated date                   |
-| `/news`                          | static + island  | Full archive with source/tag/team filters                     |
 | `/progress`                      | static           | Plan progress, backlog queue, recorded passes                 |
 
 ## 4. Directory shape

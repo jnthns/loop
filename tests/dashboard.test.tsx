@@ -32,7 +32,6 @@ const news = [
 ];
 
 const links: DashboardProps['links'] = {
-  news: '/loop/news',
   team: '/loop/team',
   knowledge: '/loop/knowledge',
   facet: (id) => `/loop/knowledge/${id}`,
@@ -180,7 +179,6 @@ describe('Dashboard', () => {
 
   it('links each section to its full page', () => {
     mount();
-    expect(screen.getByRole('link', { name: 'Full archive' })).toHaveAttribute('href', '/loop/news');
     expect(screen.getByRole('link', { name: 'My team' })).toHaveAttribute('href', '/loop/team');
     expect(screen.getByRole('link', { name: 'Knowledge base' })).toHaveAttribute(
       'href',

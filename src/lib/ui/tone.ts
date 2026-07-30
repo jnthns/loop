@@ -44,7 +44,6 @@ export const ROUTE_TONES: Record<string, Tone> = {
   '/': 'blue',
   '/team': 'green',
   '/knowledge': 'violet',
-  '/news': 'amber',
   '/progress': 'teal',
   '/teams': 'orange',
 };

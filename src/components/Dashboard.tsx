@@ -16,7 +16,7 @@ export interface DashboardProps {
   openSlots: { slotId: string; label: string }[];
   topTargets: { target: Team['targets'][number]; player?: Player; slotLabel: string }[];
   /** Base-path-aware hrefs, built by the page. */
-  links: { news: string; team: string; knowledge: string; facet: (id: string) => string };
+  links: { team: string; knowledge: string; facet: (id: string) => string };
   newsCount: number;
   /** Sleeper add/drop counts — market signal, not news. */
   trending?: Trending;
@@ -127,7 +127,6 @@ export function Dashboard({
           title="Latest news"
           note="Everything else the pipeline picked up."
           count={digest.length}
-          link={{ href: links.news, label: 'Full archive' }}
         />
         {digest.length === 0 ? (
           <EmptyState>
