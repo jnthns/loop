@@ -1,6 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { FACET_IDS } from '~/lib/knowledge/facets';
+import { ARCHETYPE_IDS } from '~/lib/builds/archetypes';
 
 /**
  * Knowledge articles live at src/content/knowledge/<facet>/<slug>.md.
@@ -38,4 +39,33 @@ const knowledge = defineCollection({
   }),
 });
 
-export const collections = { knowledge };
+/**
+ * Build archetypes live at src/content/builds/<archetype-id>.md, one file per
+ * `ARCHETYPE_IDS` entry. Using that enum here (rather than a free-string field)
+ * is deliberate: it makes prose/math drift between the archetype math in
+ * `~/lib/builds/archetypes.ts` and this content a typecheck failure rather
+ * than a runtime surprise.
+ */
+const builds = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/builds' }),
+  schema: z.object({
+    title: z.string(),
+    archetype: z.enum(ARCHETYPE_IDS),
+    tagline: z.string(),
+    thesis: z.string(),
+    worksWhen: z.array(z.string()).min(1),
+    failsWhen: z.array(z.string()).min(1),
+    updated: z.coerce.date(),
+    confidence: z.enum(['low', 'medium', 'high']),
+    sources: z
+      .array(
+        z.object({
+          label: z.string(),
+          url: z.url(),
+        }),
+      )
+      .min(2, 'every build must cite at least two expert sources'),
+  }),
+});
+
+export const collections = { knowledge, builds };
