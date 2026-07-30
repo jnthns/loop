@@ -6,10 +6,10 @@
 
 ## Sentinel
 
-The build is **done**. Every task in `specs/PLAN.md` is checked and
-`scripts/check.sh` exits 0.
-
-ALL TASKS DONE
+Campaign 1 (recipe generator) is **done** — see the `ALL TASKS DONE` entry in
+the log below. Campaign 2 (NFL Team Investment Board) is **in progress** on
+`feature/teams-draft-board`: core feature shipped and green, two hardening
+tasks remain unchecked in `specs/PLAN.md`.
 
 ---
 
@@ -618,6 +618,24 @@ Result (50 files):
 check.sh passed.
 ```
 
+### Pass 21 — checker verification (`scripts/verify.sh`)
+
+- Checker subagent **APPROVE** — independent re-run of mechanical gate.
+- Evidence (`verify.sh` via Git Bash, exit 0):
+
+```
+astro check — 50 files, 0 errors / 0 warnings / 0 hints
+npm test — 16 files, 66/66 tests passed
+npm run build — server mode, @astrojs/node, Complete
+grep dist/client — no GEMINI_API_KEY in client chunks
+```
+
+- PLAN: 22/22 tasks checked. §6 acceptance criteria covered by tests + grep.
+- Non-blocking note: GitHub Pages static deploy vs `output: 'server'` API routes
+  unresolved — resolve when targeting production on Pages.
+
+ALL TASKS DONE
+
 ### Pass 22 — Campaign 2: NFL Team Investment Board (`/teams`)
 
 - New page `src/pages/teams.astro` + `src/components/teams/`: two group sections
@@ -638,6 +656,9 @@ check.sh passed.
   espn.ts/sleeper.ts/board.ts replaced this pass's files mid-run. Reconciled by
   restoring the server-oriented fetchers (kept its WSH→WAS abbreviation fix and
   per-source fallback idea); its client-side TeamsApp import design was kept.
+- Moved route test out of `src/pages/` — Astro treats every `.ts` there as an
+  endpoint, so test files importing vitest break static builds. Route tests now
+  live in `src/lib/<area>/api-*.integration.test.ts`.
 - Evidence (`npm run lint && npm run test && npm run build`; bash unavailable on
   this host, same equivalence as pass 20):
 
@@ -646,21 +667,3 @@ astro check — 70 files, 0 errors / 0 warnings / 0 hints
 vitest — 20 files, 90/90 tests passed
 astro build — 8 pages incl. /teams/index.html + prerendered /api/nfl/board
 ```
-
-### Pass 21 — checker verification (`scripts/verify.sh`)
-
-- Checker subagent **APPROVE** — independent re-run of mechanical gate.
-- Evidence (`verify.sh` via Git Bash, exit 0):
-
-```
-astro check — 50 files, 0 errors / 0 warnings / 0 hints
-npm test — 16 files, 66/66 tests passed
-npm run build — server mode, @astrojs/node, Complete
-grep dist/client — no GEMINI_API_KEY in client chunks
-```
-
-- PLAN: 22/22 tasks checked. §6 acceptance criteria covered by tests + grep.
-- Non-blocking note: GitHub Pages static deploy vs `output: 'server'` API routes
-  unresolved — resolve when targeting production on Pages.
-
-ALL TASKS DONE
