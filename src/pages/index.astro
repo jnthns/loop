@@ -5,7 +5,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <BaseLayout>
   <main class="p-8">
-    <h1 class="mb-8 text-3xl font-bold">Recipe Generator</h1>
+    <div class="mb-8 flex flex-wrap items-baseline gap-4">
+      <h1 class="text-3xl font-bold">Recipe Generator</h1>
+      <a href="/teams" class="border-brutal border-brutal-black px-2 py-1 text-xs font-bold uppercase">NFL Team Board →</a>
+    </div>
     <LandingApp client:load />
   </main>
 </BaseLayout>
