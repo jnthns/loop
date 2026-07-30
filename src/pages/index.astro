@@ -39,7 +39,6 @@ const topTargets = team.targets
     rosterEmpty={team.roster.every((r) => r.playerId === null)}
     rosteredPlayerIds={team.roster.map((r) => r.playerId).filter((id): id is string => Boolean(id))}
     links={{
-      news: href('/news'),
       team: href('/team'),
       knowledge: href('/knowledge'),
       facet: (id: string) => href(`/knowledge/${id}`),

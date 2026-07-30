@@ -8,8 +8,6 @@ export interface NewsPanelProps {
   items: NewsItem[];
   /** Player ids on the roster or the target list — these get flagged. */
   watchedPlayerIds?: string[];
-  /** Where the "all news" link points (base-path aware, built by the caller). */
-  archiveHref: string;
   limit?: number;
   /** Injected in tests so relative times are deterministic. */
   now?: Date;
@@ -45,7 +43,6 @@ function writeCollapsedPreference(collapsed: boolean): void {
 export function NewsPanel({
   items,
   watchedPlayerIds = [],
-  archiveHref,
   limit = 25,
   now,
 }: NewsPanelProps) {
@@ -130,9 +127,6 @@ export function NewsPanel({
                 News
               </h2>
               <div className="flex items-center gap-3">
-                <a href={archiveHref} className="section-link">
-                  All news
-                </a>
                 <button
                   type="button"
                   onClick={toggleCollapsed}

@@ -34,7 +34,7 @@ const items: NewsItem[] = [
 ];
 
 function panel(props: Partial<React.ComponentProps<typeof NewsPanel>> = {}) {
-  return render(<NewsPanel items={items} archiveHref="/loop/news" now={NOW} {...props} />);
+  return render(<NewsPanel items={items} now={NOW} {...props} />);
 }
 
 describe('NewsPanel', () => {
@@ -71,11 +71,6 @@ describe('NewsPanel', () => {
   it('respects the limit', () => {
     panel({ limit: 2 });
     expect(screen.getAllByTestId('news-item')).toHaveLength(2);
-  });
-
-  it('links to the full archive', () => {
-    panel();
-    expect(screen.getByRole('link', { name: 'All news' })).toHaveAttribute('href', '/loop/news');
   });
 
   it('explains how to populate an empty feed rather than rendering nothing', () => {
