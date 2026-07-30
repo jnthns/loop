@@ -94,4 +94,44 @@ describe('NewsArchive', () => {
     render(<NewsArchive items={items} />);
     expect(screen.getByRole('option', { name: 'injury (2)' })).toBeInTheDocument();
   });
+
+  it('searches title and summary text', async () => {
+    const user = userEvent.setup();
+    const searchable = [
+      ...items,
+      item({ id: 'd', title: 'Quiet day', summary: 'nothing actionable' }),
+    ];
+    render(<NewsArchive items={searchable} />);
+    await user.type(screen.getByLabelText('Search'), 'actionable');
+    expect(count()).toHaveLength(1);
+    expect(screen.getByText('Quiet day')).toBeInTheDocument();
+  });
+
+  it('sorts oldest first', async () => {
+    const user = userEvent.setup();
+    const dated = [
+      item({ id: 'new', publishedAt: '2026-09-10T12:00:00.000Z' }),
+      item({ id: 'old', publishedAt: '2026-09-08T10:00:00.000Z' }),
+    ];
+    render(<NewsArchive items={dated} />);
+    await user.selectOptions(screen.getByLabelText('Sort'), 'Oldest first');
+    const rows = count();
+    expect(rows[0]).toHaveTextContent('Story old');
+    expect(rows[1]).toHaveTextContent('Story new');
+  });
+
+  it('hides duplicate titles when toggled', async () => {
+    const user = userEvent.setup();
+    const dupes = [
+      item({ id: 'one', title: 'Same headline', publishedAt: '2026-09-10T12:00:00.000Z' }),
+      item({ id: 'two', title: 'Same headline.', publishedAt: '2026-09-09T10:00:00.000Z' }),
+      item({ id: 'three', title: 'Different story' }),
+    ];
+    render(<NewsArchive items={dupes} />);
+    expect(count()).toHaveLength(3);
+    await user.click(screen.getByLabelText('Hide duplicate titles'));
+    expect(count()).toHaveLength(2);
+    expect(screen.getByText('Same headline')).toBeInTheDocument();
+    expect(screen.queryByText('Same headline.')).not.toBeInTheDocument();
+  });
 });

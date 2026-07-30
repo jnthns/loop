@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import type { NewsItem } from '~/lib/schemas/news';
+import { facetCounts, queryNews, type NewsSort } from '~/lib/news/query';
 import { relativeTime } from '~/lib/time';
 
 export interface NewsArchiveProps {
@@ -8,15 +9,23 @@ export interface NewsArchiveProps {
   now?: Date;
 }
 
-type Filter = { source: string; tag: string; team: string; mineOnly: boolean };
+type Filter = {
+  source: string;
+  tag: string;
+  team: string;
+  query: string;
+  mineOnly: boolean;
+  dedupeTitles: boolean;
+};
 
 const ALL = '';
 
-function counts(values: string[]): [string, number][] {
-  const map = new Map<string, number>();
-  for (const v of values) map.set(v, (map.get(v) ?? 0) + 1);
-  return [...map.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-}
+const SORT_OPTIONS: { value: NewsSort; label: string }[] = [
+  { value: 'newest', label: 'Newest first' },
+  { value: 'oldest', label: 'Oldest first' },
+  { value: 'source', label: 'Source A–Z' },
+  { value: 'title', label: 'Title A–Z' },
+];
 
 /**
  * The full news archive. The right-hand panel is the condensed view of the same
@@ -28,27 +37,44 @@ export function NewsArchive({ items, watchedPlayerIds = [], now }: NewsArchivePr
     source: ALL,
     tag: ALL,
     team: ALL,
+    query: '',
     mineOnly: false,
+    dedupeTitles: false,
   });
+  const [sort, setSort] = useState<NewsSort>('newest');
 
-  const watched = useMemo(() => new Set(watchedPlayerIds), [watchedPlayerIds]);
-
-  const sources = useMemo(() => counts(items.map((i) => i.source)), [items]);
-  const tags = useMemo(() => counts(items.flatMap((i) => i.tags)), [items]);
-  const teams = useMemo(() => counts(items.flatMap((i) => i.teams)), [items]);
+  const sources = useMemo(() => facetCounts(items, 'source'), [items]);
+  const tags = useMemo(() => facetCounts(items, 'tag'), [items]);
+  const teams = useMemo(() => facetCounts(items, 'team'), [items]);
 
   const visible = useMemo(
     () =>
-      items
-        .filter((i) => (filter.source ? i.source === filter.source : true))
-        .filter((i) => (filter.tag ? i.tags.includes(filter.tag) : true))
-        .filter((i) => (filter.team ? i.teams.includes(filter.team) : true))
-        .filter((i) => (filter.mineOnly ? i.players.some((p) => watched.has(p)) : true))
-        .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)),
-    [items, filter, watched],
+      queryNews(
+        items,
+        {
+          source: filter.source || undefined,
+          tag: filter.tag || undefined,
+          team: filter.team || undefined,
+          query: filter.query || undefined,
+          mineOnly: filter.mineOnly,
+          watchedPlayerIds,
+          dedupeTitles: filter.dedupeTitles,
+        },
+        sort,
+      ),
+    [items, filter, sort, watchedPlayerIds],
   );
 
-  const active = filter.source || filter.tag || filter.team || filter.mineOnly;
+  const watched = useMemo(() => new Set(watchedPlayerIds), [watchedPlayerIds]);
+
+  const active =
+    filter.source ||
+    filter.tag ||
+    filter.team ||
+    filter.query ||
+    filter.mineOnly ||
+    filter.dedupeTitles ||
+    sort !== 'newest';
 
   const select = (
     label: string,
@@ -79,9 +105,39 @@ export function NewsArchive({ items, watchedPlayerIds = [], now }: NewsArchivePr
   return (
     <div data-tone="amber">
       <div className="card mb-5 flex flex-wrap items-end gap-3 p-3">
+        <label className="flex min-w-[12rem] flex-1 flex-col gap-1">
+          <span className="label">Search</span>
+          <input
+            type="search"
+            aria-label="Search"
+            placeholder="Title or summary…"
+            value={filter.query}
+            onChange={(e) => setFilter((f) => ({ ...f, query: e.target.value }))}
+            className={`rounded-[0.375rem] border bg-surface px-2 py-1.5 text-sm ${
+              filter.query ? 'border-tone-line font-semibold text-tone' : 'border-line'
+            }`}
+          />
+        </label>
         {select('Source', filter.source, sources, (source) => setFilter((f) => ({ ...f, source })))}
         {select('Tag', filter.tag, tags, (tag) => setFilter((f) => ({ ...f, tag })))}
         {select('Team', filter.team, teams, (team) => setFilter((f) => ({ ...f, team })))}
+        <label className="flex min-w-0 flex-col gap-1">
+          <span className="label">Sort</span>
+          <select
+            aria-label="Sort"
+            value={sort}
+            onChange={(e) => setSort(e.target.value as NewsSort)}
+            className={`rounded-[0.375rem] border bg-surface px-2 py-1.5 text-sm ${
+              sort !== 'newest' ? 'border-tone-line font-semibold text-tone' : 'border-line'
+            }`}
+          >
+            {SORT_OPTIONS.map(({ value, label }) => (
+              <option key={value} value={value}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </label>
         <label className="flex items-center gap-2 pb-1.5 text-sm">
           <input
             type="checkbox"
@@ -91,10 +147,29 @@ export function NewsArchive({ items, watchedPlayerIds = [], now }: NewsArchivePr
           />
           My players only
         </label>
+        <label className="flex items-center gap-2 pb-1.5 text-sm">
+          <input
+            type="checkbox"
+            checked={filter.dedupeTitles}
+            onChange={(e) => setFilter((f) => ({ ...f, dedupeTitles: e.target.checked }))}
+            className="accent-[var(--tone)]"
+          />
+          Hide duplicate titles
+        </label>
         {active && (
           <button
             type="button"
-            onClick={() => setFilter({ source: ALL, tag: ALL, team: ALL, mineOnly: false })}
+            onClick={() => {
+              setFilter({
+                source: ALL,
+                tag: ALL,
+                team: ALL,
+                query: '',
+                mineOnly: false,
+                dedupeTitles: false,
+              });
+              setSort('newest');
+            }}
             className="section-link pb-1.5"
           >
             Reset

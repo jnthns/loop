@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { render, screen, within } from '@testing-library/react';
 import { Dashboard, type DashboardProps } from '~/components/Dashboard';
+import { dedupeByTitle } from '~/lib/news/dedupe';
 import { rosterAlerts, coverageGaps, facetCoverage, openSlots } from '~/lib/insights/cross-reference';
 import type { NewsItem } from '~/lib/schemas/news';
 import { fixturePlayers, fixtureTeam } from './fixtures/league';
@@ -138,6 +139,24 @@ describe('Dashboard', () => {
     const digest = screen.getAllByTestId('digest-item');
     expect(digest).toHaveLength(1);
     expect(digest[0]).toHaveTextContent('Unrelated news');
+  });
+
+  it('dedupes syndicated headlines in the digest', () => {
+    const dupes = [
+      ...news,
+      item({
+        id: 'dupe',
+        title: 'Unrelated news',
+        publishedAt: '2026-09-09T08:00:00.000Z',
+        source: 'Yahoo Sports NFL',
+      }),
+    ];
+    const alerts = rosterAlerts(dupes, team, players, { now: NOW });
+    const alertIds = new Set(alerts.map((a) => a.item.id));
+    const digest = dedupeByTitle(dupes).filter((n) => !alertIds.has(n.id));
+    mount({ alerts, digest, newsCount: dupes.length });
+    const titles = screen.getAllByTestId('digest-item').map((el) => el.textContent);
+    expect(titles.filter((t) => t?.includes('Unrelated news'))).toHaveLength(1);
   });
 
   it('names the matched players on an alert', () => {
