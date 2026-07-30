@@ -43,14 +43,6 @@ letting them rot.
   reports snake, 12 teams, 30 rounds, 2026-08-14. Order is not set yet, so the
   slot-to-picks path is still fixture-only. (size: S · check: date/type/rounds
   match Sleeper, and once the order is drawn, pick 1 equals your slot)
-- [P0] **Verify the pre-draft player pool against the live Sleeper dump.** The
-  fix that pulls ~250 top-`search_rank` players (instead of only rostered/
-  trending ones) is proven only against a synthetic fixture — this sandbox
-  cannot reach `api.sleeper.app`. The bug it fixes was real: the live sync had
-  only 8 QBs in a superflex league. (size: S · check: after a live `refresh`,
-  `data/players.json` has QBs in the dozens, not single digits, and the share
-  of `data/news.json` items matching a known player rises well above the
-  16/147 seen before the fix)
 
 ## P1 — next up
 

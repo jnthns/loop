@@ -10,7 +10,22 @@ The app is built, deployed, and connected to the real league. Remaining work is
 the P0 backlog items — mostly *verifying* things this sandbox cannot reach live
 — plus the draft board (P1) before the 2026-08-14 startup.
 
-## Last pass did (round 5)
+## Last pass did (round 6)
+
+- **Verified the round-5 pool fix live — and found a second bug while doing
+  it.** Pushed round 5, dispatched `refresh`; it went green but
+  `data/players.json` didn't move (still 8 QB / 56 players). The job log
+  showed why: the 5MB Sleeper player dump is throttled to once/24h, the last
+  fetch predated the fix, so the sync fetched nothing and `selectPlayers()`
+  fell back to the stale list. Green pipeline, fix never actually ran.
+  Back-dated `lastPlayerSync` in `data/sleeper.json`, pushed, dispatched
+  again — this time it fired.
+- **Confirmed from the committed data:** `data/players.json` went from 8 QB
+  / 56 players to **39 QB / 288 players** (117 WR, 90 RB, 42 TE, all with
+  `rank`). News-match rate rose from 16/147 (~11%) to **68/186 (~37%)**.
+  Backlog item closed and removed (see `specs/STATUS.md` Pass 11 for detail).
+
+## Earlier context (round 5)
 
 - **Answered "are we superflex?" and found a real bug while checking.** Yes —
   `QB` + `SUPERFLEX` across 12 teams. While confirming that, the committed
@@ -57,12 +72,15 @@ the P0 backlog items — mostly *verifying* things this sandbox cannot reach liv
 
 ## Evidence (this pass)
 
-- `scripts/check.sh`: typecheck 0 errors, **405 tests**, 25 pages, passed.
-- `npx tsx scripts/sync-sleeper.ts --fixtures`: unaffected by the pool fix
-  (existing fixture has rostered players, so the pre-draft branch correctly
-  does not fire) — 22 players, 4 QB, 8 targets preserved.
-- New unit tests for the pre-draft branch pass against a synthetic ranked pool
-  (not yet against the real Sleeper dump — see blockers).
+- Live `refresh` confirmed the pool fix from the committed data itself:
+  `data/players.json` 8 QB / 56 players → **39 QB / 288 players** (117 WR,
+  90 RB, 42 TE, all with `rank`). News-match rate 16/147 → **68/186**.
+- The first `refresh` dispatch after shipping the fix went green but did
+  *not* exercise it — the Sleeper player dump is throttled to once/24h and
+  the last fetch predated the fix, so the sync fetched nothing and
+  `selectPlayers()` fell back to the stale list. Had to back-date
+  `lastPlayerSync` in `data/sleeper.json` and dispatch again. Green CI is not
+  proof of anything by itself — read the job log, read the committed data.
 
 ## The league, as Sleeper reports it
 
@@ -70,30 +88,28 @@ the P0 backlog items — mostly *verifying* things this sandbox cannot reach liv
 Slots: QB, RB×2, WR×3, TE, FLEX×2, SUPERFLEX, BN×16 — no K, no D/ST, no taxi,
 no IR. Roster is 0/26 filled — the startup draft has not happened. Startup is
 **snake, 30 rounds, 2026-08-14**; draft order not yet drawn
-(`myDraftSlot: null` as of the last live sync).
+(`myDraftSlot: null` as of the last live sync). Player pool is now 288
+players (39 QB / 90 RB / 117 WR / 42 TE), refreshed daily.
 
 ## Blockers / needs a human
 
-1. **The player-pool fix is proven only against a synthetic fixture.** This
-   sandbox cannot reach `api.sleeper.app`. Confirm on the next live `refresh`:
-   `data/players.json` should have QBs in the dozens (not 8), and the share of
-   `data/news.json` items matching a known player should rise well above
-   16/147. P0 in `specs/BACKLOG.md`.
-2. **Confirm the draft details against the Sleeper app** once the order is
+1. **Confirm the draft details against the Sleeper app** once the order is
    drawn — date/type/rounds already match; `myPicks` is still fixture-tested
    only. P0 in the backlog.
-3. **48 of 56 previously-synced players carry a `defaultTier()` guess and an
-   empty note** — a placeholder judgement in the field where a real one goes.
-   The pool fix adds ~250 more players in the same state. P0 in the backlog.
-4. **The independent checker still has not run.** `CHECKER_CMD` is unset, so
+2. **Most synced players carry a `defaultTier()` guess and an empty note** —
+   a placeholder judgement in the field where a real one goes, now across
+   ~288 players rather than 56. P0 in the backlog.
+3. **The independent checker still has not run.** `CHECKER_CMD` is unset, so
    nothing has adversarially graded any of this. P0 in the backlog.
 
 ## Constraints worth re-reading before coding
 
-- **Never assert a pipeline works — watch it work.** Three real bugs in this
+- **Never assert a pipeline works — watch it work.** Four real bugs in this
   project (CI running before `npm ci`, the deploy that never fired, the
-  8-QB pool) were each shipped believing something that turned out false.
-  Verify the end state; don't trust the config or the design.
+  8-QB pool, and a green `refresh` that skipped the fix because of a 24h
+  cache) were each shipped believing something that turned out false. Verify
+  the end state from the committed data; don't trust the config, the design,
+  or a green checkmark.
 - **Never assert a time-sensitive player fact from memory.** Cite the
   `data/news.json` item by URL, check its `publishedAt`. General strategy may
   cite references instead — see the split stated in
@@ -115,7 +131,7 @@ no IR. Roster is 0/26 filled — the startup draft has not happened. Startup is
 
 ## Next step
 
-- Push this pass to `main`, dispatch `refresh`, and confirm the QB count and
-  news-match rate improved from the committed data (not from log lines).
-- Then the remaining P0s above, then the draft board (P1) — the shortlist is 8
-  players and the startup is 30 rounds two weeks out.
+- The remaining P0s above (draft details, real tier/notes, independent
+  checker), then the draft board (P1) — the shortlist is 8 players and the
+  startup is 30 rounds two weeks out, and the pool is now big enough (288
+  players) that a real tiered board is worth building against it.

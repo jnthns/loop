@@ -285,11 +285,39 @@ Remove the comment markers only when the build is truly finished.)
 
 #### What is NOT done
 
-- **The pool fix is proven only against a synthetic fixture.** This sandbox
-  cannot reach `api.sleeper.app`; the next live `refresh` is what confirms
-  `data/players.json` actually gains QBs in the dozens rather than single
-  digits. Tracked as P0 in `specs/BACKLOG.md`.
 - Draft order is still unset in the live league (confirmed via the last live
   sync: `myDraftSlot: null`), so the slot-to-picks path remains fixture-tested
   only until Sleeper assigns one.
 - The independent checker still has not run — unchanged.
+
+### Pass 11 — verifying the pool fix live, and a second bug it exposed
+
+- Pushed Pass 10 to `main` (`643bf7e`) and dispatched `refresh`. It completed
+  successfully but **did not exercise the fix**: `data/players.json` stayed
+  at 8 QB / 56 players, unchanged byte-for-byte in the diff. Reading the job
+  log (not just the green checkmark) showed why —
+  `· player dump: skipped (synced within 24h)`. The 5MB Sleeper player dump
+  is intentionally throttled to once per 24h; the last fetch (`2026-07-29
+  08:03Z`) predated the fix, and the sync fetches nothing on a throttled run
+  (`players = {}`), so `selectPlayers()` in `scripts/sync-sleeper.ts` took the
+  `Object.keys(snapshot.players).length > 0 ? selectPlayers(...) : previousPlayers`
+  branch straight to `previousPlayers` — the stale 8-QB list. A fix can ship
+  clean, the pipeline can go green, and still never have actually run once,
+  if something upstream is cached. This is the same lesson as the two
+  earlier pipeline bugs, from a new angle.
+- Back-dated `lastPlayerSync` in `data/sleeper.json` to force a fresh dump,
+  pushed (`84736fc`), and dispatched `refresh` again. This run fetched the
+  full dump and the fix fired.
+- **Confirmed from the committed data, not from log lines:**
+  `data/players.json` went from **8 QB / 56 players** to **39 QB / 288
+  players** (117 WR, 90 RB, 42 TE), every one carrying `rank`. The
+  news-match rate (news items whose title/summary names a known player) rose
+  from 16/147 (~11%) to **68/186 (~37%)** — both well above the bar set in
+  the backlog item this closes.
+- Removed the now-shipped "verify the pre-draft pool" item from
+  `specs/BACKLOG.md` per that file's own convention (the record lives here,
+  not there).
+- **What is NOT done:** draft order still unset (`myDraftSlot: null`); the
+  independent checker still has not run; the 24h player-dump throttle means
+  the pool composition will drift only once a day even as camp news breaks —
+  worth knowing, not necessarily worth changing before the startup.
