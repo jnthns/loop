@@ -13,6 +13,7 @@
     "test:watch": "vitest",
     "news:fetch": "tsx scripts/fetch-news.ts",
     "sync:sleeper": "tsx scripts/sync-sleeper.ts",
+    "sync:market": "tsx scripts/sync-market.ts",
     "progress": "bash scripts/progress.sh"
   },
   "dependencies": {

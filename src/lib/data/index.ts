@@ -13,6 +13,7 @@ import teamRaw from '../../../data/team.json';
 import insightsRaw from '../../../data/insights.json';
 import trendingRaw from '../../../data/trending.json';
 import draftRaw from '../../../data/draft.json';
+import marketRaw from '../../../data/market.json';
 
 import { FeedsSchema, NewsSchema, type Feed, type NewsItem } from '~/lib/schemas/news';
 import { PlayersSchema, type Player } from '~/lib/schemas/players';
@@ -20,6 +21,7 @@ import { TeamSchema, type Team } from '~/lib/schemas/team';
 import { InsightsSchema, type Briefing } from '~/lib/schemas/insights';
 import { TrendingSchema, type Trending } from '~/lib/schemas/trending';
 import { DraftSchema, type Draft } from '~/lib/schemas/draft';
+import { MarketSchema, type Market } from '~/lib/schemas/market';
 
 function parse<T>(label: string, schema: { safeParse: (v: unknown) => any }, raw: unknown): T {
   const result = schema.safeParse(raw);
@@ -40,6 +42,7 @@ export const team: Team = parse('team', TeamSchema, teamRaw);
 export const insights: Briefing[] = parse('insights', InsightsSchema, insightsRaw);
 export const trending: Trending = parse('trending', TrendingSchema, trendingRaw);
 export const draft: Draft = parse('draft', DraftSchema, draftRaw);
+export const market: Market = parse('market', MarketSchema, marketRaw);
 
 /** Newest first — the order every news surface wants. */
 export const newsByDate: NewsItem[] = [...news].sort((a, b) =>

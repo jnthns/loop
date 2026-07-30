@@ -22,7 +22,7 @@ const TESTS = join(process.cwd(), 'tests');
 /** The only files allowed to read the synced data files. */
 const ALLOWED = new Set(['schemas.test.ts', 'insights.test.ts', 'data-coupling.test.ts']);
 
-const SYNCED = ['team.json', 'players.json', 'news.json', 'trending.json'];
+const SYNCED = ['team.json', 'players.json', 'news.json', 'trending.json', 'market.json'];
 
 const testFiles = readdirSync(TESTS).filter((f) => /\.test\.tsx?$/.test(f));
 
