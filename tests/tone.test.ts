@@ -14,14 +14,19 @@ import { FACET_TONES, ROUTE_TONES, TONES, facetTone, routeTone } from '~/lib/ui/
 const css = readFileSync(join(process.cwd(), 'src/styles/global.css'), 'utf8');
 
 describe('tone palette', () => {
-  it('declares every tone as a hue family, in light and dark mode', () => {
+  it('declares every tone as a hue family, in light and dark theme', () => {
     for (const tone of TONES) {
       for (const suffix of ['', '-soft', '-line']) {
-        // One declaration in `:root`, one in the dark-mode block.
+        // One declaration in `:root`, one under `:root[data-theme='dark']`.
         const matches = css.match(new RegExp(`--t-${tone}${suffix}:`, 'g')) ?? [];
         expect(matches.length, `--t-${tone}${suffix}`).toBe(2);
       }
     }
+  });
+
+  it('drives dark mode from data-theme rather than prefers-color-scheme alone', () => {
+    expect(css).toContain(":root[data-theme='dark']");
+    expect(css).not.toContain('@media (prefers-color-scheme: dark)');
   });
 
   it('maps every tone to `--tone*` through a `data-tone` selector', () => {

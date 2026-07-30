@@ -96,4 +96,20 @@ describe('NewsPanel', () => {
     await user.click(screen.getByRole('button', { name: 'Close news panel' }));
     expect(aside.dataset.open).toBe('false');
   });
+
+  it('collapses the desktop rail and persists the preference', async () => {
+    const user = userEvent.setup();
+    localStorage.clear();
+    panel();
+    const aside = screen.getByRole('complementary', { name: 'News' });
+    expect(aside.dataset.collapsed).toBe('false');
+
+    await user.click(screen.getByRole('button', { name: 'Collapse' }));
+    expect(aside.dataset.collapsed).toBe('true');
+    expect(localStorage.getItem('dynasty-guide:news-rail')).toBe('collapsed');
+
+    await user.click(screen.getByRole('button', { name: 'Expand news panel' }));
+    expect(aside.dataset.collapsed).toBe('false');
+    expect(localStorage.getItem('dynasty-guide:news-rail')).toBe('expanded');
+  });
 });

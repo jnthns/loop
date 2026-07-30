@@ -34,6 +34,13 @@ describe('app shell', () => {
     expect(layout).toContain('client:load');
   });
 
+  it('mounts a theme toggle and FOUC-safe theme bootstrap', () => {
+    const layout = readFileSync(LAYOUT, 'utf8');
+    expect(layout).toContain('<ThemeToggle');
+    expect(layout).toContain("dynasty-guide:theme");
+    expect(layout).toContain('dataset.theme');
+  });
+
   it.each(pages)('%s renders through BaseLayout', (page) => {
     const source = readFileSync(page, 'utf8');
     expect(source).toContain('BaseLayout');

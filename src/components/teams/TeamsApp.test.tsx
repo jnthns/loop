@@ -82,7 +82,7 @@ describe('TeamsApp', () => {
 
 
 
-  it('pins the coach with a collapsible offensive scheme profile', async () => {
+  it('shows the coach with a collapsible offensive scheme profile', async () => {
 
     render(<TeamsApp />);
 
@@ -139,11 +139,8 @@ describe('TeamsApp', () => {
 
 
     await waitFor(() => {
-
-      const headers = screen.getAllByText(/Xavier Worthy · WR/);
-
+      const headers = screen.getAllByText('Xavier Worthy');
       expect(headers.length).toBeGreaterThan(0);
-
     });
 
   });
@@ -151,23 +148,25 @@ describe('TeamsApp', () => {
 
 
   it('shows an error state with retry when the board cannot be loaded', async () => {
-
     mockedGetTeamBoard.mockRejectedValue(new Error('upstream down'));
-
     render(<TeamsApp />);
 
-
-
-    await waitFor(() =>
-
-      expect(screen.getByText(/upstream down/)).toBeInTheDocument(),
-
-    );
-
+    await waitFor(() => expect(screen.getByText(/upstream down/)).toBeInTheDocument());
     expect(screen.getByRole('button', { name: /retry/i })).toBeInTheDocument();
-
   });
 
+  it('color-codes player tiles by position and verdict', async () => {
+    render(<TeamsApp />);
+    await waitFor(() => screen.getByText('Kansas City Chiefs'));
+
+    const tiles = screen.getAllByTestId('player-tile');
+    expect(tiles.length).toBeGreaterThan(0);
+    expect(tiles.some((el) => el.dataset.pos === 'QB')).toBe(true);
+    expect(tiles.some((el) => el.dataset.pos === 'WR')).toBe(true);
+
+    const coaches = screen.getAllByTestId('coach-tile');
+    expect(coaches[0].dataset.tone).toBe('slate');
+  });
 });
 
 

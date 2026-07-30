@@ -1,13 +1,14 @@
 ---
 import '~/styles/global.css';
 import NewsPanel from '~/components/NewsPanel';
+import ThemeToggle from '~/components/ThemeToggle';
 import { href, isActive } from '~/lib/url';
 import { newsByDate, team } from '~/lib/data';
 import { routeTone, type Tone } from '~/lib/ui/tone';
 
 interface Props {
   title: string;
-  /** Short line under the page title — what this page is for. */
+  /** Short line under the page title -- what this page is for. */
   lede?: string;
   /**
    * Overrides the route's tone. Article pages pass their facet's tone so the
@@ -34,7 +35,7 @@ const current = NAV.find((item) => isActive(path, item.path));
 const pageTone: Tone = tone ?? routeTone(current?.path ?? '/');
 const pageEyebrow = eyebrow ?? current?.label ?? 'Dynasty Guide';
 
-// Players the manager owns or is chasing — the news panel flags these.
+// Players the manager owns or is chasing -- the news panel flags these.
 const watchedPlayerIds = [
   ...team.roster.map((r) => r.playerId).filter((id): id is string => Boolean(id)),
   ...team.targets.map((t) => t.playerId),
@@ -48,11 +49,29 @@ const watchedPlayerIds = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="A dynasty fantasy football guide that compounds." />
     <link rel="icon" href={href('/favicon.svg')} type="image/svg+xml" />
-    <title>{title} · Dynasty Guide</title>
+    <title>{title} - Dynasty Guide</title>
+    <!-- Apply saved/system theme before paint to avoid a light-to-dark flash. -->
+    <script is:inline>
+      (function () {
+        try {
+          var key = 'dynasty-guide:theme';
+          var saved = localStorage.getItem(key);
+          var theme =
+            saved === 'light' || saved === 'dark'
+              ? saved
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light';
+          document.documentElement.dataset.theme = theme;
+        } catch (e) {
+          document.documentElement.dataset.theme = 'light';
+        }
+      })();
+    </script>
   </head>
   <body class="min-h-screen bg-bg-deep">
     <div
-      class="mx-auto grid min-h-screen max-w-[1560px] grid-cols-1 bg-bg lg:grid-cols-[14rem_minmax(0,1fr)_21rem]"
+      class="mx-auto grid min-h-screen max-w-[1560px] grid-cols-1 bg-bg lg:grid-cols-[14rem_minmax(0,1fr)_auto]"
       data-tone={pageTone}
     >
       <!-- Nav: top bar on small screens, left rail from lg. -->
@@ -68,7 +87,7 @@ const watchedPlayerIds = [
             <span class="block">
               <span class="block text-sm font-bold tracking-tight">Dynasty Guide</span>
               <span class="hidden text-[11px] text-muted lg:block">
-                {team.teamName} · {team.leagueName}
+                {team.teamName} - {team.leagueName}
               </span>
             </span>
           </a>
@@ -110,12 +129,15 @@ const watchedPlayerIds = [
               }
             </ul>
           </nav>
-          <p
-            class="hidden rounded-[0.5rem] border border-line bg-surface-alt p-2.5 text-[11px] leading-relaxed text-muted lg:mt-7 lg:block"
-          >
-            Built by a loop. Every claim in the knowledge base cites a source; every suggestion
-            cites a news item.
-          </p>
+          <div class="mt-0 flex items-center gap-2 lg:mt-7 lg:flex-col lg:items-stretch">
+            <ThemeToggle client:load />
+            <p
+              class="hidden rounded-[0.5rem] border border-line bg-surface-alt p-2.5 text-[11px] leading-relaxed text-muted lg:block"
+            >
+              Built by a loop. Every claim in the knowledge base cites a source; every suggestion
+              cites a news item.
+            </p>
+          </div>
         </div>
       </header>
 
