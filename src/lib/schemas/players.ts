@@ -28,6 +28,8 @@ export const PlayerSchema = z.object({
   sleeperId: z.string().optional(),
   /** True when the player is rostered by someone in the league. */
   rosteredInLeague: z.boolean().optional(),
+  /** Sleeper's search_rank (lower = more relevant). Absent for unranked players. */
+  rank: z.number().int().positive().optional(),
 });
 
 export const PlayersSchema = z.array(PlayerSchema);

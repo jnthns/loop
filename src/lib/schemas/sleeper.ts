@@ -86,6 +86,13 @@ export const SleeperPlayerSchema = z.object({
   status: z.string().nullable().optional(),
   injury_status: z.string().nullable().optional(),
   years_exp: z.number().nullable().optional(),
+  /**
+   * Sleeper's overall relevance rank — lower is more relevant. Present for
+   * fantasy-relevant players, absent for the long tail (practice-squad names,
+   * long-retired players still in the dump). This is what lets a pre-draft sync
+   * pick "the players who matter" without anyone being rostered yet.
+   */
+  search_rank: z.number().nullable().optional(),
 });
 
 export const SleeperTrendingSchema = z.array(

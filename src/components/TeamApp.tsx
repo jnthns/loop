@@ -19,6 +19,8 @@ export interface TeamAppProps {
   committed: Team;
   players: Player[];
   draft?: Draft;
+  /** Base-path-aware hrefs into the knowledge base, forwarded to DraftPanel. */
+  articleLinks?: { positionalBuilds: string; offseasonLandscape: string };
 }
 
 const GROUPS: { key: string; title: string; kinds: SlotKind[]; tone: Tone; note?: string }[] = [
@@ -39,7 +41,7 @@ const GROUPS: { key: string; title: string; kinds: SlotKind[]; tone: Tone; note?
   { key: 'ir', title: 'Injured reserve', tone: 'rose', kinds: ['IR'] },
 ];
 
-export function TeamApp({ committed, players, draft = NO_DRAFT }: TeamAppProps) {
+export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks }: TeamAppProps) {
   const [team, setTeam] = useState<Team>(committed);
   const [overlayActive, setOverlayActive] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
@@ -169,6 +171,7 @@ export function TeamApp({ committed, players, draft = NO_DRAFT }: TeamAppProps) 
           draft={draft}
           rosterSize={team.roster.length}
           auctionTotal={team.budgets.find((b) => b.kind === 'auction')?.total ?? null}
+          links={articleLinks}
         />
       )}
 

@@ -8,8 +8,10 @@ import {
   leagueToFormat,
   rosterPositionsToSlots,
   rosterToEntries,
+  selectPlayers,
   slugify,
   toPlayer,
+  topRankedPlayers,
 } from '~/lib/sleeper/map';
 import {
   SleeperLeagueSchema,
@@ -400,5 +402,161 @@ describe('applySleeperToTeam', () => {
 describe('the fixture league still parses after the schema change', () => {
   it('validates with the new optional Sleeper fields', () => {
     expect(PlayersSchema.safeParse(fixturePlayers).success).toBe(true);
+  });
+});
+
+/**
+ * Regression coverage for the bug found while answering "are we superflex?":
+ * pre-draft, nobody is rostered anywhere in the league, so selectPlayers()
+ * used to collapse to whatever was trending on the waiver wire — 8 QBs, mostly
+ * bench names, in a format where QB is the defining asset. topRankedPlayers()
+ * and the pre-draft branch of selectPlayers() are what fix that.
+ */
+describe('topRankedPlayers', () => {
+  const pool = (overrides: Partial<SleeperPlayer> & { player_id: string }): SleeperPlayer =>
+    SleeperPlayerSchema.parse({
+      full_name: `Player ${overrides.player_id}`,
+      position: 'WR',
+      fantasy_positions: ['WR'],
+      team: 'BUF',
+      age: 25,
+      status: 'Active',
+      ...overrides,
+    });
+
+  it('orders by search_rank ascending, lower is more relevant', () => {
+    const players = {
+      a: pool({ player_id: 'a', search_rank: 30 }),
+      b: pool({ player_id: 'b', search_rank: 5 }),
+      c: pool({ player_id: 'c', search_rank: 15 }),
+    };
+    expect(topRankedPlayers(players, 10)).toEqual(['b', 'c', 'a']);
+  });
+
+  it('excludes players Sleeper has not ranked at all', () => {
+    const players = {
+      ranked: pool({ player_id: 'ranked', search_rank: 1 }),
+      unranked: pool({ player_id: 'unranked' }),
+    };
+    expect(topRankedPlayers(players, 10)).toEqual(['ranked']);
+  });
+
+  it('excludes kickers and defenses — not dynasty assets', () => {
+    const players = {
+      wr: pool({ player_id: 'wr', search_rank: 1 }),
+      k: pool({ player_id: 'k', position: 'K', fantasy_positions: ['K'], search_rank: 2 }),
+      def: pool({ player_id: 'def', position: 'DEF', fantasy_positions: ['DEF'], search_rank: 3 }),
+    };
+    expect(topRankedPlayers(players, 10)).toEqual(['wr']);
+  });
+
+  it('excludes inactive players even if ranked', () => {
+    const players = {
+      active: pool({ player_id: 'active', search_rank: 1 }),
+      retired: pool({ player_id: 'retired', search_rank: 2, status: 'Inactive' }),
+    };
+    expect(topRankedPlayers(players, 10)).toEqual(['active']);
+  });
+
+  it('respects the limit', () => {
+    const players = Object.fromEntries(
+      Array.from({ length: 20 }, (_, i) => [`p${i}`, pool({ player_id: `p${i}`, search_rank: i })]),
+    );
+    expect(topRankedPlayers(players, 5)).toHaveLength(5);
+  });
+});
+
+describe('selectPlayers — pre-draft branch', () => {
+  const players: Record<string, SleeperPlayer> = {
+    qb1: SleeperPlayerSchema.parse({
+      player_id: 'qb1',
+      full_name: 'Ranked QB One',
+      position: 'QB',
+      fantasy_positions: ['QB'],
+      team: 'BUF',
+      age: 26,
+      status: 'Active',
+      search_rank: 4,
+    }),
+    qb2: SleeperPlayerSchema.parse({
+      player_id: 'qb2',
+      full_name: 'Ranked QB Two',
+      position: 'QB',
+      fantasy_positions: ['QB'],
+      team: 'MIA',
+      age: 28,
+      status: 'Active',
+      search_rank: 20,
+    }),
+    unranked: SleeperPlayerSchema.parse({
+      player_id: 'unranked',
+      full_name: 'Unranked Waiver Guy',
+      position: 'WR',
+      fantasy_positions: ['WR'],
+      team: 'NYJ',
+      age: 24,
+      status: 'Active',
+    }),
+  };
+
+  it('pulls in ranked players when no roster in the league has anyone', () => {
+    const out = selectPlayers({
+      players,
+      rosters: [{ players: [] }, { players: [] }],
+      myRoster: { players: [] },
+      trendingAdds: [],
+      trendingDrops: [],
+      targetPlayerIds: [],
+      existing: [],
+      preDraftPoolSize: 10,
+    });
+    const ids = out.map((p) => p.id);
+    expect(ids).toContain('ranked-qb-one');
+    expect(ids).toContain('ranked-qb-two');
+  });
+
+  it('does NOT pull in ranked players once the league has actually drafted', () => {
+    const out = selectPlayers({
+      players,
+      rosters: [{ players: ['qb1'] }, { players: [] }],
+      myRoster: { players: ['qb1'] },
+      trendingAdds: [],
+      trendingDrops: [],
+      targetPlayerIds: [],
+      existing: [],
+      preDraftPoolSize: 10,
+    });
+    const ids = out.map((p) => p.id);
+    expect(ids).toContain('ranked-qb-one'); // on the roster, kept regardless
+    expect(ids).not.toContain('ranked-qb-two'); // ranked-only, not pulled post-draft
+  });
+
+  it('still includes an unranked player who is on the roster or trending', () => {
+    const out = selectPlayers({
+      players,
+      rosters: [{ players: [] }],
+      myRoster: { players: [] },
+      trendingAdds: [{ player_id: 'unranked' }],
+      trendingDrops: [],
+      targetPlayerIds: [],
+      existing: [],
+      preDraftPoolSize: 10,
+    });
+    expect(out.map((p) => p.id)).toContain('unranked-waiver-guy');
+  });
+
+  it('produces schema-valid, uniquely-identified players', () => {
+    const out = selectPlayers({
+      players,
+      rosters: [{ players: [] }],
+      myRoster: { players: [] },
+      trendingAdds: [],
+      trendingDrops: [],
+      targetPlayerIds: [],
+      existing: [],
+      preDraftPoolSize: 10,
+    });
+    expect(PlayersSchema.safeParse(out).success).toBe(true);
+    expect(new Set(out.map((p) => p.id)).size).toBe(out.length);
   });
 });

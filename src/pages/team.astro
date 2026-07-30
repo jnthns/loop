@@ -2,6 +2,12 @@
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import TeamApp from '~/components/TeamApp';
 import { draft, players, team } from '~/lib/data';
+import { href } from '~/lib/url';
+
+const articleLinks = {
+  positionalBuilds: href('/knowledge/roster-construction/superflex-positional-builds'),
+  offseasonLandscape: href('/knowledge/startup-drafts/2026-offseason-landscape'),
+};
 
 const empty = team.roster.every((r) => r.playerId === null);
 const lede = empty
@@ -10,5 +16,5 @@ const lede = empty
 ---
 
 <BaseLayout title={team.teamName} lede={lede}>
-  <TeamApp client:load committed={team} players={players} draft={draft} />
+  <TeamApp client:load committed={team} players={players} draft={draft} articleLinks={articleLinks} />
 </BaseLayout>

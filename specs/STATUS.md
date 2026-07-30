@@ -236,3 +236,60 @@ Remove the comment markers only when the build is truly finished.)
 - This work is on `cursor/visual-design-overhaul-f688` with a PR open rather than
   pushed straight to `main`, because the run's platform requires a branch and PR.
   `AGENTS.md` §6 says ship direct to `main`; the merge is the human's call here.
+
+### Pass 10 — the player pool bug, and content for the format it exposed
+
+- **Answered "are we superflex?" and found a real bug doing it.** Yes: `QB` +
+  `SUPERFLEX` across 12 teams, up to 24 startable quarterbacks. While
+  confirming that from `data/team.json`, checking the committed player pool
+  turned up only **8 quarterbacks**, mostly waiver churn — in the one format
+  where QB is the defining asset. Cause: `selectPlayers()` only kept players
+  rostered somewhere in the league or trending, and pre-draft nobody is
+  rostered anywhere, so the pool collapsed to whatever the waiver wire
+  happened to be talking about. Same cause left 131/147 news items matching
+  no known player, which made the roster-alert feature inert.
+- **Fix:** `selectPlayers()` and a new `topRankedPlayers()` moved from
+  `scripts/sync-sleeper.ts` into `src/lib/sleeper/map.ts` (pure, tested,
+  matching the rest of that module) and gained a pre-draft branch — when no
+  roster anywhere has a player, pull the top ~250 by Sleeper's own
+  `search_rank`, filtered to active QB/RB/WR/TE. Post-draft this branch does
+  not fire; verified by a dedicated regression test.
+- **Two knowledge articles**, written under an explicit sourcing split stated
+  up front rather than assumed: time-sensitive player claims cite a
+  `data/news.json` item by URL; general judgement cites reference sources and
+  is marked `confidence: medium`, never asserted as settled fact.
+  - `roster-construction/superflex-positional-builds.md` — this league's own
+    arithmetic (24 startable QBs, 3 flex-eligible slots, a 30-round snake) and
+    five named build archetypes with their failure conditions.
+    `confidence: high`.
+  - `startup-drafts/2026-offseason-landscape.md` — eleven real, cited items
+    from the 23–29 July news archive (Cousins named Raiders QB1, the
+    Murray/McCarthy Vikings battle, Mahomes' return, Dell's clearance,
+    Nabers' PUP status, Tyreek Hill's injury update, rookie usage notes),
+    with an explicit "what's cited vs what's judgement" section.
+    `confidence: medium`, tagged `time-sensitive`, `asOf: 2026-07-29`.
+- **Staleness became structural, not a promise.** `asOf` added to the content
+  schema; `tests/knowledge.test.ts` now fails the build if a `time-sensitive`
+  article's `asOf` is more than 45 days old — a dated draft article silently
+  rotting into next season would otherwise be worse than no article at all.
+- Both articles are linked directly from `DraftPanel` (base-path-aware hrefs
+  built in `team.astro`, threaded through `TeamApp`), so the strategy is one
+  click from the pre-draft shortlist rather than buried under `/knowledge`.
+- `loops/knowledge-curator.md` and `skills/curate-knowledge/SKILL.md` now
+  state the citation split explicitly — which kind of claim needs which kind
+  of source — rather than leaving "no uncited claims" to be interpreted.
+- Evidence: `scripts/check.sh` → typecheck 0 errors, **405 tests**, 25 pages,
+  passed. `npx tsx scripts/sync-sleeper.ts --fixtures` unaffected (post-draft
+  branch does not fire against the existing fixture). New pre-draft-branch
+  unit tests pass against a synthetic ranked pool.
+
+#### What is NOT done
+
+- **The pool fix is proven only against a synthetic fixture.** This sandbox
+  cannot reach `api.sleeper.app`; the next live `refresh` is what confirms
+  `data/players.json` actually gains QBs in the dozens rather than single
+  digits. Tracked as P0 in `specs/BACKLOG.md`.
+- Draft order is still unset in the live league (confirmed via the last live
+  sync: `myDraftSlot: null`), so the slot-to-picks path remains fixture-tested
+  only until Sleeper assigns one.
+- The independent checker still has not run — unchanged.

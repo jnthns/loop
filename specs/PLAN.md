@@ -189,6 +189,39 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
       every position given a hue; plus the existing role/name/testid suites still
       green, which is what proves the restyle kept the semantics)
 
+## Phase 12 — Fix the player pool; write draft content for this format
+
+- [x] Fix `selectPlayers()`: pre-draft, nobody is rostered anywhere in the
+      league, so the pool collapsed to 8 QBs of waiver churn in a superflex
+      format. Move `selectPlayers`/`topRankedPlayers` into
+      `src/lib/sleeper/map.ts` (pure, tested) with a pre-draft branch pulling
+      the top ~250 players by Sleeper's `search_rank`. (check:
+      `tests/sleeper-map.test.ts` — pre-draft branch pulls ranked QBs, the
+      branch does not fire once the league has actually drafted)
+- [x] Add `asOf` to the knowledge schema and a staleness check for articles
+      tagged `time-sensitive`. (check: `tests/knowledge.test.ts` fails an
+      article whose `asOf` exceeds 45 days)
+- [x] Write `roster-construction/superflex-positional-builds.md` — this
+      league's arithmetic (24 startable QBs, 3 flex-eligible slots, 30-round
+      snake) and five named build archetypes with failure conditions.
+      `confidence: high`. (check: passes the source + facet tests)
+- [x] Write `startup-drafts/2026-offseason-landscape.md` — every player claim
+      cited to a `data/news.json` item by URL, with an explicit
+      cited-vs-judgement split. `confidence: medium`,
+      tagged `time-sensitive`, `asOf: 2026-07-29`. (check: passes the source,
+      facet, and staleness tests)
+- [x] Link both articles from `DraftPanel` via base-path-aware hrefs built in
+      `team.astro`. (check: `tests/pre-draft.test.tsx` — links render with the
+      right hrefs when supplied, omitted when not)
+- [x] State the citation split explicitly in `loops/knowledge-curator.md` and
+      `skills/curate-knowledge/SKILL.md` — time-sensitive player claims cite a
+      news item; general claims may cite references; never assert a
+      transaction or depth chart from memory. (check: both files name the
+      split and the `asOf`/`time-sensitive` convention)
+- [ ] Verify the pool fix against a live sync. (check: after a live `refresh`,
+      `data/players.json` has QBs in the dozens and the share of `data/news.json`
+      items matching a known player is well above 16/147)
+
 ---
 
 <!--

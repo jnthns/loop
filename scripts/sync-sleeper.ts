@@ -38,7 +38,7 @@ import { PlayersSchema, type Player } from '../src/lib/schemas/players.ts';
 import { TeamSchema } from '../src/lib/schemas/team.ts';
 import { TrendingSchema, type TrendingPlayer } from '../src/lib/schemas/trending.ts';
 import { DraftSchema, NO_DRAFT, type Draft } from '../src/lib/schemas/draft.ts';
-import { applySleeperToTeam, toDraft, toPlayer, teamNameFor } from '../src/lib/sleeper/map.ts';
+import { applySleeperToTeam, selectPlayers, toDraft, teamNameFor } from '../src/lib/sleeper/map.ts';
 import * as api from '../src/lib/sleeper/client.ts';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -233,63 +233,6 @@ function buildTrending(
   return { adds: map(snapshot.trendingAdds), drops: map(snapshot.trendingDrops) };
 }
 
-/**
- * Keep only the players that matter: your roster, everyone rostered in the
- * league, your targets, and what the league is trending on. The full dump is
- * thousands of rows of noise that would dominate every diff.
- */
-function selectPlayers(
-  snapshot: Snapshot,
-  myRoster: SleeperRoster,
-  targetPlayerIds: string[],
-  existing: Player[],
-): Player[] {
-  const existingBySleeperId = new Map(existing.filter((p) => p.sleeperId).map((p) => [p.sleeperId!, p]));
-  const existingById = new Map(existing.map((p) => [p.id, p]));
-
-  const mine = new Set([
-    ...(myRoster.players ?? []),
-    ...(myRoster.reserve ?? []),
-    ...(myRoster.taxi ?? []),
-  ]);
-  const leagueRostered = new Set(snapshot.rosters.flatMap((r) => r.players ?? []));
-  const trendingIds = [
-    ...snapshot.trendingAdds.map((t) => t.player_id),
-    ...snapshot.trendingDrops.map((t) => t.player_id),
-  ];
-  const wanted = new Set([...mine, ...leagueRostered, ...trendingIds]);
-
-  const out: Player[] = [];
-  const seenIds = new Set<string>();
-
-  for (const sleeperId of wanted) {
-    const raw = snapshot.players[sleeperId];
-    if (!raw) continue;
-    const mapped = toPlayer(raw, existingBySleeperId.get(sleeperId));
-    if (!mapped) continue;
-
-    // Slug collisions (two players with the same name) get disambiguated rather
-    // than silently overwriting each other.
-    let id = mapped.id;
-    if (seenIds.has(id)) id = `${id}-${mapped.pos.toLowerCase()}-${sleeperId}`;
-    seenIds.add(id);
-
-    out.push({ ...mapped, id, rosteredInLeague: leagueRostered.has(sleeperId) });
-  }
-
-  // Never drop a player a target still points at, even if they left the league.
-  for (const targetId of targetPlayerIds) {
-    if (seenIds.has(targetId)) continue;
-    const prior = existingById.get(targetId);
-    if (prior) {
-      out.push(prior);
-      seenIds.add(targetId);
-    }
-  }
-
-  return out.sort((a, b) => a.pos.localeCompare(b.pos) || a.name.localeCompare(b.name));
-}
-
 async function main() {
   const config = SleeperConfigSchema.parse(readData('sleeper.json'));
   const previousTeam = TeamSchema.parse(readData('team.json'));
@@ -313,12 +256,15 @@ async function main() {
   // When the player dump was skipped, reuse what is already committed.
   const players =
     Object.keys(snapshot.players).length > 0
-      ? selectPlayers(
-          snapshot,
+      ? selectPlayers({
+          players: snapshot.players,
+          rosters: snapshot.rosters,
           myRoster,
-          previousTeam.targets.map((t) => t.playerId),
-          previousPlayers,
-        )
+          trendingAdds: snapshot.trendingAdds,
+          trendingDrops: snapshot.trendingDrops,
+          targetPlayerIds: previousTeam.targets.map((t) => t.playerId),
+          existing: previousPlayers,
+        })
       : previousPlayers;
 
   const result = applySleeperToTeam(previousTeam, {
@@ -357,9 +303,10 @@ async function main() {
   const validPlayers = PlayersSchema.parse(players);
 
   const filled = team.roster.filter((r) => r.playerId).length;
+  const qbCount = validPlayers.filter((p) => p.pos === 'QB').length;
   console.log(
-    `  · ${filled}/${team.roster.length} slots filled · ${validPlayers.length} player(s) retained · ` +
-      `${team.targets.length} target(s) preserved`,
+    `  · ${filled}/${team.roster.length} slots filled · ${validPlayers.length} player(s) retained ` +
+      `(${qbCount} QB) · ${team.targets.length} target(s) preserved`,
   );
 
   if (result.unresolved.length > 0) {

@@ -109,6 +109,55 @@ describe('knowledge collection', () => {
   });
 });
 
+/**
+ * A `time-sensitive` article (player-specific claims tied to news, not
+ * evergreen strategy) is more dangerous stale than absent: a reader trusts a
+ * dated draft article the same way whether it is current or eight months old.
+ * `asOf` — when the article was last checked against news, distinct from
+ * `updated` — makes that rot loud instead of silent.
+ */
+const MAX_STALE_DAYS = 45;
+
+describe('time-sensitive articles stay fresh', () => {
+  const tagged = articles.filter((a) => {
+    const tagsBlock = a.frontmatter.match(/^tags:\s*\[(.*)\]\s*$/m)?.[1] ?? '';
+    return /(^|,)\s*time-sensitive\s*(,|$)/.test(tagsBlock) || /^\s*-\s*time-sensitive\s*$/m.test(a.frontmatter);
+  });
+
+  it('every time-sensitive article declares asOf', () => {
+    for (const article of tagged) {
+      expect(field(article, 'asOf'), `${article.rel} is tagged time-sensitive but has no asOf`).toMatch(
+        /^\d{4}-\d{2}-\d{2}$/,
+      );
+    }
+  });
+
+  it.each(tagged.map((a) => [a.rel, a] as const))('%s has an asOf within %i days', (_rel, article) => {
+    const asOf = new Date(field(article, 'asOf'));
+    const ageDays = (Date.now() - asOf.getTime()) / 86_400_000;
+    expect(ageDays, `${article.rel}'s asOf is ${Math.floor(ageDays)} days old`).toBeLessThanOrEqual(
+      MAX_STALE_DAYS,
+    );
+  });
+});
+
+describe('the staleness guard is real', () => {
+  const stale: Article = {
+    path: 'memory',
+    rel: 'startup-drafts/invented.md',
+    frontmatter:
+      'title: Invented\nfacet: startup-drafts\nconfidence: medium\nupdated: 2026-01-01\n' +
+      'tags: [time-sensitive]\nasOf: 2020-01-01',
+    body: 'A dated claim that rotted.',
+  };
+
+  it('flags an asOf far in the past', () => {
+    const asOf = new Date(field(stale, 'asOf'));
+    const ageDays = (Date.now() - asOf.getTime()) / 86_400_000;
+    expect(ageDays).toBeGreaterThan(MAX_STALE_DAYS);
+  });
+});
+
 describe('the source requirement is real', () => {
   // Guards the guard: if sourceCount ever stopped detecting a bare article,
   // every test above would pass vacuously.

@@ -8,6 +8,12 @@ export interface DraftPanelProps {
   rosterSize?: number;
   /** Auction cap, when the league has one, for the dollars-per-pick line. */
   auctionTotal?: number | null;
+  /**
+   * Base-path-aware hrefs into the knowledge base, built by the Astro page
+   * (see `src/lib/url.ts`) — a React island cannot resolve `import.meta.env.BASE_URL`
+   * on its own and pass it through consistently, so the page hands it down.
+   */
+  links?: { positionalBuilds: string; offseasonLandscape: string };
 }
 
 /**
@@ -18,7 +24,7 @@ export interface DraftPanelProps {
  * turns are 7, 18, 31 rather than 7, 19, 31 is what lets you plan two rounds out
  * instead of reacting.
  */
-export function DraftPanel({ draft, rosterSize, auctionTotal }: DraftPanelProps) {
+export function DraftPanel({ draft, rosterSize, auctionTotal, links }: DraftPanelProps) {
   const scheduled = draft.startTime ? new Date(draft.startTime) : null;
   const isAuction = draft.type.includes('auction');
   const perPick =
@@ -60,6 +66,19 @@ export function DraftPanel({ draft, rosterSize, auctionTotal }: DraftPanelProps)
         </h2>
         <p className="text-[12px] font-semibold text-tone">{draftSummary(draft)}</p>
       </div>
+
+      {links && (
+        <p className="border-b border-line px-3 py-2 text-[12px]" data-testid="draft-panel-links">
+          <span className="label mr-1.5">Read before you draft</span>
+          <a href={links.positionalBuilds} className="text-tone underline decoration-tone-line hover:decoration-tone">
+            Positional builds for this format
+          </a>
+          <span className="mx-1.5 text-muted">·</span>
+          <a href={links.offseasonLandscape} className="text-tone underline decoration-tone-line hover:decoration-tone">
+            2026 offseason landscape
+          </a>
+        </p>
+      )}
 
       {draft.status === 'none' ? (
         <p className="p-4 text-[13px] text-muted">

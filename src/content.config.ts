@@ -18,6 +18,15 @@ const knowledge = defineCollection({
     tags: z.array(z.string()).default([]),
     confidence: z.enum(['low', 'medium', 'high']),
     updated: z.coerce.date(),
+    /**
+     * When a `time-sensitive` article (see `tags`) was last checked against
+     * current news — distinct from `updated`, which can be bumped by an edit
+     * that touches nothing player-specific. Required whenever `tags` includes
+     * `time-sensitive`; the content test in `tests/knowledge.test.ts` fails
+     * the build once `asOf` is more than 45 days old, so a dated article that
+     * quietly rotted into next season is loud instead of silent.
+     */
+    asOf: z.coerce.date().optional(),
     sources: z
       .array(
         z.object({

@@ -22,8 +22,26 @@ this one adds understanding.
   - **Never invent a facet.** The list in `src/lib/knowledge/facets.ts` is closed;
     adding to it is a deliberate human edit.
   - Do not touch `data/`, `src/pages/`, or any component. Prose only.
-  - When writing about a *named player*, cite a news item id from
-    `data/news.json`. General principles may cite reference sources instead.
+  - **The citation a claim needs depends on what kind of claim it is:**
+    - **Time-sensitive, player-specific** (an injury, a depth-chart or camp-battle
+      status, a transaction, "X is now Y's starter") — cite the exact
+      `data/news.json` item by URL, and check its `publishedAt`. Never assert
+      one of these from training knowledge: it may be stale, wrong, or have
+      already changed by the time this runs. If the archive has no item for it,
+      do not write the claim.
+    - **Evergreen, general** (age curves, positional value, format math, named
+      build archetypes) — cite reference sources (Sleeper, FantasyPros,
+      KeepTradeCut, r/DynastyFF, etc.) and mark `confidence` accordingly.
+      `confidence: high` needs settled reasoning across sources, not a hunch.
+    - An article that mixes both should say so in prose (see
+      `startup-drafts/2026-offseason-landscape.md` for the pattern: a
+      "what's cited vs what's judgement" section) so a reader can tell which
+      sentence to trust further and which to verify before drafting on it.
+  - **Tag `time-sensitive` and set `asOf` to today** on any article whose value
+    depends on current news rather than durable strategy.
+    `tests/knowledge.test.ts` fails the build once `asOf` is more than 45 days
+    old — that is deliberate: a dated article silently rotting into next
+    season is worse than no article, so let the rot fail loudly instead.
 - **Budget:** one article per pass. Stop after it.
 
 ## The five parts
@@ -47,9 +65,10 @@ this one adds understanding.
 > Read the recent items in `data/news.json`. Decide whether they change anything
 > a reader of that facet should know.
 >
-> - If they do, revise the existing article: add what changed, cite the news item
->   ids you used, bump `updated`, and adjust `confidence` honestly. Confidence
->   goes **down** when a source contradicts what you wrote before.
+> - If they do, revise the existing article: add what changed, cite the news
+>   items you used by URL, bump `updated` (and `asOf` if the article is tagged
+>   `time-sensitive`), and adjust `confidence` honestly. Confidence goes
+>   **down** when a source contradicts what you wrote before.
 > - If the facet is empty, write the article that a first-year dynasty manager
 >   would need first. Prefer decision rules over descriptions.
 > - If you have nothing to add that is grounded in a source, **stop and change

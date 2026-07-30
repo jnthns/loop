@@ -94,6 +94,32 @@ describe('DraftPanel', () => {
     expect(picks[1].dataset.mine).toBe('true');
     expect(picks[1]).toHaveTextContent('Bijan Robinson');
   });
+
+  it('links to the draft-prep articles when hrefs are provided', () => {
+    render(
+      <DraftPanel
+        draft={preDraft}
+        links={{
+          positionalBuilds: '/loop/knowledge/roster-construction/superflex-positional-builds',
+          offseasonLandscape: '/loop/knowledge/startup-drafts/2026-offseason-landscape',
+        }}
+      />,
+    );
+    const links = screen.getByTestId('draft-panel-links');
+    expect(within(links).getByRole('link', { name: /Positional builds/ })).toHaveAttribute(
+      'href',
+      '/loop/knowledge/roster-construction/superflex-positional-builds',
+    );
+    expect(within(links).getByRole('link', { name: /2026 offseason landscape/ })).toHaveAttribute(
+      'href',
+      '/loop/knowledge/startup-drafts/2026-offseason-landscape',
+    );
+  });
+
+  it('omits the article links block when no hrefs are supplied', () => {
+    render(<DraftPanel draft={preDraft} />);
+    expect(screen.queryByTestId('draft-panel-links')).not.toBeInTheDocument();
+  });
 });
 
 describe('TeamApp before the draft', () => {
@@ -105,6 +131,21 @@ describe('TeamApp before the draft', () => {
     mount();
     expect(screen.getByTestId('draft-panel')).toBeInTheDocument();
     expect(screen.queryAllByTestId('slot-row')).toHaveLength(0);
+  });
+
+  it('forwards article links through to the draft panel', () => {
+    render(
+      <TeamApp
+        committed={emptyTeam}
+        players={fixturePlayers}
+        draft={preDraft}
+        articleLinks={{
+          positionalBuilds: '/loop/knowledge/roster-construction/superflex-positional-builds',
+          offseasonLandscape: '/loop/knowledge/startup-drafts/2026-offseason-landscape',
+        }}
+      />,
+    );
+    expect(screen.getByTestId('draft-panel-links')).toBeInTheDocument();
   });
 
   it('says the empty roster is expected, not a sync failure', () => {

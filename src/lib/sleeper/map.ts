@@ -174,6 +174,7 @@ export function toPlayer(raw: SleeperPlayer, previous?: Player): Player | null {
     tier: previous?.tier ?? defaultTier(pos, Math.round(age)),
     notes: previous?.notes ?? '',
     sleeperId: raw.player_id,
+    rank: raw.search_rank ?? undefined,
   };
 }
 
@@ -349,6 +350,111 @@ export function teamNameFor(users: SleeperLeagueUser[], userId: string): string 
   if (!me) return null;
   const named = me.metadata?.team_name?.trim();
   return named || me.display_name?.trim() || null;
+}
+
+/* --------------------------------- pool ----------------------------------- */
+
+/** Fantasy-relevant skill positions worth a draft pool — excludes K/DEF. */
+const DRAFT_POOL_POSITIONS = new Set(['QB', 'RB', 'WR', 'TE']);
+
+/**
+ * The top N players by Sleeper's `search_rank`, restricted to active QB/RB/WR/TE.
+ * `search_rank` is Sleeper's own relevance ordering (lower = more relevant), so
+ * this is "the players anyone would draft" rather than an opinion of ours.
+ */
+export function topRankedPlayers(
+  players: Record<string, SleeperPlayer>,
+  limit: number,
+): string[] {
+  return Object.values(players)
+    .filter((p) => {
+      if (typeof p.search_rank !== 'number') return false;
+      if (p.status && p.status !== 'Active') return false;
+      const positions = [p.position, ...(p.fantasy_positions ?? [])].filter(Boolean) as string[];
+      return positions.some((pos) => DRAFT_POOL_POSITIONS.has(pos.toUpperCase()));
+    })
+    .sort((a, b) => (a.search_rank ?? Infinity) - (b.search_rank ?? Infinity))
+    .slice(0, limit)
+    .map((p) => p.player_id);
+}
+
+export interface SelectPlayersInput {
+  players: Record<string, SleeperPlayer>;
+  rosters: { players?: string[] | null }[];
+  myRoster: { players?: string[] | null; reserve?: string[] | null; taxi?: string[] | null };
+  trendingAdds: { player_id: string }[];
+  trendingDrops: { player_id: string }[];
+  targetPlayerIds: string[];
+  existing: Player[];
+  /** Cap on the pre-draft ranked pool. Defaults to 250 — a real startup-sized pool. */
+  preDraftPoolSize?: number;
+}
+
+/**
+ * Keep only the players that matter: your roster, everyone rostered in the
+ * league, your targets, what the league is trending on — and, pre-draft, the
+ * top ranked players overall. The full player dump is thousands of rows of
+ * noise that would dominate every diff.
+ *
+ * Pre-draft, nobody is rostered anywhere in the league, so the first three
+ * sources are all empty and the pool would otherwise collapse to whatever
+ * happens to be trending on the waiver wire — which is how an earlier sync of
+ * a real league ended up with only 8 QBs, mostly bench and practice-squad
+ * names, in a superflex format where QB is the defining asset. The ranked
+ * branch covers that gap with Sleeper's own relevance ordering rather than an
+ * opinion of ours.
+ */
+export function selectPlayers(input: SelectPlayersInput): Player[] {
+  const { players, rosters, myRoster, trendingAdds, trendingDrops, targetPlayerIds, existing } =
+    input;
+  const existingBySleeperId = new Map(existing.filter((p) => p.sleeperId).map((p) => [p.sleeperId!, p]));
+  const existingById = new Map(existing.map((p) => [p.id, p]));
+
+  const mine = new Set([
+    ...(myRoster.players ?? []),
+    ...(myRoster.reserve ?? []),
+    ...(myRoster.taxi ?? []),
+  ]);
+  const leagueRostered = new Set(rosters.flatMap((r) => r.players ?? []));
+  const trendingIds = [...trendingAdds.map((t) => t.player_id), ...trendingDrops.map((t) => t.player_id)];
+
+  // Nobody rostered anywhere means the draft hasn't happened — pull in a real
+  // startup-sized pool rather than leaving the app to infer relevance from
+  // waiver churn alone.
+  const preDraft = leagueRostered.size === 0;
+  const rankedIds = preDraft ? topRankedPlayers(players, input.preDraftPoolSize ?? 250) : [];
+
+  const wanted = new Set([...mine, ...leagueRostered, ...trendingIds, ...rankedIds]);
+
+  const out: Player[] = [];
+  const seenIds = new Set<string>();
+
+  for (const sleeperId of wanted) {
+    const raw = players[sleeperId];
+    if (!raw) continue;
+    const mapped = toPlayer(raw, existingBySleeperId.get(sleeperId));
+    if (!mapped) continue;
+
+    // Slug collisions (two players with the same name) get disambiguated rather
+    // than silently overwriting each other.
+    let id = mapped.id;
+    if (seenIds.has(id)) id = `${id}-${mapped.pos.toLowerCase()}-${sleeperId}`;
+    seenIds.add(id);
+
+    out.push({ ...mapped, id, rosteredInLeague: leagueRostered.has(sleeperId) });
+  }
+
+  // Never drop a player a target still points at, even if they left the league.
+  for (const targetId of targetPlayerIds) {
+    if (seenIds.has(targetId)) continue;
+    const prior = existingById.get(targetId);
+    if (prior) {
+      out.push(prior);
+      seenIds.add(targetId);
+    }
+  }
+
+  return out.sort((a, b) => a.pos.localeCompare(b.pos) || a.name.localeCompare(b.name));
 }
 
 /* --------------------------------- FAAB ---------------------------------- */
