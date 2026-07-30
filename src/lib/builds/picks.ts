@@ -93,23 +93,27 @@ function positionCapacity(pos: Pos, format: Team['format']): number {
  * to zero, so a genuinely elite falling asset can still win a pick on value
  * alone, but a sixth quarterback cannot.
  */
+type NeedKind = 'required' | 'wanted' | 'value-only';
+
 function needScore(
   pos: Pos,
   round: number,
   archetype: Archetype,
   filled: Record<Pos, number>,
   format: Team['format'],
-): number {
+): { score: number; kind: NeedKind } {
   // The format's own floor, which binds no matter what the archetype prefers.
   // Without it, any build whose plan does not name QB drafted none at all —
   // robust-RB, hero-RB and TE-premium each returned zero quarterbacks across
   // all 30 rounds of a superflex startup, a roster that cannot legally start.
   // An archetype chooses the *order* it fills the lineup, never whether to.
   let urgent = false;
+  let kind: NeedKind = 'value-only';
   let base = 15;
   if ((filled[pos] ?? 0) < startingFloor(pos, format)) {
     base = 85;
     urgent = true;
+    kind = 'required';
   }
   for (const step of archetype.plan) {
     if (round > step.throughRound) continue;
@@ -117,10 +121,14 @@ function needScore(
     if (metCount < step.minCount && step.want.includes(pos)) {
       base = 100;
       urgent = true;
+      kind = 'required';
       break;
     }
   }
-  if (base === 15 && archetype.plan.some((step) => step.want.includes(pos))) base = 55;
+  if (base === 15 && archetype.plan.some((step) => step.want.includes(pos))) {
+    base = 55;
+    kind = 'wanted';
+  }
 
   // An archetype's posWeight is its stated preference; without this the plan's
   // explicit steps were the only thing steering the sheet, so a build could
@@ -134,8 +142,8 @@ function needScore(
 
   const held = filled[pos] ?? 0;
   const capacity = positionCapacity(pos, format);
-  if (held < capacity) return base;
-  return base / (1 + 1.5 * (held - capacity + 1));
+  const damped = held < capacity ? base : base / (1 + 1.5 * (held - capacity + 1));
+  return { score: damped, kind };
 }
 
 /**
@@ -216,17 +224,27 @@ function buildReason(
   primaryRow: MarketPlayerRow,
   pick: number,
   round: number,
-  need: number,
+  needKind: NeedKind,
   surplus: number,
   nextValueSf: number,
 ): string {
   const needClause =
-    need >= 100
-      ? `fills a need this ${archetype.name} build has not yet met`
-      : need >= 55
-        ? `fills a position this build wants eventually`
-        : `is simply the board's best value here`;
-  return `${primaryRow.name} (${primaryRow.pos}) is the top-scoring option at pick ${pick} (round ${round}) for a ${archetype.name} build — it ${needClause}, carrying a ${surplus.toFixed(0)}-point valueSf edge over the next best option at ${nextValueSf}.`;
+    needKind === 'required'
+      ? 'fills a starting slot this build has not yet covered'
+      : needKind === 'wanted'
+        ? 'fills a position this build wants eventually'
+        : "is simply the board's best value here";
+
+  // Surplus is routinely negative: the engine trades raw market value for fit,
+  // which is the whole point of drafting to a plan. Calling that an "edge" —
+  // as an earlier version did, rendering "a -855-point valueSf edge" — states
+  // the opposite of what happened.
+  const valueClause =
+    surplus >= 0
+      ? `worth ${surplus.toFixed(0)} more valueSf than the next option at ${nextValueSf}`
+      : `costing ${Math.abs(surplus).toFixed(0)} valueSf against the richer option at ${nextValueSf}, a trade this plan makes deliberately`;
+
+  return `${primaryRow.name} (${primaryRow.pos}) is the top-scoring option at pick ${pick} (round ${round}) for a ${archetype.name} build — it ${needClause}, ${valueClause}.`;
 }
 
 export function planPicks(input: {
@@ -267,14 +285,20 @@ export function planPicks(input: {
     const scored = pool
       .map((c) => {
         const pos = c.row.pos as Pos;
+        const need = needScore(pos, round, archetype, filled, input.format);
         const components: Weighted = {
           value: percentileRank(c.row.valueSf, values),
-          need: needScore(pos, round, archetype, filled, input.format),
+          need: need.score,
           age: ageScore(pos, c.row.age, archetype.ageBias),
           availability: availabilityScore(c.row.ecrSf as number, pick),
           market: marketScore(c.row, trending),
         };
-        return { entry: c, score: totalScore(components, round), needComponent: components.need };
+        return {
+          entry: c,
+          score: totalScore(components, round),
+          needComponent: components.need,
+          needKind: need.kind,
+        };
       })
       .sort((a, b) => b.score - a.score);
 
@@ -296,11 +320,11 @@ export function planPicks(input: {
       verdict: verdictFor(winner.score, surplus),
       primary: toCandidate(winner.entry.row, winner.score),
       alternates: rest.map((r) => toCandidate(r.entry.row, r.score)),
-      reason: buildReason(archetype, winner.entry.row, pick, round, winner.needComponent, surplus, nextValueSf),
+      reason: buildReason(archetype, winner.entry.row, pick, round, winner.needKind, surplus, nextValueSf),
       evidence: [
         `valueSf ${winner.entry.row.valueSf} vs ${nextValueSf} for the next best at pick ${pick}`,
         `adjustedEcr ${winner.entry.adjustedEcr.toFixed(1)} (raw ecrSf ${winner.entry.row.ecrSf}) against a pick at ${pick}`,
-        `need score ${winner.needComponent}/100 for ${winner.entry.row.pos} under the ${archetype.name} plan at round ${round}`,
+        `need score ${winner.needComponent.toFixed(0)}/100 (${winner.needKind}) for ${winner.entry.row.pos} under the ${archetype.name} plan at round ${round}`,
         `total score ${winner.score.toFixed(1)}/100 using the ${round >= STASH_ROUND ? 'stash' : 'main'} weighting`,
       ],
       citations: sourceLinks(winner.entry.row),
