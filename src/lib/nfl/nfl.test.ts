@@ -7,13 +7,13 @@ import { coachForTeam } from './coaches';
 
 describe('resolveStandingsSeason', () => {
   it('uses previous year before September', () => {
-    expect(resolveStandingsSeason(new Date('2026-07-29'))).toBe(2025);
-    expect(resolveStandingsSeason(new Date('2026-08-31'))).toBe(2025);
+    expect(resolveStandingsSeason(new Date(2026, 6, 29))).toBe(2025);
+    expect(resolveStandingsSeason(new Date(2026, 7, 31))).toBe(2025);
   });
 
   it('uses current year from September onward', () => {
-    expect(resolveStandingsSeason(new Date('2026-09-01'))).toBe(2026);
-    expect(resolveStandingsSeason(new Date('2026-12-25'))).toBe(2026);
+    expect(resolveStandingsSeason(new Date(2026, 8, 1))).toBe(2026);
+    expect(resolveStandingsSeason(new Date(2026, 11, 25))).toBe(2026);
   });
 });
 

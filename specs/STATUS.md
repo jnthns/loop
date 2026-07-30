@@ -618,6 +618,35 @@ Result (50 files):
 check.sh passed.
 ```
 
+### Pass 22 — Campaign 2: NFL Team Investment Board (`/teams`)
+
+- New page `src/pages/teams.astro` + `src/components/teams/`: two group sections
+  (Winning/High-Promise vs Losing/Low-Value by last completed season's record);
+  each team row is a wide snap-x carousel with the head coach pinned sticky-left
+  (collapsible offensive-scheme profile) followed by small player tiles; a
+  profile panel shows the selected player (defaults to the team's top-scored
+  recommendation) with verdict, score, why-pick, build-fit, and team news.
+- Data: ESPN standings/injuries/news + Sleeper player index/trending adds via
+  `src/lib/nfl/` (espn.ts, sleeper.ts, cache.ts, recommend.ts, coaches.ts,
+  mock.ts, board.ts). Each source falls back to mock independently; `live` +
+  per-source flags in board meta. Client island imports `getTeamBoard()` directly
+  (works on static GitHub Pages); `GET /api/nfl/board` also prerenders a snapshot.
+- Recommendation scoring (0–100): fantasy rank tier + team record/point-diff
+  context + health (ESPN injury report → Sleeper injury_status) + Sleeper
+  48h trending adds + coach scheme-position fit + news sentiment.
+- Collision note: a second agent worked the same feature concurrently; its
+  espn.ts/sleeper.ts/board.ts replaced this pass's files mid-run. Reconciled by
+  restoring the server-oriented fetchers (kept its WSH→WAS abbreviation fix and
+  per-source fallback idea); its client-side TeamsApp import design was kept.
+- Evidence (`npm run lint && npm run test && npm run build`; bash unavailable on
+  this host, same equivalence as pass 20):
+
+```
+astro check — 70 files, 0 errors / 0 warnings / 0 hints
+vitest — 20 files, 90/90 tests passed
+astro build — 8 pages incl. /teams/index.html + prerendered /api/nfl/board
+```
+
 ### Pass 21 — checker verification (`scripts/verify.sh`)
 
 - Checker subagent **APPROVE** — independent re-run of mechanical gate.

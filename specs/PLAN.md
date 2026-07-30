@@ -77,6 +77,29 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
 
 ---
 
+## Campaign 2 — NFL Team Investment Board (feature/teams-draft-board)
+
+- [x] Build `src/lib/nfl/` data layer — types, curated 32-team coach profiles,
+      ESPN fetchers (standings, injuries, news), Sleeper fetchers (players,
+      trending adds), in-memory TTL cache, offline mock inputs. (check: unit
+      tests in `src/lib/nfl/nfl.test.ts`)
+- [x] Build recommendation engine `src/lib/nfl/recommend.ts` — win/loss grouping,
+      per-position pick selection, 0–100 scoring (rank + team context + health +
+      trending + scheme fit + news sentiment), verdicts, why-pick/build-fit copy.
+      (check: unit tests cover grouping, injury AVOID, trending, copy)
+- [x] Add `GET /api/nfl/board` endpoint with per-source mock fallback. (check:
+      integration test `src/lib/nfl/api-board.integration.test.ts`)
+- [x] Build Teams UI — two group sections, per-team wide carousel with sticky
+      collapsible coach tile, small player tiles, selected-player profile panel
+      defaulting to the team recommendation. (check: component tests in
+      `src/components/teams/TeamsApp.test.tsx`)
+- [x] Add `/teams` page + cross-links with landing. (check: `npm run build`
+      emits `/teams/index.html`)
+- [ ] Add sessionStorage persistence for the Sleeper player index so client-side
+      loads skip the multi-MB re-download. (check: unit test round-trip)
+- [ ] Refresh curated coach profiles after 2026 offseason staff changes; verify
+      against current rosters. (check: manual review of `coaches.ts`)
+
 <!--
 When every box above is checked and `scripts/check.sh` is green, the maker writes
 "ALL TASKS DONE" to specs/STATUS.md. Discovered work becomes NEW unchecked items

@@ -1,103 +1,60 @@
 import { cachedFetch } from './cache';
 import {
-  fetchEspnInjuries,
-  fetchEspnNews,
-  fetchEspnStandings,
+  fetchInjuries,
+  fetchNews,
+  fetchStandings,
   resolveStandingsSeason,
 } from './espn';
+import { fetchPlayers, fetchTrending } from './sleeper';
 import { mockBoardInputs } from './mock';
 import { buildBoard } from './recommend';
-import { fetchSleeperPlayers, fetchSleeperTrendingAdds, loadSleeperPlayerIndex } from './sleeper';
 import type { TeamBoard } from './types';
 
-const TTL_MS = 5 * 60 * 1000;
+const BOARD_TTL_MS = 30 * 60 * 1000;
 
+/**
+ * Each upstream source falls back to mock data independently, so a partial
+ * outage (e.g. Sleeper down, ESPN up) still yields a usable board.
+ */
 export async function getTeamBoard(): Promise<TeamBoard> {
-  const season = resolveStandingsSeason();
+  return cachedFetch('nfl-board', BOARD_TTL_MS, async () => {
+    const season = resolveStandingsSeason();
+    const mock = mockBoardInputs(season);
+    const sources = {
+      espnStandings: false,
+      espnInjuries: false,
+      espnNews: false,
+      sleeperPlayers: false,
+      sleeperTrending: false,
+    };
 
-  const sources = {
-    espnStandings: false,
-    espnInjuries: false,
-    espnNews: false,
-    sleeperPlayers: false,
-    sleeperTrending: false,
-  };
+    const [standings, players, trending, injuries, news] = await Promise.allSettled([
+      fetchStandings(season),
+      fetchPlayers(),
+      fetchTrending(),
+      fetchInjuries(),
+      fetchNews(),
+    ]);
 
-  let standings = mockBoardInputs(season).standings;
-  let players = mockBoardInputs(season).players;
-  let trending = mockBoardInputs(season).trending;
-  let injuries = mockBoardInputs(season).injuries;
-  let news = mockBoardInputs(season).news;
-  let live = false;
+    sources.espnStandings =
+      standings.status === 'fulfilled' && standings.value.length > 0;
+    sources.sleeperPlayers =
+      players.status === 'fulfilled' && players.value.length > 0;
+    sources.sleeperTrending = trending.status === 'fulfilled';
+    sources.espnInjuries = injuries.status === 'fulfilled';
+    sources.espnNews = news.status === 'fulfilled';
 
-  try {
-    const liveStandings = await cachedFetch(
-      `espn-standings-${season}`,
-      TTL_MS,
-      () => fetchEspnStandings(season),
-    );
-    if (liveStandings.some((t) => t.wins > 0 || t.losses > 0)) {
-      standings = liveStandings;
-      sources.espnStandings = true;
-      live = true;
-    }
-  } catch {
-    // keep mock standings
-  }
+    const live = Object.values(sources).some(Boolean);
 
-  try {
-    const liveNews = await cachedFetch('espn-news', TTL_MS, () => fetchEspnNews(50));
-    if (liveNews.length > 0) {
-      news = liveNews;
-      sources.espnNews = true;
-      live = true;
-    }
-  } catch {
-    // keep mock news
-  }
-
-  try {
-    const liveInjuries = await cachedFetch('espn-injuries', TTL_MS, fetchEspnInjuries);
-    injuries = liveInjuries;
-    if (liveInjuries.length > 0) {
-      sources.espnInjuries = true;
-      live = true;
-    }
-  } catch {
-    // roster-level health still applied via sleeper injury_status
-  }
-
-  try {
-    const playerIndex = await loadSleeperPlayerIndex();
-    const livePlayers = await cachedFetch('sleeper-players', TTL_MS, fetchSleeperPlayers);
-    if (livePlayers.length > 0) {
-      players = livePlayers;
-      sources.sleeperPlayers = true;
-      live = true;
-    }
-
-    const liveTrending = await cachedFetch(
-      'sleeper-trending',
-      TTL_MS,
-      () => fetchSleeperTrendingAdds(100, playerIndex),
-    );
-    if (liveTrending.length > 0) {
-      trending = liveTrending;
-      sources.sleeperTrending = true;
-      live = true;
-    }
-  } catch {
-    // keep mock sleeper data
-  }
-
-  return buildBoard({
-    standings,
-    players,
-    trending,
-    injuries,
-    news,
-    season,
-    live,
-    sources,
+    return buildBoard({
+      standings: sources.espnStandings && standings.status === 'fulfilled' ? standings.value : mock.standings,
+      players: sources.sleeperPlayers && players.status === 'fulfilled' ? players.value : mock.players,
+      trending: trending.status === 'fulfilled' ? trending.value : mock.trending,
+      injuries: injuries.status === 'fulfilled' ? injuries.value : mock.injuries,
+      news: news.status === 'fulfilled' ? news.value : mock.news,
+      season,
+      live,
+      sources,
+    });
   });
 }
