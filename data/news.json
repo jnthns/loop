@@ -1,5 +1,633 @@
 [
   {
+    "id": "1itqv235mzlhd",
+    "title": "Malik Nabers doesn't practice Friday, John Harbaugh calls it \"part of the process\"",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-doesnt-practice-friday-john-harbaugh-calls-it-part-of-the-process",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T19:41:46.000Z",
+    "summary": "The first days of Giants training camp featured a lot of positive reports about how wide receiver Malik Nabers has healed from last season's torn ACL, but there were none to add to the list on Friday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "sis86k16ypx8k",
+    "title": "Panthers put rookie wide receiver Chris Brazzell on IR, sign tight end Chamon Metayer",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-put-rookie-wide-receiver-chris-brazzell-on-ir-sign-tight-end-chamon-metayer",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T19:30:41.000Z",
+    "summary": "Panthers rookie wide receiver Chris Brazzell's season is officially over.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "rookie",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "1w1zlt3o6tumd",
+    "title": "Panthers put rookie wide receiver Chris Brazzell on IR, sign tight end Chamon Metayer",
+    "url": "https://sports.yahoo.com/articles/panthers-put-rookie-wide-receiver-193041320.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T19:30:41.000Z",
+    "summary": "Panthers rookie wide receiver Chris Brazzell's season is officially over.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "rookie",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "pb3kp0d7t1jc",
+    "title": "How Chris Olave’s Extension Stacks Up Against the 2022 NFL Draft’s Top Wide Receivers",
+    "url": "https://sports.yahoo.com/articles/chris-olave-extension-stacks-against-191650938.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T19:16:50.000Z",
+    "summary": "How does Chris Olave’s deal compare to the other wideouts taken in the 2022 NFL Draft?",
+    "tags": [
+      "league-news",
+      "contract",
+      "rookie"
+    ],
+    "players": [
+      "chris-olave"
+    ],
+    "teams": []
+  },
+  {
+    "id": "pzp8gr1j2zbe1",
+    "title": "What happens with the Bucs and Baker Mayfield in 2027?",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/what-happens-with-the-bucs-and-baker-mayfield-in-2027",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T18:33:12.000Z",
+    "summary": "If, as it appears, quarterback Baker Mayfield doesn't sign a new contract with the Buccaneers until after the 2026 season, what happens next?",
+    "tags": [
+      "league-news",
+      "contract",
+      "TB"
+    ],
+    "players": [
+      "baker-mayfield"
+    ],
+    "teams": [
+      "TB"
+    ]
+  },
+  {
+    "id": "kcatn8auwmv0",
+    "title": "Darnell Wright on his future, ‘I’ll be on the Bears for a long time’",
+    "url": "https://sports.yahoo.com/articles/darnell-wright-future-ll-bears-183000196.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T18:30:00.000Z",
+    "summary": "Darnell Wright plans to be on the Chicago Bears for a long time, so stop worrying about his contract extension. More here from @wiltfongjr.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1cfi69gkc5xbg",
+    "title": "Buffalo Bills sign CB D.J. Miller Jr., release S Wande Owens",
+    "url": "https://sports.yahoo.com/articles/buffalo-bills-sign-cb-d-182646405.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T18:26:46.000Z",
+    "summary": "The Buffalo Bills add a young defensive back prospect with UFL experience, while releasing a talented, athletic safety.",
+    "tags": [
+      "league-news",
+      "contract",
+      "rookie",
+      "roster-move",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "pdzwqx179zz4z",
+    "title": "Packers Cap: Devonte Wyatt’s contract details drop",
+    "url": "https://sports.yahoo.com/articles/packers-cap-devonte-wyatt-contract-182541835.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T18:25:41.000Z",
+    "summary": "To no surprise, Devonte Wyatt’s contract is functionally a two-year deal with two team options",
+    "tags": [
+      "league-news",
+      "contract",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "1bm684oh6ov28",
+    "title": "Pros and Cons of a Baker Mayfield Extension",
+    "url": "https://sports.yahoo.com/articles/pros-cons-baker-mayfield-extension-181500798.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T18:15:00.000Z",
+    "summary": "Should the Bucs cave and give Baker the extension?",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [
+      "baker-mayfield"
+    ],
+    "teams": []
+  },
+  {
+    "id": "12cncte1hfx4uq",
+    "title": "Packers Training Camp Recap: Dani Dennis-Sutton starting to find a role",
+    "url": "https://sports.yahoo.com/articles/packers-training-camp-recap-dani-180826650.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T18:08:26.000Z",
+    "summary": "The Green Bay Packers’ fourth-round rookie edge rusher is being kicked inside a lot during training camp",
+    "tags": [
+      "league-news",
+      "rookie",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "8hopyt1pnn8r5",
+    "title": "J.J. Watt will replace Tony Romo during his CBS leave",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/j-j-watt-will-replace-tony-romo-during-his-cbs-leave",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T17:59:24.000Z",
+    "summary": "With CBS placing No. 1 NFL analyst Tony Romo on leave following a recent arrest for suspicion of operating while intoxicated, his spot needs to be filled.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "y4arirly2253",
+    "title": "J.J. Watt will replace Tony Romo during his CBS leave",
+    "url": "https://sports.yahoo.com/articles/j-j-watt-replace-tony-175924206.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T17:59:24.000Z",
+    "summary": "With CBS placing No. 1 NFL analyst Tony Romo on leave following a recent arrest for suspicion of operating while intoxicated, his spot needs to be filled.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "zo6dyi1upusr4",
+    "title": "J.J. Watt to Fill in for Suspended Tony Romo in CBS Sports’ NFL Booth",
+    "url": "https://sports.yahoo.com/articles/j-j-watt-fill-suspended-175500948.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T17:55:00.000Z",
+    "summary": "A week after his arrest in Milwaukee on suspicion of operating a vehicle while intoxicated, Tony Romo has been placed on leave from his post at CBS Sports until further notice. CBS’ lead NFL color commentator since 2017, Romo is being benched six weeks before he and play-by-play veteran Jim Nantz were set to kick …",
+    "tags": [
+      "league-news",
+      "discipline",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1c4slve1ftdko4",
+    "title": "49ers activate Alfred Collins from the Active/PUP List",
+    "url": "https://sports.yahoo.com/articles/49ers-activate-alfred-collins-active-173815903.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T17:38:15.000Z",
+    "summary": "The 49ers need their former top-50 pick to take a Year 2 leap",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1pptjqqorwpuk",
+    "title": "Patriots up-to-date depth chart: Who is on the roster right now?",
+    "url": "https://sports.yahoo.com/articles/patriots-date-depth-chart-roster-202222083.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T17:33:07.000Z",
+    "summary": "An updated look at the Patriots’ roster in 2026.",
+    "tags": [
+      "league-news",
+      "usage",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "y7ib10ynt8fo",
+    "title": "How Rams have fared during every Spider-Man release year",
+    "url": "https://sports.yahoo.com/articles/rams-fared-during-every-spider-173000314.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T17:30:00.000Z",
+    "summary": "The start of training camp marked a “Brand New Day” for the Rams",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "30fssnx12ilr",
+    "title": "49ers sign TE Josiah Deguara, WR Trenton Irwin",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sign-te-josiah-deguara-wr-trenton-irwin",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T17:13:02.000Z",
+    "summary": "The 49ers have brought in a pair of offensive players.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1xhccyt1ms0pub",
+    "title": "49ers sign TE Josiah Deguara, WR Trenton Irwin",
+    "url": "https://sports.yahoo.com/articles/49ers-sign-te-josiah-deguara-171302765.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T17:13:02.000Z",
+    "summary": "The 49ers have brought in a pair of offensive players.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1t2cdzlmxbqm3",
+    "title": "49ers sign two more pass catchers on Friday after Deebo Samuel addition",
+    "url": "https://sports.yahoo.com/articles/49ers-sign-two-more-pass-170214405.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T17:02:14.000Z",
+    "summary": "The Niners are adding more pass catching depth.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [
+      "deebo-samuel"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1xve7ni12ifogi",
+    "title": "Report: Colts Rookie Linebacker CJ Allen Activated",
+    "url": "https://sports.yahoo.com/articles/report-colts-rookie-linebacker-cj-165449591.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T16:54:49.000Z",
+    "summary": "The Colts got a big new addition back for their first-team defense after a surprise initial minor injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "usage",
+      "availability",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "1wlh1r81m9rfg4",
+    "title": "One Chiefs player leaves Friday’s practice with a strained hamstring",
+    "url": "https://sports.yahoo.com/articles/one-chiefs-player-leaves-friday-164000390.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T16:40:00.000Z",
+    "summary": "Kansas City’s head coach provided an injury update after Friday’s training camp practice.",
+    "tags": [
+      "league-news",
+      "injury",
+      "KC"
+    ],
+    "players": [],
+    "teams": [
+      "KC"
+    ]
+  },
+  {
+    "id": "rki9g11ftkkkn",
+    "title": "Malik Nabers says the reported date of his second cleanup surgery was wrong. He didn't reveal when the procedure actually took place, only that the reported timeline was inaccurate. (video)",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vbvzl1/malik_nabers_says_the_reported_date_of_his_second",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-07-31T16:34:19.000Z",
+    "summary": "&#32; submitted by &#32; /u/Ma1ikNabers [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": []
+  },
+  {
+    "id": "pf9rlw1na286m",
+    "title": "Kellen Moore: Chris Olave's new deal is awesome for him, our team",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kellen-moore-chris-olaves-new-deal-is-awesome-for-him-our-team",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T16:19:11.000Z",
+    "summary": "On Thursday, the Saints agreed to a four-year extension with Chris Olave, ending the receiver’s brief hold-in as he sought a new deal.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NO"
+    ],
+    "players": [
+      "chris-olave"
+    ],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "zrlg11w71pt9",
+    "title": "Travis Hunter feels lighter on his feet after putting on 10 pounds",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-hunter-feels-lighter-on-his-feet-after-putting-on-10-pounds",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T16:12:20.000Z",
+    "summary": "Travis Hunter's mixture of size and speed made him a two-way player at Colorado and it led the Jaguars to trade up to take him with the second overall pick of the 2025 draft, but that didn't stop him from changing his body ahead of his second NFL season.",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "JAX"
+    ],
+    "players": [
+      "travis-hunter"
+    ],
+    "teams": [
+      "JAX"
+    ]
+  },
+  {
+    "id": "aw586tt0vqcf",
+    "title": "'Football 301' ranks top 10 defenses: Texans, Seahawks, Rams dominate top 3",
+    "url": "https://sports.yahoo.com/nfl/article/football-301-ranks-top-10-defenses-texans-seahawks-rams-dominate-top-3-161102766.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T16:11:02.000Z",
+    "summary": "All three teams earn raves because they have: outstanding individual talent at all three levels; coaching that either maximizes simplicity or complexity; the ability to adjust week to week, and depth and versatility to cover for injuries and matchups.",
+    "tags": [
+      "league-news",
+      "injury",
+      "HOU",
+      "LAR",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "HOU",
+      "LAR",
+      "SEA"
+    ]
+  },
+  {
+    "id": "16r88kb1ycmu81",
+    "title": "CBS places Tony Romo on indefinite leave after arrest, taps J.J. Watt to fill in",
+    "url": "https://sports.yahoo.com/articles/cbs-places-tony-romo-indefinite-155623903.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T15:56:23.000Z",
+    "summary": "CBS is not waiting for Tony Romo's driving under the influence arrest to be resolved, placing the former NFL quarterback on indefinite leave.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1htapet1n3kwmf",
+    "title": "Kayshon Boutte has requested a trade from the New England Patriots dating back to April.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vbuvlt/kayshon_boutte_has_requested_a_trade_from_the_new",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-07-31T15:54:52.000Z",
+    "summary": "&#32; submitted by &#32; /u/Ma1ikNabers [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "trade",
+      "NE"
+    ],
+    "players": [
+      "kayshon-boutte"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1yq1w181pkxmyq",
+    "title": "Bills sign CB D.J. Miller",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-sign-cb-d-j-miller",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T15:43:04.000Z",
+    "summary": "The Bills announced a pair of roster moves on Friday morning.",
+    "tags": [
+      "league-news",
+      "contract",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "1dsshg1wo4r1w",
+    "title": "Tucker Kraft officially off PUP and practicing today",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vbuf15/tucker_kraft_officially_off_pup_and_practicing",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-07-31T15:38:21.000Z",
+    "summary": "&#32; submitted by &#32; /u/LoganXup [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [
+      "tucker-kraft"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1f3k35r1g2mgj1",
+    "title": "Jets to sign WR Cam Camper",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-to-sign-wr-cam-camper",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T15:33:27.000Z",
+    "summary": "The Jets signed wide receiver Quincy Skinner on Thursday and they're making another change at wideout on Friday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "xg4fbj16ijjil",
+    "title": "Tony Romo placed on leave by CBS Sports 'until further notice' following OWI arrest, JJ Watt to replace him in booth",
+    "url": "https://sports.yahoo.com/nfl/breaking-news/article/tony-romo-placed-on-leave-by-cbs-sports-until-further-notice-following-owi-arrest-jj-watt-to-replace-him-in-booth-153055123.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T15:30:55.000Z",
+    "summary": "Tony Romo was arrested in Milwaukee in late July.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1k3t68b1eflbjl",
+    "title": "CBS places Tony Romo on leave \"until further notice\"",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cbs-places-tony-romo-on-leave-until-further-notice",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T15:27:05.000Z",
+    "summary": "CBS issues a one-sentence press release, eight days after Romo's OWI arrest.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "8etywukw3sis",
+    "title": "I'm convinced Isaiah Likely finally breaks out this year and not enough people are talking about it. Check out what happens if you plug Likely's metrics into Theo Johnson's 2025 snap count and target share.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vbtvm4/im_convinced_isaiah_likely_finally_breaks_out",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-07-31T15:18:39.000Z",
+    "summary": "I've owned Likely since his rookie year and the games where Mark Andrews was hurt were always electric. Lamar used his as a glorified WR and that's exactly what the NY Giants and Jaxson Dart need. FantasyPros consensus ranks Likely TE12 in full-PPR and this feels low. I thought it would be interesting to plug Likely into Theo Johnson's 2025 usage to see how he would've done. I didn't project a big",
+    "tags": [
+      "dynasty",
+      "rookie",
+      "usage",
+      "NYG"
+    ],
+    "players": [
+      "jaxson-dart",
+      "isaiah-likely",
+      "mark-andrews",
+      "theo-johnson"
+    ],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1tnxgzo1hitgpk",
+    "title": "Packers activate Tucker Kraft off of PUP list",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-tucker-kraft-off-of-pup-list",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-07-31T15:14:32.000Z",
+    "summary": "Earlier this week, Packers tight end Tucker Kraft said he was expecting to begin practicing “very soon.”",
+    "tags": [
+      "league-news",
+      "injury",
+      "GB"
+    ],
+    "players": [
+      "tucker-kraft"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
     "id": "15am2znn9g4vj",
     "title": "Details behind Broncos guard Ben Powers restructured contract",
     "url": "https://sports.yahoo.com/articles/details-behind-broncos-guard-ben-141435796.html",
