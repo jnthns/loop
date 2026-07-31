@@ -132,30 +132,6 @@
     "rank": 201
   },
   {
-    "id": "diego-pavia",
-    "name": "Diego Pavia",
-    "pos": "QB",
-    "nflTeam": "FA",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13427",
-    "rosteredInLeague": false,
-    "rank": 9999999
-  },
-  {
-    "id": "dillon-gabriel",
-    "name": "Dillon Gabriel",
-    "pos": "QB",
-    "nflTeam": "CLE",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "12486",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "drake-maye",
     "name": "Drake Maye",
     "pos": "QB",
@@ -298,18 +274,6 @@
     "sleeperId": "6797",
     "rosteredInLeague": false,
     "rank": 25
-  },
-  {
-    "id": "kirk-cousins",
-    "name": "Kirk Cousins",
-    "pos": "QB",
-    "nflTeam": "LV",
-    "age": 37,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "1166",
-    "rosteredInLeague": false,
-    "rank": 368
   },
   {
     "id": "kyler-murray",
@@ -609,7 +573,7 @@
     "notes": "",
     "sleeperId": "11584",
     "rosteredInLeague": false,
-    "rank": 22
+    "rank": 32
   },
   {
     "id": "cam-skattebo",
@@ -729,7 +693,7 @@
     "notes": "",
     "sleeperId": "9226",
     "rosteredInLeague": false,
-    "rank": 10
+    "rank": 8
   },
   {
     "id": "demond-claiborne",
@@ -753,7 +717,7 @@
     "notes": "",
     "sleeperId": "3198",
     "rosteredInLeague": false,
-    "rank": 22
+    "rank": 7
   },
   {
     "id": "devin-neal",
@@ -1065,7 +1029,7 @@
     "notes": "",
     "sleeperId": "11583",
     "rosteredInLeague": false,
-    "rank": 112
+    "rank": 91
   },
   {
     "id": "jordan-mason",
@@ -1185,7 +1149,7 @@
     "notes": "",
     "sleeperId": "8151",
     "rosteredInLeague": false,
-    "rank": 7
+    "rank": 19
   },
   {
     "id": "kenny-gainwell",
@@ -1233,7 +1197,7 @@
     "notes": "",
     "sleeperId": "8150",
     "rosteredInLeague": false,
-    "rank": 26
+    "rank": 13
   },
   {
     "id": "malik-davis",
@@ -2136,6 +2100,18 @@
     "rank": 8
   },
   {
+    "id": "andrei-iosivas",
+    "name": "Andrei Iosivas",
+    "pos": "WR",
+    "nflTeam": "CIN",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "10226",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "antonio-brown",
     "name": "Antonio Brown",
     "pos": "WR",
@@ -2316,18 +2292,6 @@
     "rank": 63
   },
   {
-    "id": "cj-daniels",
-    "name": "CJ Daniels",
-    "pos": "WR",
-    "nflTeam": "LAR",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13270",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "colbie-young",
     "name": "Colbie Young",
     "pos": "WR",
@@ -2391,13 +2355,13 @@
     "id": "deebo-samuel",
     "name": "Deebo Samuel",
     "pos": "WR",
-    "nflTeam": "FA",
+    "nflTeam": "SF",
     "age": 30,
     "tier": "depth",
     "notes": "",
     "sleeperId": "5872",
     "rosteredInLeague": false,
-    "rank": 79
+    "rank": 150
   },
   {
     "id": "denzel-boston",
@@ -2640,18 +2604,6 @@
     "rank": 167
   },
   {
-    "id": "jalen-tolbert",
-    "name": "Jalen Tolbert",
-    "pos": "WR",
-    "nflTeam": "MIA",
-    "age": 27,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "8117",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "jameson-williams",
     "name": "Jameson Williams",
     "pos": "WR",
@@ -2734,6 +2686,18 @@
     "sleeperId": "12536",
     "rosteredInLeague": false,
     "rank": 190
+  },
+  {
+    "id": "jeff-caldwell",
+    "name": "Jeff Caldwell",
+    "pos": "WR",
+    "nflTeam": "KC",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13392",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "jerry-jeudy",
@@ -2832,18 +2796,6 @@
     "rank": 116
   },
   {
-    "id": "keandre-lambert-smith",
-    "name": "KeAndre Lambert-Smith",
-    "pos": "WR",
-    "nflTeam": "LAC",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "12670",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "keenan-allen",
     "name": "Keenan Allen",
     "pos": "WR",
@@ -2892,6 +2844,18 @@
     "rank": 41
   },
   {
+    "id": "luke-mccaffrey",
+    "name": "Luke McCaffrey",
+    "pos": "WR",
+    "nflTeam": "WAS",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11650",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "luther-burden",
     "name": "Luther Burden",
     "pos": "WR",
@@ -2937,7 +2901,19 @@
     "notes": "",
     "sleeperId": "11632",
     "rosteredInLeague": false,
-    "rank": 19
+    "rank": 27
+  },
+  {
+    "id": "malik-washington",
+    "name": "Malik Washington",
+    "pos": "WR",
+    "nflTeam": "MIA",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11610",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "marvin-harrison",
