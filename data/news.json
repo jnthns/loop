@@ -1,5 +1,25 @@
 [
   {
+    "id": "1lp1ml91wcc8c1",
+    "title": "Kayshon Boutte staying focused amid Patriots trade rumors",
+    "url": "https://sports.yahoo.com/articles/kayshon-boutte-staying-focused-amid-090000411.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T09:00:00.000Z",
+    "summary": "Boutte’s future in New England remains unclear.",
+    "tags": [
+      "league-news",
+      "trade",
+      "NE"
+    ],
+    "players": [
+      "kayshon-boutte"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
     "id": "1ohtoovdz9nwx",
     "title": "Who's the rookie in your team's camp that's turning some heads?",
     "url": "https://www.reddit.com/r/DynastyFF/comments/1vbfjv2/whos_the_rookie_in_your_teams_camp_thats_turning",
@@ -26,7 +46,7 @@
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
     "publishedAt": "2026-07-31T02:44:56.000Z",
-    "summary": "“This probably happens to a lot of quarterbacks [where] they almost get to like where their knowledge is that of a coach,” Packers general manager Brian Gutekunst said of Love.",
+    "summary": "\"This probably happens to a lot of quarterbacks [where] they almost get to like where their knowledge is that of a coach,\" Packers general manager Brian Gutekunst said of Love.",
     "tags": [
       "league-news",
       "usage",
@@ -97,6 +117,47 @@
     ]
   },
   {
+    "id": "gkqo901i3zdfm",
+    "title": "Malik Nabers eyeing career year after last Giants’ season cut short with injury",
+    "url": "https://sports.yahoo.com/articles/malik-nabers-eyeing-career-last-022732104.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T02:27:32.000Z",
+    "summary": "Malik Nabers is ready to take his production to the next level after missing the majority of last season recovering from ACL surgery.",
+    "tags": [
+      "league-news",
+      "injury",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "lgrtou1pvz2wq",
+    "title": "49ers players and fans react to ‘Killa’ Deebo Samuel signing",
+    "url": "https://sports.yahoo.com/articles/49ers-players-fans-react-killa-022312750.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T02:23:12.000Z",
+    "summary": "Deebo Samuel is back with the San Francisco 49ers after signing a 1-year, $7 million contract on Thursday evening. Reactions to Samuel returning to the team he spent the first...",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [
+      "deebo-samuel"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "14txphmoxn77o",
     "title": "Deebo Samuel reunites with 49ers amid injuries to wide receivers Ricky Pearsall, Christian Kirk",
     "url": "https://www.cbssports.com/nfl/news/deebo-samuel-reunites-49ers",
@@ -154,6 +215,29 @@
     "teams": []
   },
   {
+    "id": "1efksns4cq6zk",
+    "title": "Deebo Samuel reuniting with 49ers amid Ricky Pearsall injury",
+    "url": "https://sports.yahoo.com/articles/deebo-samuel-reuniting-49ers-amid-012750643.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T01:27:50.000Z",
+    "summary": "San Francisco 49ers wide receiver Deebo Samuel (19) celebrates after scoring against the Los Angeles Rams during the first half of an NFL football game in Santa Clara, Calif., Monday,...",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAR",
+      "SF"
+    ],
+    "players": [
+      "deebo-samuel",
+      "ricky-pearsall"
+    ],
+    "teams": [
+      "LAR",
+      "SF"
+    ]
+  },
+  {
     "id": "1xgrtxi6xoch6",
     "title": "49ers bring back Deebo Samuel on short deal. What it could mean",
     "url": "https://sports.yahoo.com/articles/49ers-bring-back-deebo-samuel-012129662.html",
@@ -193,6 +277,26 @@
     "teams": [
       "SF",
       "WAS"
+    ]
+  },
+  {
+    "id": "1sj6uslz58iid",
+    "title": "49ers work out 3 running backs as Jordan James injury concern heightens",
+    "url": "https://sports.yahoo.com/articles/49ers-3-running-backs-jordan-005418962.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T00:54:18.000Z",
+    "summary": "The San Francisco 49ers are looking to assist Christian McCaffrey by any means necessary.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "christian-mccaffrey"
+    ],
+    "teams": [
+      "SF"
     ]
   },
   {
@@ -309,6 +413,27 @@
     ],
     "teams": [
       "NO"
+    ]
+  },
+  {
+    "id": "1awjfil19a8fnv",
+    "title": "Christian McCaffrey’s imposing reaction to 49ers rookie tailback will rile up fans",
+    "url": "https://sports.yahoo.com/articles/christian-mccaffrey-imposing-reaction-49ers-233059885.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-30T23:30:59.000Z",
+    "summary": "Kaelon Black has yet to play in an NFL game, and he’s already leaving a strong impression on 49ers veterans at training camp. Running back Christian McCaffrey was quick to...",
+    "tags": [
+      "league-news",
+      "rookie",
+      "SF"
+    ],
+    "players": [
+      "christian-mccaffrey",
+      "kaelon-black"
+    ],
+    "teams": [
+      "SF"
     ]
   },
   {
