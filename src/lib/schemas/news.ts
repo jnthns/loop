@@ -1,10 +1,11 @@
 import { z } from 'zod';
+import { HttpsUrlSchema } from './url';
 
 /** A source feed the news pipeline reads. */
 export const FeedSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
-  url: z.url(),
+  url: HttpsUrlSchema,
   /** Groups feeds in the UI and lets the curator weigh sources differently. */
   category: z.enum(['league-news', 'fantasy', 'dynasty', 'analytics', 'team']),
   /** Set false to keep a feed on record without fetching it. */
@@ -21,7 +22,7 @@ export const FeedsSchema = z.array(FeedSchema);
 export const NewsItemSchema = z.object({
   id: z.string().min(1),
   title: z.string().min(1),
-  url: z.url(),
+  url: HttpsUrlSchema,
   source: z.string().min(1),
   sourceId: z.string().min(1),
   /** ISO 8601 timestamp. */

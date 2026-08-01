@@ -180,7 +180,14 @@ export function NewsPanel({
           // Mobile: fixed drawer, toggled. Desktop: static right rail (collapsible).
           'fixed inset-y-0 right-0 z-30 w-80 max-w-[85vw] overflow-y-auto border-l shadow-2xl',
           open ? 'translate-x-0' : 'translate-x-full',
-          'lg:static lg:z-auto lg:max-w-none lg:translate-x-0 lg:overflow-visible lg:shadow-none',
+          // Desktop: its own scroll container, pinned to the viewport. Previously
+          // the rail was `lg:overflow-visible`, so a few hundred news items made
+          // the whole document that tall and reading the page meant scrolling
+          // past the feed. Sticky + h-screen + overflow-y-auto keeps the article
+          // and the news list scrolling independently of each other.
+          // `lg:bottom-auto lg:right-auto` undo the mobile drawer's inset-y-0 /
+          // right-0, so `top-0` alone governs where the sticky rail settles.
+          'lg:sticky lg:top-0 lg:right-auto lg:bottom-auto lg:z-auto lg:h-screen lg:max-w-none lg:translate-x-0 lg:self-start lg:overflow-y-auto lg:shadow-none',
           // Collapse only shrinks the desktop rail — mobile keeps the full drawer.
           collapsed ? 'lg:w-11 lg:overflow-hidden' : 'lg:w-[21rem]',
         ].join(' ')}

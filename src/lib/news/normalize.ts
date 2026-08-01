@@ -54,6 +54,15 @@ export function stripHtml(input: string): string {
 export function canonicalUrl(raw: string): string {
   try {
     const url = new URL(raw.trim());
+
+    // Feeds are third-party input and this string ends up in an href. Anything
+    // that is not http(s) — javascript:, data: — is dropped rather than
+    // canonicalized, and plaintext is upgraded, so the scheme is settled before
+    // the value can reach disk. The schema enforces the same rule on read; this
+    // is the write-side half.
+    if (url.protocol === 'http:') url.protocol = 'https:';
+    if (url.protocol !== 'https:') return '';
+
     url.hash = '';
     for (const key of [...url.searchParams.keys()]) {
       // ESPN uses ex_cid, Yahoo uses .tsrc, most others use utm_*. Any of them

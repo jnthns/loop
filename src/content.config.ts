@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { HttpsUrlSchema } from '~/lib/schemas/url';
 import { FACET_IDS } from '~/lib/knowledge/facets';
 import { ARCHETYPE_IDS } from '~/lib/builds/archetypes';
 
@@ -32,7 +33,7 @@ const knowledge = defineCollection({
       .array(
         z.object({
           label: z.string(),
-          url: z.url(),
+          url: HttpsUrlSchema,
         }),
       )
       .min(1, 'every knowledge article must cite at least one source'),
@@ -61,7 +62,7 @@ const builds = defineCollection({
       .array(
         z.object({
           label: z.string(),
-          url: z.url(),
+          url: HttpsUrlSchema,
         }),
       )
       .min(2, 'every build must cite at least two expert sources'),

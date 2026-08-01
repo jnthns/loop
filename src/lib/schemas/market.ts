@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { HttpsUrlSchema } from './url';
 
 /**
  * Market data from DynastyProcess (values-players.csv, values-picks.csv,
@@ -14,7 +15,7 @@ import { z } from 'zod';
  * collection already requires in src/content.config.ts. */
 export const SourceSchema = z.object({
   label: z.string().min(1),
-  url: z.url(),
+  url: HttpsUrlSchema,
   kind: z.enum(['dataset', 'rankings', 'market', 'news', 'article']),
 });
 
