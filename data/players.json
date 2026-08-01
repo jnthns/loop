@@ -120,16 +120,16 @@
     "rank": 109
   },
   {
-    "id": "derek-carr",
-    "name": "Derek Carr",
+    "id": "deshaun-watson",
+    "name": "Deshaun Watson",
     "pos": "QB",
-    "nflTeam": "FA",
-    "age": 34,
+    "nflTeam": "CLE",
+    "age": 30,
     "tier": "win-now",
     "notes": "",
-    "sleeperId": "2028",
+    "sleeperId": "4017",
     "rosteredInLeague": false,
-    "rank": 201
+    "rank": 397
   },
   {
     "id": "drake-maye",
@@ -1908,18 +1908,6 @@
     "rank": 128
   },
   {
-    "id": "taysom-hill",
-    "name": "Taysom Hill",
-    "pos": "TE",
-    "nflTeam": "FA",
-    "age": 35,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "4381",
-    "rosteredInLeague": false,
-    "rank": 321
-  },
-  {
     "id": "terrance-ferguson",
     "name": "Terrance Ferguson",
     "pos": "TE",
@@ -2002,6 +1990,18 @@
     "sleeperId": "12518",
     "rosteredInLeague": false,
     "rank": 50
+  },
+  {
+    "id": "will-kacmarek",
+    "name": "Will Kacmarek",
+    "pos": "TE",
+    "nflTeam": "MIA",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13434",
+    "rosteredInLeague": false,
+    "rank": 9999999
   },
   {
     "id": "zach-ertz",
@@ -2098,18 +2098,6 @@
     "sleeperId": "7547",
     "rosteredInLeague": false,
     "rank": 8
-  },
-  {
-    "id": "andrei-iosivas",
-    "name": "Andrei Iosivas",
-    "pos": "WR",
-    "nflTeam": "CIN",
-    "age": 26,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "10226",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "antonio-brown",
@@ -2350,6 +2338,18 @@
     "sleeperId": "2133",
     "rosteredInLeague": false,
     "rank": 46
+  },
+  {
+    "id": "de-zhaun-stribling",
+    "name": "De'Zhaun Stribling",
+    "pos": "WR",
+    "nflTeam": "SF",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13417",
+    "rosteredInLeague": false,
+    "rank": 150
   },
   {
     "id": "deebo-samuel",
@@ -2844,18 +2844,6 @@
     "rank": 41
   },
   {
-    "id": "luke-mccaffrey",
-    "name": "Luke McCaffrey",
-    "pos": "WR",
-    "nflTeam": "WAS",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "11650",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "luther-burden",
     "name": "Luther Burden",
     "pos": "WR",
@@ -2904,18 +2892,6 @@
     "rank": 27
   },
   {
-    "id": "malik-washington",
-    "name": "Malik Washington",
-    "pos": "WR",
-    "nflTeam": "MIA",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "11610",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "marvin-harrison",
     "name": "Marvin Harrison",
     "pos": "WR",
@@ -2944,7 +2920,7 @@
     "name": "Matthew Golden",
     "pos": "WR",
     "nflTeam": "GB",
-    "age": 22,
+    "age": 23,
     "tier": "starter",
     "notes": "",
     "sleeperId": "12501",
@@ -3010,18 +2986,6 @@
     "sleeperId": "4234",
     "rosteredInLeague": false,
     "rank": 150
-  },
-  {
-    "id": "odell-beckham",
-    "name": "Odell Beckham",
-    "pos": "WR",
-    "nflTeam": "NYG",
-    "age": 33,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "2078",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "omar-cooper",

@@ -139,6 +139,27 @@
     ]
   },
   {
+    "id": "qwgh9d1faqdrt",
+    "title": "‘Deebo’s my guy,’ Mike Evans dishes on personal relationship with newest 49ers WR",
+    "url": "https://sports.yahoo.com/articles/deebo-guy-mike-evans-dishes-235412622.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-07-31T23:54:12.000Z",
+    "summary": "Mike Evans praised the San Francisco 49ers signing \"really cool guy\" Deebo Samuel.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [
+      "deebo-samuel",
+      "mike-evans"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "cthgvp9bz79j",
     "title": "Tory Horton reveals major details on last year’s season-ending shin injury",
     "url": "https://sports.yahoo.com/articles/tory-horton-reveals-major-details-233555112.html",
@@ -3390,7 +3411,9 @@
       "usage",
       "CLE"
     ],
-    "players": [],
+    "players": [
+      "deshaun-watson"
+    ],
     "teams": [
       "CLE"
     ]
