@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-02T13:52:46.173Z",
+  "capturedAt": "2026-08-02T19:32:39.152Z",
   "lookbackHours": 24,
   "adds": [
     {
@@ -8,7 +8,7 @@
       "name": "Cyrus Allen",
       "pos": "WR",
       "nflTeam": "KC",
-      "count": 77268
+      "count": 59178
     },
     {
       "playerId": "roman-wilson",
@@ -16,7 +16,7 @@
       "name": "Roman Wilson",
       "pos": "WR",
       "nflTeam": "PIT",
-      "count": 39627
+      "count": 31680
     },
     {
       "playerId": "malik-benson",
@@ -24,7 +24,7 @@
       "name": "Malik Benson",
       "pos": "WR",
       "nflTeam": "LV",
-      "count": 29346
+      "count": 22548
     },
     {
       "playerId": "jack-strand",
@@ -32,7 +32,7 @@
       "name": "Jack Strand",
       "pos": "QB",
       "nflTeam": "ATL",
-      "count": 16425
+      "count": 12950
     },
     {
       "playerId": "caleb-douglas",
@@ -40,7 +40,7 @@
       "name": "Caleb Douglas",
       "pos": "WR",
       "nflTeam": "MIA",
-      "count": 13392
+      "count": 12256
     },
     {
       "playerId": "justice-hill",
@@ -48,7 +48,7 @@
       "name": "Justice Hill",
       "pos": "RB",
       "nflTeam": "BAL",
-      "count": 10953
+      "count": 9468
     },
     {
       "playerId": "ryan-flournoy",
@@ -56,7 +56,7 @@
       "name": "Ryan Flournoy",
       "pos": "WR",
       "nflTeam": "DAL",
-      "count": 10160
+      "count": 8600
     },
     {
       "playerId": "zavion-thomas",
@@ -64,7 +64,7 @@
       "name": "Zavion Thomas",
       "pos": "WR",
       "nflTeam": "CHI",
-      "count": 9162
+      "count": 8316
     },
     {
       "playerId": "jalen-nailor",
@@ -72,79 +72,7 @@
       "name": "Jalen Nailor",
       "pos": "WR",
       "nflTeam": "LV",
-      "count": 8649
-    },
-    {
-      "playerId": "erick-all",
-      "sleeperId": "11592",
-      "name": "Erick All",
-      "pos": "TE",
-      "nflTeam": "CIN",
-      "count": 8514
-    },
-    {
-      "playerId": "eli-raridon",
-      "sleeperId": "13421",
-      "name": "Eli Raridon",
-      "pos": "TE",
-      "nflTeam": "NE",
-      "count": 8330
-    },
-    {
-      "playerId": "jaydon-blue",
-      "sleeperId": "12457",
-      "name": "Jaydon Blue",
-      "pos": "RB",
-      "nflTeam": "DAL",
-      "count": 8240
-    },
-    {
-      "playerId": "tyquan-thornton",
-      "sleeperId": "8188",
-      "name": "Tyquan Thornton",
-      "pos": "WR",
-      "nflTeam": "KC",
-      "count": 7665
-    },
-    {
-      "playerId": "isaiah-davis",
-      "sleeperId": "11571",
-      "name": "Isaiah Davis",
-      "pos": "RB",
-      "nflTeam": "NYJ",
-      "count": 6327
-    },
-    {
-      "playerId": "will-kacmarek",
-      "sleeperId": "13434",
-      "name": "Will Kacmarek",
-      "pos": "TE",
-      "nflTeam": "MIA",
-      "count": 5960
-    },
-    {
-      "playerId": "j-mari-taylor",
-      "sleeperId": "13348",
-      "name": "J'Mari Taylor",
-      "pos": "RB",
-      "nflTeam": "JAX",
-      "count": 5787
-    },
-    {
-      "playerId": "colbie-young",
-      "sleeperId": "13477",
-      "name": "Colbie Young",
-      "pos": "WR",
-      "nflTeam": "CIN",
-      "count": 5556
-    },
-    {
-      "playerId": "treylon-burks",
-      "sleeperId": "8135",
-      "name": "Treylon Burks",
-      "pos": "WR",
-      "nflTeam": "WAS",
-      "count": 5229
+      "count": 7929
     },
     {
       "playerId": "taysom-hill",
@@ -152,15 +80,47 @@
       "name": "Taysom Hill",
       "pos": "TE",
       "nflTeam": "FA",
-      "count": 5096
+      "count": 7105
     },
     {
-      "playerId": "malik-washington",
-      "sleeperId": "11610",
-      "name": "Malik Washington",
+      "playerId": "eli-raridon",
+      "sleeperId": "13421",
+      "name": "Eli Raridon",
+      "pos": "TE",
+      "nflTeam": "NE",
+      "count": 6489
+    },
+    {
+      "playerId": "erick-all",
+      "sleeperId": "11592",
+      "name": "Erick All",
+      "pos": "TE",
+      "nflTeam": "CIN",
+      "count": 6384
+    },
+    {
+      "playerId": "tyquan-thornton",
+      "sleeperId": "8188",
+      "name": "Tyquan Thornton",
       "pos": "WR",
-      "nflTeam": "MIA",
-      "count": 5048
+      "nflTeam": "KC",
+      "count": 6265
+    },
+    {
+      "playerId": "jaydon-blue",
+      "sleeperId": "12457",
+      "name": "Jaydon Blue",
+      "pos": "RB",
+      "nflTeam": "DAL",
+      "count": 6264
+    },
+    {
+      "playerId": "isaiah-davis",
+      "sleeperId": "11571",
+      "name": "Isaiah Davis",
+      "pos": "RB",
+      "nflTeam": "NYJ",
+      "count": 5166
     },
     {
       "playerId": "malik-willis",
@@ -168,7 +128,47 @@
       "name": "Malik Willis",
       "pos": "QB",
       "nflTeam": "MIA",
-      "count": 4991
+      "count": 5047
+    },
+    {
+      "playerId": "j-mari-taylor",
+      "sleeperId": "13348",
+      "name": "J'Mari Taylor",
+      "pos": "RB",
+      "nflTeam": "JAX",
+      "count": 5004
+    },
+    {
+      "playerId": "will-kacmarek",
+      "sleeperId": "13434",
+      "name": "Will Kacmarek",
+      "pos": "TE",
+      "nflTeam": "MIA",
+      "count": 4928
+    },
+    {
+      "playerId": "colbie-young",
+      "sleeperId": "13477",
+      "name": "Colbie Young",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "count": 4614
+    },
+    {
+      "playerId": "treylon-burks",
+      "sleeperId": "8135",
+      "name": "Treylon Burks",
+      "pos": "WR",
+      "nflTeam": "WAS",
+      "count": 4298
+    },
+    {
+      "playerId": "malik-washington",
+      "sleeperId": "11610",
+      "name": "Malik Washington",
+      "pos": "WR",
+      "nflTeam": "MIA",
+      "count": 4256
     },
     {
       "playerId": "kaelon-black",
@@ -176,15 +176,7 @@
       "name": "Kaelon Black",
       "pos": "RB",
       "nflTeam": "SF",
-      "count": 4522
-    },
-    {
-      "playerId": "terrance-ferguson",
-      "sleeperId": "12487",
-      "name": "Terrance Ferguson",
-      "pos": "TE",
-      "nflTeam": "LAR",
-      "count": 4240
+      "count": 4179
     },
     {
       "playerId": "keaton-mitchell",
@@ -192,7 +184,15 @@
       "name": "Keaton Mitchell",
       "pos": "RB",
       "nflTeam": "LAC",
-      "count": 4239
+      "count": 4023
+    },
+    {
+      "playerId": "terrance-ferguson",
+      "sleeperId": "12487",
+      "name": "Terrance Ferguson",
+      "pos": "TE",
+      "nflTeam": "LAR",
+      "count": 3984
     }
   ],
   "drops": [
@@ -202,7 +202,7 @@
       "name": "Ricky Pearsall",
       "pos": "WR",
       "nflTeam": "SF",
-      "count": 23289
+      "count": 14567
     },
     {
       "playerId": "darren-waller",
@@ -210,15 +210,7 @@
       "name": "Darren Waller",
       "pos": "TE",
       "nflTeam": "FA",
-      "count": 12294
-    },
-    {
-      "playerId": "tyreek-hill",
-      "sleeperId": "3321",
-      "name": "Tyreek Hill",
-      "pos": "WR",
-      "nflTeam": "FA",
-      "count": 9032
+      "count": 12645
     },
     {
       "playerId": "zach-ertz",
@@ -226,7 +218,15 @@
       "name": "Zach Ertz",
       "pos": "TE",
       "nflTeam": "FA",
-      "count": 8595
+      "count": 8991
+    },
+    {
+      "playerId": "tyreek-hill",
+      "sleeperId": "3321",
+      "name": "Tyreek Hill",
+      "pos": "WR",
+      "nflTeam": "FA",
+      "count": 8296
     },
     {
       "playerId": "emanuel-wilson",
@@ -234,7 +234,7 @@
       "name": "Emanuel Wilson",
       "pos": "RB",
       "nflTeam": "SEA",
-      "count": 7992
+      "count": 8217
     },
     {
       "playerId": "trey-benson",
@@ -242,7 +242,7 @@
       "name": "Trey Benson",
       "pos": "RB",
       "nflTeam": "ARI",
-      "count": 7128
+      "count": 7446
     },
     {
       "playerId": "devin-singletary",
@@ -250,7 +250,7 @@
       "name": "Devin Singletary",
       "pos": "RB",
       "nflTeam": "NYG",
-      "count": 6912
+      "count": 7290
     },
     {
       "playerId": "brashard-smith",
@@ -258,7 +258,7 @@
       "name": "Brashard Smith",
       "pos": "RB",
       "nflTeam": "KC",
-      "count": 6510
+      "count": 6580
     },
     {
       "playerId": "calvin-austin",
@@ -266,7 +266,7 @@
       "name": "Calvin Austin",
       "pos": "WR",
       "nflTeam": "NYG",
-      "count": 6075
+      "count": 6192
     },
     {
       "playerId": "jonnu-smith",
@@ -274,7 +274,7 @@
       "name": "Jonnu Smith",
       "pos": "TE",
       "nflTeam": "FA",
-      "count": 5943
+      "count": 6125
     },
     {
       "playerId": "kareem-hunt",
@@ -282,15 +282,7 @@
       "name": "Kareem Hunt",
       "pos": "RB",
       "nflTeam": "FA",
-      "count": 5784
-    },
-    {
-      "playerId": "kyle-williams",
-      "sleeperId": "12547",
-      "name": "Kyle Williams",
-      "pos": "WR",
-      "nflTeam": "NE",
-      "count": 5770
+      "count": 6080
     },
     {
       "playerId": "chimere-dike",
@@ -298,7 +290,7 @@
       "name": "Chimere Dike",
       "pos": "WR",
       "nflTeam": "TEN",
-      "count": 5715
+      "count": 5652
     },
     {
       "playerId": "quinn-ewers",
@@ -306,23 +298,15 @@
       "name": "Quinn Ewers",
       "pos": "QB",
       "nflTeam": "MIA",
-      "count": 5562
+      "count": 5580
     },
     {
-      "playerId": "john-metchie",
-      "sleeperId": "8147",
-      "name": "John Metchie",
+      "playerId": "kyle-williams",
+      "sleeperId": "12547",
+      "name": "Kyle Williams",
       "pos": "WR",
-      "nflTeam": "CAR",
-      "count": 5264
-    },
-    {
-      "playerId": "najee-harris",
-      "sleeperId": "7528",
-      "name": "Najee Harris",
-      "pos": "RB",
-      "nflTeam": "FA",
-      "count": 5175
+      "nflTeam": "NE",
+      "count": 5500
     },
     {
       "playerId": "devaughn-vele",
@@ -330,15 +314,23 @@
       "name": "Devaughn Vele",
       "pos": "WR",
       "nflTeam": "NO",
-      "count": 5110
+      "count": 5369
     },
     {
-      "playerId": "marvin-mims",
-      "sleeperId": "9494",
-      "name": "Marvin Mims",
+      "playerId": "john-metchie",
+      "sleeperId": "8147",
+      "name": "John Metchie",
       "pos": "WR",
-      "nflTeam": "DEN",
-      "count": 4509
+      "nflTeam": "CAR",
+      "count": 5320
+    },
+    {
+      "playerId": "najee-harris",
+      "sleeperId": "7528",
+      "name": "Najee Harris",
+      "pos": "RB",
+      "nflTeam": "FA",
+      "count": 5220
     },
     {
       "playerId": "keenan-allen",
@@ -346,7 +338,15 @@
       "name": "Keenan Allen",
       "pos": "WR",
       "nflTeam": "FA",
-      "count": 4412
+      "count": 4416
+    },
+    {
+      "playerId": "marvin-mims",
+      "sleeperId": "9494",
+      "name": "Marvin Mims",
+      "pos": "WR",
+      "nflTeam": "DEN",
+      "count": 4401
     },
     {
       "playerId": "taysom-hill",
@@ -354,7 +354,7 @@
       "name": "Taysom Hill",
       "pos": "TE",
       "nflTeam": "FA",
-      "count": 4403
+      "count": 4305
     },
     {
       "playerId": "keandre-lambert-smith",
@@ -362,31 +362,7 @@
       "name": "KeAndre Lambert-Smith",
       "pos": "WR",
       "nflTeam": "LAC",
-      "count": 4284
-    },
-    {
-      "playerId": "luke-mccaffrey",
-      "sleeperId": "11650",
-      "name": "Luke McCaffrey",
-      "pos": "WR",
-      "nflTeam": "WAS",
-      "count": 4263
-    },
-    {
-      "playerId": "malik-davis",
-      "sleeperId": "8800",
-      "name": "Malik Davis",
-      "pos": "RB",
-      "nflTeam": "DAL",
-      "count": 4140
-    },
-    {
-      "playerId": "dillon-gabriel",
-      "sleeperId": "12486",
-      "name": "Dillon Gabriel",
-      "pos": "QB",
-      "nflTeam": "CLE",
-      "count": 4137
+      "count": 4302
     },
     {
       "playerId": "darnell-mooney",
@@ -394,7 +370,23 @@
       "name": "Darnell Mooney",
       "pos": "WR",
       "nflTeam": "NYG",
-      "count": 4104
+      "count": 4122
+    },
+    {
+      "playerId": "luke-mccaffrey",
+      "sleeperId": "11650",
+      "name": "Luke McCaffrey",
+      "pos": "WR",
+      "nflTeam": "WAS",
+      "count": 4095
+    },
+    {
+      "playerId": "roman-wilson",
+      "sleeperId": "11630",
+      "name": "Roman Wilson",
+      "pos": "WR",
+      "nflTeam": "PIT",
+      "count": 4005
     }
   ]
 }
