@@ -1,5 +1,408 @@
 [
   {
+    "id": "1ls2rgyqqjczm",
+    "title": "Will Levis is confident in his ability coming back from injury",
+    "url": "https://www.espn.com/video/clip/_/id/49508607/will-levis-confident-ability-coming-back-injury",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-02T00:02:52.000Z",
+    "summary": "Will Levis is confident in his ability coming back from injury",
+    "tags": [
+      "league-news",
+      "injury",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "1lq74hqysdyae",
+    "title": "Cardinals place DT Mustipher on IR, make claim",
+    "url": "https://sports.yahoo.com/articles/cardinals-place-dt-mustipher-ir-224042780.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T22:40:42.000Z",
+    "summary": "Corresponding transaction for the defensive line",
+    "tags": [
+      "league-news",
+      "injury",
+      "ARI"
+    ],
+    "players": [],
+    "teams": [
+      "ARI"
+    ]
+  },
+  {
+    "id": "t95scva2x345",
+    "title": "Andy Reid: Patrick Mahomes sure looks sharp out there",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-patrick-mahomes-sure-looks-sharp-out-there",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-01T22:23:47.000Z",
+    "summary": "Chiefs head coach Andy Reid continues to see positive signs from Patrick Mahomes in the quarterback's recovery from a torn ACL.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "KC"
+    ],
+    "players": [
+      "patrick-mahomes"
+    ],
+    "teams": [
+      "KC"
+    ]
+  },
+  {
+    "id": "16wbadv1uoq0kv",
+    "title": "C.J. Gardner-Johnson diagnosed with a calf strain",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-gardner-johnson-diagnosed-with-a-calf-strain",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-01T22:12:43.000Z",
+    "summary": "An MRI delivered good news to Bills safety C.J.",
+    "tags": [
+      "league-news",
+      "injury",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "prwwfbry75q3",
+    "title": "C.J. Gardner-Johnson diagnosed with a calf strain",
+    "url": "https://sports.yahoo.com/articles/c-j-gardner-johnson-diagnosed-221243128.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T22:12:43.000Z",
+    "summary": "An MRI delivered good news to Bills safety C.J.",
+    "tags": [
+      "league-news",
+      "injury",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "q7gprbvmokv5",
+    "title": "Will Levis '100 percent' believes he can still be an NFL starter: 'There are not 32 quarterbacks in this league better than me'",
+    "url": "https://sports.yahoo.com/nfl/article/will-levis-100-percent-believes-he-can-still-be-an-nfl-starter-there-are-not-32-quarterbacks-in-this-league-better-than-me-220406481.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T22:04:06.000Z",
+    "summary": "Levis posted a 5-16 record as the Tennessee Titans' QB1 from 2023-24.",
+    "tags": [
+      "league-news",
+      "usage",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "1gacyqv17mbe59",
+    "title": "Buffalo Bills S C.J. Gardner-Johnson avoids serious injury on day 3 of training camp",
+    "url": "https://sports.yahoo.com/articles/buffalo-bills-c-j-gardner-220240300.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T22:02:40.000Z",
+    "summary": "Further tests reveal encouraging news about Buffalo Bills safety C.J. Gardner-Johnson’s injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "q1andwz5jmt8",
+    "title": "Bo Nix says his surgically repaired ankle won't hold him back",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nix-says-his-surgically-repaired-ankle-wont-hold-him-back",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-01T21:51:52.000Z",
+    "summary": "Broncos quarterback Bo Nix is back practicing on his surgically repaired right ankle, which he fractured at the end of the divisional-round win over the Bills.",
+    "tags": [
+      "league-news",
+      "injury",
+      "BUF",
+      "DEN"
+    ],
+    "players": [
+      "bo-nix"
+    ],
+    "teams": [
+      "BUF",
+      "DEN"
+    ]
+  },
+  {
+    "id": "skwabzt2s66l",
+    "title": "Bo Nix says his surgically repaired ankle won't hold him back",
+    "url": "https://sports.yahoo.com/articles/bo-nix-says-surgically-repaired-215152829.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T21:51:52.000Z",
+    "summary": "Broncos quarterback Bo Nix is back practicing on his surgically repaired right ankle, which he fractured at the end of the divisional-round win over the Bills.",
+    "tags": [
+      "league-news",
+      "injury",
+      "BUF",
+      "DEN"
+    ],
+    "players": [
+      "bo-nix"
+    ],
+    "teams": [
+      "BUF",
+      "DEN"
+    ]
+  },
+  {
+    "id": "1gnv5dmxcx2t6",
+    "title": "Seahawks sign LB Joseph Vaughn",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-lb-joseph-vaughn",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-01T21:22:32.000Z",
+    "summary": "The Seahawks added depth at linebacker on Saturday by signing Joseph Vaughn, the team announced.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "13gckwx1u634cv",
+    "title": "Seahawks sign LB Joseph Vaughn",
+    "url": "https://sports.yahoo.com/articles/seahawks-sign-lb-joseph-vaughn-212232242.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T21:22:32.000Z",
+    "summary": "The Seahawks added depth at linebacker on Saturday by signing Joseph Vaughn, the team announced.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "xmwpmhxf3j1f",
+    "title": "Reports: Lions rookie Jimmy Rolder out ‘a while,’ but injury not ‘severe’",
+    "url": "https://sports.yahoo.com/articles/lions-rookie-jimmy-rolder-while-204042089.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T20:40:42.000Z",
+    "summary": "Detroit Lions fourth-round rookie LB Jimmy Rolder is expected to miss significant time after his injury at training camp.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "DET"
+    ],
+    "players": [],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "102wjtnnzylar",
+    "title": "Jaylon Johnson: 2026 is definitely a contract year for me",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaylon-johnson-2026-is-definitely-a-contract-year-for-me",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-01T20:26:45.000Z",
+    "summary": "Bears cornerback Jaylon Johnson has two more years on his current deal, but he's looking at things a bit differently.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "8m6216ud468k",
+    "title": "Seahawks sign one former UDFA linebacker as they waive/injured another",
+    "url": "https://sports.yahoo.com/articles/seahawks-sign-one-former-udfa-202213213.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T20:22:13.000Z",
+    "summary": "It’s training camp, and that means continual churn at the bottom of the roster as Seattle looks to defend its Super Bowl title.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "roster-move",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1ml69jt16lvk85",
+    "title": "Bengals tight end’s injury-return confidence buoyed after being hit by truck: ‘Oh, I’m back’",
+    "url": "https://sports.yahoo.com/articles/bengals-tight-end-injury-return-201925807.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T20:19:25.000Z",
+    "summary": "If Bengals tight end Erick All Jr. was looking for confidence in his comeback from injury, he found it in an unexpected place.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CIN"
+    ],
+    "players": [
+      "erick-all"
+    ],
+    "teams": [
+      "CIN"
+    ]
+  },
+  {
+    "id": "12xibazs0aqnv",
+    "title": "49ers rookie DE Mikail Kamara carted off practice field with apparent knee injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-rookie-de-mikail-kamara-carted-off-practice-field-with-apparent-knee-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-01T20:04:31.000Z",
+    "summary": "San Francisco 49ers rookie defensive end Mikail Kamara was carted off the practice field at training camp today.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "svatbhclu545",
+    "title": "49ers rookie DE Mikail Kamara carted off practice field with apparent knee injury",
+    "url": "https://sports.yahoo.com/articles/49ers-rookie-mikail-kamara-carted-200431476.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T20:04:31.000Z",
+    "summary": "San Francisco 49ers rookie defensive end Mikail Kamara was carted off the practice field at training camp today.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "05b3s2a2q4gs",
+    "title": "Ricky Pearsall injury: 49ers receiver to undergo season-ending surgery on lingering PCL",
+    "url": "https://www.cbssports.com/nfl/news/ricky-pearsall-injury-49ers-receiver-season-ending-surgery",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-01T19:57:01.000Z",
+    "summary": "Pearsall has been dealing with the issue since last season",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "ricky-pearsall"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "itf2h11w4aftd",
+    "title": "Am I the only one who’s not buying into the Stribling hype?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vcwht5/am_i_the_only_one_whos_not_buying_into_the",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-01T19:35:18.000Z",
+    "summary": "After the Ricky Pearsall news, it seems like his value is skyrocketing and everyone is almost expecting him to be the 49ers bonafide WR1 of the future. I am not sold on him yet though, what am I missing here? He wasn’t some remarkable prospect coming out of college, the draft capital was good but consensus seems to be that it was a bit of a reach. Even without Pearsall, it seems the most likely sc",
+    "tags": [
+      "dynasty",
+      "rookie",
+      "SF"
+    ],
+    "players": [
+      "ricky-pearsall"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "cz9qwx1s8pqpt",
+    "title": "Reports: Chiefs WR Cyrus Allen day-to-day with shin bruise",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-chiefs-wr-cyrus-allen-day-to-day-with-shin-bruise",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-01T19:32:30.000Z",
+    "summary": "Chiefs rookie wide receiver Cyrus Allen appears to have avoided a serious injury on Saturday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "KC"
+    ],
+    "players": [
+      "cyrus-allen"
+    ],
+    "teams": [
+      "KC"
+    ]
+  },
+  {
+    "id": "1rwfc4ura8j84",
+    "title": "Detroit Lions signing former All-Pro veteran linebacker",
+    "url": "https://sports.yahoo.com/articles/detroit-lions-signing-former-pro-193211676.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-01T19:32:11.000Z",
+    "summary": "The Detroit Lions are signing Devin White, who is a former All-Pro linebacker",
+    "tags": [
+      "league-news",
+      "contract",
+      "DET"
+    ],
+    "players": [],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
     "id": "14umjgy1t7ak6c",
     "title": "Tests on Chiefs rookie WR Cyrus Allen revealed a shin bruise, per source. Nothing was torn or broken - a best-case scenario.",
     "url": "https://www.reddit.com/r/DynastyFF/comments/1vcw6ex/tests_on_chiefs_rookie_wr_cyrus_allen_revealed_a",
@@ -43,7 +446,7 @@
   },
   {
     "id": "1q3l0r5e775yb",
-    "title": "49ers’ WR De’Zhaun Stribling has hamstring tightness; Rookie pass rusher carted off",
+    "title": "49ers injuries: De’Zhaun Stribling has hamstring tightness; Keion White has an adductor issue",
     "url": "https://sports.yahoo.com/articles/49ers-wr-zhaun-stribling-sits-181308059.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
@@ -7079,384 +7482,6 @@
     "players": [],
     "teams": [
       "SF"
-    ]
-  },
-  {
-    "id": "1pwg0bp1xddbk5",
-    "title": "Mickey Loomis: Hopeful about Chris Olave contract extension, but not there yet",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mickey-loomis-hopeful-about-chris-olave-contract-extension-but-not-there-yet",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-29T11:32:02.000Z",
-    "summary": "Wide receiver Chris Olave's contract was a topic of conversation at Saints General Manager Mickey Loomis's press conference on Tuesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "18uq7sb1r8zsn3",
-    "title": "Leonard Williams: There's been a few conversations about a new contract",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/leonard-williams-theres-been-a-few-conversations-about-a-new-contract",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-29T11:17:46.000Z",
-    "summary": "Jalen Carter agreed to a new deal with the Eagles this week that will make him the highest-paid defensive tackle in the league and that development is of interest to plenty of people outside of Philadelphia.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "1efxeha17ey2z2",
-    "title": "Leonard Williams: There's been a few conversations about a new contract",
-    "url": "https://sports.yahoo.com/articles/leonard-williams-theres-few-conversations-111746850.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T11:17:46.000Z",
-    "summary": "Jalen Carter agreed to a new deal with the Eagles this week that will make him the highest-paid defensive tackle in the league and that development is of interest to plenty of people outside of Philadelphia.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "ccbu6417q2ku2",
-    "title": "Eagles News: Jalen Carter contract extension draws praise",
-    "url": "https://sports.yahoo.com/articles/eagles-news-jalen-carter-contract-110548250.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T11:05:48.000Z",
-    "summary": "Philadelphia Eagles news and links for 7/29/26.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "vdo7sfv43fxr",
-    "title": "Colts GM Chris Ballard provides encouraging injury update on standout wideout",
-    "url": "https://sports.yahoo.com/articles/colts-gm-chris-ballard-provides-022023252.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T02:20:23.000Z",
-    "summary": "It sure sounds like Alec Pierce will return to the Colts training camp field sooner rather than later.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1uu1peo1djtqlc",
-    "title": "Tank Dell cleared for Texans return after losing 2025 season to knee injury horror",
-    "url": "https://sports.yahoo.com/articles/tank-dell-cleared-texans-return-015808834.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T01:58:08.000Z",
-    "summary": "Texans fans just got news they’ve been waiting months to hear.",
-    "tags": [
-      "league-news",
-      "injury",
-      "HOU"
-    ],
-    "players": [
-      "tank-dell"
-    ],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "w4kadpq96gsj",
-    "title": "Bodycam video of Tony Romo arrest is released",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bodycam-video-of-tony-romo-arrest-is-released",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-29T01:55:51.000Z",
-    "summary": "The video from the arrest of former Cowboys quarterback and CBS analyst Tony Romo has emerged.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1bbd5zvx1npo7",
-    "title": "Is the Parker Washington hype real? Or just…hype?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1v9hh97/is_the_parker_washington_hype_real_or_justhype",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-07-29T01:17:44.000Z",
-    "summary": "It feels like every fantasy “expert” has a Parker Washington take. And on paper, with good reason. He led the Jaguars in receiving and finished the year looking like a real WR1. My question is whether that was a player leveling up or a player standing in exactly the right spot for nine weeks? Here’s what bothers me. He opened the season fourth on the depth chart behind Brian Thomas Jr., Travis Hun",
-    "tags": [
-      "dynasty",
-      "usage",
-      "JAX"
-    ],
-    "players": [],
-    "teams": [
-      "JAX"
-    ]
-  },
-  {
-    "id": "150qyh0cn5f7y",
-    "title": "Saints announce several roster moves before training camp",
-    "url": "https://sports.yahoo.com/articles/saints-announce-several-roster-moves-011641523.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T01:16:41.000Z",
-    "summary": "Injury designations and a new body on defense",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "1i2v46n1uoi6id",
-    "title": "Breece Hall ‘more hungry’ to prove himself after landing $43.5 million Jets deal",
-    "url": "https://sports.yahoo.com/articles/breece-hall-more-hungry-prove-011356876.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T01:13:56.000Z",
-    "summary": "It’s one thing to prove you were worth a second-round pick, it’s a whole new ball game trying to prove you’re worth a long-term contract as a 25-year-old running back.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "1tch5k11lqjm5b",
-    "title": "Adam Peters gets a creative question about Brandon Aiyuk",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/adam-peters-gets-a-creative-question-about-brandon-aiyuk",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-29T00:11:29.000Z",
-    "summary": "When it comes to players under contract with one team, other teams generally shy away from saying anything about him.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "83p9dccp2f1a",
-    "title": "Adam Peters gets a creative question about Brandon Aiyuk",
-    "url": "https://sports.yahoo.com/articles/adam-peters-gets-creative-brandon-001129989.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T00:11:29.000Z",
-    "summary": "When it comes to players under contract with one team, other teams generally shy away from saying anything about him.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "4op9sn1x8t3pv",
-    "title": "Tony Romo’s drunk-driving arrest captured on bodycam, including argument with cop: ‘You think I’m drunk?’",
-    "url": "https://sports.yahoo.com/articles/tony-romo-drunk-driving-arrest-235759835.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-28T23:57:59.000Z",
-    "summary": "Tony Romo argued with a female cop about making a call to his lawyer during his arrest in Wisconsin last week, new video from the scene obtained by the California...",
-    "tags": [
-      "league-news",
-      "discipline"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "qvmq3kv03ejo",
-    "title": "49ers sign versatile defender Quinton Bell to a one-year deal",
-    "url": "https://sports.yahoo.com/articles/49ers-sign-versatile-defender-quinton-231903821.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-28T23:19:03.000Z",
-    "summary": "The 49ers are signing former Dolphins defender Quinton Bell",
-    "tags": [
-      "league-news",
-      "contract",
-      "MIA",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "MIA",
-      "SF"
-    ]
-  },
-  {
-    "id": "8b04im1geubv4",
-    "title": "Chargers sign LS Peter Bowden",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-sign-ls-peter-bowden",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-28T23:01:48.000Z",
-    "summary": "The Chargers made the release of offensive guard Ben Cleveland official on Tuesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "lb0xfk1l0vfg6",
-    "title": "Chargers sign LS Peter Bowden",
-    "url": "https://sports.yahoo.com/articles/chargers-sign-ls-peter-bowden-230148050.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-28T23:01:48.000Z",
-    "summary": "The Chargers made the release of offensive guard Ben Cleveland official on Tuesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "1q9ih2xnt38q7",
-    "title": "Jerry Jones is willing to give up a top pick for a defensive playmaker",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-is-willing-to-give-up-a-top-pick-for-a-defensive-playmaker",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-28T22:53:36.000Z",
-    "summary": "The Cowboys owner said he talked to another owner about a trade as recently as Monday.",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "5bfn73limahn",
-    "title": "Jerry Jones is willing to give up a top pick for a defensive playmaker",
-    "url": "https://sports.yahoo.com/articles/jerry-jones-willing-top-pick-225336000.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-28T22:53:36.000Z",
-    "summary": "The Cowboys owner said he talked to another owner about a trade as recently as Monday.",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "fv5f2jflmrex",
-    "title": "RB Zach Charbonnet (knee) is a \"potential close call\" to be ready for Week 1, per @AlbertBreer \"The Seahawks are going to be smart with him, in the hopes that they get his best when it matters most.\"",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1v9dtuy/rb_zach_charbonnet_knee_is_a_potential_close_call",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-07-28T22:45:54.000Z",
-    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "SEA",
-      "availability"
-    ],
-    "players": [
-      "zach-charbonnet"
-    ],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "133h01410pi5yw",
-    "title": "Browns set to make Denzel Ward the NFL’s top-paid cornerback on record $62.2 million contract",
-    "url": "https://sports.yahoo.com/articles/browns-set-denzel-ward-nfl-224444978.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-28T22:44:44.000Z",
-    "summary": "At least Browns fans will have one thing to cheer about for the next few seasons.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "kqju8137d01f",
-    "title": "NFL contracts: Denzel Ward’s contract extension tops the top 10 cornerback deals",
-    "url": "https://sports.yahoo.com/articles/nfl-contracts-denzel-ward-contract-224426032.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-28T22:44:26.000Z",
-    "summary": "Cleveland Browns reportedly made Denzel Ward the highest paid DB. A look at the Top 10 cornerback contracts prior to his extension",
-    "tags": [
-      "league-news",
-      "contract",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
     ]
   }
 ]
