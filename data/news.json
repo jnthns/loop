@@ -1,5 +1,192 @@
 [
   {
+    "id": "phz0ev1ejwnop",
+    "title": "The Golden Fool’s Mailbag: Mykel Williams/George Kittle return, 49ers injuries, Kyle Shanahan",
+    "url": "https://sports.yahoo.com/articles/golden-fool-mailbag-mykel-williams-133100398.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-02T13:31:00.000Z",
+    "summary": "We haven’t done one of these in awhile. Let’s go through some questions.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "fj7lnu1qa2fi2",
+    "title": "Jaguars sign LB Jared Bartlett",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-sign-lb-jared-bartlett",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-02T12:42:29.000Z",
+    "summary": "The Jaguars announced the signing of a linebacker on Sunday morning.",
+    "tags": [
+      "league-news",
+      "contract",
+      "JAX"
+    ],
+    "players": [],
+    "teams": [
+      "JAX"
+    ]
+  },
+  {
+    "id": "1wdxg061n2d86m",
+    "title": "Jaguars sign LB Jared Bartlett",
+    "url": "https://sports.yahoo.com/articles/jaguars-sign-lb-jared-bartlett-124229744.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-02T12:42:29.000Z",
+    "summary": "The Jaguars announced the signing of a linebacker on Sunday morning.",
+    "tags": [
+      "league-news",
+      "contract",
+      "JAX"
+    ],
+    "players": [],
+    "teams": [
+      "JAX"
+    ]
+  },
+  {
+    "id": "19v2q556g874h",
+    "title": "Raiders sign TE Zack Kuntz",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-sign-te-zack-kuntz",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-02T12:23:27.000Z",
+    "summary": "The Raiders added a tight end to their roster on Saturday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LV"
+    ],
+    "players": [],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "1fhjxueqsqx20",
+    "title": "Raiders sign TE Zack Kuntz",
+    "url": "https://sports.yahoo.com/articles/raiders-sign-te-zack-kuntz-122327801.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-02T12:23:27.000Z",
+    "summary": "The Raiders added a tight end to their roster on Saturday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LV"
+    ],
+    "players": [],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "t63ys3saw88r",
+    "title": "Bengals News (8/2): Maxx Crosby Worth 2 First-Round Picks for Cincinnati?",
+    "url": "https://sports.yahoo.com/articles/bengals-news-8-2-maxx-103900408.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-02T10:39:00.000Z",
+    "summary": "With the Shemar Stewart injury, should the Bengals re-examine another blockbuster trade?",
+    "tags": [
+      "league-news",
+      "injury",
+      "trade",
+      "CIN"
+    ],
+    "players": [],
+    "teams": [
+      "CIN"
+    ]
+  },
+  {
+    "id": "nve4w11ior4e5",
+    "title": "Kevin Stefanski: We all trust in the process of Bijan Robinson's contract negotiations",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-stefanski-we-all-trust-in-the-process-of-bijan-robinsons-contract-negotiations",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-02T10:35:18.000Z",
+    "summary": "Falcons running back Bijan Robinson is not fully participating in training camp as he seeks a new contract.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "13duwbw1obxghk",
+    "title": "Kevin Stefanski: We all trust in the process of Bijan Robinson's contract negotiations",
+    "url": "https://sports.yahoo.com/articles/kevin-stefanski-trust-process-bijan-103518946.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-02T10:35:18.000Z",
+    "summary": "Falcons running back Bijan Robinson is not fully participating in training camp as he seeks a new contract.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "7biqo315k107b",
+    "title": "What to expect from Seahawks on 'Hard Knocks' debut",
+    "url": "https://www.espn.com/nfl/story/_/id/49499878/seattle-seahawks-hard-knocks-hbo-debut-tuesday-preview",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-02T10:00:12.000Z",
+    "summary": "From shadowboxing to Leonard Williams' hobbies to Devon Witherspoon's contract, here's what you might see.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "2ufezj16sc7z1",
+    "title": "49ers News: More injuries. Checks calendar. Yup, it’s August alright",
+    "url": "https://sports.yahoo.com/articles/49ers-news-more-injuries-checks-090000545.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-02T09:00:00.000Z",
+    "summary": "Your daily San Francisco 49ers news for Sunday, August 2nd, 2026",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "1ls2rgyqqjczm",
     "title": "Will Levis is confident in his ability coming back from injury",
     "url": "https://www.espn.com/video/clip/_/id/49508607/will-levis-confident-ability-coming-back-injury",
@@ -7308,183 +7495,6 @@
     "players": [],
     "teams": [
       "ATL"
-    ]
-  },
-  {
-    "id": "5hwbctcwgp3r",
-    "title": "Tua Tagovailoa won't practice after injury \"flared up,\" Michael Penix won't do team drills",
-    "url": "https://sports.yahoo.com/articles/tua-tagovailoa-wont-practice-injury-130137556.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T13:01:37.000Z",
-    "summary": "The Falcons expect Tagovailoa back soon from a reported back issue.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "1d5l8cn3lbmd1",
-    "title": "MLB trade deadline&#039;s first major move backfires; Jalen Carter, Denzel Ward get historic NFL deals",
-    "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-jalen-carter-denzel-ward-historic-nfl-extension",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-07-29T12:53:56.000Z",
-    "summary": "Plus, the top 10 NFL players at every offensive position",
-    "tags": [
-      "league-news",
-      "trade"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1xnowur1ke9mlz",
-    "title": "Commanders sign WR River Cracraft",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-sign-wr-river-cracraft",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-29T12:44:57.000Z",
-    "summary": "Wide receiver River Cracraft is back with the Commanders.",
-    "tags": [
-      "league-news",
-      "contract",
-      "WAS"
-    ],
-    "players": [],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "x4rds2z5g10w",
-    "title": "Commanders sign WR River Cracraft",
-    "url": "https://sports.yahoo.com/articles/commanders-sign-wr-river-cracraft-124457126.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T12:44:57.000Z",
-    "summary": "Wide receiver River Cracraft is back with the Commanders.",
-    "tags": [
-      "league-news",
-      "contract",
-      "WAS"
-    ],
-    "players": [],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "9x4at71hzwwih",
-    "title": "Vita Vea is not practicing at Bucs camp",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vita-vea-is-not-practicing-at-bucs-camp",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-29T12:37:11.000Z",
-    "summary": "Defensive tackle Vita Vea requested a trade this week, but he is at Buccaneers training camp for the first day of practice on Wednesday.",
-    "tags": [
-      "league-news",
-      "trade",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "17cye3g1n3oo9e",
-    "title": "Lions provide BIG updates on Brian Branch, Kerby Joseph, other injuries",
-    "url": "https://sports.yahoo.com/articles/lions-big-updates-brian-branch-122825990.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T12:28:25.000Z",
-    "summary": "Detroit Lions head coach Dan Campbell provided updates on KErby Joseph, Brian Branch, Christian Mahogany, Tyler Conklin, and Christian Izien.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "2ko9e5owaabn",
-    "title": "Eagles training camp preview: 53-man roster prediction",
-    "url": "https://sports.yahoo.com/articles/eagles-training-camp-preview-53-121519979.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T12:15:19.000Z",
-    "summary": "Who’s going to make the final cut?",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "101tavkjy2f8g",
-    "title": "We tracked 28,100+ real dynasty trades this past week here's who's getting moved, and how the board shifted from last week",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1v9u81b/we_tracked_28100_real_dynasty_trades_this_past",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-07-29T12:03:25.000Z",
-    "summary": "Welcome back to the weekly trade roundup! Over the last 7 days, we tracked 28,101 completed trades across 96,784 active leagues, pulling from our database of over 412,000+ leagues scanned. Week-over-week movement The big story: Marvin Harrison is the new No. 1, rocketing up from No. 7 the week's biggest riser (+6 spots). Last week's leader, A.J. Brown, slid to No. 5. New to the top 10: Jonathon Br",
-    "tags": [
-      "dynasty",
-      "trade"
-    ],
-    "players": [
-      "a-j-brown",
-      "marvin-harrison"
-    ],
-    "teams": []
-  },
-  {
-    "id": "5yzui3ccy70t",
-    "title": "‘Unbelievable’ Kayshon Boutte unfazed by rumors about his Patriots future",
-    "url": "https://sports.yahoo.com/articles/unbelievable-kayshon-boutte-unfazed-rumors-115036542.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T11:50:36.000Z",
-    "summary": "The fourth-year wide receiver has been the subject of trade rumors all offseason.",
-    "tags": [
-      "league-news",
-      "trade",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "ir9exzkvcb1v",
-    "title": "49ers to sign LB Quinton Bell",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-to-sign-lb-quinton-bell",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-29T11:42:52.000Z",
-    "summary": "Linebacker Quinton Bell will have a chance to make the 49ers' 53-man roster this summer.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
     ]
   }
 ]
