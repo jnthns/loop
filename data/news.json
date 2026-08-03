@@ -1,5 +1,121 @@
 [
   {
+    "id": "v3j4vs1t0br64",
+    "title": "2026 NFL training camp: Position battles on each depth chart",
+    "url": "https://www.espn.com/nfl/story/_/id/49513914/2026-nfl-training-camp-position-battles-afc-nfc",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-03T10:00:11.000Z",
+    "summary": "We picked the top position battles to keep an eye on as training camp and the preseason roll on.",
+    "tags": [
+      "league-news",
+      "usage",
+      "MIN",
+      "PIT",
+      "DEN",
+      "NE",
+      "BUF",
+      "NYJ",
+      "LV",
+      "CHI",
+      "GB",
+      "PHI",
+      "CIN",
+      "DAL",
+      "SF",
+      "NYG",
+      "CLE",
+      "MIA",
+      "LAR",
+      "BAL",
+      "HOU",
+      "IND",
+      "TEN",
+      "JAX",
+      "KC",
+      "LAC",
+      "WSH",
+      "DET",
+      "ATL",
+      "CAR",
+      "NO",
+      "TB",
+      "ARI",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "MIN",
+      "PIT",
+      "DEN",
+      "NE",
+      "BUF",
+      "NYJ",
+      "LV",
+      "CHI",
+      "GB",
+      "PHI",
+      "CIN",
+      "DAL",
+      "SF",
+      "NYG",
+      "CLE",
+      "MIA",
+      "LAR",
+      "BAL",
+      "HOU",
+      "IND",
+      "TEN",
+      "JAX",
+      "KC",
+      "LAC",
+      "WSH",
+      "DET",
+      "ATL",
+      "CAR",
+      "NO",
+      "TB",
+      "ARI",
+      "SEA"
+    ]
+  },
+  {
+    "id": "18swldpno5pr7",
+    "title": "Jadeveon Clowney: Signing with the Texans was \"a really easy decision\"",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jadeveon-clowney-signing-with-the-texans-was-a-really-easy-decision",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-03T07:57:56.000Z",
+    "summary": "“I've grown up and learned the game a lot more since leaving,” Clowney said. “I feel like I can help the younger guys.\"",
+    "tags": [
+      "league-news",
+      "contract",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "1l2gwbtvr3icr",
+    "title": "Jadeveon Clowney: Signing with the Texans was \"a really easy decision\"",
+    "url": "https://sports.yahoo.com/articles/jadeveon-clowney-signing-texans-really-075756211.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-03T07:57:56.000Z",
+    "summary": "“I've grown up and learned the game a lot more since leaving,” Clowney said. “I feel like I can help the younger guys.\"",
+    "tags": [
+      "league-news",
+      "contract",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
     "id": "5o1hz4fotfa0",
     "title": "What we know about the injury causing Myles Garrett to miss 4 practices",
     "url": "https://sports.yahoo.com/articles/know-injury-causing-myles-garrett-014936764.html",
@@ -108,7 +224,9 @@
       "contract",
       "SF"
     ],
-    "players": [],
+    "players": [
+      "khalil-herbert"
+    ],
     "teams": [
       "SF"
     ]
@@ -126,7 +244,9 @@
       "contract",
       "SF"
     ],
-    "players": [],
+    "players": [
+      "khalil-herbert"
+    ],
     "teams": [
       "SF"
     ]
@@ -147,7 +267,9 @@
       "IND",
       "SF"
     ],
-    "players": [],
+    "players": [
+      "khalil-herbert"
+    ],
     "teams": [
       "IND",
       "SF"
@@ -7459,59 +7581,5 @@
     ],
     "players": [],
     "teams": []
-  },
-  {
-    "id": "1kt414p1f31qu7",
-    "title": "Ricky Pearsall dealing with knee swelling related to 2025 injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ricky-pearsall-dealing-with-knee-swelling-related-to-2025-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-29T17:49:19.000Z",
-    "summary": "49ers wide receiver Ricky Pearsall is dealing with more knee problems.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "86atqm1grw1qe",
-    "title": "Ricky Pearsall dealing with knee swelling related to 2025 injury",
-    "url": "https://sports.yahoo.com/articles/ricky-pearsall-dealing-knee-swelling-174919394.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-29T17:49:19.000Z",
-    "summary": "49ers wide receiver Ricky Pearsall is dealing with more knee problems.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "gdbf0e4hm178",
-    "title": "Shedeur Sanders, Deshaun Watson will alternate on first-team offense to start camp",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shedeur-sanders-deshaun-watson-will-alternate-on-first-team-offense-to-start-camp",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-29T17:44:41.000Z",
-    "summary": "The start of training camp means the Browns' quarterback competition between Shedeur Sanders and Deshaun Watson is about to heat up.",
-    "tags": [
-      "league-news",
-      "usage",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
   }
 ]

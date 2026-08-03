@@ -132,18 +132,6 @@
     "rank": 201
   },
   {
-    "id": "dillon-gabriel",
-    "name": "Dillon Gabriel",
-    "pos": "QB",
-    "nflTeam": "CLE",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "12486",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "drake-maye",
     "name": "Drake Maye",
     "pos": "QB",
@@ -154,6 +142,18 @@
     "sleeperId": "11564",
     "rosteredInLeague": false,
     "rank": 3
+  },
+  {
+    "id": "drew-allar",
+    "name": "Drew Allar",
+    "pos": "QB",
+    "nflTeam": "PIT",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13289",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "fernando-mendoza",
@@ -382,6 +382,18 @@
     "sleeperId": "4943",
     "rosteredInLeague": false,
     "rank": 84
+  },
+  {
+    "id": "taylen-green",
+    "name": "Taylen Green",
+    "pos": "QB",
+    "nflTeam": "CLE",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13306",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "tom-brady",
@@ -1176,6 +1188,18 @@
     "rank": 86
   },
   {
+    "id": "khalil-herbert",
+    "name": "Khalil Herbert",
+    "pos": "RB",
+    "nflTeam": "SF",
+    "age": 28,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "7608",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "kimani-vidal",
     "name": "Kimani Vidal",
     "pos": "RB",
@@ -1212,14 +1236,14 @@
     "rank": 13
   },
   {
-    "id": "malik-davis",
-    "name": "Malik Davis",
+    "id": "michael-carter",
+    "name": "Michael Carter",
     "pos": "RB",
-    "nflTeam": "DAL",
+    "nflTeam": "TEN",
     "age": 27,
     "tier": "depth",
     "notes": "",
-    "sleeperId": "8800",
+    "sleeperId": "7607",
     "rosteredInLeague": false,
     "rank": 999
   },
@@ -1366,18 +1390,6 @@
     "sleeperId": "9506",
     "rosteredInLeague": false,
     "rank": 155
-  },
-  {
-    "id": "seth-mcgowan",
-    "name": "Seth McGowan",
-    "pos": "RB",
-    "nflTeam": "IND",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13424",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "tank-bigsby",
@@ -1992,18 +2004,6 @@
     "rank": 50
   },
   {
-    "id": "will-kacmarek",
-    "name": "Will Kacmarek",
-    "pos": "TE",
-    "nflTeam": "MIA",
-    "age": 23,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13434",
-    "rosteredInLeague": false,
-    "rank": 9999999
-  },
-  {
     "id": "zach-ertz",
     "name": "Zach Ertz",
     "pos": "TE",
@@ -2532,6 +2532,18 @@
     "rank": 182
   },
   {
+    "id": "ja-lynn-polk",
+    "name": "Ja'Lynn Polk",
+    "pos": "WR",
+    "nflTeam": "NO",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11619",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "ja-marr-chase",
     "name": "Ja'Marr Chase",
     "pos": "WR",
@@ -2832,18 +2844,6 @@
     "rank": 41
   },
   {
-    "id": "luke-mccaffrey",
-    "name": "Luke McCaffrey",
-    "pos": "WR",
-    "nflTeam": "WAS",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "11650",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "luther-burden",
     "name": "Luther Burden",
     "pos": "WR",
@@ -3142,18 +3142,6 @@
     "sleeperId": "11783",
     "rosteredInLeague": false,
     "rank": 199
-  },
-  {
-    "id": "savion-williams",
-    "name": "Savion Williams",
-    "pos": "WR",
-    "nflTeam": "GB",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "12482",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "stefon-diggs",
