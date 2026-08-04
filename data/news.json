@@ -1,5 +1,635 @@
 [
   {
+    "id": "9xml8e1c27pe",
+    "title": "Klint Kubiak on Fernando Mendoza: I don’t expect him to be perfect right now",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-on-fernando-mendoza-i-dont-expect-him-to-be-perfect-right-now",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-04T14:36:17.000Z",
+    "summary": "While the Raiders drafted Fernando Mendoza to be their quarterback of the future, they also signed Kirk Cousins so that Mendoza doesn't have to be QB1 to start the season.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LV"
+    ],
+    "players": [
+      "fernando-mendoza"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "kdjryg5mj2ii",
+    "title": "Makai Lemon and DeVonta Smith both have hamstring injuries. Neither is practicing.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vfbvyk/makai_lemon_and_devonta_smith_both_have_hamstring",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-04T14:26:14.000Z",
+    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [
+      "devonta-smith",
+      "makai-lemon"
+    ],
+    "teams": []
+  },
+  {
+    "id": "26kuhu51qm3g",
+    "title": "Houston Texans 53-man roster prediction post-Clowney signing",
+    "url": "https://sports.yahoo.com/articles/houston-texans-53-man-roster-142000732.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T14:20:00.000Z",
+    "summary": "Rosterology 3.0 comes with several new faces and old ones",
+    "tags": [
+      "league-news",
+      "contract",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "ghjztf1xlwbeh",
+    "title": "Nolan Smith apologizes for \"unacceptable\" reckless driving arrest",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nolan-smith-apologizes-for-unacceptable-reckless-driving-arrest",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-04T14:16:59.000Z",
+    "summary": "Eagles linebacker Nolan Smith was arrested in Georgia in May for speeding and reckless driving and he made his first public comments on the matter on Monday.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "f6s7ygic8r74",
+    "title": "Nolan Smith apologizes for \"unacceptable\" reckless driving arrest",
+    "url": "https://sports.yahoo.com/articles/nolan-smith-apologizes-unacceptable-reckless-141659925.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T14:16:59.000Z",
+    "summary": "Eagles linebacker Nolan Smith was arrested in Georgia in May for speeding and reckless driving and he made his first public comments on the matter on Monday.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "192y4ih19dk8bb",
+    "title": "Chicago Bears sign safety Marlen Sewell",
+    "url": "https://sports.yahoo.com/articles/chicago-bears-sign-safety-marlen-140000897.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T14:00:00.000Z",
+    "summary": "The Bears did make a move to bolster their safety room. @wiltfongjr has the details here.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1epn4dc1p5bot2",
+    "title": "Which Broncos wide receiver will earn the third spot in the rotation?",
+    "url": "https://sports.yahoo.com/articles/broncos-wide-receiver-earn-third-140000005.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T14:00:00.000Z",
+    "summary": "The battle for third target share in aerial attack",
+    "tags": [
+      "league-news",
+      "usage",
+      "DEN"
+    ],
+    "players": [],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "1sjvjiluh8on",
+    "title": "Shane Steichen on Alec Pierce: He's heading in the right direction for sure",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-alec-pierce-hes-heading-in-the-right-direction-for-sure",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-04T13:56:22.000Z",
+    "summary": "Colts receiver Alec Pierce has been on the active/physically unable to perform list since the start of training camp due to offseason ankle surgery.",
+    "tags": [
+      "league-news",
+      "injury",
+      "IND"
+    ],
+    "players": [
+      "alec-pierce"
+    ],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "3kiomw1ubkr54",
+    "title": "Shane Steichen on Alec Pierce: He's heading in the right direction for sure",
+    "url": "https://sports.yahoo.com/articles/shane-steichen-alec-pierce-hes-135622137.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T13:56:22.000Z",
+    "summary": "Colts receiver Alec Pierce has been on the active/physically unable to perform list since the start of training camp due to offseason ankle surgery.",
+    "tags": [
+      "league-news",
+      "injury",
+      "IND"
+    ],
+    "players": [
+      "alec-pierce"
+    ],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "1no9v5k15ly9bg",
+    "title": "Bears sign DB Marlen Sewell, put DL Jonathan Garvin on IR",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-sign-db-marlen-sewell-put-dl-jonathan-garvin-on-ir",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-04T13:42:52.000Z",
+    "summary": "The Bears announced a pair of roster moves on Tuesday morning.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "2ehmmg1bwtk56",
+    "title": "Bears sign DB Marlen Sewell, put DL Jonathan Garvin on IR",
+    "url": "https://sports.yahoo.com/articles/bears-sign-db-marlen-sewell-134252308.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T13:42:52.000Z",
+    "summary": "The Bears announced a pair of roster moves on Tuesday morning.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "vgo7k81ul7by2",
+    "title": "Eagles News: Moro Ojomo was asked about his contract outlook",
+    "url": "https://sports.yahoo.com/articles/eagles-news-moro-ojomo-asked-133908127.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T13:39:08.000Z",
+    "summary": "Philadelphia Eagles news and links for 8/4/26.",
+    "tags": [
+      "league-news",
+      "contract",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "10clrs239yccg",
+    "title": "Falcons sign Bijan Robinson to historic three-year extension, making him NFL&#039;s highest-paid running back",
+    "url": "https://www.cbssports.com/nfl/news/falcons-sign-bijan-robinson-historic-three-year-extension",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-04T13:24:20.000Z",
+    "summary": "Robinson led the NFL with 2,298 yards from scrimmage in 2025",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "14lpkn71lt0cyx",
+    "title": "Julian Blackmon embracing fresh start after injury-shortened first season with Saints",
+    "url": "https://sports.yahoo.com/articles/julian-blackmon-embracing-fresh-start-130000875.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T13:00:00.000Z",
+    "summary": "Blackmon says he's approaching 2026 with gratitude and believes the New Orleans secondary is set up for success.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "ullgv0d4hvts",
+    "title": "The 2027 1st: What players are you trying to target with a 2027 1st?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vf9met/the_2027_1st_what_players_are_you_trying_to",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-04T12:57:33.000Z",
+    "summary": "I have been trying to gage the value of the pick and what you can get for it and I am curious what the price is in leagues across this subreddit. Would be nice to combine the 2027 1st and a 2nd to try and get a STUD WR on either of the rosters I have. What are some targets ywll are going after and maybe some people will believe the 2027 1st is all too valuable and convince me I should not trade it",
+    "tags": [
+      "dynasty",
+      "trade",
+      "rookie"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "12ooxw91982dtl",
+    "title": "Lions HC says Bijan Robinson extension could help Jahmyr Gibbs negotiations",
+    "url": "https://sports.yahoo.com/articles/lions-hc-says-bijan-robinson-125534118.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:55:34.000Z",
+    "summary": "Lions head coach Dan Campbell told reporters Jahmyr Gibbs extension talks could move along quicker after Bijan Robinson's deal with the Falcons.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL",
+      "DET"
+    ],
+    "players": [
+      "bijan-robinson",
+      "jahmyr-gibbs"
+    ],
+    "teams": [
+      "ATL",
+      "DET"
+    ]
+  },
+  {
+    "id": "104rjnmgtquni",
+    "title": "Which teams won the MLB trade deadline; Bijan Robinson becomes NFL&#039;s highest-paid RB",
+    "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-bijan-robinson-falcons-nfl-highest-paid-rb",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-04T12:46:54.000Z",
+    "summary": "Plus, the Bears got unfortunate injury news in training camp",
+    "tags": [
+      "league-news",
+      "injury",
+      "trade",
+      "CHI"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1hqtgqd1807tsn",
+    "title": "Lions put TE Anthony Firkser on injured reserve",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-put-te-anthony-firkser-on-injured-reserve",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-04T12:37:03.000Z",
+    "summary": "Tight end Anthony Firkser's return to the Lions turned out to be a brief one.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DET"
+    ],
+    "players": [],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "ogva9ccni6u0",
+    "title": "Dan Campbell: Bijan Robinson's extension certainly won't hurt Jahmyr Gibbs talks",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-bijan-robinsons-extension-certainly-wont-hurt-jahmyr-gibbs-talks",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-04T12:27:50.000Z",
+    "summary": "Bijan Robinson's contract extension with the Falcons is done and that means a lot of attention will now shift to Detroit.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson",
+      "jahmyr-gibbs"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "1wpn8601isa4yg",
+    "title": "Lions say Bijan Robinson extension ‘can’t hurt’ Jahmyr Gibbs contract talks",
+    "url": "https://sports.yahoo.com/articles/lions-bijan-robinson-extension-t-122517243.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:25:17.000Z",
+    "summary": "The Detroit Lions believe Bijan Robinson’s new contact could speed up Jahmyr Gibbs negotiations.",
+    "tags": [
+      "league-news",
+      "contract",
+      "DET"
+    ],
+    "players": [
+      "bijan-robinson",
+      "jahmyr-gibbs"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "bl8s7112ahhnr",
+    "title": "Commanders put Ahkello Witherspoon on reserve/retired list",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-put-ahkello-witherspoon-on-reserve-retired-list",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-04T12:16:06.000Z",
+    "summary": "The Commanders confirmed the signing of Fabian Moreau on Tuesday morning and they also announced that another veteran cornerback has decided to call it a career.",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "h2byx5dwyhrp",
+    "title": "Commanders put Ahkello Witherspoon on reserve/retired list",
+    "url": "https://sports.yahoo.com/articles/commanders-put-ahkello-witherspoon-retired-121606647.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:16:06.000Z",
+    "summary": "The Commanders confirmed the signing of Fabian Moreau on Tuesday morning and they also announced that another veteran cornerback has decided to call it a career.",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "qv5bbl1yvpwcf",
+    "title": "Bijan Robinson inks contract extension with Falcons: Everything to know",
+    "url": "https://sports.yahoo.com/articles/bijan-robinson-inks-contract-extension-121448549.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:14:48.000Z",
+    "summary": "Bijan Robinson and the Falcons have agreed to a massive extension. Here's a look at the contract details.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "4o8p5819z8xi4",
+    "title": "Bijan Robinson agrees to three-year extension with Falcons",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bijan-robinson-agrees-to-three-year-extension-with-falcons",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-04T12:09:34.000Z",
+    "summary": "Robinson's deal includes $51 million in guaranteed money.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "u63mu81s0tdy6",
+    "title": "Bijan Robinson agrees to three-year extension with Falcons",
+    "url": "https://sports.yahoo.com/articles/bijan-robinson-agrees-three-extension-120934624.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:09:34.000Z",
+    "summary": "Robinson's deal includes $51 million in guaranteed money.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "14oc0nj1go6zll",
+    "title": "Jets fans have made their choice for top new addition",
+    "url": "https://sports.yahoo.com/articles/jets-fans-made-choice-top-120555621.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:05:55.000Z",
+    "summary": "The Jets were active this offseason trying to upgrade a roster that finished 3-14 in 2025. The team owned four of the top 50 selections in the 2026 NFL Draft. Prior to the Draft, the team was also active in free agency and the trade market, hoping to add veteran experience to a young roster. […]",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "iticme1x328bo",
+    "title": "Bijan Robinson reportedly signs record-breaking extension worth up to $75 million with Falcons",
+    "url": "https://sports.yahoo.com/nfl/breaking-news/article/bijan-robinson-reportedly-signs-record-breaking-extension-worth-up-to-75-million-with-falcons-120201722.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:02:01.000Z",
+    "summary": "Bijan Robinson is sticking with the Falcons on a new mega-deal.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "195xgai1y8sfi",
+    "title": "Who will be a surprise addition or cut for the Falcons in 2026?",
+    "url": "https://sports.yahoo.com/articles/surprise-addition-cut-falcons-2026-120000735.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:00:00.000Z",
+    "summary": "Will the Falcons bolster their roster with a surprise addition? Will they parts ways with an expected contributor? Let’s think.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "126mh3u1uzsnyo",
+    "title": "Steelers release statement following Aaron Rodgers’ Anthony Fauci comments",
+    "url": "https://sports.yahoo.com/articles/steelers-release-statement-following-aaron-120000706.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:00:00.000Z",
+    "summary": "The Steelers issued a statement following Aaron Rodgers’ comments on Anthony Fauci, vaccine",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "1ehldlu1r9u0s6",
+    "title": "ESPN sources: Two-time Pro-Bowl selection Bijan Robinson and the Falcons reached agreement on a three-year extension worth up to $75 million that now will make him the highest-paid running back in NFL history. Robinson will receive a record $51 million guaranteed.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vf8a8h/espn_sources_twotime_probowl_selection_bijan",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-04T11:59:11.000Z",
+    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "klswihrhrw5p",
+    "title": "Commanders to sign CB Fabian Moreau",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-to-sign-cb-fabian-moreau",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-04T11:54:59.000Z",
+    "summary": "Cornerback Fabian Moreau is heading back to where he started his NFL career.",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "6e87rl1jn96ht",
+    "title": "Commanders to sign CB Fabian Moreau",
+    "url": "https://sports.yahoo.com/articles/commanders-sign-cb-fabian-moreau-115459400.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T11:54:59.000Z",
+    "summary": "Cornerback Fabian Moreau is heading back to where he started his NFL career.",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "q4jdakfxxh92",
+    "title": "Steelers Inside the Ropes: Unheralded running back getting more reps (Rough News for Kaleb Johnson)",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vf7y0s/steelers_inside_the_ropes_unheralded_running_back",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-04T11:42:39.000Z",
+    "summary": "Without a doubt, Lew Nichols had a better first week of training camp this summer than last year. The former NCAA rushing champ was a late addition to the roster a season ago, joined the Pittsburgh Steelers a week into camp and eventually earned a practice squad spot. This summer, the 24-year-old running back is getting some snaps with the first-team offense, slotting in behind Jaylen Warren and R",
+    "tags": [
+      "dynasty",
+      "usage",
+      "PIT"
+    ],
+    "players": [
+      "jaylen-warren",
+      "kaleb-johnson"
+    ],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
     "id": "1mosqe9vh4cnb",
     "title": "San Francisco 49ers already face numerous injuries days into training camp",
     "url": "https://sports.yahoo.com/articles/san-francisco-49ers-already-face-053218382.html",
@@ -5668,7 +6298,7 @@
   },
   {
     "id": "9ngh2a1phfbtg",
-    "title": "NFL news, live updates: Mike Evans sidelined as 49ers' injury woes continue; Bears' Coby Bryant expected to miss 8-10 weeks with knee injury",
+    "title": "NFL news, live updates: Bijan Robinson gets his extension; Bears' Coby Bryant expected to miss 8-10 weeks with knee injury",
     "url": "https://sports.yahoo.com/nfl/live/nfl-news-live-updates-mike-evans-sidelined-as-49ers-injury-woes-continue-bears-coby-bryant-expected-to-miss-8-10-weeks-with-knee-120227168.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
@@ -5678,10 +6308,12 @@
       "league-news",
       "injury",
       "CHI",
-      "SF"
+      "SF",
+      "contract"
     ],
     "players": [
-      "mike-evans"
+      "mike-evans",
+      "bijan-robinson"
     ],
     "teams": [
       "CHI",
@@ -6947,620 +7579,6 @@
     "players": [],
     "teams": [
       "CLE"
-    ]
-  },
-  {
-    "id": "g4bi371et58qv",
-    "title": "Andrew Berry on QBs: We'll let it play out, figure it out as we go",
-    "url": "https://sports.yahoo.com/articles/andrew-berry-qbs-well-let-183553122.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T18:35:53.000Z",
-    "summary": "The Browns are alternating Shedeur Sanders and Deshaun Watson at quarterback with the first-team offense to start training camp, which is largely the same process as the team employed during the offseason program.",
-    "tags": [
-      "league-news",
-      "usage",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "3cowgg1nxxqsu",
-    "title": "Chris Brazzell’s rookie season over before it even began",
-    "url": "https://sports.yahoo.com/articles/chris-brazzell-rookie-season-over-183000581.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T18:30:00.000Z",
-    "summary": "NFL training camps are a tough place where brutal injuries can derail seasons just as they’re getting started. That’s been particularly the case this year in Charlotte, where the Carolina Panthers have had a pair of brutal losses to young players, including former Tennessee Vols WR Chris Brazzell II. Brazzell had been dealing with knee […]",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "104gpxknadqmq",
-    "title": "Erick All Jr. has confidence after an injury scare from getting hit by a vehicle in Greece",
-    "url": "https://sports.yahoo.com/articles/erick-jr-confidence-injury-scare-182745052.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T18:27:45.000Z",
-    "summary": "I guarantee you have not heard this one before.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "erick-all"
-    ],
-    "teams": []
-  },
-  {
-    "id": "clvziuujqklg",
-    "title": "Things are starting to click for Eli Raridon at Patriots training camp",
-    "url": "https://sports.yahoo.com/articles/things-starting-click-eli-raridon-182705761.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T18:27:05.000Z",
-    "summary": "The rookie tight end says the game is slowing down for him.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "NE"
-    ],
-    "players": [
-      "eli-raridon"
-    ],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "ony0kemfd9ty",
-    "title": "Baker Mayfield feels &#039;disrespected&#039; by lack of contract extension ahead of training camp",
-    "url": "https://www.cbssports.com/nfl/news/baker-mayfield-disrespected-lack-of-contract-extension-ahead-of-training-camp",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-07-30T18:07:46.000Z",
-    "summary": "Mayfield set a deadline for contract talks, and it came and went without a deal being reached",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [
-      "baker-mayfield"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1c9y2lypszze4",
-    "title": "DaRon Bland says he's all the way back after two frustrating, injury-riddled seasons",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/daron-bland-says-hes-all-the-way-back-after-two-frustrating-injury-riddled-seasons",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T18:06:30.000Z",
-    "summary": "Cowboys cornerback DaRon Bland set an NFL record with five pick-sixes in 2023.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1pxabw45bfj98",
-    "title": "DaRon Bland says he's all the way back after two frustrating, injury-riddled seasons",
-    "url": "https://sports.yahoo.com/articles/daron-bland-says-hes-way-180630874.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T18:06:30.000Z",
-    "summary": "Cowboys cornerback DaRon Bland set an NFL record with five pick-sixes in 2023.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "zi8u9hb0h5zl",
-    "title": "Giants sign LB Anfernee Orji",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-sign-lb-anfernee-orji",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T17:55:02.000Z",
-    "summary": "The Giants announced a couple of roster moves on Thursday afternoon.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1jqi2fmk6tc3q",
-    "title": "Giants sign LB Anfernee Orji",
-    "url": "https://sports.yahoo.com/articles/giants-sign-lb-anfernee-orji-175502837.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T17:55:02.000Z",
-    "summary": "The Giants announced a couple of roster moves on Thursday afternoon.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "l7o4zz17zsibh",
-    "title": "Seahawks activate rookie Deven Eastern from PUP list ahead of first padded practice",
-    "url": "https://sports.yahoo.com/articles/seahawks-activate-rookie-deven-eastern-174839759.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T17:48:39.000Z",
-    "summary": "The Seahawks get one of their rookies back from the injured list.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1h7nas7kzthu",
-    "title": "Report: Panthers rookie WR Chris Brazzell to have season-ending knee surgery",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-panthers-rookie-wr-chris-brazzell-to-have-season-ending-knee-surgery",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T17:37:59.000Z",
-    "summary": "Word on Wednesday was that Panthers rookie wide receiver Chris Brazzell would miss up to eight weeks after tearing his LCL during practice, but his absence from the field is set to be even longer.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "19elg079xjxlx",
-    "title": "Report: Panthers rookie WR Chris Brazzell to have season-ending knee surgery",
-    "url": "https://sports.yahoo.com/articles/report-panthers-rookie-wr-chris-173759981.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T17:37:59.000Z",
-    "summary": "Word on Wednesday was that Panthers rookie wide receiver Chris Brazzell would miss up to eight weeks after tearing his LCL during practice, but his absence from the field is set to be even longer.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "qdo072nry05u",
-    "title": "Fernando Mendoza embracing current \"following role\" with Raiders",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendoza-embracing-current-following-role-with-raiders",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T17:37:07.000Z",
-    "summary": "Raiders head coach Klint Kubiak made it clear that Kirk Cousins is the team's starting quarterback entering training camp, with rookie signal-caller Fernando Mendoza part of the group that will push the veteran.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "LV"
-    ],
-    "players": [
-      "fernando-mendoza",
-      "kirk-cousins"
-    ],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "1j7yv327f18ey",
-    "title": "Breaking: Panthers 3rd-round rookie WR Chris Brazzell II will miss the entire 2026 NFL season with a knee injury he suffered this week, per @josephperson. The team determined this was the best course of action for his long-term health.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vb0dlu/breaking_panthers_3rdround_rookie_wr_chris",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-07-30T17:33:58.000Z",
-    "summary": "&#32; submitted by &#32; /u/notquitemytempo___ [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "rookie",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "nk9g0c1jhi8c2",
-    "title": "C.J. Stroud on his contract: I'm focused on ball, holding down my end of the bargain",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-stroud-on-his-contract-im-focused-on-ball-holding-down-my-end-of-the-bargain",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T17:19:03.000Z",
-    "summary": "Texans General Manager Nick Caserio told reporters on Wednesday that the team and quarterback C.J.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [
-      "c-j-stroud"
-    ],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "2f0ov6jydiyw",
-    "title": "Lions safety Kerby Joseph optimistic about injury with help from his faith",
-    "url": "https://sports.yahoo.com/articles/lions-safety-kerby-joseph-optimistic-171205461.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T17:12:05.000Z",
-    "summary": "Detroit Lions safety Kerby Joseph remains optimistic about his injury thanks to his faith.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "xefe0120ycke",
-    "title": "Maxx Crosby reacts to Cowboys trade rumors after Jerry Jones comments | Exclusive",
-    "url": "https://sports.yahoo.com/articles/maxx-crosby-reacts-cowboys-trade-170612260.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T17:06:12.000Z",
-    "summary": "The latest Maxx Crosby trade rumors include the Dallas Cowboys. He explained how he handles the noise in an exclusive interview with USA TODAY Sports.",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "17guv2o1tt0ia2",
-    "title": "Cash, Stash, or Slash: Darnell Wright’s potential contract extension",
-    "url": "https://sports.yahoo.com/articles/cash-stash-slash-darnell-wright-170000485.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T17:00:00.000Z",
-    "summary": "Darnell Wright is due a contract extension, if the Bears do extend him in the next five weeks, what will the contract look like? We break it all down.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "enra481m3kn0s",
-    "title": "Ranking the top 10 NFL players at every position, plus best training camp battles and red flags for contenders",
-    "url": "https://www.cbssports.com/nfl/news/nfl-position-rankings-training-camp-battles",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-07-30T16:59:14.000Z",
-    "summary": "See who made the cut in our position rankings, then catch up on the biggest camp competitions and the flaws that could derail Super Bowl hopefuls",
-    "tags": [
-      "league-news",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "57gfqj4r1ab3",
-    "title": "Maxx Crosby says everyone is wrong about nixed Raiders-Ravens trade: 'I know the truth'",
-    "url": "https://sports.yahoo.com/articles/maxx-crosby-says-everyone-wrong-165230133.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T16:52:30.000Z",
-    "summary": "Maxx Crosby, who has thrived with the Raiders despite team struggles, has extra fuel after a failed offseason trade, columnist Jarrett Bell writes.",
-    "tags": [
-      "league-news",
-      "trade",
-      "BAL",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "BAL",
-      "LV"
-    ]
-  },
-  {
-    "id": "1ilupgltms1wt",
-    "title": "Falcons sign LB Josh Woods",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-sign-lb-josh-woods",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T16:42:34.000Z",
-    "summary": "Linebacker Josh Woods is back for another run with the Falcons.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "1yz9qrx1awu5rl",
-    "title": "Falcons sign LB Josh Woods",
-    "url": "https://sports.yahoo.com/articles/falcons-sign-lb-josh-woods-164234465.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T16:42:34.000Z",
-    "summary": "Linebacker Josh Woods is back for another run with the Falcons.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "1gd4miz1mlkvkl",
-    "title": "Baker Mayfield shuts down contract talk, expresses disappointment with no new deal from Bucs",
-    "url": "https://sports.yahoo.com/nfl/article/baker-mayfield-shuts-down-contract-talk-expresses-disappointment-with-no-new-deal-from-bucs-163605431.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T16:36:05.000Z",
-    "summary": "Baker Mayfield has shut down extension talks with the Buccaneers, expressing his disappointment with not getting a long-term deal done.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TB"
-    ],
-    "players": [
-      "baker-mayfield"
-    ],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "1u5s7d153t2yz",
-    "title": "Shemar Stewart avoided major injury, but out \"several\" weeks with hyperextended knee",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shemar-stewart-avoided-major-injury-but-out-several-weeks-with-hyperextended-knee",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T16:30:12.000Z",
-    "summary": "While Bengals defensive end Shemar Stewart was carted off the field from practice on Wednesday, he should be OK relatively soon.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CIN"
-    ],
-    "players": [],
-    "teams": [
-      "CIN"
-    ]
-  },
-  {
-    "id": "1o5do1p14dwarz",
-    "title": "Shemar Stewart avoided major injury, but out \"several\" weeks with hyperextended knee",
-    "url": "https://sports.yahoo.com/articles/shemar-stewart-avoided-major-injury-163012807.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T16:30:12.000Z",
-    "summary": "While Bengals defensive end Shemar Stewart was carted off the field from practice on Wednesday, he should be OK relatively soon.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CIN"
-    ],
-    "players": [],
-    "teams": [
-      "CIN"
-    ]
-  },
-  {
-    "id": "145lhhp11wo1i9",
-    "title": "Bucky Irving Taking First-Team Reps, Running at Full Speed [Scott Smith]",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vayk84/bucky_irving_taking_firstteam_reps_running_at",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-07-30T16:29:31.000Z",
-    "summary": "&#32; submitted by &#32; /u/ASmithFS [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "usage",
-      "availability"
-    ],
-    "players": [
-      "bucky-irving"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1jjpzu2cxv3q4",
-    "title": "Christian McCaffrey on 49ers rookie Kaelon Black: ‘I can’t say enough good things about him’",
-    "url": "https://sports.yahoo.com/articles/christian-mccaffrey-49ers-rookie-kaelon-161357588.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T16:13:57.000Z",
-    "summary": "We will see more of Kaelon Black after Jordan James suffered fractured ribs",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "SF"
-    ],
-    "players": [
-      "christian-mccaffrey",
-      "kaelon-black"
-    ],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "qf0fjkrtmp7g",
-    "title": "Baker Mayfield on Vita Vea: I hope they take care of him, he deserves it",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-on-vita-vea-i-hope-they-take-care-of-him-he-deserves-it",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T16:11:45.000Z",
-    "summary": "Baker Mayfield has some clear problems with the way the Buccaneers handled negotiating a potential contract extension this offseason, saying he feels \"disrespected\" and \"undervalued\" during his Thursday press conference.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TB"
-    ],
-    "players": [
-      "baker-mayfield"
-    ],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "1re0fk41vde1ac",
-    "title": "Baker Mayfield on Vita Vea: I hope they take care of him, he deserves it",
-    "url": "https://sports.yahoo.com/articles/baker-mayfield-vita-vea-hope-161145324.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T16:11:45.000Z",
-    "summary": "Baker Mayfield has some clear problems with the way the Buccaneers handled negotiating a potential contract extension this offseason, saying he feels \"disrespected\" and \"undervalued\" during his Thursday press conference.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TB"
-    ],
-    "players": [
-      "baker-mayfield"
-    ],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "4bv904ohbpj4",
-    "title": "Texans linebacker Jake Hansen carted off the field at training camp",
-    "url": "https://sports.yahoo.com/articles/texans-linebacker-jake-hansen-carted-160646444.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T16:06:46.000Z",
-    "summary": "Texans linebackers can’t seem to catch a break with the injury bug",
-    "tags": [
-      "league-news",
-      "injury",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "1k4gjtb1qs58rv",
-    "title": "Jerry Jones excites Cowboys camp with potential trade talk",
-    "url": "https://sports.yahoo.com/articles/jerry-jones-excites-cowboys-camp-160000266.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T16:00:00.000Z",
-    "summary": "Do you think the Cowboys really will pull off some sort of trade?",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1il0a30fltb0q",
-    "title": "Sean Payton is pleased with the shape Bo Nix is in to start training camp",
-    "url": "https://sports.yahoo.com/articles/sean-payton-pleased-shape-bo-160000949.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T16:00:00.000Z",
-    "summary": "Sean Payton on Bo Nix: “Yes. I’m pleased with the shape he’s in. The timeline relative to everything we’ve discussed injury-wise is falling into place.\"",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "bo-nix"
-    ],
-    "teams": []
-  },
-  {
-    "id": "3sllnw1sxcn52",
-    "title": "Baker Mayfield feeling \"disrespected,\" \"undervalued\" by Buccaneers",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-feeling-disrespected-undervalued-by-buccaneers",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T15:40:32.000Z",
-    "summary": "Mayfield discussed his disappointment in not receiving a contract extension from Tampa Bay before training camp in his Thursday press conference.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TB"
-    ],
-    "players": [
-      "baker-mayfield"
-    ],
-    "teams": [
-      "TB"
     ]
   }
 ]

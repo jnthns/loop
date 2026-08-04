@@ -1092,18 +1092,6 @@
     "rank": 999
   },
   {
-    "id": "kaelon-black",
-    "name": "Kaelon Black",
-    "pos": "RB",
-    "nflTeam": "SF",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13414",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "kaleb-johnson",
     "name": "Kaleb Johnson",
     "pos": "RB",
@@ -1236,14 +1224,26 @@
     "rank": 13
   },
   {
-    "id": "michael-carter",
-    "name": "Michael Carter",
+    "id": "malik-davis",
+    "name": "Malik Davis",
     "pos": "RB",
-    "nflTeam": "TEN",
+    "nflTeam": "DAL",
     "age": 27,
     "tier": "depth",
     "notes": "",
-    "sleeperId": "7607",
+    "sleeperId": "8800",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "marshawn-lloyd",
+    "name": "MarShawn Lloyd",
+    "pos": "RB",
+    "nflTeam": "GB",
+    "age": 25,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "11581",
     "rosteredInLeague": false,
     "rank": 999
   },
@@ -1390,6 +1390,18 @@
     "sleeperId": "9506",
     "rosteredInLeague": false,
     "rank": 155
+  },
+  {
+    "id": "seth-mcgowan",
+    "name": "Seth McGowan",
+    "pos": "RB",
+    "nflTeam": "IND",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13424",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "tank-bigsby",
@@ -2280,6 +2292,18 @@
     "rank": 63
   },
   {
+    "id": "cj-daniels",
+    "name": "CJ Daniels",
+    "pos": "WR",
+    "nflTeam": "LAR",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13270",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "colbie-young",
     "name": "Colbie Young",
     "pos": "WR",
@@ -2535,7 +2559,7 @@
     "id": "ja-lynn-polk",
     "name": "Ja'Lynn Polk",
     "pos": "WR",
-    "nflTeam": "NO",
+    "nflTeam": "FA",
     "age": 24,
     "tier": "starter",
     "notes": "",
@@ -2700,6 +2724,18 @@
     "rank": 160
   },
   {
+    "id": "jimmy-horn",
+    "name": "Jimmy Horn",
+    "pos": "WR",
+    "nflTeam": "CAR",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12523",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "john-metchie",
     "name": "John Metchie",
     "pos": "WR",
@@ -2784,18 +2820,6 @@
     "rank": 116
   },
   {
-    "id": "keandre-lambert-smith",
-    "name": "KeAndre Lambert-Smith",
-    "pos": "WR",
-    "nflTeam": "LAC",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "12670",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "keenan-allen",
     "name": "Keenan Allen",
     "pos": "WR",
@@ -2842,6 +2866,18 @@
     "sleeperId": "11635",
     "rosteredInLeague": false,
     "rank": 41
+  },
+  {
+    "id": "luke-mccaffrey",
+    "name": "Luke McCaffrey",
+    "pos": "WR",
+    "nflTeam": "WAS",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11650",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "luther-burden",
@@ -3021,7 +3057,7 @@
     "notes": "",
     "sleeperId": "9487",
     "rosteredInLeague": false,
-    "rank": 87
+    "rank": 81
   },
   {
     "id": "pat-bryant",
@@ -3093,7 +3129,7 @@
     "notes": "",
     "sleeperId": "11638",
     "rosteredInLeague": false,
-    "rank": 86
+    "rank": 400
   },
   {
     "id": "roman-wilson",
@@ -3298,18 +3334,6 @@
     "sleeperId": "2374",
     "rosteredInLeague": false,
     "rank": 131
-  },
-  {
-    "id": "tyquan-thornton",
-    "name": "Tyquan Thornton",
-    "pos": "WR",
-    "nflTeam": "KC",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "8188",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "tyreek-hill",
