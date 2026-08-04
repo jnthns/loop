@@ -1,5 +1,23 @@
 [
   {
+    "id": "1mosqe9vh4cnb",
+    "title": "San Francisco 49ers already face numerous injuries days into training camp",
+    "url": "https://sports.yahoo.com/articles/san-francisco-49ers-already-face-053218382.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T05:32:18.000Z",
+    "summary": "San Francisco 49ers have a list of injured players just after five practices at training camp.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "kocy61kref3k",
     "title": "Green Bay Packers to re-sign McCallan Castles",
     "url": "https://sports.yahoo.com/articles/green-bay-packers-sign-mccallan-032028958.html",
@@ -35,6 +53,26 @@
     "players": [],
     "teams": [
       "CHI"
+    ]
+  },
+  {
+    "id": "74rlidnd5kdb",
+    "title": "A.J. Brown dislocates thumb at Patriots training camp — but is completely unfazed",
+    "url": "https://sports.yahoo.com/articles/j-brown-dislocates-thumb-patriots-022949120.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T02:29:49.000Z",
+    "summary": "The injury happened during a one-on-one red zone drill that A.J. Brown was going up against Pro Bowl corner Christian Gonzalez.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE"
     ]
   },
   {
@@ -86,6 +124,24 @@
     "players": [],
     "teams": [
       "LAR"
+    ]
+  },
+  {
+    "id": "4kferx1kgpsoz",
+    "title": "Jets defense has a day even as rookie makes highlight reel catch",
+    "url": "https://sports.yahoo.com/articles/jets-defense-day-even-rookie-013339127.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T01:33:39.000Z",
+    "summary": "Observations from Jets training camp on Monday.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
     ]
   },
   {
@@ -262,6 +318,42 @@
       "usage"
     ],
     "players": [],
+    "teams": []
+  },
+  {
+    "id": "yr8d60z8jhnc",
+    "title": "Bears’ $40 million signing Coby Bryant carted off field in emotional scene",
+    "url": "https://sports.yahoo.com/articles/bears-40-million-signing-coby-235411662.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-03T23:54:11.000Z",
+    "summary": "Bryant went down after a one-on-one drill rep with tight end Cole Kmet and was emotional after being carted off the field.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1lj5g36bu23o6",
+    "title": "Bo Nix says ankle injury won’t affect him in 2026: ‘Nothing’s holding me back’",
+    "url": "https://sports.yahoo.com/articles/bo-nix-says-ankle-injury-233446960.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-03T23:34:46.000Z",
+    "summary": "Bo Nix is physically ready for 2026.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "bo-nix"
+    ],
     "teams": []
   },
   {
@@ -7469,97 +7561,6 @@
     ],
     "teams": [
       "TB"
-    ]
-  },
-  {
-    "id": "15p6k76mywo64",
-    "title": "Titans take JC Latham off PUP list, sign S Hudson Clark",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-take-jc-latham-off-pup-list-sign-s-hudson-clark",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T15:04:33.000Z",
-    "summary": "The Titans will be getting right tackle JC Latham going at training camp over the next few days.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
-    ]
-  },
-  {
-    "id": "1yih6ukvuoifq",
-    "title": "Panthers sign WR Gabriel Benyard",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-sign-wr-gabriel-benyard",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T14:19:30.000Z",
-    "summary": "The Panthers announced the signing of a wide receiver for the second time in as many days.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "1gr9h88b8zglu",
-    "title": "Panthers sign WR Gabriel Benyard",
-    "url": "https://sports.yahoo.com/articles/panthers-sign-wr-gabriel-benyard-141930511.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T14:19:30.000Z",
-    "summary": "The Panthers announced the signing of a wide receiver for the second time in as many days.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "1g6vp4j17i693z",
-    "title": "Mike Vrabel gives updates on Gabe Jacas, Carlton Davis and other injured Patriots",
-    "url": "https://sports.yahoo.com/articles/mike-vrabel-gives-updates-gabe-135732129.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-30T13:57:32.000Z",
-    "summary": "The Patriots are dealing with some injuries as they start their second practice block of training camp.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "cb1ni021veca",
-    "title": "Vic Fangio: \"Remains to be seen\" if Jonathan Greenard practices in training camp",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vic-fangio-remains-to-be-seen-if-jonathan-greenard-practices-in-training-camp",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-30T13:56:50.000Z",
-    "summary": "Eagles General Manager Howie Roseman said at a Wednesday press conference that the pec strain that landed linebacker Jonathan Greenard on the physically unable to perform list \"is not a long-term injury,\" but it doesn't sound like it's going to be a matter of days before the veteran is back on the field.",
-    "tags": [
-      "league-news",
-      "injury",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
     ]
   }
 ]
