@@ -840,18 +840,6 @@
     "rank": 104
   },
   {
-    "id": "isaiah-davis",
-    "name": "Isaiah Davis",
-    "pos": "RB",
-    "nflTeam": "NYJ",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "11571",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "isiah-pacheco",
     "name": "Isiah Pacheco",
     "pos": "RB",
@@ -1872,6 +1860,18 @@
     "rank": 138
   },
   {
+    "id": "matt-hibner",
+    "name": "Matt Hibner",
+    "pos": "TE",
+    "nflTeam": "BAL",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13324",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "oronde-gadsden",
     "name": "Oronde Gadsden",
     "pos": "TE",
@@ -2292,18 +2292,6 @@
     "rank": 63
   },
   {
-    "id": "cj-daniels",
-    "name": "CJ Daniels",
-    "pos": "WR",
-    "nflTeam": "LAR",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13270",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "colbie-young",
     "name": "Colbie Young",
     "pos": "WR",
@@ -2700,6 +2688,18 @@
     "rank": 42
   },
   {
+    "id": "jaylin-lane",
+    "name": "Jaylin Lane",
+    "pos": "WR",
+    "nflTeam": "WAS",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12641",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "jaylin-noel",
     "name": "Jaylin Noel",
     "pos": "WR",
@@ -2868,18 +2868,6 @@
     "rank": 41
   },
   {
-    "id": "luke-mccaffrey",
-    "name": "Luke McCaffrey",
-    "pos": "WR",
-    "nflTeam": "WAS",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "11650",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "luther-burden",
     "name": "Luther Burden",
     "pos": "WR",
@@ -3036,6 +3024,18 @@
     "rank": 150
   },
   {
+    "id": "odell-beckham",
+    "name": "Odell Beckham",
+    "pos": "WR",
+    "nflTeam": "NYG",
+    "age": 33,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "2078",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "omar-cooper",
     "name": "Omar Cooper",
     "pos": "WR",
@@ -3183,13 +3183,13 @@
     "id": "stefon-diggs",
     "name": "Stefon Diggs",
     "pos": "WR",
-    "nflTeam": "FA",
+    "nflTeam": "WAS",
     "age": 32,
     "tier": "depth",
     "notes": "",
     "sleeperId": "2449",
     "rosteredInLeague": false,
-    "rank": 121
+    "rank": 116
   },
   {
     "id": "tank-dell",
