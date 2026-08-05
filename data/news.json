@@ -1,5 +1,316 @@
 [
   {
+    "id": "1tkkdorrhy9ub",
+    "title": "Report: Tests confirm Jalon Walker suffered torn ACL",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-tests-confirm-jalon-walker-suffered-torn-acl",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-05T14:24:36.000Z",
+    "summary": "The Falcons will be without one of their young edge rushers in 2026.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "15u6skt5arpk3",
+    "title": "Bears activate T.J. Edwards from the Active/Non-Football Injury List",
+    "url": "https://sports.yahoo.com/articles/bears-activate-t-j-edwards-140000812.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T14:00:00.000Z",
+    "summary": "The Bears are getting one of their defensive leaders back at training camp practice. More here from @wiltfongjr.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1t6ehox1jrncfp",
+    "title": "Falcons Reacts Survey: Projecting Zachariah Branch’s rookie year",
+    "url": "https://sports.yahoo.com/articles/falcons-reacts-survey-projecting-zachariah-135930528.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T13:59:30.000Z",
+    "summary": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Falcons fans and fans across the country. One of the top training camp standouts so far has been Zachariah Branch. The rookie wide receiver is turning heads with his explosiveness, route-running, and hands. […]",
+    "tags": [
+      "league-news",
+      "rookie",
+      "ATL"
+    ],
+    "players": [
+      "zachariah-branch"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "ra93gj13dc41d",
+    "title": "Bills news: Physical play the theme of Day 5 of camp",
+    "url": "https://sports.yahoo.com/articles/bills-news-physical-play-theme-133457316.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T13:34:57.000Z",
+    "summary": "Rookie LB Kaleb Elarms-Orr was at the center of the most spirited fight on the first full training camp session in pads.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "japou2r235qc",
+    "title": "49ers to sign Ogbo Okoronkwo on Wednesday",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-to-sign-ogbo-okoronkwo-on-wednesday",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-05T13:33:16.000Z",
+    "summary": "The 49ers are adding a veteran edge rusher.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1b5bhasxswtws",
+    "title": "49ers to sign Ogbo Okoronkwo on Wednesday",
+    "url": "https://sports.yahoo.com/articles/49ers-sign-ogbo-okoronkwo-wednesday-133316428.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T13:33:16.000Z",
+    "summary": "The 49ers are adding a veteran edge rusher.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1deuj2lon9orz",
+    "title": "Eagles sign WR Brandon Hayes",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-sign-wr-brandon-hayes",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-05T13:33:09.000Z",
+    "summary": "Wide receiver Brandon Hayes is back with the Eagles.",
+    "tags": [
+      "league-news",
+      "contract",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "1d7g6d11wdi42b",
+    "title": "Eagles sign WR Brandon Hayes",
+    "url": "https://sports.yahoo.com/articles/eagles-sign-wr-brandon-hayes-133309343.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T13:33:09.000Z",
+    "summary": "Wide receiver Brandon Hayes is back with the Eagles.",
+    "tags": [
+      "league-news",
+      "contract",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "1yiemixxbfzc3",
+    "title": "Bijan Robinson: It's one of my dreams to stay with one team",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bijan-robinson-its-one-of-my-dreams-to-stay-with-one-team",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-05T13:26:28.000Z",
+    "summary": "Bijan Robinson has officially signed his three-year contract extension with the Falcons.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "3f4wtk32js86",
+    "title": "What Bijan Robinson’s extension says about Kyren Williams",
+    "url": "https://sports.yahoo.com/articles/bijan-robinson-extension-says-kyren-132600281.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T13:26:00.000Z",
+    "summary": "Kyren Williams is now ranked 13th in average salary among running backs.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [
+      "bijan-robinson",
+      "kyren-williams"
+    ],
+    "teams": []
+  },
+  {
+    "id": "43pgb28sld0w",
+    "title": "Giants work out 8 players, sign a defensive back",
+    "url": "https://sports.yahoo.com/articles/giants-8-players-including-one-120401222.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T12:54:21.000Z",
+    "summary": "New York contnues looking for options at the bottom of the roster.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1mvqofjxz65lh",
+    "title": "Overrated, underrated teams in college football Coaches Poll; MLB trade deadline full report card",
+    "url": "https://www.cbssports.com/college-football/news/overrated-underrated-college-football-coaches-poll-mlb-trade-deadline-grades",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-05T12:46:30.000Z",
+    "summary": "Plus, Cameron Young surges in our latest Power 18 Rankings",
+    "tags": [
+      "league-news",
+      "trade"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1bp73qg8kasdc",
+    "title": "How DeMario Douglas willed himself into a Patriots starting role",
+    "url": "https://sports.yahoo.com/articles/demario-douglas-willed-himself-patriots-121913096.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T12:19:13.000Z",
+    "summary": "Douglas has been a top-three receiver for the Patriots throughout training camp.",
+    "tags": [
+      "league-news",
+      "usage",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1qxizyk1dvstcm",
+    "title": "Will this former second-round WR be able to help the Bills in 2026?",
+    "url": "https://sports.yahoo.com/articles/former-second-round-wr-able-121343210.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T12:13:43.000Z",
+    "summary": "Can this oft-injured veteran contribute for the Bills this season?",
+    "tags": [
+      "league-news",
+      "injury",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "0nk2p5ff6c7h",
+    "title": "Falcons edge group returning to familiar land of uncertainty and fear",
+    "url": "https://sports.yahoo.com/articles/falcons-edge-group-returning-familiar-120000936.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T12:00:00.000Z",
+    "summary": "With a suspension looming for James Pearce Jr. and Jalon Walker’s injury, the team is hurting at EDGE.",
+    "tags": [
+      "league-news",
+      "injury",
+      "discipline",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "1coc0bpvqa2sd",
+    "title": "Browns roster: Tuesday injury leads to promising UDFA being waived, defender added",
+    "url": "https://sports.yahoo.com/articles/browns-roster-tuesday-injury-leads-115822246.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T11:58:22.000Z",
+    "summary": "The Cleveland Browns roster keeps seeing changes with promising WR Aaron Anderson waived with a injury designation",
+    "tags": [
+      "league-news",
+      "injury",
+      "roster-move",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "3a0b2ckelbxq",
+    "title": "Isaiah Likely wants to show Giants made ‘right choice’ by signing him",
+    "url": "https://sports.yahoo.com/articles/isaiah-likely-wants-show-giants-112918970.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-05T11:29:18.000Z",
+    "summary": "The Giants signed Likely because of what John Harbaugh believes he can be, not what he has been.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NYG"
+    ],
+    "players": [
+      "isaiah-likely"
+    ],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
     "id": "nsj8r01s05004",
     "title": "Tua Tagovailoa on training camp with Michael Penix: \"It's definitely a competition\"",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tua-tagovailoa-on-training-camp-with-michael-penix-its-definitely-a-competition",
@@ -1867,6 +2178,26 @@
     "id": "iticme1x328bo",
     "title": "Bijan Robinson reportedly signs record-breaking extension worth up to $75 million with Falcons",
     "url": "https://sports.yahoo.com/nfl/breaking-news/article/bijan-robinson-reportedly-signs-record-breaking-extension-worth-up-to-75-million-with-falcons-120201722.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T12:02:01.000Z",
+    "summary": "Bijan Robinson is sticking with the Falcons on a new mega-deal.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [
+      "bijan-robinson"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "jat5face8ote",
+    "title": "Bijan Robinson agrees to record-breaking extension worth up to $75 million with Falcons",
+    "url": "https://sports.yahoo.com/nfl/breaking-news/article/bijan-robinson-agrees-to-record-breaking-extension-worth-up-to-75-million-with-falcons-120201722.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
     "publishedAt": "2026-08-04T12:02:01.000Z",
@@ -7215,337 +7546,6 @@
     ],
     "teams": [
       "JAX"
-    ]
-  },
-  {
-    "id": "aw586tt0vqcf",
-    "title": "'Football 301' ranks top 10 defenses: Texans, Seahawks, Rams dominate top 3",
-    "url": "https://sports.yahoo.com/nfl/article/football-301-ranks-top-10-defenses-texans-seahawks-rams-dominate-top-3-161102766.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-31T16:11:02.000Z",
-    "summary": "All three teams earn raves because they have: outstanding individual talent at all three levels; coaching that either maximizes simplicity or complexity; the ability to adjust week to week, and depth and versatility to cover for injuries and matchups.",
-    "tags": [
-      "league-news",
-      "injury",
-      "HOU",
-      "LAR",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "HOU",
-      "LAR",
-      "SEA"
-    ]
-  },
-  {
-    "id": "16r88kb1ycmu81",
-    "title": "CBS places Tony Romo on indefinite leave after arrest, taps J.J. Watt to fill in",
-    "url": "https://sports.yahoo.com/articles/cbs-places-tony-romo-indefinite-155623903.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-31T15:56:23.000Z",
-    "summary": "CBS is not waiting for Tony Romo's driving under the influence arrest to be resolved, placing the former NFL quarterback on indefinite leave.",
-    "tags": [
-      "league-news",
-      "discipline"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1htapet1n3kwmf",
-    "title": "Kayshon Boutte has requested a trade from the New England Patriots dating back to April.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vbuvlt/kayshon_boutte_has_requested_a_trade_from_the_new",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-07-31T15:54:52.000Z",
-    "summary": "&#32; submitted by &#32; /u/Ma1ikNabers [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "trade",
-      "NE"
-    ],
-    "players": [
-      "kayshon-boutte"
-    ],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "1yq1w181pkxmyq",
-    "title": "Bills sign CB D.J. Miller",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-sign-cb-d-j-miller",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-31T15:43:04.000Z",
-    "summary": "The Bills announced a pair of roster moves on Friday morning.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BUF"
-    ],
-    "players": [],
-    "teams": [
-      "BUF"
-    ]
-  },
-  {
-    "id": "1dsshg1wo4r1w",
-    "title": "Tucker Kraft officially off PUP and practicing today",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vbuf15/tucker_kraft_officially_off_pup_and_practicing",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-07-31T15:38:21.000Z",
-    "summary": "&#32; submitted by &#32; /u/LoganXup [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "tucker-kraft"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1f3k35r1g2mgj1",
-    "title": "Jets to sign WR Cam Camper",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-to-sign-wr-cam-camper",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-31T15:33:27.000Z",
-    "summary": "The Jets signed wide receiver Quincy Skinner on Thursday and they're making another change at wideout on Friday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "xg4fbj16ijjil",
-    "title": "Tony Romo placed on leave by CBS Sports 'until further notice' following OWI arrest, JJ Watt to replace him in booth",
-    "url": "https://sports.yahoo.com/nfl/breaking-news/article/tony-romo-placed-on-leave-by-cbs-sports-until-further-notice-following-owi-arrest-jj-watt-to-replace-him-in-booth-153055123.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-31T15:30:55.000Z",
-    "summary": "Tony Romo was arrested in Milwaukee in late July.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1k3t68b1eflbjl",
-    "title": "CBS places Tony Romo on leave \"until further notice\"",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cbs-places-tony-romo-on-leave-until-further-notice",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-31T15:27:05.000Z",
-    "summary": "CBS issues a one-sentence press release, eight days after Romo's OWI arrest.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "8etywukw3sis",
-    "title": "I'm convinced Isaiah Likely finally breaks out this year and not enough people are talking about it. Check out what happens if you plug Likely's metrics into Theo Johnson's 2025 snap count and target share.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vbtvm4/im_convinced_isaiah_likely_finally_breaks_out",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-07-31T15:18:39.000Z",
-    "summary": "I've owned Likely since his rookie year and the games where Mark Andrews was hurt were always electric. Lamar used his as a glorified WR and that's exactly what the NY Giants and Jaxson Dart need. FantasyPros consensus ranks Likely TE12 in full-PPR and this feels low. I thought it would be interesting to plug Likely into Theo Johnson's 2025 usage to see how he would've done. I didn't project a big",
-    "tags": [
-      "dynasty",
-      "rookie",
-      "usage",
-      "NYG"
-    ],
-    "players": [
-      "jaxson-dart",
-      "isaiah-likely",
-      "mark-andrews",
-      "theo-johnson"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1tnxgzo1hitgpk",
-    "title": "Packers activate Tucker Kraft off of PUP list",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-tucker-kraft-off-of-pup-list",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-31T15:14:32.000Z",
-    "summary": "Earlier this week, Packers tight end Tucker Kraft said he was expecting to begin practicing “very soon.”",
-    "tags": [
-      "league-news",
-      "injury",
-      "GB"
-    ],
-    "players": [
-      "tucker-kraft"
-    ],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "15am2znn9g4vj",
-    "title": "Details behind Broncos guard Ben Powers restructured contract",
-    "url": "https://sports.yahoo.com/articles/details-behind-broncos-guard-ben-141435796.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-31T14:14:35.000Z",
-    "summary": "Last week, it was reported that starting left guard Ben Powers accepted a pay cut from the Denver Broncos. 9NEWS Denver’s Mike Klis reported that Powers accepted a restructured one-year deal that will leave him with less pay but a higher guarantee. Well, now we have the details of that restructured deal for Ben Powers. […]",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "qc4jp8p6z4wc",
-    "title": "Buccaneers offered Baker Mayfield a two-year extension",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-offered-baker-mayfield-a-two-year-extension",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-31T13:50:45.000Z",
-    "summary": "There's a significant difference between a two-year \"deal\" and a two-year extension.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TB"
-    ],
-    "players": [
-      "baker-mayfield"
-    ],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "5npuzn1ah61rb",
-    "title": "Dan Campbell: Alim McNeill being healthy is huge for Lions' defense",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-alim-mcneill-being-healthy-is-huge-for-lions-defense",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-31T13:45:44.000Z",
-    "summary": "Lions defensive tackle Alim McNeill tore his ACL in December of 2024, wasn't cleared to return until the middle of the 2025 season, and was never fully healthy last year.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "rv72e51vrthx",
-    "title": "Colts activate LB CJ Allen from the PUP list",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-activate-lb-cj-allen-from-the-pup-list",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-31T13:02:27.000Z",
-    "summary": "The Colts are set to have linebacker CJ Allen on the field for the first time in training camp.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1672fnm6vx226",
-    "title": "Colts activate LB CJ Allen from the PUP list",
-    "url": "https://sports.yahoo.com/articles/colts-activate-lb-cj-allen-130227072.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-31T13:02:27.000Z",
-    "summary": "The Colts are set to have linebacker CJ Allen on the field for the first time in training camp.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1i55ebx1nqkfm5",
-    "title": "Saints K Charlie Smyth dealing with a thumb injury",
-    "url": "https://sports.yahoo.com/articles/saints-k-charlie-smyth-dealing-130000552.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-31T13:00:00.000Z",
-    "summary": "Saints third-year specialist in training camp battle",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "52sa6w9jelzs",
-    "title": "Cubs enter Tarik Skubal sweepstakes ahead of MLB trade deadline; top 100 NFL players of all time",
-    "url": "https://www.cbssports.com/mlb/news/cubs-tarik-skubal-mlb-trade-deadline-top-100-nfl-players",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-07-31T12:45:45.000Z",
-    "summary": "Plus, UEFA launches a World Cup boycott",
-    "tags": [
-      "league-news",
-      "trade"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "mj35dumeu8n8",
-    "title": "Lions sign TE Anthony Firkser",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-sign-te-anthony-firkser",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-07-31T12:37:08.000Z",
-    "summary": "Tight end Anthony Firkser is back with the Lions.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
     ]
   }
 ]
