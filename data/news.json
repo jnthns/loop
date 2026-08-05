@@ -1,5 +1,26 @@
 [
   {
+    "id": "nsj8r01s05004",
+    "title": "Tua Tagovailoa on training camp with Michael Penix: \"It's definitely a competition\"",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tua-tagovailoa-on-training-camp-with-michael-penix-its-definitely-a-competition",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-05T07:52:46.000Z",
+    "summary": "Both of the Falcons' quarterbacks are limited with injuries, but Tagovailoa says that isn't stopping them from competing.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL"
+    ],
+    "players": [
+      "michael-penix",
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
     "id": "1g33gwhnethp1",
     "title": "Shedeur Sanders, Deshaun Watson will each get a preseason start",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shedeur-sanders-deshaun-watson-will-each-get-a-preseason-start",
@@ -60,6 +81,26 @@
       "zach-ertz"
     ],
     "teams": []
+  },
+  {
+    "id": "vv4yes1jwe8e0",
+    "title": "Braelon Allen didn’t sugercoat importance of his Jets season after injury — with simple goal in mind",
+    "url": "https://sports.yahoo.com/articles/braelon-allen-didn-t-sugercoat-231519052.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-04T23:15:19.000Z",
+    "summary": "Allen didn’t sugarcoat the significance of the upcoming season. It’s incredibly important, after appearing in only four games last year due to a major knee injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYJ"
+    ],
+    "players": [
+      "braelon-allen"
+    ],
+    "teams": [
+      "NYJ"
+    ]
   },
   {
     "id": "1c8zzi2bfzija",
@@ -7505,42 +7546,6 @@
     "players": [],
     "teams": [
       "DET"
-    ]
-  },
-  {
-    "id": "1gl2lu1xrpgtu",
-    "title": "Lions sign TE Anthony Firkser",
-    "url": "https://sports.yahoo.com/articles/lions-sign-te-anthony-firkser-123708273.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-31T12:37:08.000Z",
-    "summary": "Tight end Anthony Firkser is back with the Lions.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "159q81ju2vzs1",
-    "title": "Fleur-de-links, July 31: Another injury hits the Saints",
-    "url": "https://sports.yahoo.com/articles/fleur-links-july-31-another-123000844.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-07-31T12:30:00.000Z",
-    "summary": "Here are today's Saints news links",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
     ]
   }
 ]
