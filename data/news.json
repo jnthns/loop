@@ -1,5 +1,27 @@
 [
   {
+    "id": "16oxhjf1gbtsev",
+    "title": "NFL Power Rankings: Major injuries already affecting teams like the 49ers, Saints and Falcons",
+    "url": "https://sports.yahoo.com/article/nfl-power-rankings-major-injuries-already-affecting-teams-like-the-49ers-saints-and-falcons-070000695.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-06T07:00:00.000Z",
+    "summary": "Multiple teams couldn't get to their first preseason game without a significant injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL",
+      "NO",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "ATL",
+      "NO",
+      "SF"
+    ]
+  },
+  {
     "id": "1p1vqom1m4uyaq",
     "title": "Steelers sign former Dallas Cowboys safety",
     "url": "https://sports.yahoo.com/articles/steelers-sign-former-dallas-cowboys-024631946.html",
@@ -7516,23 +7538,5 @@
       "cyrus-allen"
     ],
     "teams": []
-  },
-  {
-    "id": "19y5uss188qkic",
-    "title": "Josh Myers enters year two with the Jets as the incumbent starting center",
-    "url": "https://sports.yahoo.com/articles/josh-myers-enters-two-jets-150113476.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-01T15:01:13.000Z",
-    "summary": "Through the summer, we will be counting down the Jets roster player by player. We continue the series by discussing Josh Myers. Name: Josh Myers Number: 71 Year With Jets: 2nd Projected Role: Starting center His 2025: After starting at center for three years in Green Bay, Myers settled for a cheap one year contract with the Jets in […]",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ"
-    ]
   }
 ]
