@@ -1,5 +1,43 @@
 [
   {
+    "id": "n76l1t6ebfiz",
+    "title": "Ranking every position group on the Ravens’ 2026 roster",
+    "url": "https://sports.yahoo.com/articles/ranking-every-position-group-ravens-003711884.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T00:37:11.000Z",
+    "summary": "The Baltimore Ravens filled out their roster this offseason with a number of notable additions in the draft and free agency. Now, with the 2026 season fast approaching next month, position groups will be finalized across training camp and preseason action over the next few weeks. Which of the team’s position groups are the strongest? […]",
+    "tags": [
+      "league-news",
+      "rookie",
+      "BAL"
+    ],
+    "players": [],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
+    "id": "bxim93106dkw5",
+    "title": "\"If you did not know the Lions WR depth chart going into training camp ... you would have Greg Dortch as WR3 ahead of Isaac TeSlaa. And honestly, it hasn't been all that close.\"",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vhleug/if_you_did_not_know_the_lions_wr_depth_chart",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-07T00:20:15.000Z",
+    "summary": "&#32; submitted by &#32; /u/Breaded_Fury [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "usage",
+      "DET"
+    ],
+    "players": [
+      "isaac-teslaa"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
     "id": "vhztn511id6pl",
     "title": "Cornerback Dru Phillips has ‘mild’ knee sprain",
     "url": "https://sports.yahoo.com/articles/cornerback-dru-phillips-mild-knee-234304199.html",
@@ -202,6 +240,26 @@
       "jahmyr-gibbs"
     ],
     "teams": []
+  },
+  {
+    "id": "1bz939n1u86qt",
+    "title": "49ers’ rumored interest in Vita Vea trade hits brick wall amid Buccaneers’ latest update",
+    "url": "https://sports.yahoo.com/articles/49ers-rumored-interest-vita-vea-221206934.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-06T22:12:06.000Z",
+    "summary": "49ERS TRADE RUMOR VITA VEA DERAILEDThe Tampa Bay Buccaneers may have put an end to any trade rumors involving Pro Bowl tackle Vita Vea. “I have no plans on trading...",
+    "tags": [
+      "league-news",
+      "trade",
+      "SF",
+      "TB"
+    ],
+    "players": [],
+    "teams": [
+      "SF",
+      "TB"
+    ]
   },
   {
     "id": "1p3m9jnffw4d5",
@@ -7455,62 +7513,6 @@
     "players": [],
     "teams": [
       "SEA"
-    ]
-  },
-  {
-    "id": "q7hqpim135jc",
-    "title": "Buffalo Bills rookie LB Kaleb Elarms-Orr turning heads at training camp",
-    "url": "https://sports.yahoo.com/articles/buffalo-bills-rookie-lb-kaleb-143240990.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T14:32:40.000Z",
-    "summary": "Buffalo Bills rookie LB Kaleb Elarms-Orr continues taking advantage of every opportunity sent his way.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "BUF"
-    ],
-    "players": [],
-    "teams": [
-      "BUF"
-    ]
-  },
-  {
-    "id": "1oca7o21lsh0b2",
-    "title": "Jerry Jones confident Tony Romo will bounce back after OWI arrest",
-    "url": "https://sports.yahoo.com/articles/jerry-jones-confident-tony-romo-141309456.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T14:13:09.000Z",
-    "summary": "Jerry Jones said in a recent interview that he spoke to Tony Romo after the former Cowboys QB was arrested. Here's what he said.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "e878ci1oypjke",
-    "title": "Which Browns’ rookie will have the best year in 2026? 4 more share their picks",
-    "url": "https://sports.yahoo.com/articles/browns-rookie-best-2026-4-134521861.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T13:45:21.000Z",
-    "summary": "Cleveland Browns roster could be relying on a number of rookies, but will Denzel Boston, Spencer Fano or another top out?",
-    "tags": [
-      "league-news",
-      "rookie",
-      "CLE"
-    ],
-    "players": [
-      "denzel-boston"
-    ],
-    "teams": [
-      "CLE"
     ]
   }
 ]
