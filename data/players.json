@@ -132,6 +132,18 @@
     "rank": 201
   },
   {
+    "id": "deshaun-watson",
+    "name": "Deshaun Watson",
+    "pos": "QB",
+    "nflTeam": "CLE",
+    "age": 30,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "4017",
+    "rosteredInLeague": false,
+    "rank": 397
+  },
+  {
     "id": "drake-maye",
     "name": "Drake Maye",
     "pos": "QB",
@@ -142,18 +154,6 @@
     "sleeperId": "11564",
     "rosteredInLeague": false,
     "rank": 3
-  },
-  {
-    "id": "drew-allar",
-    "name": "Drew Allar",
-    "pos": "QB",
-    "nflTeam": "PIT",
-    "age": 22,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13289",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "fernando-mendoza",
@@ -178,18 +178,6 @@
     "sleeperId": "11565",
     "rosteredInLeague": false,
     "rank": 200
-  },
-  {
-    "id": "jack-strand",
-    "name": "Jack Strand",
-    "pos": "QB",
-    "nflTeam": "ATL",
-    "age": 22,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13602",
-    "rosteredInLeague": false,
-    "rank": 9999999
   },
   {
     "id": "jalen-hurts",
@@ -838,6 +826,18 @@
     "sleeperId": "5248",
     "rosteredInLeague": false,
     "rank": 104
+  },
+  {
+    "id": "isaiah-davis",
+    "name": "Isaiah Davis",
+    "pos": "RB",
+    "nflTeam": "NYJ",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11571",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "isiah-pacheco",
@@ -2136,6 +2136,18 @@
     "rank": 156
   },
   {
+    "id": "barion-brown",
+    "name": "Barion Brown",
+    "pos": "WR",
+    "nflTeam": "NO",
+    "age": 22,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13533",
+    "rosteredInLeague": false,
+    "rank": 9999999
+  },
+  {
     "id": "brandin-cooks",
     "name": "Brandin Cooks",
     "pos": "WR",
@@ -2436,6 +2448,18 @@
     "rank": 73
   },
   {
+    "id": "dontayvion-wicks",
+    "name": "Dontayvion Wicks",
+    "pos": "WR",
+    "nflTeam": "PHI",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9486",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "drake-london",
     "name": "Drake London",
     "pos": "WR",
@@ -2712,6 +2736,18 @@
     "rank": 190
   },
   {
+    "id": "jeff-caldwell",
+    "name": "Jeff Caldwell",
+    "pos": "WR",
+    "nflTeam": "KC",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13392",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "jerry-jeudy",
     "name": "Jerry Jeudy",
     "pos": "WR",
@@ -2722,30 +2758,6 @@
     "sleeperId": "6783",
     "rosteredInLeague": false,
     "rank": 160
-  },
-  {
-    "id": "jimmy-horn",
-    "name": "Jimmy Horn",
-    "pos": "WR",
-    "nflTeam": "CAR",
-    "age": 23,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "12523",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
-    "id": "john-metchie",
-    "name": "John Metchie",
-    "pos": "WR",
-    "nflTeam": "CAR",
-    "age": 26,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "8147",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "jordan-addison",
@@ -2818,6 +2830,18 @@
     "sleeperId": "13298",
     "rosteredInLeague": false,
     "rank": 116
+  },
+  {
+    "id": "keandre-lambert-smith",
+    "name": "KeAndre Lambert-Smith",
+    "pos": "WR",
+    "nflTeam": "LAC",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12670",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "keenan-allen",
@@ -3118,18 +3142,6 @@
     "sleeperId": "8676",
     "rosteredInLeague": false,
     "rank": 150
-  },
-  {
-    "id": "ricky-pearsall",
-    "name": "Ricky Pearsall",
-    "pos": "WR",
-    "nflTeam": "SF",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "11638",
-    "rosteredInLeague": false,
-    "rank": 400
   },
   {
     "id": "roman-wilson",
