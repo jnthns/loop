@@ -1,5 +1,379 @@
 [
   {
+    "id": "m2w9ldawl99n",
+    "title": "Falcons release 2022 second-round pick Troy Andersen",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-release-2022-second-round-pick-troy-andersen",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-07T13:25:59.000Z",
+    "summary": "The Falcons announced the release of linebacker Troy Andersen on Friday morning.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "zjjw1ghnx2bc",
+    "title": "Falcons release 2022 second-round pick Troy Andersen",
+    "url": "https://sports.yahoo.com/articles/falcons-release-2022-second-round-132559997.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T13:25:59.000Z",
+    "summary": "The Falcons announced the release of linebacker Troy Andersen on Friday morning.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "1sq39u1174z8r5",
+    "title": "Bills agree to 4-year, $78.4M deal with RG O'Cyrus Torrence",
+    "url": "https://www.espn.com/nfl/story/_/id/49552831/bills-agree-4-year-784m-deal-rg-ocyrus-torrence",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-07T13:23:57.000Z",
+    "summary": "The Bills have reached an agreement with right guard O'Cyrus Torrence on a four-year, $78.4 million extension that includes $46 million guaranteed, his agents told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
+    "tags": [
+      "league-news",
+      "contract",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "tibtz61qq6e9o",
+    "title": "Texans activate WR Jaylin Noel from non-football injury list",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-wr-jaylin-noel-from-non-football-injury-list",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-07T13:17:41.000Z",
+    "summary": "Wide receiver Jaylin Noel has been cleared to start practicing at Texans training camp.",
+    "tags": [
+      "league-news",
+      "injury",
+      "HOU"
+    ],
+    "players": [
+      "jaylin-noel"
+    ],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "3nk8fmis12eg",
+    "title": "Texans activate WR Jaylin Noel from non-football injury list",
+    "url": "https://sports.yahoo.com/articles/texans-activate-wr-jaylin-noel-131741950.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T13:17:41.000Z",
+    "summary": "Wide receiver Jaylin Noel has been cleared to start practicing at Texans training camp.",
+    "tags": [
+      "league-news",
+      "injury",
+      "HOU"
+    ],
+    "players": [
+      "jaylin-noel"
+    ],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "tmr6ppjmdy91",
+    "title": "What does the O’Cyrus Torrence contract extension mean for the Bills?",
+    "url": "https://sports.yahoo.com/articles/does-o-cyrus-torrence-contract-131642184.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T13:16:42.000Z",
+    "summary": "The Buffalo Bills have extended O’Cyrus Torrence. What does it mean for the cap and the offensive line?",
+    "tags": [
+      "league-news",
+      "contract",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "hx3aeao621ro",
+    "title": "David Montgomery, other teammates react to Jahmyr Gibbs’ extension",
+    "url": "https://sports.yahoo.com/articles/david-montgomery-other-teammates-react-131133631.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T13:11:33.000Z",
+    "summary": "David Montgomery was one of many teammates that congratulated Detroit Lions RB Jahmyr Gibbs on his extension.",
+    "tags": [
+      "league-news",
+      "contract",
+      "DET"
+    ],
+    "players": [
+      "david-montgomery",
+      "jahmyr-gibbs"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "14xtsl71w8jsgh",
+    "title": "MarShawn Lloyd is on track to make Packers fans flip with excitement",
+    "url": "https://sports.yahoo.com/articles/marshawn-lloyd-track-packers-fans-124500337.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T12:45:00.000Z",
+    "summary": "Lloyd’s start to camp has seen him making play after play, a sign of what the Packers saw in him before the 2024 Draft.",
+    "tags": [
+      "league-news",
+      "contract",
+      "rookie",
+      "GB"
+    ],
+    "players": [
+      "marshawn-lloyd"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "18755pb1v9ptsx",
+    "title": "Bills and guard O’Cyrus Torrence agree to four-year extension",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-and-guard-ocyrus-torrence-agree-to-four-year-extension",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-07T12:36:57.000Z",
+    "summary": "Bills guard O’Cyrus Torrence was heading into the final year of his rookie contract, but now he has secured his future in Buffalo.",
+    "tags": [
+      "league-news",
+      "contract",
+      "rookie",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "1br1lvq98bwr",
+    "title": "Bills and guard O’Cyrus Torrence agree to four-year extension",
+    "url": "https://sports.yahoo.com/articles/bills-guard-o-cyrus-torrence-123657518.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T12:36:57.000Z",
+    "summary": "Bills guard O’Cyrus Torrence was heading into the final year of his rookie contract, but now he has secured his future in Buffalo.",
+    "tags": [
+      "league-news",
+      "contract",
+      "rookie",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "13g9otc7vxhsg",
+    "title": "Commanders activate Tress Way, Dorance Armstrong, Trey Amos",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-activate-tress-way-dorance-armstrong-trey-amos",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-07T12:19:46.000Z",
+    "summary": "Wide receiver Stefon Diggs will be on the field with the Commanders for the first time in training camp after officially signing with the team on Friday and Washington will be welcoming three others back to active duty as well.",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [
+      "stefon-diggs"
+    ],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "1gv40y81vysu68",
+    "title": "Gold Standard for Dynasty Start-Up?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vhyv8b/gold_standard_for_dynasty_startup",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-07T12:10:11.000Z",
+    "summary": "Pretty much what the title says. What’s the gold standard for a dynasty league start-up with 12 teams, Superflex, tight-end premium? Roster size, starting lineup, bench size, taxi size and dynamic, IR size and dynamic? What type of start-up draft: auction or snake? If snake, 3rd round reversal or no? What is the ideal scoring breakdowns (PPR, non, PPFD, etc.)? How many years of dues should be paid",
+    "tags": [
+      "dynasty",
+      "injury",
+      "rookie"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "2lkp21barz9c",
+    "title": "Commanders activate Trey Amos off PUP two other key players off injury lists",
+    "url": "https://sports.yahoo.com/articles/commanders-activate-trey-amos-off-120852600.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T12:08:52.000Z",
+    "summary": "In addition to Trey Amos, the Commanders also activated EDGE Dorance Armstrong and punter Tress Way",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "qehgrxua67k5",
+    "title": "Commanders make Stefon Diggs signing official",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-make-stefon-diggs-signing-official",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-07T12:01:54.000Z",
+    "summary": "Stefon Diggs is officially the newest member of the Commanders.",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [
+      "stefon-diggs"
+    ],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "lc4vw31llnj8v",
+    "title": "2026 Keep Trade Cut | Dynasty Startup Edition",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vhy8m3/2026_keep_trade_cut_dynasty_startup_edition",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-07T11:40:27.000Z",
+    "summary": "&#32; submitted by &#32; /u/DynastyDadMike [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "trade",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1cir4br1vfh331",
+    "title": "Starter mindset has helped Marcus Bryant climb up Patriots OT depth chart",
+    "url": "https://sports.yahoo.com/articles/starter-mindset-helped-marcus-bryant-112149053.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T11:21:49.000Z",
+    "summary": "The second-year tackle replaced an injured Will Campbell on Thursday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "usage",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1sgb08axlpu7s",
+    "title": "Cowboys news: Dallas gets “good news” on two key injuries",
+    "url": "https://sports.yahoo.com/articles/cowboys-news-dallas-gets-good-110000674.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T11:00:00.000Z",
+    "summary": "Here is today’s Dallas Cowboys news.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "ss186h185ag9d",
+    "title": "Ranking 10 most interesting recent NFL contract extensions",
+    "url": "https://www.espn.com/nfl/story/_/id/49548073/nfl-contract-extensions-ranking-jahmyr-gibbs-bijan-robinson-jalen-carter",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-07T10:42:54.000Z",
+    "summary": "Jahmyr Gibbs' new deal is the latest in a flurry of extensions shaping the 2026 preseason, and Seth Walder stacked the 10 most notable.",
+    "tags": [
+      "league-news",
+      "contract",
+      "DET",
+      "MIN",
+      "NO",
+      "ATL",
+      "BAL",
+      "CHI",
+      "IND",
+      "PHI",
+      "CLE"
+    ],
+    "players": [
+      "jahmyr-gibbs"
+    ],
+    "teams": [
+      "DET",
+      "MIN",
+      "NO",
+      "ATL",
+      "BAL",
+      "CHI",
+      "IND",
+      "PHI",
+      "CLE"
+    ]
+  },
+  {
+    "id": "k1737f109v4yp",
+    "title": "Giants news: Dru Phillips’ injury, training camp updates",
+    "url": "https://sports.yahoo.com/articles/giants-news-dru-phillips-injury-100000595.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T10:00:00.000Z",
+    "summary": "New York Giants headlines for Friday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
     "id": "14jipa18cgcxa",
     "title": "After Myles Garrett trade, Jared Verse confident joining Browns: 'I'm ready to see the look on everybody's face'",
     "url": "https://sports.yahoo.com/nfl/article/after-myles-garrett-trade-jared-verse-confident-joining-browns-im-ready-to-see-the-look-on-everybodys-face-062350491.html",
@@ -7174,349 +7548,5 @@
       "travis-hunter"
     ],
     "teams": []
-  },
-  {
-    "id": "1r2crd2wr0aty",
-    "title": "Travis Hunter says he wants to play every snap after putting on a show in practice",
-    "url": "https://sports.yahoo.com/articles/travis-hunter-says-wants-play-195007087.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T19:50:07.000Z",
-    "summary": "Travis Hunter played 324 offensive snaps and 162 defensive snaps in seven appearances last season before his knee injury.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "travis-hunter"
-    ],
-    "teams": []
-  },
-  {
-    "id": "ppd4dhjdqfmj",
-    "title": "Cowboys’ Jerry Jones believes Tony Romo can ‘work through’ OWI arrest",
-    "url": "https://sports.yahoo.com/articles/cowboys-jerry-jones-believes-tony-193420465.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T19:34:20.000Z",
-    "summary": "CBS may not stand behind Tony Romo. But his former boss does.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1w65t0pqkl5r5",
-    "title": "Bo Nix says ankle injury won&#039;t limit him in 2026: &#039;Nothing&#039;s holding me back&#039;",
-    "url": "https://www.cbssports.com/nfl/news/bo-nix-injury-update-broncos-qb",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-02T19:10:05.000Z",
-    "summary": "Nix and Sean Payton both said the third-year quarterback is on schedule as Denver opens training camp",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "bo-nix"
-    ],
-    "teams": []
-  },
-  {
-    "id": "g7yu9k62ku1g",
-    "title": "Titans to sign DB Derrick Canteen",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-to-sign-db-derrick-canteen",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-02T19:05:57.000Z",
-    "summary": "The Titans have agreed to terms with defensive back Derrick Canteen, Matt Zenitz of CBS Sports reports.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
-    ]
-  },
-  {
-    "id": "4illnu1wa5tsq",
-    "title": "Titans to sign DB Derrick Canteen",
-    "url": "https://sports.yahoo.com/articles/titans-sign-db-derrick-canteen-190557808.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T19:05:57.000Z",
-    "summary": "The Titans have agreed to terms with defensive back Derrick Canteen, Matt Zenitz of CBS Sports reports.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
-    ]
-  },
-  {
-    "id": "1olfvb2a5111",
-    "title": "Arizona Cardinals first depth chart of 2026",
-    "url": "https://sports.yahoo.com/articles/arizona-cardinals-first-depth-chart-185923666.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T18:59:23.000Z",
-    "summary": "The Arizona Cardinals first official depth chart of 2026.",
-    "tags": [
-      "league-news",
-      "usage",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "hg3549n15h95",
-    "title": "Updated 2QB Rookie Rankings",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vdqbut/updated_2qb_rookie_rankings",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-02T18:58:13.000Z",
-    "summary": "With just over a month until the 2026 regular season begins, there is limited time for rookie drafts, and those of you who have waited this late in the offseason to draft have more information to work with. These 2026 rookie Superflex rankings are compiled by Matt Donnelly, Phil Clark, Jackson Sparks, and Andrew Lalama. The rankings enjoy consistent updates across the offseason, right up until the",
-    "tags": [
-      "dynasty",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1sccevek0gm58",
-    "title": "Saints starting DT Bryan Bresee to have season-ending ACL surgery",
-    "url": "https://www.espn.com/nfl/story/_/id/49513248/saints-starting-dt-bryan-bresee-season-ending-acl-surgery",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-02T18:44:45.000Z",
-    "summary": "Saints defensive tackle Bryan Bresee will undergo season-ending surgery to repair a torn ACL, coach Kellen Moore told reporters Sunday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "1lcxrvq3lc2u0",
-    "title": "Davon Godchaux: Bresee's injury a 'freak accident'",
-    "url": "https://www.espn.com/video/clip/_/id/49513902/bresee-injury-freak-accident",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-02T18:42:54.000Z",
-    "summary": "Davon Godchaux: Bresee's injury a 'freak accident'",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "1w3ghzx1ktgynl",
-    "title": "Is Michael Wilson a hold or trade candidate?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vdocd3/is_michael_wilson_a_hold_or_trade_candidate",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-02T17:41:29.000Z",
-    "summary": "I’ve had Michael Wilson for his entire career and it was nice to be able to start him last season. Going into this season I’m worried he won’t be able to get the same amount of production he got last season. His breakout was very situational with Marv out for some games and a very injured running back home. They were down in every game and forced to pass. For the people who currently have him, wha",
-    "tags": [
-      "dynasty",
-      "injury",
-      "trade"
-    ],
-    "players": [
-      "michael-wilson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1sv12rn1w1yfpp",
-    "title": "Cyrus Allen Hype. At what point should you consider stepping out of the train?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vdo0wy/cyrus_allen_hype_at_what_point_should_you",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-02T17:29:04.000Z",
-    "summary": "For everyone who drafted Cyrus Allen as a late dart throw in rookie drafts (or picked him up as a UDFA), curious what you’d sell him for right now. Reminds me of the JCM hype last season , the guys who sold at the top are feeling pretty good about it now. Also, plenty of late-round WRs have turned into long-term league winners, so there’s real risk in selling too early. Still curious where people ",
-    "tags": [
-      "dynasty",
-      "rookie"
-    ],
-    "players": [
-      "cyrus-allen"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1tki85x1id8jr9",
-    "title": "Saints defensive tackle Bryan Bresee to have surgery for torn ACL",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-defensive-tackle-bryan-bresee-to-have-surgery-for-torn-acl",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-02T17:17:25.000Z",
-    "summary": "Saints defensive tackle Bryan Bresee's knee injury didn't look good when it happened, and now it's confirmed that he needs surgery to repair a torn ACL.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "74oxqw1cf9g3u",
-    "title": "Saints defensive tackle Bryan Bresee to have surgery for torn ACL",
-    "url": "https://sports.yahoo.com/articles/saints-defensive-tackle-bryan-bresee-171725522.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T17:17:25.000Z",
-    "summary": "Saints defensive tackle Bryan Bresee's knee injury didn't look good when it happened, and now it's confirmed that he needs surgery to repair a torn ACL.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "hyawwvddwcw5",
-    "title": "Lions training camp injuries: Good news on Alim McNeill, Christian Izien",
-    "url": "https://sports.yahoo.com/articles/lions-training-camp-injuries-good-165451444.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T16:54:51.000Z",
-    "summary": "The latest Detroit Lions injury news on Alim McNeill, Christian Izien, and more.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "lv9t1nw3ld3n",
-    "title": "Vikings sign CB Jarod Washington",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-sign-cb-jarod-washington",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-02T16:54:05.000Z",
-    "summary": "The Vikings announced a couple of roster moves on Sunday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "MIN"
-    ],
-    "players": [],
-    "teams": [
-      "MIN"
-    ]
-  },
-  {
-    "id": "1aevyq1ssm97s",
-    "title": "Vikings sign CB Jarod Washington",
-    "url": "https://sports.yahoo.com/articles/vikings-sign-cb-jarod-washington-165405427.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T16:54:05.000Z",
-    "summary": "The Vikings announced a couple of roster moves on Sunday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "MIN"
-    ],
-    "players": [],
-    "teams": [
-      "MIN"
-    ]
-  },
-  {
-    "id": "16kkq264c6uyo",
-    "title": "Cardinals’ Walter Nolen re-injures left calf/leg/knee? What we know.",
-    "url": "https://sports.yahoo.com/articles/cardinals-walter-nolen-injures-left-163258179.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T16:32:58.000Z",
-    "summary": "Same as last year?",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "9qqg9br3f6yz",
-    "title": "Matt LaFleur: Tucker Kraft could participate in joint practice with Cardinals",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-tucker-kraft-could-participate-in-joint-practice-with-cardinals",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-02T16:28:46.000Z",
-    "summary": "Packers tight end Tucker Kraft was able to ride a bike to the practice field — and to practice on it — on Friday, his first work since suffering a torn ACL on November 2.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI",
-      "GB"
-    ],
-    "players": [
-      "tucker-kraft"
-    ],
-    "teams": [
-      "ARI",
-      "GB"
-    ]
-  },
-  {
-    "id": "1jw7yuoz05k1u",
-    "title": "Matt LaFleur: Tucker Kraft could participate in joint practice with Cardinals",
-    "url": "https://sports.yahoo.com/articles/matt-lafleur-tucker-kraft-could-162846437.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-02T16:28:46.000Z",
-    "summary": "Packers tight end Tucker Kraft was able to ride a bike to the practice field — and to practice on it — on Friday, his first work since suffering a torn ACL on November 2.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI",
-      "GB"
-    ],
-    "players": [
-      "tucker-kraft"
-    ],
-    "teams": [
-      "ARI",
-      "GB"
-    ]
   }
 ]
