@@ -1,5 +1,220 @@
 [
   {
+    "id": "1sbfwvc1vs5y7c",
+    "title": "Saints Training Camp Week 1 Injury Update",
+    "url": "https://sports.yahoo.com/articles/saints-training-camp-week-1-130000029.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T13:00:00.000Z",
+    "summary": "After the first week of training camp, let's see how the Saints' roster looks so dar.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "17uadg3pbdrqz",
+    "title": "Commanders free agency: Daniel Brunskill among three veteran OL signed",
+    "url": "https://sports.yahoo.com/articles/commanders-free-agency-daniel-brunskill-125324468.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T12:53:24.000Z",
+    "summary": "In addition to Daniel Brunskill, the Commanders also signed tackle Nicholas Petit-Frere and guard Max Scharping",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "1d6l8xqyydqz",
+    "title": "Giants reportedly sign center Brenden Jaimes as injuries pile up",
+    "url": "https://sports.yahoo.com/articles/giants-reportedly-sign-center-brenden-123835097.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T12:38:35.000Z",
+    "summary": "The Giants add to their offensive line depth after nagging injuries take their toll in camp",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "oe53cnznbrsf",
+    "title": "With the annual CBS season-preview press conference coming, Tony Romo's status looms",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-the-annual-cbs-season-preview-press-conference-coming-tony-romos-status-looms",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-08T12:14:12.000Z",
+    "summary": "It's been eight days since CBS placed analyst Tony Romo on leave, eight days after his OWI arrest in Milwaukee.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1e6gy6d5z66mh",
+    "title": "With the annual CBS season-preview press conference coming, Tony Romo's status looms",
+    "url": "https://sports.yahoo.com/articles/annual-cbs-season-preview-press-121412088.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T12:14:12.000Z",
+    "summary": "It's been eight days since CBS placed analyst Tony Romo on leave, eight days after his OWI arrest in Milwaukee.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1ss3ddiro5eom",
+    "title": "Tanner Hudson continues to show his worth in Bengals offense",
+    "url": "https://sports.yahoo.com/articles/tanner-hudson-continues-show-worth-111500751.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T11:15:00.000Z",
+    "summary": "Hudson has carved himself a nice slot on the Bengals’ depth chart. Can he keep it if Erick All is healthy?",
+    "tags": [
+      "league-news",
+      "usage",
+      "CIN"
+    ],
+    "players": [
+      "erick-all"
+    ],
+    "teams": [
+      "CIN"
+    ]
+  },
+  {
+    "id": "njsgs0i2ltdg",
+    "title": "Cleveland Browns news: Training camp QB battle is growing tiresome",
+    "url": "https://sports.yahoo.com/articles/cleveland-browns-news-training-camp-103000802.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T10:30:00.000Z",
+    "summary": "The latest Cleveland Browns news and notes from around the NFL in the August 8 edition of the Saturday Dawg Chow.",
+    "tags": [
+      "league-news",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "y8xjhb12bsxt",
+    "title": "What can Quinnen Williams bring to Cowboys' D in 2026?",
+    "url": "https://www.espn.com/nfl/story/_/id/49546224/nfl-dallas-cowboys-quinnen-williams-schottenheimer",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-08T10:00:05.000Z",
+    "summary": "Acquired during last season, Williams aims to make an even bigger impact in 2026 and ideally \"for the long haul\" in Dallas.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "87vzskzd5538",
+    "title": "Matt LaFleur bans backflips after Christian Watson and MarShawn Lloyd celebrations",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-bans-backflips-after-christian-watson-and-marshawn-lloyd-celebrations",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-08T07:40:32.000Z",
+    "summary": "The Packers' head coach said he doesn't want to see any more backflips after two oft-injured players did them.",
+    "tags": [
+      "league-news",
+      "injury",
+      "GB"
+    ],
+    "players": [
+      "marshawn-lloyd",
+      "christian-watson"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "171eqxg1nzbxh8",
+    "title": "Matt LaFleur bans backflips after Christian Watson and MarShawn Lloyd celebrations",
+    "url": "https://sports.yahoo.com/articles/matt-lafleur-bans-backflips-christian-074032688.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T07:40:32.000Z",
+    "summary": "The Packers' head coach said he doesn't want to see any more backflips after two oft-injured players did them.",
+    "tags": [
+      "league-news",
+      "injury",
+      "GB"
+    ],
+    "players": [
+      "marshawn-lloyd",
+      "christian-watson"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "st57r9kqjwh5",
+    "title": "He may not be a starter, but Jeremiah Trotter sure looks like one",
+    "url": "https://sports.yahoo.com/articles/may-not-starter-jeremiah-trotter-070000041.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T07:00:00.000Z",
+    "summary": "In year three, Jeremiah Trotter Jr. isn't playing like a backup, he's playing like a starter.",
+    "tags": [
+      "league-news",
+      "usage"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "c8kyhpqmisg1",
+    "title": "Elijah Moore has had a challenging NFL path but wouldn't trade it for anything",
+    "url": "https://sports.yahoo.com/articles/elijah-moore-had-challenging-nfl-070000328.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T07:00:00.000Z",
+    "summary": "Despite a difficult road, Elijah Moore is in Eagles training camp and embracing every opportunity.",
+    "tags": [
+      "league-news",
+      "trade",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
     "id": "1cfx7opqvk6i3",
     "title": "Why Browns QB competition between Deshaun Watson, Shedeur Sanders is 'not actually that simple'",
     "url": "https://sports.yahoo.com/nfl/article/why-browns-qb-competition-between-deshaun-watson-shedeur-sanders-is-not-actually-that-simple-042625774.html",
@@ -7241,232 +7456,6 @@
     "players": [],
     "teams": [
       "CIN"
-    ]
-  },
-  {
-    "id": "o613l5zjpesr",
-    "title": "Giants rookie Arvell Reese's 'special' potential becoming impossible to ignore at training camp",
-    "url": "https://sports.yahoo.com/articles/giants-rookie-arvell-reeses-special-224008001.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-03T22:40:08.000Z",
-    "summary": "It is early in Giants training camp, but No. 5 overall pick Arvell Reese looks like a justified investment.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "c90nmr1ax564l",
-    "title": "Sources: #Browns rookie WR KC Concepcion, who left practice today with a shoulder injury after a hard fall, did not suffer anything serious and the team is expecting him to be fine. The 1st-round pick has had a strong start to training camp.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vesc2x/sources_browns_rookie_wr_kc_concepcion_who_left",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-03T22:38:02.000Z",
-    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "rookie",
-      "CLE"
-    ],
-    "players": [
-      "kc-concepcion"
-    ],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "8v45v41gyz4qs",
-    "title": "49ers fans believe we’ll see George Kittle playing before Mykel Williams",
-    "url": "https://sports.yahoo.com/articles/49ers-fans-believe-ll-see-221841702.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-03T22:18:41.000Z",
-    "summary": "Both players are PUP candidates",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [
-      "george-kittle"
-    ],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "gf7bdn174na35",
-    "title": "Ravens to sign OL Kendall Lamm",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-to-sign-ol-kendall-lamm",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-03T21:43:24.000Z",
-    "summary": "The Ravens lost an experienced backup offensive lineman when Hakeem Adeniji retired, but they've found another one to take his spot on the roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1ed8x0k21j0by",
-    "title": "Ravens to sign OL Kendall Lamm",
-    "url": "https://sports.yahoo.com/articles/ravens-sign-ol-kendall-lamm-214324415.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-03T21:43:24.000Z",
-    "summary": "The Ravens lost an experienced backup offensive lineman when Hakeem Adeniji retired, but they've found another one to take his spot on the roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "sf1zj01t77opm",
-    "title": "Cardinals claim RB Evan Hull, DT Cam Horsley off waivers",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-claim-rb-evan-hull-dt-cam-horsley-off-waivers",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-03T21:39:57.000Z",
-    "summary": "The Cardinals claimed two players off waivers on Monday, according to the NFL's personnel notice.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "1sum8qo1wbd9v8",
-    "title": "Cardinals claim RB Evan Hull, DT Cam Horsley off waivers",
-    "url": "https://sports.yahoo.com/articles/cardinals-claim-rb-evan-hull-213957037.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-03T21:39:57.000Z",
-    "summary": "The Cardinals claimed two players off waivers on Monday, according to the NFL's personnel notice.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "1rz90n8koxfq",
-    "title": "Colts teammates say Daniel Jones looks like he never got hurt",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-teammates-say-daniel-jones-looks-like-he-never-got-hurt",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-03T21:24:39.000Z",
-    "summary": "Colts quarterback Daniel Jones is coming off a torn Achilles tendon, but you wouldn't know that from seeing him at training camp.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "daniel-jones"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1kq48hj16qhoa7",
-    "title": "Colts teammates say Daniel Jones looks like he never got hurt",
-    "url": "https://sports.yahoo.com/articles/colts-teammates-daniel-jones-looks-212439498.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-03T21:24:39.000Z",
-    "summary": "Colts quarterback Daniel Jones is coming off a torn Achilles tendon, but you wouldn't know that from seeing him at training camp.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "daniel-jones"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1yr57lr16pzz49",
-    "title": "NFL Reacts: Balancing play time in the preseason",
-    "url": "https://sports.yahoo.com/articles/nfl-reacts-balancing-play-time-211502674.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-03T21:15:02.000Z",
-    "summary": "Injuries are inevitable, but how far would you go to keep players healthy in the preaseason?",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "fszzdk30efm8",
-    "title": "Report: Mike Evans quad injury \"could get resolved relatively quickly\"",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-evans-quad-injury-could-get-resolved-relatively-quickly",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-03T20:50:01.000Z",
-    "summary": "The 49ers receiving corps has been hit by several injuries early on in camp, but one veteran may be back on the field sooner rather than later.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [
-      "mike-evans"
-    ],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1paagnmnxdpha",
-    "title": "Report: Mike Evans quad injury \"could get resolved relatively quickly\"",
-    "url": "https://sports.yahoo.com/articles/report-mike-evans-quad-injury-205001677.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-03T20:50:01.000Z",
-    "summary": "The 49ers receiving corps has been hit by several injuries early on in camp, but one veteran may be back on the field sooner rather than later.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [
-      "mike-evans"
-    ],
-    "teams": [
-      "SF"
     ]
   }
 ]
