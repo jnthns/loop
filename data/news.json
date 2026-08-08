@@ -1,5 +1,58 @@
 [
   {
+    "id": "1cfx7opqvk6i3",
+    "title": "Why Browns QB competition between Deshaun Watson, Shedeur Sanders is 'not actually that simple'",
+    "url": "https://sports.yahoo.com/nfl/article/why-browns-qb-competition-between-deshaun-watson-shedeur-sanders-is-not-actually-that-simple-042625774.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T04:26:25.000Z",
+    "summary": "Publicly, the Browns have said the latest they can take this decision is into game-planning the week of their season opener. But it strains credulity to think that they would not want to make a decision sooner once they feel the data is pointing in one direction.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CLE"
+    ],
+    "players": [
+      "deshaun-watson"
+    ],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "0lvq5uyih3bi",
+    "title": "What’s your best sell high in the last few years off training camp hype or a blow up couple of weeks? What’d you get?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vilipa/whats_your_best_sell_high_in_the_last_few_years",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-08T03:46:16.000Z",
+    "summary": "Yes, I guess it’s a victory lap post. But also a good reminder (maybe?) of what a few positive training camp blurbs can do. In a few years are you going to be bragging about selling Stribling or Cyrus for a 2027 2nd (it’s happening, look at trade databases) Mine is selling Oronde Gadsen last year at his peak for a 2027 1st which now looks like the favorite to be 1.01. What’s your (from the other s",
+    "tags": [
+      "dynasty",
+      "trade"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "fe86h3bd0o8x",
+    "title": "Ravens sign linebacker Jamon Johnson",
+    "url": "https://sports.yahoo.com/articles/ravens-sign-linebacker-jamon-johnson-021850958.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T02:18:50.000Z",
+    "summary": "The Baltimore Ravens made a mid-training camp addition on Friday afternoon, signing linebacker Jamon Johnson to their roster — as first reported by The Athletic’s Jeff Zrebiec. The Ravens had worked out three total linebackers during the week before adding Johnson. Johnson, 24, is a Maryland native who attended high school in Baltimore. He appeared […]",
+    "tags": [
+      "league-news",
+      "contract",
+      "BAL"
+    ],
+    "players": [],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
     "id": "hna1uv1y84mnt",
     "title": "Broncos DL Matt Henningsen suffered a torn Achilles",
     "url": "https://sports.yahoo.com/articles/broncos-dl-matt-henningsen-suffered-000348017.html",
@@ -115,6 +168,24 @@
     ]
   },
   {
+    "id": "gec6j1k35k8r",
+    "title": "Titans make Peter Skoronski highest-paid guard in NFL with $100 million extension",
+    "url": "https://sports.yahoo.com/articles/titans-peter-skoronski-highest-paid-232538018.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T23:25:38.000Z",
+    "summary": "The Tennessee Titans have made starting guard Peter Skoronski the highest-paid guard in the NFL.",
+    "tags": [
+      "league-news",
+      "contract",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
     "id": "111lxu4a4rs5g",
     "title": "Steelers release veteran wide receiver",
     "url": "https://sports.yahoo.com/articles/steelers-release-veteran-wide-receiver-231959290.html",
@@ -130,6 +201,24 @@
     "players": [],
     "teams": [
       "PIT"
+    ]
+  },
+  {
+    "id": "1rj94l91uvkwk7",
+    "title": "Raiders’ tight end dishes on which wide receiver is ‘moving up’ in training camp",
+    "url": "https://sports.yahoo.com/articles/raiders-tight-end-dishes-wide-222941365.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-07T22:29:41.000Z",
+    "summary": "A Las Vegas Raiders rookie wide receiver impresses at NFL Training Camp.It’s no secret that the wide receiver room for the Las Vegas Raiders is incredibly thin. With uncertainty looming...",
+    "tags": [
+      "league-news",
+      "rookie",
+      "LV"
+    ],
+    "players": [],
+    "teams": [
+      "LV"
     ]
   },
   {
@@ -7378,103 +7467,6 @@
     ],
     "teams": [
       "SF"
-    ]
-  },
-  {
-    "id": "93pyd0h41t1o",
-    "title": "Patriots sign DT Casey Rogers",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-sign-dt-casey-rogers",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-03T20:19:49.000Z",
-    "summary": "The Patriots announced an addition to their roster on Monday afternoon.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "ruayet1dh0fhp",
-    "title": "Browns rookie WR KC Concepcion appears to injure right shoulder",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-rookie-wr-kc-concepcion-appears-to-injure-right-shoulder",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-03T20:09:23.000Z",
-    "summary": "Browns rookie wide receiver KC Concepcion was injured in the 2-minute drill at the end of Monday's practice.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "CLE"
-    ],
-    "players": [
-      "kc-concepcion"
-    ],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "1bpytzg427qc4",
-    "title": "New Bears safety Coby Bryant out 8-10 weeks with injury",
-    "url": "https://www.espn.com/nfl/story/_/id/49522578/new-bears-safety-coby-bryant-8-10-weeks-injury",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-03T19:48:21.000Z",
-    "summary": "Bears new safety Coby Bryant will miss eight to 10 weeks with a leg injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "1b9dzrn18nakh",
-    "title": "49ers WR Mike Evans’ quad strain believed to be ‘not too serious’",
-    "url": "https://sports.yahoo.com/articles/49ers-injuries-continue-add-mike-172441254.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-03T19:34:22.000Z",
-    "summary": "The hits keep coming for the San Francisco 49ers. Wide receiver Mike Evans isn’t practicing on Monday due to a quad strain. Rookie running back Kaelon Black has an adductor injury and will also miss Monday’s session. Depending on the grade of the strain, Evans could miss anywhere from one week to multiple months. If […]",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "SF"
-    ],
-    "players": [
-      "kaelon-black",
-      "mike-evans"
-    ],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1u9oeey1meuzgs",
-    "title": "Bears lose Coby Bryant for 8-10 weeks after training camp knee injury",
-    "url": "https://www.cbssports.com/nfl/news/coby-bryant-injury-update-bears-safety",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-03T19:24:10.000Z",
-    "summary": "Bryant suffered a hyperextended knee, bone bruise and small fracture during Monday&#039;s training camp practice",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
     ]
   }
 ]
