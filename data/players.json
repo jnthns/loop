@@ -168,6 +168,18 @@
     "rank": 39
   },
   {
+    "id": "haynes-king",
+    "name": "Haynes King",
+    "pos": "QB",
+    "nflTeam": "CAR",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13415",
+    "rosteredInLeague": false,
+    "rank": 9999999
+  },
+  {
     "id": "j-j-mccarthy",
     "name": "J.J. McCarthy",
     "pos": "QB",
@@ -184,7 +196,7 @@
     "name": "Jalen Hurts",
     "pos": "QB",
     "nflTeam": "PHI",
-    "age": 27,
+    "age": 28,
     "tier": "starter",
     "notes": "",
     "sleeperId": "6904",
@@ -280,7 +292,7 @@
     "name": "Kyler Murray",
     "pos": "QB",
     "nflTeam": "MIN",
-    "age": 28,
+    "age": 29,
     "tier": "win-now",
     "notes": "",
     "sleeperId": "5849",
@@ -370,18 +382,6 @@
     "sleeperId": "4943",
     "rosteredInLeague": false,
     "rank": 84
-  },
-  {
-    "id": "taylen-green",
-    "name": "Taylen Green",
-    "pos": "QB",
-    "nflTeam": "CLE",
-    "age": 23,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13306",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "tom-brady",
@@ -1920,18 +1920,6 @@
     "rank": 128
   },
   {
-    "id": "taysom-hill",
-    "name": "Taysom Hill",
-    "pos": "TE",
-    "nflTeam": "FA",
-    "age": 35,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "4381",
-    "rosteredInLeague": false,
-    "rank": 321
-  },
-  {
     "id": "terrance-ferguson",
     "name": "Terrance Ferguson",
     "pos": "TE",
@@ -2448,18 +2436,6 @@
     "rank": 73
   },
   {
-    "id": "dontayvion-wicks",
-    "name": "Dontayvion Wicks",
-    "pos": "WR",
-    "nflTeam": "PHI",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "9486",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "drake-london",
     "name": "Drake London",
     "pos": "WR",
@@ -2602,6 +2578,18 @@
     "sleeperId": "5947",
     "rosteredInLeague": false,
     "rank": 77
+  },
+  {
+    "id": "jalen-brooks",
+    "name": "Jalen Brooks",
+    "pos": "WR",
+    "nflTeam": "ARI",
+    "age": 26,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "11034",
+    "rosteredInLeague": false,
+    "rank": 9999999
   },
   {
     "id": "jalen-coker",
@@ -2758,6 +2746,18 @@
     "sleeperId": "6783",
     "rosteredInLeague": false,
     "rank": 160
+  },
+  {
+    "id": "jimmy-horn",
+    "name": "Jimmy Horn",
+    "pos": "WR",
+    "nflTeam": "CAR",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12523",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "jordan-addison",
