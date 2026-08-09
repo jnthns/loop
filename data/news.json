@@ -1,5 +1,109 @@
 [
   {
+    "id": "cr7lgrqbvt93",
+    "title": "10 Team League Advice Dynasty",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vjj57t/10_team_league_advice_dynasty",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-09T07:12:07.000Z",
+    "summary": "Hey, I wanted to start a 12 Team league with Friends, but now we are just 10 and want to start nevertheless. I thought about starting 11 or even 12 players, but not sure which positions make the most sense!? QB 2xRB 3xWR 2xTE 2xFlex 2xSFlex? Or are 2 SFlex to much? How would you do it and how many spots for bench, Taxi, ir? &#32; submitted by &#32; /u/Past-Party9405 [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "p0xe8c12carv8",
+    "title": "Bottom of the Barrel : Rodgers vs. Watson",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vjh8lt/bottom_of_the_barrel_rodgers_vs_watson",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-09T05:22:56.000Z",
+    "summary": "Who would you rather have on a 1-year rental? Assuming Deshaun wins the job, and Rodgers stays healthy, I feel like they’re pretty even. Aaron has a noodle arm and Watson is touchy feely… neither of them have been reliable starters for 5+ years, but this is mostly for depth and maybe as a mid season trade asset. Ofc Deshaun could get benched for shedeur mid szn, but it’s not like Rodgers couldn’t ",
+    "tags": [
+      "dynasty",
+      "trade"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "sguou2re5un6",
+    "title": "Kyle Shanahan has no concern about Nick Bosa's missed practice time for soreness",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-has-no-concern-about-nick-bosas-missed-practice-time-for-soreness",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-09T04:07:23.000Z",
+    "summary": "49ers defensive end Nick Bosa, who missed most of last season with a torn ACL, has been absent from practice recently due to soreness.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1wybhrj1dwnkk1",
+    "title": "Kyle Shanahan has no concern about Nick Bosa's missed practice time for soreness",
+    "url": "https://sports.yahoo.com/articles/kyle-shanahan-no-concern-nick-040723296.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-09T04:07:23.000Z",
+    "summary": "49ers defensive end Nick Bosa, who missed most of last season with a torn ACL, has been absent from practice recently due to soreness.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1qqmmdhjynevz",
+    "title": "Commanders&#039; Laremy Tunsil diagnosed with torn triceps, reportedly will miss most of the 2026 season",
+    "url": "https://www.cbssports.com/nfl/news/commanders-laremy-tunsil-torn-triceps-will-miss-most-of-2026-season",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-09T01:38:47.000Z",
+    "summary": "Tunsil suffered the injury during practice on Saturday",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "1gw71zq1q7xfse",
+    "title": "Laremy Tunsil suffers torn triceps in Commanders nightmare",
+    "url": "https://sports.yahoo.com/articles/laremy-tunsil-suffers-torn-triceps-013823042.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-09T01:38:23.000Z",
+    "summary": "The 2026 NFL regular season is still weeks away, but the Commanders have already suffered a crushing hit.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
     "id": "ha7wj31ew1du3",
     "title": "Laremy Tunsil injury: Eagles’ Week 1 opponent is dealing with bad news",
     "url": "https://sports.yahoo.com/articles/laremy-tunsil-injury-eagles-week-013320714.html",
@@ -56,6 +160,24 @@
     ]
   },
   {
+    "id": "1c19zx7pmzdcv",
+    "title": "Commanders injury news: Laremy Tunsil reportedly suffers torn triceps",
+    "url": "https://sports.yahoo.com/articles/commanders-injury-news-laramey-tunsil-003606534.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-09T00:36:06.000Z",
+    "summary": "Commanders veteran left tackle Laremy Tunsil suffered a torn triceps, per NFL Network, and will miss an extended stretch",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
     "id": "mplrtm1mou9fq",
     "title": "Laremy Tunsil suffered torn triceps on Saturday",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/laremy-tunsil-suffered-torn-triceps-on-saturday",
@@ -84,6 +206,61 @@
     ],
     "players": [],
     "teams": []
+  },
+  {
+    "id": "r0d9crumh6sb",
+    "title": "Why Kyle Shanahan is not concerned over injury-riddled 49ers roster",
+    "url": "https://sports.yahoo.com/articles/why-kyle-shanahan-not-concerned-234714507.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T23:47:14.000Z",
+    "summary": "One of the biggest topics at the San Francisco 49ers’ training camp has been the rapid number of injuries on the roster. Despite a growing number of players on the...",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "gtgumv1yhxzrb",
+    "title": "David Bailey day to day with mild ankle injury in potential Jets training camp speed bump",
+    "url": "https://sports.yahoo.com/articles/david-bailey-day-day-mild-234355642.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T23:43:55.000Z",
+    "summary": "David Bailey’s terrific training camp has hit a potential speed bump.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "1w88bybpd11fp",
+    "title": "The Colts have now demoted Anthony Richardson to third-string quarterback. Richardson has mightily regressed, and appears to be completely checked out after requesting an offseason trade. The former No. 4 pick could now be a cut candidate before his fourth season even begins.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vj9xnj/the_colts_have_now_demoted_anthony_richardson_to",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-08T23:12:51.000Z",
+    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "trade",
+      "roster-move",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "IND"
+    ]
   },
   {
     "id": "pxw5j1d66dff",
@@ -219,6 +396,28 @@
     "players": [],
     "teams": [
       "CHI"
+    ]
+  },
+  {
+    "id": "1gbinx12brupf",
+    "title": "Is it a smart idea to start 3+ players from the same NFL team?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vj7nil/is_it_a_smart_idea_to_start_3_players_from_the",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-08T21:31:04.000Z",
+    "summary": "I know people have their opinions on QB/WR stacks, but what is the conclusion on starting multiple players on a team? Is there enough fantasy points going around on teams like the Bengals, Cowboys, Bears, etc. to warrant starting all of them on the same team? This question is mainly about WRs, RBs and TE’s, as QBs don’t really need to worry about target share and stuff like that. &#32; submitted b",
+    "tags": [
+      "dynasty",
+      "usage",
+      "CHI",
+      "CIN",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "CHI",
+      "CIN",
+      "DAL"
     ]
   },
   {
@@ -369,6 +568,24 @@
     ]
   },
   {
+    "id": "1e8e3d517duh5d",
+    "title": "Romello Height details emotions of first 49ers practice rep vs. Trent Williams",
+    "url": "https://sports.yahoo.com/articles/romello-height-details-emotions-first-203113087.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-08T20:31:13.000Z",
+    "summary": "San Francisco rookie edge rusher Romello Height shared his reaction to lining up against 49ers star Trent Williams for the first time in practice.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "p29wzon285ci",
     "title": "Zay Flowers leaves practice in Ravens injury scare days after signing $140 million contract",
     "url": "https://sports.yahoo.com/articles/zay-flowers-leaves-practice-ravens-200508518.html",
@@ -385,6 +602,24 @@
     "players": [
       "zay-flowers"
     ],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
+    "id": "4fznql1qyq4nf",
+    "title": "Jamison Hensley: \"In 27 years of covering the Ravens, I’m not sure I’ve seen a rookie have a training camp quite like wide receiver Ja’Kobi Lane.\"",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vj5i1u/jamison_hensley_in_27_years_of_covering_the",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-08T19:58:51.000Z",
+    "summary": "&#32; submitted by &#32; /u/DonnyB79 [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "rookie",
+      "BAL"
+    ],
+    "players": [],
     "teams": [
       "BAL"
     ]
@@ -484,6 +719,22 @@
     "teams": [
       "BAL"
     ]
+  },
+  {
+    "id": "1tx9nnricwvw7",
+    "title": "Fourth missed practice for Lemon with hamstring injury",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vj1jfm/fourth_missed_practice_for_lemon_with_hamstring",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-08T17:17:01.000Z",
+    "summary": "&#32; submitted by &#32; /u/ASuperGyro [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "availability"
+    ],
+    "players": [],
+    "teams": []
   },
   {
     "id": "1pgp6bn1y6ifpx",
@@ -706,6 +957,26 @@
     "teams": []
   },
   {
+    "id": "oyot431c2sjmp",
+    "title": "Colts WR Josh Downs has a groin injury, per the team.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1viybka/colts_wr_josh_downs_has_a_groin_injury_per_the",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-08T15:05:30.000Z",
+    "summary": "&#32; submitted by &#32; /u/BerkysJerkys [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "IND"
+    ],
+    "players": [
+      "josh-downs"
+    ],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
     "id": "3fmlk91w08imj",
     "title": "David Bailey suffers minor ankle injury at Jets training camp",
     "url": "https://sports.yahoo.com/articles/david-bailey-suffers-minor-ankle-145233237.html",
@@ -782,6 +1053,23 @@
     ]
   },
   {
+    "id": "13ne9kc1fcc9wu",
+    "title": "Buy/hold/sell on Rashid Shaheed?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1viw31z/buyholdsell_on_rashid_shaheed",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-08T13:29:34.000Z",
+    "summary": "I'm finding myself really not knowing what to do with Shaheed this season. On the one hand, he's a talented player and is the clear #2 option in what we expect to be a solid offense. The contract that Seattle gave him shows that they plan to get him more involved in the offense after a full off-season with the team. He'll also probably get a few return TDs every year, which increases his spike wee",
+    "tags": [
+      "dynasty",
+      "contract"
+    ],
+    "players": [
+      "rashid-shaheed"
+    ],
+    "teams": []
+  },
+  {
     "id": "1sbfwvc1vs5y7c",
     "title": "Saints Training Camp Week 1 Injury Update",
     "url": "https://sports.yahoo.com/articles/saints-training-camp-week-1-130000029.html",
@@ -837,6 +1125,22 @@
     ]
   },
   {
+    "id": "1st16jl1pf823f",
+    "title": "✂️ Training Camp Cut List - Time To Let Go?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1viusj3/training_camp_cut_list_time_to_let_go",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-08T12:30:25.000Z",
+    "summary": "Hey everyone! With rookie drafts in the books (or quickly approaching in some leagues), you are likely forced to cut several underperforming players from your roster. While some choices may be easy, it is often difficult to cut ties with a young player after a disastrous rookie campaign. It is also important not to drop skilled players too early, even though their situation and previous track reco",
+    "tags": [
+      "dynasty",
+      "rookie",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
     "id": "oe53cnznbrsf",
     "title": "With the annual CBS season-preview press conference coming, Tony Romo's status looms",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-the-annual-cbs-season-preview-press-conference-coming-tony-romos-status-looms",
@@ -885,6 +1189,23 @@
     "teams": [
       "CIN"
     ]
+  },
+  {
+    "id": "wh0u5k1rhmrb4",
+    "title": "What was the hype like around Puka?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vitan3/what_was_the_hype_like_around_puka",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-08T11:13:53.000Z",
+    "summary": "I wasn't really into dynasty at the time Puka was a rookie, so when he blew up first thing, it was a surprise to me and all of my redraft league mates. Seeing the hype around guys like Cyrus Allen has got me thinking, what was it like around this time in camp when Puka was a rookie? Was he still a deep sleeper? Are there any other similar stories you can remember of guys flying under the radar dur",
+    "tags": [
+      "dynasty",
+      "rookie"
+    ],
+    "players": [
+      "cyrus-allen"
+    ],
+    "teams": []
   },
   {
     "id": "njsgs0i2ltdg",
@@ -7124,337 +7445,5 @@
     "teams": [
       "SF"
     ]
-  },
-  {
-    "id": "15lunbk1qngegs",
-    "title": "Jets TE Kenyon Sadiq out \"a little bit\" due to setback after hernia surgery",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-te-kenyon-sadiq-out-a-little-bit-due-to-setback-after-hernia-surgery",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-04T14:53:16.000Z",
-    "summary": "Jets first-round pick Kenyon Sadiq is not practicing on Tuesday for the third straight day and head coach Aaron Glenn said in his press conference that the rookie tight end will miss more time.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "NYJ"
-    ],
-    "players": [
-      "kenyon-sadiq"
-    ],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "l8vl8c1qggzim",
-    "title": "Browns sign CB Tyler Hall",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-sign-cb-tyler-hall",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-04T14:46:44.000Z",
-    "summary": "The Browns added a cornerback to their roster on Tuesday morning.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "cj1ccqzihs62",
-    "title": "We tracked 41,900+ real dynasty trades this past week here's who's getting moved, and how the board shifted from last week",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vfc7x2/we_tracked_41900_real_dynasty_trades_this_past",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-04T14:38:22.000Z",
-    "summary": "Welcome back to the weekly trade roundup! Over the last 7 days, we tracked 41,974 completed trades across 101,059 active leagues, pulling from our database of over 411,000+ leagues scanned. Week-over-week movement The big story is the surge in activity: with training camps open, the market has come alive. We tracked nearly 42,000 completed deals this week, up 49% from last week. On the board itsel",
-    "tags": [
-      "dynasty",
-      "trade"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "9xml8e1c27pe",
-    "title": "Klint Kubiak on Fernando Mendoza: I don’t expect him to be perfect right now",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-on-fernando-mendoza-i-dont-expect-him-to-be-perfect-right-now",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-04T14:36:17.000Z",
-    "summary": "While the Raiders drafted Fernando Mendoza to be their quarterback of the future, they also signed Kirk Cousins so that Mendoza doesn't have to be QB1 to start the season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "LV"
-    ],
-    "players": [
-      "fernando-mendoza"
-    ],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "kdjryg5mj2ii",
-    "title": "Makai Lemon and DeVonta Smith both have hamstring injuries. Neither is practicing.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vfbvyk/makai_lemon_and_devonta_smith_both_have_hamstring",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-04T14:26:14.000Z",
-    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "devonta-smith",
-      "makai-lemon"
-    ],
-    "teams": []
-  },
-  {
-    "id": "26kuhu51qm3g",
-    "title": "Houston Texans 53-man roster prediction post-Clowney signing",
-    "url": "https://sports.yahoo.com/articles/houston-texans-53-man-roster-142000732.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-04T14:20:00.000Z",
-    "summary": "Rosterology 3.0 comes with several new faces and old ones",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "ghjztf1xlwbeh",
-    "title": "Nolan Smith apologizes for \"unacceptable\" reckless driving arrest",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nolan-smith-apologizes-for-unacceptable-reckless-driving-arrest",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-04T14:16:59.000Z",
-    "summary": "Eagles linebacker Nolan Smith was arrested in Georgia in May for speeding and reckless driving and he made his first public comments on the matter on Monday.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "f6s7ygic8r74",
-    "title": "Nolan Smith apologizes for \"unacceptable\" reckless driving arrest",
-    "url": "https://sports.yahoo.com/articles/nolan-smith-apologizes-unacceptable-reckless-141659925.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-04T14:16:59.000Z",
-    "summary": "Eagles linebacker Nolan Smith was arrested in Georgia in May for speeding and reckless driving and he made his first public comments on the matter on Monday.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "192y4ih19dk8bb",
-    "title": "Chicago Bears sign safety Marlen Sewell",
-    "url": "https://sports.yahoo.com/articles/chicago-bears-sign-safety-marlen-140000897.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-04T14:00:00.000Z",
-    "summary": "The Bears did make a move to bolster their safety room. @wiltfongjr has the details here.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "1epn4dc1p5bot2",
-    "title": "Which Broncos wide receiver will earn the third spot in the rotation?",
-    "url": "https://sports.yahoo.com/articles/broncos-wide-receiver-earn-third-140000005.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-04T14:00:00.000Z",
-    "summary": "The battle for third target share in aerial attack",
-    "tags": [
-      "league-news",
-      "usage",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "1sjvjiluh8on",
-    "title": "Shane Steichen on Alec Pierce: He's heading in the right direction for sure",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-alec-pierce-hes-heading-in-the-right-direction-for-sure",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-04T13:56:22.000Z",
-    "summary": "Colts receiver Alec Pierce has been on the active/physically unable to perform list since the start of training camp due to offseason ankle surgery.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "alec-pierce"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "3kiomw1ubkr54",
-    "title": "Shane Steichen on Alec Pierce: He's heading in the right direction for sure",
-    "url": "https://sports.yahoo.com/articles/shane-steichen-alec-pierce-hes-135622137.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-04T13:56:22.000Z",
-    "summary": "Colts receiver Alec Pierce has been on the active/physically unable to perform list since the start of training camp due to offseason ankle surgery.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "alec-pierce"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1no9v5k15ly9bg",
-    "title": "Bears sign DB Marlen Sewell, put DL Jonathan Garvin on IR",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-sign-db-marlen-sewell-put-dl-jonathan-garvin-on-ir",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-04T13:42:52.000Z",
-    "summary": "The Bears announced a pair of roster moves on Tuesday morning.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "2ehmmg1bwtk56",
-    "title": "Bears sign DB Marlen Sewell, put DL Jonathan Garvin on IR",
-    "url": "https://sports.yahoo.com/articles/bears-sign-db-marlen-sewell-134252308.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-04T13:42:52.000Z",
-    "summary": "The Bears announced a pair of roster moves on Tuesday morning.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "vgo7k81ul7by2",
-    "title": "Eagles News: Moro Ojomo was asked about his contract outlook",
-    "url": "https://sports.yahoo.com/articles/eagles-news-moro-ojomo-asked-133908127.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-04T13:39:08.000Z",
-    "summary": "Philadelphia Eagles news and links for 8/4/26.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "10clrs239yccg",
-    "title": "Falcons sign Bijan Robinson to historic three-year extension, making him NFL&#039;s highest-paid running back",
-    "url": "https://www.cbssports.com/nfl/news/falcons-sign-bijan-robinson-historic-three-year-extension",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-04T13:24:20.000Z",
-    "summary": "Robinson led the NFL with 2,298 yards from scrimmage in 2025",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL"
-    ],
-    "players": [
-      "bijan-robinson"
-    ],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "14lpkn71lt0cyx",
-    "title": "Julian Blackmon embracing fresh start after injury-shortened first season with Saints",
-    "url": "https://sports.yahoo.com/articles/julian-blackmon-embracing-fresh-start-130000875.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-04T13:00:00.000Z",
-    "summary": "Blackmon says he's approaching 2026 with gratitude and believes the New Orleans secondary is set up for success.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "ullgv0d4hvts",
-    "title": "The 2027 1st: What players are you trying to target with a 2027 1st?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vf9met/the_2027_1st_what_players_are_you_trying_to",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-04T12:57:33.000Z",
-    "summary": "I have been trying to gage the value of the pick and what you can get for it and I am curious what the price is in leagues across this subreddit. Would be nice to combine the 2027 1st and a 2nd to try and get a STUD WR on either of the rosters I have. What are some targets ywll are going after and maybe some people will believe the 2027 1st is all too valuable and convince me I should not trade it",
-    "tags": [
-      "dynasty",
-      "trade",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
   }
 ]
