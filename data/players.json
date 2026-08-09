@@ -1,5 +1,16 @@
 [
   {
+    "id": "jacksonville-jaguars",
+    "name": "Jacksonville Jaguars",
+    "pos": "DEF",
+    "nflTeam": "JAX",
+    "age": 30,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "JAX",
+    "rosteredInLeague": false
+  },
+  {
     "id": "baker-mayfield",
     "name": "Baker Mayfield",
     "pos": "QB",
@@ -382,6 +393,18 @@
     "sleeperId": "4943",
     "rosteredInLeague": false,
     "rank": 84
+  },
+  {
+    "id": "taylen-green",
+    "name": "Taylen Green",
+    "pos": "QB",
+    "nflTeam": "CLE",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13306",
+    "rosteredInLeague": false,
+    "rank": 999
   },
   {
     "id": "tom-brady",
@@ -1692,18 +1715,6 @@
     "rank": 140
   },
   {
-    "id": "erick-all",
-    "name": "Erick All",
-    "pos": "TE",
-    "nflTeam": "CIN",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "11592",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "george-kittle",
     "name": "George Kittle",
     "pos": "TE",
@@ -1918,6 +1929,18 @@
     "sleeperId": "5844",
     "rosteredInLeague": false,
     "rank": 128
+  },
+  {
+    "id": "taysom-hill",
+    "name": "Taysom Hill",
+    "pos": "TE",
+    "nflTeam": "FA",
+    "age": 35,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4381",
+    "rosteredInLeague": false,
+    "rank": 321
   },
   {
     "id": "terrance-ferguson",
@@ -2580,18 +2603,6 @@
     "rank": 77
   },
   {
-    "id": "jalen-brooks",
-    "name": "Jalen Brooks",
-    "pos": "WR",
-    "nflTeam": "ARI",
-    "age": 26,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "11034",
-    "rosteredInLeague": false,
-    "rank": 9999999
-  },
-  {
     "id": "jalen-coker",
     "name": "Jalen Coker",
     "pos": "WR",
@@ -2724,18 +2735,6 @@
     "rank": 190
   },
   {
-    "id": "jeff-caldwell",
-    "name": "Jeff Caldwell",
-    "pos": "WR",
-    "nflTeam": "KC",
-    "age": 23,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13392",
-    "rosteredInLeague": false,
-    "rank": 999
-  },
-  {
     "id": "jerry-jeudy",
     "name": "Jerry Jeudy",
     "pos": "WR",
@@ -2746,18 +2745,6 @@
     "sleeperId": "6783",
     "rosteredInLeague": false,
     "rank": 160
-  },
-  {
-    "id": "jimmy-horn",
-    "name": "Jimmy Horn",
-    "pos": "WR",
-    "nflTeam": "CAR",
-    "age": 23,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "12523",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "jordan-addison",
@@ -2830,18 +2817,6 @@
     "sleeperId": "13298",
     "rosteredInLeague": false,
     "rank": 116
-  },
-  {
-    "id": "keandre-lambert-smith",
-    "name": "KeAndre Lambert-Smith",
-    "pos": "WR",
-    "nflTeam": "LAC",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "12670",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "keenan-allen",
