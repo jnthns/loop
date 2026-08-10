@@ -1,5 +1,84 @@
 [
   {
+    "id": "1t4wilfj7kzjn",
+    "title": "Bears expect Luther Burden to miss about a month, be ready for Week One",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-expect-luther-burden-to-miss-about-a-month-be-ready-for-week-one",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T07:33:21.000Z",
+    "summary": "Burden suffered a groin injury in practice on Saturday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "CHI"
+    ],
+    "players": [
+      "luther-burden"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "10vckyq1ty7xna",
+    "title": "Bears expect Luther Burden to miss about a month, be ready for Week One",
+    "url": "https://sports.yahoo.com/articles/bears-expect-luther-burden-miss-073321568.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T07:33:21.000Z",
+    "summary": "Burden suffered a groin injury in practice on Saturday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "CHI"
+    ],
+    "players": [
+      "luther-burden"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "4w28jp1167lgf",
+    "title": "Bears WR Luther Burden III to miss a month with groin injury, Week 1 return possible",
+    "url": "https://sports.yahoo.com/articles/bears-wr-luther-burden-iii-042059634.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T04:20:59.000Z",
+    "summary": "Luther Burden will miss the preseason with his groin injury, but a Week 1 return is possible.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [
+      "luther-burden"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "rd0x3t1lq5skv",
+    "title": "Luther Burden expected to miss about a month, hope is he will be ready for week 1",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vkalk1/luther_burden_expected_to_miss_about_a_month_hope",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-10T04:13:09.000Z",
+    "summary": "&#32; submitted by &#32; /u/lotofhotdogs [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "availability"
+    ],
+    "players": [
+      "luther-burden"
+    ],
+    "teams": []
+  },
+  {
     "id": "pp2keg12diu9i",
     "title": "The Giants are signing another defensive back",
     "url": "https://sports.yahoo.com/articles/giants-might-verge-adding-another-233241503.html",
@@ -73,6 +152,26 @@
     ]
   },
   {
+    "id": "y7hnv61sz8yrg",
+    "title": "Kyle Shanahan denies having contentious relationship with Deebo Samuel during contract negotiations",
+    "url": "https://sports.yahoo.com/articles/kyle-shanahan-denies-having-contentious-233649146.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-09T23:36:49.000Z",
+    "summary": "49ers coach Kyle Shanahan dismissed past noise about his relationship with wide receiver Deebo Samuel.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [
+      "deebo-samuel"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "og5cjp1p76f8h",
     "title": "Packers sign WR Kisean Johnson",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-sign-wr-kisean-johnson",
@@ -124,6 +223,26 @@
     "players": [],
     "teams": [
       "CHI"
+    ]
+  },
+  {
+    "id": "c3ahp712xd32l",
+    "title": "Lions swiftly sign veteran quarterback after Teddy Bridgewater’s stunning exit",
+    "url": "https://sports.yahoo.com/articles/lions-swiftly-sign-veteran-quarterback-222903262.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-09T22:29:03.000Z",
+    "summary": "The Lions have moved quickly to address their suddenly thin quarterback room, signing veteran Josh Dobbs after Teddy Bridgewater unexpectedly decided to step away from football.",
+    "tags": [
+      "league-news",
+      "contract",
+      "DET"
+    ],
+    "players": [
+      "teddy-bridgewater"
+    ],
+    "teams": [
+      "DET"
     ]
   },
   {
@@ -7316,112 +7435,5 @@
     "teams": [
       "BUF"
     ]
-  },
-  {
-    "id": "0nk2p5ff6c7h",
-    "title": "Falcons edge group returning to familiar land of uncertainty and fear",
-    "url": "https://sports.yahoo.com/articles/falcons-edge-group-returning-familiar-120000936.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T12:00:00.000Z",
-    "summary": "With a suspension looming for James Pearce Jr. and Jalon Walker’s injury, the team is hurting at EDGE.",
-    "tags": [
-      "league-news",
-      "injury",
-      "discipline",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "1coc0bpvqa2sd",
-    "title": "Browns roster: Tuesday injury leads to promising UDFA being waived, defender added",
-    "url": "https://sports.yahoo.com/articles/browns-roster-tuesday-injury-leads-115822246.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T11:58:22.000Z",
-    "summary": "The Cleveland Browns roster keeps seeing changes with promising WR Aaron Anderson waived with a injury designation",
-    "tags": [
-      "league-news",
-      "injury",
-      "roster-move",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "3a0b2ckelbxq",
-    "title": "Isaiah Likely wants to show Giants made ‘right choice’ by signing him",
-    "url": "https://sports.yahoo.com/articles/isaiah-likely-wants-show-giants-112918970.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T11:29:18.000Z",
-    "summary": "The Giants signed Likely because of what John Harbaugh believes he can be, not what he has been.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [
-      "isaiah-likely"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "nsj8r01s05004",
-    "title": "Tua Tagovailoa on training camp with Michael Penix: \"It's definitely a competition\"",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tua-tagovailoa-on-training-camp-with-michael-penix-its-definitely-a-competition",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T07:52:46.000Z",
-    "summary": "Both of the Falcons' quarterbacks are limited with injuries, but Tagovailoa says that isn't stopping them from competing.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ATL"
-    ],
-    "players": [
-      "michael-penix",
-      "tua-tagovailoa"
-    ],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "1g33gwhnethp1",
-    "title": "Shedeur Sanders, Deshaun Watson will each get a preseason start",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shedeur-sanders-deshaun-watson-will-each-get-a-preseason-start",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T02:50:11.000Z",
-    "summary": "The leader after two preseason games is expected to start the third preseason game.",
-    "tags": [
-      "league-news"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1ojlxv516ngcbf",
-    "title": "Shedeur Sanders, Deshaun Watson will each get a preseason start",
-    "url": "https://sports.yahoo.com/articles/shedeur-sanders-deshaun-watson-preseason-025011656.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T02:50:11.000Z",
-    "summary": "The leader after two preseason games is expected to start the third preseason game.",
-    "tags": [
-      "league-news"
-    ],
-    "players": [],
-    "teams": []
   }
 ]
