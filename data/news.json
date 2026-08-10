@@ -1,5 +1,825 @@
 [
   {
+    "id": "5xu8y21p0cu2o",
+    "title": "Broncos think J.K. Dobbins will be \"fine\" after soft tissue injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-think-j-k-dobbins-will-be-fine-after-soft-tissue-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T19:03:49.000Z",
+    "summary": "Broncos running back J.K.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DEN"
+    ],
+    "players": [
+      "j-k-dobbins"
+    ],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "18s19j2u9p05u",
+    "title": "Broncos think J.K. Dobbins will be \"fine\" after soft tissue injury",
+    "url": "https://sports.yahoo.com/articles/broncos-think-j-k-dobbins-190349962.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T19:03:49.000Z",
+    "summary": "Broncos running back J.K.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DEN"
+    ],
+    "players": [
+      "j-k-dobbins"
+    ],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "byu0w61pld76u",
+    "title": "49ers bubble watch: One rookie whose job is in jeopardy",
+    "url": "https://sports.yahoo.com/articles/49ers-bubble-watch-one-rookie-190100852.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T19:01:00.000Z",
+    "summary": "Enrique Cruz Jr. has not received glowing reports so far during 49ers’ training camp",
+    "tags": [
+      "league-news",
+      "rookie",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1hyizktknj0wl",
+    "title": "Micah Parsons sets 'optimistic' injury return date. When will Packers star play?",
+    "url": "https://sports.yahoo.com/articles/micah-parsons-sets-optimistic-injury-185242360.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T18:52:42.000Z",
+    "summary": "The superstar pass rusher isn't going to play the first four weeks of the 2026 NFL season, but has a return date in his sights. Here's when it is.",
+    "tags": [
+      "league-news",
+      "injury",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "1omnozi1u62hna",
+    "title": "JK Dobbins exited practice early with a soft tissue injury, per Sean Payton. (@ParkerJGabriel)",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vktg5b/jk_dobbins_exited_practice_early_with_a_soft",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-10T18:42:06.000Z",
+    "summary": "&#32; submitted by &#32; /u/No-Departure-6872 [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1ddwnd5e28hrh",
+    "title": "Falcons activate Jawaan Taylor from the PUP list",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-activate-jawaan-taylor-from-the-pup-list",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T18:28:08.000Z",
+    "summary": "Jawaan Taylor is set to start practicing at Falcons training camp.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "1v60azf1aubl67",
+    "title": "Falcons activate Jawaan Taylor from the PUP list",
+    "url": "https://sports.yahoo.com/articles/falcons-activate-jawaan-taylor-pup-182808390.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T18:28:08.000Z",
+    "summary": "Jawaan Taylor is set to start practicing at Falcons training camp.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "1bp77zvllkxeb",
+    "title": "Buccaneers sign DB Roman Parodie",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-sign-db-roman-parodie",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T18:18:09.000Z",
+    "summary": "Defensive back Roman Parodie is back with the Buccaneers.",
+    "tags": [
+      "league-news",
+      "contract",
+      "TB"
+    ],
+    "players": [],
+    "teams": [
+      "TB"
+    ]
+  },
+  {
+    "id": "nif1efqtvksd",
+    "title": "Buccaneers sign DB Roman Parodie",
+    "url": "https://sports.yahoo.com/articles/buccaneers-sign-db-roman-parodie-181809396.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T18:18:09.000Z",
+    "summary": "Defensive back Roman Parodie is back with the Buccaneers.",
+    "tags": [
+      "league-news",
+      "contract",
+      "TB"
+    ],
+    "players": [],
+    "teams": [
+      "TB"
+    ]
+  },
+  {
+    "id": "1q5rp9g185bpzq",
+    "title": "Eagles training camp injury updates",
+    "url": "https://sports.yahoo.com/articles/eagles-training-camp-injury-updates-174534543.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T18:17:24.000Z",
+    "summary": "The list of injured Eagles players continues to grow through the second week of training camp.",
+    "tags": [
+      "league-news",
+      "injury",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "17mre6i1r8v9x8",
+    "title": "Christian McCaffrey out of Monday's practice with \"tightness\"",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-mccaffrey-out-of-mondays-practice-with-tightness",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T18:13:22.000Z",
+    "summary": "The 49ers may have yet another injury concern.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "christian-mccaffrey"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1gycnzn1ezz8uz",
+    "title": "Christian McCaffrey out of Monday's practice with \"tightness\"",
+    "url": "https://sports.yahoo.com/articles/christian-mccaffrey-mondays-practice-tightness-181322399.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T18:13:22.000Z",
+    "summary": "The 49ers may have yet another injury concern.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "christian-mccaffrey"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "wfmmj21dl9o0c",
+    "title": "Falcons activate OL Jawaan Taylor off PUP, sign DE Cameron Sample",
+    "url": "https://sports.yahoo.com/articles/falcons-activate-ol-jawaan-taylor-181252272.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T18:12:52.000Z",
+    "summary": "Some roster moves for the Falcons on a Monday afternoon.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "189f2vfmuyw5t",
+    "title": "The most obvious Cowboys trade candidate",
+    "url": "https://sports.yahoo.com/articles/most-obvious-cowboys-trade-candidate-180000808.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T18:00:00.000Z",
+    "summary": "Who do you think is the most obvious trade candidate for the Cowboys?",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "12kwlpwlnv1z4",
+    "title": "Eagles sign 3 players, including their former draft pick",
+    "url": "https://sports.yahoo.com/articles/eagles-sign-3-players-including-174404771.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T17:44:04.000Z",
+    "summary": "The team made several roster moves, including placing RB Elijah Mitchell on IR.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "rookie",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "1fxiyc05lxqh6",
+    "title": "[Adam Schefter] Chicago WR Luther Burden III is expected to miss the preseason due to the strained groin injury he suffered Saturday, but the Bears believe he should be back for the team’s regular-season opener vs. the Panthers.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vkrczt/adam_schefter_chicago_wr_luther_burden_iii_is",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-10T17:27:20.000Z",
+    "summary": "&#32; submitted by &#32; /u/Cogitoergosumus [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "CAR",
+      "CHI"
+    ],
+    "players": [
+      "luther-burden"
+    ],
+    "teams": [
+      "CAR",
+      "CHI"
+    ]
+  },
+  {
+    "id": "1ezvfjr1okeb53",
+    "title": "Lions injury report: Latest news on Isiah Pacheco, Juice Scruggs",
+    "url": "https://sports.yahoo.com/articles/lions-injury-report-latest-news-172113483.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T17:21:13.000Z",
+    "summary": "The latest Detroit Lions injury news from training camp with updates on Isiah Pacheco and Juice Scruggs.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DET"
+    ],
+    "players": [
+      "isiah-pacheco"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "kkorbkqpguyu",
+    "title": "Chargers sign OLB Andre Carter",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-sign-olb-andre-carter",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T17:19:46.000Z",
+    "summary": "The Chargers have added some depth on defense.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LAC"
+    ],
+    "players": [],
+    "teams": [
+      "LAC"
+    ]
+  },
+  {
+    "id": "1acr93n8am3mt",
+    "title": "Giants release defensive tackle, officially announce defensive back signing",
+    "url": "https://sports.yahoo.com/articles/giants-release-defensive-tackle-officially-171923340.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T17:19:23.000Z",
+    "summary": "Sam Roberts never really got started with the Giants.",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "135dh5r1qxd3z3",
+    "title": "49ers sign one of the centers they worked out on Friday; release Nick Zakelj",
+    "url": "https://sports.yahoo.com/articles/49ers-sign-one-centers-worked-171126848.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T17:11:26.000Z",
+    "summary": "Doug Kramer Jr. is your newest member of the 49ers",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "121gyw81pp3z3y",
+    "title": "7 takeaways from Cincinnati Bengals’ first depth chart of the 2026 season",
+    "url": "https://sports.yahoo.com/articles/7-takeaways-cincinnati-bengals-first-171111271.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T17:11:11.000Z",
+    "summary": "You know we’re getting close when the team releases their depth chart.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "usage",
+      "CIN"
+    ],
+    "players": [],
+    "teams": [
+      "CIN"
+    ]
+  },
+  {
+    "id": "6p037d1q318sj",
+    "title": "49ers sign OL Doug Kramer Jr., release OL Nick Zakelj",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sign-ol-doug-kramer-jr-release-ol-nick-zakelj",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T17:09:15.000Z",
+    "summary": "The 49ers have made a pair of roster moves on Monday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1tng6rl1pp9ti5",
+    "title": "49ers sign OL Doug Kramer Jr., release OL Nick Zakelj",
+    "url": "https://sports.yahoo.com/articles/49ers-sign-ol-doug-kramer-170915324.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T17:09:15.000Z",
+    "summary": "The 49ers have made a pair of roster moves on Monday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1l542dws2ofy6",
+    "title": "Todd Monken: As long as we're sharing reps, it's a QB competition",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-as-long-as-were-sharing-reps-its-a-qb-competition",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T17:08:43.000Z",
+    "summary": "The Browns have not decided who will start this week's preseason opener.",
+    "tags": [
+      "league-news",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "evx06wd9kndo",
+    "title": "Todd Monken: As long as we're sharing reps, it's a QB competition",
+    "url": "https://sports.yahoo.com/articles/todd-monken-long-were-sharing-170843037.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T17:08:43.000Z",
+    "summary": "The Browns have not decided who will start this week's preseason opener.",
+    "tags": [
+      "league-news",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "p98fromztacs",
+    "title": "Raiders roster 2026: Get to know Buddy Johnson",
+    "url": "https://sports.yahoo.com/articles/raiders-roster-2026-know-buddy-170400674.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T17:04:00.000Z",
+    "summary": "Las Vegas signed veteran linebacker for depth",
+    "tags": [
+      "league-news",
+      "contract",
+      "LV"
+    ],
+    "players": [],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "w6o9bm1ezym9y",
+    "title": "Broncos activate LB Jordan Turner off NFI list",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-activate-lb-jordan-turner-off-nfi-list",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T17:02:31.000Z",
+    "summary": "The Broncos have gotten one of their defensive players back on the field.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DEN"
+    ],
+    "players": [],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "6jd0hh1xfh4ld",
+    "title": "Broncos activate LB Jordan Turner off NFI list",
+    "url": "https://sports.yahoo.com/articles/broncos-activate-lb-jordan-turner-170231737.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T17:02:31.000Z",
+    "summary": "The Broncos have gotten one of their defensive players back on the field.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DEN"
+    ],
+    "players": [],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "1mogtv91bl9gin",
+    "title": "Andy Reid talks injuries, Bieniemy’s return after Monday’s Chiefs practice",
+    "url": "https://sports.yahoo.com/articles/andy-reid-talks-injuries-bieniemy-164500150.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T16:45:00.000Z",
+    "summary": "Kansas City’s training camp practice on Monday featured the return of its offensive coordinator.",
+    "tags": [
+      "league-news",
+      "injury",
+      "KC"
+    ],
+    "players": [],
+    "teams": [
+      "KC"
+    ]
+  },
+  {
+    "id": "1ny3rmtjw1ddx",
+    "title": "Broncos announce that they have activated LB Jordan Turner off the NFI",
+    "url": "https://sports.yahoo.com/articles/broncos-announce-activated-lb-jordan-163559957.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T16:35:59.000Z",
+    "summary": "On Monday morning, the Denver Broncos announced that reserve linebacker Jordan Turner has passed his physical and will be activated off the NFI list. He has been there since the start of camp, but for the first time this summer, Turner is on the practice field and participating in Broncos Camp. Turner joined the team […]",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "DEN"
+    ],
+    "players": [],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "1w3qwcfdy538n",
+    "title": "Lions' Isiah Pacheco will miss time with injury. How long is he out?",
+    "url": "https://sports.yahoo.com/articles/lions-isiah-pacheco-miss-time-162921176.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T16:29:21.000Z",
+    "summary": "An offseason acquisition of the Detroit Lions, Pacheco is going to slot in with Jahmyr Gibbs in the backfield. Here's how long the back is out.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DET"
+    ],
+    "players": [
+      "isiah-pacheco",
+      "jahmyr-gibbs"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "y2wryeps5cew",
+    "title": "Former NFL running back wins legal battle to see his dying daughter",
+    "url": "https://sports.yahoo.com/articles/former-nfl-running-back-wins-161145454.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T16:11:45.000Z",
+    "summary": "Former NFL RB Wendell Smallwood Jr. won a legal battle to be released from jail and spend time with his daughter in her final days.",
+    "tags": [
+      "league-news",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "673om7yo1rbx",
+    "title": "Report: Falcons agree to sign DE Cameron Sample",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-falcons-agree-to-sign-de-cameron-sample",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T16:07:47.000Z",
+    "summary": "The Falcons are bringing in some depth along their defensive line.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "1mfihcln94mqp",
+    "title": "Report: Falcons agree to sign DE Cameron Sample",
+    "url": "https://sports.yahoo.com/articles/report-falcons-agree-sign-cameron-160747191.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T16:07:47.000Z",
+    "summary": "The Falcons are bringing in some depth along their defensive line.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "1a0pscvvlqhkt",
+    "title": "Rams sign CB Zech McPhearson",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-sign-cb-zech-mcphearson",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T15:41:31.000Z",
+    "summary": "The Rams brought in a new cornerback on Monday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "y7c0rbehmltl",
+    "title": "Rams sign CB Zech McPhearson",
+    "url": "https://sports.yahoo.com/articles/rams-sign-cb-zech-mcphearson-154131747.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T15:41:31.000Z",
+    "summary": "The Rams brought in a new cornerback on Monday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "4pg0hc1sq2u46",
+    "title": "Steelers sign WRs Cornell Powell and Isaiah Winstead",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-sign-wrs-cornell-powell-and-isaiah-winstead",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T15:24:47.000Z",
+    "summary": "The Steelers changed up their wide receiver group on Monday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "1smj2ru1l7zpbg",
+    "title": "Steelers first-round pick Max Iheanachor remains out of practice with no timeline for return",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-first-round-pick-max-iheanachor-remains-out-of-practice-with-no-timeline-for-return",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T15:14:24.000Z",
+    "summary": "When Steelers rookie offensive tackle Max Iheanachor suffered an injury at practice last week, head coach Mike McCarthy indicated he would be back by Monday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "c862id195z6x3",
+    "title": "Isiah Pacheco has an MCL sprain, but should be ready for Week 1",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/isiah-pacheco-has-an-mcl-sprain-but-should-be-ready-for-week-1",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T14:31:52.000Z",
+    "summary": "Lions running back Isiah Pacheco has an injury concern, but he should be ready for the regular season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "DET"
+    ],
+    "players": [
+      "isiah-pacheco"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "t8ufxq1fj4q3s",
+    "title": "Lions C Cade Mays out for \"significant\" time with wrist injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-c-cade-mays-out-for-significant-time-with-wrist-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T14:22:12.000Z",
+    "summary": "The Lions signed center Cade Mays in free agency to upgrade a critical piece of their offense.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "DET"
+    ],
+    "players": [],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "3ng3kh1s9ndfp",
+    "title": "Eagles put RB Elijah Mitchell on IR, sign three players",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-put-rb-elijah-mitchell-on-ir-sign-three-players",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T14:19:25.000Z",
+    "summary": "Running back Elijah Mitchell won't be making the cut for the Eagles at the end of the month.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "roster-move",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "8jjt911ioiohz",
+    "title": "Lions RB Isiah Pacheco sprained his MCL, but HC Dan Campbell believes his running back should be ready for the regular-season opener.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vkm410/lions_rb_isiah_pacheco_sprained_his_mcl_but_hc",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-10T14:16:52.000Z",
+    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "DET"
+    ],
+    "players": [
+      "isiah-pacheco"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "1ty2t1y4ywzve",
+    "title": "Colts list both Riley Leonard and Anthony Richardson as No. 2 QB",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-list-both-riley-leonard-and-anthony-richardson-as-no-2-qb",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T14:12:35.000Z",
+    "summary": "The Colts' first depth chart of the 2026 preseason doesn't provide any hint to how the team's backup quarterback competition will play out.",
+    "tags": [
+      "league-news",
+      "usage",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "1vu8ospyadcxp",
+    "title": "Texans sign WR Juwann Winfree, put LB Sione Takitaki on IR",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-sign-wr-juwann-winfree-put-lb-sione-takitaki-on-ir",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T13:54:51.000Z",
+    "summary": "The Texans kicked off the week by adding a wide receiver.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
     "id": "i7fvi91p4p5e5",
     "title": "Patriots TE Hunter Henry signs extension worth up to $20M",
     "url": "https://www.espn.com/nfl/story/_/id/49574198/sources-patriots-te-hunter-henry-agree-2-year-extension",
@@ -6638,828 +7458,5 @@
       "zay-flowers"
     ],
     "teams": []
-  },
-  {
-    "id": "5fe8fuxmhzwq",
-    "title": "San Francisco 49ers face wide receiver room nightmare with injuries",
-    "url": "https://sports.yahoo.com/articles/san-francisco-49ers-face-wide-221339585.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T22:13:39.000Z",
-    "summary": "Injuries to the San Francisco 49ers continue to pile on. Here's what assistant offensive head coach Chris Foerster had to say about banged up squad.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "nzmh2r7lvr6d",
-    "title": "49ers face jarring number of injuries ahead of season",
-    "url": "https://sports.yahoo.com/articles/49ers-face-jarring-number-injuries-220840665.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T22:08:40.000Z",
-    "summary": "Bodies appear to be dropping like flies as the San Francisco 49ers ended Wednesday's practice short of 20 players from their 90-man roster.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "rsel3j1hjkc3r",
-    "title": "Seahawks sign RB T.J. Harden, CB Jordan Washington",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-rb-t-j-harden",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T21:54:46.000Z",
-    "summary": "The Seahawks announced a handful of roster moves on Wednesday afternoon.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "tthxy2l7c8ck",
-    "title": "Seahawks sign RB T.J. Harden, CB Jordan Washington",
-    "url": "https://sports.yahoo.com/articles/seahawks-sign-rb-t-j-215446070.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T21:54:46.000Z",
-    "summary": "The Seahawks announced a handful of roster moves on Wednesday afternoon.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1snhlhz177hi07",
-    "title": "Zay Flowers contract will cause plenty of ripple effects in the receiver market",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zay-flowers-contract-will-cause-plenty-of-ripple-effects-in-the-receiver-market",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T21:51:38.000Z",
-    "summary": "When the Ravens rewarded receiver Zay Flowers with a new deal that carries a new-money average of $35 million per year, plenty of other receivers surely took notice.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL"
-    ],
-    "players": [
-      "zay-flowers"
-    ],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "f1yistfpbha3",
-    "title": "Zay Flowers contract will cause plenty of ripple effects in the receiver market",
-    "url": "https://sports.yahoo.com/articles/zay-flowers-contract-cause-plenty-215138872.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T21:51:38.000Z",
-    "summary": "When the Ravens rewarded receiver Zay Flowers with a new deal that carries a new-money average of $35 million per year, plenty of other receivers surely took notice.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL"
-    ],
-    "players": [
-      "zay-flowers"
-    ],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1vm31xd1hoyoo7",
-    "title": "Lions re-sign WR Tarik Black",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-re-sign-wr-tarik-black",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T21:50:06.000Z",
-    "summary": "The Lions re-signed wide receiver Tarik Black on Wednesday, the team announced.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "1xw0yre6i5o8",
-    "title": "Lions re-sign WR Tarik Black",
-    "url": "https://sports.yahoo.com/articles/lions-sign-wr-tarik-black-215006103.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T21:50:06.000Z",
-    "summary": "The Lions re-signed wide receiver Tarik Black on Wednesday, the team announced.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "19d7br81mv1knk",
-    "title": "Jalin Hyatt shows signs of hope in new role — from wrong side of Giants roster bubble",
-    "url": "https://sports.yahoo.com/articles/jalin-hyatt-shows-signs-hope-213717280.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T21:37:17.000Z",
-    "summary": "Observations from Giants training camp on Wednesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1m15jmpv9apq1",
-    "title": "Seahawks add depth, sign two undrafted free agents",
-    "url": "https://sports.yahoo.com/articles/seahawks-add-depth-sign-two-212455539.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T21:24:55.000Z",
-    "summary": "Roster shuffles continue for the reigning Super Bowl Champions as Week 2 of training camp progresses",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "13j4mgw476nb8",
-    "title": "Detroit Lions veteran TE to return from injury",
-    "url": "https://sports.yahoo.com/articles/detroit-lions-veteran-te-return-211531385.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T21:15:31.000Z",
-    "summary": "Detroit Lions TE Tyler Conklin passes his physical and is expected to be removed from PUP.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "5dpgfn15ximcp",
-    "title": "Ravens Reacts survey: grading the Zay Flowers extension",
-    "url": "https://sports.yahoo.com/articles/ravens-reacts-survey-grading-zay-211058639.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T21:10:58.000Z",
-    "summary": "Did the Ravens make the right decision to sign Zay Flowers to a four-year, $140 million contract extension?",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL"
-    ],
-    "players": [
-      "zay-flowers"
-    ],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1w7mgeh4svgdp",
-    "title": "Raiders sign TE Chris Myarick",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-sign-te-chris-myarick",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T21:09:00.000Z",
-    "summary": "The Raiders have added a tight end.",
-    "tags": [
-      "league-news",
-      "contract",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "1w51b5f1sm5gfn",
-    "title": "Raiders sign TE Chris Myarick",
-    "url": "https://sports.yahoo.com/articles/raiders-sign-te-chris-myarick-210900050.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T21:09:00.000Z",
-    "summary": "The Raiders have added a tight end.",
-    "tags": [
-      "league-news",
-      "contract",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "1izjp3kzs4dmu",
-    "title": "Dolphins claim TE Jeremiah Franklin, sign DL Fatorma Mulbah",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-claim-te-jeremiah-franklin-sign-dl-fatorma-mulbah",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T20:55:54.000Z",
-    "summary": "The Dolphins picked up a tight end off the waiver wire on Wednesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "MIA"
-    ],
-    "players": [],
-    "teams": [
-      "MIA"
-    ]
-  },
-  {
-    "id": "1wngusi5l085c",
-    "title": "Dolphins claim TE Jeremiah Franklin, sign DL Fatorma Mulbah",
-    "url": "https://sports.yahoo.com/articles/dolphins-claim-te-jeremiah-franklin-205554336.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T20:55:54.000Z",
-    "summary": "The Dolphins picked up a tight end off the waiver wire on Wednesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "MIA"
-    ],
-    "players": [],
-    "teams": [
-      "MIA"
-    ]
-  },
-  {
-    "id": "19hjtu4hrsk44",
-    "title": "Rico Dowdle is No. 2 RB on initial Steelers depth chart, Mason Rudolph is No. 2 QB",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rico-dowdle-is-no-2-rb-on-initial-steelers-depth-chart-mason-rudolph-is-no-2-qb",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T20:46:10.000Z",
-    "summary": "The Steelers have released their first depth chart of the season and it does not include running back Rico Dowdle among the starters.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "usage",
-      "PIT"
-    ],
-    "players": [
-      "rico-dowdle"
-    ],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "8mnb03vk8osz",
-    "title": "Rico Dowdle is No. 2 RB on initial Steelers depth chart, Mason Rudolph is No. 2 QB",
-    "url": "https://sports.yahoo.com/articles/rico-dowdle-no-2-rb-204610842.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T20:46:10.000Z",
-    "summary": "The Steelers have released their first depth chart of the season and it does not include running back Rico Dowdle among the starters.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "usage",
-      "PIT"
-    ],
-    "players": [
-      "rico-dowdle"
-    ],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "4o2vxe1md9lk2",
-    "title": "Steelers release first depth chart of 2026",
-    "url": "https://sports.yahoo.com/articles/steelers-release-first-depth-chart-204325233.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T20:43:25.000Z",
-    "summary": "The Steelers release their first depth chart of 2026.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "usage",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "10et195wvmvhz",
-    "title": "49ers’ Chris Foerster: ‘If you’re not practicing football hard, you can get through camp easily without injuries’",
-    "url": "https://sports.yahoo.com/articles/49ers-chris-foerster-not-practicing-204115233.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T20:41:15.000Z",
-    "summary": "The 49ers were without nearly a quarter of their roster during Wednesday’s practice",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "14uqv2y1686j2a",
-    "title": "Stefon Diggs signs with Commanders: What does it mean for fantasy football in 2026?",
-    "url": "https://sports.yahoo.com/fantasy/article/stefon-diggs-signs-with-commanders-what-does-it-mean-for-fantasy-football-in-2026-204039619.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T20:40:39.000Z",
-    "summary": "The Commanders added a big-name veteran to the receiving corps by signing Diggs to a one-year, $12 million contract.",
-    "tags": [
-      "league-news",
-      "contract",
-      "WAS"
-    ],
-    "players": [
-      "stefon-diggs"
-    ],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "1noscc21uq7r4m",
-    "title": "Vita Vea's agent: I don't see things ending in anything but a trade",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vita-veas-agent-i-dont-see-things-ending-in-anything-but-a-trade",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T20:28:34.000Z",
-    "summary": "Buccaneers head coach Todd Bowles said that the team is \"not concerned\" about defensive tackle Vita Vea's continued absence from practice in the wake of his trade request, but it also doesn't sound like there's much optimism about a new contract that would put an end to Vea's hold-in at training camp.",
-    "tags": [
-      "league-news",
-      "trade",
-      "contract",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "9npic1kb2c4o",
-    "title": "Panthers place OL Saahdiq Charles on IR",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-place-ol-saahdiq-charles-on-ir",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T20:13:58.000Z",
-    "summary": "The Panthers placed offensive lineman Saahdiq Charles on injured reserve Wednesday, the team announced.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "iaq0kla0cpgf",
-    "title": "Panthers place OL Saahdiq Charles on IR",
-    "url": "https://sports.yahoo.com/articles/panthers-place-ol-saahdiq-charles-201358373.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T20:13:58.000Z",
-    "summary": "The Panthers placed offensive lineman Saahdiq Charles on injured reserve Wednesday, the team announced.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "1wroez88y1id4",
-    "title": "Jets sign TE Connor Hulstein, DL Patrick Jenkins",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-sign-te-connor-hulstein-dl-patrick-jenkins",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T20:11:42.000Z",
-    "summary": "The Jets did some roster rearranging on Wednesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "19i17uyuivcp0",
-    "title": "Bijan Robinson: Jahmyr Gibbs and I told each other to hang in there",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bijan-robinson-jahmyr-gibbs-and-i-told-each-other-to-hang-in-there",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T19:57:27.000Z",
-    "summary": "Bijan Robinson and Jahmyr Gibbs have been mentioned in conjunction with one another a lot this offseason and their contract pushes were also the subject of conversations between the two running backs.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [
-      "bijan-robinson",
-      "jahmyr-gibbs"
-    ],
-    "teams": []
-  },
-  {
-    "id": "31bzp7wpyrgl",
-    "title": "Mike Evans remains sidelined at training camp as injury woes mount on offense for 49ers",
-    "url": "https://sports.yahoo.com/nfl/article/mike-evans-remains-sidelined-at-training-camp-as-injury-woes-mount-on-offense-for-49ers-193453120.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T19:34:53.000Z",
-    "summary": "Ricky Pearsall's out for the season. George Kittle's recovering from an Achilles tear. Christian Kirk, De'Zhaun Stribling and Kyle Juszczyk are all sidelined from practice.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [
-      "george-kittle",
-      "de-zhaun-stribling",
-      "mike-evans",
-      "ricky-pearsall"
-    ],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "aon2kzx6s86l",
-    "title": "Drake Maye weighs in on Kayshon Boutte’s future with Patriots",
-    "url": "https://sports.yahoo.com/articles/drake-maye-weighs-kayshon-boutte-193236383.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T19:32:36.000Z",
-    "summary": "The Patriots wide receiver remains the subject of trade speculation.",
-    "tags": [
-      "league-news",
-      "trade",
-      "NE"
-    ],
-    "players": [
-      "drake-maye",
-      "kayshon-boutte"
-    ],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "1f23d0o3cc4eg",
-    "title": "Texans sign WR Montrell Washington",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-sign-wr-montrell-washington",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T19:16:19.000Z",
-    "summary": "The Texans signed wide receiver Montrell Washington, the team announced Wednesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "1vxwwn41omocu4",
-    "title": "Texans sign WR Montrell Washington",
-    "url": "https://sports.yahoo.com/articles/texans-sign-wr-montrell-washington-191619347.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T19:16:19.000Z",
-    "summary": "The Texans signed wide receiver Montrell Washington, the team announced Wednesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "2g1e891270d3r",
-    "title": "Agent&#039;s Take: Are the Cowboys turning over a new negotiating leaf with Quinnen Williams?",
-    "url": "https://www.cbssports.com/nfl/news/agents-take-cowboys-quinnen-williams-contract",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-05T19:14:29.000Z",
-    "summary": "The Cowboys have opened the door to a long-term Quinnen Williams extension, but their usual patient approach to negotiations may have strengthened his leverage",
-    "tags": [
-      "league-news",
-      "contract",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "vwc0wbe516wz",
-    "title": "Steelers get clarity on Falcons QB plan ahead of Week 1 matchup",
-    "url": "https://sports.yahoo.com/articles/steelers-clarity-falcons-qb-plan-190127944.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T19:01:27.000Z",
-    "summary": "Steelers get clarity on who the Falcons will start at QB in Week 1.",
-    "tags": [
-      "league-news",
-      "ATL",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "ATL",
-      "PIT"
-    ]
-  },
-  {
-    "id": "4wccz4123e19w",
-    "title": "Stefon Diggs signing with Commanders as four-time Pro Bowl WR offers Jayden Daniels another weapon, per report",
-    "url": "https://www.cbssports.com/nfl/news/stefon-diggs-signing-with-commanders",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-05T18:27:28.000Z",
-    "summary": "The Maryland Terrapins alum returns home to the DMV to join QB Jayden Daniels and WR Terry McLaurin",
-    "tags": [
-      "league-news",
-      "contract",
-      "WAS"
-    ],
-    "players": [
-      "jayden-daniels",
-      "stefon-diggs",
-      "terry-mclaurin"
-    ],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "vgwt3h1b84x47",
-    "title": "Roster news: NY Giants place DT Roy Robertson-Harris on injured reserve",
-    "url": "https://sports.yahoo.com/articles/roster-news-ny-giants-place-182121964.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T18:21:21.000Z",
-    "summary": "DT Roy Robertson-Harris won’t be making a comeback for the NY Giants this year.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "xyiwfbxkwegt",
-    "title": "Stefon Diggs to sign with the Commanders",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/stefon-diggs-to-sign-with-the-commanders",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T18:05:22.000Z",
-    "summary": "Diggs was linked to the NFC East team last month and will be joining them at training camp.",
-    "tags": [
-      "league-news",
-      "contract",
-      "WAS"
-    ],
-    "players": [
-      "stefon-diggs"
-    ],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "1ijslutqaep1p",
-    "title": "49ers add another wide receiver to the injury list",
-    "url": "https://sports.yahoo.com/articles/49ers-add-another-wide-receiver-175540984.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T17:55:40.000Z",
-    "summary": "The 49ers are a skeleton crew with all of the injuries.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "4so5n41cbjwl8",
-    "title": "Schultz: Stefon Diggs to sign with the Commanders.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vgempp/schultz_stefon_diggs_to_sign_with_the_commanders",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-05T17:52:06.000Z",
-    "summary": "&#32; submitted by &#32; /u/limitlesshamster [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "contract",
-      "WAS"
-    ],
-    "players": [
-      "stefon-diggs"
-    ],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "984bjypqtmos",
-    "title": "Giants put Roy Robertson-Harris on IR, sign two players",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-put-roy-robertson-harris-on-ir-sign-two-players",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T17:51:42.000Z",
-    "summary": "Giants defensive lineman Roy Robertson-Harris tore his Achilles during the team's offseason program, but they put him on the physically unable to perform list rather than injured reserve to open training camp.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1m80mxpggp4i9",
-    "title": "Giants put Roy Robertson-Harris on IR, sign two players",
-    "url": "https://sports.yahoo.com/articles/giants-put-roy-robertson-harris-175142565.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T17:51:42.000Z",
-    "summary": "Giants defensive lineman Roy Robertson-Harris tore his Achilles during the team's offseason program, but they put him on the physically unable to perform list rather than injured reserve to open training camp.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1jrwlydwzx2kf",
-    "title": "Micah Parsons points to \"no camp\" in 2025 as contributing factor to ACL tear",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-points-to-no-camp-in-2025-as-contributing-factor-to-acl-tear",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T17:47:28.000Z",
-    "summary": "Old-school coaches will often attribute missed practice time in training camp to serious in-season injuries, like torn ACLs.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1vp6cwmt8agu6",
-    "title": "Micah Parsons points to \"no camp\" in 2025 as contributing factor to ACL tear",
-    "url": "https://sports.yahoo.com/articles/micah-parsons-points-no-camp-174728142.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T17:47:28.000Z",
-    "summary": "Old-school coaches will often attribute missed practice time in training camp to serious in-season injuries, like torn ACLs.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "r91a231aqym07",
-    "title": "Jaguars sign OL Sam Mustipher",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-sign-ol-sam-mustipher",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T17:39:09.000Z",
-    "summary": "The Jaguars have added an experienced offensive lineman to their roster in the wake of Trystan Colon's retirement.",
-    "tags": [
-      "league-news",
-      "contract",
-      "JAX"
-    ],
-    "players": [],
-    "teams": [
-      "JAX"
-    ]
-  },
-  {
-    "id": "keodmy1b9a9ay",
-    "title": "Jaguars sign OL Sam Mustipher",
-    "url": "https://sports.yahoo.com/articles/jaguars-sign-ol-sam-mustipher-173909122.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T17:39:09.000Z",
-    "summary": "The Jaguars have added an experienced offensive lineman to their roster in the wake of Trystan Colon's retirement.",
-    "tags": [
-      "league-news",
-      "contract",
-      "JAX"
-    ],
-    "players": [],
-    "teams": [
-      "JAX"
-    ]
-  },
-  {
-    "id": "1wms3znzvblqp",
-    "title": "49ers release DL Kevin Givens, DL Cameron Sample",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-release-dl-kevin-givens-dl-cameron-sample",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T17:27:42.000Z",
-    "summary": "The 49ers made their two Wednesday signings official, which also means they had to make a pair of corresponding roster moves.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
   }
 ]
