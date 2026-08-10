@@ -11,6 +11,18 @@
     "rosteredInLeague": false
   },
   {
+    "id": "jake-bates",
+    "name": "Jake Bates",
+    "pos": "K",
+    "nflTeam": "DET",
+    "age": 27,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "11539",
+    "rosteredInLeague": false,
+    "rank": 173
+  },
+  {
     "id": "baker-mayfield",
     "name": "Baker Mayfield",
     "pos": "QB",
@@ -177,18 +189,6 @@
     "sleeperId": "13269",
     "rosteredInLeague": false,
     "rank": 39
-  },
-  {
-    "id": "haynes-king",
-    "name": "Haynes King",
-    "pos": "QB",
-    "nflTeam": "CAR",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13415",
-    "rosteredInLeague": false,
-    "rank": 9999999
   },
   {
     "id": "j-j-mccarthy",
@@ -395,14 +395,14 @@
     "rank": 84
   },
   {
-    "id": "taylen-green",
-    "name": "Taylen Green",
+    "id": "teddy-bridgewater",
+    "name": "Teddy Bridgewater",
     "pos": "QB",
-    "nflTeam": "CLE",
-    "age": 23,
-    "tier": "starter",
+    "nflTeam": "DET",
+    "age": 33,
+    "tier": "win-now",
     "notes": "",
-    "sleeperId": "13306",
+    "sleeperId": "2152",
     "rosteredInLeague": false,
     "rank": 999
   },
@@ -1929,18 +1929,6 @@
     "sleeperId": "5844",
     "rosteredInLeague": false,
     "rank": 128
-  },
-  {
-    "id": "taysom-hill",
-    "name": "Taysom Hill",
-    "pos": "TE",
-    "nflTeam": "FA",
-    "age": 35,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "4381",
-    "rosteredInLeague": false,
-    "rank": 321
   },
   {
     "id": "terrance-ferguson",

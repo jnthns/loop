@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-09T18:59:54.393Z",
+  "capturedAt": "2026-08-10T02:32:55.426Z",
   "scrapeDate": "2026-08-07",
   "sources": [
     {
@@ -4784,7 +4784,7 @@
       "sleeperId": "13306",
       "ktcId": "2029",
       "espnId": "4431325",
-      "playerId": "taylen-green",
+      "playerId": null,
       "name": "Taylen Green",
       "pos": "QB",
       "nflTeam": "CLE",
@@ -5192,7 +5192,7 @@
       "sleeperId": "13415",
       "ktcId": null,
       "espnId": "4428993",
-      "playerId": "haynes-king",
+      "playerId": null,
       "name": "Haynes King",
       "pos": "QB",
       "nflTeam": "CAR",
@@ -7555,7 +7555,7 @@
       "sleeperId": "4381",
       "ktcId": null,
       "espnId": "2468609",
-      "playerId": "taysom-hill",
+      "playerId": null,
       "name": "Taysom Hill",
       "pos": "TE",
       "nflTeam": "FA",
