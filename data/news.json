@@ -1,5 +1,521 @@
 [
   {
+    "id": "i7fvi91p4p5e5",
+    "title": "Patriots TE Hunter Henry signs extension worth up to $20M",
+    "url": "https://www.espn.com/nfl/story/_/id/49574198/sources-patriots-te-hunter-henry-agree-2-year-extension",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-10T13:34:24.000Z",
+    "summary": "Patriots standout TE Hunter Henry, 31, has signed a two-year contract extension. The deal is worth up to $20 million with $14.5 million guaranteed, sources told ESPN's Adam Schefter.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [
+      "hunter-henry"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "hwdr0s1e0wuyg",
+    "title": "Bears&#039; Luther Burden III sidelined with groin injury: Here&#039;s when breakout candidate could return",
+    "url": "https://www.cbssports.com/nfl/news/luther-burden-bears-injury-miss-preseason",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-10T13:33:29.000Z",
+    "summary": "Chicago hopes its potential No. 1 receiver will return by the regular season opener",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [
+      "luther-burden"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1ybz9k56yd865",
+    "title": "Fair \"at this point\" to doubt Makai Lemon will start early in the season, per @JimmyKempski. He missed half of spring practices and half of training camp due to injury.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vkkzkh/fair_at_this_point_to_doubt_makai_lemon_will",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-10T13:32:45.000Z",
+    "summary": "&#32; submitted by &#32; /u/Ma1ikNabers [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [
+      "makai-lemon"
+    ],
+    "teams": []
+  },
+  {
+    "id": "tgmmqyja74n8",
+    "title": "Panthers sign OL Joshua Gray",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-sign-ol-joshua-gray",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T13:26:37.000Z",
+    "summary": "The Panthers have added some depth to their offensive line.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "95bnb2q5ax68",
+    "title": "Panthers sign OL Joshua Gray",
+    "url": "https://sports.yahoo.com/articles/panthers-sign-ol-joshua-gray-132637791.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T13:26:37.000Z",
+    "summary": "The Panthers have added some depth to their offensive line.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "1uol4lq15rgwey",
+    "title": "Patriots release former third-round draft pick, per report",
+    "url": "https://sports.yahoo.com/articles/patriots-release-former-third-round-132418623.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T13:24:18.000Z",
+    "summary": "Caedan Wallace had been with the team since 2024.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "roster-move",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "410w5g1ffuv8c",
+    "title": "What Hunter Henry’s contract extension means for the Patriots",
+    "url": "https://sports.yahoo.com/articles/hunter-henry-contract-extension-means-131631546.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T13:16:31.000Z",
+    "summary": "The Patriots’ starting tight end has signed a new two-year deal.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [
+      "hunter-henry"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "19ihlqt15926oj",
+    "title": "Sources: Bears' Luther Burden III expected to miss preseason",
+    "url": "https://www.espn.com/nfl/story/_/id/49574301/sources-bears-luther-burden-iii-expected-miss-preseason",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-10T13:10:00.000Z",
+    "summary": "Bears receiver Luther Burden III is expected to miss the preseason with a groin injury, but the team believes he'll be ready for Week 1 vs. Carolina, sources told ESPN.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "CHI"
+    ],
+    "players": [
+      "luther-burden"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "5l2ey2dq64mc",
+    "title": "JJ Zachariason and the 6 Players Who Will BREAK Fantasy Football in 2026",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vkkbku/jj_zachariason_and_the_6_players_who_will_break",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-10T13:05:42.000Z",
+    "summary": "JJ Zachariason helps us break down 6 must-target players for fantasy football this season! Who's one player you think is going to crush their preseason value in 2026? 0:42 - Jaylen Waddle 3:52 - Trevor Lawrence 7:18 - Emeka Egbuka 11:21 - Luther Burden III 19:22 - Blake Corum 23:36 - Malik Nabers \\ Disclaimer: This was recorded late last week, obviously continue to monitor Luther Burden's injury n",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [
+      "trevor-lawrence",
+      "blake-corum",
+      "emeka-egbuka",
+      "jaylen-waddle",
+      "luther-burden",
+      "malik-nabers"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1a02ckvf7r5r7",
+    "title": "Instant grades for Patriots signing Hunter Henry to a contract extension",
+    "url": "https://sports.yahoo.com/articles/instant-grades-patriots-signing-hunter-130536378.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T13:05:36.000Z",
+    "summary": "The Patriots are keeping their top tight end on a new two-year deal.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [
+      "hunter-henry"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1cm4wix14kc1sh",
+    "title": "Commanders star LT Laremy Tunsil to have triceps surgery",
+    "url": "https://www.espn.com/nfl/story/_/id/49574125/commanders-star-lt-laremy-tunsil-triceps-surgery",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-10T12:54:27.000Z",
+    "summary": "Commanders star left tackle Laremy Tunsil will undergo surgery to repair a torn triceps and is expected to miss significant time.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS",
+      "WSH"
+    ],
+    "players": [],
+    "teams": [
+      "WAS",
+      "WSH"
+    ]
+  },
+  {
+    "id": "1qxa4hzxwun1p",
+    "title": "Byron Young wants a new contract from the Rams",
+    "url": "https://sports.yahoo.com/articles/byron-young-wants-contract-rams-125200082.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T12:52:00.000Z",
+    "summary": "As the Rams wait for Aaron Donald’s decision, Byron Young waits for theirs",
+    "tags": [
+      "league-news",
+      "contract",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "ln2pri4p5m40",
+    "title": "Giants rookie report: Impactful Arvell Reese leading the way",
+    "url": "https://sports.yahoo.com/articles/giants-rookie-report-impactful-arvell-124712668.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T12:47:12.000Z",
+    "summary": "Rookies all working to carve out roles.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "921ebcdjw9q6",
+    "title": "Sources: The #Patriots have agreed to terms with their standout TE Hunter Henry on a 2-year contract extension, making it likely that he finishes his career with the Pats. The 31-year-old, a key weapon for Drake Maye, had one year remaining on his contract. Now, locked in.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vkjhst/sources_the_patriots_have_agreed_to_terms_with",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-10T12:30:29.000Z",
+    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "contract",
+      "NE"
+    ],
+    "players": [
+      "drake-maye",
+      "hunter-henry"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "tvl48u1ty5aj8",
+    "title": "Hunter Henry, Patriots agree on two-year extension",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/hunter-henry-patriots-agree-on-two-year-extension",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T12:19:58.000Z",
+    "summary": "Tight end Hunter Henry has spent the last five seasons in New England and his run is set to continue beyond the 2026 season.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [
+      "hunter-henry"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "2yj18y185n558",
+    "title": "Hunter Henry, Patriots agree on two-year extension",
+    "url": "https://sports.yahoo.com/articles/hunter-henry-patriots-agree-two-121958331.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T12:19:58.000Z",
+    "summary": "Tight end Hunter Henry has spent the last five seasons in New England and his run is set to continue beyond the 2026 season.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [
+      "hunter-henry"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "0jif6u5r3qls",
+    "title": "Eagles News: “It’s fair at this point to doubt that [Makai Lemon] will start, at least early in the season”",
+    "url": "https://sports.yahoo.com/articles/eagles-news-fair-point-doubt-121915875.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T12:19:15.000Z",
+    "summary": "Philadelphia Eagles news and links for 8/10/26.",
+    "tags": [
+      "league-news",
+      "PHI"
+    ],
+    "players": [
+      "makai-lemon"
+    ],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "1kdt77ghxfjqk",
+    "title": "Patriots sign Hunter Henry to contract extension",
+    "url": "https://sports.yahoo.com/articles/patriots-sign-hunter-henry-2-121513359.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T12:15:13.000Z",
+    "summary": "The Patriots team captain is under contract through 2028 now.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [
+      "hunter-henry"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "7ku85xhoszsx",
+    "title": "Revisiting Deshaun Watson’s contract insurance for Browns: Very different totals reported",
+    "url": "https://sports.yahoo.com/articles/revisiting-deshaun-watson-contract-insurance-121442938.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T12:14:42.000Z",
+    "summary": "The NFL salary cap has restrictions and stipulations; Deshaun Watson’s contract is complicated for the Cleveland Browns",
+    "tags": [
+      "league-news",
+      "contract",
+      "CLE"
+    ],
+    "players": [
+      "deshaun-watson"
+    ],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "y0vhg7aiypov",
+    "title": "Dan Quinn: We'll know more about Laremy Tunsil's timeline after surgery",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-well-know-more-about-laremy-tunsils-timeline-after-surgery",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T12:12:46.000Z",
+    "summary": "Commanders head coach Dan Quinn opened his Monday press conference by discussing the injury that forced left tackle Laremy Tunsil out of practice on Saturday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "zumkgwk6xek2",
+    "title": "Dan Quinn: We'll know more about Laremy Tunsil's timeline after surgery",
+    "url": "https://sports.yahoo.com/articles/dan-quinn-well-know-more-121246919.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T12:12:46.000Z",
+    "summary": "Commanders head coach Dan Quinn opened his Monday press conference by discussing the injury that forced left tackle Laremy Tunsil out of practice on Saturday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "z0g86k1hztuey",
+    "title": "Anthony Richardson: Not sure what's going on with trade request, just want to help the team",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/anthony-richardson-not-sure-whats-going-on-with-trade-request-just-want-to-help-the-team",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-10T12:02:10.000Z",
+    "summary": "Colts quarterback Anthony Richardson was fighting for a starting job at this time last year and he's in another competition as the team heads into its first preseason game of this summer.",
+    "tags": [
+      "league-news",
+      "trade",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "x8w528361bza",
+    "title": "What’s going on with Alec Pierce?",
+    "url": "https://sports.yahoo.com/articles/going-alec-pierce-120000971.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T12:00:00.000Z",
+    "summary": "Alec Pierce’s ankle timeline keeps getting murkier, and the Colts’ vague injury messaging is not helping.",
+    "tags": [
+      "league-news",
+      "injury",
+      "IND"
+    ],
+    "players": [
+      "alec-pierce"
+    ],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "hkpsvogxug44",
+    "title": "Cowboys news: Quinnen Williams’ rep at training camp sparks extension speculation",
+    "url": "https://sports.yahoo.com/articles/cowboys-news-quinnen-williams-rep-110000766.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T11:00:00.000Z",
+    "summary": "Here is today’s Dallas Cowboys news",
+    "tags": [
+      "league-news",
+      "contract",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "1pay2wn1u2cw3d",
+    "title": "Should the Detroit Lions trade for a backup quarterback?",
+    "url": "https://sports.yahoo.com/articles/detroit-lions-trade-backup-quarterback-103000388.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T10:30:00.000Z",
+    "summary": "Despite signing Joshua Dobbs, should the Detroit Lions make a move for another backup quarterback?",
+    "tags": [
+      "league-news",
+      "trade",
+      "contract",
+      "DET"
+    ],
+    "players": [],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "1gs29mz1gu6exl",
+    "title": "Browns QB battle is real. Todd Monken calls debate 'really silly' | Exclusive",
+    "url": "https://sports.yahoo.com/articles/browns-qb-battle-real-todd-101554478.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T10:15:54.000Z",
+    "summary": "New Browns coach Todd Monken says some people think he has a \"hidden agenda\" in delaying naming Shedeur Sanders or Deshaun Watson the team's starting QB.",
+    "tags": [
+      "league-news",
+      "CLE"
+    ],
+    "players": [
+      "deshaun-watson"
+    ],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "1m8x3lsnwro46",
+    "title": "NFL training camp live updates, news, injuries for Aug. 10",
+    "url": "https://sports.yahoo.com/articles/nfl-training-camp-live-updates-100101986.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-10T10:01:01.000Z",
+    "summary": "The NFL preseason continues as teams ramp up joint practices. Here's the latest from training camps around the NFL.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
     "id": "1t4wilfj7kzjn",
     "title": "Bears expect Luther Burden to miss about a month, be ready for Week One",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-expect-luther-burden-to-miss-about-a-month-be-ready-for-week-one",
@@ -6944,496 +7460,6 @@
     "players": [],
     "teams": [
       "SF"
-    ]
-  },
-  {
-    "id": "1m7l89j7kocvt",
-    "title": "49ers release DL Kevin Givens, DL Cameron Sample",
-    "url": "https://sports.yahoo.com/articles/49ers-release-dl-kevin-givens-172742464.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T17:27:42.000Z",
-    "summary": "The 49ers made their two Wednesday signings official, which also means they had to make a pair of corresponding roster moves.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1h8n5ry15d6fmc",
-    "title": "Eagles training camp injury updates",
-    "url": "https://sports.yahoo.com/articles/eagles-training-camp-injury-updates-171957226.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T17:19:57.000Z",
-    "summary": "The Eagles are starting to get banged up, but hopefully nothing is a long-term concern.",
-    "tags": [
-      "league-news",
-      "injury",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "flfldb1fsr35j",
-    "title": "Daniel Jones: I feel good doing everything and moving around",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/daniel-jones-i-feel-good-doing-everything-and-moving-around",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T17:15:59.000Z",
-    "summary": "It's long appeared during the offseason that Colts quarterback Daniel Jones would be ready to start the regular season, despite suffering a torn Achilles in early December.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "daniel-jones"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "416zj11d80uab",
-    "title": "Daniel Jones: I feel good doing everything and moving around",
-    "url": "https://sports.yahoo.com/articles/daniel-jones-feel-good-doing-171559970.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T17:15:59.000Z",
-    "summary": "It's long appeared during the offseason that Colts quarterback Daniel Jones would be ready to start the regular season, despite suffering a torn Achilles in early December.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "daniel-jones"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "fvilv27jjfiy",
-    "title": "Browns HC reveals plan for naming starter as QB battle continues between Deshaun Watson, Shedeur Sanders",
-    "url": "https://www.cbssports.com/nfl/news/browns-qb-battle-todd-monken-reveals-preseason-plan-shedeur-sanders-deshaun-watson",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-05T16:48:54.000Z",
-    "summary": "Todd Monken plans to start each QB in one preseason game, before deciding who will start the third",
-    "tags": [
-      "league-news",
-      "usage",
-      "CLE"
-    ],
-    "players": [
-      "deshaun-watson"
-    ],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "gjlmx3c4u1nj",
-    "title": "Inside the Bijan Robinson deal",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/inside-the-bijan-robinson-deal",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T16:42:41.000Z",
-    "summary": "First three years of contract are guaranteed.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [
-      "bijan-robinson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "rauf5f1iqmb2x",
-    "title": "Inside the Bijan Robinson deal",
-    "url": "https://sports.yahoo.com/articles/inside-bijan-robinson-deal-164241210.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T16:42:41.000Z",
-    "summary": "First three years of contract are guaranteed.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [
-      "bijan-robinson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "iabrydzewkdj",
-    "title": "Jalon Walker injury: Falcons EDGE suffers torn ACL in latest blow to Atlanta&#039;s defense, per report",
-    "url": "https://www.cbssports.com/nfl/news/jalon-walker-injury-falcons-edge",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-05T16:03:23.000Z",
-    "summary": "Atlanta could be down two starting edge rushers for at least part of the 2026 season",
-    "tags": [
-      "league-news",
-      "injury",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "193l9jf139z0if",
-    "title": "Rashee Rice progresses to 11-on-11 drills in Wednesday's practice",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rashee-rice-progresses-to-11-on-11-drills-in-wednesdays-practice",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T15:48:47.000Z",
-    "summary": "There is some positive news on the injury front for one of Kansas City’s key offensive pieces.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "rashee-rice"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1fz8v3o1jpc5nw",
-    "title": "2026 Rookie QB Dynasty Strategy: Mendoza or Wait",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vgakng/2026_rookie_qb_dynasty_strategy_mendoza_or_wait",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-05T15:28:26.000Z",
-    "summary": "With the Reading the Offseason Tea Leaf series wrapping up I finally have time to get into my bread and butter. I'm talking about Rookie content. Today I bring you write-ups on all of the QBs that have a chance to be fantasy relevant. Sure, maybe injuries result in Carolina Panthers QB Haynes King seeing the field and he runs enough to be in the QB2 conversation, but that is a ton of projecting fo",
-    "tags": [
-      "dynasty",
-      "injury",
-      "rookie",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "81jtn715dx76b",
-    "title": "Texans WR Tank Dell practices in pads for first time since 2024 knee injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-wr-tank-dell-practices-in-pads-for-first-time-since-2024-knee-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T15:20:33.000Z",
-    "summary": "Wide receiver Tank Dell took another step back toward the Texans lineup on Wednesday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "HOU"
-    ],
-    "players": [
-      "tank-dell"
-    ],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "1882qbh1alztyh",
-    "title": "49ers agree to sign WR KhaDarel Hodge",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-agree-to-sign-wr-khadarel-hodge",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T14:57:51.000Z",
-    "summary": "The 49ers are adding another veteran player on Wednesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1tkkdorrhy9ub",
-    "title": "Report: Tests confirm Jalon Walker suffered torn ACL",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-tests-confirm-jalon-walker-suffered-torn-acl",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T14:24:36.000Z",
-    "summary": "The Falcons will be without one of their young edge rushers in 2026.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "15u6skt5arpk3",
-    "title": "Bears activate T.J. Edwards from the Active/Non-Football Injury List",
-    "url": "https://sports.yahoo.com/articles/bears-activate-t-j-edwards-140000812.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T14:00:00.000Z",
-    "summary": "The Bears are getting one of their defensive leaders back at training camp practice. More here from @wiltfongjr.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "1t6ehox1jrncfp",
-    "title": "Falcons Reacts Survey: Projecting Zachariah Branch’s rookie year",
-    "url": "https://sports.yahoo.com/articles/falcons-reacts-survey-projecting-zachariah-135930528.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T13:59:30.000Z",
-    "summary": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Falcons fans and fans across the country. One of the top training camp standouts so far has been Zachariah Branch. The rookie wide receiver is turning heads with his explosiveness, route-running, and hands. […]",
-    "tags": [
-      "league-news",
-      "rookie",
-      "ATL"
-    ],
-    "players": [
-      "zachariah-branch"
-    ],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "ra93gj13dc41d",
-    "title": "Bills news: Physical play the theme of Day 5 of camp",
-    "url": "https://sports.yahoo.com/articles/bills-news-physical-play-theme-133457316.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T13:34:57.000Z",
-    "summary": "Rookie LB Kaleb Elarms-Orr was at the center of the most spirited fight on the first full training camp session in pads.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "BUF"
-    ],
-    "players": [],
-    "teams": [
-      "BUF"
-    ]
-  },
-  {
-    "id": "ljdcze7lli0g",
-    "title": "Updated Dynasty Rankings: Top 315",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vg7iyz/updated_dynasty_rankings_top_315",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-05T13:33:46.000Z",
-    "summary": "Hey all! As training camp rolls on, let’s take a look at these top 315 overall dynasty rankings from Matt Donnelly Jorden Hill, and Chris Gregory. Who are you looking to buy or sell before the regular season? Who are some undervalued players in start-up draft based on these rankings? Let’s hear it! It’s almost that time of the year! &#32; submitted by &#32; /u/jsparks50 [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "japou2r235qc",
-    "title": "49ers to sign Ogbo Okoronkwo on Wednesday",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-to-sign-ogbo-okoronkwo-on-wednesday",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T13:33:16.000Z",
-    "summary": "The 49ers are adding a veteran edge rusher.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1b5bhasxswtws",
-    "title": "49ers to sign Ogbo Okoronkwo on Wednesday",
-    "url": "https://sports.yahoo.com/articles/49ers-sign-ogbo-okoronkwo-wednesday-133316428.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T13:33:16.000Z",
-    "summary": "The 49ers are adding a veteran edge rusher.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1deuj2lon9orz",
-    "title": "Eagles sign WR Brandon Hayes",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-sign-wr-brandon-hayes",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T13:33:09.000Z",
-    "summary": "Wide receiver Brandon Hayes is back with the Eagles.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "1d7g6d11wdi42b",
-    "title": "Eagles sign WR Brandon Hayes",
-    "url": "https://sports.yahoo.com/articles/eagles-sign-wr-brandon-hayes-133309343.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T13:33:09.000Z",
-    "summary": "Wide receiver Brandon Hayes is back with the Eagles.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "1yiemixxbfzc3",
-    "title": "Bijan Robinson: It's one of my dreams to stay with one team",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bijan-robinson-its-one-of-my-dreams-to-stay-with-one-team",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-05T13:26:28.000Z",
-    "summary": "Bijan Robinson has officially signed his three-year contract extension with the Falcons.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL"
-    ],
-    "players": [
-      "bijan-robinson"
-    ],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "3f4wtk32js86",
-    "title": "What Bijan Robinson’s extension says about Kyren Williams",
-    "url": "https://sports.yahoo.com/articles/bijan-robinson-extension-says-kyren-132600281.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T13:26:00.000Z",
-    "summary": "Kyren Williams is now ranked 13th in average salary among running backs.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [
-      "bijan-robinson",
-      "kyren-williams"
-    ],
-    "teams": []
-  },
-  {
-    "id": "43pgb28sld0w",
-    "title": "Giants work out 8 players, sign a defensive back",
-    "url": "https://sports.yahoo.com/articles/giants-8-players-including-one-120401222.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T12:54:21.000Z",
-    "summary": "New York contnues looking for options at the bottom of the roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1mvqofjxz65lh",
-    "title": "Overrated, underrated teams in college football Coaches Poll; MLB trade deadline full report card",
-    "url": "https://www.cbssports.com/college-football/news/overrated-underrated-college-football-coaches-poll-mlb-trade-deadline-grades",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-05T12:46:30.000Z",
-    "summary": "Plus, Cameron Young surges in our latest Power 18 Rankings",
-    "tags": [
-      "league-news",
-      "trade"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1bp73qg8kasdc",
-    "title": "How DeMario Douglas willed himself into a Patriots starting role",
-    "url": "https://sports.yahoo.com/articles/demario-douglas-willed-himself-patriots-121913096.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T12:19:13.000Z",
-    "summary": "Douglas has been a top-three receiver for the Patriots throughout training camp.",
-    "tags": [
-      "league-news",
-      "usage",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "1qxizyk1dvstcm",
-    "title": "Will this former second-round WR be able to help the Bills in 2026?",
-    "url": "https://sports.yahoo.com/articles/former-second-round-wr-able-121343210.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-05T12:13:43.000Z",
-    "summary": "Can this oft-injured veteran contribute for the Bills this season?",
-    "tags": [
-      "league-news",
-      "injury",
-      "BUF"
-    ],
-    "players": [],
-    "teams": [
-      "BUF"
     ]
   }
 ]
