@@ -46,7 +46,11 @@ knowledge library that grows every pass.
    players**.
 7. All committed data files **validate against their Zod schemas at build time**;
    invalid data fails `scripts/check.sh`.
-8. `scripts/check.sh` exits 0 (typecheck + test + build).
+8. A **`/picks` page** lists, per position, the most popular players ordered by
+   popularity from real data — expert consensus rank for the draft board, Sleeper
+   add counts for the waiver wire — with players already drafted or rostered in
+   this league marked as unavailable.
+9. `scripts/check.sh` exits 0 (typecheck + test + build).
 
 ## 4. Non-goals (explicitly out of scope)
 
