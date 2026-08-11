@@ -5,6 +5,7 @@
  *   npm run sync:sleeper                 resolve + sync from the Sleeper API
  *   npm run sync:sleeper -- --fixtures   map committed fixtures instead (offline)
  *   npm run sync:sleeper -- --dry-run    report what would change, write nothing
+ *   npm run sync:sleeper -- --force-players  ignore the once-a-day player-dump gate
  *
  * Sleeper's read API is public and keyless, so this introduces no secret.
  *
@@ -48,6 +49,13 @@ const FIXTURES = join(ROOT, 'tests/fixtures/sleeper');
 const args = new Set(process.argv.slice(2));
 const useFixtures = args.has('--fixtures');
 const dryRun = args.has('--dry-run') || (useFixtures && !args.has('--write'));
+/**
+ * Bypass the once-a-day gate on the ~5MB player dump. Needed whenever the sync
+ * starts writing a field the committed rows do not have yet: without it the
+ * new field stays absent until the gate happens to expire, which is up to a day
+ * of the app quietly showing less than it knows.
+ */
+const forcePlayers = args.has('--force-players');
 
 const DAY_MS = 86_400_000;
 
@@ -153,11 +161,12 @@ async function liveSnapshot(config: SleeperConfig): Promise<Snapshot | null> {
 
   // The 5MB player dump is fetched at most once a day, per Sleeper's guidance.
   const lastSync = config.lastPlayerSync ? Date.parse(config.lastPlayerSync) : 0;
-  const playersAreStale = !Number.isFinite(lastSync) || Date.now() - lastSync > DAY_MS;
+  const playersAreStale =
+    forcePlayers || !Number.isFinite(lastSync) || Date.now() - lastSync > DAY_MS;
   const players = playersAreStale ? await api.getAllPlayers() : {};
   console.log(
     playersAreStale
-      ? `  · player dump: ${Object.keys(players).length} rows`
+      ? `  · player dump: ${Object.keys(players).length} rows${forcePlayers ? ' (forced)' : ''}`
       : '  · player dump: skipped (synced within 24h)',
   );
 

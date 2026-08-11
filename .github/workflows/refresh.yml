@@ -22,6 +22,14 @@ on:
     # else's :00 cron.
     - cron: '17 */6 * * *'
   workflow_dispatch:
+    inputs:
+      force_players:
+        description: >-
+          Bypass the once-a-day gate on Sleeper's ~5MB player dump. Needed after
+          a change that adds a field to the player rows, which would otherwise
+          not appear until the gate expires on its own.
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -54,7 +62,7 @@ jobs:
       - name: Sync Sleeper league
         id: sleeper
         continue-on-error: true
-        run: npm run sync:sleeper
+        run: npm run sync:sleeper ${{ inputs.force_players && '-- --force-players' || '' }}
 
       # DynastyProcess expert consensus rankings and superflex trade values.
       # continue-on-error for the same reason as Sleeper: a bad CDN day must not
