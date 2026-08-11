@@ -175,7 +175,18 @@ export function toPlayer(raw: SleeperPlayer, previous?: Player): Player | null {
     notes: previous?.notes ?? '',
     sleeperId: raw.player_id,
     rank: raw.search_rank ?? undefined,
+    // Availability and health are Sleeper's to own, so they are overwritten on
+    // every sync rather than carried over from `previous`. A stale 'Out' that
+    // outlived the injury would be worse than no designation at all.
+    status: nonEmpty(raw.status),
+    injuryStatus: nonEmpty(raw.injury_status),
   };
+}
+
+/** Sleeper sends both `null` and `''` for "no value"; the schema wants neither. */
+function nonEmpty(value: string | null | undefined): string | undefined {
+  const trimmed = value?.trim();
+  return trimmed ? trimmed : undefined;
 }
 
 /* --------------------------------- roster -------------------------------- */

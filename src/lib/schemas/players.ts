@@ -30,6 +30,18 @@ export const PlayerSchema = z.object({
   rosteredInLeague: z.boolean().optional(),
   /** Sleeper's search_rank (lower = more relevant). Absent for unranked players. */
   rank: z.number().int().positive().optional(),
+  /**
+   * Sleeper's roster status — 'Active', 'Inactive', 'Injured Reserve', 'PUP',
+   * 'Non Football Injury', 'Practice Squad'. Availability, not health: a player
+   * can be 'Active' and still be listed 'Questionable' below.
+   */
+  status: z.string().optional(),
+  /**
+   * Sleeper's injury designation — 'Questionable', 'Doubtful', 'Out', 'IR',
+   * 'PUP', 'Sus'. Absent when the player carries no designation, which is the
+   * normal case. Never inferred: if Sleeper does not say it, we do not store it.
+   */
+  injuryStatus: z.string().optional(),
 });
 
 export const PlayersSchema = z.array(PlayerSchema);

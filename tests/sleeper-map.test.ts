@@ -154,6 +154,38 @@ describe('toPlayer', () => {
     // …while still refreshing what Sleeper owns.
     expect(p.sleeperId).toBe('6813');
   });
+
+  it('carries availability and injury designation through from Sleeper', () => {
+    const raw = { ...sleeperPlayer('6813'), status: 'Active', injury_status: 'Questionable' };
+    const p = toPlayer(raw)!;
+
+    expect(p.status).toBe('Active');
+    expect(p.injuryStatus).toBe('Questionable');
+  });
+
+  it('treats null and empty designations as absent rather than storing them', () => {
+    const raw = { ...sleeperPlayer('6813'), status: null, injury_status: '' };
+    const p = toPlayer(raw)!;
+
+    expect(p.status).toBeUndefined();
+    expect(p.injuryStatus).toBeUndefined();
+  });
+
+  it('never carries a stale injury designation over from the previous row', () => {
+    const prior: Player = {
+      id: 'jayden-daniels',
+      name: 'Jayden Daniels',
+      pos: 'QB',
+      nflTeam: 'WAS',
+      age: 26,
+      tier: 'cornerstone',
+      notes: '',
+      injuryStatus: 'Out',
+    };
+    const raw = { ...sleeperPlayer('6813'), injury_status: null };
+
+    expect(toPlayer(raw, prior)!.injuryStatus).toBeUndefined();
+  });
 });
 
 describe('defaultTier', () => {
