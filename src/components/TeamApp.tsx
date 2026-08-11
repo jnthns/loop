@@ -12,7 +12,7 @@ import {
 import { clearOverlay, saveOverlay, loadOverlay, serializeTeam } from '~/lib/team/storage';
 import { NO_DRAFT, type Draft } from '~/lib/schemas/draft';
 import DraftPanel from '~/components/DraftPanel';
-import { PosTag, SectionHead } from '~/components/ui/Primitives';
+import { DepthTag, PosTag, SectionHead, StatusTag } from '~/components/ui/Primitives';
 import type { Tone } from '~/lib/ui/tone';
 
 export interface TeamAppProps {
@@ -21,6 +21,12 @@ export interface TeamAppProps {
   draft?: Draft;
   /** Base-path-aware hrefs into the knowledge base, forwarded to DraftPanel. */
   articleLinks?: { positionalBuilds: string; offseasonLandscape: string };
+  /**
+   * Player id -> NFL depth-chart rank, from `data/depth.json`. Optional because
+   * the file is refreshed independently of the roster: a missing entry renders
+   * nothing rather than a rank the app made up.
+   */
+  depthRanks?: Record<string, number>;
 }
 
 const GROUPS: { key: string; title: string; kinds: SlotKind[]; tone: Tone; note?: string }[] = [
@@ -41,7 +47,7 @@ const GROUPS: { key: string; title: string; kinds: SlotKind[]; tone: Tone; note?
   { key: 'ir', title: 'Injured reserve', tone: 'rose', kinds: ['IR'] },
 ];
 
-export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks }: TeamAppProps) {
+export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks, depthRanks = {} }: TeamAppProps) {
   const [team, setTeam] = useState<Team>(committed);
   const [overlayActive, setOverlayActive] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
@@ -195,7 +201,12 @@ export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks }: 
       )}
 
       {preDraft && team.targets.length > 0 && (
-        <ShortlistSection team={team} playerById={playerById} onAssign={setSlotPlayer} />
+        <ShortlistSection
+          team={team}
+          playerById={playerById}
+          depthRanks={depthRanks}
+          onAssign={setSlotPlayer}
+        />
       )}
 
       {(!preDraft || showEmptyRoster) &&
@@ -234,6 +245,7 @@ export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks }: 
                         playerById={playerById}
                         assignedIds={assignedIds}
                         targets={targetsBySlot.get(slot.id) ?? []}
+                        depthRanks={depthRanks}
                         expanded={expanded === slot.id}
                         onToggle={() => setExpanded((v) => (v === slot.id ? null : slot.id))}
                         onAssign={(id) => setSlotPlayer(slot.id, id)}
@@ -278,10 +290,12 @@ export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks }: 
 function ShortlistSection({
   team,
   playerById,
+  depthRanks,
   onAssign,
 }: {
   team: Team;
   playerById: Map<string, Player>;
+  depthRanks: Record<string, number>;
   onAssign: (slotId: string, playerId: string) => void;
 }) {
   const slotLabel = new Map(team.format.rosterSlots.map((s) => [s.id, s.label]));
@@ -330,6 +344,8 @@ function ShortlistSection({
                           <span className="text-[11px] text-muted">
                             {player.nflTeam} · age {player.age}
                           </span>
+                          <DepthTag rank={depthRanks[player.id]} />
+                          <StatusTag status={player.status} injuryStatus={player.injuryStatus} />
                         </>
                       )}
                       <button
@@ -391,6 +407,8 @@ interface SlotRowProps {
   playerById: Map<string, Player>;
   assignedIds: Set<string>;
   targets: Team['targets'];
+  /** Player id -> NFL depth-chart rank; a missing id simply renders no badge. */
+  depthRanks: Record<string, number>;
   expanded: boolean;
   onToggle: () => void;
   onAssign: (playerId: string | null) => void;
@@ -403,6 +421,7 @@ function SlotRow({
   playerById,
   assignedIds,
   targets,
+  depthRanks,
   expanded,
   onToggle,
   onAssign,
@@ -488,6 +507,8 @@ function SlotRow({
                           <span className="text-[11px] text-muted">
                             {player.nflTeam} · age {player.age} · {player.tier}
                           </span>
+                          <DepthTag rank={depthRanks[player.id]} />
+                          <StatusTag status={player.status} injuryStatus={player.injuryStatus} />
                         </>
                       )}
                       <button

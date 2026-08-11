@@ -85,3 +85,63 @@ export function Chip({
 export function EmptyState({ children }: { children: ReactNode }) {
   return <p className="empty">{children}</p>;
 }
+
+/**
+ * A player's availability, when there is something to say about it.
+ *
+ * Renders nothing for a healthy active player — that is the overwhelming
+ * majority, and a green "Active" badge on 250 rows is decoration that trains the
+ * eye to skip the row where it matters. Only a real designation earns pixels.
+ */
+export function StatusTag({
+  status,
+  injuryStatus,
+  className = '',
+}: {
+  status?: string | null;
+  injuryStatus?: string | null;
+  className?: string;
+}) {
+  // Injury designation wins: 'Active' + 'Questionable' is a questionable player.
+  const label = injuryStatus?.trim() || (status?.trim() && status.trim() !== 'Active' ? status.trim() : '');
+  if (!label) return null;
+
+  const severe = /^(out|ir|injured reserve|pup|doubtful|sus|non football injury)$/i.test(label);
+
+  return (
+    <span
+      data-testid="status-tag"
+      data-severe={severe ? 'true' : 'false'}
+      title={`Sleeper status: ${[status, injuryStatus].filter(Boolean).join(' · ')}`}
+      className={`chip chip-tone ${className}`}
+      data-tone={severe ? 'rose' : 'amber'}
+    >
+      {label}
+    </span>
+  );
+}
+
+/**
+ * Where a player sits on his NFL team's depth chart.
+ *
+ * `undefined` means nflverse does not list him, which is not the same as being
+ * buried — rookies and camp bodies churn — so it renders nothing rather than
+ * implying a rank we do not have.
+ */
+export function DepthTag({ rank, className = '' }: { rank?: number; className?: string }) {
+  if (!rank) return null;
+  return (
+    <span
+      data-testid="depth-tag"
+      data-rank={rank}
+      title={
+        rank === 1
+          ? "Listed first at his position on his team's depth chart"
+          : `Listed ${rank}${rank === 2 ? 'nd' : rank === 3 ? 'rd' : 'th'} at his position on his team's depth chart`
+      }
+      className={`chip ${className}`}
+    >
+      DC{rank}
+    </span>
+  );
+}

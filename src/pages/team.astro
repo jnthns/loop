@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import TeamApp from '~/components/TeamApp';
-import { draft, players, team } from '~/lib/data';
+import { depthRankById, draft, players, team } from '~/lib/data';
 import { href } from '~/lib/url';
 
 const articleLinks = {
@@ -16,5 +16,12 @@ const lede = empty
 ---
 
 <BaseLayout title={team.teamName} lede={lede}>
-  <TeamApp client:load committed={team} players={players} draft={draft} articleLinks={articleLinks} />
+  <TeamApp
+    client:load
+    committed={team}
+    players={players}
+    draft={draft}
+    articleLinks={articleLinks}
+    depthRanks={depthRankById}
+  />
 </BaseLayout>

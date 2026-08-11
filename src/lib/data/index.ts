@@ -14,6 +14,7 @@ import insightsRaw from '../../../data/insights.json';
 import trendingRaw from '../../../data/trending.json';
 import draftRaw from '../../../data/draft.json';
 import marketRaw from '../../../data/market.json';
+import depthRaw from '../../../data/depth.json';
 
 import { FeedsSchema, NewsSchema, type Feed, type NewsItem } from '~/lib/schemas/news';
 import { PlayersSchema, type Player } from '~/lib/schemas/players';
@@ -22,6 +23,7 @@ import { InsightsSchema, type Briefing } from '~/lib/schemas/insights';
 import { TrendingSchema, type Trending } from '~/lib/schemas/trending';
 import { DraftSchema, type Draft } from '~/lib/schemas/draft';
 import { MarketSchema, type Market } from '~/lib/schemas/market';
+import { DepthSchema, type Depth } from '~/lib/schemas/depth';
 
 function parse<T>(label: string, schema: { safeParse: (v: unknown) => any }, raw: unknown): T {
   const result = schema.safeParse(raw);
@@ -43,6 +45,7 @@ export const insights: Briefing[] = parse('insights', InsightsSchema, insightsRa
 export const trending: Trending = parse('trending', TrendingSchema, trendingRaw);
 export const draft: Draft = parse('draft', DraftSchema, draftRaw);
 export const market: Market = parse('market', MarketSchema, marketRaw);
+export const depth: Depth = parse('depth', DepthSchema, depthRaw);
 
 /** Newest first — the order every news surface wants. */
 export const newsByDate: NewsItem[] = [...news].sort((a, b) =>
@@ -59,3 +62,15 @@ export function getPlayer(id: string | null | undefined): Player | undefined {
 export function playerLine(p: Player): string {
   return `${p.name} · ${p.pos} · ${p.nflTeam} · ${p.age}`;
 }
+
+/**
+ * Player id -> his rank on his NFL team's depth chart (1 = starter).
+ *
+ * Kept as a lookup rather than folded onto the player rows because the two files
+ * refresh independently: a player can be tracked with no chart entry (a rookie
+ * yet to be listed), and the absence is meaningful — it should read as "not
+ * listed", never as a rank the app quietly invented.
+ */
+export const depthRankById: Record<string, number> = Object.fromEntries(
+  depth.entries.map((e) => [e.id, e.depthRank]),
+);
