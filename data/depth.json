@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-11T07:35:20.597Z",
-  "snapshotAt": "2026-08-10T08:23:54Z",
+  "capturedAt": "2026-08-11T13:41:11.758Z",
+  "snapshotAt": "2026-08-11T08:08:52Z",
   "season": "2026",
   "entries": [
     {
@@ -194,6 +194,30 @@
       "nflTeam": "BUF",
       "depthRank": 4,
       "sleeperId": "232"
+    },
+    {
+      "id": "dalton-kincaid",
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "nflTeam": "BUF",
+      "depthRank": 1,
+      "sleeperId": "10236"
+    },
+    {
+      "id": "dj-moore",
+      "name": "DJ Moore",
+      "pos": "WR",
+      "nflTeam": "BUF",
+      "depthRank": 1,
+      "sleeperId": "4983"
+    },
+    {
+      "id": "khalil-shakir",
+      "name": "Khalil Shakir",
+      "pos": "WR",
+      "nflTeam": "BUF",
+      "depthRank": 2,
+      "sleeperId": "8134"
     },
     {
       "id": "bryce-young",
@@ -688,7 +712,7 @@
       "name": "Jaylin Noel",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 3,
+      "depthRank": 4,
       "sleeperId": "12536"
     },
     {
@@ -720,7 +744,7 @@
       "name": "Seth McGowan",
       "pos": "RB",
       "nflTeam": "IND",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "13424"
     },
     {
@@ -1404,20 +1428,20 @@
       "sleeperId": "11632"
     },
     {
-      "id": "darnell-mooney",
-      "name": "Darnell Mooney",
-      "pos": "WR",
-      "nflTeam": "NYG",
-      "depthRank": 3,
-      "sleeperId": "7090"
-    },
-    {
       "id": "calvin-austin",
       "name": "Calvin Austin",
       "pos": "WR",
       "nflTeam": "NYG",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "8125"
+    },
+    {
+      "id": "darnell-mooney",
+      "name": "Darnell Mooney",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "depthRank": 4,
+      "sleeperId": "7090"
     },
     {
       "id": "odell-beckham",
@@ -1544,7 +1568,7 @@
       "name": "Makai Lemon",
       "pos": "WR",
       "nflTeam": "PHI",
-      "depthRank": 2,
+      "depthRank": 3,
       "sleeperId": "13294"
     },
     {
@@ -1968,7 +1992,7 @@
       "name": "Antonio Williams",
       "pos": "WR",
       "nflTeam": "WAS",
-      "depthRank": 3,
+      "depthRank": 4,
       "sleeperId": "13301"
     },
     {
