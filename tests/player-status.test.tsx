@@ -24,6 +24,16 @@ describe('StatusTag', () => {
     expect(screen.getByTestId('status-tag')).toHaveTextContent('Questionable');
   });
 
+  it("treats Sleeper's 'NA' placeholder as no designation at all", () => {
+    const { container } = render(<StatusTag status="Active" injuryStatus="NA" />);
+    expect(container).toBeEmptyDOMElement();
+  });
+
+  it('still shows a non-active roster status when the designation is a placeholder', () => {
+    render(<StatusTag status="Practice Squad" injuryStatus="NA" />);
+    expect(screen.getByTestId('status-tag')).toHaveTextContent('Practice Squad');
+  });
+
   it('shows a non-active roster status on its own', () => {
     render(<StatusTag status="Injured Reserve" />);
     expect(screen.getByTestId('status-tag')).toHaveTextContent('Injured Reserve');

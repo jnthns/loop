@@ -93,6 +93,13 @@ export function EmptyState({ children }: { children: ReactNode }) {
  * majority, and a green "Active" badge on 250 rows is decoration that trains the
  * eye to skip the row where it matters. Only a real designation earns pixels.
  */
+/** Sleeper's placeholders for "no designation", which must not become badges. */
+const PLACEHOLDER_DESIGNATIONS = new Set(['na', 'n/a', 'none', '-']);
+
+function isMeaningful(designation: string): boolean {
+  return designation !== '' && !PLACEHOLDER_DESIGNATIONS.has(designation.toLowerCase());
+}
+
 export function StatusTag({
   status,
   injuryStatus,
@@ -103,7 +110,12 @@ export function StatusTag({
   className?: string;
 }) {
   // Injury designation wins: 'Active' + 'Questionable' is a questionable player.
-  const label = injuryStatus?.trim() || (status?.trim() && status.trim() !== 'Active' ? status.trim() : '');
+  const designation = injuryStatus?.trim() ?? '';
+  // Sleeper writes a literal 'NA' for players it carries no designation for —
+  // mostly free agents and the long retired. Rendering it as a badge would put
+  // a meaningless label where the eye expects a real warning.
+  const label = (isMeaningful(designation) ? designation : '') ||
+    (status?.trim() && status.trim() !== 'Active' ? status.trim() : '');
   if (!label) return null;
 
   const severe = /^(out|ir|injured reserve|pup|doubtful|sus|non football injury)$/i.test(label);
