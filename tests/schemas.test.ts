@@ -3,12 +3,14 @@ import { FeedsSchema, NewsItemSchema, NewsSchema } from '~/lib/schemas/news';
 import { PlayersSchema, PlayerSchema } from '~/lib/schemas/players';
 import { TeamSchema, eligiblePositions } from '~/lib/schemas/team';
 import { InsightsSchema, hasCitation, type Suggestion } from '~/lib/schemas/insights';
+import { DepthSchema } from '~/lib/schemas/depth';
 
 import feeds from '../data/feeds.json';
 import news from '../data/news.json';
 import players from '../data/players.json';
 import team from '../data/team.json';
 import insights from '../data/insights.json';
+import depth from '../data/depth.json';
 
 /**
  * This file, and this file alone (with tests/insights.test.ts), asserts against
@@ -38,6 +40,12 @@ describe('committed data files', () => {
 
   it('data/insights.json is valid', () => {
     expect(InsightsSchema.safeParse(insights).success).toBe(true);
+  });
+
+  it('data/depth.json is valid', () => {
+    const result = DepthSchema.safeParse(depth);
+    expect(result.error?.issues ?? []).toEqual([]);
+    expect(result.success).toBe(true);
   });
 });
 

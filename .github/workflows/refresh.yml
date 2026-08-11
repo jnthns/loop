@@ -66,6 +66,14 @@ jobs:
         continue-on-error: true
         run: npm run sync:market
 
+      # nflverse depth charts — role and opportunity, which no ranking carries.
+      # Runs after the Sleeper sync because it joins against the player file.
+      # continue-on-error for the same reason as the two syncs above.
+      - name: Sync depth charts
+        id: depth
+        continue-on-error: true
+        run: npm run sync:depth
+
       - name: Fetch news
         run: npm run news:fetch
 
@@ -98,6 +106,14 @@ jobs:
                "unchanged, so /builds still renders the previous snapshot. Check" \
                "whether DynastyProcess changed a CSV column name — the sync" \
                "asserts its headers and fails loudly rather than writing nulls."
+
+      - name: Report a failed depth-chart sync
+        if: steps.depth.outcome == 'failure'
+        run: |
+          echo "::warning::Depth-chart sync failed; the committed data/depth.json is" \
+               "unchanged. Check whether nflverse has published a" \
+               "depth_charts_<season>.csv.gz asset for this season yet, or changed" \
+               "a column name — the sync asserts its header rather than writing nulls."
 
       - name: Report a failed Sleeper sync
         if: steps.sleeper.outcome == 'failure'

@@ -216,7 +216,7 @@ const SUFFIX_RE = /\b(jr|sr|ii|iii|iv|v)\.?\b/g;
  * away separators entirely rather than hyphenating, since this is a join key
  * rather than a URL-safe id.
  */
-function normalizeName(name: string): string {
+export function normalizeName(name: string): string {
   return name
     .toLowerCase()
     .normalize('NFD')

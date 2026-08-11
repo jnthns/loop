@@ -14,6 +14,7 @@ runtime API: if a fact is not in this directory or in
 | `team.json`     | Sleeper for roster/format/FAAB; you for the rest | See the ownership split below.                       |
 | `trending.json` | `scripts/sync-sleeper.ts` (CI cron)       | League-wide add/drop counts. Market signal, **not news**.   |
 | `insights.json` | the `roster-review` loop                  | Dated briefings; every suggestion cites news or knowledge.  |
+| `depth.json`    | `scripts/sync-depth.ts` (CI cron)         | NFL depth-chart rank per player. Opportunity, **not** talent. |
 
 ## Who owns what in `team.json`
 
@@ -49,3 +50,24 @@ something to render on day one. It is a starting point, not a source of truth:
 
 Replacing the seed is the highest-value thing a human can do in this repo: the
 loop's suggestions are only as good as the roster it can see.
+
+## Depth charts — what `depth.json` is and is not
+
+`depthRank` is nflverse's reading of the team's published chart: 1 is listed
+first at the position, 2 second, and so on. It is an **opportunity** signal, not
+a talent one, and camp charts are notoriously conservative — a rookie who will
+open the season starting is often listed second in August. Treat a DC2 behind an
+aging starter as a question to investigate, never as a verdict.
+
+A player with no entry is *not listed*, which is different from being buried.
+The app renders nothing in that case rather than inventing a rank.
+
+## Player availability
+
+`players.json` carries two fields straight from Sleeper, overwritten every sync:
+
+- `status` — roster availability: `Active`, `Injured Reserve`, `PUP`, `Practice Squad`.
+- `injuryStatus` — the weekly designation: `Questionable`, `Doubtful`, `Out`, `IR`.
+
+Neither is ever inferred, and neither survives a sync that no longer reports it —
+a stale `Out` that outlived the injury is worse than no designation at all.
