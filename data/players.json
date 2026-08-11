@@ -1,16 +1,5 @@
 [
   {
-    "id": "jacksonville-jaguars",
-    "name": "Jacksonville Jaguars",
-    "pos": "DEF",
-    "nflTeam": "JAX",
-    "age": 30,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "JAX",
-    "rosteredInLeague": false
-  },
-  {
     "id": "jake-bates",
     "name": "Jake Bates",
     "pos": "K",
@@ -393,18 +382,6 @@
     "sleeperId": "4943",
     "rosteredInLeague": false,
     "rank": 84
-  },
-  {
-    "id": "teddy-bridgewater",
-    "name": "Teddy Bridgewater",
-    "pos": "QB",
-    "nflTeam": "DET",
-    "age": 33,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "2152",
-    "rosteredInLeague": false,
-    "rank": 999
   },
   {
     "id": "tom-brady",
@@ -884,19 +861,7 @@
     "notes": "",
     "sleeperId": "6806",
     "rosteredInLeague": false,
-    "rank": 75
-  },
-  {
-    "id": "j-mari-taylor",
-    "name": "J'Mari Taylor",
-    "pos": "RB",
-    "nflTeam": "JAX",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13348",
-    "rosteredInLeague": false,
-    "rank": 999
+    "rank": 68
   },
   {
     "id": "jacory-croskey-merritt",
@@ -920,7 +885,7 @@
     "notes": "",
     "sleeperId": "13286",
     "rosteredInLeague": false,
-    "rank": 63
+    "rank": 58
   },
   {
     "id": "jahmyr-gibbs",
@@ -1076,7 +1041,7 @@
     "notes": "",
     "sleeperId": "8408",
     "rosteredInLeague": false,
-    "rank": 112
+    "rank": 100
   },
   {
     "id": "josh-jacobs",
@@ -1099,6 +1064,18 @@
     "tier": "depth",
     "notes": "",
     "sleeperId": "5995",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
+    "id": "kaelon-black",
+    "name": "Kaelon Black",
+    "pos": "RB",
+    "nflTeam": "SF",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13414",
     "rosteredInLeague": false,
     "rank": 999
   },
@@ -1376,7 +1353,7 @@
     "notes": "",
     "sleeperId": "12489",
     "rosteredInLeague": false,
-    "rank": 40
+    "rank": 56
   },
   {
     "id": "saquon-barkley",
@@ -1460,7 +1437,7 @@
     "notes": "",
     "sleeperId": "7543",
     "rosteredInLeague": false,
-    "rank": 30
+    "rank": 34
   },
   {
     "id": "treveyon-henderson",
@@ -1472,7 +1449,7 @@
     "notes": "",
     "sleeperId": "12529",
     "rosteredInLeague": false,
-    "rank": 37
+    "rank": 39
   },
   {
     "id": "trey-benson",
@@ -1628,7 +1605,7 @@
     "notes": "",
     "sleeperId": "12517",
     "rosteredInLeague": false,
-    "rank": 41
+    "rank": 38
   },
   {
     "id": "dallas-goedert",
@@ -1931,6 +1908,18 @@
     "rank": 128
   },
   {
+    "id": "taysom-hill",
+    "name": "Taysom Hill",
+    "pos": "TE",
+    "nflTeam": "FA",
+    "age": 35,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4381",
+    "rosteredInLeague": false,
+    "rank": 321
+  },
+  {
     "id": "terrance-ferguson",
     "name": "Terrance Ferguson",
     "pos": "TE",
@@ -2072,7 +2061,7 @@
     "notes": "",
     "sleeperId": "8142",
     "rosteredInLeague": false,
-    "rank": 82
+    "rank": 90
   },
   {
     "id": "alshon-jeffery",
@@ -2339,6 +2328,18 @@
     "rank": 9999999
   },
   {
+    "id": "darius-cooper",
+    "name": "Darius Cooper",
+    "pos": "WR",
+    "nflTeam": "PHI",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13150",
+    "rosteredInLeague": false,
+    "rank": 999
+  },
+  {
     "id": "darnell-mooney",
     "name": "Darnell Mooney",
     "pos": "WR",
@@ -2384,7 +2385,7 @@
     "notes": "",
     "sleeperId": "5872",
     "rosteredInLeague": false,
-    "rank": 150
+    "rank": 134
   },
   {
     "id": "denzel-boston",
@@ -2397,18 +2398,6 @@
     "sleeperId": "13346",
     "rosteredInLeague": false,
     "rank": 144
-  },
-  {
-    "id": "devaughn-vele",
-    "name": "Devaughn Vele",
-    "pos": "WR",
-    "nflTeam": "NO",
-    "age": 28,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "11834",
-    "rosteredInLeague": false,
-    "rank": 209
   },
   {
     "id": "devonta-smith",
@@ -2552,7 +2541,7 @@
     "notes": "",
     "sleeperId": "13293",
     "rosteredInLeague": false,
-    "rank": 182
+    "rank": 151
   },
   {
     "id": "ja-lynn-polk",
@@ -2756,7 +2745,7 @@
     "notes": "",
     "sleeperId": "13281",
     "rosteredInLeague": false,
-    "rank": 69
+    "rank": 62
   },
   {
     "id": "josh-downs",
@@ -2768,7 +2757,7 @@
     "notes": "",
     "sleeperId": "9500",
     "rosteredInLeague": false,
-    "rank": 121
+    "rank": 102
   },
   {
     "id": "justin-jefferson",
@@ -2876,7 +2865,7 @@
     "notes": "",
     "sleeperId": "13294",
     "rosteredInLeague": false,
-    "rank": 77
+    "rank": 89
   },
   {
     "id": "malik-benson",
@@ -2900,7 +2889,7 @@
     "notes": "",
     "sleeperId": "11632",
     "rosteredInLeague": false,
-    "rank": 27
+    "rank": 25
   },
   {
     "id": "malik-washington",
@@ -2919,7 +2908,7 @@
     "name": "Marvin Harrison",
     "pos": "WR",
     "nflTeam": "ARI",
-    "age": 23,
+    "age": 24,
     "tier": "starter",
     "notes": "",
     "sleeperId": "11628",
@@ -3044,7 +3033,7 @@
     "notes": "",
     "sleeperId": "9487",
     "rosteredInLeague": false,
-    "rank": 81
+    "rank": 64
   },
   {
     "id": "pat-bryant",
