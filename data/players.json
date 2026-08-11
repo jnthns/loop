@@ -9,7 +9,8 @@
     "notes": "",
     "sleeperId": "11539",
     "rosteredInLeague": false,
-    "rank": 173
+    "rank": 173,
+    "status": "Active"
   },
   {
     "id": "baker-mayfield",
@@ -21,7 +22,8 @@
     "notes": "",
     "sleeperId": "4892",
     "rosteredInLeague": false,
-    "rank": 64
+    "rank": 64,
+    "status": "Active"
   },
   {
     "id": "ben-roethlisberger",
@@ -33,7 +35,8 @@
     "notes": "",
     "sleeperId": "138",
     "rosteredInLeague": false,
-    "rank": 176
+    "rank": 176,
+    "status": "Active"
   },
   {
     "id": "bo-nix",
@@ -45,7 +48,8 @@
     "notes": "",
     "sleeperId": "11563",
     "rosteredInLeague": false,
-    "rank": 34
+    "rank": 34,
+    "status": "Active"
   },
   {
     "id": "brock-purdy",
@@ -57,7 +61,8 @@
     "notes": "",
     "sleeperId": "8183",
     "rosteredInLeague": false,
-    "rank": 37
+    "rank": 37,
+    "status": "Active"
   },
   {
     "id": "bryce-young",
@@ -69,7 +74,8 @@
     "notes": "",
     "sleeperId": "9228",
     "rosteredInLeague": false,
-    "rank": 98
+    "rank": 98,
+    "status": "Active"
   },
   {
     "id": "c-j-stroud",
@@ -81,7 +87,8 @@
     "notes": "",
     "sleeperId": "9758",
     "rosteredInLeague": false,
-    "rank": 80
+    "rank": 80,
+    "status": "Active"
   },
   {
     "id": "caleb-williams",
@@ -93,7 +100,8 @@
     "notes": "",
     "sleeperId": "11560",
     "rosteredInLeague": false,
-    "rank": 15
+    "rank": 15,
+    "status": "Active"
   },
   {
     "id": "cam-ward",
@@ -105,7 +113,8 @@
     "notes": "",
     "sleeperId": "12522",
     "rosteredInLeague": false,
-    "rank": 75
+    "rank": 75,
+    "status": "Active"
   },
   {
     "id": "dak-prescott",
@@ -117,7 +126,8 @@
     "notes": "",
     "sleeperId": "3294",
     "rosteredInLeague": false,
-    "rank": 45
+    "rank": 45,
+    "status": "Active"
   },
   {
     "id": "daniel-jones",
@@ -129,7 +139,8 @@
     "notes": "",
     "sleeperId": "5870",
     "rosteredInLeague": false,
-    "rank": 109
+    "rank": 109,
+    "status": "Active"
   },
   {
     "id": "derek-carr",
@@ -141,7 +152,9 @@
     "notes": "",
     "sleeperId": "2028",
     "rosteredInLeague": false,
-    "rank": 201
+    "rank": 201,
+    "status": "Active",
+    "injuryStatus": "NA"
   },
   {
     "id": "deshaun-watson",
@@ -153,7 +166,8 @@
     "notes": "",
     "sleeperId": "4017",
     "rosteredInLeague": false,
-    "rank": 397
+    "rank": 397,
+    "status": "Active"
   },
   {
     "id": "drake-maye",
@@ -165,7 +179,8 @@
     "notes": "",
     "sleeperId": "11564",
     "rosteredInLeague": false,
-    "rank": 3
+    "rank": 3,
+    "status": "Active"
   },
   {
     "id": "fernando-mendoza",
@@ -177,7 +192,8 @@
     "notes": "",
     "sleeperId": "13269",
     "rosteredInLeague": false,
-    "rank": 39
+    "rank": 39,
+    "status": "Active"
   },
   {
     "id": "j-j-mccarthy",
@@ -189,7 +205,8 @@
     "notes": "",
     "sleeperId": "11565",
     "rosteredInLeague": false,
-    "rank": 200
+    "rank": 200,
+    "status": "Active"
   },
   {
     "id": "jalen-hurts",
@@ -201,7 +218,8 @@
     "notes": "",
     "sleeperId": "6904",
     "rosteredInLeague": false,
-    "rank": 26
+    "rank": 26,
+    "status": "Active"
   },
   {
     "id": "jared-goff",
@@ -213,7 +231,8 @@
     "notes": "",
     "sleeperId": "3163",
     "rosteredInLeague": false,
-    "rank": 66
+    "rank": 66,
+    "status": "Active"
   },
   {
     "id": "jaxson-dart",
@@ -225,7 +244,8 @@
     "notes": "",
     "sleeperId": "12508",
     "rosteredInLeague": false,
-    "rank": 24
+    "rank": 24,
+    "status": "Active"
   },
   {
     "id": "jayden-daniels",
@@ -237,7 +257,8 @@
     "notes": "",
     "sleeperId": "11566",
     "rosteredInLeague": false,
-    "rank": 9
+    "rank": 9,
+    "status": "Active"
   },
   {
     "id": "joe-burrow",
@@ -249,7 +270,8 @@
     "notes": "",
     "sleeperId": "6770",
     "rosteredInLeague": false,
-    "rank": 11
+    "rank": 11,
+    "status": "Active"
   },
   {
     "id": "jordan-love",
@@ -261,7 +283,8 @@
     "notes": "",
     "sleeperId": "6804",
     "rosteredInLeague": false,
-    "rank": 50
+    "rank": 50,
+    "status": "Active"
   },
   {
     "id": "josh-allen",
@@ -273,7 +296,8 @@
     "notes": "",
     "sleeperId": "4984",
     "rosteredInLeague": false,
-    "rank": 1
+    "rank": 1,
+    "status": "Active"
   },
   {
     "id": "justin-herbert",
@@ -285,7 +309,8 @@
     "notes": "",
     "sleeperId": "6797",
     "rosteredInLeague": false,
-    "rank": 25
+    "rank": 25,
+    "status": "Active"
   },
   {
     "id": "kyler-murray",
@@ -297,7 +322,8 @@
     "notes": "",
     "sleeperId": "5849",
     "rosteredInLeague": false,
-    "rank": 92
+    "rank": 92,
+    "status": "Active"
   },
   {
     "id": "lamar-jackson",
@@ -309,7 +335,8 @@
     "notes": "",
     "sleeperId": "4881",
     "rosteredInLeague": false,
-    "rank": 12
+    "rank": 12,
+    "status": "Active"
   },
   {
     "id": "malik-willis",
@@ -321,7 +348,8 @@
     "notes": "",
     "sleeperId": "8161",
     "rosteredInLeague": false,
-    "rank": 109
+    "rank": 109,
+    "status": "Active"
   },
   {
     "id": "matthew-stafford",
@@ -333,7 +361,8 @@
     "notes": "",
     "sleeperId": "421",
     "rosteredInLeague": false,
-    "rank": 103
+    "rank": 103,
+    "status": "Active"
   },
   {
     "id": "michael-penix",
@@ -345,7 +374,9 @@
     "notes": "",
     "sleeperId": "11559",
     "rosteredInLeague": false,
-    "rank": 199
+    "rank": 199,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "patrick-mahomes",
@@ -357,7 +388,9 @@
     "notes": "",
     "sleeperId": "4046",
     "rosteredInLeague": false,
-    "rank": 26
+    "rank": 26,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "quinn-ewers",
@@ -369,7 +402,8 @@
     "notes": "",
     "sleeperId": "12500",
     "rosteredInLeague": false,
-    "rank": 396
+    "rank": 396,
+    "status": "Active"
   },
   {
     "id": "sam-darnold",
@@ -381,7 +415,8 @@
     "notes": "",
     "sleeperId": "4943",
     "rosteredInLeague": false,
-    "rank": 84
+    "rank": 84,
+    "status": "Active"
   },
   {
     "id": "tom-brady",
@@ -393,7 +428,8 @@
     "notes": "",
     "sleeperId": "167",
     "rosteredInLeague": false,
-    "rank": 74
+    "rank": 74,
+    "status": "Active"
   },
   {
     "id": "trevor-lawrence",
@@ -405,7 +441,8 @@
     "notes": "",
     "sleeperId": "7523",
     "rosteredInLeague": false,
-    "rank": 31
+    "rank": 31,
+    "status": "Active"
   },
   {
     "id": "tua-tagovailoa",
@@ -417,7 +454,9 @@
     "notes": "",
     "sleeperId": "6768",
     "rosteredInLeague": false,
-    "rank": 183
+    "rank": 183,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "ty-simpson",
@@ -429,7 +468,8 @@
     "notes": "",
     "sleeperId": "13275",
     "rosteredInLeague": false,
-    "rank": 141
+    "rank": 141,
+    "status": "Active"
   },
   {
     "id": "tyler-shough",
@@ -441,7 +481,8 @@
     "notes": "",
     "sleeperId": "12545",
     "rosteredInLeague": false,
-    "rank": 81
+    "rank": 81,
+    "status": "Active"
   },
   {
     "id": "aaron-jones",
@@ -453,7 +494,8 @@
     "notes": "",
     "sleeperId": "4199",
     "rosteredInLeague": false,
-    "rank": 85
+    "rank": 85,
+    "status": "Active"
   },
   {
     "id": "alvin-kamara",
@@ -465,7 +507,8 @@
     "notes": "",
     "sleeperId": "4035",
     "rosteredInLeague": false,
-    "rank": 119
+    "rank": 119,
+    "status": "Active"
   },
   {
     "id": "ashton-jeanty",
@@ -477,7 +520,8 @@
     "notes": "",
     "sleeperId": "12527",
     "rosteredInLeague": false,
-    "rank": 12
+    "rank": 12,
+    "status": "Active"
   },
   {
     "id": "audric-estime",
@@ -489,7 +533,8 @@
     "notes": "",
     "sleeperId": "11579",
     "rosteredInLeague": false,
-    "rank": 190
+    "rank": 190,
+    "status": "Active"
   },
   {
     "id": "bhayshul-tuten",
@@ -501,7 +546,8 @@
     "notes": "",
     "sleeperId": "12490",
     "rosteredInLeague": false,
-    "rank": 44
+    "rank": 44,
+    "status": "Active"
   },
   {
     "id": "bijan-robinson",
@@ -513,7 +559,8 @@
     "notes": "",
     "sleeperId": "9509",
     "rosteredInLeague": false,
-    "rank": 1
+    "rank": 1,
+    "status": "Active"
   },
   {
     "id": "blake-corum",
@@ -525,7 +572,8 @@
     "notes": "",
     "sleeperId": "11586",
     "rosteredInLeague": false,
-    "rank": 68
+    "rank": 68,
+    "status": "Active"
   },
   {
     "id": "braelon-allen",
@@ -537,7 +585,8 @@
     "notes": "",
     "sleeperId": "11576",
     "rosteredInLeague": false,
-    "rank": 135
+    "rank": 135,
+    "status": "Active"
   },
   {
     "id": "brashard-smith",
@@ -549,7 +598,8 @@
     "notes": "",
     "sleeperId": "12455",
     "rosteredInLeague": false,
-    "rank": 182
+    "rank": 182,
+    "status": "Active"
   },
   {
     "id": "breece-hall",
@@ -561,7 +611,8 @@
     "notes": "",
     "sleeperId": "8155",
     "rosteredInLeague": false,
-    "rank": 27
+    "rank": 27,
+    "status": "Active"
   },
   {
     "id": "brian-robinson",
@@ -573,7 +624,8 @@
     "notes": "",
     "sleeperId": "8154",
     "rosteredInLeague": false,
-    "rank": 80
+    "rank": 80,
+    "status": "Active"
   },
   {
     "id": "bucky-irving",
@@ -585,7 +637,8 @@
     "notes": "",
     "sleeperId": "11584",
     "rosteredInLeague": false,
-    "rank": 32
+    "rank": 32,
+    "status": "Active"
   },
   {
     "id": "cam-skattebo",
@@ -597,7 +650,8 @@
     "notes": "",
     "sleeperId": "12481",
     "rosteredInLeague": false,
-    "rank": 39
+    "rank": 39,
+    "status": "Active"
   },
   {
     "id": "chase-brown",
@@ -609,7 +663,8 @@
     "notes": "",
     "sleeperId": "9224",
     "rosteredInLeague": false,
-    "rank": 16
+    "rank": 16,
+    "status": "Active"
   },
   {
     "id": "chris-carson",
@@ -621,7 +676,8 @@
     "notes": "",
     "sleeperId": "4273",
     "rosteredInLeague": false,
-    "rank": 200
+    "rank": 200,
+    "status": "Active"
   },
   {
     "id": "chris-rodriguez",
@@ -633,7 +689,8 @@
     "notes": "",
     "sleeperId": "10219",
     "rosteredInLeague": false,
-    "rank": 141
+    "rank": 141,
+    "status": "Active"
   },
   {
     "id": "christian-mccaffrey",
@@ -645,7 +702,9 @@
     "notes": "",
     "sleeperId": "4034",
     "rosteredInLeague": false,
-    "rank": 5
+    "rank": 5,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "chuba-hubbard",
@@ -657,7 +716,8 @@
     "notes": "",
     "sleeperId": "7594",
     "rosteredInLeague": false,
-    "rank": 66
+    "rank": 66,
+    "status": "Active"
   },
   {
     "id": "d-andre-swift",
@@ -669,7 +729,8 @@
     "notes": "",
     "sleeperId": "6790",
     "rosteredInLeague": false,
-    "rank": 47
+    "rank": 47,
+    "status": "Active"
   },
   {
     "id": "damien-harris",
@@ -681,7 +742,8 @@
     "notes": "",
     "sleeperId": "5890",
     "rosteredInLeague": false,
-    "rank": 126
+    "rank": 126,
+    "status": "Active"
   },
   {
     "id": "david-montgomery",
@@ -693,7 +755,8 @@
     "notes": "",
     "sleeperId": "5892",
     "rosteredInLeague": false,
-    "rank": 48
+    "rank": 48,
+    "status": "Active"
   },
   {
     "id": "de-von-achane",
@@ -705,7 +768,8 @@
     "notes": "",
     "sleeperId": "9226",
     "rosteredInLeague": false,
-    "rank": 8
+    "rank": 8,
+    "status": "Active"
   },
   {
     "id": "demond-claiborne",
@@ -717,7 +781,8 @@
     "notes": "",
     "sleeperId": "13347",
     "rosteredInLeague": false,
-    "rank": 176
+    "rank": 176,
+    "status": "Active"
   },
   {
     "id": "derrick-henry",
@@ -729,7 +794,8 @@
     "notes": "",
     "sleeperId": "3198",
     "rosteredInLeague": false,
-    "rank": 7
+    "rank": 7,
+    "status": "Active"
   },
   {
     "id": "devin-neal",
@@ -741,7 +807,9 @@
     "notes": "",
     "sleeperId": "12476",
     "rosteredInLeague": false,
-    "rank": 169
+    "rank": 169,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "devin-singletary",
@@ -753,7 +821,8 @@
     "notes": "",
     "sleeperId": "6130",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "dylan-sampson",
@@ -765,7 +834,8 @@
     "notes": "",
     "sleeperId": "12469",
     "rosteredInLeague": false,
-    "rank": 129
+    "rank": 129,
+    "status": "Active"
   },
   {
     "id": "emanuel-wilson",
@@ -777,7 +847,8 @@
     "notes": "",
     "sleeperId": "11435",
     "rosteredInLeague": false,
-    "rank": 161
+    "rank": 161,
+    "status": "Active"
   },
   {
     "id": "emmett-johnson",
@@ -789,7 +860,8 @@
     "notes": "",
     "sleeperId": "13337",
     "rosteredInLeague": false,
-    "rank": 113
+    "rank": 113,
+    "status": "Active"
   },
   {
     "id": "ezekiel-elliott",
@@ -801,7 +873,8 @@
     "notes": "",
     "sleeperId": "3164",
     "rosteredInLeague": false,
-    "rank": 111
+    "rank": 111,
+    "status": "Active"
   },
   {
     "id": "frank-gore",
@@ -813,7 +886,8 @@
     "notes": "",
     "sleeperId": "232",
     "rosteredInLeague": false,
-    "rank": 187
+    "rank": 187,
+    "status": "Active"
   },
   {
     "id": "gus-edwards",
@@ -825,7 +899,8 @@
     "notes": "",
     "sleeperId": "5248",
     "rosteredInLeague": false,
-    "rank": 104
+    "rank": 104,
+    "status": "Active"
   },
   {
     "id": "isaiah-davis",
@@ -837,7 +912,9 @@
     "notes": "",
     "sleeperId": "11571",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "isiah-pacheco",
@@ -849,7 +926,9 @@
     "notes": "",
     "sleeperId": "8205",
     "rosteredInLeague": false,
-    "rank": 151
+    "rank": 151,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "j-k-dobbins",
@@ -861,7 +940,9 @@
     "notes": "",
     "sleeperId": "6806",
     "rosteredInLeague": false,
-    "rank": 68
+    "rank": 68,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "jacory-croskey-merritt",
@@ -873,7 +954,8 @@
     "notes": "",
     "sleeperId": "12533",
     "rosteredInLeague": false,
-    "rank": 95
+    "rank": 95,
+    "status": "Active"
   },
   {
     "id": "jadarian-price",
@@ -885,7 +967,9 @@
     "notes": "",
     "sleeperId": "13286",
     "rosteredInLeague": false,
-    "rank": 58
+    "rank": 58,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "jahmyr-gibbs",
@@ -897,7 +981,9 @@
     "notes": "",
     "sleeperId": "9221",
     "rosteredInLeague": false,
-    "rank": 2
+    "rank": 2,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "james-conner",
@@ -909,7 +995,9 @@
     "notes": "",
     "sleeperId": "4137",
     "rosteredInLeague": false,
-    "rank": 92
+    "rank": 92,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "james-cook",
@@ -921,7 +1009,8 @@
     "notes": "",
     "sleeperId": "8138",
     "rosteredInLeague": false,
-    "rank": 5
+    "rank": 5,
+    "status": "Active"
   },
   {
     "id": "jarquez-hunter",
@@ -933,7 +1022,8 @@
     "notes": "",
     "sleeperId": "11569",
     "rosteredInLeague": false,
-    "rank": 191
+    "rank": 191,
+    "status": "Active"
   },
   {
     "id": "javonte-williams",
@@ -945,7 +1035,8 @@
     "notes": "",
     "sleeperId": "7588",
     "rosteredInLeague": false,
-    "rank": 32
+    "rank": 32,
+    "status": "Active"
   },
   {
     "id": "jaydon-blue",
@@ -957,7 +1048,8 @@
     "notes": "",
     "sleeperId": "12457",
     "rosteredInLeague": false,
-    "rank": 189
+    "rank": 189,
+    "status": "Active"
   },
   {
     "id": "jaylen-warren",
@@ -969,7 +1061,8 @@
     "notes": "",
     "sleeperId": "8228",
     "rosteredInLeague": false,
-    "rank": 52
+    "rank": 52,
+    "status": "Active"
   },
   {
     "id": "jaylen-wright",
@@ -981,7 +1074,8 @@
     "notes": "",
     "sleeperId": "11643",
     "rosteredInLeague": false,
-    "rank": 174
+    "rank": 174,
+    "status": "Active"
   },
   {
     "id": "jeremiyah-love",
@@ -993,7 +1087,8 @@
     "notes": "",
     "sleeperId": "13287",
     "rosteredInLeague": false,
-    "rank": 15
+    "rank": 15,
+    "status": "Active"
   },
   {
     "id": "jonah-coleman",
@@ -1005,7 +1100,8 @@
     "notes": "",
     "sleeperId": "13345",
     "rosteredInLeague": false,
-    "rank": 118
+    "rank": 118,
+    "status": "Active"
   },
   {
     "id": "jonathan-taylor",
@@ -1017,7 +1113,8 @@
     "notes": "",
     "sleeperId": "6813",
     "rosteredInLeague": false,
-    "rank": 4
+    "rank": 4,
+    "status": "Active"
   },
   {
     "id": "jonathon-brooks",
@@ -1029,7 +1126,8 @@
     "notes": "",
     "sleeperId": "11583",
     "rosteredInLeague": false,
-    "rank": 91
+    "rank": 91,
+    "status": "Active"
   },
   {
     "id": "jordan-mason",
@@ -1041,7 +1139,8 @@
     "notes": "",
     "sleeperId": "8408",
     "rosteredInLeague": false,
-    "rank": 100
+    "rank": 100,
+    "status": "Active"
   },
   {
     "id": "josh-jacobs",
@@ -1053,7 +1152,9 @@
     "notes": "",
     "sleeperId": "5850",
     "rosteredInLeague": false,
-    "rank": 20
+    "rank": 20,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "justice-hill",
@@ -1065,7 +1166,8 @@
     "notes": "",
     "sleeperId": "5995",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "kaelon-black",
@@ -1077,7 +1179,9 @@
     "notes": "",
     "sleeperId": "13414",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "kaleb-johnson",
@@ -1089,7 +1193,8 @@
     "notes": "",
     "sleeperId": "12504",
     "rosteredInLeague": false,
-    "rank": 173
+    "rank": 173,
+    "status": "Active"
   },
   {
     "id": "kareem-hunt",
@@ -1101,7 +1206,8 @@
     "notes": "",
     "sleeperId": "4098",
     "rosteredInLeague": false,
-    "rank": 242
+    "rank": 242,
+    "status": "Active"
   },
   {
     "id": "kaytron-allen",
@@ -1113,7 +1219,8 @@
     "notes": "",
     "sleeperId": "13405",
     "rosteredInLeague": false,
-    "rank": 157
+    "rank": 157,
+    "status": "Active"
   },
   {
     "id": "keaton-mitchell",
@@ -1125,7 +1232,8 @@
     "notes": "",
     "sleeperId": "9511",
     "rosteredInLeague": false,
-    "rank": 148
+    "rank": 148,
+    "status": "Active"
   },
   {
     "id": "kendre-miller",
@@ -1137,7 +1245,9 @@
     "notes": "",
     "sleeperId": "9757",
     "rosteredInLeague": false,
-    "rank": 180
+    "rank": 180,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "kenneth-walker",
@@ -1149,7 +1259,8 @@
     "notes": "",
     "sleeperId": "8151",
     "rosteredInLeague": false,
-    "rank": 19
+    "rank": 19,
+    "status": "Active"
   },
   {
     "id": "kenny-gainwell",
@@ -1161,7 +1272,8 @@
     "notes": "",
     "sleeperId": "7567",
     "rosteredInLeague": false,
-    "rank": 86
+    "rank": 86,
+    "status": "Active"
   },
   {
     "id": "khalil-herbert",
@@ -1173,7 +1285,8 @@
     "notes": "",
     "sleeperId": "7608",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "kimani-vidal",
@@ -1185,7 +1298,8 @@
     "notes": "",
     "sleeperId": "11647",
     "rosteredInLeague": false,
-    "rank": 141
+    "rank": 141,
+    "status": "Active"
   },
   {
     "id": "kyle-monangai",
@@ -1197,7 +1311,8 @@
     "notes": "",
     "sleeperId": "12534",
     "rosteredInLeague": false,
-    "rank": 61
+    "rank": 61,
+    "status": "Active"
   },
   {
     "id": "kyren-williams",
@@ -1209,7 +1324,8 @@
     "notes": "",
     "sleeperId": "8150",
     "rosteredInLeague": false,
-    "rank": 13
+    "rank": 13,
+    "status": "Active"
   },
   {
     "id": "malik-davis",
@@ -1221,7 +1337,8 @@
     "notes": "",
     "sleeperId": "8800",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "marshawn-lloyd",
@@ -1233,7 +1350,8 @@
     "notes": "",
     "sleeperId": "11581",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "mike-washington",
@@ -1245,7 +1363,8 @@
     "notes": "",
     "sleeperId": "13305",
     "rosteredInLeague": false,
-    "rank": 139
+    "rank": 139,
+    "status": "Active"
   },
   {
     "id": "najee-harris",
@@ -1257,7 +1376,9 @@
     "notes": "",
     "sleeperId": "7528",
     "rosteredInLeague": false,
-    "rank": 219
+    "rank": 219,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "nicholas-singleton",
@@ -1269,7 +1390,8 @@
     "notes": "",
     "sleeperId": "13288",
     "rosteredInLeague": false,
-    "rank": 167
+    "rank": 167,
+    "status": "Active"
   },
   {
     "id": "omarion-hampton",
@@ -1281,7 +1403,8 @@
     "notes": "",
     "sleeperId": "12507",
     "rosteredInLeague": false,
-    "rank": 12
+    "rank": 12,
+    "status": "Active"
   },
   {
     "id": "quinshon-judkins",
@@ -1293,7 +1416,8 @@
     "notes": "",
     "sleeperId": "12512",
     "rosteredInLeague": false,
-    "rank": 45
+    "rank": 45,
+    "status": "Active"
   },
   {
     "id": "rachaad-white",
@@ -1305,7 +1429,8 @@
     "notes": "",
     "sleeperId": "8136",
     "rosteredInLeague": false,
-    "rank": 119
+    "rank": 119,
+    "status": "Active"
   },
   {
     "id": "ray-davis",
@@ -1317,7 +1442,8 @@
     "notes": "",
     "sleeperId": "11575",
     "rosteredInLeague": false,
-    "rank": 167
+    "rank": 167,
+    "status": "Active"
   },
   {
     "id": "rhamondre-stevenson",
@@ -1329,7 +1455,8 @@
     "notes": "",
     "sleeperId": "7611",
     "rosteredInLeague": false,
-    "rank": 58
+    "rank": 58,
+    "status": "Active"
   },
   {
     "id": "rico-dowdle",
@@ -1341,7 +1468,8 @@
     "notes": "",
     "sleeperId": "7021",
     "rosteredInLeague": false,
-    "rank": 65
+    "rank": 65,
+    "status": "Active"
   },
   {
     "id": "rj-harvey",
@@ -1353,7 +1481,8 @@
     "notes": "",
     "sleeperId": "12489",
     "rosteredInLeague": false,
-    "rank": 56
+    "rank": 56,
+    "status": "Active"
   },
   {
     "id": "saquon-barkley",
@@ -1365,7 +1494,8 @@
     "notes": "",
     "sleeperId": "4866",
     "rosteredInLeague": false,
-    "rank": 13
+    "rank": 13,
+    "status": "Active"
   },
   {
     "id": "sean-tucker",
@@ -1377,7 +1507,8 @@
     "notes": "",
     "sleeperId": "9506",
     "rosteredInLeague": false,
-    "rank": 155
+    "rank": 155,
+    "status": "Active"
   },
   {
     "id": "seth-mcgowan",
@@ -1389,7 +1520,8 @@
     "notes": "",
     "sleeperId": "13424",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "tank-bigsby",
@@ -1401,7 +1533,8 @@
     "notes": "",
     "sleeperId": "9225",
     "rosteredInLeague": false,
-    "rank": 147
+    "rank": 147,
+    "status": "Active"
   },
   {
     "id": "todd-gurley",
@@ -1413,7 +1546,8 @@
     "notes": "",
     "sleeperId": "2315",
     "rosteredInLeague": false,
-    "rank": 27
+    "rank": 27,
+    "status": "Active"
   },
   {
     "id": "tony-pollard",
@@ -1425,7 +1559,8 @@
     "notes": "",
     "sleeperId": "5967",
     "rosteredInLeague": false,
-    "rank": 63
+    "rank": 63,
+    "status": "Active"
   },
   {
     "id": "travis-etienne",
@@ -1437,7 +1572,8 @@
     "notes": "",
     "sleeperId": "7543",
     "rosteredInLeague": false,
-    "rank": 34
+    "rank": 34,
+    "status": "Active"
   },
   {
     "id": "treveyon-henderson",
@@ -1449,7 +1585,8 @@
     "notes": "",
     "sleeperId": "12529",
     "rosteredInLeague": false,
-    "rank": 39
+    "rank": 39,
+    "status": "Active"
   },
   {
     "id": "trey-benson",
@@ -1461,7 +1598,8 @@
     "notes": "",
     "sleeperId": "11589",
     "rosteredInLeague": false,
-    "rank": 114
+    "rank": 114,
+    "status": "Active"
   },
   {
     "id": "tyjae-spears",
@@ -1473,7 +1611,9 @@
     "notes": "",
     "sleeperId": "9508",
     "rosteredInLeague": false,
-    "rank": 122
+    "rank": 122,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "tyler-allgeier",
@@ -1485,7 +1625,8 @@
     "notes": "",
     "sleeperId": "8132",
     "rosteredInLeague": false,
-    "rank": 89
+    "rank": 89,
+    "status": "Active"
   },
   {
     "id": "tyrone-tracy",
@@ -1497,7 +1638,8 @@
     "notes": "",
     "sleeperId": "11655",
     "rosteredInLeague": false,
-    "rank": 110
+    "rank": 110,
+    "status": "Active"
   },
   {
     "id": "woody-marks",
@@ -1509,7 +1651,8 @@
     "notes": "",
     "sleeperId": "12474",
     "rosteredInLeague": false,
-    "rank": 105
+    "rank": 105,
+    "status": "Active"
   },
   {
     "id": "zach-charbonnet",
@@ -1521,7 +1664,9 @@
     "notes": "",
     "sleeperId": "9753",
     "rosteredInLeague": false,
-    "rank": 101
+    "rank": 101,
+    "status": "Active",
+    "injuryStatus": "PUP"
   },
   {
     "id": "aj-barner",
@@ -1533,7 +1678,8 @@
     "notes": "",
     "sleeperId": "11603",
     "rosteredInLeague": false,
-    "rank": 126
+    "rank": 126,
+    "status": "Active"
   },
   {
     "id": "brenton-strange",
@@ -1545,7 +1691,8 @@
     "notes": "",
     "sleeperId": "9480",
     "rosteredInLeague": false,
-    "rank": 104
+    "rank": 104,
+    "status": "Active"
   },
   {
     "id": "brock-bowers",
@@ -1557,7 +1704,8 @@
     "notes": "",
     "sleeperId": "11604",
     "rosteredInLeague": false,
-    "rank": 18
+    "rank": 18,
+    "status": "Active"
   },
   {
     "id": "cade-otton",
@@ -1569,7 +1717,8 @@
     "notes": "",
     "sleeperId": "8111",
     "rosteredInLeague": false,
-    "rank": 148
+    "rank": 148,
+    "status": "Active"
   },
   {
     "id": "chig-okonkwo",
@@ -1581,7 +1730,8 @@
     "notes": "",
     "sleeperId": "8210",
     "rosteredInLeague": false,
-    "rank": 137
+    "rank": 137,
+    "status": "Active"
   },
   {
     "id": "colby-parkinson",
@@ -1593,7 +1743,8 @@
     "notes": "",
     "sleeperId": "6865",
     "rosteredInLeague": false,
-    "rank": 136
+    "rank": 136,
+    "status": "Active"
   },
   {
     "id": "colston-loveland",
@@ -1605,7 +1756,8 @@
     "notes": "",
     "sleeperId": "12517",
     "rosteredInLeague": false,
-    "rank": 38
+    "rank": 38,
+    "status": "Active"
   },
   {
     "id": "dallas-goedert",
@@ -1617,7 +1769,8 @@
     "notes": "",
     "sleeperId": "5022",
     "rosteredInLeague": false,
-    "rank": 94
+    "rank": 94,
+    "status": "Active"
   },
   {
     "id": "dalton-kincaid",
@@ -1629,7 +1782,8 @@
     "notes": "",
     "sleeperId": "10236",
     "rosteredInLeague": false,
-    "rank": 81
+    "rank": 81,
+    "status": "Active"
   },
   {
     "id": "dalton-schultz",
@@ -1641,7 +1795,8 @@
     "notes": "",
     "sleeperId": "5001",
     "rosteredInLeague": false,
-    "rank": 98
+    "rank": 98,
+    "status": "Active"
   },
   {
     "id": "darren-waller",
@@ -1653,7 +1808,9 @@
     "notes": "",
     "sleeperId": "2505",
     "rosteredInLeague": false,
-    "rank": 249
+    "rank": 249,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "david-njoku",
@@ -1665,7 +1822,8 @@
     "notes": "",
     "sleeperId": "4033",
     "rosteredInLeague": false,
-    "rank": 131
+    "rank": 131,
+    "status": "Active"
   },
   {
     "id": "eli-raridon",
@@ -1677,7 +1835,8 @@
     "notes": "",
     "sleeperId": "13421",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "eli-stowers",
@@ -1689,7 +1848,8 @@
     "notes": "",
     "sleeperId": "13349",
     "rosteredInLeague": false,
-    "rank": 140
+    "rank": 140,
+    "status": "Active"
   },
   {
     "id": "george-kittle",
@@ -1701,7 +1861,9 @@
     "notes": "",
     "sleeperId": "4217",
     "rosteredInLeague": false,
-    "rank": 97
+    "rank": 97,
+    "status": "Active",
+    "injuryStatus": "PUP"
   },
   {
     "id": "gunnar-helm",
@@ -1713,7 +1875,8 @@
     "notes": "",
     "sleeperId": "12502",
     "rosteredInLeague": false,
-    "rank": 153
+    "rank": 153,
+    "status": "Active"
   },
   {
     "id": "harold-fannin",
@@ -1725,7 +1888,8 @@
     "notes": "",
     "sleeperId": "12506",
     "rosteredInLeague": false,
-    "rank": 63
+    "rank": 63,
+    "status": "Active"
   },
   {
     "id": "hunter-henry",
@@ -1737,7 +1901,8 @@
     "notes": "",
     "sleeperId": "3214",
     "rosteredInLeague": false,
-    "rank": 92
+    "rank": 92,
+    "status": "Active"
   },
   {
     "id": "isaiah-likely",
@@ -1749,7 +1914,8 @@
     "notes": "",
     "sleeperId": "8131",
     "rosteredInLeague": false,
-    "rank": 113
+    "rank": 113,
+    "status": "Active"
   },
   {
     "id": "jake-ferguson",
@@ -1761,7 +1927,8 @@
     "notes": "",
     "sleeperId": "8110",
     "rosteredInLeague": false,
-    "rank": 97
+    "rank": 97,
+    "status": "Active"
   },
   {
     "id": "jake-tonges",
@@ -1773,7 +1940,8 @@
     "notes": "",
     "sleeperId": "8698",
     "rosteredInLeague": false,
-    "rank": 178
+    "rank": 178,
+    "status": "Active"
   },
   {
     "id": "jonnu-smith",
@@ -1785,7 +1953,8 @@
     "notes": "",
     "sleeperId": "4144",
     "rosteredInLeague": false,
-    "rank": 206
+    "rank": 206,
+    "status": "Active"
   },
   {
     "id": "juwan-johnson",
@@ -1797,7 +1966,8 @@
     "notes": "",
     "sleeperId": "7002",
     "rosteredInLeague": false,
-    "rank": 103
+    "rank": 103,
+    "status": "Active"
   },
   {
     "id": "kenyon-sadiq",
@@ -1809,7 +1979,9 @@
     "notes": "",
     "sleeperId": "13330",
     "rosteredInLeague": false,
-    "rank": 109
+    "rank": 109,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "kyle-pitts",
@@ -1821,7 +1993,8 @@
     "notes": "",
     "sleeperId": "7553",
     "rosteredInLeague": false,
-    "rank": 71
+    "rank": 71,
+    "status": "Active"
   },
   {
     "id": "mark-andrews",
@@ -1833,7 +2006,8 @@
     "notes": "",
     "sleeperId": "5012",
     "rosteredInLeague": false,
-    "rank": 96
+    "rank": 96,
+    "status": "Active"
   },
   {
     "id": "mason-taylor",
@@ -1845,7 +2019,8 @@
     "notes": "",
     "sleeperId": "12498",
     "rosteredInLeague": false,
-    "rank": 138
+    "rank": 138,
+    "status": "Active"
   },
   {
     "id": "matt-hibner",
@@ -1857,7 +2032,8 @@
     "notes": "",
     "sleeperId": "13324",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "oronde-gadsden",
@@ -1869,7 +2045,8 @@
     "notes": "",
     "sleeperId": "12493",
     "rosteredInLeague": false,
-    "rank": 83
+    "rank": 83,
+    "status": "Active"
   },
   {
     "id": "rob-gronkowski",
@@ -1881,7 +2058,8 @@
     "notes": "",
     "sleeperId": "515",
     "rosteredInLeague": false,
-    "rank": 118
+    "rank": 118,
+    "status": "Active"
   },
   {
     "id": "sam-laporta",
@@ -1893,7 +2071,8 @@
     "notes": "",
     "sleeperId": "10859",
     "rosteredInLeague": false,
-    "rank": 76
+    "rank": 76,
+    "status": "Active"
   },
   {
     "id": "t-j-hockenson",
@@ -1905,7 +2084,8 @@
     "notes": "",
     "sleeperId": "5844",
     "rosteredInLeague": false,
-    "rank": 128
+    "rank": 128,
+    "status": "Active"
   },
   {
     "id": "taysom-hill",
@@ -1917,7 +2097,8 @@
     "notes": "",
     "sleeperId": "4381",
     "rosteredInLeague": false,
-    "rank": 321
+    "rank": 321,
+    "status": "Active"
   },
   {
     "id": "terrance-ferguson",
@@ -1929,7 +2110,8 @@
     "notes": "",
     "sleeperId": "12487",
     "rosteredInLeague": false,
-    "rank": 141
+    "rank": 141,
+    "status": "Active"
   },
   {
     "id": "theo-johnson",
@@ -1941,7 +2123,8 @@
     "notes": "",
     "sleeperId": "11597",
     "rosteredInLeague": false,
-    "rank": 144
+    "rank": 144,
+    "status": "Active"
   },
   {
     "id": "thomas-odukoya",
@@ -1953,7 +2136,9 @@
     "notes": "",
     "sleeperId": "8924",
     "rosteredInLeague": false,
-    "rank": 104
+    "rank": 104,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "travis-kelce",
@@ -1965,7 +2150,8 @@
     "notes": "",
     "sleeperId": "1466",
     "rosteredInLeague": false,
-    "rank": 106
+    "rank": 106,
+    "status": "Active"
   },
   {
     "id": "trey-mcbride",
@@ -1977,7 +2163,8 @@
     "notes": "",
     "sleeperId": "8130",
     "rosteredInLeague": false,
-    "rank": 17
+    "rank": 17,
+    "status": "Active"
   },
   {
     "id": "tucker-kraft",
@@ -1989,7 +2176,9 @@
     "notes": "",
     "sleeperId": "9484",
     "rosteredInLeague": false,
-    "rank": 67
+    "rank": 67,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "tyler-warren",
@@ -2001,7 +2190,8 @@
     "notes": "",
     "sleeperId": "12518",
     "rosteredInLeague": false,
-    "rank": 50
+    "rank": 50,
+    "status": "Active"
   },
   {
     "id": "zach-ertz",
@@ -2013,7 +2203,8 @@
     "notes": "",
     "sleeperId": "1339",
     "rosteredInLeague": false,
-    "rank": 275
+    "rank": 275,
+    "status": "Active"
   },
   {
     "id": "a-j-brown",
@@ -2025,7 +2216,8 @@
     "notes": "",
     "sleeperId": "5859",
     "rosteredInLeague": false,
-    "rank": 18
+    "rank": 18,
+    "status": "Active"
   },
   {
     "id": "adam-thielen",
@@ -2037,7 +2229,9 @@
     "notes": "",
     "sleeperId": "1689",
     "rosteredInLeague": false,
-    "rank": 163
+    "rank": 163,
+    "status": "Active",
+    "injuryStatus": "NA"
   },
   {
     "id": "adonai-mitchell",
@@ -2049,7 +2243,8 @@
     "notes": "",
     "sleeperId": "11625",
     "rosteredInLeague": false,
-    "rank": 162
+    "rank": 162,
+    "status": "Active"
   },
   {
     "id": "alec-pierce",
@@ -2061,7 +2256,9 @@
     "notes": "",
     "sleeperId": "8142",
     "rosteredInLeague": false,
-    "rank": 90
+    "rank": 90,
+    "status": "Active",
+    "injuryStatus": "PUP"
   },
   {
     "id": "alshon-jeffery",
@@ -2073,7 +2270,8 @@
     "notes": "",
     "sleeperId": "1149",
     "rosteredInLeague": false,
-    "rank": 161
+    "rank": 161,
+    "status": "Active"
   },
   {
     "id": "amari-cooper",
@@ -2085,7 +2283,8 @@
     "notes": "",
     "sleeperId": "2309",
     "rosteredInLeague": false,
-    "rank": 183
+    "rank": 183,
+    "status": "Active"
   },
   {
     "id": "amon-ra-st-brown",
@@ -2097,7 +2296,8 @@
     "notes": "",
     "sleeperId": "7547",
     "rosteredInLeague": false,
-    "rank": 8
+    "rank": 8,
+    "status": "Active"
   },
   {
     "id": "antonio-brown",
@@ -2109,7 +2309,8 @@
     "notes": "",
     "sleeperId": "536",
     "rosteredInLeague": false,
-    "rank": 89
+    "rank": 89,
+    "status": "Active"
   },
   {
     "id": "antonio-williams",
@@ -2121,7 +2322,8 @@
     "notes": "",
     "sleeperId": "13301",
     "rosteredInLeague": false,
-    "rank": 156
+    "rank": 156,
+    "status": "Active"
   },
   {
     "id": "barion-brown",
@@ -2133,7 +2335,8 @@
     "notes": "",
     "sleeperId": "13533",
     "rosteredInLeague": false,
-    "rank": 9999999
+    "rank": 9999999,
+    "status": "Active"
   },
   {
     "id": "brandin-cooks",
@@ -2145,7 +2348,8 @@
     "notes": "",
     "sleeperId": "2197",
     "rosteredInLeague": false,
-    "rank": 151
+    "rank": 151,
+    "status": "Active"
   },
   {
     "id": "brandon-aiyuk",
@@ -2157,7 +2361,9 @@
     "notes": "",
     "sleeperId": "6803",
     "rosteredInLeague": false,
-    "rank": 177
+    "rank": 177,
+    "status": "Active",
+    "injuryStatus": "DNR"
   },
   {
     "id": "brian-thomas",
@@ -2169,7 +2375,8 @@
     "notes": "",
     "sleeperId": "11631",
     "rosteredInLeague": false,
-    "rank": 66
+    "rank": 66,
+    "status": "Active"
   },
   {
     "id": "bryce-ford-wheaton",
@@ -2181,7 +2388,9 @@
     "notes": "",
     "sleeperId": "9499",
     "rosteredInLeague": false,
-    "rank": 44
+    "rank": 44,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "caleb-douglas",
@@ -2193,7 +2402,8 @@
     "notes": "",
     "sleeperId": "13296",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "calvin-austin",
@@ -2205,7 +2415,8 @@
     "notes": "",
     "sleeperId": "8125",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "calvin-ridley",
@@ -2217,7 +2428,8 @@
     "notes": "",
     "sleeperId": "4981",
     "rosteredInLeague": false,
-    "rank": 180
+    "rank": 180,
+    "status": "Active"
   },
   {
     "id": "carnell-tate",
@@ -2229,7 +2441,8 @@
     "notes": "",
     "sleeperId": "13279",
     "rosteredInLeague": false,
-    "rank": 61
+    "rank": 61,
+    "status": "Active"
   },
   {
     "id": "ceedee-lamb",
@@ -2241,7 +2454,8 @@
     "notes": "",
     "sleeperId": "6786",
     "rosteredInLeague": false,
-    "rank": 10
+    "rank": 10,
+    "status": "Active"
   },
   {
     "id": "chimere-dike",
@@ -2253,7 +2467,8 @@
     "notes": "",
     "sleeperId": "12540",
     "rosteredInLeague": false,
-    "rank": 175
+    "rank": 175,
+    "status": "Active"
   },
   {
     "id": "chris-godwin",
@@ -2265,7 +2480,8 @@
     "notes": "",
     "sleeperId": "4037",
     "rosteredInLeague": false,
-    "rank": 88
+    "rank": 88,
+    "status": "Active"
   },
   {
     "id": "chris-olave",
@@ -2277,7 +2493,8 @@
     "notes": "",
     "sleeperId": "8144",
     "rosteredInLeague": false,
-    "rank": 26
+    "rank": 26,
+    "status": "Active"
   },
   {
     "id": "christian-watson",
@@ -2289,7 +2506,8 @@
     "notes": "",
     "sleeperId": "8167",
     "rosteredInLeague": false,
-    "rank": 63
+    "rank": 63,
+    "status": "Active"
   },
   {
     "id": "colbie-young",
@@ -2301,7 +2519,8 @@
     "notes": "",
     "sleeperId": "13477",
     "rosteredInLeague": false,
-    "rank": 9999999
+    "rank": 9999999,
+    "status": "Active"
   },
   {
     "id": "courtland-sutton",
@@ -2313,7 +2532,8 @@
     "notes": "",
     "sleeperId": "5045",
     "rosteredInLeague": false,
-    "rank": 72
+    "rank": 72,
+    "status": "Active"
   },
   {
     "id": "cyrus-allen",
@@ -2325,7 +2545,8 @@
     "notes": "",
     "sleeperId": "13413",
     "rosteredInLeague": false,
-    "rank": 9999999
+    "rank": 9999999,
+    "status": "Active"
   },
   {
     "id": "darius-cooper",
@@ -2337,7 +2558,8 @@
     "notes": "",
     "sleeperId": "13150",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "darnell-mooney",
@@ -2349,7 +2571,8 @@
     "notes": "",
     "sleeperId": "7090",
     "rosteredInLeague": false,
-    "rank": 194
+    "rank": 194,
+    "status": "Active"
   },
   {
     "id": "davante-adams",
@@ -2361,7 +2584,8 @@
     "notes": "",
     "sleeperId": "2133",
     "rosteredInLeague": false,
-    "rank": 46
+    "rank": 46,
+    "status": "Active"
   },
   {
     "id": "de-zhaun-stribling",
@@ -2373,7 +2597,8 @@
     "notes": "",
     "sleeperId": "13417",
     "rosteredInLeague": false,
-    "rank": 150
+    "rank": 150,
+    "status": "Active"
   },
   {
     "id": "deebo-samuel",
@@ -2385,7 +2610,8 @@
     "notes": "",
     "sleeperId": "5872",
     "rosteredInLeague": false,
-    "rank": 134
+    "rank": 134,
+    "status": "Active"
   },
   {
     "id": "denzel-boston",
@@ -2397,7 +2623,8 @@
     "notes": "",
     "sleeperId": "13346",
     "rosteredInLeague": false,
-    "rank": 144
+    "rank": 144,
+    "status": "Active"
   },
   {
     "id": "devonta-smith",
@@ -2409,7 +2636,9 @@
     "notes": "",
     "sleeperId": "7525",
     "rosteredInLeague": false,
-    "rank": 39
+    "rank": 39,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "dj-moore",
@@ -2421,7 +2650,8 @@
     "notes": "",
     "sleeperId": "4983",
     "rosteredInLeague": false,
-    "rank": 54
+    "rank": 54,
+    "status": "Active"
   },
   {
     "id": "dk-metcalf",
@@ -2433,7 +2663,8 @@
     "notes": "",
     "sleeperId": "5846",
     "rosteredInLeague": false,
-    "rank": 73
+    "rank": 73,
+    "status": "Active"
   },
   {
     "id": "drake-london",
@@ -2445,7 +2676,8 @@
     "notes": "",
     "sleeperId": "8112",
     "rosteredInLeague": false,
-    "rank": 14
+    "rank": 14,
+    "status": "Active"
   },
   {
     "id": "elic-ayomanor",
@@ -2457,7 +2689,8 @@
     "notes": "",
     "sleeperId": "12499",
     "rosteredInLeague": false,
-    "rank": 185
+    "rank": 185,
+    "status": "Active"
   },
   {
     "id": "emeka-egbuka",
@@ -2469,7 +2702,8 @@
     "notes": "",
     "sleeperId": "12514",
     "rosteredInLeague": false,
-    "rank": 43
+    "rank": 43,
+    "status": "Active"
   },
   {
     "id": "garrett-wilson",
@@ -2481,7 +2715,8 @@
     "notes": "",
     "sleeperId": "8146",
     "rosteredInLeague": false,
-    "rank": 38
+    "rank": 38,
+    "status": "Active"
   },
   {
     "id": "george-pickens",
@@ -2493,7 +2728,8 @@
     "notes": "",
     "sleeperId": "8137",
     "rosteredInLeague": false,
-    "rank": 23
+    "rank": 23,
+    "status": "Active"
   },
   {
     "id": "germie-bernard",
@@ -2505,7 +2741,8 @@
     "notes": "",
     "sleeperId": "13274",
     "rosteredInLeague": false,
-    "rank": 194
+    "rank": 194,
+    "status": "Active"
   },
   {
     "id": "henry-ruggs",
@@ -2517,7 +2754,8 @@
     "notes": "",
     "sleeperId": "6789",
     "rosteredInLeague": false,
-    "rank": 124
+    "rank": 124,
+    "status": "Active"
   },
   {
     "id": "isaac-teslaa",
@@ -2529,7 +2767,8 @@
     "notes": "",
     "sleeperId": "12535",
     "rosteredInLeague": false,
-    "rank": 184
+    "rank": 184,
+    "status": "Active"
   },
   {
     "id": "ja-kobi-lane",
@@ -2541,7 +2780,8 @@
     "notes": "",
     "sleeperId": "13293",
     "rosteredInLeague": false,
-    "rank": 151
+    "rank": 151,
+    "status": "Active"
   },
   {
     "id": "ja-lynn-polk",
@@ -2553,7 +2793,9 @@
     "notes": "",
     "sleeperId": "11619",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active",
+    "injuryStatus": "NA"
   },
   {
     "id": "ja-marr-chase",
@@ -2565,7 +2807,8 @@
     "notes": "",
     "sleeperId": "7564",
     "rosteredInLeague": false,
-    "rank": 3
+    "rank": 3,
+    "status": "Active"
   },
   {
     "id": "jakobi-meyers",
@@ -2577,7 +2820,8 @@
     "notes": "",
     "sleeperId": "5947",
     "rosteredInLeague": false,
-    "rank": 77
+    "rank": 77,
+    "status": "Active"
   },
   {
     "id": "jalen-coker",
@@ -2589,7 +2833,8 @@
     "notes": "",
     "sleeperId": "11646",
     "rosteredInLeague": false,
-    "rank": 132
+    "rank": 132,
+    "status": "Active"
   },
   {
     "id": "jalen-mcmillan",
@@ -2601,7 +2846,9 @@
     "notes": "",
     "sleeperId": "11618",
     "rosteredInLeague": false,
-    "rank": 162
+    "rank": 162,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "jalen-nailor",
@@ -2613,7 +2860,8 @@
     "notes": "",
     "sleeperId": "8180",
     "rosteredInLeague": false,
-    "rank": 167
+    "rank": 167,
+    "status": "Active"
   },
   {
     "id": "jameson-williams",
@@ -2625,7 +2873,8 @@
     "notes": "",
     "sleeperId": "8148",
     "rosteredInLeague": false,
-    "rank": 52
+    "rank": 52,
+    "status": "Active"
   },
   {
     "id": "jauan-jennings",
@@ -2637,7 +2886,8 @@
     "notes": "",
     "sleeperId": "7049",
     "rosteredInLeague": false,
-    "rank": 123
+    "rank": 123,
+    "status": "Active"
   },
   {
     "id": "jaxon-smith-njigba",
@@ -2649,7 +2899,8 @@
     "notes": "",
     "sleeperId": "9488",
     "rosteredInLeague": false,
-    "rank": 5
+    "rank": 5,
+    "status": "Active"
   },
   {
     "id": "jayden-higgins",
@@ -2661,7 +2912,8 @@
     "notes": "",
     "sleeperId": "12484",
     "rosteredInLeague": false,
-    "rank": 126
+    "rank": 126,
+    "status": "Active"
   },
   {
     "id": "jayden-reed",
@@ -2673,7 +2925,9 @@
     "notes": "",
     "sleeperId": "10222",
     "rosteredInLeague": false,
-    "rank": 111
+    "rank": 111,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "jaylen-waddle",
@@ -2685,7 +2939,9 @@
     "notes": "",
     "sleeperId": "7526",
     "rosteredInLeague": false,
-    "rank": 42
+    "rank": 42,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "jaylin-lane",
@@ -2697,7 +2953,8 @@
     "notes": "",
     "sleeperId": "12641",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "jaylin-noel",
@@ -2709,7 +2966,8 @@
     "notes": "",
     "sleeperId": "12536",
     "rosteredInLeague": false,
-    "rank": 190
+    "rank": 190,
+    "status": "Active"
   },
   {
     "id": "jerry-jeudy",
@@ -2721,7 +2979,8 @@
     "notes": "",
     "sleeperId": "6783",
     "rosteredInLeague": false,
-    "rank": 160
+    "rank": 160,
+    "status": "Active"
   },
   {
     "id": "jordan-addison",
@@ -2733,7 +2992,9 @@
     "notes": "",
     "sleeperId": "9756",
     "rosteredInLeague": false,
-    "rank": 98
+    "rank": 98,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "jordyn-tyson",
@@ -2745,7 +3006,8 @@
     "notes": "",
     "sleeperId": "13281",
     "rosteredInLeague": false,
-    "rank": 62
+    "rank": 62,
+    "status": "Active"
   },
   {
     "id": "josh-downs",
@@ -2757,7 +3019,9 @@
     "notes": "",
     "sleeperId": "9500",
     "rosteredInLeague": false,
-    "rank": 102
+    "rank": 102,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "justin-jefferson",
@@ -2769,7 +3033,8 @@
     "notes": "",
     "sleeperId": "6794",
     "rosteredInLeague": false,
-    "rank": 11
+    "rank": 11,
+    "status": "Active"
   },
   {
     "id": "kayshon-boutte",
@@ -2781,7 +3046,8 @@
     "notes": "",
     "sleeperId": "9504",
     "rosteredInLeague": false,
-    "rank": 164
+    "rank": 164,
+    "status": "Active"
   },
   {
     "id": "kc-concepcion",
@@ -2793,7 +3059,8 @@
     "notes": "",
     "sleeperId": "13298",
     "rosteredInLeague": false,
-    "rank": 116
+    "rank": 116,
+    "status": "Active"
   },
   {
     "id": "keenan-allen",
@@ -2805,7 +3072,8 @@
     "notes": "",
     "sleeperId": "1479",
     "rosteredInLeague": false,
-    "rank": 116
+    "rank": 116,
+    "status": "Active"
   },
   {
     "id": "khalil-shakir",
@@ -2817,7 +3085,8 @@
     "notes": "",
     "sleeperId": "8134",
     "rosteredInLeague": false,
-    "rank": 120
+    "rank": 120,
+    "status": "Active"
   },
   {
     "id": "kyle-williams",
@@ -2829,7 +3098,8 @@
     "notes": "",
     "sleeperId": "12547",
     "rosteredInLeague": false,
-    "rank": 195
+    "rank": 195,
+    "status": "Active"
   },
   {
     "id": "ladd-mcconkey",
@@ -2841,7 +3111,8 @@
     "notes": "",
     "sleeperId": "11635",
     "rosteredInLeague": false,
-    "rank": 41
+    "rank": 41,
+    "status": "Active"
   },
   {
     "id": "luther-burden",
@@ -2853,7 +3124,9 @@
     "notes": "",
     "sleeperId": "12519",
     "rosteredInLeague": false,
-    "rank": 40
+    "rank": 40,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "makai-lemon",
@@ -2865,7 +3138,9 @@
     "notes": "",
     "sleeperId": "13294",
     "rosteredInLeague": false,
-    "rank": 89
+    "rank": 89,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "malik-benson",
@@ -2877,7 +3152,8 @@
     "notes": "",
     "sleeperId": "13329",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "malik-nabers",
@@ -2889,7 +3165,9 @@
     "notes": "",
     "sleeperId": "11632",
     "rosteredInLeague": false,
-    "rank": 25
+    "rank": 25,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "malik-washington",
@@ -2901,7 +3179,8 @@
     "notes": "",
     "sleeperId": "11610",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "marvin-harrison",
@@ -2913,7 +3192,8 @@
     "notes": "",
     "sleeperId": "11628",
     "rosteredInLeague": false,
-    "rank": 76
+    "rank": 76,
+    "status": "Active"
   },
   {
     "id": "marvin-mims",
@@ -2925,7 +3205,9 @@
     "notes": "",
     "sleeperId": "9494",
     "rosteredInLeague": false,
-    "rank": 192
+    "rank": 192,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "matthew-golden",
@@ -2937,7 +3219,9 @@
     "notes": "",
     "sleeperId": "12501",
     "rosteredInLeague": false,
-    "rank": 132
+    "rank": 132,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "michael-pittman",
@@ -2949,7 +3233,9 @@
     "notes": "",
     "sleeperId": "6819",
     "rosteredInLeague": false,
-    "rank": 98
+    "rank": 98,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "michael-wilson",
@@ -2961,7 +3247,8 @@
     "notes": "",
     "sleeperId": "10232",
     "rosteredInLeague": false,
-    "rank": 75
+    "rank": 75,
+    "status": "Active"
   },
   {
     "id": "mike-evans",
@@ -2973,7 +3260,9 @@
     "notes": "",
     "sleeperId": "2216",
     "rosteredInLeague": false,
-    "rank": 57
+    "rank": 57,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "nico-collins",
@@ -2985,7 +3274,8 @@
     "notes": "",
     "sleeperId": "7569",
     "rosteredInLeague": false,
-    "rank": 19
+    "rank": 19,
+    "status": "Active"
   },
   {
     "id": "noah-brown",
@@ -2997,7 +3287,9 @@
     "notes": "",
     "sleeperId": "4234",
     "rosteredInLeague": false,
-    "rank": 150
+    "rank": 150,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "odell-beckham",
@@ -3009,7 +3301,8 @@
     "notes": "",
     "sleeperId": "2078",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "omar-cooper",
@@ -3021,7 +3314,8 @@
     "notes": "",
     "sleeperId": "13276",
     "rosteredInLeague": false,
-    "rank": 146
+    "rank": 146,
+    "status": "Active"
   },
   {
     "id": "parker-washington",
@@ -3033,7 +3327,8 @@
     "notes": "",
     "sleeperId": "9487",
     "rosteredInLeague": false,
-    "rank": 64
+    "rank": 64,
+    "status": "Active"
   },
   {
     "id": "pat-bryant",
@@ -3045,7 +3340,8 @@
     "notes": "",
     "sleeperId": "12492",
     "rosteredInLeague": false,
-    "rank": 172
+    "rank": 172,
+    "status": "Active"
   },
   {
     "id": "puka-nacua",
@@ -3057,7 +3353,8 @@
     "notes": "",
     "sleeperId": "9493",
     "rosteredInLeague": false,
-    "rank": 5
+    "rank": 5,
+    "status": "Active"
   },
   {
     "id": "quentin-johnston",
@@ -3069,7 +3366,8 @@
     "notes": "",
     "sleeperId": "9754",
     "rosteredInLeague": false,
-    "rank": 103
+    "rank": 103,
+    "status": "Active"
   },
   {
     "id": "rashee-rice",
@@ -3081,7 +3379,8 @@
     "notes": "",
     "sleeperId": "10229",
     "rosteredInLeague": false,
-    "rank": 23
+    "rank": 23,
+    "status": "Active"
   },
   {
     "id": "rashid-shaheed",
@@ -3093,7 +3392,8 @@
     "notes": "",
     "sleeperId": "8676",
     "rosteredInLeague": false,
-    "rank": 150
+    "rank": 150,
+    "status": "Active"
   },
   {
     "id": "roman-wilson",
@@ -3105,7 +3405,8 @@
     "notes": "",
     "sleeperId": "11630",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "rome-odunze",
@@ -3117,7 +3418,8 @@
     "notes": "",
     "sleeperId": "11620",
     "rosteredInLeague": false,
-    "rank": 63
+    "rank": 63,
+    "status": "Active"
   },
   {
     "id": "romeo-doubs",
@@ -3129,7 +3431,8 @@
     "notes": "",
     "sleeperId": "8121",
     "rosteredInLeague": false,
-    "rank": 113
+    "rank": 113,
+    "status": "Active"
   },
   {
     "id": "ryan-flournoy",
@@ -3141,7 +3444,8 @@
     "notes": "",
     "sleeperId": "11783",
     "rosteredInLeague": false,
-    "rank": 199
+    "rank": 199,
+    "status": "Active"
   },
   {
     "id": "stefon-diggs",
@@ -3153,7 +3457,8 @@
     "notes": "",
     "sleeperId": "2449",
     "rosteredInLeague": false,
-    "rank": 116
+    "rank": 116,
+    "status": "Active"
   },
   {
     "id": "tank-dell",
@@ -3165,7 +3470,9 @@
     "notes": "",
     "sleeperId": "9502",
     "rosteredInLeague": false,
-    "rank": 187
+    "rank": 187,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "ted-hurst",
@@ -3177,7 +3484,8 @@
     "notes": "",
     "sleeperId": "13317",
     "rosteredInLeague": false,
-    "rank": 196
+    "rank": 196,
+    "status": "Active"
   },
   {
     "id": "tee-higgins",
@@ -3189,7 +3497,8 @@
     "notes": "",
     "sleeperId": "6801",
     "rosteredInLeague": false,
-    "rank": 36
+    "rank": 36,
+    "status": "Active"
   },
   {
     "id": "terry-mclaurin",
@@ -3201,7 +3510,8 @@
     "notes": "",
     "sleeperId": "5927",
     "rosteredInLeague": false,
-    "rank": 45
+    "rank": 45,
+    "status": "Active"
   },
   {
     "id": "tetairoa-mcmillan",
@@ -3213,7 +3523,8 @@
     "notes": "",
     "sleeperId": "12526",
     "rosteredInLeague": false,
-    "rank": 37
+    "rank": 37,
+    "status": "Active"
   },
   {
     "id": "tory-horton",
@@ -3225,7 +3536,8 @@
     "notes": "",
     "sleeperId": "12497",
     "rosteredInLeague": false,
-    "rank": 199
+    "rank": 199,
+    "status": "Active"
   },
   {
     "id": "travis-hunter",
@@ -3237,7 +3549,8 @@
     "notes": "",
     "sleeperId": "12530",
     "rosteredInLeague": false,
-    "rank": 145
+    "rank": 145,
+    "status": "Active"
   },
   {
     "id": "tre-tucker",
@@ -3249,7 +3562,8 @@
     "notes": "",
     "sleeperId": "10213",
     "rosteredInLeague": false,
-    "rank": 188
+    "rank": 188,
+    "status": "Active"
   },
   {
     "id": "tre-harris",
@@ -3261,7 +3575,8 @@
     "notes": "",
     "sleeperId": "12509",
     "rosteredInLeague": false,
-    "rank": 179
+    "rank": 179,
+    "status": "Active"
   },
   {
     "id": "treylon-burks",
@@ -3273,7 +3588,8 @@
     "notes": "",
     "sleeperId": "8135",
     "rosteredInLeague": false,
-    "rank": 999
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "troy-franklin",
@@ -3285,7 +3601,8 @@
     "notes": "",
     "sleeperId": "11627",
     "rosteredInLeague": false,
-    "rank": 171
+    "rank": 171,
+    "status": "Active"
   },
   {
     "id": "tyler-lockett",
@@ -3297,7 +3614,8 @@
     "notes": "",
     "sleeperId": "2374",
     "rosteredInLeague": false,
-    "rank": 131
+    "rank": 131,
+    "status": "Active"
   },
   {
     "id": "tyreek-hill",
@@ -3309,7 +3627,9 @@
     "notes": "",
     "sleeperId": "3321",
     "rosteredInLeague": false,
-    "rank": 145
+    "rank": 145,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "tyrell-williams",
@@ -3321,7 +3641,8 @@
     "notes": "",
     "sleeperId": "2583",
     "rosteredInLeague": false,
-    "rank": 198
+    "rank": 198,
+    "status": "Active"
   },
   {
     "id": "wan-dale-robinson",
@@ -3333,7 +3654,8 @@
     "notes": "",
     "sleeperId": "8126",
     "rosteredInLeague": false,
-    "rank": 102
+    "rank": 102,
+    "status": "Active"
   },
   {
     "id": "william-fuller",
@@ -3345,7 +3667,8 @@
     "notes": "",
     "sleeperId": "3157",
     "rosteredInLeague": false,
-    "rank": 119
+    "rank": 119,
+    "status": "Active"
   },
   {
     "id": "xavier-worthy",
@@ -3357,7 +3680,9 @@
     "notes": "",
     "sleeperId": "11624",
     "rosteredInLeague": false,
-    "rank": 120
+    "rank": 120,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "zachariah-branch",
@@ -3369,7 +3694,8 @@
     "notes": "",
     "sleeperId": "13320",
     "rosteredInLeague": false,
-    "rank": 180
+    "rank": 180,
+    "status": "Active"
   },
   {
     "id": "zavion-thomas",
@@ -3381,7 +3707,9 @@
     "notes": "",
     "sleeperId": "13411",
     "rosteredInLeague": false,
-    "rank": 9999999
+    "rank": 9999999,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "zay-flowers",
@@ -3393,6 +3721,8 @@
     "notes": "",
     "sleeperId": "9997",
     "rosteredInLeague": false,
-    "rank": 44
+    "rank": 44,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   }
 ]
