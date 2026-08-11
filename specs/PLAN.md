@@ -222,6 +222,19 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
       `data/players.json` has QBs in the dozens and the share of `data/news.json`
       items matching a known player is well above 16/147)
 
+## Phase 14 — Position picks page
+
+- [x] `src/lib/picks/board.ts` — per-position lists ordered by popularity from
+      two real sources kept separate: format-aware FantasyPros ECR from
+      `data/market.json` (draft board) and Sleeper 24h add counts from
+      `data/trending.json` (waiver wire). Unranked rows are dropped, never
+      given an invented rank. (check: `tests/picks-board.test.ts`)
+- [x] Mark availability per row — `drafted` from `data/draft.json` picks,
+      `rostered` from `players[].rosteredInLeague`. (check: same file)
+- [x] `/picks` page + `PicksApp` island — one list per position, a board/
+      trending switch, a hide-taken toggle and a name filter that apply to
+      every position at once. (check: `tests/picks-app.test.tsx`)
+
 ---
 
 <!--

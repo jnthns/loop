@@ -374,3 +374,31 @@ Remove the comment markers only when the build is truly finished.)
   ESPN) are unverified — no host is reachable from CI's sandbox — and are kept
   in one table in `src/lib/market/dynastyprocess.ts` for a single-point fix.
   The page serializes all seven plans (1.1 MB, 136 KB gzipped).
+
+### Pass 14 — `/picks`, position boards from real popularity data
+
+- **Shipped:** a `/picks` page comprised of one list per position (QB/RB/WR/TE),
+  each ordered by popularity, for the two moments that need it — a target going
+  off the board mid-draft, and waiver-wire Tuesday in season.
+- **Two popularity measures, deliberately not merged:**
+  - *Draft board* — FantasyPros Expert Consensus Rank via `data/market.json`,
+    read from the superflex sheet because this league is superflex. Switching
+    the format flag flips the QB order, which is asserted rather than assumed.
+  - *Waiver trending* — Sleeper add counts over the last 24h from
+    `data/trending.json`, the raw behavior of every Sleeper manager.
+- **Availability is real, not inferred:** `drafted` comes from
+  `data/draft.json` picks (id, falling back to name+pos, which is all the draft
+  feed gives for an unknown player), `rostered` from `rosteredInLeague`, written
+  by the Sleeper sync off actual league rosters. A row with no market match
+  renders `null`, never a guessed rank.
+- **Verified against the real board, not only the tests** (`npx tsx` probe over
+  the committed data): QB board opens Allen → Lamar → Mahomes; WR opens Chase →
+  JSN → Jefferson; TE opens Bowers → McBride; trending WR is led by Barion Brown
+  at 48,411 adds. All match the source files.
+- **Evidence:** `scripts/check.sh` → typecheck 0 errors, vitest **620/620**
+  across 36 files, build 27 pages (`/picks/index.html` among them),
+  `check.sh passed.`
+- **Known limit:** Sleeper's trending endpoint returns ~25 players total, so the
+  QB and TE trending lists are 2 rows deep in the offseason. That is the source's
+  depth, not a bug; the lists fill out in season.
+

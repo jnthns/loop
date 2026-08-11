@@ -1,40 +1,37 @@
 # Handoff
 
-## Last run — Phase 13, `/builds`
+## Last run — Phase 14, `/picks`
 
-Shipped a new `/builds` page: seven startup archetypes scored against this
-league's format and draft slot, plus targets for all 30 owned picks, every
-claim carrying its arithmetic and every reference hyperlinked. Eight commits,
-`da1ca97`..`2e18f2e`, all pushed to `main`. `scripts/check.sh` green.
+Shipped a `/picks` page: one list per position, ordered by popularity, from two
+real sources kept separate — FantasyPros ECR (`data/market.json`) for the draft
+board, Sleeper 24h add counts (`data/trending.json`) for the waiver wire. Rows
+are flagged `drafted` (from `data/draft.json`) or `rostered` (from
+`players[].rosteredInLeague`) so the next available name is one glance away.
+`scripts/check.sh` green: 620 tests, 27 pages.
 
 New surface area:
-- `scripts/sync-market.ts` → `data/market.json` (`npm run sync:market`), wired
-  into `refresh.yml` with `continue-on-error`, like the Sleeper step.
-- `src/lib/market/` — CSV parser, DynastyProcess typed rows, the id join.
-- `src/lib/builds/` — archetypes, `scoreArchetypes()`, `planPicks()`.
-- `src/content/builds/*.md` — cited archetype prose, schema-enforced.
-- `src/pages/builds.astro` + `src/components/builds/`.
+- `src/lib/picks/board.ts` — `buildPositionBoards()`, format-aware (superflex
+  reads the 2QB sheet), joins trending ↔ market ↔ players by id then name+pos.
+- `src/components/PicksApp.tsx` — board/trending switch, hide-taken toggle, name
+  filter; all three apply to every position at once.
+- `src/pages/picks.astro`, nav entry, `'/picks': 'pink'` in `ROUTE_TONES`.
+- `tests/picks-board.test.ts`, `tests/picks-app.test.tsx`.
 
 ## What the next run should know
 
-**Verify model output against the real board, not just the tests.** Three
-scoring bugs shipped green test suites in this phase — the tests asserted what
-the code did, not what a fantasy roster needs. A `npx tsx` scratch script
-against `data/market.json` caught all three. Do that before trusting a number.
-
-**Never fabricate a citation URL.** Egress policy blocks every host except
-`raw.githubusercontent.com`, so a wrong URL cannot be caught by fetching it.
-Cite from `data/news.json` (real, CI-harvested) or the stable index pages
-already used in `src/content/knowledge/`.
+The rule from Phase 13 held again: run an `npx tsx` probe over the committed
+data before trusting an ordering. The board was checked that way (Allen/Chase/
+Bowers at the top of their positions) — the tests alone would not have caught a
+wrong sheet being read.
 
 ## Open items — candidates for BACKLOG, not yet scheduled
 
-- Per-player deep links are unverified path shapes. Spot-check them in a real
-  browser and correct the single table in `src/lib/market/dynastyprocess.ts`.
-- `values-picks.csv` carries no value column, so `MarketPickRow.valueSf` is
-  always null; rookie-pick values are ECR-only. Either drop the field or find
-  a source that has one.
-- `/builds` ships 1.1 MB (136 KB gzipped) because all seven plans are
-  serialized. Only the selected plan needs to be eager.
-- Once the draft starts on 2026-08-14, `draft.picks` fills in; the sheet should
-  consume real picks instead of the simulated room.
+- Sleeper's trending endpoint returns ~25 players league-wide, so QB and TE
+  trending lists are 2 rows deep in August. Consider a per-position trending
+  fetch if the in-season lists still read thin.
+- `/picks` currently shows the top 40 per position; there is no "show more".
+- Carried over: unverified per-player deep-link path shapes in
+  `src/lib/market/dynastyprocess.ts`; `MarketPickRow.valueSf` always null;
+  `/builds` serializes all seven plans.
+- Once the draft starts on 2026-08-14, `draft.picks` fills in — the `drafted`
+  flag on `/picks` goes live then and should be spot-checked against the room.
