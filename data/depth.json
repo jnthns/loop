@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-12T07:50:36.076Z",
-  "snapshotAt": "2026-08-11T08:08:52Z",
+  "capturedAt": "2026-08-12T13:44:40.152Z",
+  "snapshotAt": "2026-08-12T08:11:43Z",
   "season": "2026",
   "entries": [
     {
@@ -312,7 +312,7 @@
       "name": "Zavion Thomas",
       "pos": "WR",
       "nflTeam": "CHI",
-      "depthRank": 4,
+      "depthRank": 5,
       "sleeperId": "13411"
     },
     {
@@ -1160,7 +1160,7 @@
       "name": "Caleb Douglas",
       "pos": "WR",
       "nflTeam": "MIA",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "13296"
     },
     {
