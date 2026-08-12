@@ -1,18 +1,5 @@
 [
   {
-    "id": "jake-bates",
-    "name": "Jake Bates",
-    "pos": "K",
-    "nflTeam": "DET",
-    "age": 27,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "11539",
-    "rosteredInLeague": false,
-    "rank": 173,
-    "status": "Active"
-  },
-  {
     "id": "baker-mayfield",
     "name": "Baker Mayfield",
     "pos": "QB",
@@ -802,7 +789,7 @@
     "name": "Devin Neal",
     "pos": "RB",
     "nflTeam": "NO",
-    "age": 22,
+    "age": 23,
     "tier": "starter",
     "notes": "",
     "sleeperId": "12476",
@@ -1168,20 +1155,6 @@
     "rosteredInLeague": false,
     "rank": 999,
     "status": "Active"
-  },
-  {
-    "id": "kaelon-black",
-    "name": "Kaelon Black",
-    "pos": "RB",
-    "nflTeam": "SF",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13414",
-    "rosteredInLeague": false,
-    "rank": 999,
-    "status": "Active",
-    "injuryStatus": "Questionable"
   },
   {
     "id": "kaleb-johnson",
@@ -1852,6 +1825,32 @@
     "status": "Active"
   },
   {
+    "id": "erick-all",
+    "name": "Erick All",
+    "pos": "TE",
+    "nflTeam": "CIN",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11592",
+    "rosteredInLeague": false,
+    "rank": 999,
+    "status": "Active"
+  },
+  {
+    "id": "evan-engram",
+    "name": "Evan Engram",
+    "pos": "TE",
+    "nflTeam": "DEN",
+    "age": 31,
+    "tier": "depth",
+    "notes": "",
+    "sleeperId": "4066",
+    "rosteredInLeague": false,
+    "rank": 999,
+    "status": "Active"
+  },
+  {
     "id": "george-kittle",
     "name": "George Kittle",
     "pos": "TE",
@@ -2085,19 +2084,6 @@
     "sleeperId": "5844",
     "rosteredInLeague": false,
     "rank": 128,
-    "status": "Active"
-  },
-  {
-    "id": "taysom-hill",
-    "name": "Taysom Hill",
-    "pos": "TE",
-    "nflTeam": "FA",
-    "age": 35,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "4381",
-    "rosteredInLeague": false,
-    "rank": 321,
     "status": "Active"
   },
   {
@@ -2627,6 +2613,19 @@
     "status": "Active"
   },
   {
+    "id": "devaughn-vele",
+    "name": "Devaughn Vele",
+    "pos": "WR",
+    "nflTeam": "NO",
+    "age": 28,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "11834",
+    "rosteredInLeague": false,
+    "rank": 209,
+    "status": "Active"
+  },
+  {
     "id": "devonta-smith",
     "name": "DeVonta Smith",
     "pos": "WR",
@@ -2664,6 +2663,20 @@
     "sleeperId": "5846",
     "rosteredInLeague": false,
     "rank": 73,
+    "status": "Active",
+    "injuryStatus": "Questionable"
+  },
+  {
+    "id": "dontayvion-wicks",
+    "name": "Dontayvion Wicks",
+    "pos": "WR",
+    "nflTeam": "PHI",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "9486",
+    "rosteredInLeague": false,
+    "rank": 999,
     "status": "Active"
   },
   {
@@ -2926,8 +2939,7 @@
     "sleeperId": "10222",
     "rosteredInLeague": false,
     "rank": 111,
-    "status": "Active",
-    "injuryStatus": "Questionable"
+    "status": "Active"
   },
   {
     "id": "jaylen-waddle",
@@ -3001,7 +3013,7 @@
     "name": "Jordyn Tyson",
     "pos": "WR",
     "nflTeam": "NO",
-    "age": 21,
+    "age": 22,
     "tier": "starter",
     "notes": "",
     "sleeperId": "13281",
@@ -3014,7 +3026,7 @@
     "name": "Josh Downs",
     "pos": "WR",
     "nflTeam": "IND",
-    "age": 24,
+    "age": 25,
     "tier": "starter",
     "notes": "",
     "sleeperId": "9500",
@@ -3220,8 +3232,7 @@
     "sleeperId": "12501",
     "rosteredInLeague": false,
     "rank": 132,
-    "status": "Active",
-    "injuryStatus": "Questionable"
+    "status": "Active"
   },
   {
     "id": "michael-pittman",
@@ -3354,7 +3365,8 @@
     "sleeperId": "9493",
     "rosteredInLeague": false,
     "rank": 5,
-    "status": "Active"
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "quentin-johnston",

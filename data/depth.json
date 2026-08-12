@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-12T02:42:36.403Z",
+  "capturedAt": "2026-08-12T07:50:36.076Z",
   "snapshotAt": "2026-08-11T08:08:52Z",
   "season": "2026",
   "entries": [
@@ -332,6 +332,14 @@
       "sleeperId": "9224"
     },
     {
+      "id": "erick-all",
+      "name": "Erick All",
+      "pos": "TE",
+      "nflTeam": "CIN",
+      "depthRank": 3,
+      "sleeperId": "11592"
+    },
+    {
       "id": "ja-marr-chase",
       "name": "Ja'Marr Chase",
       "pos": "WR",
@@ -506,6 +514,14 @@
       "nflTeam": "DEN",
       "depthRank": 3,
       "sleeperId": "13345"
+    },
+    {
+      "id": "evan-engram",
+      "name": "Evan Engram",
+      "pos": "TE",
+      "nflTeam": "DEN",
+      "depthRank": 1,
+      "sleeperId": "4066"
     },
     {
       "id": "courtland-sutton",
@@ -1364,6 +1380,14 @@
       "sleeperId": "13281"
     },
     {
+      "id": "devaughn-vele",
+      "name": "Devaughn Vele",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "depthRank": 3,
+      "sleeperId": "11834"
+    },
+    {
       "id": "barion-brown",
       "name": "Barion Brown",
       "pos": "WR",
@@ -1564,6 +1588,14 @@
       "sleeperId": "7525"
     },
     {
+      "id": "dontayvion-wicks",
+      "name": "Dontayvion Wicks",
+      "pos": "WR",
+      "nflTeam": "PHI",
+      "depthRank": 2,
+      "sleeperId": "9486"
+    },
+    {
       "id": "makai-lemon",
       "name": "Makai Lemon",
       "pos": "WR",
@@ -1714,14 +1746,6 @@
       "nflTeam": "SF",
       "depthRank": 1,
       "sleeperId": "4034"
-    },
-    {
-      "id": "kaelon-black",
-      "name": "Kaelon Black",
-      "pos": "RB",
-      "nflTeam": "SF",
-      "depthRank": 3,
-      "sleeperId": "13414"
     },
     {
       "id": "khalil-herbert",
