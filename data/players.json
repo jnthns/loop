@@ -1275,6 +1275,20 @@
     "status": "Active"
   },
   {
+    "id": "kye-robichaux",
+    "name": "Kye Robichaux",
+    "pos": "RB",
+    "nflTeam": "DET",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "12954",
+    "rosteredInLeague": false,
+    "rank": 9999999,
+    "status": "Active",
+    "injuryStatus": "Questionable"
+  },
+  {
     "id": "kyle-monangai",
     "name": "Kyle Monangai",
     "pos": "RB",
@@ -1694,6 +1708,19 @@
     "status": "Active"
   },
   {
+    "id": "charlie-kolar",
+    "name": "Charlie Kolar",
+    "pos": "TE",
+    "nflTeam": "LAC",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8127",
+    "rosteredInLeague": false,
+    "rank": 999,
+    "status": "Active"
+  },
+  {
     "id": "chig-okonkwo",
     "name": "Chig Okonkwo",
     "pos": "TE",
@@ -1775,15 +1802,14 @@
     "id": "darren-waller",
     "name": "Darren Waller",
     "pos": "TE",
-    "nflTeam": "FA",
+    "nflTeam": "CAR",
     "age": 33,
     "tier": "depth",
     "notes": "",
     "sleeperId": "2505",
     "rosteredInLeague": false,
-    "rank": 249,
-    "status": "Active",
-    "injuryStatus": "Questionable"
+    "rank": 999,
+    "status": "Active"
   },
   {
     "id": "david-njoku",
@@ -1833,19 +1859,6 @@
     "tier": "starter",
     "notes": "",
     "sleeperId": "11592",
-    "rosteredInLeague": false,
-    "rank": 999,
-    "status": "Active"
-  },
-  {
-    "id": "evan-engram",
-    "name": "Evan Engram",
-    "pos": "TE",
-    "nflTeam": "DEN",
-    "age": 31,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "4066",
     "rosteredInLeague": false,
     "rank": 999,
     "status": "Active"
@@ -2019,19 +2032,6 @@
     "sleeperId": "12498",
     "rosteredInLeague": false,
     "rank": 138,
-    "status": "Active"
-  },
-  {
-    "id": "matt-hibner",
-    "name": "Matt Hibner",
-    "pos": "TE",
-    "nflTeam": "BAL",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13324",
-    "rosteredInLeague": false,
-    "rank": 999,
     "status": "Active"
   },
   {
@@ -2496,19 +2496,6 @@
     "status": "Active"
   },
   {
-    "id": "colbie-young",
-    "name": "Colbie Young",
-    "pos": "WR",
-    "nflTeam": "CIN",
-    "age": 24,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "13477",
-    "rosteredInLeague": false,
-    "rank": 9999999,
-    "status": "Active"
-  },
-  {
     "id": "courtland-sutton",
     "name": "Courtland Sutton",
     "pos": "WR",
@@ -2613,19 +2600,6 @@
     "status": "Active"
   },
   {
-    "id": "devaughn-vele",
-    "name": "Devaughn Vele",
-    "pos": "WR",
-    "nflTeam": "NO",
-    "age": 28,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "11834",
-    "rosteredInLeague": false,
-    "rank": 209,
-    "status": "Active"
-  },
-  {
     "id": "devonta-smith",
     "name": "DeVonta Smith",
     "pos": "WR",
@@ -2667,19 +2641,6 @@
     "injuryStatus": "Questionable"
   },
   {
-    "id": "dontayvion-wicks",
-    "name": "Dontayvion Wicks",
-    "pos": "WR",
-    "nflTeam": "PHI",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "9486",
-    "rosteredInLeague": false,
-    "rank": 999,
-    "status": "Active"
-  },
-  {
     "id": "drake-london",
     "name": "Drake London",
     "pos": "WR",
@@ -2716,7 +2677,8 @@
     "sleeperId": "12514",
     "rosteredInLeague": false,
     "rank": 43,
-    "status": "Active"
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "garrett-wilson",
@@ -2781,6 +2743,19 @@
     "sleeperId": "12535",
     "rosteredInLeague": false,
     "rank": 184,
+    "status": "Active"
+  },
+  {
+    "id": "isaiah-williams",
+    "name": "Isaiah Williams",
+    "pos": "WR",
+    "nflTeam": "NYJ",
+    "age": 25,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11608",
+    "rosteredInLeague": false,
+    "rank": 999,
     "status": "Active"
   },
   {
@@ -2874,6 +2849,19 @@
     "sleeperId": "8180",
     "rosteredInLeague": false,
     "rank": 167,
+    "status": "Active"
+  },
+  {
+    "id": "jalen-tolbert",
+    "name": "Jalen Tolbert",
+    "pos": "WR",
+    "nflTeam": "MIA",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8117",
+    "rosteredInLeague": false,
+    "rank": 999,
     "status": "Active"
   },
   {
@@ -2979,6 +2967,19 @@
     "sleeperId": "12536",
     "rosteredInLeague": false,
     "rank": 190,
+    "status": "Active"
+  },
+  {
+    "id": "jeff-caldwell",
+    "name": "Jeff Caldwell",
+    "pos": "WR",
+    "nflTeam": "KC",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13392",
+    "rosteredInLeague": false,
+    "rank": 999,
     "status": "Active"
   },
   {
@@ -3182,19 +3183,6 @@
     "injuryStatus": "Questionable"
   },
   {
-    "id": "malik-washington",
-    "name": "Malik Washington",
-    "pos": "WR",
-    "nflTeam": "MIA",
-    "age": 25,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "11610",
-    "rosteredInLeague": false,
-    "rank": 999,
-    "status": "Active"
-  },
-  {
     "id": "marvin-harrison",
     "name": "Marvin Harrison",
     "pos": "WR",
@@ -3301,19 +3289,6 @@
     "rank": 150,
     "status": "Active",
     "injuryStatus": "Questionable"
-  },
-  {
-    "id": "odell-beckham",
-    "name": "Odell Beckham",
-    "pos": "WR",
-    "nflTeam": "NYG",
-    "age": 33,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "2078",
-    "rosteredInLeague": false,
-    "rank": 999,
-    "status": "Active"
   },
   {
     "id": "omar-cooper",
