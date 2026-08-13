@@ -1,5 +1,159 @@
 [
   {
+    "id": "19b0r1315jak4n",
+    "title": "Ricky Pearsall has \"no regrets\" after surgery, expects nine-month recovery",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ricky-pearsall-has-no-regrets-after-surgery-expects-nine-month-recovery",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-13T13:23:05.000Z",
+    "summary": "49ers wide receiver Ricky Pearsall is out of surgery and focused on a nine-month recovery from a torn PCL.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "r3b17w1bxl370",
+    "title": "NFL preseason rookie watch list: Cowboys LB, Denzel Boston headline top 10 to monitor",
+    "url": "https://www.cbssports.com/nfl/news/nfl-preseason-rookie-watch-list-2026",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-13T13:02:21.000Z",
+    "summary": "Beyond the first-round draft picks, these under-the-radar rookies are already turning heads in training camp",
+    "tags": [
+      "league-news",
+      "rookie",
+      "DAL"
+    ],
+    "players": [
+      "denzel-boston"
+    ],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "1c5p8c512emnft",
+    "title": "Detroit Lions updated depth chart: Preseason Game 1 at Bengals",
+    "url": "https://sports.yahoo.com/articles/detroit-lions-updated-depth-chart-130000923.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-13T13:00:00.000Z",
+    "summary": "An updated look at the 2026 Detroit Lions’ depth chart heading into Preseason Game 1 against the Bengals.",
+    "tags": [
+      "league-news",
+      "usage",
+      "CIN",
+      "DET"
+    ],
+    "players": [],
+    "teams": [
+      "CIN",
+      "DET"
+    ]
+  },
+  {
+    "id": "kudlr2c75buc",
+    "title": "NFL analyst Damien Woody joins list of ESPN on-air talent cuts",
+    "url": "https://sports.yahoo.com/articles/nfl-analyst-damien-woody-joins-121312145.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-13T12:13:12.000Z",
+    "summary": "Former Pro Bowl offensive lineman Damien Woody, who won two Super Bowls with the New England Patriots, will not have his contract renewed at ESPN.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "afvi4j13mndq1",
+    "title": "What signing Hassan Haskins, JaMycal Hasty means for the Patriots",
+    "url": "https://sports.yahoo.com/articles/signing-hassan-haskins-jamycal-hasty-121100601.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-13T12:11:00.000Z",
+    "summary": "The Patriots made some changes at running back on Wednesday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1l5s4mb1h680e1",
+    "title": "John Harbaugh: We're looking toward ramping Malik Nabers up next week",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-were-looking-toward-ramping-malik-nabers-up-next-week",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-13T11:39:07.000Z",
+    "summary": "Giants wide receiver Malik Nabers is nearing the next step in his return from last season's torn ACL.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "494iw06h0bkg",
+    "title": "John Harbaugh: We're looking toward ramping Malik Nabers up next week",
+    "url": "https://sports.yahoo.com/articles/john-harbaugh-were-looking-toward-113907398.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-13T11:39:07.000Z",
+    "summary": "Giants wide receiver Malik Nabers is nearing the next step in his return from last season's torn ACL.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1gnapax1gilnf1",
+    "title": "Tampa Bay Buccaneers news: Emeka Egbuka injury update sparks concern",
+    "url": "https://sports.yahoo.com/articles/tampa-bay-buccaneers-news-emeka-110000356.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-13T11:00:00.000Z",
+    "summary": "Tampa Bay Buccaneers wide receiver Emeka Egbuka is likely going to need some time away after his latest injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "TB"
+    ],
+    "players": [
+      "emeka-egbuka"
+    ],
+    "teams": [
+      "TB"
+    ]
+  },
+  {
     "id": "vnywg8cihs5q",
     "title": "Beat coverage reports that Boston has earned first-team X-receiver work after producing consistently throughout camp, while the latest depth-chart view lists him third among Cleveland wide receivers and notes that the team has not settled on its preferred three-receiver grouping.",
     "url": "https://www.reddit.com/r/DynastyFF/comments/1vmzul2/beat_coverage_reports_that_boston_has_earned",
@@ -7324,155 +7478,6 @@
     "teams": [
       "ARI",
       "CAR"
-    ]
-  },
-  {
-    "id": "192clz41baikrk",
-    "title": "Texans sign RB Owen Wright",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-sign-rb-owen-wright",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-08T21:08:36.000Z",
-    "summary": "The Texans brought a new player into their backfield mix on Saturday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "pk3xbnynrwcf",
-    "title": "Texans sign RB Owen Wright",
-    "url": "https://sports.yahoo.com/articles/texans-sign-rb-owen-wright-210836611.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-08T21:08:36.000Z",
-    "summary": "The Texans brought a new player into their backfield mix on Saturday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "16t0g9o1uhl4gw",
-    "title": "Seahawks sign RB Justin Jones",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-rb-justin-jones",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-08T20:59:50.000Z",
-    "summary": "The Seahawks announced a pair of roster moves on Saturday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "17bva7vp2nlsv",
-    "title": "Seahawks sign RB Justin Jones",
-    "url": "https://sports.yahoo.com/articles/seahawks-sign-rb-justin-jones-205950124.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-08T20:59:50.000Z",
-    "summary": "The Seahawks announced a pair of roster moves on Saturday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1lsquk6ccq1cs",
-    "title": "Cardinals put S Joey Blount, TE Kenny Yeboah on injured reserve",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-put-s-joey-blount-te-kenny-yeboah-on-injured-reserve",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-08T20:52:20.000Z",
-    "summary": "The Cardinals placed a couple of players on injured reserve on Saturday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "128cdz716qay9",
-    "title": "Browns change plans Saturday, give Deshaun Watson unexpected first-team reps",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-change-plans-saturday-give-deshaun-watson-unexpected-first-team-reps",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-08T20:42:27.000Z",
-    "summary": "The Browns have been rotating quarterbacks Deshaun Watson and Shedeur Sanders with the first team from day to day at training camp, so any deviation from that schedule is sure to grab attention.",
-    "tags": [
-      "league-news",
-      "usage",
-      "CLE"
-    ],
-    "players": [
-      "deshaun-watson"
-    ],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "1e8e3d517duh5d",
-    "title": "Romello Height details emotions of first 49ers practice rep vs. Trent Williams",
-    "url": "https://sports.yahoo.com/articles/romello-height-details-emotions-first-203113087.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-08T20:31:13.000Z",
-    "summary": "San Francisco rookie edge rusher Romello Height shared his reaction to lining up against 49ers star Trent Williams for the first time in practice.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "p29wzon285ci",
-    "title": "Zay Flowers leaves practice in Ravens injury scare days after signing $140 million contract",
-    "url": "https://sports.yahoo.com/articles/zay-flowers-leaves-practice-ravens-200508518.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-08T20:05:08.000Z",
-    "summary": "Zay Flowers limped off the field during 7-on-7 drills after reportedly colliding with safety Jaylinn Hawkins while running over the middle.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "BAL"
-    ],
-    "players": [
-      "zay-flowers"
-    ],
-    "teams": [
-      "BAL"
     ]
   }
 ]

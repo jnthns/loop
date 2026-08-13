@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-13T07:51:36.195Z",
-  "snapshotAt": "2026-08-12T08:11:43Z",
+  "capturedAt": "2026-08-13T13:45:38.420Z",
+  "snapshotAt": "2026-08-13T08:15:32Z",
   "season": "2026",
   "entries": [
     {
@@ -160,7 +160,7 @@
       "name": "Ja'Kobi Lane",
       "pos": "WR",
       "nflTeam": "BAL",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "13293"
     },
     {
@@ -242,6 +242,14 @@
       "nflTeam": "CAR",
       "depthRank": 2,
       "sleeperId": "11583"
+    },
+    {
+      "id": "darren-waller",
+      "name": "Darren Waller",
+      "pos": "TE",
+      "nflTeam": "CAR",
+      "depthRank": 1,
+      "sleeperId": "2505"
     },
     {
       "id": "tetairoa-mcmillan",
@@ -440,7 +448,7 @@
       "name": "Malik Davis",
       "pos": "RB",
       "nflTeam": "DAL",
-      "depthRank": 3,
+      "depthRank": 4,
       "sleeperId": "8800"
     },
     {
@@ -532,20 +540,20 @@
       "sleeperId": "11627"
     },
     {
-      "id": "pat-bryant",
-      "name": "Pat Bryant",
-      "pos": "WR",
-      "nflTeam": "DEN",
-      "depthRank": 4,
-      "sleeperId": "12492"
-    },
-    {
       "id": "marvin-mims",
       "name": "Marvin Mims",
       "pos": "WR",
       "nflTeam": "DEN",
-      "depthRank": 5,
+      "depthRank": 4,
       "sleeperId": "9494"
+    },
+    {
+      "id": "pat-bryant",
+      "name": "Pat Bryant",
+      "pos": "WR",
+      "nflTeam": "DEN",
+      "depthRank": 5,
+      "sleeperId": "12492"
     },
     {
       "id": "jared-goff",
@@ -752,7 +760,7 @@
       "name": "Seth McGowan",
       "pos": "RB",
       "nflTeam": "IND",
-      "depthRank": 2,
+      "depthRank": 3,
       "sleeperId": "13424"
     },
     {
@@ -864,7 +872,7 @@
       "name": "Emmett Johnson",
       "pos": "RB",
       "nflTeam": "KC",
-      "depthRank": 2,
+      "depthRank": 3,
       "sleeperId": "13337"
     },
     {
@@ -1792,7 +1800,7 @@
       "name": "Brandon Aiyuk",
       "pos": "WR",
       "nflTeam": "SF",
-      "depthRank": 14,
+      "depthRank": 13,
       "sleeperId": "6803"
     },
     {
