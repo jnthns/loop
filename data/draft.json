@@ -126,6 +126,28 @@
       "pos": "WR",
       "nflTeam": "DET",
       "mine": false
+    },
+    {
+      "pick": 9,
+      "round": 1,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "brock-bowers",
+      "playerName": "Brock Bowers",
+      "pos": "TE",
+      "nflTeam": "LV",
+      "mine": false
+    },
+    {
+      "pick": 10,
+      "round": 1,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": "puka-nacua",
+      "playerName": "Puka Nacua",
+      "pos": "WR",
+      "nflTeam": "LAR",
+      "mine": false
     }
   ]
 }
