@@ -38,5 +38,61 @@
     340,
     357
   ],
-  "picks": []
+  "picks": [
+    {
+      "pick": 1,
+      "round": 1,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "josh-allen",
+      "playerName": "Josh Allen",
+      "pos": "QB",
+      "nflTeam": "BUF",
+      "mine": false
+    },
+    {
+      "pick": 2,
+      "round": 1,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "jahmyr-gibbs",
+      "playerName": "Jahmyr Gibbs",
+      "pos": "RB",
+      "nflTeam": "DET",
+      "mine": false
+    },
+    {
+      "pick": 3,
+      "round": 1,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "bijan-robinson",
+      "playerName": "Bijan Robinson",
+      "pos": "RB",
+      "nflTeam": "ATL",
+      "mine": false
+    },
+    {
+      "pick": 4,
+      "round": 1,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "drake-maye",
+      "playerName": "Drake Maye",
+      "pos": "QB",
+      "nflTeam": "NE",
+      "mine": true
+    },
+    {
+      "pick": 5,
+      "round": 1,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "ja-marr-chase",
+      "playerName": "Ja'Marr Chase",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "mine": false
+    }
+  ]
 }
