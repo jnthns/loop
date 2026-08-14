@@ -93,6 +93,39 @@
       "pos": "WR",
       "nflTeam": "CIN",
       "mine": false
+    },
+    {
+      "pick": 6,
+      "round": 1,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "christian-mccaffrey",
+      "playerName": "Christian McCaffrey",
+      "pos": "RB",
+      "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 7,
+      "round": 1,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "jaxon-smith-njigba",
+      "playerName": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "nflTeam": "SEA",
+      "mine": false
+    },
+    {
+      "pick": 8,
+      "round": 1,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "amon-ra-st-brown",
+      "playerName": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "nflTeam": "DET",
+      "mine": false
     }
   ]
 }
