@@ -1,8 +1,16 @@
 {
-  "capturedAt": "2026-08-14T07:49:24.919Z",
-  "snapshotAt": "2026-08-13T08:15:32Z",
+  "capturedAt": "2026-08-14T13:40:38.482Z",
+  "snapshotAt": "2026-08-14T08:10:38Z",
   "season": "2026",
   "entries": [
+    {
+      "id": "jacoby-brissett",
+      "name": "Jacoby Brissett",
+      "pos": "QB",
+      "nflTeam": "ARI",
+      "depthRank": 1,
+      "sleeperId": "3257"
+    },
     {
       "id": "jeremiyah-love",
       "name": "Jeremiyah Love",
@@ -66,14 +74,6 @@
       "nflTeam": "ATL",
       "depthRank": 1,
       "sleeperId": "6768"
-    },
-    {
-      "id": "michael-penix",
-      "name": "Michael Penix",
-      "pos": "QB",
-      "nflTeam": "ATL",
-      "depthRank": 2,
-      "sleeperId": "11559"
     },
     {
       "id": "bijan-robinson",
@@ -248,7 +248,7 @@
       "name": "Darren Waller",
       "pos": "TE",
       "nflTeam": "CAR",
-      "depthRank": 1,
+      "depthRank": 2,
       "sleeperId": "2505"
     },
     {
@@ -362,6 +362,14 @@
       "nflTeam": "CIN",
       "depthRank": 2,
       "sleeperId": "6801"
+    },
+    {
+      "id": "colbie-young",
+      "name": "Colbie Young",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "depthRank": 4,
+      "sleeperId": "13477"
     },
     {
       "id": "deshaun-watson",
@@ -516,6 +524,14 @@
       "sleeperId": "13345"
     },
     {
+      "id": "evan-engram",
+      "name": "Evan Engram",
+      "pos": "TE",
+      "nflTeam": "DEN",
+      "depthRank": 1,
+      "sleeperId": "4066"
+    },
+    {
       "id": "courtland-sutton",
       "name": "Courtland Sutton",
       "pos": "WR",
@@ -578,14 +594,6 @@
       "nflTeam": "DET",
       "depthRank": 2,
       "sleeperId": "8205"
-    },
-    {
-      "id": "kye-robichaux",
-      "name": "Kye Robichaux",
-      "pos": "RB",
-      "nflTeam": "DET",
-      "depthRank": 7,
-      "sleeperId": "12954"
     },
     {
       "id": "sam-laporta",
@@ -706,6 +714,14 @@
       "nflTeam": "HOU",
       "depthRank": 1,
       "sleeperId": "5001"
+    },
+    {
+      "id": "marlin-klein",
+      "name": "Marlin Klein",
+      "pos": "TE",
+      "nflTeam": "HOU",
+      "depthRank": 5,
+      "sleeperId": "13307"
     },
     {
       "id": "nico-collins",
@@ -914,14 +930,6 @@
       "nflTeam": "KC",
       "depthRank": 5,
       "sleeperId": "13413"
-    },
-    {
-      "id": "jeff-caldwell",
-      "name": "Jeff Caldwell",
-      "pos": "WR",
-      "nflTeam": "KC",
-      "depthRank": 10,
-      "sleeperId": "13392"
     },
     {
       "id": "matthew-stafford",
@@ -1164,14 +1172,6 @@
       "sleeperId": "11643"
     },
     {
-      "id": "jalen-tolbert",
-      "name": "Jalen Tolbert",
-      "pos": "WR",
-      "nflTeam": "MIA",
-      "depthRank": 2,
-      "sleeperId": "8117"
-    },
-    {
       "id": "caleb-douglas",
       "name": "Caleb Douglas",
       "pos": "WR",
@@ -1186,14 +1186,6 @@
       "nflTeam": "MIN",
       "depthRank": 1,
       "sleeperId": "5849"
-    },
-    {
-      "id": "j-j-mccarthy",
-      "name": "J.J. McCarthy",
-      "pos": "QB",
-      "nflTeam": "MIN",
-      "depthRank": 2,
-      "sleeperId": "11565"
     },
     {
       "id": "aaron-jones",
@@ -1476,6 +1468,14 @@
       "sleeperId": "7090"
     },
     {
+      "id": "geno-smith",
+      "name": "Geno Smith",
+      "pos": "QB",
+      "nflTeam": "NYJ",
+      "depthRank": 1,
+      "sleeperId": "1373"
+    },
+    {
       "id": "breece-hall",
       "name": "Breece Hall",
       "pos": "RB",
@@ -1540,14 +1540,6 @@
       "sleeperId": "13276"
     },
     {
-      "id": "isaiah-williams",
-      "name": "Isaiah Williams",
-      "pos": "WR",
-      "nflTeam": "NYJ",
-      "depthRank": 4,
-      "sleeperId": "11608"
-    },
-    {
       "id": "jalen-hurts",
       "name": "Jalen Hurts",
       "pos": "QB",
@@ -1596,6 +1588,14 @@
       "sleeperId": "7525"
     },
     {
+      "id": "dontayvion-wicks",
+      "name": "Dontayvion Wicks",
+      "pos": "WR",
+      "nflTeam": "PHI",
+      "depthRank": 2,
+      "sleeperId": "9486"
+    },
+    {
       "id": "makai-lemon",
       "name": "Makai Lemon",
       "pos": "WR",
@@ -1610,6 +1610,14 @@
       "nflTeam": "PHI",
       "depthRank": 7,
       "sleeperId": "13150"
+    },
+    {
+      "id": "drew-allar",
+      "name": "Drew Allar",
+      "pos": "QB",
+      "nflTeam": "PIT",
+      "depthRank": 4,
+      "sleeperId": "13289"
     },
     {
       "id": "jaylen-warren",

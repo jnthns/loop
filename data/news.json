@@ -1,5 +1,266 @@
 [
   {
+    "id": "19i58891ic3mgj",
+    "title": "Mike LaFleur: Jeremiyah Love OK after ankle injury, could have returned",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-jeremiyah-love-ok-after-ankle-injury-could-have-returned",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-14T13:29:16.000Z",
+    "summary": "Cardinals running back Jeremiyah Love had a busy preseason debut with 14 touches in the first half of Thursday’s matchup with the Raiders.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ARI",
+      "LV"
+    ],
+    "players": [
+      "jeremiyah-love"
+    ],
+    "teams": [
+      "ARI",
+      "LV"
+    ]
+  },
+  {
+    "id": "1oqpyr29uydso",
+    "title": "Texans QB Graham Mertz believed to have a torn ACL",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-qb-graham-mertz-believed-to-have-a-torn-acl",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-14T13:22:30.000Z",
+    "summary": "Texans quarterback Graham Mertz left Thursday night's game with a knee injury and it looks like it is a season-ending one for the second-year player.",
+    "tags": [
+      "league-news",
+      "injury",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "26aq79mqxv61",
+    "title": "Texans QB Graham Mertz believed to have a torn ACL",
+    "url": "https://sports.yahoo.com/articles/texans-qb-graham-mertz-believed-132230193.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-14T13:22:30.000Z",
+    "summary": "Texans quarterback Graham Mertz left Thursday night's game with a knee injury and it looks like it is a season-ending one for the second-year player.",
+    "tags": [
+      "league-news",
+      "injury",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "15ezjak1cx30va",
+    "title": "One takeaway from each NFL team&#039;s first depth chart: Browns show rookies love; starting over for Deebo Samuel",
+    "url": "https://www.cbssports.com/nfl/news/one-takeaway-from-each-nfl-teams-first-depth-chart",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-14T13:04:41.000Z",
+    "summary": "The first unofficial depth charts of the preseason are here, revealing surprising rookie placements and intense position battles across the league",
+    "tags": [
+      "league-news",
+      "rookie",
+      "usage",
+      "CLE"
+    ],
+    "players": [
+      "deebo-samuel"
+    ],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "lt5utmtfny3w",
+    "title": "Bills re-sign safety ahead of preseason opener vs. Panthers",
+    "url": "https://sports.yahoo.com/articles/bills-sign-safety-ahead-preseason-130342608.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-14T13:03:42.000Z",
+    "summary": "This 2025 UDFA is back with the team after being released earlier this summer",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "BUF",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "BUF",
+      "CAR"
+    ]
+  },
+  {
+    "id": "1r02y0ct2nojs",
+    "title": "Pre-Snap Reads: Seahawks sign Terrion Arnold",
+    "url": "https://sports.yahoo.com/articles/pre-snap-reads-seahawks-sign-130000740.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-14T13:00:00.000Z",
+    "summary": "Let’s talk about it.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1827hci1vfonfq",
+    "title": "Don't miss \"The Trade\" with Andscape's Kelley L. Carter",
+    "url": "https://www.espn.com/video/clip/_/id/49608832/miss-trade-andscape-kelley-l-carter",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-14T12:43:46.000Z",
+    "summary": "Don't miss \"The Trade\" with Andscape's Kelley L. Carter",
+    "tags": [
+      "league-news",
+      "trade"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1gkkiju1fmkkfk",
+    "title": "Robert Saleh: Cam Ward looked a little sped up on Thursday night",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-cam-ward-looked-a-little-sped-up-on-thursday-night",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-14T11:53:39.000Z",
+    "summary": "Titans quarterback Cam Ward's first drive of the preseason covered 95 yards and ended with a Tony Pollard touchdown run, but the night wasn't a total success for the second-year starter.",
+    "tags": [
+      "league-news",
+      "usage",
+      "TEN"
+    ],
+    "players": [
+      "cam-ward",
+      "tony-pollard"
+    ],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "1rjlkyqe1qu8",
+    "title": "Ranking the Titans’ 5 projected cornerbacks from best to worst",
+    "url": "https://sports.yahoo.com/articles/ranking-titans-5-projected-cornerbacks-110000260.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-14T11:00:00.000Z",
+    "summary": "The Tennessee Titans totally revamped the cornerback room this offseason. They signed three unrestricted free agents to notable contracts. After trading Roger McCreary and Jarvis Brownlee last season, they cut L’Jarius Sneed earlier this summer. With a new-look cornerback room, we’ve ranked the Titans’ projected five cornerbacks from best to worst. Alontae Taylor The Titans […]",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "1l1p8861v5xfoq",
+    "title": "Cowboys news: Jerry Jones talks Parsons trade, current defense",
+    "url": "https://sports.yahoo.com/articles/cowboys-news-jerry-jones-talks-110000662.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-14T11:00:00.000Z",
+    "summary": "Here is today’s Dallas Cowboys news.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "13j2l8e15zvw2",
+    "title": "Cardinals lose second-round rookie guard Chase Bisontis to knee injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-lose-second-round-rookie-guard-chase-bisontis-to-knee-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-14T10:18:44.000Z",
+    "summary": "The Cardinals appear to have lost their second-round draft pick for a significant period of time with a preseason knee injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "ARI"
+    ],
+    "players": [],
+    "teams": [
+      "ARI"
+    ]
+  },
+  {
+    "id": "sx46tt1edcd79",
+    "title": "When will Sleeper’s ADP update?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vo3btb/when_will_sleepers_adp_update",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-14T10:17:34.000Z",
+    "summary": "I’ve seen posts on here saying that Sleeper automatically updates the ADP for the dynasty rookies every 2 to 4 weeks, but I’m still looking at Chris Brazzell in the mid second round despite the season ending injury and De’Zhaun Stribling a few picks later. I honestly don’t think it’s updated since I started looking back in early July. Should updating ADPs only occur once or twice during the presea",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "txz0e4tqgn7m",
+    "title": "Colts special teams coach Brian Mason injured knee in sideline collision on final play",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-special-teams-coach-brian-mason-injured-knee-in-sideline-collision-on-final-play",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-14T08:41:47.000Z",
+    "summary": "Colts special teams coordinator Brian Mason was injured at the end of Thursday night's preseason game.",
+    "tags": [
+      "league-news",
+      "injury",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "13p00rend79s6",
+    "title": "49ers QB Kurtis Rourke taken to hospital for tests after struggling to breathe",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-qb-kurtis-rourke-taken-to-hospital-for-tests-after-struggling-to-breathe",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-14T07:52:47.000Z",
+    "summary": "Kyle Shanahan said Rourke appeared to be OK after suffering a rib injury, but the medical staff wanted to rule out anything serious.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "1mcghabnib8qt",
     "title": "49ers injury updates: Kurtis Rourke went to the hospital; Nate Hobbs pulled his groin",
     "url": "https://sports.yahoo.com/articles/49ers-injury-updates-kurtis-rourke-044414191.html",
@@ -1421,7 +1682,8 @@
     "players": [
       "joe-burrow",
       "ja-marr-chase",
-      "fernando-mendoza"
+      "fernando-mendoza",
+      "drew-allar"
     ],
     "teams": [
       "LV",
@@ -7256,267 +7518,6 @@
     "players": [
       "luther-burden"
     ],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "rd0x3t1lq5skv",
-    "title": "Luther Burden expected to miss about a month, hope is he will be ready for week 1",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vkalk1/luther_burden_expected_to_miss_about_a_month_hope",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-10T04:13:09.000Z",
-    "summary": "&#32; submitted by &#32; /u/lotofhotdogs [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "availability"
-    ],
-    "players": [
-      "luther-burden"
-    ],
-    "teams": []
-  },
-  {
-    "id": "pp2keg12diu9i",
-    "title": "The Giants are signing another defensive back",
-    "url": "https://sports.yahoo.com/articles/giants-might-verge-adding-another-233241503.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-10T00:15:06.000Z",
-    "summary": "J.T. Woods tried out last week, and visited the Giants on Sunday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1a65zh31mwb8jv",
-    "title": "Report: Giants agree to terms with S JT Woods",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-agree-to-terms-with-s-jt-woods",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-10T00:06:50.000Z",
-    "summary": "The Giants are signing safety JT Woods, Aaron Wilson of KPRC reports.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "v7q9rs15ff844",
-    "title": "Report: Giants agree to terms with S JT Woods",
-    "url": "https://sports.yahoo.com/articles/report-giants-agree-terms-jt-000650724.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-10T00:06:50.000Z",
-    "summary": "The Giants are signing safety JT Woods, Aaron Wilson of KPRC reports.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1ktafp8wyf4iy",
-    "title": "Steelers release recently-signed receiver",
-    "url": "https://sports.yahoo.com/articles/steelers-release-recently-signed-receiver-000308164.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-10T00:03:08.000Z",
-    "summary": "The Steelers release a wide receiver",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "y7hnv61sz8yrg",
-    "title": "Kyle Shanahan denies having contentious relationship with Deebo Samuel during contract negotiations",
-    "url": "https://sports.yahoo.com/articles/kyle-shanahan-denies-having-contentious-233649146.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-09T23:36:49.000Z",
-    "summary": "49ers coach Kyle Shanahan dismissed past noise about his relationship with wide receiver Deebo Samuel.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SF"
-    ],
-    "players": [
-      "deebo-samuel"
-    ],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "og5cjp1p76f8h",
-    "title": "Packers sign WR Kisean Johnson",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-sign-wr-kisean-johnson",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-09T23:31:00.000Z",
-    "summary": "The Packers announced three roster on Sunday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "1hez83618rpld0",
-    "title": "Packers sign WR Kisean Johnson",
-    "url": "https://sports.yahoo.com/articles/packers-sign-wr-kisean-johnson-233100614.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-09T23:31:00.000Z",
-    "summary": "The Packers announced three roster on Sunday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "1g1je1hmilq7z",
-    "title": "Bears Camp Report: New starting safety, another injury, Ruben Hyppolite shines, and more!",
-    "url": "https://sports.yahoo.com/articles/bears-camp-report-starting-safety-225024243.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-09T22:50:24.000Z",
-    "summary": "Check out a recap of Sunday’s Chicago Bears training camp practice from @wiltfongjr.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "c3ahp712xd32l",
-    "title": "Lions swiftly sign veteran quarterback after Teddy Bridgewater’s stunning exit",
-    "url": "https://sports.yahoo.com/articles/lions-swiftly-sign-veteran-quarterback-222903262.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-09T22:29:03.000Z",
-    "summary": "The Lions have moved quickly to address their suddenly thin quarterback room, signing veteran Josh Dobbs after Teddy Bridgewater unexpectedly decided to step away from football.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET"
-    ],
-    "players": [
-      "teddy-bridgewater"
-    ],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "11xc90i10yikv6",
-    "title": "Alec Pierce injury update as Colts WR continues to remain sidelined",
-    "url": "https://sports.yahoo.com/articles/alec-pierce-injury-colts-wr-213802193.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-09T21:38:02.000Z",
-    "summary": "When will Alec Pierce return? That's a question the Indianapolis Colts are struggling to answer as the WR deals with an ankle injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "alec-pierce"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1qpjzhn1lfkq3d",
-    "title": "NFL training camp injuries tracker: Latest updates on Chuba Hubbard, Christian McCaffrey, Alec Pierce and more",
-    "url": "https://www.cbssports.com/nfl/news/nfl-training-camp-injuries-tracker",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-09T21:30:46.000Z",
-    "summary": "Keep track of every major injury, setback, and recovery timeline across the league as teams prepare for the upcoming season",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "luther-burden",
-      "zay-flowers",
-      "christian-mccaffrey",
-      "alec-pierce",
-      "chuba-hubbard"
-    ],
-    "teams": []
-  },
-  {
-    "id": "gpwb471b5iekb",
-    "title": "Detroit Lions training camp injury updates: Good news on D.J. Reed",
-    "url": "https://sports.yahoo.com/articles/detroit-lions-training-camp-injury-211728203.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-09T21:17:28.000Z",
-    "summary": "A full injury update post from Detroit Lions training camp, including good news for D.J. Reed and Derrick Moore.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "s2vv0l9y1evp",
-    "title": "Bears sign DB Beanie Bishop",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-sign-db-beanie-bishop",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-09T20:44:09.000Z",
-    "summary": "The Bears continue to be busy adding defensive backs to their roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
     "teams": [
       "CHI"
     ]
