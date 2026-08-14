@@ -1,5 +1,77 @@
 [
   {
+    "id": "34rhg41u2kkn4",
+    "title": "James Pearce suspended 8 games by NFL after offseason domestic-violence arrest",
+    "url": "https://sports.yahoo.com/nfl/breaking-news/article/james-pearce-suspended-8-games-by-nfl-after-offseason-domestic-violence-arrest-190525852.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-14T19:05:25.000Z",
+    "summary": "James Pearce entered an intervention program in April.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "r7r6on1wuwfqd",
+    "title": "Colts STC Brian Mason suffered multiple torn ligaments in knee from sideline collision",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-stc-brian-mason-suffered-multiple-torn-ligaments-in-knee-from-sideline-collision",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-14T18:59:13.000Z",
+    "summary": "There is an update on Colts special teams coordinator Brian Mason, who was injured in a sideline collision at the end of Indianapolis’ preseason matchup with New England.",
+    "tags": [
+      "league-news",
+      "injury",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "guvr0f5uvxnh",
+    "title": "Colts STC Brian Mason suffered multiple torn ligaments in knee from sideline collision",
+    "url": "https://sports.yahoo.com/articles/colts-stc-brian-mason-suffered-185913697.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-14T18:59:13.000Z",
+    "summary": "There is an update on Colts special teams coordinator Brian Mason, who was injured in a sideline collision at the end of Indianapolis’ preseason matchup with New England.",
+    "tags": [
+      "league-news",
+      "injury",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "1c73wxkjqnm9g",
+    "title": "Saints rookie WR Tyson to miss time due to hamstring injury",
+    "url": "https://www.espn.com/nfl/story/_/id/49611207/saints-rookie-wr-tyson-miss-hamstring-injury",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-14T18:42:19.000Z",
+    "summary": "Saints rookie wide receiver Jordyn Tyson has a right hamstring issue and will miss time, according to Saints coach Kellen Moore.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "NO"
+    ],
+    "players": [
+      "jordyn-tyson"
+    ],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
     "id": "kgkuj63j93dy",
     "title": "Klint Kubiak considering giving Fernando Mendoza more first-team reps",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-considering-giving-fernando-mendoza-more-first-team-reps",
@@ -7416,83 +7488,6 @@
     "players": [],
     "teams": [
       "DET"
-    ]
-  },
-  {
-    "id": "3ng3kh1s9ndfp",
-    "title": "Eagles put RB Elijah Mitchell on IR, sign three players",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-put-rb-elijah-mitchell-on-ir-sign-three-players",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-10T14:19:25.000Z",
-    "summary": "Running back Elijah Mitchell won't be making the cut for the Eagles at the end of the month.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "roster-move",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "8jjt911ioiohz",
-    "title": "Lions RB Isiah Pacheco sprained his MCL, but HC Dan Campbell believes his running back should be ready for the regular-season opener.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vkm410/lions_rb_isiah_pacheco_sprained_his_mcl_but_hc",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-10T14:16:52.000Z",
-    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "DET"
-    ],
-    "players": [
-      "isiah-pacheco"
-    ],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "1ty2t1y4ywzve",
-    "title": "Colts list both Riley Leonard and Anthony Richardson as No. 2 QB",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-list-both-riley-leonard-and-anthony-richardson-as-no-2-qb",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-10T14:12:35.000Z",
-    "summary": "The Colts' first depth chart of the 2026 preseason doesn't provide any hint to how the team's backup quarterback competition will play out.",
-    "tags": [
-      "league-news",
-      "usage",
-      "IND"
-    ],
-    "players": [],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1vu8ospyadcxp",
-    "title": "Texans sign WR Juwann Winfree, put LB Sione Takitaki on IR",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-sign-wr-juwann-winfree-put-lb-sione-takitaki-on-ir",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-10T13:54:51.000Z",
-    "summary": "The Texans kicked off the week by adding a wide receiver.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
     ]
   }
 ]

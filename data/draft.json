@@ -148,6 +148,17 @@
       "pos": "WR",
       "nflTeam": "LAR",
       "mine": false
+    },
+    {
+      "pick": 11,
+      "round": 1,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "jayden-daniels",
+      "playerName": "Jayden Daniels",
+      "pos": "QB",
+      "nflTeam": "WAS",
+      "mine": false
     }
   ]
 }
