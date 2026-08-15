@@ -159,6 +159,39 @@
       "pos": "QB",
       "nflTeam": "WAS",
       "mine": false
+    },
+    {
+      "pick": 12,
+      "round": 1,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "jonathan-taylor",
+      "playerName": "Jonathan Taylor",
+      "pos": "RB",
+      "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 13,
+      "round": 2,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "james-cook",
+      "playerName": "James Cook",
+      "pos": "RB",
+      "nflTeam": "BUF",
+      "mine": false
+    },
+    {
+      "pick": 14,
+      "round": 2,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "lamar-jackson",
+      "playerName": "Lamar Jackson",
+      "pos": "QB",
+      "nflTeam": "BAL",
+      "mine": false
     }
   ]
 }
