@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -191,6 +191,39 @@
       "playerName": "Lamar Jackson",
       "pos": "QB",
       "nflTeam": "BAL",
+      "mine": false
+    },
+    {
+      "pick": 15,
+      "round": 2,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": "ashton-jeanty",
+      "playerName": "Ashton Jeanty",
+      "pos": "RB",
+      "nflTeam": "LV",
+      "mine": false
+    },
+    {
+      "pick": 16,
+      "round": 2,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "caleb-williams",
+      "playerName": "Caleb Williams",
+      "pos": "QB",
+      "nflTeam": "CHI",
+      "mine": false
+    },
+    {
+      "pick": 17,
+      "round": 2,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "joe-burrow",
+      "playerName": "Joe Burrow",
+      "pos": "QB",
+      "nflTeam": "CIN",
       "mine": false
     }
   ]
