@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -224,6 +224,61 @@
       "playerName": "Joe Burrow",
       "pos": "QB",
       "nflTeam": "CIN",
+      "mine": false
+    },
+    {
+      "pick": 18,
+      "round": 2,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "justin-jefferson",
+      "playerName": "Justin Jefferson",
+      "pos": "WR",
+      "nflTeam": "MIN",
+      "mine": false
+    },
+    {
+      "pick": 19,
+      "round": 2,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "ceedee-lamb",
+      "playerName": "CeeDee Lamb",
+      "pos": "WR",
+      "nflTeam": "DAL",
+      "mine": false
+    },
+    {
+      "pick": 20,
+      "round": 2,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "trey-mcbride",
+      "playerName": "Trey McBride",
+      "pos": "TE",
+      "nflTeam": "ARI",
+      "mine": false
+    },
+    {
+      "pick": 21,
+      "round": 2,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "justin-herbert",
+      "playerName": "Justin Herbert",
+      "pos": "QB",
+      "nflTeam": "LAC",
+      "mine": true
+    },
+    {
+      "pick": 22,
+      "round": 2,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "dak-prescott",
+      "playerName": "Dak Prescott",
+      "pos": "QB",
+      "nflTeam": "DAL",
       "mine": false
     }
   ]

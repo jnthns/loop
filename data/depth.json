@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-15T12:58:05.774Z",
+  "capturedAt": "2026-08-15T18:46:38.879Z",
   "snapshotAt": "2026-08-15T07:25:20Z",
   "season": "2026",
   "entries": [
@@ -340,14 +340,6 @@
       "sleeperId": "9224"
     },
     {
-      "id": "erick-all",
-      "name": "Erick All",
-      "pos": "TE",
-      "nflTeam": "CIN",
-      "depthRank": 3,
-      "sleeperId": "11592"
-    },
-    {
       "id": "ja-marr-chase",
       "name": "Ja'Marr Chase",
       "pos": "WR",
@@ -362,6 +354,14 @@
       "nflTeam": "CIN",
       "depthRank": 2,
       "sleeperId": "6801"
+    },
+    {
+      "id": "andrei-iosivas",
+      "name": "Andrei Iosivas",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "depthRank": 3,
+      "sleeperId": "10226"
     },
     {
       "id": "colbie-young",
@@ -522,14 +522,6 @@
       "nflTeam": "DEN",
       "depthRank": 3,
       "sleeperId": "13345"
-    },
-    {
-      "id": "evan-engram",
-      "name": "Evan Engram",
-      "pos": "TE",
-      "nflTeam": "DEN",
-      "depthRank": 1,
-      "sleeperId": "4066"
     },
     {
       "id": "courtland-sutton",
@@ -1172,6 +1164,14 @@
       "sleeperId": "11643"
     },
     {
+      "id": "malik-washington",
+      "name": "Malik Washington",
+      "pos": "WR",
+      "nflTeam": "MIA",
+      "depthRank": 1,
+      "sleeperId": "11610"
+    },
+    {
       "id": "caleb-douglas",
       "name": "Caleb Douglas",
       "pos": "WR",
@@ -1274,14 +1274,6 @@
       "nflTeam": "NE",
       "depthRank": 1,
       "sleeperId": "3214"
-    },
-    {
-      "id": "eli-raridon",
-      "name": "Eli Raridon",
-      "pos": "TE",
-      "nflTeam": "NE",
-      "depthRank": 2,
-      "sleeperId": "13421"
     },
     {
       "id": "a-j-brown",
@@ -1388,6 +1380,22 @@
       "sleeperId": "13281"
     },
     {
+      "id": "devaughn-vele",
+      "name": "Devaughn Vele",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "depthRank": 3,
+      "sleeperId": "11834"
+    },
+    {
+      "id": "bryce-lance",
+      "name": "Bryce Lance",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "depthRank": 4,
+      "sleeperId": "13420"
+    },
+    {
       "id": "barion-brown",
       "name": "Barion Brown",
       "pos": "WR",
@@ -1474,6 +1482,14 @@
       "nflTeam": "NYJ",
       "depthRank": 1,
       "sleeperId": "1373"
+    },
+    {
+      "id": "cade-klubnik",
+      "name": "Cade Klubnik",
+      "pos": "QB",
+      "nflTeam": "NYJ",
+      "depthRank": 2,
+      "sleeperId": "13303"
     },
     {
       "id": "breece-hall",
@@ -1588,28 +1604,12 @@
       "sleeperId": "7525"
     },
     {
-      "id": "dontayvion-wicks",
-      "name": "Dontayvion Wicks",
-      "pos": "WR",
-      "nflTeam": "PHI",
-      "depthRank": 2,
-      "sleeperId": "9486"
-    },
-    {
       "id": "makai-lemon",
       "name": "Makai Lemon",
       "pos": "WR",
       "nflTeam": "PHI",
       "depthRank": 3,
       "sleeperId": "13294"
-    },
-    {
-      "id": "darius-cooper",
-      "name": "Darius Cooper",
-      "pos": "WR",
-      "nflTeam": "PHI",
-      "depthRank": 7,
-      "sleeperId": "13150"
     },
     {
       "id": "drew-allar",
@@ -1996,6 +1996,14 @@
       "sleeperId": "13405"
     },
     {
+      "id": "robert-henry",
+      "name": "Robert Henry",
+      "pos": "RB",
+      "nflTeam": "WAS",
+      "depthRank": 6,
+      "sleeperId": "13418"
+    },
+    {
       "id": "chig-okonkwo",
       "name": "Chig Okonkwo",
       "pos": "TE",
@@ -2026,14 +2034,6 @@
       "nflTeam": "WAS",
       "depthRank": 4,
       "sleeperId": "13301"
-    },
-    {
-      "id": "treylon-burks",
-      "name": "Treylon Burks",
-      "pos": "WR",
-      "nflTeam": "WAS",
-      "depthRank": 5,
-      "sleeperId": "8135"
     },
     {
       "id": "jaylin-lane",
