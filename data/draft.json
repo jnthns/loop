@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -367,6 +367,50 @@
       "playerName": "Chase Brown",
       "pos": "RB",
       "nflTeam": "CIN",
+      "mine": false
+    },
+    {
+      "pick": 31,
+      "round": 3,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "nico-collins",
+      "playerName": "Nico Collins",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "mine": false
+    },
+    {
+      "pick": 32,
+      "round": 3,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "trevor-lawrence",
+      "playerName": "Trevor Lawrence",
+      "pos": "QB",
+      "nflTeam": "JAX",
+      "mine": false
+    },
+    {
+      "pick": 33,
+      "round": 3,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "saquon-barkley",
+      "playerName": "Saquon Barkley",
+      "pos": "RB",
+      "nflTeam": "PHI",
+      "mine": true
+    },
+    {
+      "pick": 34,
+      "round": 3,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "brock-purdy",
+      "playerName": "Brock Purdy",
+      "pos": "QB",
+      "nflTeam": "SF",
       "mine": false
     }
   ]
