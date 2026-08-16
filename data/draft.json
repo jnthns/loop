@@ -280,6 +280,17 @@
       "pos": "QB",
       "nflTeam": "DAL",
       "mine": false
+    },
+    {
+      "pick": 23,
+      "round": 2,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "malik-nabers",
+      "playerName": "Malik Nabers",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "mine": false
     }
   ]
 }
