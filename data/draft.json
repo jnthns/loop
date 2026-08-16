@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -345,6 +345,28 @@
       "playerName": "Drake London",
       "pos": "WR",
       "nflTeam": "ATL",
+      "mine": false
+    },
+    {
+      "pick": 29,
+      "round": 3,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "de-von-achane",
+      "playerName": "De'Von Achane",
+      "pos": "RB",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 30,
+      "round": 3,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "chase-brown",
+      "playerName": "Chase Brown",
+      "pos": "RB",
+      "nflTeam": "CIN",
       "mine": false
     }
   ]

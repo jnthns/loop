@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-16T06:57:35.059Z",
-  "snapshotAt": "2026-08-15T07:25:20Z",
+  "capturedAt": "2026-08-16T12:59:18.415Z",
+  "snapshotAt": "2026-08-16T07:26:28Z",
   "season": "2026",
   "entries": [
     {
@@ -1012,20 +1012,20 @@
       "sleeperId": "12507"
     },
     {
-      "id": "kimani-vidal",
-      "name": "Kimani Vidal",
-      "pos": "RB",
-      "nflTeam": "LAC",
-      "depthRank": 2,
-      "sleeperId": "11647"
-    },
-    {
       "id": "keaton-mitchell",
       "name": "Keaton Mitchell",
       "pos": "RB",
       "nflTeam": "LAC",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "9511"
+    },
+    {
+      "id": "kimani-vidal",
+      "name": "Kimani Vidal",
+      "pos": "RB",
+      "nflTeam": "LAC",
+      "depthRank": 3,
+      "sleeperId": "11647"
     },
     {
       "id": "oronde-gadsden",
