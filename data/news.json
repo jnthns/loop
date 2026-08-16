@@ -1,5 +1,83 @@
 [
   {
+    "id": "3liqzi1isrb92",
+    "title": "Winners and Losers from Seahawks vs. Cowboys: Yeesh, that o-line",
+    "url": "https://sports.yahoo.com/articles/winners-losers-seahawks-vs-cowboys-045631358.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-16T04:56:31.000Z",
+    "summary": "The good news is that Seahawks first-team football is back on Sept. 9!",
+    "tags": [
+      "league-news",
+      "usage",
+      "DAL",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "SEA"
+    ]
+  },
+  {
+    "id": "idb5rl1smp3wv",
+    "title": "Brown stands out for Cowboys with 2 TD catches in 17-7 win over Seahawks",
+    "url": "https://www.espn.com/nfl/recap?gameId=401873279",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-16T04:48:29.000Z",
+    "summary": "— Rookie Camden Brown had two touchdown catches, including a diving, one-handed snag, to help lead the Dallas Cowboys past the Super Bowl champion Seattle Seahawks 17-7 on Saturday night in the preseason opener for both team.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "DAL",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "SEA"
+    ]
+  },
+  {
+    "id": "phkxuu7tcpu0",
+    "title": "Green Bay Packers cut former Virginia Tech starting quarterback",
+    "url": "https://sports.yahoo.com/articles/green-bay-packers-cut-former-035734121.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-16T03:57:34.000Z",
+    "summary": "The Packers move on from former Hokies QB Kyron Drones.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "18ypkpu1v9riu8",
+    "title": "Giants position battles: Who impressed most in preseason opener?",
+    "url": "https://sports.yahoo.com/articles/giants-position-battles-impressed-most-031130208.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-16T03:11:30.000Z",
+    "summary": "Saturday's preseason opener against the Minnesota Vikings may have revealed some early status updates on key position battles across the New York Giants depth chart, especially at WR, DT, and CB.",
+    "tags": [
+      "league-news",
+      "usage",
+      "MIN",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "MIN",
+      "NYG"
+    ]
+  },
+  {
     "id": "1k42klqb45f1s",
     "title": "Zach Wilson stands out for the Saints in a 24-20 preseason loss to the Jaguars",
     "url": "https://www.espn.com/nfl/recap?gameId=401873281",
@@ -19,6 +97,26 @@
     "teams": [
       "JAX",
       "NO"
+    ]
+  },
+  {
+    "id": "1gdxnyksteya4",
+    "title": "Eagles-Ravens preseason observations: Position battle updates, injury news, and more",
+    "url": "https://sports.yahoo.com/articles/eagles-ravens-preseason-observations-position-015256518.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-16T01:52:56.000Z",
+    "summary": "The Birds are 0-1 in meaningless summer games.",
+    "tags": [
+      "league-news",
+      "injury",
+      "BAL",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "PHI"
     ]
   },
   {
@@ -4598,7 +4696,7 @@
   },
   {
     "id": "inyijq1e68ouw",
-    "title": "NFL news, live updates: Deshaun Watson, Shedeur Sanders continue Browns' QB battle; Kyler Murray, Josh Allen also expected to see action",
+    "title": "NFL news, live updates: Mixed bag for Browns QBs Deshaun Watson, Shedeur Sanders; Rams' Ty Simpson impresses; Cowboys rookie shines",
     "url": "https://sports.yahoo.com/nfl/live/nfl-news-preseason-schedule-whos-playing-live-updates-today-152512676.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
@@ -4611,7 +4709,10 @@
       "contract",
       "SEA",
       "PIT",
-      "CLE"
+      "CLE",
+      "rookie",
+      "DAL",
+      "LAR"
     ],
     "players": [
       "joe-burrow",
@@ -4620,13 +4721,16 @@
       "drew-allar",
       "deshaun-watson",
       "josh-allen",
-      "kyler-murray"
+      "kyler-murray",
+      "ty-simpson"
     ],
     "teams": [
       "LV",
       "SEA",
       "PIT",
-      "CLE"
+      "CLE",
+      "DAL",
+      "LAR"
     ]
   },
   {
@@ -7483,98 +7587,6 @@
     "players": [],
     "teams": [
       "BAL"
-    ]
-  },
-  {
-    "id": "djoxre15fxaem",
-    "title": "CB Nate Wiggins carted off at Ravens practice",
-    "url": "https://sports.yahoo.com/articles/cb-nate-wiggins-carted-off-172111089.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-11T17:21:11.000Z",
-    "summary": "The Ravens are hoping for the best for cornerback Nate Wiggins.",
-    "tags": [
-      "league-news",
-      "injury",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "kmuqywtigwqe",
-    "title": "Cam Jordan to miss time with hamstring injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-to-miss-time-with-hamstring-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-11T17:15:55.000Z",
-    "summary": "Saints defensive end Cam Jordan's preparations for his final NFL season have hit a snag.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "an64bh14dd3tz",
-    "title": "Cam Jordan to miss time with hamstring injury",
-    "url": "https://sports.yahoo.com/articles/cam-jordan-miss-time-hamstring-171555911.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-11T17:15:55.000Z",
-    "summary": "Saints defensive end Cam Jordan's preparations for his final NFL season have hit a snag.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "1or5b09zw37z9",
-    "title": "Aaron Rodgers said that DK Metcalf and Michael Pittman Jr have injuries.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vlnfyc/aaron_rodgers_said_that_dk_metcalf_and_michael",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-11T17:08:05.000Z",
-    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "dk-metcalf",
-      "michael-pittman"
-    ],
-    "teams": []
-  },
-  {
-    "id": "14euhpbbsz3oj",
-    "title": "Anthony Richardson to start Thursday vs. Patriots, Daniel Jones won't play in preseason",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/anthony-richardson-to-start-thursday-vs-patriots-daniel-jones-wont-play-in-preseason",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-11T17:01:19.000Z",
-    "summary": "Quarterback Anthony Richardson may not know what’s going on with his trade request, but he may be able to entice a team to acquire his services soon.",
-    "tags": [
-      "league-news",
-      "trade",
-      "NE"
-    ],
-    "players": [
-      "daniel-jones"
-    ],
-    "teams": [
-      "NE"
     ]
   }
 ]

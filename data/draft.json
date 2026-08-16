@@ -291,6 +291,61 @@
       "pos": "WR",
       "nflTeam": "NYG",
       "mine": false
+    },
+    {
+      "pick": 24,
+      "round": 2,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "patrick-mahomes",
+      "playerName": "Patrick Mahomes",
+      "pos": "QB",
+      "nflTeam": "KC",
+      "mine": false
+    },
+    {
+      "pick": 25,
+      "round": 3,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "jalen-hurts",
+      "playerName": "Jalen Hurts",
+      "pos": "QB",
+      "nflTeam": "PHI",
+      "mine": false
+    },
+    {
+      "pick": 26,
+      "round": 3,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "omarion-hampton",
+      "playerName": "Omarion Hampton",
+      "pos": "RB",
+      "nflTeam": "LAC",
+      "mine": false
+    },
+    {
+      "pick": 27,
+      "round": 3,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": "jeremiyah-love",
+      "playerName": "Jeremiyah Love",
+      "pos": "RB",
+      "nflTeam": "ARI",
+      "mine": false
+    },
+    {
+      "pick": 28,
+      "round": 3,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "drake-london",
+      "playerName": "Drake London",
+      "pos": "WR",
+      "nflTeam": "ATL",
+      "mine": false
     }
   ]
 }
