@@ -124,7 +124,8 @@ export function getDraftProgress(draft?: Draft): DraftProgress {
   const myPicks = picks.filter((p) => p.mine);
   const myPicksMade = myPicks.length;
 
-  const upcomingPicks = (draft?.myPicks ?? []).filter((p) => p > totalPicksMade);
+  const completedNumbers = new Set(picks.map((p) => p.pick));
+  const upcomingPicks = (draft?.myPicks ?? []).filter((n) => !completedNumbers.has(n));
   const nextPickNumber = upcomingPicks.length > 0 ? upcomingPicks[0] : null;
   const picksUntilNextTurn = nextPickNumber !== null ? nextPickNumber - totalPicksMade : null;
 

@@ -183,6 +183,7 @@ describe('TeamApp slot alternatives stay available-aware', () => {
   it('renders the roster-health panel instead of a pick schedule or shortlist', () => {
     mount();
     expect(screen.getByTestId('roster-health')).toBeInTheDocument();
+    expect(screen.getByTestId('draft-coaching')).toBeInTheDocument();
     expect(screen.queryByTestId('draft-panel')).not.toBeInTheDocument();
     expect(screen.queryByTestId('shortlist')).not.toBeInTheDocument();
     expect(screen.getAllByTestId('slot-row').length).toBeGreaterThan(0);

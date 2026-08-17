@@ -136,7 +136,10 @@ export function TeamApp({
     [team.roster],
   );
 
-  const health = useMemo(() => diagnoseRosterHealth(team, players), [team, players]);
+  const health = useMemo(
+    () => diagnoseRosterHealth(team, players, draft),
+    [team, players, draft],
+  );
 
   const targetsBySlot = useMemo(() => {
     const map = new Map<string, typeof team.targets>();

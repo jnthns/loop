@@ -1,10 +1,88 @@
 import { describe, expect, it } from 'vitest';
 import { render, screen, within } from '@testing-library/react';
 import { diagnoseRosterHealth, gradeFor, windowFromTotal } from '~/lib/team/health';
+import {
+  buildDraftCoaching,
+  rosteredPlayersIncludingDraft,
+} from '~/lib/team/draft-coaching';
 import { RosterHealthPanel } from '~/components/RosterHealthPanel';
+import type { Draft } from '~/lib/schemas/draft';
 import { fixturePlayers, fixtureTeam } from './fixtures/league';
 import type { Player } from '~/lib/schemas/players';
 import type { Team } from '~/lib/schemas/team';
+
+const midDraft: Draft = {
+  draftId: 'd-mid',
+  status: 'drafting',
+  type: 'snake',
+  startTime: '2026-08-15T23:00:00.000Z',
+  teams: 12,
+  rounds: 30,
+  myDraftSlot: 4,
+  myPicks: [4, 21, 28, 45, 52],
+  picks: [
+    {
+      pick: 4,
+      round: 1,
+      slot: 4,
+      rosterId: 7,
+      playerId: 'jayden-daniels',
+      playerName: 'Jayden Daniels',
+      pos: 'QB',
+      nflTeam: 'WAS',
+      mine: true,
+    },
+    {
+      pick: 21,
+      round: 2,
+      slot: 4,
+      rosterId: 7,
+      playerId: 'caleb-williams',
+      playerName: 'Caleb Williams',
+      pos: 'QB',
+      nflTeam: 'CHI',
+      mine: true,
+    },
+    {
+      pick: 28,
+      round: 3,
+      slot: 4,
+      rosterId: 7,
+      playerId: 'saquon-barkley',
+      playerName: 'Saquon Barkley',
+      pos: 'RB',
+      nflTeam: 'PHI',
+      mine: true,
+    },
+    {
+      pick: 29,
+      round: 3,
+      slot: 5,
+      rosterId: 5,
+      playerId: 'brock-bowers',
+      playerName: 'Brock Bowers',
+      pos: 'TE',
+      nflTeam: 'LV',
+      mine: false,
+    },
+    {
+      pick: 44,
+      round: 4,
+      slot: 3,
+      rosterId: 3,
+      playerId: 'malik-nabers',
+      playerName: 'Malik Nabers',
+      pos: 'WR',
+      nflTeam: 'NYG',
+      mine: false,
+    },
+  ],
+};
+
+const emptyRosterTeam: Team = {
+  ...fixtureTeam,
+  roster: fixtureTeam.roster.map((r) => ({ ...r, playerId: null })),
+};
 
 function withRoster(playerIds: Record<string, string | null>, extras: Player[] = []): {
   team: Team;
@@ -105,6 +183,44 @@ describe('diagnoseRosterHealth', () => {
       expect(facet.sourceIds.length).toBeGreaterThan(0);
     }
   });
+
+  it('merges my draft picks into the graded roster when slots are still empty', () => {
+    const byId = new Map(fixturePlayers.map((p) => [p.id, p]));
+    const rostered = rosteredPlayersIncludingDraft(emptyRosterTeam, byId, midDraft);
+    expect(rostered.map((p) => p.id).sort()).toEqual(
+      ['caleb-williams', 'jayden-daniels', 'saquon-barkley'].sort(),
+    );
+
+    const health = diagnoseRosterHealth(emptyRosterTeam, fixturePlayers, midDraft);
+    expect(health.rosteredCount).toBe(3);
+    expect(health.window).not.toBe('empty');
+  });
+
+  it('builds next-pick coaching from weaknesses and available targets', () => {
+    const health = diagnoseRosterHealth(emptyRosterTeam, fixturePlayers, midDraft);
+    const coaching = buildDraftCoaching(emptyRosterTeam, fixturePlayers, midDraft, {
+      ...health,
+      draftCoaching: null,
+    });
+
+    expect(coaching?.active).toBe(true);
+    expect(coaching?.myPicksMade).toBe(3);
+    expect(coaching?.nextPickNumber).toBe(45);
+    expect(coaching?.positionPriority.length).toBeGreaterThan(0);
+    expect(coaching?.headline).toMatch(/Pick 4\.04/);
+    expect(coaching?.headline).toMatch(/Prioritize/);
+
+    const names = coaching!.suggestions.map((s) => s.playerName);
+    expect(names).toContain('Patrick Mahomes');
+    expect(names).not.toContain('Caleb Williams');
+    expect(names).not.toContain('Brock Bowers');
+  });
+
+  it('appends draft context to positional weakness callouts', () => {
+    const health = diagnoseRosterHealth(emptyRosterTeam, fixturePlayers, midDraft);
+    const wr = health.priorities.find((f) => f.id === 'wr');
+    expect(wr?.attention).toMatch(/Draft read:/);
+  });
 });
 
 describe('RosterHealthPanel', () => {
@@ -119,5 +235,14 @@ describe('RosterHealthPanel', () => {
       .filter((el) => el.dataset.grade === 'weak');
     expect(weak.length).toBeGreaterThan(0);
     expect(screen.getByTestId('health-sources').querySelectorAll('a').length).toBeGreaterThan(5);
+  });
+
+  it('shows next-pick coaching during an active draft', () => {
+    const health = diagnoseRosterHealth(emptyRosterTeam, fixturePlayers, midDraft);
+    render(<RosterHealthPanel health={health} />);
+    const coaching = screen.getByTestId('draft-coaching');
+    expect(coaching).toBeInTheDocument();
+    expect(screen.getByTestId('draft-coaching-headline').textContent).toMatch(/Pick 4\.04/);
+    expect(within(coaching).getAllByTestId('draft-suggestion').length).toBeGreaterThan(0);
   });
 });

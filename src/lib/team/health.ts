@@ -11,8 +11,15 @@
  * preseason audit: 32–40 contend, 24–31 pick a direction, under 24 rebuild.
  */
 
+import type { Draft } from '~/lib/schemas/draft';
 import type { Player, Position, Tier } from '~/lib/schemas/players';
 import type { Team } from '~/lib/schemas/team';
+import {
+  applyDraftCoachingToHealth,
+  buildDraftCoaching,
+  rosteredPlayersIncludingDraft,
+  type DraftCoaching,
+} from '~/lib/team/draft-coaching';
 
 export const HEALTH_SOURCES = [
   {
@@ -97,6 +104,8 @@ export interface RosterHealth {
   /** Weak first, then watch — the work list. */
   priorities: HealthFacet[];
   rosteredCount: number;
+  /** Present during an active draft — next-pick coaching from weaknesses + targets. */
+  draftCoaching: DraftCoaching | null;
 }
 
 const STARTABLE: ReadonlySet<Tier> = new Set(['cornerstone', 'starter', 'win-now']);
@@ -521,9 +530,15 @@ export function windowFromTotal(positionTotal: number, rosteredCount: number): {
   };
 }
 
-export function diagnoseRosterHealth(team: Team, players: Player[]): RosterHealth {
+export function diagnoseRosterHealth(
+  team: Team,
+  players: Player[],
+  draft?: Draft,
+): RosterHealth {
   const byId = new Map(players.map((p) => [p.id, p]));
-  const rostered = rosteredPlayers(team, byId);
+  const rostered = draft
+    ? rosteredPlayersIncludingDraft(team, byId, draft)
+    : rosteredPlayers(team, byId);
 
   const qb = scoreQb(rostered, team.format.superflex);
   const rb = scoreRb(rostered);
@@ -541,7 +556,7 @@ export function diagnoseRosterHealth(team: Team, players: Player[]): RosterHealt
     .filter((f) => f.grade !== 'strong')
     .sort((a, b) => a.score - b.score || a.title.localeCompare(b.title));
 
-  return {
+  const base: RosterHealth = {
     positionTotal,
     window,
     windowLabel,
@@ -549,5 +564,9 @@ export function diagnoseRosterHealth(team: Team, players: Player[]): RosterHealt
     facets,
     priorities,
     rosteredCount: rostered.length,
+    draftCoaching: null,
   };
+
+  const coaching = buildDraftCoaching(team, players, draft, base);
+  return applyDraftCoachingToHealth(base, coaching);
 }

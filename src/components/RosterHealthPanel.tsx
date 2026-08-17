@@ -86,6 +86,57 @@ export function RosterHealthPanel({ health }: { health: RosterHealth }) {
         <p className="mt-1 max-w-3xl text-[13px] text-muted">{health.windowAdvice}</p>
       </div>
 
+      {health.draftCoaching?.active && (
+        <div
+          data-testid="draft-coaching"
+          data-tone="violet"
+          className="card-tone mb-4 p-3.5"
+        >
+          <p className="label text-tone">Next pick coaching</p>
+          <p className="mt-1 text-[0.9375rem] font-bold text-ink" data-testid="draft-coaching-headline">
+            {health.draftCoaching.headline}
+          </p>
+          <p className="mt-1 text-[12px] text-muted" data-numeric>
+            {health.draftCoaching.myPicksMade} of {health.draftCoaching.myPicksTotal} picks made ·{' '}
+            {health.draftCoaching.myPicksRemaining} remaining
+          </p>
+          {health.draftCoaching.positionPriority.length > 0 && (
+            <ol className="mt-3 space-y-1.5 text-[13px]">
+              {health.draftCoaching.positionPriority.slice(0, 4).map((row, i) => (
+                <li key={row.pos} data-testid="draft-pos-priority" data-pos={row.pos}>
+                  <span className="font-bold text-ink">
+                    {i + 1}. {row.pos}
+                  </span>
+                  <span className="text-muted"> — {row.reason}</span>
+                </li>
+              ))}
+            </ol>
+          )}
+          {health.draftCoaching.suggestions.length > 0 && (
+            <div className="mt-3">
+              <p className="label mb-1.5">Available from your target list</p>
+              <ul className="space-y-2">
+                {health.draftCoaching.suggestions.map((s) => (
+                  <li
+                    key={s.playerId}
+                    data-testid="draft-suggestion"
+                    data-pos={s.pos}
+                    className="text-[13px]"
+                  >
+                    <span className="font-bold text-ink">{s.playerName}</span>
+                    <span className="text-muted">
+                      {' '}
+                      · {s.pos} · for {s.slotLabel}
+                    </span>
+                    <p className="mt-0.5 text-muted">{s.rationale}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
+
       {needsWork > 0 && (
         <div className="mb-4">
           <p className="label mb-2">Needs attention</p>
