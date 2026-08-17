@@ -402,3 +402,37 @@ Remove the comment markers only when the build is truly finished.)
   QB and TE trending lists are 2 rows deep in the offseason. That is the source's
   depth, not a bug; the lists fill out in season.
 
+### Pass 15 — sidebar live Sleeper roster refresh
+
+- **Shipped:** a **Refresh from Sleeper** control in the left rail (compact
+  "Sleeper" on the mobile top bar). Hits the keyless Sleeper API for league,
+  rosters, and draft picks — deliberately skips the ~5MB player dump — and
+  merges through the existing pure mappers into a browser-only snapshot.
+- **Why localStorage, not a write to `data/`:** the deploy is static GitHub
+  Pages; a client button cannot commit. Same contract as the team edit overlay:
+  live until you export / run `sync:sleeper`.
+- **Team page wiring:** `TeamApp` prefers the live snapshot over the edit
+  overlay, updates draft + rostered flags, and stubs just-drafted players from
+  pick metadata when they are not yet in the committed pool.
+- **Evidence:** `npm run typecheck` → 0 errors; `npm run test` → **647/647**
+  (38 files); `npm run build` → 28 pages. New coverage in
+  `tests/sleeper-live-refresh.test.tsx` + shell asserts the button mounts.
+
+### Pass 16 — roster health panel replaces draft schedule and shortlist
+
+- **Removed from `/team`:** the pick schedule (`DraftPanel`) and the draft
+  shortlist. Slot-level alternatives remain in the roster table.
+- **Added:** a 2026 roster-health audit (`src/lib/team/health.ts`) that scores
+  eight facets — QB room (superflex), RB age cliff, WR ballast, TE premium,
+  age stagger, floor vs ceiling, injuries, bench insurance — then maps the
+  four positional rooms onto Roto Street Journal's 0–40 contend / pivot /
+  rebuild bands.
+- **Sources (web + YouTube), cited in the panel:** RSJ peak-age audit (Jul
+  2026), DLF/FFPC format construction, FantasyPros 2026 SF mock, PlayerProfiler
+  RB cliff, Dynasty Nerds rebuild windows, ETR 2026 staff mock, Dynasty
+  Ballers RB-depth episode, Smash Except S-tier building blocks, plus this
+  guide's age-curves article. Player quality is only the stored `tier` / `age`
+  / injury fields — no invented rankings.
+- **Evidence:** `npm run typecheck` → 0 errors; `npm run test` → **652/652**;
+  `npm run build` → 28 pages. Coverage in `tests/roster-health.test.tsx`.
+

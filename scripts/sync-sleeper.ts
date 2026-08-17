@@ -276,14 +276,6 @@ async function main() {
         })
       : previousPlayers;
 
-  const result = applySleeperToTeam(previousTeam, {
-    league: snapshot.league,
-    roster: myRoster,
-    players,
-    season: snapshot.season,
-    teamName: snapshot.teamName ?? undefined,
-  });
-
   const sleeperIdToPlayerId = new Map(
     players.filter((p) => p.sleeperId).map((p) => [p.sleeperId!, p.id]),
   );
@@ -298,6 +290,15 @@ async function main() {
         }),
       )
     : NO_DRAFT;
+
+  const result = applySleeperToTeam(previousTeam, {
+    league: snapshot.league,
+    roster: myRoster,
+    players,
+    season: snapshot.season,
+    teamName: snapshot.teamName ?? undefined,
+    draftPicks: draft.picks,
+  });
 
   if (draft.status !== 'none') {
     console.log(

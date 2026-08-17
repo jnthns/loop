@@ -10,17 +10,24 @@ import {
   remaining,
 } from '~/lib/team/budget';
 import { clearOverlay, saveOverlay, loadOverlay, serializeTeam } from '~/lib/team/storage';
+import {
+  SLEEPER_REFRESH_EVENT,
+  clearLiveSnapshot,
+  loadLiveSnapshot,
+  mergePlayerPatches,
+  saveLiveSnapshot,
+} from '~/lib/team/live-storage';
 import { NO_DRAFT, type Draft } from '~/lib/schemas/draft';
-import DraftPanel from '~/components/DraftPanel';
+import RosterHealthPanel from '~/components/RosterHealthPanel';
 import { DepthTag, PosTag, SectionHead, StatusTag } from '~/components/ui/Primitives';
 import type { Tone } from '~/lib/ui/tone';
+import { getTargetAvailability } from '~/lib/team/availability';
+import { diagnoseRosterHealth } from '~/lib/team/health';
 
 export interface TeamAppProps {
   committed: Team;
   players: Player[];
   draft?: Draft;
-  /** Base-path-aware hrefs into the knowledge base, forwarded to DraftPanel. */
-  articleLinks?: { positionalBuilds: string; offseasonLandscape: string };
   /**
    * Player id -> NFL depth-chart rank, from `data/depth.json`. Optional because
    * the file is refreshed independently of the roster: a missing entry renders
@@ -47,31 +54,72 @@ const GROUPS: { key: string; title: string; kinds: SlotKind[]; tone: Tone; note?
   { key: 'ir', title: 'Injured reserve', tone: 'rose', kinds: ['IR'] },
 ];
 
-export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks, depthRanks = {} }: TeamAppProps) {
+export function TeamApp({
+  committed,
+  players: committedPlayers,
+  draft: committedDraft = NO_DRAFT,
+  depthRanks = {},
+}: TeamAppProps) {
   const [team, setTeam] = useState<Team>(committed);
+  const [players, setPlayers] = useState<Player[]>(committedPlayers);
+  const [draft, setDraft] = useState<Draft>(committedDraft);
   const [overlayActive, setOverlayActive] = useState(false);
+  const [liveSyncActive, setLiveSyncActive] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
-  const [showEmptyRoster, setShowEmptyRoster] = useState(false);
 
-  // Read the overlay after mount so the server-rendered markup matches the
-  // committed baseline and hydration stays stable.
-  useEffect(() => {
+  function applyLiveOrOverlay() {
+    const live = loadLiveSnapshot();
+    if (live) {
+      setTeam(live.team);
+      setDraft(live.draft);
+      setPlayers(mergePlayerPatches(committedPlayers, live.playerPatches));
+      setLiveSyncActive(true);
+      setOverlayActive(true);
+      return;
+    }
+    setLiveSyncActive(false);
+    setDraft(committedDraft);
+    setPlayers(committedPlayers);
     const overlay = loadOverlay();
     if (overlay) {
       setTeam(overlay);
       setOverlayActive(true);
+    } else {
+      setTeam(committed);
+      setOverlayActive(false);
     }
-  }, []);
+  }
+
+  // Read overlays after mount so SSR markup matches the committed baseline.
+  useEffect(() => {
+    applyLiveOrOverlay();
+    const onRefresh = () => applyLiveOrOverlay();
+    window.addEventListener(SLEEPER_REFRESH_EVENT, onRefresh);
+    return () => window.removeEventListener(SLEEPER_REFRESH_EVENT, onRefresh);
+    // committed* are the build-time props for this page load.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [committed, committedPlayers, committedDraft]);
 
   function update(next: Team) {
     setTeam(next);
     setOverlayActive(saveOverlay(next));
+    if (liveSyncActive) {
+      const live = loadLiveSnapshot();
+      if (live) saveLiveSnapshot({ ...live, team: next });
+    }
   }
 
   function reset() {
     clearOverlay();
+    clearLiveSnapshot();
     setTeam(committed);
+    setPlayers(committedPlayers);
+    setDraft(committedDraft);
     setOverlayActive(false);
+    setLiveSyncActive(false);
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent(SLEEPER_REFRESH_EVENT));
+    }
   }
 
   const playerById = useMemo(() => new Map(players.map((p) => [p.id, p])), [players]);
@@ -88,10 +136,7 @@ export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks, de
     [team.roster],
   );
 
-  // An entirely empty roster before a draft is the expected state, not a bug —
-  // and rendering 26 blank rows implies otherwise. Lead with the draft instead.
-  const rosterIsEmpty = openSlots === team.roster.length && team.roster.length > 0;
-  const preDraft = rosterIsEmpty && draft.status !== 'complete';
+  const health = useMemo(() => diagnoseRosterHealth(team, players), [team, players]);
 
   const targetsBySlot = useMemo(() => {
     const map = new Map<string, typeof team.targets>();
@@ -131,14 +176,20 @@ export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks, de
 
       <section
         aria-labelledby="overlay-state"
-        data-tone={overlayActive ? 'amber' : 'slate'}
+        data-tone={overlayActive || liveSyncActive ? 'amber' : 'slate'}
         className="card-tone p-3.5"
       >
         <h2 id="overlay-state" className="label mb-1 text-tone">
           Where these edits live
         </h2>
         <p className="text-[13px] text-muted">
-          {overlayActive ? (
+          {liveSyncActive ? (
+            <>
+              Showing a <strong className="font-semibold text-ink">live Sleeper refresh</strong> from
+              this browser. The committed files are unchanged until the next{' '}
+              <code className="font-mono">sync:sleeper</code> run (or you export and commit).
+            </>
+          ) : overlayActive ? (
             <>
               You have unsaved local edits. They live in this browser only —{' '}
               <strong className="font-semibold text-ink">
@@ -164,7 +215,7 @@ export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks, de
           <button
             type="button"
             onClick={reset}
-            disabled={!overlayActive}
+            disabled={!overlayActive && !liveSyncActive}
             className="rounded-[0.375rem] border border-line bg-surface px-2.5 py-1 text-xs font-semibold disabled:opacity-40"
           >
             Discard local edits
@@ -172,45 +223,9 @@ export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks, de
         </div>
       </section>
 
-      {preDraft && (
-        <DraftPanel
-          draft={draft}
-          rosterSize={team.roster.length}
-          auctionTotal={team.budgets.find((b) => b.kind === 'auction')?.total ?? null}
-          links={articleLinks}
-        />
-      )}
+      <RosterHealthPanel health={health} />
 
-      {preDraft && (
-        <section data-testid="empty-roster-notice" data-tone="slate" className="empty">
-          <h2 className="text-[0.9375rem] font-bold text-ink">Roster is empty until the draft</h2>
-          <p className="mt-1 max-w-2xl text-[13px]">
-            All {team.roster.length} slots are unfilled — that is what Sleeper reports, not a sync
-            failure. Your shortlist below is the useful surface right now; the roster table fills
-            itself the moment the draft happens.
-          </p>
-          <button
-            type="button"
-            onClick={() => setShowEmptyRoster((v) => !v)}
-            aria-expanded={showEmptyRoster}
-            className="mt-2.5 rounded-[0.375rem] border border-line bg-surface px-2.5 py-1 text-xs font-semibold"
-          >
-            {showEmptyRoster ? 'Hide empty roster' : 'Show empty roster anyway'}
-          </button>
-        </section>
-      )}
-
-      {preDraft && team.targets.length > 0 && (
-        <ShortlistSection
-          team={team}
-          playerById={playerById}
-          depthRanks={depthRanks}
-          onAssign={setSlotPlayer}
-        />
-      )}
-
-      {(!preDraft || showEmptyRoster) &&
-        GROUPS.map((group) => {
+      {GROUPS.map((group) => {
           const slots = team.format.rosterSlots.filter((s) => group.kinds.includes(s.kind));
           if (slots.length === 0) return null;
           return (
@@ -246,6 +261,8 @@ export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks, de
                         assignedIds={assignedIds}
                         targets={targetsBySlot.get(slot.id) ?? []}
                         depthRanks={depthRanks}
+                        draft={draft}
+                        team={team}
                         expanded={expanded === slot.id}
                         onToggle={() => setExpanded((v) => (v === slot.id ? null : slot.id))}
                         onAssign={(id) => setSlotPlayer(slot.id, id)}
@@ -279,98 +296,6 @@ export function TeamApp({ committed, players, draft = NO_DRAFT, articleLinks, de
 
       {slotById.size === 0 && <p className="text-sm text-muted">No roster slots configured.</p>}
     </div>
-  );
-}
-
-/**
- * Pre-draft, the target list stops being "alternatives for a slot" and becomes
- * the shortlist — the thing you actually work from on draft night. Same data,
- * grouped by slot need instead of buried under empty rows.
- */
-function ShortlistSection({
-  team,
-  playerById,
-  depthRanks,
-  onAssign,
-}: {
-  team: Team;
-  playerById: Map<string, Player>;
-  depthRanks: Record<string, number>;
-  onAssign: (slotId: string, playerId: string) => void;
-}) {
-  const slotLabel = new Map(team.format.rosterSlots.map((s) => [s.id, s.label]));
-  const slotKind = new Map(team.format.rosterSlots.map((s) => [s.id, s.kind]));
-  const bySlot = new Map<string, Team['targets']>();
-  for (const target of [...team.targets].sort((a, b) => a.priority - b.priority)) {
-    bySlot.set(target.slotId, [...(bySlot.get(target.slotId) ?? []), target]);
-  }
-
-  return (
-    <section aria-labelledby="shortlist" data-testid="shortlist">
-      <SectionHead
-        id="shortlist"
-        tone="violet"
-        title="Draft shortlist"
-        count={team.targets.length}
-        note="Grouped by the need each player fills, in priority order."
-      />
-      <div className="grid gap-4 lg:grid-cols-2">
-        {[...bySlot.entries()].map(([slotId, targets]) => (
-          <div
-            key={slotId}
-            data-testid="shortlist-group"
-            data-slot={slotId}
-            data-pos={slotKind.get(slotId)}
-            className="card-tone"
-          >
-            <div className="panel-head">
-              <h3 className="panel-title text-[0.8125rem]">{slotLabel.get(slotId) ?? slotId}</h3>
-              <span className="label">
-                {targets.length} option{targets.length === 1 ? '' : 's'}
-              </span>
-            </div>
-            <ol className="divide-y divide-line">
-              {targets.map((target) => {
-                const player = playerById.get(target.playerId);
-                return (
-                  <li key={target.id} data-testid="shortlist-target" className="p-3 text-[13px]">
-                    <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                      <span className="font-bold">
-                        {target.priority}. {player?.name ?? target.playerId}
-                      </span>
-                      {player && (
-                        <>
-                          <PosTag pos={player.pos} />
-                          <span className="text-[11px] text-muted">
-                            {player.nflTeam} · age {player.age}
-                          </span>
-                          <DepthTag rank={depthRanks[player.id]} />
-                          <StatusTag status={player.status} injuryStatus={player.injuryStatus} />
-                        </>
-                      )}
-                      <button
-                        type="button"
-                        onClick={() => onAssign(slotId, target.playerId)}
-                        className="ml-auto rounded-[0.375rem] border border-line bg-surface px-2 py-0.5 text-xs font-semibold"
-                      >
-                        Drafted
-                      </button>
-                    </div>
-                    <p className="mt-1 max-w-2xl text-muted">{target.rationale}</p>
-                    {target.cost && (
-                      <p className="mt-1 text-[12px]">
-                        <span className="label">Likely cost</span>{' '}
-                        <span className="text-muted">{target.cost}</span>
-                      </p>
-                    )}
-                  </li>
-                );
-              })}
-            </ol>
-          </div>
-        ))}
-      </div>
-    </section>
   );
 }
 
@@ -409,6 +334,8 @@ interface SlotRowProps {
   targets: Team['targets'];
   /** Player id -> NFL depth-chart rank; a missing id simply renders no badge. */
   depthRanks: Record<string, number>;
+  draft?: Draft;
+  team: Team;
   expanded: boolean;
   onToggle: () => void;
   onAssign: (playerId: string | null) => void;
@@ -422,6 +349,8 @@ function SlotRow({
   assignedIds,
   targets,
   depthRanks,
+  draft,
+  team,
   expanded,
   onToggle,
   onAssign,
@@ -495,10 +424,17 @@ function SlotRow({
             <ol className="space-y-2.5">
               {targets.map((target) => {
                 const player = playerById.get(target.playerId);
+                const avail = getTargetAvailability(target.playerId, player, team, draft);
+
                 return (
-                  <li key={target.id} data-testid="target" className="text-[13px]">
+                  <li
+                    key={target.id}
+                    data-testid="target"
+                    data-availability={avail.status}
+                    className={`text-[13px] ${avail.isTaken ? 'opacity-60' : ''}`}
+                  >
                     <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                      <span className="font-bold">
+                      <span className={`font-bold ${avail.isTaken ? 'line-through decoration-line text-muted' : ''}`}>
                         {target.priority}. {player?.name ?? target.playerId}
                       </span>
                       {player && (
@@ -511,13 +447,42 @@ function SlotRow({
                           <StatusTag status={player.status} injuryStatus={player.injuryStatus} />
                         </>
                       )}
-                      <button
-                        type="button"
-                        onClick={() => onAssign(target.playerId)}
-                        className="ml-auto rounded-[0.375rem] border border-line bg-surface px-2 py-0.5 text-xs font-semibold"
-                      >
-                        Move into {slot.label}
-                      </button>
+
+                      {avail.isAvailable && (
+                        <span className="chip chip-tone" data-tone="green">
+                          Available
+                        </span>
+                      )}
+                      {avail.isDraftedByMe && (
+                        <span className="chip chip-tone" data-tone="violet">
+                          On roster
+                        </span>
+                      )}
+                      {avail.isTaken && (
+                        <span className="chip chip-tone" data-tone="slate">
+                          {avail.label}
+                        </span>
+                      )}
+
+                      {avail.isAvailable && (
+                        <button
+                          type="button"
+                          onClick={() => onAssign(target.playerId)}
+                          className="ml-auto rounded-[0.375rem] border border-line bg-surface px-2 py-0.5 text-xs font-semibold hover:bg-surface-alt"
+                        >
+                          Move into {slot.label}
+                        </button>
+                      )}
+                      {avail.isDraftedByMe && (
+                        <span className="ml-auto text-xs font-semibold text-tone">
+                          On roster
+                        </span>
+                      )}
+                      {avail.isTaken && (
+                        <span className="ml-auto text-xs text-muted font-medium">
+                          Off the board
+                        </span>
+                      )}
                     </div>
                     <p className="mt-1 max-w-3xl text-muted">{target.rationale}</p>
                     {target.cost && (

@@ -15,6 +15,7 @@ import trendingRaw from '../../../data/trending.json';
 import draftRaw from '../../../data/draft.json';
 import marketRaw from '../../../data/market.json';
 import depthRaw from '../../../data/depth.json';
+import sleeperRaw from '../../../data/sleeper.json';
 
 import { FeedsSchema, NewsSchema, type Feed, type NewsItem } from '~/lib/schemas/news';
 import { PlayersSchema, type Player } from '~/lib/schemas/players';
@@ -24,6 +25,7 @@ import { TrendingSchema, type Trending } from '~/lib/schemas/trending';
 import { DraftSchema, type Draft } from '~/lib/schemas/draft';
 import { MarketSchema, type Market } from '~/lib/schemas/market';
 import { DepthSchema, type Depth } from '~/lib/schemas/depth';
+import { SleeperConfigSchema, type SleeperConfig } from '~/lib/schemas/sleeper';
 
 function parse<T>(label: string, schema: { safeParse: (v: unknown) => any }, raw: unknown): T {
   const result = schema.safeParse(raw);
@@ -46,6 +48,7 @@ export const trending: Trending = parse('trending', TrendingSchema, trendingRaw)
 export const draft: Draft = parse('draft', DraftSchema, draftRaw);
 export const market: Market = parse('market', MarketSchema, marketRaw);
 export const depth: Depth = parse('depth', DepthSchema, depthRaw);
+export const sleeperConfig: SleeperConfig = parse('sleeper', SleeperConfigSchema, sleeperRaw);
 
 /** Newest first — the order every news surface wants. */
 export const newsByDate: NewsItem[] = [...news].sort((a, b) =>

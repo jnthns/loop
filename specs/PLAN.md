@@ -235,10 +235,19 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
       trending switch, a hide-taken toggle and a name filter that apply to
       every position at once. (check: `tests/picks-app.test.tsx`)
 
----
+## Phase 15 — Live Sleeper refresh from the sidebar
 
-<!--
-When every box above is checked and `scripts/check.sh` is green, the maker writes
-"ALL TASKS DONE" to specs/STATUS.md. Discovered work becomes NEW unchecked items
-here — do not silently expand an in-progress task.
--->
+- [x] Add a sidebar button that fetches live Sleeper roster + draft status into
+      a browser overlay (static site cannot rewrite `data/*.json`). Reuses the
+      pure mappers; skips the 5MB player dump. (check: `tests/sleeper-live-refresh.test.tsx`
+      + shell mounts `SleeperRefreshButton`)
+
+## Phase 16 — Roster health instead of the draft board
+
+- [x] Replace the pick schedule and draft shortlist on `/team` with a panel that
+      grades the current roster against 2026 superflex criteria (QB room, RB age
+      cliff, WR ballast, TE premium, age stagger, floor/ceiling, injuries, bench)
+      using cited sources. (check: `tests/roster-health.test.tsx`; TeamApp no
+      longer mounts `draft-panel` or `shortlist`)
+
+---

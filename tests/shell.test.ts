@@ -34,9 +34,10 @@ describe('app shell', () => {
     expect(layout).toContain('client:load');
   });
 
-  it('mounts a theme toggle and FOUC-safe theme bootstrap', () => {
+  it('mounts a theme toggle, Sleeper refresh, and FOUC-safe theme bootstrap', () => {
     const layout = readFileSync(LAYOUT, 'utf8');
     expect(layout).toContain('<ThemeToggle');
+    expect(layout).toContain('<SleeperRefreshButton');
     expect(layout).toContain("dynasty-guide:theme");
     expect(layout).toContain('dataset.theme');
   });

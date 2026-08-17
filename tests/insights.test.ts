@@ -25,7 +25,7 @@ const CONTENT = join(process.cwd(), 'src/content/knowledge');
 const articleSlugs = new Set(
   readdirSync(CONTENT, { withFileTypes: true, recursive: true })
     .filter((e) => e.isFile() && e.name.endsWith('.md'))
-    .map((e) => relative(CONTENT, join(e.parentPath ?? CONTENT, e.name)).replace(/\.md$/, '')),
+    .map((e) => relative(CONTENT, join(e.parentPath ?? CONTENT, e.name)).replace(/\\/g, '/').replace(/\.md$/, '')),
 );
 
 const newsIds = new Set(news.map((n) => n.id));

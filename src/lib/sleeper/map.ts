@@ -511,6 +511,7 @@ export interface SyncInput {
   players: Player[];
   season: string;
   teamName?: string;
+  draftPicks?: DraftPick[];
 }
 
 export interface SyncResult {
@@ -546,6 +547,37 @@ export function applySleeperToTeam(previous: Team, input: SyncInput): SyncResult
       ? { ...entry, acquired: prior.acquired, notes: prior.notes }
       : entry;
   });
+
+  // If Sleeper roster is unfilled during an active draft, slot any user draft picks
+  if (input.draftPicks && input.draftPicks.length > 0) {
+    const playerById = new Map(input.players.map((p) => [p.id, p]));
+    const alreadySlotted = new Set(roster.map((r) => r.playerId).filter(Boolean));
+
+    for (const pick of input.draftPicks) {
+      if (!pick.mine || !pick.playerId || alreadySlotted.has(pick.playerId)) continue;
+      const player = playerById.get(pick.playerId);
+      const pos = (pick.pos || player?.pos) as Position | undefined;
+
+      // Find an open matching slot:
+      // 1. Direct position match
+      // 2. FLEX / SUPERFLEX
+      // 3. Bench (BN)
+      const openSlot =
+        roster.find((r) => r.playerId === null && format.rosterSlots.find((s) => s.id === r.slotId && s.kind === pos)) ||
+        roster.find((r) => r.playerId === null && format.rosterSlots.find((s) => s.id === r.slotId && ['FLEX', 'SUPERFLEX'].includes(s.kind) && pos && eligibleFor(s.kind).includes(pos))) ||
+        roster.find((r) => r.playerId === null && format.rosterSlots.find((s) => s.id === r.slotId && s.kind === 'BN'));
+
+      if (openSlot) {
+        openSlot.playerId = pick.playerId;
+        const prior = priorBySlot.get(openSlot.slotId);
+        openSlot.acquired = prior?.playerId === pick.playerId && prior.acquired
+          ? prior.acquired
+          : `Startup ${pick.round}.${String(pick.slot).padStart(2, '0')}`;
+        openSlot.notes = prior?.playerId === pick.playerId ? prior.notes : '';
+        alreadySlotted.add(pick.playerId);
+      }
+    }
+  }
 
   const previousFaab = previous.budgets.find((b) => b.kind === 'faab');
   const otherBudgets = previous.budgets.filter((b) => b.kind !== 'faab');

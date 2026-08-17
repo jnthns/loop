@@ -34,9 +34,10 @@ knowledge library that grows every pass.
    **schema-valid, deduped `data/news.json`**, and its parse/merge path runs
    **offline against fixtures** (`--fixtures`, which implies `--dry-run`) so the
    build never needs network.
-3. A **`/team` page** renders the roster by slot from `data/team.json`, shows
-   **alternative players per slot**, and exposes **editable budget ledgers**
-   (auction/cap and FAAB), persisting edits to `localStorage` with JSON export.
+3. A **`/team` page** renders the roster by slot from `data/team.json`, a
+   **2026 roster-health panel** that flags weak rooms, **alternative players per
+   slot**, and **editable budget ledgers** (auction/cap and FAAB), persisting
+   edits to `localStorage` with JSON export.
 4. A **`/knowledge` library** organized by **facet**, with per-facet index pages
    and article pages showing `sources`, `confidence`, and `updated`.
 5. Every knowledge article carries **at least one entry in `sources[]`** — a test

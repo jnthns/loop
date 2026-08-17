@@ -2,8 +2,9 @@
 import '~/styles/global.css';
 import NewsPanel from '~/components/NewsPanel';
 import ThemeToggle from '~/components/ThemeToggle';
+import SleeperRefreshButton from '~/components/SleeperRefreshButton';
 import { href, isActive } from '~/lib/url';
-import { newsByDate, team } from '~/lib/data';
+import { newsByDate, players, sleeperConfig, team } from '~/lib/data';
 import { routeTone, type Tone } from '~/lib/ui/tone';
 
 interface Props {
@@ -130,8 +131,14 @@ const watchedPlayerIds = [
               }
             </ul>
           </nav>
-          <div class="mt-0 flex items-center gap-2 lg:mt-7 lg:flex-col lg:items-stretch">
+          <div class="mt-0 flex items-center gap-2 lg:mt-7 lg:flex-col lg:items-stretch lg:gap-3">
             <ThemeToggle client:load />
+            <SleeperRefreshButton
+              client:load
+              config={sleeperConfig}
+              team={team}
+              players={players}
+            />
             <p
               class="hidden rounded-[0.5rem] border border-line bg-surface-alt p-2.5 text-[11px] leading-relaxed text-muted lg:block"
             >

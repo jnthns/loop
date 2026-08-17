@@ -1,10 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { render, screen, within } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
 import { TeamApp } from '~/components/TeamApp';
 import { DraftPanel } from '~/components/DraftPanel';
 import { NO_DRAFT, type Draft } from '~/lib/schemas/draft';
-import { loadOverlay } from '~/lib/team/storage';
 import { fixturePlayers, fixtureTeam } from './fixtures/league';
 
 /**
@@ -127,65 +125,27 @@ describe('TeamApp before the draft', () => {
     return render(<TeamApp committed={emptyTeam} players={fixturePlayers} draft={draft} />);
   }
 
-  it('leads with the draft instead of an empty roster table', () => {
+  it('leads with the roster-health panel, not a pick schedule or shortlist', () => {
     mount();
-    expect(screen.getByTestId('draft-panel')).toBeInTheDocument();
-    expect(screen.queryAllByTestId('slot-row')).toHaveLength(0);
-  });
-
-  it('forwards article links through to the draft panel', () => {
-    render(
-      <TeamApp
-        committed={emptyTeam}
-        players={fixturePlayers}
-        draft={preDraft}
-        articleLinks={{
-          positionalBuilds: '/loop/knowledge/roster-construction/superflex-positional-builds',
-          offseasonLandscape: '/loop/knowledge/startup-drafts/2026-offseason-landscape',
-        }}
-      />,
-    );
-    expect(screen.getByTestId('draft-panel-links')).toBeInTheDocument();
-  });
-
-  it('says the empty roster is expected, not a sync failure', () => {
-    mount();
-    const notice = screen.getByTestId('empty-roster-notice');
-    expect(notice).toHaveTextContent(/not a sync failure/);
-    expect(notice).toHaveTextContent(String(emptyTeam.roster.length));
-  });
-
-  it('can still show the empty roster on request', async () => {
-    const user = userEvent.setup();
-    mount();
-    await user.click(screen.getByRole('button', { name: 'Show empty roster anyway' }));
+    expect(screen.getByTestId('roster-health')).toBeInTheDocument();
+    expect(screen.queryByTestId('draft-panel')).not.toBeInTheDocument();
+    expect(screen.queryByTestId('shortlist')).not.toBeInTheDocument();
     expect(screen.getAllByTestId('slot-row')).toHaveLength(emptyTeam.roster.length);
   });
 
-  it('promotes the targets to a draft shortlist', () => {
+  it('cites the age-curves article from the health sources', () => {
     mount();
-    const shortlist = screen.getByTestId('shortlist');
-    expect(within(shortlist).getAllByTestId('shortlist-target').length).toBe(
-      emptyTeam.targets.length,
+    const sources = screen.getByTestId('health-sources');
+    expect(within(sources).getByRole('link', { name: /age curves/i }).getAttribute('href')).toMatch(
+      /age-curves-and-positional-value/,
     );
-    expect(within(shortlist).getByText(/Superflex punishes/)).toBeInTheDocument();
   });
 
-  it('groups the shortlist by the slot each target fills', () => {
+  it('grades an empty roster as empty, not a sync failure', () => {
     mount();
-    const groups = screen.getAllByTestId('shortlist-group');
-    expect(groups.length).toBeGreaterThan(1);
-    expect(new Set(groups.map((g) => g.dataset.slot)).size).toBe(groups.length);
-  });
-
-  it('marks a shortlist player as drafted straight into their slot', async () => {
-    const user = userEvent.setup();
-    mount();
-    const group = screen.getAllByTestId('shortlist-group').find((g) => g.dataset.slot === 'te-1')!;
-    await user.click(within(group).getAllByRole('button', { name: 'Drafted' })[0]);
-
-    const overlay = loadOverlay()!;
-    expect(overlay.roster.find((r) => r.slotId === 'te-1')!.playerId).toBe('brock-bowers');
+    const windowCard = screen.getByTestId('health-window');
+    expect(windowCard.dataset.window).toBe('empty');
+    expect(windowCard).toHaveTextContent(/No roster to grade/);
   });
 
   it('still shows the budget ledgers — the auction cap matters most pre-draft', () => {
@@ -193,14 +153,15 @@ describe('TeamApp before the draft', () => {
     expect(screen.getAllByTestId('budget').length).toBe(emptyTeam.budgets.length);
   });
 
-  it('reverts to the normal roster view once players exist', () => {
+  it('reverts to a filled-roster health window once players exist', () => {
     render(<TeamApp committed={fixtureTeam} players={fixturePlayers} draft={preDraft} />);
-    expect(screen.queryByTestId('empty-roster-notice')).not.toBeInTheDocument();
-    expect(screen.queryByTestId('draft-panel')).not.toBeInTheDocument();
+    expect(screen.getByTestId('health-window').dataset.window).not.toBe('empty');
     expect(screen.getAllByTestId('slot-row').length).toBe(fixtureTeam.roster.length);
+    expect(screen.queryByTestId('draft-panel')).not.toBeInTheDocument();
+    expect(screen.queryByTestId('shortlist')).not.toBeInTheDocument();
   });
 
-  it('shows the roster normally after a completed draft, even if empty', () => {
+  it('still shows the health panel after a completed draft, even if empty', () => {
     render(
       <TeamApp
         committed={emptyTeam}
@@ -208,7 +169,7 @@ describe('TeamApp before the draft', () => {
         draft={{ ...preDraft, status: 'complete' }}
       />,
     );
-    expect(screen.queryByTestId('empty-roster-notice')).not.toBeInTheDocument();
+    expect(screen.getByTestId('roster-health')).toBeInTheDocument();
     expect(screen.getAllByTestId('slot-row').length).toBe(emptyTeam.roster.length);
   });
 });

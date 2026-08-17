@@ -35,7 +35,7 @@ function summarize(text: string): string {
 }
 
 export function parsePlan(markdown: string): PlanProgress {
-  const lines = markdown.split('\n');
+  const lines = markdown.replace(/\r\n/g, '\n').split('\n');
   const phases: PhaseProgress[] = [];
   let current: PhaseProgress | null = null;
 
@@ -91,7 +91,7 @@ export interface BacklogProgress {
 
 export function parseBacklog(markdown: string): BacklogProgress {
   const items: BacklogItem[] = [];
-  const lines = markdown.split('\n');
+  const lines = markdown.replace(/\r\n/g, '\n').split('\n');
 
   for (let i = 0; i < lines.length; i += 1) {
     const match = lines[i].match(/^-\s+\[(P[0-3])\]\s+(.*)$/);

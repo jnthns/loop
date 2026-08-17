@@ -29,11 +29,11 @@ interface Article {
 }
 
 const articles: Article[] = markdownFiles(CONTENT).map((path) => {
-  const raw = readFileSync(path, 'utf8');
+  const raw = readFileSync(path, 'utf8').replace(/\r\n/g, '\n');
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
   return {
     path,
-    rel: relative(CONTENT, path),
+    rel: relative(CONTENT, path).replace(/\\/g, '/'),
     frontmatter: match?.[1] ?? '',
     body: match?.[2] ?? raw,
   };
