@@ -1,6 +1,6 @@
 {
   "leagueName": "DyNastyNasty",
-  "teamName": "comebackedOnYou",
+  "teamName": "MayeChien",
   "format": {
     "teams": 12,
     "superflex": true,
@@ -142,14 +142,14 @@
   "roster": [
     {
       "slotId": "qb-1",
-      "playerId": null,
-      "acquired": "",
+      "playerId": "drake-maye",
+      "acquired": "Startup 1.04",
       "notes": ""
     },
     {
       "slotId": "rb-1",
-      "playerId": null,
-      "acquired": "",
+      "playerId": "saquon-barkley",
+      "acquired": "Startup 3.04",
       "notes": ""
     },
     {
@@ -160,8 +160,8 @@
     },
     {
       "slotId": "wr-1",
-      "playerId": null,
-      "acquired": "",
+      "playerId": "zay-flowers",
+      "acquired": "Startup 4.04",
       "notes": ""
     },
     {
@@ -196,8 +196,8 @@
     },
     {
       "slotId": "superflex-1",
-      "playerId": null,
-      "acquired": "",
+      "playerId": "justin-herbert",
+      "acquired": "Startup 2.04",
       "notes": ""
     },
     {

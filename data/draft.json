@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -411,6 +411,105 @@
       "playerName": "Brock Purdy",
       "pos": "QB",
       "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 35,
+      "round": 3,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "george-pickens",
+      "playerName": "George Pickens",
+      "pos": "WR",
+      "nflTeam": "DAL",
+      "mine": false
+    },
+    {
+      "pick": 36,
+      "round": 3,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "colston-loveland",
+      "playerName": "Colston Loveland",
+      "pos": "TE",
+      "nflTeam": "CHI",
+      "mine": false
+    },
+    {
+      "pick": 37,
+      "round": 4,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "tetairoa-mcmillan",
+      "playerName": "Tetairoa McMillan",
+      "pos": "WR",
+      "nflTeam": "CAR",
+      "mine": false
+    },
+    {
+      "pick": 38,
+      "round": 4,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "jaxson-dart",
+      "playerName": "Jaxson Dart",
+      "pos": "QB",
+      "nflTeam": "NYG",
+      "mine": false
+    },
+    {
+      "pick": 39,
+      "round": 4,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "ladd-mcconkey",
+      "playerName": "Ladd McConkey",
+      "pos": "WR",
+      "nflTeam": "LAC",
+      "mine": false
+    },
+    {
+      "pick": 40,
+      "round": 4,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "zay-flowers",
+      "playerName": "Zay Flowers",
+      "pos": "WR",
+      "nflTeam": "BAL",
+      "mine": true
+    },
+    {
+      "pick": 41,
+      "round": 4,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "bo-nix",
+      "playerName": "Bo Nix",
+      "pos": "QB",
+      "nflTeam": "DEN",
+      "mine": false
+    },
+    {
+      "pick": 42,
+      "round": 4,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "kenneth-walker",
+      "playerName": "Kenneth Walker",
+      "pos": "RB",
+      "nflTeam": "KC",
+      "mine": false
+    },
+    {
+      "pick": 43,
+      "round": 4,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "cam-skattebo",
+      "playerName": "Cam Skattebo",
+      "pos": "RB",
+      "nflTeam": "NYG",
       "mine": false
     }
   ]
