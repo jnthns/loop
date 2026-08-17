@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -510,6 +510,28 @@
       "playerName": "Cam Skattebo",
       "pos": "RB",
       "nflTeam": "NYG",
+      "mine": false
+    },
+    {
+      "pick": 44,
+      "round": 4,
+      "slot": 8,
+      "rosterId": 6,
+      "playerId": "emeka-egbuka",
+      "playerName": "Emeka Egbuka",
+      "pos": "WR",
+      "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 45,
+      "round": 4,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "tyler-warren",
+      "playerName": "Tyler Warren",
+      "pos": "TE",
+      "nflTeam": "IND",
       "mine": false
     }
   ]
