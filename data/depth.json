@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-16T18:45:59.053Z",
+  "capturedAt": "2026-08-17T01:54:14.076Z",
   "snapshotAt": "2026-08-16T07:26:28Z",
   "season": "2026",
   "entries": [
@@ -162,6 +162,14 @@
       "nflTeam": "BAL",
       "depthRank": 3,
       "sleeperId": "13293"
+    },
+    {
+      "id": "elijah-sarratt",
+      "name": "Elijah Sarratt",
+      "pos": "WR",
+      "nflTeam": "BAL",
+      "depthRank": 5,
+      "sleeperId": "13268"
     },
     {
       "id": "josh-allen",
@@ -364,20 +372,20 @@
       "sleeperId": "10226"
     },
     {
-      "id": "colbie-young",
-      "name": "Colbie Young",
-      "pos": "WR",
-      "nflTeam": "CIN",
-      "depthRank": 4,
-      "sleeperId": "13477"
-    },
-    {
       "id": "deshaun-watson",
       "name": "Deshaun Watson",
       "pos": "QB",
       "nflTeam": "CLE",
       "depthRank": 1,
       "sleeperId": "4017"
+    },
+    {
+      "id": "shedeur-sanders",
+      "name": "Shedeur Sanders",
+      "pos": "QB",
+      "nflTeam": "CLE",
+      "depthRank": 2,
+      "sleeperId": "12524"
     },
     {
       "id": "quinshon-judkins",
@@ -466,6 +474,14 @@
       "nflTeam": "DAL",
       "depthRank": 1,
       "sleeperId": "8110"
+    },
+    {
+      "id": "michael-trigg",
+      "name": "Michael Trigg",
+      "pos": "TE",
+      "nflTeam": "DAL",
+      "depthRank": 4,
+      "sleeperId": "13401"
     },
     {
       "id": "ceedee-lamb",
@@ -708,14 +724,6 @@
       "sleeperId": "5001"
     },
     {
-      "id": "marlin-klein",
-      "name": "Marlin Klein",
-      "pos": "TE",
-      "nflTeam": "HOU",
-      "depthRank": 5,
-      "sleeperId": "13307"
-    },
-    {
       "id": "nico-collins",
       "name": "Nico Collins",
       "pos": "WR",
@@ -762,14 +770,6 @@
       "nflTeam": "IND",
       "depthRank": 1,
       "sleeperId": "6813"
-    },
-    {
-      "id": "seth-mcgowan",
-      "name": "Seth McGowan",
-      "pos": "RB",
-      "nflTeam": "IND",
-      "depthRank": 3,
-      "sleeperId": "13424"
     },
     {
       "id": "tyler-warren",
@@ -932,14 +932,6 @@
       "sleeperId": "421"
     },
     {
-      "id": "ty-simpson",
-      "name": "Ty Simpson",
-      "pos": "QB",
-      "nflTeam": "LA",
-      "depthRank": 3,
-      "sleeperId": "13275"
-    },
-    {
       "id": "kyren-williams",
       "name": "Kyren Williams",
       "pos": "RB",
@@ -962,6 +954,14 @@
       "nflTeam": "LA",
       "depthRank": 4,
       "sleeperId": "11569"
+    },
+    {
+      "id": "dean-connors",
+      "name": "Dean Connors",
+      "pos": "RB",
+      "nflTeam": "LA",
+      "depthRank": 6,
+      "sleeperId": "13315"
     },
     {
       "id": "colby-parkinson",
@@ -1042,14 +1042,6 @@
       "nflTeam": "LAC",
       "depthRank": 2,
       "sleeperId": "4033"
-    },
-    {
-      "id": "charlie-kolar",
-      "name": "Charlie Kolar",
-      "pos": "TE",
-      "nflTeam": "LAC",
-      "depthRank": 3,
-      "sleeperId": "8127"
     },
     {
       "id": "ladd-mcconkey",
@@ -1388,14 +1380,6 @@
       "sleeperId": "11834"
     },
     {
-      "id": "bryce-lance",
-      "name": "Bryce Lance",
-      "pos": "WR",
-      "nflTeam": "NO",
-      "depthRank": 4,
-      "sleeperId": "13420"
-    },
-    {
       "id": "barion-brown",
       "name": "Barion Brown",
       "pos": "WR",
@@ -1476,20 +1460,20 @@
       "sleeperId": "7090"
     },
     {
+      "id": "odell-beckham",
+      "name": "Odell Beckham",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "depthRank": 7,
+      "sleeperId": "2078"
+    },
+    {
       "id": "geno-smith",
       "name": "Geno Smith",
       "pos": "QB",
       "nflTeam": "NYJ",
       "depthRank": 1,
       "sleeperId": "1373"
-    },
-    {
-      "id": "cade-klubnik",
-      "name": "Cade Klubnik",
-      "pos": "QB",
-      "nflTeam": "NYJ",
-      "depthRank": 2,
-      "sleeperId": "13303"
     },
     {
       "id": "breece-hall",
