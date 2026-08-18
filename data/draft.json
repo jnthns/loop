@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -576,6 +576,50 @@
       "playerName": "DeVonta Smith",
       "pos": "WR",
       "nflTeam": "PHI",
+      "mine": false
+    },
+    {
+      "pick": 50,
+      "round": 5,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "tucker-kraft",
+      "playerName": "Tucker Kraft",
+      "pos": "TE",
+      "nflTeam": "GB",
+      "mine": false
+    },
+    {
+      "pick": 51,
+      "round": 5,
+      "slot": 10,
+      "rosterId": 9,
+      "playerId": "javonte-williams",
+      "playerName": "Javonte Williams",
+      "pos": "RB",
+      "nflTeam": "DAL",
+      "mine": false
+    },
+    {
+      "pick": 52,
+      "round": 5,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "luther-burden",
+      "playerName": "Luther Burden",
+      "pos": "WR",
+      "nflTeam": "CHI",
+      "mine": false
+    },
+    {
+      "pick": 53,
+      "round": 5,
+      "slot": 8,
+      "rosterId": 6,
+      "playerId": "carnell-tate",
+      "playerName": "Carnell Tate",
+      "pos": "WR",
+      "nflTeam": "TEN",
       "mine": false
     }
   ]
