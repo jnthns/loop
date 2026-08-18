@@ -1,5 +1,184 @@
 [
   {
+    "id": "17mn81xpxwnvf",
+    "title": "Patrick Mekari Reportedly Undergoes Back Surgery",
+    "url": "https://sports.yahoo.com/articles/patrick-mekari-reportedly-undergoes-back-052533084.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T05:25:33.000Z",
+    "summary": "Patrick Mekari’s back surgery adds another layer of uncertainty to the Jaguars’ already hobbled offensive line, raising questions about his future, and Jacksonville’s early options.",
+    "tags": [
+      "league-news",
+      "injury",
+      "JAX"
+    ],
+    "players": [],
+    "teams": [
+      "JAX"
+    ]
+  },
+  {
+    "id": "1nhosld13aebz3",
+    "title": "Fantasy football mock draft: Puka Nacua, Jeremiyah Love drop due to recent news",
+    "url": "https://www.espn.com/fantasy/football/story/_/page/FFMockDraft26-49638194/fantasy-football-mock-draft-10-teams-1-2-ppr",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-18T03:50:38.000Z",
+    "summary": "Injury news and word of potential suspensions caused the draft board to change a bit in our latest mock.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie"
+    ],
+    "players": [
+      "jeremiyah-love",
+      "puka-nacua"
+    ],
+    "teams": []
+  },
+  {
+    "id": "19j4gugtmn7p8",
+    "title": "Keenan Allen signs one-year contract with Colts: How WR fits in Indianapolis",
+    "url": "https://sports.yahoo.com/articles/keenan-allen-signs-one-contract-033346046.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T03:33:46.000Z",
+    "summary": "Keenan Allen will be joining the Colts in 2026 after spending the 2025 season with the Chargers. Here's the latest contract details and more.",
+    "tags": [
+      "league-news",
+      "contract",
+      "IND",
+      "LAC"
+    ],
+    "players": [
+      "keenan-allen"
+    ],
+    "teams": [
+      "IND",
+      "LAC"
+    ]
+  },
+  {
+    "id": "1ammb0fv8un3",
+    "title": "BREAKING: Colts reportedly sign former Pro Bowl veteran wideout Keenan Allen",
+    "url": "https://sports.yahoo.com/articles/breaking-colts-sign-wr-keenan-030958665.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T03:09:58.000Z",
+    "summary": "The Colts added a former Pro Bowl veteran wideout to their wide receiver corps which on paper, seems like an ideal pairing.",
+    "tags": [
+      "league-news",
+      "contract",
+      "IND"
+    ],
+    "players": [
+      "keenan-allen"
+    ],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "mjuzxn6khk4h",
+    "title": "Schultz: Keenan Allen to sign a 1-year, up to $8.32M deal with the Colts.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vrcq2p/schultz_keenan_allen_to_sign_a_1year_up_to_832m",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-18T02:39:15.000Z",
+    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "contract",
+      "IND"
+    ],
+    "players": [
+      "keenan-allen"
+    ],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "xjef7x12ez86l",
+    "title": "George Kittle has ‘eye popping’ update from injury recovery",
+    "url": "https://sports.yahoo.com/articles/george-kittle-eye-popping-injury-022029314.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T02:20:29.000Z",
+    "summary": "It’s been seven months since George Kittle ruptured his Achilles against the Philadelphia Eagles in the NFC Wild Card, and he’s already making significant progress on returning to the field....",
+    "tags": [
+      "league-news",
+      "injury",
+      "PHI"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "imfc5c1joioh4",
+    "title": "Jets downplay Breece Hall’s groin strain with chance to test their depth",
+    "url": "https://sports.yahoo.com/articles/jets-downplay-breece-hall-groin-020521139.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T02:05:21.000Z",
+    "summary": "The diagnosis for Breece Hall is a strained groin. The diagnosis for Jets fans is recurring nightmares, though this instance might only warrant a couple weeks of bad sleep.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYJ"
+    ],
+    "players": [
+      "breece-hall"
+    ],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "jrmvzy10ijcka",
+    "title": "5 Rams questions I have after first preseason game",
+    "url": "https://sports.yahoo.com/articles/5-rams-questions-first-preseason-014817762.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T01:48:17.000Z",
+    "summary": "Why not mix things up at punt returner? Is Jarquez Hunter in danger of getting cut? Plus other Rams questions.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "LAR"
+    ],
+    "players": [
+      "jarquez-hunter"
+    ],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "sboj2fqg300j",
+    "title": "Jameson Williams out of practice with a minor shoulder injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jameson-williams-out-of-practice-with-a-minor-shoulder-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-18T01:47:04.000Z",
+    "summary": "Lions wide receiver Jameson Williams did not practice on Sunday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DET"
+    ],
+    "players": [
+      "jameson-williams"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
     "id": "lqkwa61bt1jsy",
     "title": "Commanders free agency: Veteran linebacker added to Washington’s group",
     "url": "https://sports.yahoo.com/articles/commanders-free-agency-veteran-linebacker-014241239.html",
@@ -35,6 +214,27 @@
     "teams": [
       "CHI",
       "CIN"
+    ]
+  },
+  {
+    "id": "10j7dzhkscyp9",
+    "title": "Christian McCaffrey tightness injury revealed to be true as other veteran RB released",
+    "url": "https://sports.yahoo.com/articles/christian-mccaffrey-tightness-injury-revealed-010939810.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T01:09:39.000Z",
+    "summary": "The San Francisco 49ers running back room might’ve received some good news when it comes to Christian McCaffrey’s mystery tightness. Or maybe it’s not good news. It depends on where...",
+    "tags": [
+      "league-news",
+      "injury",
+      "roster-move",
+      "SF"
+    ],
+    "players": [
+      "christian-mccaffrey"
+    ],
+    "teams": [
+      "SF"
     ]
   },
   {
@@ -280,6 +480,24 @@
     ],
     "teams": [
       "PHI"
+    ]
+  },
+  {
+    "id": "1vp31jn1ooeihf",
+    "title": "Full details of Jamal Adams’ brutal season-ending injury — and future Vikings role — revealed",
+    "url": "https://sports.yahoo.com/articles/full-details-jamal-adams-brutal-230955181.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-17T23:09:55.000Z",
+    "summary": "Jamal Adams' chance at reviving his career was over before it started in Minnesota.",
+    "tags": [
+      "league-news",
+      "injury",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "MIN"
     ]
   },
   {
@@ -7372,224 +7590,6 @@
     "players": [],
     "teams": [
       "DEN"
-    ]
-  },
-  {
-    "id": "1wy8vd71n6h8o9",
-    "title": "Chris Rodriguez Jr. Getting a Lot of Work with First-Team [Oehser]",
-    "url": "https://www.reddit.com/r/fantasyfootball/comments/1vnmgfp/chris_rodriguez_jr_getting_a_lot_of_work_with",
-    "source": "r/fantasyfootball",
-    "sourceId": "reddit-fantasyfootball",
-    "publishedAt": "2026-08-13T20:31:52.000Z",
-    "summary": "&#32; submitted by &#32; /u/jsparks50 [link] &#32; [comments]",
-    "tags": [
-      "fantasy",
-      "usage"
-    ],
-    "players": [
-      "chris-rodriguez"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1qpjzhn1lfkq3d",
-    "title": "NFL training camp injuries tracker: Latest updates on Chuba Hubbard, Christian McCaffrey, Alec Pierce and more",
-    "url": "https://www.cbssports.com/nfl/news/nfl-training-camp-injuries-tracker",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-13T20:29:44.000Z",
-    "summary": "Keep track of every major injury, setback, and recovery timeline across the league as teams prepare for the upcoming season",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "christian-mccaffrey",
-      "chuba-hubbard",
-      "alec-pierce"
-    ],
-    "teams": []
-  },
-  {
-    "id": "soegqd1bvezpr",
-    "title": "Patriots sign RB JaMycal Hasty",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-sign-rb-jamycal-hasty",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-13T20:17:44.000Z",
-    "summary": "Running back JaMycal Hasty is back with the Patriots.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "dgnybo3i7240",
-    "title": "Report: Cardinals have \"zero long-term worry\" about Carson Beck's rib injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-cardinals-have-zero-long-term-worry-about-carson-becks-rib-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-13T20:14:00.000Z",
-    "summary": "At times with rib injuries, a minor issue can quickly become major after further examination and tests.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "hmpsg9wiqquz",
-    "title": "Puka Nacua dealing with deep core muscle tightness",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-dealing-with-deep-core-muscle-tightness",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-13T20:01:40.000Z",
-    "summary": "Rams wide receiver Puka Nacua missed practice on Thursday after leaving the joint practice with the Cowboys two days ago with an injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability",
-      "DAL",
-      "LAR"
-    ],
-    "players": [
-      "puka-nacua"
-    ],
-    "teams": [
-      "DAL",
-      "LAR"
-    ]
-  },
-  {
-    "id": "111sbqs1uj48k2",
-    "title": "Saints rookie WR Jordyn Tyson leaves practice with injury",
-    "url": "https://www.espn.com/nfl/story/_/id/49602181/saints-rookie-wr-jordyn-tyson-leaves-practice-injury",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-13T19:18:09.000Z",
-    "summary": "Saints rookie wide receiver Jordyn Tyson left practice with an injury Thursday and didn't return.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "NO"
-    ],
-    "players": [
-      "jordyn-tyson"
-    ],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "18e20ae1ykygwc",
-    "title": "Source: Cardinals' Beck (rib) out, derailing rematch vs. Mendoza",
-    "url": "https://www.espn.com/nfl/story/_/id/49602122/source-cardinals-beck-rib-derailing-rematch-vs-mendoza",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-13T19:15:13.000Z",
-    "summary": "Cardinals quarterback Carson Beck won't play in Thursday night's preseason game against the Raiders due to a rib injury sustained in last Thursday's Hall of Fame Game, a source told NFL Network's Ian Rapoport.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "ARI",
-      "LV"
-    ]
-  },
-  {
-    "id": "1bu65bzr36adz",
-    "title": "Carson Beck rib injury: Cardinals rookie quarterback to sit out game vs. Raiders in Fernando Mendoza&#039;s debut",
-    "url": "https://www.cbssports.com/nfl/news/carson-beck-rib-injury-cardinals-quarterback-vs-raiders-preseason",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-13T18:49:36.000Z",
-    "summary": "Beck sustained the injury during the Hall of Fame Game",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "ARI",
-      "LV"
-    ],
-    "players": [
-      "fernando-mendoza"
-    ],
-    "teams": [
-      "ARI",
-      "LV"
-    ]
-  },
-  {
-    "id": "3q31cjzzz9pz",
-    "title": "Carson Beck to miss Cardinals preseason game vs. Raiders with injury",
-    "url": "https://sports.yahoo.com/articles/carson-beck-miss-cardinals-preseason-184724228.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T18:47:24.000Z",
-    "summary": "Carson Beck shined in his preseason debut, but a rib injury is set to sideline the Cardinals QB before an encore performance. Here's what to know.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "ARI",
-      "LV"
-    ]
-  },
-  {
-    "id": "12ewn90wsmtg",
-    "title": "Malik Willis expected to start Dolphins preseason game Friday",
-    "url": "https://sports.yahoo.com/articles/malik-willis-expected-start-dolphins-183224206.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T18:32:24.000Z",
-    "summary": "Miami’s starting quarterback looks for promising showing in first start with team.",
-    "tags": [
-      "league-news",
-      "MIA"
-    ],
-    "players": [
-      "malik-willis"
-    ],
-    "teams": [
-      "MIA"
-    ]
-  },
-  {
-    "id": "1acusql6jqwq3",
-    "title": "Puka Nacua, Myles Garrett not practicing for Rams on Thursday",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-myles-garrett-not-practicing-for-rams-on-thursday",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-13T18:29:01.000Z",
-    "summary": "Two of the Rams key players are not participating in Thursday's practice.",
-    "tags": [
-      "league-news",
-      "availability",
-      "LAR"
-    ],
-    "players": [
-      "puka-nacua"
-    ],
-    "teams": [
-      "LAR"
     ]
   }
 ]

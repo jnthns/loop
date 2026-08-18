@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -532,6 +532,28 @@
       "playerName": "Tyler Warren",
       "pos": "TE",
       "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 46,
+      "round": 4,
+      "slot": 10,
+      "rosterId": 9,
+      "playerId": "a-j-brown",
+      "playerName": "A.J. Brown",
+      "pos": "WR",
+      "nflTeam": "NE",
+      "mine": false
+    },
+    {
+      "pick": 47,
+      "round": 4,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "quinshon-judkins",
+      "playerName": "Quinshon Judkins",
+      "pos": "RB",
+      "nflTeam": "CLE",
       "mine": false
     }
   ]
