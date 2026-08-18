@@ -1,5 +1,257 @@
 [
   {
+    "id": "1hqdtbq1xrviwy",
+    "title": "Commanders sign DT Maurice Hurst, TE Tre McKitty",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-sign-dt-maurice-hurst-te-tre-mckitty",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-18T12:58:15.000Z",
+    "summary": "The Commanders announced a slew of roster moves on Tuesday morning.",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "59idt7qsxcu9",
+    "title": "Jets sign CB Keenan Garber, LB Nate Lynn",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-sign-cb-keenan-garber-lb-nate-lynn",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-18T12:43:38.000Z",
+    "summary": "The Jets kicked off Tuesday by making a handful of roster moves.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "19ir1vr15fanb3",
+    "title": "Jets sign CB Keenan Garber, LB Nate Lynn",
+    "url": "https://sports.yahoo.com/articles/jets-sign-cb-keenan-garber-124338488.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T12:43:38.000Z",
+    "summary": "The Jets kicked off Tuesday by making a handful of roster moves.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "4n5hr1rszg41",
+    "title": "Devon Witherspoon: Nothing's going to change now that I signed contract",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/devon-witherspoon-nothings-going-to-change-now-that-i-signed-contract",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-18T12:36:31.000Z",
+    "summary": "Seahawks cornerback Devon Witherspoon's approach to the game over his first three seasons landed him a big new contract this month.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "12mztkxi4mrwf",
+    "title": "How Jordyn Tyson's injury could impact the Saints this season",
+    "url": "https://www.espn.com/video/clip/_/id/49647746/how-jordyn-tyson-injury-impact-saints-season",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-18T12:32:47.000Z",
+    "summary": "How Jordyn Tyson's injury could impact the Saints this season",
+    "tags": [
+      "league-news",
+      "injury",
+      "NO"
+    ],
+    "players": [
+      "jordyn-tyson"
+    ],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "4wd1wu135n67i",
+    "title": "Undrafted rookie Jacob Rizy taking increased Patriots role in stride",
+    "url": "https://sports.yahoo.com/articles/undrafted-rookie-jacob-rizy-taking-115547584.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T11:55:47.000Z",
+    "summary": "Rizy took over for the injured Ben Brown in the preseason opener.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1ya195y1rwmaa6",
+    "title": "Dolphins bring back Seth Coleman-Lyles",
+    "url": "https://sports.yahoo.com/articles/dolphins-bring-back-seth-coleman-113000614.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T11:30:00.000Z",
+    "summary": "The Miami Dolphins are re-signing Seth Coleman-Lyles.",
+    "tags": [
+      "league-news",
+      "contract",
+      "MIA"
+    ],
+    "players": [],
+    "teams": [
+      "MIA"
+    ]
+  },
+  {
+    "id": "1vio6dciezp1u",
+    "title": "Dolphins news: Chris Bell, Kyle Louis, Jonah Savaiinaea updates",
+    "url": "https://sports.yahoo.com/articles/dolphins-news-chris-bell-kyle-110000516.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T11:00:00.000Z",
+    "summary": "The latest from the Miami Dolphins includes Chris Bell returning to practice, Kyle Louis adding safety work, and an injury update. Check out the Splash Zone.",
+    "tags": [
+      "league-news",
+      "injury",
+      "MIA"
+    ],
+    "players": [],
+    "teams": [
+      "MIA"
+    ]
+  },
+  {
+    "id": "1e1hckq1ogltg6",
+    "title": "Tampa Bay Buccaneers news: Tristan Wirfs gets good injury update",
+    "url": "https://sports.yahoo.com/articles/tampa-bay-buccaneers-news-tristan-110000579.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T11:00:00.000Z",
+    "summary": "The Tampa Bay Buccaneers are awaiting the return of offensive lineman Tristan Wirfs.",
+    "tags": [
+      "league-news",
+      "injury",
+      "TB"
+    ],
+    "players": [],
+    "teams": [
+      "TB"
+    ]
+  },
+  {
+    "id": "1vml78f3nu5px",
+    "title": "What signing Greg Van Roten means for the Patriots",
+    "url": "https://sports.yahoo.com/articles/signing-greg-van-roten-means-104501028.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T10:45:01.000Z",
+    "summary": "The Patriots are adding the veteran to their offensive line.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "16htwn1sspy5p",
+    "title": "How Von Miller’s Super Bowl experience could elevate the Cowboys | Opinion",
+    "url": "https://sports.yahoo.com/articles/von-miller-super-bowl-experience-100527479.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T10:05:27.000Z",
+    "summary": "The Cowboys signed Von Miller on Sunday, August 16. Miller's experience could have the biggest influence on the franchise on and off of the field.",
+    "tags": [
+      "league-news",
+      "contract",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "kwb9f8xvh5ea",
+    "title": "The Bear’s Den: Bears sign Marcus Davenport, take day off practice",
+    "url": "https://sports.yahoo.com/articles/bear-den-bears-sign-marcus-100000983.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T10:00:00.000Z",
+    "summary": "A new Bear in Marcus Davenport, an injury update on Kyle Monangai and several other roster moves highlight the news",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "CHI"
+    ],
+    "players": [
+      "kyle-monangai"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1aif2ca1saa1y0",
+    "title": "Will Sedrick Van-Pran Granger win the backup center gig in Year 3 or get cut?",
+    "url": "https://sports.yahoo.com/articles/sedrick-van-pran-granger-win-100000935.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T10:00:00.000Z",
+    "summary": "Is this third-year offensive lineman fighting for his roster spot this season?",
+    "tags": [
+      "league-news",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1s8wbd01542vdq",
+    "title": "Jared Verse on practice fight with Spencer Fano: Fighting is necessary in football",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-verse-on-practice-fight-with-spencer-fano-fighting-is-necessary-in-football",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-18T07:50:32.000Z",
+    "summary": "Verse said he gained respect for Fano because the rookie didn't back down against him.",
+    "tags": [
+      "league-news",
+      "rookie"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
     "id": "17mn81xpxwnvf",
     "title": "Patrick Mekari Reportedly Undergoes Back Surgery",
     "url": "https://sports.yahoo.com/articles/patrick-mekari-reportedly-undergoes-back-052533084.html",
@@ -35,6 +287,26 @@
       "puka-nacua"
     ],
     "teams": []
+  },
+  {
+    "id": "137mit61edlzza",
+    "title": "Cam Skattebo won’t let gruesome injury change his Giants game",
+    "url": "https://sports.yahoo.com/articles/cam-skattebo-won-t-let-034453328.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T03:44:53.000Z",
+    "summary": "Cam Skattebo is looking to add to his game, not subtract from it.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYG"
+    ],
+    "players": [
+      "cam-skattebo"
+    ],
+    "teams": [
+      "NYG"
+    ]
   },
   {
     "id": "19j4gugtmn7p8",
@@ -7301,295 +7573,6 @@
     ],
     "teams": [
       "LV"
-    ]
-  },
-  {
-    "id": "1rh0brns7ndvz",
-    "title": "Former Lions first-round pick Terrion Arnold plans to sign with Seahawks, still subject to suspension",
-    "url": "https://www.cbssports.com/nfl/news/terrion-arnold-plans-to-sign-with-seahawks",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-14T00:30:45.000Z",
-    "summary": "The former Lions first-round pick is heading to the defending Super Bowl champions while still facing serious felony charges in Florida",
-    "tags": [
-      "league-news",
-      "contract",
-      "discipline",
-      "DET",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "DET",
-      "SEA"
-    ]
-  },
-  {
-    "id": "19v6u1a1q8seee",
-    "title": "Chris Bell or Caleb Douglas. Who is the Dolphins rookie WR you would rather own?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vnrdot/chris_bell_or_caleb_douglas_who_is_the_dolphins",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-13T23:52:03.000Z",
-    "summary": "Many regarded Bell as the better prospect and had him higher within rankings but Douglas was drafted with higher capital and getting praise from camp with Bell still sidelines from his injury. Who would you prefer and why? It seems like someone will have to emerge from this WR room this year. Are you buying the Douglas camp hype or gambling on the upside of Bell? &#32; submitted by &#32; /u/EbonyM",
-    "tags": [
-      "dynasty",
-      "injury",
-      "rookie",
-      "MIA"
-    ],
-    "players": [
-      "caleb-douglas"
-    ],
-    "teams": [
-      "MIA"
-    ]
-  },
-  {
-    "id": "1u6zkre1z0r90a",
-    "title": "Rams’ rivals sign CB facing 8 felony charges",
-    "url": "https://sports.yahoo.com/articles/rams-rivals-sign-cb-facing-235144138.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T23:51:44.000Z",
-    "summary": "Seahawks are signing Terrion Arnold",
-    "tags": [
-      "league-news",
-      "contract",
-      "LAR",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "LAR",
-      "SEA"
-    ]
-  },
-  {
-    "id": "p5fnj4d0x3yq",
-    "title": "Terrion Arnold set to sign with Seahawks",
-    "url": "https://sports.yahoo.com/articles/terrion-arnold-set-sign-seahawks-234427521.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T23:44:27.000Z",
-    "summary": "The Seahawks were quickly linked to Arnold after his release from Detroit, and now it appears Seattle has another first round cornerback.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "g5svxd1u7f941",
-    "title": "Super Bowl champion Seahawks signing CB charged with kidnapping",
-    "url": "https://sports.yahoo.com/articles/super-bowl-champion-seahawks-signing-233651743.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T23:36:51.000Z",
-    "summary": "A former first-round pick by the Detroit Lions, Terrion Arnold is facing the possibility of life in prison on kidnapping and armed robbery charges.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "DET",
-      "SEA"
-    ]
-  },
-  {
-    "id": "psr6bq1i4xc5m",
-    "title": "Kansas City Chiefs roster",
-    "url": "https://sports.yahoo.com/articles/kansas-city-chiefs-roster-003019778.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T23:00:00.000Z",
-    "summary": "The up-to-date team roster, including contract and salary cap information.",
-    "tags": [
-      "league-news",
-      "contract",
-      "KC"
-    ],
-    "players": [],
-    "teams": [
-      "KC"
-    ]
-  },
-  {
-    "id": "1ntfwk01qoldue",
-    "title": "Tyson Bagent ends practice with a long TD; will start for Bears on Saturday",
-    "url": "https://sports.yahoo.com/articles/tyson-bagent-ends-practice-long-220000165.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T22:00:00.000Z",
-    "summary": "Some Bears preseason personnel news plus a practice recap from @wiltfongjr.",
-    "tags": [
-      "league-news",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "3idv6l79gy4h",
-    "title": "Malik Nabers takes ‘big step’ in his Giants recovery — even if one coach paid the price",
-    "url": "https://sports.yahoo.com/articles/malik-nabers-takes-big-step-215021383.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T21:50:21.000Z",
-    "summary": "Malik Nabers was so excited to have an increased workload Thursday that he inadvertently busted open his receiver coach’s lip.",
-    "tags": [
-      "league-news",
-      "usage",
-      "NYG"
-    ],
-    "players": [
-      "malik-nabers"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "34snc81qouci8",
-    "title": "Steelers place DE Logan Lee on IR",
-    "url": "https://sports.yahoo.com/articles/steelers-place-logan-lee-ir-213944381.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T21:39:44.000Z",
-    "summary": "The Steelers place a veteran defensive lineman on IR.",
-    "tags": [
-      "league-news",
-      "injury",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "htmhkdwwnovf",
-    "title": "What placing Terrell Jennings on IR means for the Patriots",
-    "url": "https://sports.yahoo.com/articles/placing-terrell-jennings-ir-means-212454241.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T21:24:54.000Z",
-    "summary": "The third-year running back was moved to the reserve list ahead of Thursday’s preseason opener.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "13j9ckg18y87gu",
-    "title": "Cardinals vs Raiders Predictions, Picks & Odds for Tonight's NFL Preseason Game",
-    "url": "https://sports.yahoo.com/articles/cardinals-vs-raiders-predictions-picks-191100616.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-13T21:21:00.000Z",
-    "summary": "Led by Jacoby Brissett taking first-team reps, the Cardinals present strong moneyline value to set the tone early in our Cardinals vs. Raiders predictions and NFL picks for Thursday, Aug. 13.",
-    "tags": [
-      "league-news",
-      "usage",
-      "ARI",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "ARI",
-      "LV"
-    ]
-  },
-  {
-    "id": "1q8wfsj13dnr3f",
-    "title": "Giants WRs coach Chad Hall left bloodied after collision with Malik Nabers' helmet",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-wr-coach-chad-hall-left-bloodied-after-collision-with-malik-nabers-helmet",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-13T21:10:44.000Z",
-    "summary": "Giants wide receiver Malik Nabers is wearing a red practice jersey, meaning he is injured and should not be touched.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYG"
-    ],
-    "players": [
-      "malik-nabers"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1yq2ko4k5m3fi",
-    "title": "Chiefs officially sign Emmanuel Ogbah",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-officially-sign-emmanuel-ogbah",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-13T20:59:39.000Z",
-    "summary": "Emmanuel Ogbah is officially back with the Chiefs.",
-    "tags": [
-      "league-news",
-      "contract",
-      "KC"
-    ],
-    "players": [],
-    "teams": [
-      "KC"
-    ]
-  },
-  {
-    "id": "118laiwallnca",
-    "title": "Has the Pendulum Swung Too Far Away from Josh Jacobs?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vnmvru/has_the_pendulum_swung_too_far_away_from_josh",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-13T20:48:19.000Z",
-    "summary": "Josh Jacobs averaged 15 PPG last year and scored 13 touchdowns for the Packers in 2025. There are certainly some pros and cons to this player as he's an aged runningback who had a rough year efficiency wise. Cons: - He's 28 years old - He averaged a paltry 3.9 yards a carry last season. Not ideal. - He's been banged up the last couple of years. - Possible suspension (I think unlikely because there",
-    "tags": [
-      "dynasty",
-      "discipline",
-      "GB"
-    ],
-    "players": [
-      "josh-jacobs"
-    ],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "13nhg9p1ngzyv",
-    "title": "Broncos place C Mike Deiter on IR, sign C Lecitus Smith",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-place-c-mike-deiter-on-ir-sign-c-lecitus-smith",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-13T20:37:38.000Z",
-    "summary": "The Broncos have placed center Mike Deiter on season-ending injured reserve, Mike Klis of 9News reports.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
     ]
   }
 ]

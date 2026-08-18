@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-18T07:02:59.451Z",
-  "snapshotAt": "2026-08-17T07:46:40Z",
+  "capturedAt": "2026-08-18T13:06:19.087Z",
+  "snapshotAt": "2026-08-18T07:33:20Z",
   "season": "2026",
   "entries": [
     {
@@ -756,11 +756,19 @@
       "sleeperId": "8142"
     },
     {
+      "id": "keenan-allen",
+      "name": "Keenan Allen",
+      "pos": "WR",
+      "nflTeam": "IND",
+      "depthRank": 2,
+      "sleeperId": "1479"
+    },
+    {
       "id": "josh-downs",
       "name": "Josh Downs",
       "pos": "WR",
       "nflTeam": "IND",
-      "depthRank": 2,
+      "depthRank": 3,
       "sleeperId": "9500"
     },
     {
@@ -928,7 +936,7 @@
       "name": "Dean Connors",
       "pos": "RB",
       "nflTeam": "LA",
-      "depthRank": 6,
+      "depthRank": 5,
       "sleeperId": "13315"
     },
     {
@@ -1698,14 +1706,6 @@
       "nflTeam": "SF",
       "depthRank": 1,
       "sleeperId": "4034"
-    },
-    {
-      "id": "khalil-herbert",
-      "name": "Khalil Herbert",
-      "pos": "RB",
-      "nflTeam": "SF",
-      "depthRank": 7,
-      "sleeperId": "7608"
     },
     {
       "id": "george-kittle",

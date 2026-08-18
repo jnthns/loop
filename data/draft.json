@@ -555,6 +555,28 @@
       "pos": "RB",
       "nflTeam": "CLE",
       "mine": false
+    },
+    {
+      "pick": 48,
+      "round": 4,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "chris-olave",
+      "playerName": "Chris Olave",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 49,
+      "round": 5,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "devonta-smith",
+      "playerName": "DeVonta Smith",
+      "pos": "WR",
+      "nflTeam": "PHI",
+      "mine": false
     }
   ]
 }
