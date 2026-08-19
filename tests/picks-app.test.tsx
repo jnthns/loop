@@ -396,13 +396,43 @@ describe('PicksApp — showing its work', () => {
     );
   });
 
-  it('cites where the numbers came from', () => {
+  it('credits every upstream, with its license and its caveat', () => {
     setup();
-    const sources = screen.getByTestId('picks-sources');
-    expect(within(sources).getByRole('link', { name: 'DynastyProcess' })).toHaveAttribute(
+    const credits = screen.getByTestId('data-sources');
+    const rows = within(credits).getAllByTestId('data-source');
+    expect(rows.map((r) => r.dataset.source)).toEqual([
+      'dynastyprocess',
+      'nflverse',
+      'sleeper',
+      'espn-api',
+      'rss',
+    ]);
+  });
+
+  it('renders the nflverse credit its CC-BY-4.0 license actually requires', () => {
+    setup();
+    // Attribution is a license term, and it runs to whoever reads the page — a
+    // credit that only exists in a source comment does not discharge it.
+    const nflverse = screen
+      .getAllByTestId('data-source')
+      .find((row) => row.dataset.source === 'nflverse')!;
+    expect(within(nflverse).getByRole('link', { name: /nflverse/i })).toHaveAttribute(
       'href',
-      'https://github.com/dynastyprocess/data',
+      'https://github.com/nflverse/nflverse-data',
     );
+    expect(within(nflverse).getByRole('link', { name: 'CC-BY-4.0' })).toHaveAttribute(
+      'href',
+      'https://creativecommons.org/licenses/by/4.0/',
+    );
+  });
+
+  it('flags the undocumented endpoint instead of listing it beside the stable ones', () => {
+    setup();
+    const espn = screen
+      .getAllByTestId('data-source')
+      .find((row) => row.dataset.source === 'espn-api')!;
+    expect(within(espn).getByText('UNDOCUMENTED')).toBeInTheDocument();
+    expect(espn).toHaveTextContent(/no stability guarantee/i);
   });
 
   it('explains itself when there is no data yet', () => {

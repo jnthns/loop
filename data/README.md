@@ -63,6 +63,37 @@ aging starter as a question to investigate, never as a verdict.
 A player with no entry is *not listed*, which is different from being buried.
 The app renders nothing in that case rather than inventing a rank.
 
+## Where the data comes from, and what each source owes
+
+The full registry is [`src/lib/data/sources.ts`](../src/lib/data/sources.ts) —
+one entry per upstream, carrying its license, refresh cadence, what it provides,
+and its caveat. It renders on `/picks` under "Where this data comes from", and
+`tests/sources.test.ts` fails the build if any host is fetched from `scripts/`
+or `src/lib/` without an entry. That is deliberate: provenance drift is silent,
+and a registry nothing enforces is a registry that rots.
+
+| Upstream | Provides | License | Stability |
+| -------- | -------- | ------- | --------- |
+| [DynastyProcess](https://github.com/dynastyprocess/data) | FantasyPros ECR + trade-value model | GPL-3.0 | Open dataset (~100★) |
+| [nflverse](https://github.com/nflverse/nflverse-data) | Depth-chart rank | **CC-BY-4.0** | Open dataset (~380★) |
+| [Sleeper](https://docs.sleeper.com/) | League, rosters, search rank, trending | Public keyless API | Official API |
+| ESPN `site.api.espn.com` | Standings, injuries, news | No published terms | **Undocumented** |
+| RSS (ESPN, PFT, CBS, Yahoo, 2 subreddits) | Headlines | Publisher syndication | Public feeds |
+
+Three things a future pass should not have to rediscover:
+
+- **nflverse is CC-BY-4.0, so attribution is a license term, not a courtesy.**
+  It is discharged by rendering the credit on the page — a comment in the source
+  does not satisfy a licence whose obligation runs to the reader. Every `DC1`
+  badge in this app is nflverse data.
+- **We do not read KeepTradeCut.** No request is ever made to keeptradecut.com.
+  `ktc_id` is an id in DynastyProcess's crosswalk, used only to build deep links
+  to KTC player pages. Do not describe KTC as a data source.
+- **FantasyPros ECR and the DynastyProcess value are one opinion, not two.**
+  DynastyProcess derives the value curve from that consensus; sorting the
+  snapshot both ways puts 69.5% of players in the identical position. Sleeper's
+  `search_rank` is the only independent ranking here.
+
 ## Scouting profiles — the only prose the picks page treats as fact
 
 `profiles.json` is the qualitative half of a pick recommendation: what a
