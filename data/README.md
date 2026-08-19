@@ -15,6 +15,7 @@ runtime API: if a fact is not in this directory or in
 | `trending.json` | `scripts/sync-sleeper.ts` (CI cron)       | League-wide add/drop counts. Market signal, **not news**.   |
 | `insights.json` | the `roster-review` loop                  | Dated briefings; every suggestion cites news or knowledge.  |
 | `depth.json`    | `scripts/sync-depth.ts` (CI cron)         | NFL depth-chart rank per player. Opportunity, **not** talent. |
+| `profiles.json` | a human, or the `roster-review` loop      | Cited scouting notes — role, fit, risk. Never synced. See below. |
 
 ## Who owns what in `team.json`
 
@@ -61,6 +62,28 @@ aging starter as a question to investigate, never as a verdict.
 
 A player with no entry is *not listed*, which is different from being buried.
 The app renders nothing in that case rather than inventing a rank.
+
+## Scouting profiles — the only prose the picks page treats as fact
+
+`profiles.json` is the qualitative half of a pick recommendation: what a
+player's **role** actually is, how the **fit** helps or caps him, and the
+specific **risk** that would make the pick wrong. Everything else the picks
+page reads is a number a sync wrote, and numbers cannot say why.
+
+Two rules are enforced by `src/lib/schemas/profiles.ts` and
+`tests/schemas.test.ts`, not by good intentions:
+
+- **Every profile cites at least one source.** The same gate the knowledge
+  collection uses. A profile is a claim about the real world, and the loop can
+  write these unattended.
+- **Every profile carries an `asOf` date, and goes stale at 45 days.** Roles
+  churn — an August camp split is a different fact in November. A profile that
+  outlived its reporting fails the check loudly rather than quietly misleading
+  the next pick.
+
+Keep them short and *evergreen-ish*: role, scheme, risk. Do not restate a rank
+or a value that `market.json` already carries — two sources of truth for the
+same fact is how they start disagreeing.
 
 ## Player availability
 

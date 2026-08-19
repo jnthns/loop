@@ -1,8 +1,17 @@
 ---
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import PicksApp from '~/components/PicksApp';
-import { market, trending, players, draft, team, depthRankById } from '~/lib/data';
+import {
+  market,
+  trending,
+  players,
+  draft,
+  team,
+  depthRankById,
+  profiles,
+} from '~/lib/data';
 import { buildPositionBoards } from '~/lib/picks/board';
+import { buildPickRecommendations } from '~/lib/picks/recommend';
 import { href } from '~/lib/url';
 
 const data = buildPositionBoards({
@@ -14,12 +23,22 @@ const data = buildPositionBoards({
   depthRankById,
 });
 
+const recs = buildPickRecommendations({
+  market,
+  trending,
+  players,
+  draft,
+  team,
+  profiles,
+  depthRankById,
+});
+
 const links = { team: href('/team'), builds: href('/builds') };
 
 const lede =
-  'Every position, most popular first — expert consensus for draft day, Sleeper add counts for the waiver wire. Players already drafted or rostered in this league are marked, so the next name down is one glance away.';
+  'Who to take next, scored against your own roster. Every available player is weighed on two market sources, the holes in your lineup, this league’s scoring settings, and the published age curve for his position — with the arithmetic shown on every row. The old consensus board is still a click away.';
 ---
 
 <BaseLayout title="Picks" lede={lede} tone="pink">
-  <PicksApp client:load data={data} links={links} />
+  <PicksApp client:load data={data} recs={recs} links={links} />
 </BaseLayout>

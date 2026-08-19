@@ -4,6 +4,7 @@ import { PlayersSchema, PlayerSchema } from '~/lib/schemas/players';
 import { TeamSchema, eligiblePositions } from '~/lib/schemas/team';
 import { InsightsSchema, hasCitation, type Suggestion } from '~/lib/schemas/insights';
 import { DepthSchema } from '~/lib/schemas/depth';
+import { ProfilesSchema, ProfileSchema } from '~/lib/schemas/profiles';
 
 import feeds from '../data/feeds.json';
 import news from '../data/news.json';
@@ -11,6 +12,7 @@ import players from '../data/players.json';
 import team from '../data/team.json';
 import insights from '../data/insights.json';
 import depth from '../data/depth.json';
+import profiles from '../data/profiles.json';
 
 /**
  * This file, and this file alone (with tests/insights.test.ts), asserts against
@@ -46,6 +48,74 @@ describe('committed data files', () => {
     const result = DepthSchema.safeParse(depth);
     expect(result.error?.issues ?? []).toEqual([]);
     expect(result.success).toBe(true);
+  });
+
+  it('data/profiles.json is valid', () => {
+    const result = ProfilesSchema.safeParse(profiles);
+    expect(result.error?.issues ?? []).toEqual([]);
+    expect(result.success).toBe(true);
+  });
+});
+
+/**
+ * Scouting profiles are the one place in the app where prose about a real
+ * player is rendered as fact, and the loop can write them unattended. The
+ * schema already refuses an uncited profile; these checks cover what a schema
+ * cannot see — that the citation points somewhere real, that the player exists,
+ * and that the reporting has not quietly rotted into last season.
+ */
+describe('scouting profiles', () => {
+  const parsed = ProfilesSchema.parse(profiles);
+  const parsedPlayers = PlayersSchema.parse(players);
+  const playerIds = new Set(parsedPlayers.map((p) => p.id));
+
+  /** Matches the 45-day staleness window the knowledge collection already uses. */
+  const MAX_AGE_DAYS = 45;
+
+  it('every profile points at a player we actually track', () => {
+    for (const profile of parsed) {
+      expect(playerIds.has(profile.playerId), `unknown player ${profile.playerId}`).toBe(true);
+    }
+  });
+
+  it('profiles are unique per player', () => {
+    const ids = parsed.map((p) => p.playerId);
+    expect(ids).toHaveLength(new Set(ids).size);
+  });
+
+  it('every profile cites at least one usable source', () => {
+    for (const profile of parsed) {
+      expect(profile.sources.length, `${profile.playerId} cites nothing`).toBeGreaterThan(0);
+      for (const source of profile.sources) {
+        expect(source.url.startsWith('https://'), `${profile.playerId}: ${source.url}`).toBe(true);
+        expect(source.label.trim().length).toBeGreaterThan(0);
+      }
+    }
+  });
+
+  it('no profile has gone stale', () => {
+    for (const profile of parsed) {
+      const asOf = new Date(profile.asOf);
+      expect(Number.isNaN(asOf.getTime()), `${profile.playerId} has an unparseable asOf`).toBe(false);
+      const ageDays = (Date.now() - asOf.getTime()) / 86_400_000;
+      expect(
+        ageDays,
+        `${profile.playerId} was last checked ${Math.round(ageDays)} days ago — re-verify the reporting or drop the profile`,
+      ).toBeLessThan(MAX_AGE_DAYS);
+    }
+  });
+
+  it('rejects a profile that cites nothing', () => {
+    const result = ProfileSchema.safeParse({
+      playerId: 'someone',
+      headline: 'h',
+      role: 'r',
+      fit: 'f',
+      risk: 'x',
+      asOf: '2026-08-18',
+      sources: [],
+    });
+    expect(result.success).toBe(false);
   });
 });
 
