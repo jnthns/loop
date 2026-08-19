@@ -15,6 +15,7 @@ import {
   StatusTag,
 } from '~/components/ui/Primitives';
 import type { Tone } from '~/lib/ui/tone';
+import { DATA_SOURCES, type SourceStability } from '~/lib/data/sources';
 
 /**
  * The picks page: "who should I take next, and why?"
@@ -71,6 +72,22 @@ const AVAILABILITY_TONE: Record<BoardEntry['availability'], Tone> = {
   available: 'green',
   drafted: 'slate',
   rostered: 'slate',
+};
+
+/** How much a source can be relied on — the label the credits block leads with. */
+const STABILITY_LABEL: Record<SourceStability, string> = {
+  'open-dataset': 'OPEN DATASET',
+  'official-api': 'OFFICIAL API',
+  'public-feed': 'PUBLIC FEED',
+  undocumented: 'UNDOCUMENTED',
+};
+
+/** Amber, not green, for the undocumented endpoint — it is the fragile one. */
+const STABILITY_TONE: Record<SourceStability, Tone> = {
+  'open-dataset': 'green',
+  'official-api': 'green',
+  'public-feed': 'slate',
+  undocumented: 'amber',
 };
 
 const MODES: [ListMode, string][] = [
@@ -332,22 +349,67 @@ export function PicksApp({ data, recs, links }: PicksAppProps) {
           </a>
           .
         </p>
-        <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[11px]" data-testid="picks-sources">
-          {data.sources.map((source) => (
-            <li key={source.url}>
+      </div>
+
+      <DataSourceCredits />
+    </div>
+  );
+}
+
+/**
+ * Where every number on this page came from.
+ *
+ * This is not decoration. nflverse publishes its depth charts under CC-BY-4.0,
+ * which makes attribution a license term rather than a courtesy, and the
+ * obligation runs to whoever reads the page — so it has to render here, not sit
+ * in a source comment. Every `DC1` badge on this page is nflverse data.
+ *
+ * The rest earns its space for a different reason: a recommender that will not
+ * say where its inputs come from, how fresh they are, or which of them is an
+ * undocumented endpoint that could vanish, is asking to be trusted instead of
+ * checked.
+ */
+function DataSourceCredits() {
+  return (
+    <details className="card p-3" data-testid="data-sources">
+      <summary className="cursor-pointer text-[12.5px] font-semibold">
+        Where this data comes from
+      </summary>
+      <ul className="mt-3 space-y-3 text-[12px]">
+        {DATA_SOURCES.map((source) => (
+          <li key={source.id} className="space-y-1" data-testid="data-source" data-source={source.id}>
+            <div className="flex flex-wrap items-baseline gap-2">
               <a
                 href={source.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-tone underline decoration-tone-line hover:decoration-tone"
+                className="text-[12.5px] font-semibold text-tone underline decoration-tone-line hover:decoration-tone"
               >
                 {source.label}
               </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
+              <Chip tone={STABILITY_TONE[source.stability]}>{STABILITY_LABEL[source.stability]}</Chip>
+              {source.licenseUrl ? (
+                <a
+                  href={source.licenseUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[11px] text-muted underline"
+                >
+                  {source.license}
+                </a>
+              ) : (
+                <span className="text-[11px] text-muted">{source.license}</span>
+              )}
+            </div>
+            <p className="text-muted">{source.provides}</p>
+            <p className="text-muted">{source.caveat}</p>
+            <p className="text-[11px] text-muted">
+              {source.cadence} Lands in {source.writesTo.join(', ')}.
+            </p>
+          </li>
+        ))}
+      </ul>
+    </details>
   );
 }
 
