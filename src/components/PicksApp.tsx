@@ -46,7 +46,7 @@ export interface PicksAppProps {
   data: PositionBoards;
   recs: PickRecommendations;
   /** Base-path-aware links, resolved by the Astro page (see `src/lib/url.ts`). */
-  links: { team: string; builds: string };
+  links: { team: string; compare: string };
 }
 
 const POS_TONE: Record<BoardPos, Tone> = {
@@ -343,9 +343,9 @@ export function PicksApp({ data, recs, links }: PicksAppProps) {
           <a href={links.team} className="section-link">
             the team page
           </a>
-          ; a full round-by-round sheet lives on{' '}
-          <a href={links.builds} className="section-link">
-            builds
+          ; two players held against every source at once live on{' '}
+          <a href={links.compare} className="section-link">
+            compare
           </a>
           .
         </p>

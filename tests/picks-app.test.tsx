@@ -198,7 +198,7 @@ const recs: PickRecommendations = {
   },
 };
 
-const links = { team: '/loop/team', builds: '/loop/builds' };
+const links = { team: '/loop/team', compare: '/loop/compare' };
 
 function setup() {
   return render(<PicksApp data={data} recs={recs} links={links} />);
