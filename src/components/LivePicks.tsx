@@ -61,7 +61,7 @@ export interface LivePicksProps {
   profiles: Profile[];
   depthRankById: Record<string, number>;
   sleeperConfig: SleeperConfig;
-  links: { team: string; builds: string };
+  links: { team: string; compare: string };
   /** Injectable for tests — defaults to reading this browser's localStorage. */
   loadSnapshot?: typeof loadLiveSnapshot;
 }

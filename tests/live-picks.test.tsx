@@ -109,7 +109,7 @@ function setup(loadSnapshot: () => LiveSleeperSnapshot | null) {
       profiles={[]}
       depthRankById={{}}
       sleeperConfig={sleeperConfig}
-      links={{ team: '/t', builds: '/b' }}
+      links={{ team: '/t', compare: '/c' }}
       loadSnapshot={loadSnapshot}
     />,
   );
