@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -686,6 +686,94 @@
       "playerName": "Rome Odunze",
       "pos": "WR",
       "nflTeam": "CHI",
+      "mine": false
+    },
+    {
+      "pick": 60,
+      "round": 5,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "treveyon-henderson",
+      "playerName": "TreVeyon Henderson",
+      "pos": "RB",
+      "nflTeam": "NE",
+      "mine": false
+    },
+    {
+      "pick": 61,
+      "round": 6,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "tee-higgins",
+      "playerName": "Tee Higgins",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "mine": false
+    },
+    {
+      "pick": 62,
+      "round": 6,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "jordan-love",
+      "playerName": "Jordan Love",
+      "pos": "QB",
+      "nflTeam": "GB",
+      "mine": false
+    },
+    {
+      "pick": 63,
+      "round": 6,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "jadarian-price",
+      "playerName": "Jadarian Price",
+      "pos": "RB",
+      "nflTeam": "SEA",
+      "mine": false
+    },
+    {
+      "pick": 64,
+      "round": 6,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "jaylen-waddle",
+      "playerName": "Jaylen Waddle",
+      "pos": "WR",
+      "nflTeam": "DEN",
+      "mine": true
+    },
+    {
+      "pick": 65,
+      "round": 6,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "jordyn-tyson",
+      "playerName": "Jordyn Tyson",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 66,
+      "round": 6,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "harold-fannin",
+      "playerName": "Harold Fannin",
+      "pos": "TE",
+      "nflTeam": "CLE",
+      "mine": false
+    },
+    {
+      "pick": 67,
+      "round": 6,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "makai-lemon",
+      "playerName": "Makai Lemon",
+      "pos": "WR",
+      "nflTeam": "PHI",
       "mine": false
     }
   ]

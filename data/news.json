@@ -1,5 +1,160 @@
 [
   {
+    "id": "z02y6hhvwz2z",
+    "title": "Anything Can Happen: There is still no update on Packers’ Josh Jacobs",
+    "url": "https://sports.yahoo.com/articles/anything-happen-still-no-packers-070000517.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-19T07:00:00.000Z",
+    "summary": "We are still playing the waiting game after RB Josh Jacobs’ May arrest.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "GB"
+    ],
+    "players": [
+      "josh-jacobs"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "j69lwcoxp9p0",
+    "title": "Report: Alvin Kamara avoided major knee injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-alvin-kamara-avoided-major-knee-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-19T04:07:56.000Z",
+    "summary": "Tuesday's Rock 'Em Sock 'Em joint practice between the Cowboys and Saints included veteran running back Alvin Kamara leaving with an injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DAL",
+      "NO"
+    ],
+    "players": [
+      "alvin-kamara"
+    ],
+    "teams": [
+      "DAL",
+      "NO"
+    ]
+  },
+  {
+    "id": "1m9fvxnrzd9o3",
+    "title": "Report: Alvin Kamara avoided major knee injury",
+    "url": "https://sports.yahoo.com/articles/report-alvin-kamara-avoided-major-040756295.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-19T04:07:56.000Z",
+    "summary": "Tuesday's Rock 'Em Sock 'Em joint practice between the Cowboys and Saints included veteran running back Alvin Kamara leaving with an injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DAL",
+      "NO"
+    ],
+    "players": [
+      "alvin-kamara"
+    ],
+    "teams": [
+      "DAL",
+      "NO"
+    ]
+  },
+  {
+    "id": "ynwl81l0twqa",
+    "title": "John Schneider: \"Shocking\" allegations against Terrion Arnold would have prompted Seahawks to cut him",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-schneider-shocking-allegations-against-terrion-arnold-would-have-prompted-seahawks-to-cut-him",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-19T03:56:21.000Z",
+    "summary": "Latest Hard Knocks includes revealing conversation between Schneider and Jay Harbaugh.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "s2ey0uppzbgy",
+    "title": "Alvin Kamara avoided a major knee injury. Didn’t tear anything. Will be out for a few weeks, per source",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vsamiw/alvin_kamara_avoided_a_major_knee_injury_didnt",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-19T03:13:22.000Z",
+    "summary": "&#32; submitted by &#32; /u/notquitemytempo___ [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [
+      "alvin-kamara"
+    ],
+    "teams": []
+  },
+  {
+    "id": "6cga8f77i15v",
+    "title": "Falcons signing Za’Darius Smith — less than one year after he suddenly retired",
+    "url": "https://sports.yahoo.com/articles/falcons-signing-za-darius-smith-015334115.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-19T01:53:34.000Z",
+    "summary": "The veteran defender finds a new home less than one year after it appeared his pro football career was over.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "8enm1azshr3g",
+    "title": "Bears Camp Report: Fights break out, left tackle shuffle, injury updates",
+    "url": "https://sports.yahoo.com/articles/bears-camp-report-fights-break-014621702.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-19T01:46:21.000Z",
+    "summary": "Check out a recap of today’s Chicago Bears training camp practice from @wiltfongjr.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1elu2unkyhalh",
+    "title": "Malik Nabers must clear next hurdle in ACL recovery before Giants Week 1 return",
+    "url": "https://sports.yahoo.com/articles/malik-nabers-must-clear-next-010719866.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-19T01:07:19.000Z",
+    "summary": "Malik Nabers is going to have to change out of red before he gets the green light from the Giants.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
     "id": "txjjo6139z47a",
     "title": "Brock Rechsteiner, son of WWE star, sparks fight with Cowboys in training camp",
     "url": "https://sports.yahoo.com/articles/brock-rechsteiner-son-wwe-star-004908873.html",
@@ -36,6 +191,27 @@
     "players": [],
     "teams": [
       "NO"
+    ]
+  },
+  {
+    "id": "1prszms19q7poi",
+    "title": "Mike Evans ‘tightness’ and the 49ers’ injury woes that won’t go away",
+    "url": "https://sports.yahoo.com/articles/mike-evans-tightness-49ers-injury-231733756.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T23:17:33.000Z",
+    "summary": "Uh oh. There’s that dreaded word again. Tightness. The mysterious and seemingly contagious condition that has also kept Christian McCaffrey out of San Francisco 49ers training camp cropped up again...",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "christian-mccaffrey",
+      "mike-evans"
+    ],
+    "teams": [
+      "SF"
     ]
   },
   {
@@ -77,6 +253,28 @@
     ]
   },
   {
+    "id": "rrminx1sgox0v",
+    "title": "Fernando Mendoza gets extensive first-team reps in Raiders’ joint practice with Texans",
+    "url": "https://sports.yahoo.com/articles/fernando-mendoza-gets-extensive-first-231129568.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T23:11:29.000Z",
+    "summary": "Las Vegas Raiders quarterback Fernando Mendoza took a huge step in his NFL development.",
+    "tags": [
+      "league-news",
+      "usage",
+      "HOU",
+      "LV"
+    ],
+    "players": [
+      "fernando-mendoza"
+    ],
+    "teams": [
+      "HOU",
+      "LV"
+    ]
+  },
+  {
     "id": "1qgem5qkajvws",
     "title": "Tyler Biadasz injury: Chargers center carted off with left leg injury in massive blow to oft-injured line",
     "url": "https://www.cbssports.com/nfl/news/tyler-biadasz-injury-chargers-center-carted-off-with-left-leg-injury",
@@ -88,6 +286,42 @@
       "league-news",
       "injury",
       "contract",
+      "LAC"
+    ],
+    "players": [],
+    "teams": [
+      "LAC"
+    ]
+  },
+  {
+    "id": "lw4mal1tylw5z",
+    "title": "Chauncey Golston stealing first-team camp reps in new Giants role",
+    "url": "https://sports.yahoo.com/articles/chauncey-golston-stealing-first-team-224841362.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T22:48:41.000Z",
+    "summary": "Observations from Tuesday's Giants practice.",
+    "tags": [
+      "league-news",
+      "usage",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "18fc71pvq8r0t",
+    "title": "Chargers’ Rashawn Slater relief arrives as Tyler Biadasz injury raises new concern",
+    "url": "https://sports.yahoo.com/articles/chargers-rashawn-slater-relief-arrives-224828528.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T22:48:28.000Z",
+    "summary": "The Los Angeles Chargers finally have something resembling a return date for Rashawn Slater. After the Pro Bowl left tackle missed his eighth consecutive practice, head coach Jim Harbaugh said...",
+    "tags": [
+      "league-news",
+      "injury",
       "LAC"
     ],
     "players": [],
@@ -227,6 +461,24 @@
     ],
     "players": [],
     "teams": []
+  },
+  {
+    "id": "14b4kllg3aol9",
+    "title": "49ers’ Fred Warner sets record straight after breaking teammate’s ribs",
+    "url": "https://sports.yahoo.com/articles/49ers-fred-warner-sets-record-214608963.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-18T21:46:08.000Z",
+    "summary": "That distinction matters because the injury had quickly been framed as friendly fire caused by Warner’s trademark technique.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
   },
   {
     "id": "1lkyiv51ezrhub",
@@ -1390,7 +1642,9 @@
       "dynasty",
       "injury"
     ],
-    "players": [],
+    "players": [
+      "tyquan-thornton"
+    ],
     "teams": []
   },
   {
@@ -7345,278 +7599,6 @@
     "players": [],
     "teams": [
       "SEA"
-    ]
-  },
-  {
-    "id": "10gm3hkpxv8uo",
-    "title": "Report: Bills, 49ers and Bears have called Bucs about Vita Vea",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-bills-49ers-and-bears-have-called-bucs-about-vita-vea",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-14T23:28:37.000Z",
-    "summary": "Defensive tackle Vita Vea remains at odds with the Buccaneers over his contract and thus is not practicing.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BUF",
-      "CHI",
-      "SF",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "BUF",
-      "CHI",
-      "SF",
-      "TB"
-    ]
-  },
-  {
-    "id": "1w49zqwzseywo",
-    "title": "Report: Bills, 49ers and Bears have called Bucs about Vita Vea",
-    "url": "https://sports.yahoo.com/articles/report-bills-49ers-bears-called-232837939.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-14T23:28:37.000Z",
-    "summary": "Defensive tackle Vita Vea remains at odds with the Buccaneers over his contract and thus is not practicing.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BUF",
-      "CHI",
-      "SF",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "BUF",
-      "CHI",
-      "SF",
-      "TB"
-    ]
-  },
-  {
-    "id": "bxcdw1cahsbw",
-    "title": "49ers All-Pro makes bold Deebo Samuel prediction ahead of 2026 season",
-    "url": "https://sports.yahoo.com/articles/49ers-pro-makes-bold-deebo-232200241.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-14T23:22:00.000Z",
-    "summary": "Deebo Samuel signed a one-year deal with the 49ers at the end of July. The San Francisco 49ers brought an old friend back into the fold this summer in Deebo...",
-    "tags": [
-      "league-news",
-      "contract",
-      "SF"
-    ],
-    "players": [
-      "deebo-samuel"
-    ],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "16sci9p8h6k85",
-    "title": "Raiders coach provides surprising preseason update on Fernando Mendoza",
-    "url": "https://sports.yahoo.com/articles/raiders-coach-provides-surprising-preseason-231441687.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-14T23:14:41.000Z",
-    "summary": "Las Vegas Raiders head coach Klint Kubiak provides an update on the usage of Fernando Mendoza.Despite Fernando Mendoza being very impressive with the first-team offense in his professional debut, it...",
-    "tags": [
-      "league-news",
-      "usage",
-      "LV"
-    ],
-    "players": [
-      "fernando-mendoza"
-    ],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "jb3koeoqnwug",
-    "title": "San Francisco 49ers depth chart, updated roster projections",
-    "url": "https://sports.yahoo.com/articles/san-francisco-49ers-depth-chart-225712486.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-14T22:57:12.000Z",
-    "summary": "Who's playing? Who's injured? Check out the San Francisco 49ers' unofficial depth chart after preseason Week 1.",
-    "tags": [
-      "league-news",
-      "injury",
-      "usage",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "ek8ndeajw08u",
-    "title": "The Saints are in the “info collecting phase” with Jordyn Tyson’s injury, per HC Kellen Moore. The injury could linger into the season.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vom7r5/the_saints_are_in_the_info_collecting_phase_with",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-14T22:56:50.000Z",
-    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "NO"
-    ],
-    "players": [
-      "jordyn-tyson"
-    ],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "10ci1hr57wx49",
-    "title": "Bucs WR Emeka Egbuka underwent more testing today with a specialist and it was confirmed he has a sprain but it’s stable. Bucs are very optimistic that he will be ready for Week 1.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1volv21/bucs_wr_emeka_egbuka_underwent_more_testing_today",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-14T22:41:30.000Z",
-    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "availability"
-    ],
-    "players": [
-      "emeka-egbuka"
-    ],
-    "teams": []
-  },
-  {
-    "id": "rzc3qgzyvr8i",
-    "title": "Packers coaches talk injuries, preseason opener",
-    "url": "https://sports.yahoo.com/articles/packers-coaches-talk-injuries-preseason-223033655.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-14T22:30:33.000Z",
-    "summary": "Anthony Campbell and Darian Kinnard did not suffer long-term injuries on Thursday night",
-    "tags": [
-      "league-news",
-      "injury",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "1r8zwo1167nfxt",
-    "title": "Why isn't Geno Smith playing in Jets preseason game tonight? Injury update",
-    "url": "https://sports.yahoo.com/articles/why-isnt-geno-smith-playing-222035888.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-14T22:20:35.000Z",
-    "summary": "Jets QB Geno Smith will not play in the team's preseason opener on Friday with the starters against the Buccaneers. Here's why:",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYJ",
-      "TB"
-    ],
-    "players": [
-      "geno-smith"
-    ],
-    "teams": [
-      "NYJ",
-      "TB"
-    ]
-  },
-  {
-    "id": "9j6ly01h3hq6o",
-    "title": "Report: Emeka Egbuka has sprained toe, should be good for Week 1",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-emeka-egbuka-has-sprained-toe-should-be-good-for-week-1",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-14T22:17:51.000Z",
-    "summary": "The Buccaneers received good news about wide receiver Emeka Egbuka's injury on Friday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "TB"
-    ],
-    "players": [
-      "emeka-egbuka"
-    ],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "1mu086e1e2cnr4",
-    "title": "Mac Jones - What do we think",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vol6rg/mac_jones_what_do_we_think",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-14T22:12:25.000Z",
-    "summary": "After a very impressive starting stint with the 49ers throwing to essentially their practice squad, he’s back in the squad on an improved contract for one more year. Thoughts on if he gets a new job after, ideas on potential destinations (Steelers, Vikings, Eagles?, browns, cardinals). Do you guys think he has shown the potential to be a franchise qb? &#32; submitted by &#32; /u/Hour_Camp1474 [lin",
-    "tags": [
-      "dynasty",
-      "contract",
-      "ARI",
-      "CLE",
-      "MIN",
-      "PHI",
-      "PIT",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "ARI",
-      "CLE",
-      "MIN",
-      "PHI",
-      "PIT",
-      "SF"
-    ]
-  },
-  {
-    "id": "1spst9ouk79es",
-    "title": "49ers hold tryouts with 3 defensive backs after a trio of injuries at the position",
-    "url": "https://sports.yahoo.com/articles/49ers-hold-tryouts-3-defensive-215800575.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-14T21:58:00.000Z",
-    "summary": "6 players officially change their jersey numbers",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "xkdeqv15hqiax",
-    "title": "Geno Smith out on Friday due to foot soreness, Cade Klubnik will start for Jets",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/geno-smith-out-on-friday-due-to-foot-soreness-cade-klubnik-will-start-for-jets",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-14T21:54:36.000Z",
-    "summary": "Jets head coach Aaron Glenn said this week that the team's starters would play against the Buccaneers on Friday night, but there's one significant change to that plan.",
-    "tags": [
-      "league-news",
-      "NYJ",
-      "TB"
-    ],
-    "players": [
-      "geno-smith"
-    ],
-    "teams": [
-      "NYJ",
-      "TB"
     ]
   }
 ]

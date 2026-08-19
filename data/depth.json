@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-19T01:51:48.750Z",
+  "capturedAt": "2026-08-19T07:04:18.680Z",
   "snapshotAt": "2026-08-18T07:33:20Z",
   "season": "2026",
   "entries": [
@@ -354,14 +354,6 @@
       "nflTeam": "CIN",
       "depthRank": 3,
       "sleeperId": "10226"
-    },
-    {
-      "id": "shedeur-sanders",
-      "name": "Shedeur Sanders",
-      "pos": "QB",
-      "nflTeam": "CLE",
-      "depthRank": 2,
-      "sleeperId": "12524"
     },
     {
       "id": "quinshon-judkins",
@@ -892,6 +884,14 @@
       "sleeperId": "11624"
     },
     {
+      "id": "tyquan-thornton",
+      "name": "Tyquan Thornton",
+      "pos": "WR",
+      "nflTeam": "KC",
+      "depthRank": 3,
+      "sleeperId": "8188"
+    },
+    {
       "id": "cyrus-allen",
       "name": "Cyrus Allen",
       "pos": "WR",
@@ -930,14 +930,6 @@
       "nflTeam": "LA",
       "depthRank": 4,
       "sleeperId": "11569"
-    },
-    {
-      "id": "dean-connors",
-      "name": "Dean Connors",
-      "pos": "RB",
-      "nflTeam": "LA",
-      "depthRank": 5,
-      "sleeperId": "13315"
     },
     {
       "id": "colby-parkinson",
@@ -1356,6 +1348,14 @@
       "sleeperId": "11834"
     },
     {
+      "id": "bryce-lance",
+      "name": "Bryce Lance",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "depthRank": 4,
+      "sleeperId": "13420"
+    },
+    {
       "id": "barion-brown",
       "name": "Barion Brown",
       "pos": "WR",
@@ -1706,6 +1706,14 @@
       "nflTeam": "SF",
       "depthRank": 1,
       "sleeperId": "4034"
+    },
+    {
+      "id": "kaelon-black",
+      "name": "Kaelon Black",
+      "pos": "RB",
+      "nflTeam": "SF",
+      "depthRank": 3,
+      "sleeperId": "13414"
     },
     {
       "id": "george-kittle",
