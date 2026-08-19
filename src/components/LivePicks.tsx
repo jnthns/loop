@@ -6,7 +6,7 @@ import type { Draft } from '~/lib/schemas/draft';
 import type { Team } from '~/lib/schemas/team';
 import type { Trending } from '~/lib/schemas/trending';
 import type { SleeperConfig } from '~/lib/schemas/sleeper';
-import type { PositionBoards } from '~/lib/picks/board';
+import { buildPositionBoards } from '~/lib/picks/board';
 import { buildPickRecommendations } from '~/lib/picks/recommend';
 import {
   SLEEPER_REFRESH_EVENT,
@@ -45,6 +45,12 @@ import SleeperRefreshButton from '~/components/SleeperRefreshButton';
  * computed output they produce, because the output repeats each player under
  * both the flat list and his position group.
  *
+ * The position boards are built here for the same reason. They used to be
+ * computed once at build time and passed in, which left the page saying two
+ * different things at once: the recommender knew a player had just gone, and
+ * the WR board three tabs over still listed him as available. Building both
+ * from the same inputs means one answer to "is he on the board?" everywhere.
+ *
  * Rendering still happens server-side from the committed snapshot — this
  * component computes during SSR too — so the page is complete before hydration
  * and readable with no JavaScript at all. The live snapshot is applied after
@@ -52,7 +58,6 @@ import SleeperRefreshButton from '~/components/SleeperRefreshButton';
  */
 
 export interface LivePicksProps {
-  boards: PositionBoards;
   market: Market;
   trending: Trending;
   players: Player[];
@@ -67,7 +72,6 @@ export interface LivePicksProps {
 }
 
 export function LivePicks({
-  boards,
   market,
   trending,
   players: committedPlayers,
@@ -107,6 +111,19 @@ export function LivePicks({
     // The committed props are the build-time baseline for this page load.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [committedTeam, committedDraft, committedPlayers]);
+
+  const boards = useMemo(
+    () =>
+      buildPositionBoards({
+        market,
+        trending,
+        players,
+        draft,
+        format: team.format,
+        depthRankById,
+      }),
+    [market, trending, players, draft, team.format, depthRankById],
+  );
 
   const recs = useMemo(
     () =>

@@ -148,16 +148,61 @@ describe('NewsPanel', () => {
     expect(rows[1]).toHaveTextContent('Newer');
   });
 
-  it('hides duplicate titles when toggled', async () => {
-    const user = userEvent.setup();
+  it('collapses duplicate headlines with no player attached', () => {
     const dupes = [
       item({ id: 'one', title: 'Same headline', publishedAt: '2026-09-10T12:00:00.000Z' }),
       item({ id: 'two', title: 'Same headline.', publishedAt: '2026-09-09T10:00:00.000Z' }),
       item({ id: 'three', title: 'Different story' }),
     ];
     render(<NewsPanel items={dupes} now={NOW} limit={10} />);
+    expect(screen.getAllByTestId('news-item')).toHaveLength(2);
+  });
+
+  it('shows one story per player by default, whatever the headlines say', () => {
+    const syndicated = [
+      item({
+        id: 'espn',
+        title: 'Bijan Robinson dominates',
+        players: ['bijan-robinson'],
+        publishedAt: '2026-09-10T11:00:00.000Z',
+      }),
+      item({
+        id: 'yahoo',
+        title: 'Falcons back runs wild in Atlanta',
+        players: ['bijan-robinson'],
+        publishedAt: '2026-09-10T10:00:00.000Z',
+      }),
+      item({ id: 'other', title: 'Someone else entirely', players: ['puka-nacua'] }),
+    ];
+    render(<NewsPanel items={syndicated} now={NOW} limit={10} />);
+    const rows = screen.getAllByTestId('news-item');
+    expect(rows).toHaveLength(2);
+    // The newest copy is the one kept.
+    expect(screen.getByText('Bijan Robinson dominates')).toBeInTheDocument();
+    expect(screen.queryByText('Falcons back runs wild in Atlanta')).not.toBeInTheDocument();
+  });
+
+  it('gives every source back when the reader unticks it', async () => {
+    const user = userEvent.setup();
+    const syndicated = [
+      item({
+        id: 'espn',
+        title: 'First take',
+        players: ['bijan-robinson'],
+        publishedAt: '2026-09-10T11:00:00.000Z',
+      }),
+      item({
+        id: 'yahoo',
+        title: 'Second take',
+        players: ['bijan-robinson'],
+        publishedAt: '2026-09-10T10:00:00.000Z',
+      }),
+    ];
+    render(<NewsPanel items={syndicated} now={NOW} limit={10} />);
+    expect(screen.getAllByTestId('news-item')).toHaveLength(1);
+
     await user.click(screen.getByRole('button', { name: 'Filter' }));
-    await user.click(screen.getByLabelText('Hide duplicate titles'));
+    await user.click(screen.getByLabelText('One story per player'));
     expect(screen.getAllByTestId('news-item')).toHaveLength(2);
   });
 });

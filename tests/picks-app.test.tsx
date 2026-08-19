@@ -330,21 +330,26 @@ describe('PicksApp — modes', () => {
     await user.click(screen.getByTestId('mode-board'));
     const lists = screen.getAllByTestId('position-list');
     expect(lists.map((l) => l.dataset.pos)).toEqual([...BOARD_POSITIONS]);
-    expect(screen.getAllByText('ROSTERED')).toHaveLength(BOARD_POSITIONS.length);
+    // Taken players are hidden by default, so the rostered fixture is not here.
+    expect(screen.queryByText('ROSTERED')).not.toBeInTheDocument();
 
     await user.click(screen.getByTestId('mode-trending'));
     expect(screen.getByTestId('picks-source-note')).toHaveTextContent('last 24h');
     expect(screen.getAllByText('+4,321')).toHaveLength(BOARD_POSITIONS.length);
   });
 
-  it('hides taken players on the board, and offers that control only there', async () => {
+  it('hides taken players by default, and offers that control only on the board', async () => {
     const user = userEvent.setup();
     setup();
     expect(screen.queryByTestId('only-available')).not.toBeInTheDocument();
 
     await user.click(screen.getByTestId('mode-board'));
-    await user.click(screen.getByTestId('only-available'));
+    expect(screen.getByTestId('only-available')).toBeChecked();
     expect(screen.queryByText('ROSTERED')).not.toBeInTheDocument();
+
+    // Unticking brings the taken names back for anyone reading the run.
+    await user.click(screen.getByTestId('only-available'));
+    expect(screen.getAllByText('ROSTERED')).toHaveLength(BOARD_POSITIONS.length);
   });
 });
 

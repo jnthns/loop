@@ -46,6 +46,13 @@ export interface AlertOptions {
 /**
  * News items that mention a player this manager owns or is chasing, newest
  * first, with owned players ranked ahead of targets at equal recency.
+ *
+ * One alert per player, not one per outlet. A single injury report reaches this
+ * list through half a dozen syndicated feeds, and six identical rows about the
+ * same ankle push the other five players on the roster off the dashboard —
+ * which is the opposite of what an alert list is for. The newest item wins, and
+ * an item that is the newest word on any one of its matched players is kept
+ * whole, so a two-player story still speaks for both.
  */
 export function rosterAlerts(
   news: NewsItem[],
@@ -81,7 +88,17 @@ export function rosterAlerts(
     });
   }
 
-  return alerts
+  const covered = new Set<string>();
+  const unique = [...alerts]
+    .sort((a, b) => b.item.publishedAt.localeCompare(a.item.publishedAt))
+    .filter((alert) => {
+      const ids = alert.matches.map((m) => m.player.id);
+      const fresh = ids.some((id) => !covered.has(id));
+      for (const id of ids) covered.add(id);
+      return fresh;
+    });
+
+  return unique
     .sort((a, b) => {
       if (a.relation !== b.relation) return a.relation === 'rostered' ? -1 : 1;
       return b.item.publishedAt.localeCompare(a.item.publishedAt);

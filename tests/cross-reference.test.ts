@@ -116,10 +116,38 @@ describe('rosterAlerts', () => {
   });
 
   it('respects the limit', () => {
-    const many = Array.from({ length: 20 }, (_, i) =>
-      item({ id: `n${i}`, players: ['jamarr-chase'] }),
-    );
+    const roster = ['jamarr-chase', 'bijan-robinson', 'devon-achane', 'nico-collins', 'puka-nacua'];
+    const many = roster.map((id, i) => item({ id: `n${i}`, players: [id] }));
     expect(rosterAlerts(many, team, players, { now: NOW, limit: 3 })).toHaveLength(3);
+  });
+
+  it('raises one alert per player, not one per outlet carrying the story', () => {
+    const syndicated = Array.from({ length: 20 }, (_, i) =>
+      item({
+        id: `n${i}`,
+        players: ['jamarr-chase'],
+        publishedAt: `2026-09-10T${String(i).padStart(2, '0')}:00:00.000Z`,
+      }),
+    );
+    const alerts = rosterAlerts(syndicated, team, players, { now: NOW });
+    expect(alerts).toHaveLength(1);
+    // The newest copy is the one that survives.
+    expect(alerts[0].item.id).toBe('n19');
+  });
+
+  it('keeps a two-player story once, and does not then repeat either player', () => {
+    const both = item({
+      id: 'both',
+      players: ['jamarr-chase', 'bijan-robinson'],
+      publishedAt: '2026-09-10T10:00:00.000Z',
+    });
+    const older = item({
+      id: 'older',
+      players: ['bijan-robinson'],
+      publishedAt: '2026-09-10T08:00:00.000Z',
+    });
+    const alerts = rosterAlerts([both, older], team, players, { now: NOW });
+    expect(alerts.map((a) => a.item.id)).toEqual(['both']);
   });
 
   it('returns nothing when there is no news', () => {

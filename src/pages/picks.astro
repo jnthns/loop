@@ -11,17 +11,7 @@ import {
   profiles,
   sleeperConfig,
 } from '~/lib/data';
-import { buildPositionBoards, BOARD_POSITIONS } from '~/lib/picks/board';
 import { href } from '~/lib/url';
-
-const boards = buildPositionBoards({
-  market,
-  trending,
-  players,
-  draft,
-  format: team.format,
-  depthRankById,
-});
 
 /**
  * The recommender scores in the browser so a live Sleeper refresh can drop
@@ -36,6 +26,11 @@ const boards = buildPositionBoards({
  * rest, and a player the two disagree about is exactly the kind this page
  * exists to surface. A floor keeps the board usable if the draft config is
  * missing or unusually short.
+ *
+ * The position boards are built from this same payload (in `LivePicks`, so they
+ * re-derive on every live refresh), which is why the cap is the board's pool
+ * too: a player who cannot be taken in this draft has no business on a board
+ * for it either.
  *
  * The id fields go to null because nothing on this page reads them — they exist
  * to build deep links elsewhere. Together the two trims take the market payload
@@ -72,7 +67,6 @@ const lede =
 <BaseLayout title="Picks" lede={lede} tone="pink">
   <LivePicks
     client:load
-    boards={boards}
     market={marketForClient}
     trending={trending}
     players={players}

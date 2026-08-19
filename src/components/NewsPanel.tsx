@@ -20,7 +20,8 @@ type Filter = {
   team: string;
   query: string;
   mineOnly: boolean;
-  dedupeTitles: boolean;
+  /** On by default — one item per player, never the same story from five feeds. */
+  uniquePerPlayer: boolean;
 };
 
 const ALL = '';
@@ -52,6 +53,11 @@ function writeCollapsedPreference(collapsed: boolean): void {
 /**
  * The persistent right-hand rail, present on every route.
  *
+ * The feed is deduplicated to one story per player before anything else runs
+ * (see `dedupeByPlayer`): the same signing carried by six outlets is one line
+ * here, not six, and unticking "One story per player" is how a reader asks for
+ * every source back.
+ *
  * Two jobs: show what just happened, and mark the items that touch players this
  * manager actually owns or wants. Flagged items carry the amber rail and tint;
  * everything else stays quiet, which is the whole point of the coding. Below
@@ -74,7 +80,7 @@ export function NewsPanel({
     team: ALL,
     query: '',
     mineOnly: false,
-    dedupeTitles: false,
+    uniquePerPlayer: true,
   });
   const [sort, setSort] = useState<NewsSort>('newest');
 
@@ -107,7 +113,7 @@ export function NewsPanel({
           query: filter.query || undefined,
           mineOnly: filter.mineOnly,
           watchedPlayerIds,
-          dedupeTitles: filter.dedupeTitles,
+          uniquePerPlayer: filter.uniquePerPlayer,
         },
         sort,
       ),
@@ -127,7 +133,7 @@ export function NewsPanel({
     filter.team ||
     filter.query ||
     filter.mineOnly ||
-    filter.dedupeTitles ||
+    !filter.uniquePerPlayer ||
     sort !== 'newest';
 
   const select = (
@@ -293,11 +299,14 @@ export function NewsPanel({
                   <label className="flex items-center gap-1.5">
                     <input
                       type="checkbox"
-                      checked={filter.dedupeTitles}
-                      onChange={(e) => setFilter((f) => ({ ...f, dedupeTitles: e.target.checked }))}
+                      data-testid="unique-per-player"
+                      checked={filter.uniquePerPlayer}
+                      onChange={(e) =>
+                        setFilter((f) => ({ ...f, uniquePerPlayer: e.target.checked }))
+                      }
                       className="accent-[var(--tone)]"
                     />
-                    Hide duplicate titles
+                    One story per player
                   </label>
                 </div>
                 {active && (
@@ -310,7 +319,7 @@ export function NewsPanel({
                         team: ALL,
                         query: '',
                         mineOnly: false,
-                        dedupeTitles: false,
+                        uniquePerPlayer: true,
                       });
                       setSort('newest');
                     }}

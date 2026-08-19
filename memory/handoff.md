@@ -1,38 +1,49 @@
 # Handoff
 
-## Last run — `/compare` replaces `/builds`
+## Last run — one story per player, and boards that agree with the recommender
 
-Deleted the builds page and its whole support tree (component, `src/lib/builds`,
-the `builds` content collection, four test suites) and shipped `/compare` in its
-place: a player-vs-player page that holds two to four players against every
-source this site pulls.
+Two asks, both about showing less: recommended picks that exclude players who
+are gone, and a news feed that says a thing once.
 
-New surface area:
-- `src/lib/compare/compare.ts` — `buildDossiers()` (build-time join of market,
-  Sleeper, nflverse, news, profiles) and `compare()` (pure, runs in the browser)
-- `src/components/compare/CompareApp.tsx`
-- `src/pages/compare.astro`
-- `tests/compare.test.ts`, `tests/compare-app.test.tsx`
+Picks:
+- `buildPositionBoards` now runs inside `src/components/LivePicks.tsx` rather
+  than in `src/pages/picks.astro`, so the position boards re-derive from the
+  live Sleeper snapshot exactly like the recommendations already did. The
+  `boards` prop is gone.
+- `src/lib/picks/board.ts` counts `boardLimit` against *available* players, so
+  hiding taken names leaves a full board instead of a stub.
+- `PicksApp` hides taken players by default.
 
-Evidence: typecheck 0 errors, vitest **663/663**, build 28 pages.
+News:
+- `src/lib/news/dedupe.ts` gained `dedupeByPlayer`, `uniqueStories` and
+  `headlineSubject`. `NewsPanel` applies it by default (the old "hide duplicate
+  titles" checkbox is now "One story per player"); `src/pages/index.astro` uses
+  it for the digest and drops digest items about a player the alerts already
+  cover; `rosterAlerts` raises one alert per player; `compare.ts` dedupes each
+  player's three-item news list by title before capping it.
+
+Evidence: `check.sh passed` — typecheck 0 errors, vitest 689/689, build 28 pages.
 
 ## What the next run should know
 
-- Rows are grouped by upstream family on purpose. FantasyPros ECR and the
-  DynastyProcess value share a provenance and are badged as such; Sleeper is the
-  only independent read. Do not "simplify" the page into one flat ranking table —
-  that is the exact failure the grouping exists to prevent.
-- `compare()` returns `agreement: 'unknown'` whenever a read saw fewer than two
-  of the selected players. A one-horse race is not agreement.
-- The page ships a dossier per skill-position player (~350KB of JSON, in line
-  with `/team` and `/picks`). If that becomes a problem, trim the news objects
-  first — only title, url, source, and publishedAt are rendered.
-- The positional-builds knowledge article survived the deletion and is still
-  linked from `DraftPanel`; only the page machinery went.
+- **The live Sleeper API is unreachable from the web sandbox** (403 at the
+  egress proxy, same for every news feed host). `npm run sync:sleeper` and
+  `npm run news:fetch` must run from a machine with network access or from the
+  scheduled job; from a sandboxed session, read the committed snapshot and say
+  so rather than reporting a refresh that did not happen.
+- `headlineSubject` is a deliberately conservative heuristic: capitalized runs,
+  minus teams/cities/positions/sports-page furniture, accepted only at two or
+  three tokens. A missed collapse is one extra row; a wrong one hides a story.
+  If a false collapse turns up, add the offending word to `NOT_A_NAME` rather
+  than loosening the length rule.
+- `rosteredInLeague` is false for every player in the committed snapshot, and
+  that is correct: the startup is still drafting, so Sleeper's rosters are
+  empty and `draft.picks` is the only ownership signal until it finishes.
 
 ## Open items — candidates for BACKLOG, not yet scheduled
 
 - A shareable `?players=a,b` query param for a comparison (nothing persists the
   selection today).
 - Delete unused `DraftPanel` once nothing imports it except its own tests.
-- PicksApp still does not listen for the live Sleeper refresh event.
+- `headlineSubject` could reuse the fuller name list from `data/players.json`
+  at build time to tag more items properly, rather than inferring at read time.
