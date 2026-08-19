@@ -16,13 +16,15 @@ import {
   type SleeperTrending,
 } from '~/lib/schemas/sleeper';
 import { SleeperPlayerSchema } from '~/lib/schemas/sleeper';
+import { fetchWithRetry } from '~/lib/net/retry';
 
 /**
  * Sleeper read API — public, keyless, documented at https://docs.sleeper.com.
  *
  * No authentication means no secret to manage, which is why this integration
  * needs nothing in `.env`. Sleeper asks callers to stay under ~1000 requests per
- * minute; a full sync makes roughly ten.
+ * minute; a full sync makes roughly ten. Keyless also means rate-limited by IP,
+ * so every read retries a 429 with backoff before giving up (see `lib/net/retry`).
  */
 
 const BASE = 'https://api.sleeper.app/v1';
@@ -41,15 +43,34 @@ export class SleeperError extends Error {
 }
 
 async function get<T>(path: string, parse: (raw: unknown) => T): Promise<T> {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+  const url = `${BASE}${path}`;
   try {
-    const res = await fetch(`${BASE}${path}`, {
-      headers: { 'user-agent': USER_AGENT, accept: 'application/json' },
-      signal: controller.signal,
-    });
+    // A fresh timeout per attempt: the retry helper may wait between tries, and
+    // one shared deadline would abort the backoff rather than the request.
+    const res = await fetchWithRetry(
+      url,
+      { headers: { 'user-agent': USER_AGENT, accept: 'application/json' } },
+      {
+        fetchImpl: (input, init) => {
+          const controller = new AbortController();
+          const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+          return fetch(input, { ...init, signal: controller.signal }).finally(() =>
+            clearTimeout(timer),
+          );
+        },
+        onRetry: ({ attempt, status, delayMs }) =>
+          console.warn(
+            `  ! sleeper ${path}: HTTP ${status} — retry ${attempt} in ${Math.round(delayMs / 1000)}s`,
+          ),
+      },
+    );
     if (!res.ok) {
-      throw new SleeperError(`GET ${path} -> HTTP ${res.status}`, res.status);
+      throw new SleeperError(
+        res.status === 429
+          ? `GET ${path} -> HTTP 429 (rate limited; retries exhausted)`
+          : `GET ${path} -> HTTP ${res.status}`,
+        res.status,
+      );
     }
     const body = await res.json();
     if (body === null) throw new SleeperError(`GET ${path} -> null (not found)`, 404);
@@ -57,8 +78,6 @@ async function get<T>(path: string, parse: (raw: unknown) => T): Promise<T> {
   } catch (error) {
     if (error instanceof SleeperError) throw error;
     throw new SleeperError(`GET ${path} -> ${(error as Error).message}`);
-  } finally {
-    clearTimeout(timer);
   }
 }
 

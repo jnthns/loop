@@ -37,7 +37,8 @@ import {
 } from '../src/lib/schemas/sleeper.ts';
 import { PlayersSchema, type Player } from '../src/lib/schemas/players.ts';
 import { TeamSchema } from '../src/lib/schemas/team.ts';
-import { TrendingSchema, type TrendingPlayer } from '../src/lib/schemas/trending.ts';
+import { TrendingSchema, EMPTY_TRENDING, type TrendingPlayer } from '../src/lib/schemas/trending.ts';
+import { resolveTrending } from '../src/lib/sleeper/trending.ts';
 import { DraftSchema, NO_DRAFT, type Draft } from '../src/lib/schemas/draft.ts';
 import { applySleeperToTeam, selectPlayers, toDraft, teamNameFor } from '../src/lib/sleeper/map.ts';
 import * as api from '../src/lib/sleeper/client.ts';
@@ -79,8 +80,9 @@ interface Snapshot {
   userId: string;
   season: string;
   players: Record<string, SleeperPlayer>;
-  trendingAdds: { player_id: string; count: number }[];
-  trendingDrops: { player_id: string; count: number }[];
+  /** Null means the fetch failed (rate limit, outage) — not "nobody is trending". */
+  trendingAdds: { player_id: string; count: number }[] | null;
+  trendingDrops: { player_id: string; count: number }[] | null;
   config: SleeperConfig;
   teamName: string | null;
   rawDraft: import('../src/lib/schemas/sleeper.ts').SleeperDraft | null;
@@ -172,9 +174,18 @@ async function liveSnapshot(config: SleeperConfig): Promise<Snapshot | null> {
 
   // Market signal, team name, and draft are all nice-to-haves relative to the
   // roster; none of them should fail a sync.
+  //
+  // Trending is the one that gets rate-limited: it is keyless and IP-limited and
+  // the loop calls it on a schedule. A failure returns null, never [], so the
+  // write step can tell "rate limited" apart from "nobody is trending" and carry
+  // the previous snapshot forward instead of blanking the viral list.
+  const trendingFailure = (label: string) => (error: unknown) => {
+    console.warn(`  ! trending ${label}: ${(error as Error).message} — keeping the previous snapshot`);
+    return null;
+  };
   const [trendingAdds, trendingDrops, users, drafts] = await Promise.all([
-    api.getTrending('add', 24, 25).catch(() => []),
-    api.getTrending('drop', 24, 25).catch(() => []),
+    api.getTrending('add', 24, 25).catch(trendingFailure('adds')),
+    api.getTrending('drop', 24, 25).catch(trendingFailure('drops')),
     api.getLeagueUsers(leagueId).catch(() => []),
     api.getDrafts(leagueId).catch(() => []),
   ]);
@@ -218,7 +229,7 @@ async function liveSnapshot(config: SleeperConfig): Promise<Snapshot | null> {
 function buildTrending(
   snapshot: Snapshot,
   players: Player[],
-): { adds: TrendingPlayer[]; drops: TrendingPlayer[] } {
+): { adds: TrendingPlayer[] | null; drops: TrendingPlayer[] | null } {
   const bySleeperId = new Map(players.filter((p) => p.sleeperId).map((p) => [p.sleeperId!, p]));
 
   const resolve = (entry: { player_id: string; count: number }): TrendingPlayer | null => {
@@ -236,8 +247,8 @@ function buildTrending(
     };
   };
 
-  const map = (entries: { player_id: string; count: number }[]) =>
-    entries.map(resolve).filter((t): t is TrendingPlayer => t !== null);
+  const map = (entries: { player_id: string; count: number }[] | null) =>
+    entries === null ? null : entries.map(resolve).filter((t): t is TrendingPlayer => t !== null);
 
   return { adds: map(snapshot.trendingAdds), drops: map(snapshot.trendingDrops) };
 }
@@ -269,8 +280,8 @@ async function main() {
           players: snapshot.players,
           rosters: snapshot.rosters,
           myRoster,
-          trendingAdds: snapshot.trendingAdds,
-          trendingDrops: snapshot.trendingDrops,
+          trendingAdds: snapshot.trendingAdds ?? [],
+          trendingDrops: snapshot.trendingDrops ?? [],
           targetPlayerIds: previousTeam.targets.map((t) => t.playerId),
           existing: previousPlayers,
         })
@@ -337,15 +348,27 @@ async function main() {
     );
   }
 
-  const trendingLists = buildTrending(snapshot, validPlayers);
-  const trending = TrendingSchema.parse({
-    capturedAt: new Date().toISOString(),
-    lookbackHours: 24,
-    ...trendingLists,
-  });
-  console.log(
-    `  · market: ${trending.adds.length} trending add(s), ${trending.drops.length} drop(s)`,
+  const previousTrending = existsSync(join(DATA, 'trending.json'))
+    ? TrendingSchema.parse(readData('trending.json'))
+    : EMPTY_TRENDING;
+  const resolved = resolveTrending(
+    buildTrending(snapshot, validPlayers),
+    previousTrending,
+    new Date().toISOString(),
   );
+  const trending = TrendingSchema.parse(resolved.trending);
+  console.log(
+    `  · market: ${trending.adds.length} trending add(s), ${trending.drops.length} drop(s)` +
+      (resolved.carried.length > 0
+        ? ` · ${resolved.carried.join(' + ')} carried forward from ${trending.capturedAt}`
+        : ''),
+  );
+  if (resolved.carried.length > 0) {
+    console.warn(
+      `  ! trending ${resolved.carried.join(' and ')} could not be refreshed (rate limit or outage). ` +
+        `The previous snapshot was kept — the site shows stale viral counts, never an empty list.`,
+    );
+  }
 
   if (dryRun) {
     console.log('Dry run — no files written.');
