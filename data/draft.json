@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -774,6 +774,83 @@
       "playerName": "Makai Lemon",
       "pos": "WR",
       "nflTeam": "PHI",
+      "mine": false
+    },
+    {
+      "pick": 68,
+      "round": 6,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "fernando-mendoza",
+      "playerName": "Fernando Mendoza",
+      "pos": "QB",
+      "nflTeam": "LV",
+      "mine": false
+    },
+    {
+      "pick": 69,
+      "round": 6,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "jared-goff",
+      "playerName": "Jared Goff",
+      "pos": "QB",
+      "nflTeam": "DET",
+      "mine": false
+    },
+    {
+      "pick": 70,
+      "round": 6,
+      "slot": 10,
+      "rosterId": 9,
+      "playerId": "sam-laporta",
+      "playerName": "Sam LaPorta",
+      "pos": "TE",
+      "nflTeam": "DET",
+      "mine": false
+    },
+    {
+      "pick": 71,
+      "round": 6,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "kc-concepcion",
+      "playerName": "KC Concepcion",
+      "pos": "WR",
+      "nflTeam": "CLE",
+      "mine": false
+    },
+    {
+      "pick": 72,
+      "round": 6,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "kyle-pitts",
+      "playerName": "Kyle Pitts",
+      "pos": "TE",
+      "nflTeam": "ATL",
+      "mine": false
+    },
+    {
+      "pick": 73,
+      "round": 7,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "terry-mclaurin",
+      "playerName": "Terry McLaurin",
+      "pos": "WR",
+      "nflTeam": "WAS",
+      "mine": false
+    },
+    {
+      "pick": 74,
+      "round": 7,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "marvin-harrison",
+      "playerName": "Marvin Harrison",
+      "pos": "WR",
+      "nflTeam": "ARI",
       "mine": false
     }
   ]
