@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-19T07:04:18.680Z",
-  "snapshotAt": "2026-08-18T07:33:20Z",
+  "capturedAt": "2026-08-19T13:07:23.912Z",
+  "snapshotAt": "2026-08-19T07:43:54Z",
   "season": "2026",
   "entries": [
     {
@@ -748,20 +748,20 @@
       "sleeperId": "8142"
     },
     {
-      "id": "keenan-allen",
-      "name": "Keenan Allen",
-      "pos": "WR",
-      "nflTeam": "IND",
-      "depthRank": 2,
-      "sleeperId": "1479"
-    },
-    {
       "id": "josh-downs",
       "name": "Josh Downs",
       "pos": "WR",
       "nflTeam": "IND",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "9500"
+    },
+    {
+      "id": "keenan-allen",
+      "name": "Keenan Allen",
+      "pos": "WR",
+      "nflTeam": "IND",
+      "depthRank": 3,
+      "sleeperId": "1479"
     },
     {
       "id": "trevor-lawrence",
@@ -1396,6 +1396,14 @@
       "sleeperId": "6130"
     },
     {
+      "id": "najee-harris",
+      "name": "Najee Harris",
+      "pos": "RB",
+      "nflTeam": "NYG",
+      "depthRank": 4,
+      "sleeperId": "7528"
+    },
+    {
       "id": "isaiah-likely",
       "name": "Isaiah Likely",
       "pos": "TE",
@@ -1952,7 +1960,7 @@
       "name": "Robert Henry",
       "pos": "RB",
       "nflTeam": "WAS",
-      "depthRank": 6,
+      "depthRank": 5,
       "sleeperId": "13418"
     },
     {
