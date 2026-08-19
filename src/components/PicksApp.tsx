@@ -39,7 +39,7 @@ import type { Tone } from '~/lib/ui/tone';
  *   - **Waiver trending** — Sleeper add counts, for in-season Tuesdays.
  */
 
-export type ListMode = 'recommended' | 'need' | 'board' | 'trending';
+export type ListMode = 'recommended' | 'need' | 'platforms' | 'board' | 'trending';
 
 export interface PicksAppProps {
   data: PositionBoards;
@@ -76,6 +76,7 @@ const AVAILABILITY_TONE: Record<BoardEntry['availability'], Tone> = {
 const MODES: [ListMode, string][] = [
   ['recommended', 'Recommended'],
   ['need', 'By need'],
+  ['platforms', 'Platform split'],
   ['board', 'Position board'],
   ['trending', 'Waiver trending'],
 ];
@@ -153,7 +154,9 @@ export function PicksApp({ data, recs, links }: PicksAppProps) {
         )}.`
       : mode === 'board'
         ? `Expert consensus rank, captured ${formatWhen(data.marketCapturedAt)}. Lower is more popular.`
-        : `Scored against your roster from the ${formatWhen(recs.marketCapturedAt)} market snapshot. The score is relative to the best player still on the board, not an absolute rating.`;
+        : mode === 'platforms'
+          ? `Three rankings side by side, captured ${formatWhen(recs.marketCapturedAt)}. FantasyPros and DynastyProcess share an upstream; only Sleeper is independent.`
+          : `Scored against your roster from the ${formatWhen(recs.marketCapturedAt)} market snapshot. The score is relative to the best player still on the board, not an absolute rating.`;
 
   return (
     <div className="space-y-6">
@@ -274,6 +277,8 @@ export function PicksApp({ data, recs, links }: PicksAppProps) {
           ))}
         </div>
       )}
+
+      {mode === 'platforms' && <PlatformSplit rows={recommended} recs={recs} />}
 
       {(mode === 'board' || mode === 'trending') && (
         <div className="grid gap-6 lg:grid-cols-2">
@@ -421,12 +426,6 @@ function RecommendationCard({ rec }: { rec: Recommendation }) {
         <StatusTag status={rec.status} injuryStatus={rec.injuryStatus} />
         {rec.fillsTopNeed && <Chip tone="rose">TOP NEED</Chip>}
         <span className="ml-auto flex items-center gap-2 text-[11px] text-muted" data-numeric>
-          {rec.ktcPosRank !== null && (
-            <span title="Rank at his position among players still available, by KeepTradeCut market value">
-              KTC {rec.pos}
-              {rec.ktcPosRank}
-            </span>
-          )}
           {rec.ecr !== null && <span title="Format-aware expert consensus rank">ecr {rec.ecr}</span>}
           <Chip tone="violet">
             <span data-numeric>{rec.score.toFixed(0)}</span>
@@ -435,6 +434,8 @@ function RecommendationCard({ rec }: { rec: Recommendation }) {
       </div>
 
       <div className="space-y-3 p-3">
+        <PlatformStrip rec={rec} />
+
         <ul className="space-y-1.5" data-testid="recommendation-why">
           {rec.why.map((line, i) => (
             <li key={`${rec.key}-why-${i}`} className="text-[13px] leading-snug">
@@ -492,6 +493,165 @@ function RecommendationCard({ rec }: { rec: Recommendation }) {
 }
 
 /**
+ * Every platform's ranking in one table, one row per player.
+ *
+ * The point of the view is the *spread* between the columns, so the widest
+ * disagreement gets its own column rather than making the reader subtract two
+ * numbers on every row. Only the Sleeper-versus-consensus gap is reported as
+ * disagreement, because the other pair shares an upstream.
+ */
+function PlatformSplit({ rows, recs }: { rows: Recommendation[]; recs: PickRecommendations }) {
+  return (
+    <section aria-labelledby="picks-platforms" data-testid="platform-split">
+      <SectionHead
+        id="picks-platforms"
+        tone="teal"
+        title="Platform split"
+        count={rows.length}
+        note="Each platform's rank at the player's position, among everyone still available. Two of the three columns share an upstream — the table says which."
+      />
+
+      <ul className="mb-4 space-y-1 text-[12px] text-muted" data-testid="platform-notes">
+        {recs.platformNotes.map((note) => (
+          <li key={note.id} data-platform={note.id}>
+            <span className="label">{note.label}</span>{' '}
+            <Chip tone={note.independent ? 'green' : 'slate'}>
+              {note.independent ? 'INDEPENDENT' : 'SHARES UPSTREAM'}
+            </Chip>{' '}
+            {note.note}
+          </li>
+        ))}
+      </ul>
+
+      {rows.length === 0 ? (
+        <EmptyState>No available player matches the current filter.</EmptyState>
+      ) : (
+        <div className="overflow-x-auto">
+          <table className="w-full text-[12.5px]">
+            <thead>
+              <tr className="border-b border-line text-left">
+                <th scope="col" className="label py-1.5 pr-2">
+                  Player
+                </th>
+                {recs.platformNotes.map((note) => (
+                  <th key={note.id} scope="col" className="label py-1.5 pr-2">
+                    {note.label}
+                  </th>
+                ))}
+                <th scope="col" className="label py-1.5 pr-2" title="Sleeper rank minus consensus rank">
+                  Spread
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((rec) => (
+                <tr
+                  key={rec.key}
+                  className="border-b border-line"
+                  data-testid="platform-row"
+                  data-pos={rec.pos}
+                >
+                  <th scope="row" className="py-1.5 pr-2 text-left font-normal">
+                    <span className="flex flex-wrap items-center gap-1.5">
+                      <PosTag pos={rec.pos} />
+                      <span className="font-semibold">{rec.name}</span>
+                      <span className="text-[11px] text-muted">{rec.nflTeam}</span>
+                    </span>
+                  </th>
+                  {rec.platforms.map((platform) => (
+                    <td key={platform.id} className="py-1.5 pr-2" data-platform={platform.id}>
+                      <span data-numeric className="font-semibold">
+                        {platform.posRank !== null ? `${rec.pos}${platform.posRank}` : '—'}
+                      </span>{' '}
+                      <span className="text-[11px] text-muted" data-numeric>
+                        {platform.display}
+                      </span>
+                    </td>
+                  ))}
+                  <td className="py-1.5 pr-2" data-numeric data-testid="platform-spread">
+                    {rec.sleeperVsConsensus === null ? (
+                      <span className="text-muted">—</span>
+                    ) : (
+                      <Chip
+                        tone={
+                          Math.abs(rec.sleeperVsConsensus) < 3
+                            ? 'slate'
+                            : rec.sleeperVsConsensus > 0
+                              ? 'green'
+                              : 'amber'
+                        }
+                      >
+                        {rec.sleeperVsConsensus > 0 ? '+' : ''}
+                        {rec.sleeperVsConsensus}
+                      </Chip>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+      <p className="mt-2 text-[11.5px] text-muted">
+        Spread is the consensus rank minus Sleeper&rsquo;s, at the player&rsquo;s position. Positive
+        means Sleeper&rsquo;s managers are higher on him than the analysts; negative means the
+        analysts are higher than the people actually drafting.
+      </p>
+    </section>
+  );
+}
+
+/**
+ * The three platform ranks, side by side.
+ *
+ * The `SAME SOURCE` marker on two of the three columns is the whole reason this
+ * is a component and not a row of numbers: FantasyPros and DynastyProcess look
+ * like independent corroboration and are not — DynastyProcess builds its value
+ * curve from the FantasyPros consensus. Showing three columns without saying so
+ * would manufacture confidence out of one opinion counted twice.
+ */
+function PlatformStrip({ rec }: { rec: Recommendation }) {
+  return (
+    <div className="space-y-1" data-testid="platform-strip">
+      <ul className="grid gap-1.5 sm:grid-cols-3">
+        {rec.platforms.map((platform) => (
+          <li
+            key={platform.id}
+            className="rounded-[0.375rem] border border-line px-2 py-1.5"
+            data-testid="platform-cell"
+            data-platform={platform.id}
+            data-independent={platform.independent ? 'true' : 'false'}
+            title={platform.note}
+          >
+            <div className="flex items-baseline gap-1.5">
+              <span className="label">{platform.label}</span>
+              {!platform.independent && (
+                <span className="text-[9.5px] tracking-wide text-muted">SAME SOURCE</span>
+              )}
+            </div>
+            <div className="flex items-baseline gap-2 text-[12.5px]">
+              <span data-numeric className="font-semibold">
+                {platform.posRank !== null ? `${rec.pos}${platform.posRank}` : '—'}
+              </span>
+              <span className="text-[11px] text-muted" data-numeric>
+                {platform.display}
+              </span>
+            </div>
+          </li>
+        ))}
+      </ul>
+      {rec.sleeperVsConsensus !== null && Math.abs(rec.sleeperVsConsensus) >= 3 && (
+        <p className="text-[11px] text-muted" data-testid="platform-disagreement">
+          {rec.sleeperVsConsensus > 0
+            ? `Sleeper is ${rec.sleeperVsConsensus} spots higher on him than the analysts.`
+            : `The analysts are ${Math.abs(rec.sleeperVsConsensus)} spots higher on him than Sleeper.`}
+        </p>
+      )}
+    </div>
+  );
+}
+
+/**
  * One line of the arithmetic.
  *
  * The bar is drawn from the factor's share of its own maximum, and negative
@@ -537,14 +697,22 @@ function ScoringKey({ recs }: { recs: PickRecommendations }) {
       </summary>
       <div className="mt-3 space-y-3 text-[12.5px]">
         <p>
-          Base score is {weights.marketPoints} points of KeepTradeCut-derived market value plus{' '}
-          {weights.consensusPoints} points of FantasyPros expert consensus rank. That base is then
-          multiplied by your roster gap at the position (up to +
-          {Math.round(weights.maxNeedBoost * 100)}%) and by this league&rsquo;s scoring weight for
-          the position (±{Math.round(weights.formatSwing * 100)}%). Age against the published
-          positional peak and depth-chart opportunity are added last, and can be negative. Every
-          score is then scaled so the best player still on the board reads 100 — it is a comparison
-          against the current field, not an absolute rating.
+          Base score is {weights.valuePoints} points of DynastyProcess trade value, plus{' '}
+          {weights.consensusPoints} points of FantasyPros expert consensus rank, plus{' '}
+          {weights.sleeperPoints} points of Sleeper platform rank. That base is then multiplied by
+          your roster gap at the position (up to +{Math.round(weights.maxNeedBoost * 100)}%) and by
+          this league&rsquo;s scoring weight for the position (±
+          {Math.round(weights.formatSwing * 100)}%). Age against the published positional peak and
+          depth-chart opportunity are added last, and can be negative. Every score is then scaled so
+          the best player still on the board reads 100 — it is a comparison against the current
+          field, not an absolute rating.
+        </p>
+        <p>
+          The first two inputs are weighted as one opinion on purpose. DynastyProcess builds its
+          value model from the FantasyPros consensus, so they agree by construction — 69.5% of
+          players land in the identical position when the snapshot is sorted both ways. Sleeper is
+          the only independent read, which is why it is scored separately and why the platform split
+          marks the other two as sharing an upstream.
         </p>
         <ul className="space-y-1" data-testid="format-weights">
           {weights.byPosition.map((row) => (

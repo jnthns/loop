@@ -101,17 +101,23 @@ const fillerPlayers = fixtureTeam.format.rosterSlots
     notes: '',
   }));
 
+/**
+ * `rank` is Sleeper's search_rank — the third platform, and the only one not
+ * derived from the FantasyPros consensus. Market Darling is the case the whole
+ * cross-source comparison exists for: Sleeper's managers are all over him
+ * (rank 8) while the analyst consensus has him last at the position (ECR 150).
+ */
 const players: Player[] = PlayersSchema.parse([
-  { id: 'big-wr', name: 'Big WR', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'cornerstone', notes: '' },
-  { id: 'mid-wr', name: 'Mid WR', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'starter', notes: '' },
-  { id: 'third-wr', name: 'Third WR', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'starter', notes: '' },
-  { id: 'fourth-wr', name: 'Fourth WR', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'depth', notes: '' },
-  { id: 'big-rb', name: 'Big RB', pos: 'RB', nflTeam: 'ZZZ', age: 24, tier: 'cornerstone', notes: '' },
-  { id: 'old-rb', name: 'Old RB', pos: 'RB', nflTeam: 'ZZZ', age: 30, tier: 'win-now', notes: '' },
-  { id: 'big-qb', name: 'Big QB', pos: 'QB', nflTeam: 'ZZZ', age: 26, tier: 'cornerstone', notes: '' },
-  { id: 'big-te', name: 'Big TE', pos: 'TE', nflTeam: 'ZZZ', age: 25, tier: 'starter', notes: '' },
-  { id: 'darling', name: 'Market Darling', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'starter', notes: '' },
-  { id: 'kicker', name: 'Kicker', pos: 'K', nflTeam: 'ZZZ', age: 24, tier: 'depth', notes: '' },
+  { id: 'big-wr', name: 'Big WR', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'cornerstone', notes: '', rank: 5 },
+  { id: 'mid-wr', name: 'Mid WR', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'starter', notes: '', rank: 40 },
+  { id: 'third-wr', name: 'Third WR', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'starter', notes: '', rank: 45 },
+  { id: 'fourth-wr', name: 'Fourth WR', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'depth', notes: '', rank: 55 },
+  { id: 'big-rb', name: 'Big RB', pos: 'RB', nflTeam: 'ZZZ', age: 24, tier: 'cornerstone', notes: '', rank: 10 },
+  { id: 'old-rb', name: 'Old RB', pos: 'RB', nflTeam: 'ZZZ', age: 30, tier: 'win-now', notes: '', rank: 30 },
+  { id: 'big-qb', name: 'Big QB', pos: 'QB', nflTeam: 'ZZZ', age: 26, tier: 'cornerstone', notes: '', rank: 6 },
+  { id: 'big-te', name: 'Big TE', pos: 'TE', nflTeam: 'ZZZ', age: 25, tier: 'starter', notes: '', rank: 42 },
+  { id: 'darling', name: 'Market Darling', pos: 'WR', nflTeam: 'ZZZ', age: 24, tier: 'starter', notes: '', rank: 8 },
+  { id: 'kicker', name: 'Kicker', pos: 'K', nflTeam: 'ZZZ', age: 24, tier: 'depth', notes: '', rank: 300 },
   ...fillerPlayers,
 ]);
 
@@ -305,19 +311,49 @@ describe('availability', () => {
   });
 });
 
-describe('the two market sources', () => {
-  it('reports where the trade market and the expert consensus disagree', () => {
+describe('the three platform rankings', () => {
+  it('reports disagreement only between sources that do not share an upstream', () => {
     const darling = recommend().recommendations.find((r) => r.name === 'Market Darling')!;
-    // Value ranks him WR2 available; consensus rank (90) puts him last at WR.
-    expect(darling.marketVsConsensus).toBeGreaterThan(0);
-    expect(darling.why.join(' ')).toContain('disagree in his favor');
+    // Sleeper has him WR2 available; the analyst consensus has him WR5.
+    expect(darling.sleeperPosRank).toBe(2);
+    expect(darling.ecrPosRank).toBe(5);
+    expect(darling.sleeperVsConsensus).toBe(3);
+    expect(darling.why.join(' ')).toContain('Platforms disagree in his favor');
   });
 
-  it('ranks each player at his position among players still available', () => {
-    const result = recommend();
-    const bigWr = result.recommendations.find((r) => r.name === 'Big WR')!;
-    expect(bigWr.ktcPosRank).toBe(1);
+  it('ranks each player at his position on every platform, among available players', () => {
+    const bigWr = recommend().recommendations.find((r) => r.name === 'Big WR')!;
+    expect(bigWr.valuePosRank).toBe(1);
     expect(bigWr.ecrPosRank).toBe(1);
+    expect(bigWr.sleeperPosRank).toBe(1);
+  });
+
+  it('marks which platforms are independent and which share an upstream', () => {
+    const bigWr = recommend().recommendations.find((r) => r.name === 'Big WR')!;
+    expect(bigWr.platforms.map((p) => [p.id, p.independent])).toEqual([
+      ['fantasypros', false],
+      ['dynastyprocess', false],
+      ['sleeper', true],
+    ]);
+  });
+
+  it('scores Sleeper separately, and says so when Sleeper has no rank for a player', () => {
+    const unranked = PlayersSchema.parse(
+      players.map((p) => (p.id === 'mid-wr' ? { ...p, rank: undefined } : p)),
+    );
+    const result = recommend({ players: unranked });
+    const midWr = result.recommendations.find((r) => r.name === 'Mid WR')!;
+    expect(midWr.sleeperRank).toBeNull();
+    expect(midWr.factors.find((f) => f.id === 'sleeper')!.points).toBe(0);
+    expect(midWr.why.join(' ')).toContain('Sleeper does not carry a search rank');
+  });
+
+  it('weights the two consensus-derived sources as one opinion against Sleeper', () => {
+    const { weights } = recommend();
+    // FantasyPros + DynastyProcess share an upstream, so their combined weight
+    // is the "analyst" vote; Sleeper is the independent check and is smaller.
+    expect(weights.sleeperPoints).toBeLessThan(weights.valuePoints + weights.consensusPoints);
+    expect(weights.sleeperPoints).toBeGreaterThan(0);
   });
 });
 
@@ -345,7 +381,7 @@ describe('rationale', () => {
 
   it('publishes the weighting it used so the score can be argued with', () => {
     const { weights } = recommend();
-    expect(weights.marketPoints).toBeGreaterThan(weights.consensusPoints);
+    expect(weights.valuePoints).toBeGreaterThan(weights.consensusPoints);
     expect(weights.byPosition.map((w) => w.pos)).toEqual(['QB', 'RB', 'WR', 'TE']);
     for (const row of weights.byPosition) expect(row.reason.length).toBeGreaterThan(10);
   });

@@ -68,8 +68,8 @@ function rec(over: Partial<Recommendation> & { name: string; pos: BoardPos; rank
     score: 90,
     factors: [
       {
-        id: 'market',
-        label: 'Market value (KeepTradeCut)',
+        id: 'value',
+        label: 'Trade value (DynastyProcess)',
         points: 50,
         max: 60,
         detail: 'Trade value 5,000.',
@@ -81,9 +81,37 @@ function rec(over: Partial<Recommendation> & { name: string; pos: BoardPos; rank
     ecr: 12,
     posEcr: 2,
     value: 5000,
-    ktcPosRank: 1,
+    valuePosRank: 1,
     ecrPosRank: 1,
-    marketVsConsensus: 0,
+    sleeperRank: 9,
+    sleeperPosRank: 4,
+    sleeperVsConsensus: -3,
+    platforms: [
+      {
+        id: 'fantasypros' as const,
+        label: 'FantasyPros',
+        posRank: 1,
+        display: 'ECR 12',
+        note: 'Superflex expert consensus rank',
+        independent: false,
+      },
+      {
+        id: 'dynastyprocess' as const,
+        label: 'DynastyProcess',
+        posRank: 1,
+        display: '5,000',
+        note: 'Trade-value model, derived from the FantasyPros consensus',
+        independent: false,
+      },
+      {
+        id: 'sleeper' as const,
+        label: 'Sleeper',
+        posRank: 4,
+        display: '#9',
+        note: 'Platform search rank',
+        independent: true,
+      },
+    ],
     depthRank: null,
     status: null,
     injuryStatus: null,
@@ -141,9 +169,25 @@ const recs: PickRecommendations = {
   picksUntilNext: 3,
   marketCapturedAt: '2026-08-10T00:00:00.000Z',
   sources: data.sources,
+  platformNotes: [
+    {
+      id: 'fantasypros',
+      label: 'FantasyPros',
+      note: 'Expert Consensus Rank.',
+      independent: false,
+    },
+    {
+      id: 'dynastyprocess',
+      label: 'DynastyProcess',
+      note: 'Built from the FantasyPros consensus.',
+      independent: false,
+    },
+    { id: 'sleeper', label: 'Sleeper', note: 'Sleeper own search rank.', independent: true },
+  ],
   weights: {
-    marketPoints: 60,
+    valuePoints: 45,
     consensusPoints: 20,
+    sleeperPoints: 15,
     maxNeedBoost: 0.35,
     formatSwing: 0.15,
     byPosition: BOARD_POSITIONS.map((pos) => ({
@@ -190,12 +234,28 @@ describe('PicksApp — recommendations', () => {
     );
   });
 
-  it('shows both market sources on the row', () => {
+  it('shows all three platform ranks on the row, flagging the shared upstream', () => {
     setup();
-    const row = screen.getAllByTestId('recommendation')[0]!;
-    expect(row).toHaveTextContent('KTC TE1');
-    expect(row).toHaveTextContent('ecr 12');
-    expect(row).toHaveTextContent('100');
+    const strip = within(screen.getAllByTestId('recommendation')[0]!).getByTestId('platform-strip');
+    const cells = within(strip).getAllByTestId('platform-cell');
+    expect(cells.map((c) => c.dataset.platform)).toEqual([
+      'fantasypros',
+      'dynastyprocess',
+      'sleeper',
+    ]);
+    expect(cells.map((c) => c.dataset.independent)).toEqual(['false', 'false', 'true']);
+    // The two that share an upstream are labeled; the independent one is not.
+    expect(within(strip).getAllByText('SAME SOURCE')).toHaveLength(2);
+    expect(strip).toHaveTextContent('TE4');
+    expect(strip).toHaveTextContent('#9');
+  });
+
+  it('reports the cross-platform spread when it is wide enough to matter', () => {
+    setup();
+    const strip = within(screen.getAllByTestId('recommendation')[0]!).getByTestId('platform-strip');
+    expect(within(strip).getByTestId('platform-disagreement')).toHaveTextContent(
+      'The analysts are 3 spots higher on him than Sleeper.',
+    );
   });
 
   it('breaks the score into named factors', () => {
@@ -204,7 +264,7 @@ describe('PicksApp — recommendations', () => {
       'recommendation-factors',
     );
     expect(within(factors).getAllByTestId('factor').map((f) => f.dataset.factor)).toEqual([
-      'market',
+      'value',
       'age',
     ]);
     expect(factors).toHaveTextContent('+50.0');
@@ -241,6 +301,26 @@ describe('PicksApp — modes', () => {
     expect(groups[0]).toHaveTextContent('need 100/100');
     expect(groups[0]).toHaveTextContent('Top Pick');
     expect(groups[2]).toHaveTextContent('No available RB matches the current filter.');
+  });
+
+  it('shows every platform side by side, with the spread and the provenance', async () => {
+    const user = userEvent.setup();
+    setup();
+    await user.click(screen.getByTestId('mode-platforms'));
+
+    const split = screen.getByTestId('platform-split');
+    const headers = within(split).getAllByRole('columnheader').map((h) => h.textContent);
+    expect(headers).toEqual(['Player', 'FantasyPros', 'DynastyProcess', 'Sleeper', 'Spread']);
+
+    const rows = within(split).getAllByTestId('platform-row');
+    expect(rows).toHaveLength(2);
+    expect(within(rows[0]!).getByTestId('platform-spread')).toHaveTextContent('-3');
+
+    // The table states which columns are independent rather than implying three
+    // agreeing sources.
+    const notes = within(split).getByTestId('platform-notes');
+    expect(within(notes).getAllByText('SHARES UPSTREAM')).toHaveLength(2);
+    expect(within(notes).getAllByText('INDEPENDENT')).toHaveLength(1);
   });
 
   it('still offers the consensus board and the waiver list', async () => {
@@ -299,9 +379,11 @@ describe('PicksApp — showing its work', () => {
   it('publishes the weighting behind the scores', () => {
     setup();
     const key = screen.getByTestId('scoring-key');
-    expect(key).toHaveTextContent('60 points of KeepTradeCut-derived market value');
-    expect(key).toHaveTextContent('20 points of FantasyPros expert consensus');
+    expect(key).toHaveTextContent('45 points of DynastyProcess trade value');
+    expect(key).toHaveTextContent('20 points of FantasyPros expert consensus rank');
+    expect(key).toHaveTextContent('15 points of Sleeper platform rank');
     expect(key).toHaveTextContent('up to +35%');
+    expect(key).toHaveTextContent('weighted as one opinion on purpose');
     expect(within(key).getByTestId('format-weights')).toHaveTextContent(
       'QB weighting reason for this league.',
     );

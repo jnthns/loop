@@ -20,11 +20,15 @@ import { BOARD_POSITIONS, type BoardPos } from '~/lib/picks/board';
  * So this module scores every available player against four things the raw
  * board ignores:
  *
- *   1. **Two independent market opinions.** KeepTradeCut-derived trade value
- *      (`valueSf` / `value1qb`, what the market pays) and FantasyPros Expert
- *      Consensus Rank (what a room of analysts says). They disagree often, and
- *      the disagreement is itself a signal, so both are scored and the gap
- *      between them is reported rather than averaged away.
+ *   1. **Three platform rankings, correctly attributed.** FantasyPros Expert
+ *      Consensus Rank and DynastyProcess's trade value are *one* opinion in two
+ *      shapes — DynastyProcess derives its value curve from the same consensus,
+ *      and sorting the committed snapshot both ways puts 69.5% of players in
+ *      identical positions. They are scored as a family, not as two witnesses
+ *      agreeing. Sleeper's `search_rank` is the genuinely independent third
+ *      read: it comes from a different company watching what millions of
+ *      managers actually draft and add, so where it disagrees with the analysts
+ *      the disagreement means something.
  *   2. **Your roster's actual holes**, taken from the same positional audit the
  *      team page runs (`diagnoseRosterHealth`) plus how many starting slots at
  *      that position are still empty.
@@ -47,12 +51,29 @@ import { BOARD_POSITIONS, type BoardPos } from '~/lib/picks/board';
 // rendered on the page, because a recommender whose reasoning you cannot
 // inspect is indistinguishable from one that is guessing.
 
-/** Points available from KeepTradeCut-derived market value. The largest single input. */
-export const MARKET_POINTS = 60;
-/** Points available from FantasyPros Expert Consensus Rank. */
+/**
+ * Points from DynastyProcess's trade-value model. The largest single input,
+ * because a magnitude separates players that a rank shows as adjacent.
+ */
+export const VALUE_POINTS = 45;
+/**
+ * Points from FantasyPros Expert Consensus Rank. Deliberately smaller than
+ * VALUE_POINTS despite being the more famous number: the two are the same
+ * underlying opinion (see `~/lib/schemas/market`), so together they are one
+ * 65-point vote, not an 80-point consensus of two.
+ */
 export const CONSENSUS_POINTS = 20;
+/**
+ * Points from Sleeper's own `search_rank`. The smallest input and the only
+ * independent one — it measures platform-wide manager behavior rather than
+ * analyst opinion, which makes it a useful check on the other two and a poor
+ * thing to draft by on its own.
+ */
+export const SLEEPER_POINTS = 15;
 /** Consensus ranks past this are treated as off the useful board. */
 const CONSENSUS_HORIZON = 200;
+/** Sleeper ranks everyone including deep bench bodies, so the horizon is wider. */
+const SLEEPER_HORIZON = 400;
 /** A maximal roster hole multiplies the base score by at most this much. */
 const MAX_NEED_BOOST = 0.35;
 /** Format weighting scales the base between (1 - SWING) and (1 + SWING). */
@@ -123,7 +144,37 @@ export function formatWeightReason(pos: BoardPos, format: Team['format']): strin
 
 // --- Types ------------------------------------------------------------------
 
-export type FactorId = 'market' | 'consensus' | 'need' | 'format' | 'age' | 'opportunity';
+export type FactorId =
+  | 'value'
+  | 'consensus'
+  | 'sleeper'
+  | 'need'
+  | 'format'
+  | 'age'
+  | 'opportunity';
+
+export type PlatformId = 'fantasypros' | 'dynastyprocess' | 'sleeper';
+
+/**
+ * One platform's read on a player, for the side-by-side comparison.
+ *
+ * `independent` is the field that matters most and the one a ranking table
+ * usually hides: three columns that look like three opinions are not three
+ * opinions if two of them share an upstream. Marking the family explicitly is
+ * what stops the table from manufacturing false confidence.
+ */
+export interface PlatformRank {
+  id: PlatformId;
+  label: string;
+  /** Rank at this player's position among everyone still available. */
+  posRank: number | null;
+  /** The platform's own number, for display — an ECR, a value, a search rank. */
+  display: string;
+  /** What that number means, in one clause. */
+  note: string;
+  /** False when this platform shares an upstream with another column. */
+  independent: boolean;
+}
 
 /** One scored input, carrying its own explanation so the UI never re-derives it. */
 export interface ScoreFactor {
@@ -156,17 +207,25 @@ export interface Recommendation {
   ecr: number | null;
   /** Consensus rank within position, as the sheet reports it. */
   posEcr: number | null;
-  /** Format-aware KeepTradeCut-derived trade value. */
+  /** Format-aware DynastyProcess trade value. */
   value: number | null;
-  /** Rank at this position among *available* players, by market value. */
-  ktcPosRank: number | null;
+  /** Rank at this position among *available* players, by DynastyProcess value. */
+  valuePosRank: number | null;
   /** Rank at this position among *available* players, by consensus rank. */
   ecrPosRank: number | null;
+  /** Sleeper's own `search_rank` (lower = more relevant to Sleeper's users). */
+  sleeperRank: number | null;
+  /** Rank at this position among *available* players, by Sleeper's search rank. */
+  sleeperPosRank: number | null;
   /**
-   * Positive when the market rates him higher than the consensus does (a buy
-   * signal from the trade market), negative when the experts are the high side.
+   * Positive when Sleeper's managers rate him higher than the analysts do,
+   * negative when the analysts are the high side. This is the only cross-source
+   * disagreement on the row worth reading, because it is the only pair that
+   * does not share an upstream.
    */
-  marketVsConsensus: number | null;
+  sleeperVsConsensus: number | null;
+  /** Every platform's read, side by side. */
+  platforms: PlatformRank[];
   depthRank: number | null;
   status: string | null;
   injuryStatus: string | null;
@@ -214,12 +273,15 @@ export interface PickRecommendations {
   sources: Market['sources'];
   /** The weighting table, passed through so the page can show its own math. */
   weights: {
-    marketPoints: number;
+    valuePoints: number;
     consensusPoints: number;
+    sleeperPoints: number;
     maxNeedBoost: number;
     formatSwing: number;
     byPosition: { pos: BoardPos; weight: number; reason: string }[];
   };
+  /** Provenance of each ranking column, including which ones share an upstream. */
+  platformNotes: { id: PlatformId; label: string; note: string; independent: boolean }[];
 }
 
 export interface RecommendInput {
@@ -238,6 +300,36 @@ export interface RecommendInput {
 
 const DEFAULT_LIMIT = 40;
 const DEFAULT_PER_POSITION_LIMIT = 8;
+
+/**
+ * Where each ranking column comes from, and — the part a comparison table
+ * normally leaves out — which columns are actually independent of each other.
+ */
+export const PLATFORM_NOTES: {
+  id: PlatformId;
+  label: string;
+  note: string;
+  independent: boolean;
+}[] = [
+  {
+    id: 'fantasypros',
+    label: 'FantasyPros',
+    note: 'Expert Consensus Rank — the average of many analysts’ dynasty rankings.',
+    independent: false,
+  },
+  {
+    id: 'dynastyprocess',
+    label: 'DynastyProcess',
+    note: 'A trade-value model built from the FantasyPros consensus, so it agrees with it by construction — 69.5% of players land in the identical position when the snapshot is sorted both ways. Read it as a magnitude, not a second opinion.',
+    independent: false,
+  },
+  {
+    id: 'sleeper',
+    label: 'Sleeper',
+    note: 'Sleeper’s own search rank, from a different company observing what its managers look up and draft. The only column here independent of the analyst consensus.',
+    independent: true,
+  },
+];
 const FACET_BY_POS: Record<BoardPos, HealthFacetId> = { QB: 'qb', RB: 'rb', WR: 'wr', TE: 'te' };
 const SEVERE_INJURY = /^(out|ir|injured reserve|pup|doubtful|sus|non football injury)$/i;
 
@@ -448,20 +540,36 @@ export function buildPickRecommendations(input: RecommendInput): PickRecommendat
     return consensusEcr(row, format) !== null || consensusValue(row, format) !== null;
   });
 
-  // The two market opinions, each ranked within position across what is still
-  // available. Ranking among *available* players (rather than league-wide) is
-  // the point: "WR3 on the board" is actionable, "WR23 overall" is trivia.
-  const ktcPosRank = new Map<string, number>();
+  // Sleeper's own ranking, joined onto the market rows. This is the third
+  // platform and the only independent one, so it gets its own lookup rather
+  // than riding along on the market row.
+  const sleeperRankFor = (playerId: string | null, name: string, pos: string): number | null => {
+    const player = findPlayer(playerId, name, pos);
+    return player?.rank ?? null;
+  };
+
+  // Each platform ranked within position across what is still available.
+  // Ranking among *available* players (rather than league-wide) is the point:
+  // "WR3 on the board" is actionable, "WR23 overall" is trivia.
+  const valuePosRank = new Map<string, number>();
   const ecrPosRank = new Map<string, number>();
+  const sleeperPosRank = new Map<string, number>();
   for (const pos of BOARD_POSITIONS) {
     const atPos = available.filter((r) => r.pos.toUpperCase() === pos);
     [...atPos]
       .sort((a, b) => (consensusValue(b, format) ?? 0) - (consensusValue(a, format) ?? 0))
-      .forEach((row, i) => ktcPosRank.set(row.fpId, i + 1));
+      .forEach((row, i) => valuePosRank.set(row.fpId, i + 1));
     [...atPos]
       .filter((r) => consensusEcr(r, format) !== null)
       .sort((a, b) => consensusEcr(a, format)! - consensusEcr(b, format)!)
       .forEach((row, i) => ecrPosRank.set(row.fpId, i + 1));
+    [...atPos]
+      .filter((r) => sleeperRankFor(r.playerId, r.name, r.pos) !== null)
+      .sort(
+        (a, b) =>
+          sleeperRankFor(a.playerId, a.name, a.pos)! - sleeperRankFor(b.playerId, b.name, b.pos)!,
+      )
+      .forEach((row, i) => sleeperPosRank.set(row.fpId, i + 1));
   }
 
   const maxValue = Math.max(1, ...available.map((r) => consensusValue(r, format) ?? 0));
@@ -478,10 +586,16 @@ export function buildPickRecommendations(input: RecommendInput): PickRecommendat
     const status = player?.status ?? null;
     const injuryStatus = player?.injuryStatus ?? null;
 
-    const marketPoints = value !== null ? (MARKET_POINTS * value) / maxValue : 0;
+    const sleeperRank = sleeperRankFor(playerId, row.name, row.pos);
+
+    const valuePoints = value !== null ? (VALUE_POINTS * value) / maxValue : 0;
     const consensusPoints =
       ecr !== null ? CONSENSUS_POINTS * Math.max(0, 1 - (ecr - 1) / CONSENSUS_HORIZON) : 0;
-    const base = marketPoints + consensusPoints;
+    const sleeperPoints =
+      sleeperRank !== null
+        ? SLEEPER_POINTS * Math.max(0, 1 - (sleeperRank - 1) / SLEEPER_HORIZON)
+        : 0;
+    const base = valuePoints + consensusPoints + sleeperPoints;
 
     const needMultiplier = 1 + MAX_NEED_BOOST * need.needWeight;
     const weight = formatWeight(pos, format);
@@ -496,20 +610,49 @@ export function buildPickRecommendations(input: RecommendInput): PickRecommendat
     // hundreds and throw away exactly the ordering the page exists to show.
     const raw = Math.max(0, weighted + age.points + opportunity.points);
 
-    const ktcRank = ktcPosRank.get(row.fpId) ?? null;
+    const valueRank = valuePosRank.get(row.fpId) ?? null;
     const ecrRank = ecrPosRank.get(row.fpId) ?? null;
-    const marketVsConsensus = ktcRank !== null && ecrRank !== null ? ecrRank - ktcRank : null;
+    const sleeperRankAtPos = sleeperPosRank.get(row.fpId) ?? null;
+    const sleeperVsConsensus =
+      sleeperRankAtPos !== null && ecrRank !== null ? ecrRank - sleeperRankAtPos : null;
+
+    const platforms: PlatformRank[] = [
+      {
+        id: 'fantasypros',
+        label: 'FantasyPros',
+        posRank: ecrRank,
+        display: ecr !== null ? `ECR ${ecr}` : '—',
+        note: `${format.superflex ? 'Superflex' : '1QB'} expert consensus rank`,
+        independent: false,
+      },
+      {
+        id: 'dynastyprocess',
+        label: 'DynastyProcess',
+        posRank: valueRank,
+        display: value !== null ? value.toLocaleString() : '—',
+        note: 'Trade-value model, derived from the FantasyPros consensus',
+        independent: false,
+      },
+      {
+        id: 'sleeper',
+        label: 'Sleeper',
+        posRank: sleeperRankAtPos,
+        display: sleeperRank !== null ? `#${sleeperRank}` : '—',
+        note: 'Platform search rank — what Sleeper’s managers actually look up',
+        independent: true,
+      },
+    ];
 
     const factors: ScoreFactor[] = [
       {
-        id: 'market',
-        label: 'Market value (KeepTradeCut)',
-        points: Math.round(marketPoints * 10) / 10,
-        max: MARKET_POINTS,
+        id: 'value',
+        label: 'Trade value (DynastyProcess)',
+        points: Math.round(valuePoints * 10) / 10,
+        max: VALUE_POINTS,
         detail:
           value !== null
-            ? `Trade value ${value.toLocaleString()}${ktcRank ? ` — ${pos}${ktcRank} among available players` : ''}.`
-            : 'No market value on file for this player.',
+            ? `Value ${value.toLocaleString()}${valueRank ? ` — ${pos}${valueRank} among available players` : ''}.`
+            : 'No value on file for this player.',
       },
       {
         id: 'consensus',
@@ -518,8 +661,18 @@ export function buildPickRecommendations(input: RecommendInput): PickRecommendat
         max: CONSENSUS_POINTS,
         detail:
           ecr !== null
-            ? `${format.superflex ? 'Superflex' : '1QB'} ECR ${ecr}${ecrRank ? ` — ${pos}${ecrRank} among available players` : ''}.`
+            ? `${format.superflex ? 'Superflex' : '1QB'} ECR ${ecr}${ecrRank ? ` — ${pos}${ecrRank} among available players` : ''}. Same upstream as the value above, so the two are one opinion.`
             : 'Unranked on the consensus sheet.',
+      },
+      {
+        id: 'sleeper',
+        label: 'Platform rank (Sleeper)',
+        points: Math.round(sleeperPoints * 10) / 10,
+        max: SLEEPER_POINTS,
+        detail:
+          sleeperRank !== null
+            ? `Sleeper search rank #${sleeperRank}${sleeperRankAtPos ? ` — ${pos}${sleeperRankAtPos} among available players` : ''}. The only read here that does not come from the analyst consensus.`
+            : 'Sleeper does not rank him, which for a draftable player is itself a signal.',
       },
       {
         id: 'need',
@@ -560,9 +713,12 @@ export function buildPickRecommendations(input: RecommendInput): PickRecommendat
       ecr,
       posEcr: row.posEcr,
       value,
-      ktcPosRank: ktcRank,
+      valuePosRank: valueRank,
       ecrPosRank: ecrRank,
-      marketVsConsensus,
+      sleeperRank,
+      sleeperPosRank: sleeperRankAtPos,
+      sleeperVsConsensus,
+      platforms,
       depthRank,
       status,
       injuryStatus,
@@ -618,8 +774,9 @@ export function buildPickRecommendations(input: RecommendInput): PickRecommendat
     marketCapturedAt: market.capturedAt,
     sources: market.sources,
     weights: {
-      marketPoints: MARKET_POINTS,
+      valuePoints: VALUE_POINTS,
       consensusPoints: CONSENSUS_POINTS,
+      sleeperPoints: SLEEPER_POINTS,
       maxNeedBoost: MAX_NEED_BOOST,
       formatSwing: FORMAT_SWING,
       byPosition: BOARD_POSITIONS.map((pos) => ({
@@ -628,6 +785,7 @@ export function buildPickRecommendations(input: RecommendInput): PickRecommendat
         reason: formatWeightReason(pos, format),
       })),
     },
+    platformNotes: PLATFORM_NOTES,
   };
 }
 
@@ -664,7 +822,7 @@ function explain(rec: Recommendation, need: PositionNeed, format: Team['format']
     );
   }
 
-  if (rec.value !== null && rec.ktcPosRank !== null) {
+  if (rec.value !== null && rec.valuePosRank !== null) {
     const ecrPart =
       rec.ecr !== null
         ? ` Consensus has him at ${format.superflex ? 'SF ' : ''}ECR ${rec.ecr}${
@@ -672,18 +830,22 @@ function explain(rec: Recommendation, need: PositionNeed, format: Team['format']
           }.`
         : ' He is unranked on the consensus sheet, which is its own warning.';
     out.push(
-      `The market pays ${rec.value.toLocaleString()} for him — ${rec.pos}${rec.ktcPosRank} among everyone still on the board.${ecrPart}`,
+      `Analyst side: DynastyProcess values him at ${rec.value.toLocaleString()} — ${rec.pos}${rec.valuePosRank} among everyone still on the board.${ecrPart}`,
     );
   }
 
-  // The disagreement between the two sources is the most useful thing on the
-  // row when it is large, and worth nothing when it is small, so it only
-  // appears past a threshold.
-  if (rec.marketVsConsensus !== null && Math.abs(rec.marketVsConsensus) >= 3) {
+  // Only Sleeper-versus-consensus is worth reporting as disagreement. The value
+  // and the ECR come from the same upstream, so a gap between *those* two is a
+  // property of DynastyProcess's curve, not two sources seeing him differently.
+  if (rec.sleeperVsConsensus !== null && Math.abs(rec.sleeperVsConsensus) >= 3) {
     out.push(
-      rec.marketVsConsensus > 0
-        ? `Sources disagree in his favor: KeepTradeCut ranks him ${rec.marketVsConsensus} spots higher at ${rec.pos} than the expert consensus does. The trade market is usually the faster-moving of the two.`
-        : `Sources disagree against him: the expert consensus is ${Math.abs(rec.marketVsConsensus)} spots higher at ${rec.pos} than the trade market. You would be buying at the analysts' price, not the market's.`,
+      rec.sleeperVsConsensus > 0
+        ? `Platforms disagree in his favor: Sleeper's managers rank him ${rec.sleeperVsConsensus} spots higher at ${rec.pos} than the analyst consensus does. Sleeper is the independent read here, and manager behavior often moves before the rankings do.`
+        : `Platforms disagree against him: the analyst consensus is ${Math.abs(rec.sleeperVsConsensus)} spots higher at ${rec.pos} than Sleeper's managers have him. The rankings like him more than the people actually drafting do.`,
+    );
+  } else if (rec.sleeperRank === null) {
+    out.push(
+      'Sleeper does not carry a search rank for him, so the only reads here are the analyst consensus and the value model derived from it — one opinion, not a cross-check.',
     );
   }
 

@@ -38,7 +38,20 @@ export const MarketPlayerRowSchema = z.object({
   ecr1qb: z.number().nullable(),
   /** ecr_pos — rank within position. */
   posEcr: z.number().nullable(),
-  /** value_2qb — KeepTradeCut-derived market value, superflex. */
+  /**
+   * value_2qb — DynastyProcess's own trade-value model, superflex.
+   *
+   * NOT a KeepTradeCut value, despite `ktcId` sitting two fields up: that id is
+   * from DynastyProcess's cross-platform id crosswalk and is used only to build
+   * deep links to KTC player pages. `values-players.csv` carries no KTC column.
+   *
+   * More importantly, this is **not independent of `ecrSf`** — DynastyProcess
+   * derives the value curve from the same FantasyPros consensus. Sorting the
+   * committed snapshot both ways puts 69.5% of players in exactly the same
+   * position and 91% within three spots. Treat value and ECR as one opinion
+   * expressed twice (a rank and a magnitude), never as two sources agreeing.
+   * For a genuinely independent read, use Sleeper's `rank` in players.json.
+   */
   valueSf: z.number(),
   /** value_1qb — value1qb / valueSf measures the superflex QB premium. */
   value1qb: z.number().nullable(),

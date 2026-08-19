@@ -8,14 +8,9 @@
       "kind": "dataset"
     },
     {
-      "label": "FantasyPros dynasty rankings",
+      "label": "FantasyPros dynasty rankings (upstream of the DynastyProcess ECR and value columns)",
       "url": "https://www.fantasypros.com/nfl/rankings/dynasty-overall.php",
       "kind": "rankings"
-    },
-    {
-      "label": "KeepTradeCut dynasty rankings",
-      "url": "https://keeptradecut.com/dynasty-rankings",
-      "kind": "market"
     }
   ],
   "players": [
