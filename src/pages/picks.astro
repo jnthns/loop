@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '~/layouts/BaseLayout.astro';
-import PicksApp from '~/components/PicksApp';
+import LivePicks from '~/components/LivePicks';
 import {
   market,
   trending,
@@ -9,12 +9,12 @@ import {
   team,
   depthRankById,
   profiles,
+  sleeperConfig,
 } from '~/lib/data';
-import { buildPositionBoards } from '~/lib/picks/board';
-import { buildPickRecommendations } from '~/lib/picks/recommend';
+import { buildPositionBoards, BOARD_POSITIONS } from '~/lib/picks/board';
 import { href } from '~/lib/url';
 
-const data = buildPositionBoards({
+const boards = buildPositionBoards({
   market,
   trending,
   players,
@@ -23,22 +23,64 @@ const data = buildPositionBoards({
   depthRankById,
 });
 
-const recs = buildPickRecommendations({
-  market,
-  trending,
-  players,
-  draft,
-  team,
-  profiles,
-  depthRankById,
-});
+/**
+ * The recommender scores in the browser so a live Sleeper refresh can drop
+ * players the moment they are drafted (see `LivePicks`), which means the market
+ * rows travel to the client. Two trims keep that payload honest.
+ *
+ * The cap is the load-bearing one. This draft is `teams x rounds` picks and not
+ * one pick more, so a player outside the best that many by *either* consensus
+ * rank or trade value cannot be taken in it — shipping him would be shipping a
+ * row that can never be recommended. Taking the union of both orderings rather
+ * than one of them matters: value drives most of the score, ECR drives the
+ * rest, and a player the two disagree about is exactly the kind this page
+ * exists to surface. A floor keeps the board usable if the draft config is
+ * missing or unusually short.
+ *
+ * The id fields go to null because nothing on this page reads them — they exist
+ * to build deep links elsewhere. Together the two trims take the market payload
+ * from about 161K to roughly a third of that.
+ */
+const draftablePicks = draft.teams && draft.rounds ? draft.teams * draft.rounds : 0;
+const CAP = Math.max(360, draftablePicks);
+
+function bestBy(key: 'ecrSf' | 'valueSf'): Set<string> {
+  const ranked = market.players
+    .filter((row) => row[key] !== null)
+    .sort((a, b) =>
+      key === 'ecrSf' ? a.ecrSf! - b.ecrSf! : b.valueSf - a.valueSf,
+    )
+    .slice(0, CAP);
+  return new Set(ranked.map((row) => row.fpId));
+}
+
+const draftable = new Set([...bestBy('ecrSf'), ...bestBy('valueSf')]);
+
+const marketForClient = {
+  ...market,
+  players: market.players
+    .filter((row) => draftable.has(row.fpId))
+    .map((row) => ({ ...row, sleeperId: null, ktcId: null, espnId: null, draftYear: null })),
+};
 
 const links = { team: href('/team'), compare: href('/compare') };
 
 const lede =
-  'Who to take next, scored against your own roster. Every available player is weighed on two market sources, the holes in your lineup, this league’s scoring settings, and the published age curve for his position — with the arithmetic shown on every row. The old consensus board is still a click away.';
+  'Who to take next, scored against your own roster. Every available player is weighed on three platform rankings, the holes in your lineup, this league’s scoring settings, and the published age curve for his position — with the arithmetic shown on every row. Refresh from Sleeper mid-draft and anyone already taken drops off the board.';
 ---
 
 <BaseLayout title="Picks" lede={lede} tone="pink">
-  <PicksApp client:load data={data} recs={recs} links={links} />
+  <LivePicks
+    client:load
+    boards={boards}
+    market={marketForClient}
+    trending={trending}
+    players={players}
+    draft={draft}
+    team={team}
+    profiles={profiles}
+    depthRankById={depthRankById}
+    sleeperConfig={sleeperConfig}
+    links={links}
+  />
 </BaseLayout>
