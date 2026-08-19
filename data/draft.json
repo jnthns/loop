@@ -621,6 +621,72 @@
       "pos": "WR",
       "nflTeam": "TEN",
       "mine": false
+    },
+    {
+      "pick": 54,
+      "round": 5,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "rashee-rice",
+      "playerName": "Rashee Rice",
+      "pos": "WR",
+      "nflTeam": "KC",
+      "mine": false
+    },
+    {
+      "pick": 55,
+      "round": 5,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "garrett-wilson",
+      "playerName": "Garrett Wilson",
+      "pos": "WR",
+      "nflTeam": "NYJ",
+      "mine": false
+    },
+    {
+      "pick": 56,
+      "round": 5,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "breece-hall",
+      "playerName": "Breece Hall",
+      "pos": "RB",
+      "nflTeam": "NYJ",
+      "mine": false
+    },
+    {
+      "pick": 57,
+      "round": 5,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "kyren-williams",
+      "playerName": "Kyren Williams",
+      "pos": "RB",
+      "nflTeam": "LAR",
+      "mine": true
+    },
+    {
+      "pick": 58,
+      "round": 5,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "travis-etienne",
+      "playerName": "Travis Etienne",
+      "pos": "RB",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 59,
+      "round": 5,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "rome-odunze",
+      "playerName": "Rome Odunze",
+      "pos": "WR",
+      "nflTeam": "CHI",
+      "mine": false
     }
   ]
 }
