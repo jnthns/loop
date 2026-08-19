@@ -465,3 +465,31 @@ Remove the comment markers only when the build is truly finished.)
 - **Evidence:** `npm run typecheck` → 0 errors; `npm run test` → **663/663**
   (39 files); `npm run build` → 28 pages; `check.sh passed.` New coverage in
   `tests/compare.test.ts` (14) and `tests/compare-app.test.tsx` (9).
+
+
+### Pass 18 — one story per player, and boards that agree with the recommender
+
+- **Live Sleeper data:** `api.sleeper.app` is blocked by this environment's
+  egress policy, so no fetch was possible from here. The app runs on the newest
+  committed snapshot (`data/sleeper.json` `lastSyncedAt` 2026-08-19T18:52Z,
+  refreshed by the scheduled data job): a live 12-team, 30-round startup, 74
+  picks in, 6 of the manager's slots filled.
+- **Boards now filter against the same board the recommender does.**
+  `buildPositionBoards` moved out of `picks.astro` and into `LivePicks`, so a
+  live Sleeper refresh re-derives the position lists as well as the scores. The
+  page could previously say a player was gone in one tab and available in the
+  next.
+- **`boardLimit` counts available players, not rows.** Mid-draft the top of each
+  list is mostly names already taken, so "top 40" was really "the eleven of the
+  top 40 still on the board". Taken names are still carried in place; the limit
+  now guarantees 40 available ones behind them.
+- **Taken players are hidden by default** on the board and trending lists
+  (`PicksApp`), with the existing checkbox to bring them back.
+- **News is deduplicated to one story per player** (`dedupeByPlayer` /
+  `uniqueStories`, on by default in `NewsPanel`, applied to the dashboard digest
+  and to `rosterAlerts`). Items with no tagged player fall back to the person
+  named in the headline (`headlineSubject`), which is what collapses everyone
+  outside this league's player pool — five Trevon Diggs signings from four
+  outlets became one. On the committed feed: 400 items -> 217.
+- **Evidence:** `check.sh passed` — typecheck 0 errors, vitest **689/689** (40
+  files), build 28 pages.

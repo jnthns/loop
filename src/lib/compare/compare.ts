@@ -25,6 +25,7 @@
 
 import type { Market, MarketPlayerRow } from '~/lib/schemas/market';
 import type { NewsItem } from '~/lib/schemas/news';
+import { dedupeByTitle } from '~/lib/news/dedupe';
 import type { Player } from '~/lib/schemas/players';
 import type { Profile } from '~/lib/schemas/profiles';
 import type { Team } from '~/lib/schemas/team';
@@ -413,10 +414,14 @@ export function buildDossiers(input: DossierInput): ComparedPlayer[] {
     const value = row ? (sf ? row.valueSf : row.value1qb) : null;
     const sfPremium =
       row && row.value1qb !== null && row.value1qb > 0 ? row.valueSf / row.value1qb : null;
-    const news = (newsByPlayer.get(player.id) ?? [])
-      .slice()
-      .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
-      .slice(0, NEWS_PER_PLAYER);
+    // Deduped first, then capped: three syndicated copies of one signing are one
+    // story, and spending all three rows on it would hide the two other things
+    // that happened to him.
+    const news = dedupeByTitle(
+      (newsByPlayer.get(player.id) ?? [])
+        .slice()
+        .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)),
+    ).slice(0, NEWS_PER_PLAYER);
     const depthRank = input.depthRankById[player.id] ?? null;
 
     // Named rather than inferred from an empty cell: "nflverse does not list

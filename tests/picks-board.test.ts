@@ -169,3 +169,76 @@ describe('position boards', () => {
     expect(result.sources).toHaveLength(1);
   });
 });
+
+describe('board limit', () => {
+  // Names are spelled out because the name key strips digits — "QB 1" and
+  // "QB 11" would otherwise be the same player.
+  const NAMES = [
+    'One QB', 'Two QB', 'Three QB', 'Four QB', 'Five QB', 'Six QB',
+    'Seven QB', 'Eight QB', 'Nine QB', 'Ten QB', 'Eleven QB', 'Twelve QB',
+  ];
+
+  /** Twelve ranked QBs, the first eight of them already drafted. */
+  const many = MarketSchema.parse({
+    capturedAt: '2026-08-10T00:00:00.000Z',
+    scrapeDate: '2026-08-09',
+    sources: [
+      { label: 'DynastyProcess', url: 'https://github.com/dynastyprocess/data', kind: 'dataset' },
+    ],
+    players: NAMES.map((name, i) =>
+      marketRow({ name, pos: 'QB', ecrSf: i + 1, ecr1qb: i + 1 }),
+    ),
+    picks: [],
+    unmatched: [],
+  });
+
+  const eightGone = DraftSchema.parse({
+    draftId: 'd1',
+    status: 'drafting',
+    picks: NAMES.slice(0, 8).map((name, i) => ({
+      pick: i + 1,
+      round: 1,
+      slot: i + 1,
+      rosterId: 2,
+      playerId: null,
+      playerName: name,
+      pos: 'QB',
+    })),
+  });
+
+  it('counts the limit against available players, not against rows', () => {
+    const result = buildPositionBoards({
+      market: many,
+      trending,
+      players: [],
+      draft: eightGone,
+      format: superflex,
+      boardLimit: 3,
+    });
+    const qb = posBoard(result, 'QB').board;
+    // Three available names — the ninth through eleventh — with the eight taken
+    // ones still listed in place ahead of them.
+    expect(qb.filter((r) => r.availability === 'available').map((r) => r.name)).toEqual([
+      'Nine QB',
+      'Ten QB',
+      'Eleven QB',
+    ]);
+    expect(qb.filter((r) => r.availability === 'drafted')).toHaveLength(8);
+  });
+
+  it('still stops at the limit when nobody is off the board', () => {
+    const result = buildPositionBoards({
+      market: many,
+      trending,
+      players: [],
+      draft: noDraft,
+      format: superflex,
+      boardLimit: 3,
+    });
+    expect(posBoard(result, 'QB').board.map((r) => r.name)).toEqual([
+      'One QB',
+      'Two QB',
+      'Three QB',
+    ]);
+  });
+});

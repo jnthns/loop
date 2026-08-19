@@ -116,7 +116,11 @@ function matches(needle: string, name: string, nflTeam: string): boolean {
 
 export function PicksApp({ data, recs, links }: PicksAppProps) {
   const [mode, setMode] = useState<ListMode>('recommended');
-  const [onlyAvailable, setOnlyAvailable] = useState(false);
+  // Taken players are hidden by default. Mid-draft the top of every board is
+  // mostly names that are already gone, and a list you have to read past to
+  // find the next pick is not a shortlist. Unticking brings them back, struck
+  // through and in place, for anyone reading the run rather than picking.
+  const [onlyAvailable, setOnlyAvailable] = useState(true);
   const [query, setQuery] = useState('');
   const [posFilter, setPosFilter] = useState<BoardPos | 'ALL'>('ALL');
 

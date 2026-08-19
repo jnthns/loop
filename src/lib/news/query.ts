@@ -1,4 +1,4 @@
-import { dedupeByTitle } from '~/lib/news/dedupe';
+import { dedupeByPlayer, dedupeByTitle } from '~/lib/news/dedupe';
 import type { NewsItem } from '~/lib/schemas/news';
 
 export type NewsSort = 'newest' | 'oldest' | 'source' | 'title';
@@ -13,6 +13,12 @@ export interface NewsFilter {
   watchedPlayerIds?: string[];
   /** Collapse syndicated headlines before filtering. */
   dedupeTitles?: boolean;
+  /**
+   * Keep at most one item per player before filtering — the feed's default.
+   * Subsumes `dedupeTitles` for the items it looks at, so setting both is
+   * harmless rather than contradictory.
+   */
+  uniquePerPlayer?: boolean;
 }
 
 export function facetCounts(
@@ -32,7 +38,11 @@ export function filterNews(items: NewsItem[], filter: NewsFilter = {}): NewsItem
   const watched = new Set(filter.watchedPlayerIds ?? []);
   const needle = filter.query?.trim().toLowerCase() ?? '';
 
-  let out = filter.dedupeTitles ? dedupeByTitle(items) : items;
+  // Dedupe runs before the facet filters so the counts and the list agree: a
+  // story collapsed away must not still be counted under its source.
+  let out = items;
+  if (filter.uniquePerPlayer) out = dedupeByPlayer(out);
+  else if (filter.dedupeTitles) out = dedupeByTitle(out);
 
   if (filter.source) out = out.filter((i) => i.source === filter.source);
   if (filter.tag) out = out.filter((i) => i.tags.includes(filter.tag!));

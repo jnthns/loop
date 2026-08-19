@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { act, render, screen, within } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import { LivePicks } from '~/components/LivePicks';
-import { buildPositionBoards } from '~/lib/picks/board';
 import { MarketSchema, type Market } from '~/lib/schemas/market';
 import { TrendingSchema } from '~/lib/schemas/trending';
 import { DraftSchema, type Draft } from '~/lib/schemas/draft';
@@ -79,14 +79,6 @@ const emptyTeam = TeamSchema.parse({
   targets: [],
 });
 
-const boards = buildPositionBoards({
-  market,
-  trending,
-  players,
-  draft: committedDraft,
-  format: emptyTeam.format,
-});
-
 const sleeperConfig = SleeperConfigSchema.parse({
   username: 'fixture-manager',
   userId: '456',
@@ -100,7 +92,6 @@ function snapshot(draft: Draft): LiveSleeperSnapshot {
 function setup(loadSnapshot: () => LiveSleeperSnapshot | null) {
   return render(
     <LivePicks
-      boards={boards}
       market={market}
       trending={trending}
       players={players}
@@ -148,6 +139,18 @@ describe('LivePicks', () => {
     const strip = within(bravo).getByTestId('platform-strip');
     const cells = within(strip).getAllByTestId('platform-cell');
     expect(cells.every((c) => c.textContent?.includes('WR1'))).toBe(true);
+  });
+
+  it('drops a drafted player from the position board too, not just the recommendations', async () => {
+    const user = userEvent.setup();
+    setup(() => snapshot(liveDraft));
+    await user.click(screen.getByTestId('mode-board'));
+
+    const board = screen.getAllByTestId('position-list').find((l) => l.dataset.pos === 'WR')!;
+    // The boards are rebuilt from the same live snapshot the recommender uses,
+    // so the page cannot say "gone" in one tab and "available" in another.
+    expect(board.textContent).not.toContain('Alpha WR');
+    expect(board.textContent).toContain('Bravo WR');
   });
 
   it('says whether the board is live or from the committed snapshot', () => {

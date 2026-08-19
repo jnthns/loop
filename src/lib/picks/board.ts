@@ -228,7 +228,31 @@ export function buildPositionBoards(input: PositionBoardsInput): PositionBoards 
       return (consensusValue(b, format) ?? 0) - (consensusValue(a, format) ?? 0);
     });
 
-    const board: BoardEntry[] = rows.slice(0, boardLimit).map((row, i) => {
+    // The limit counts *available* players, not rows. Slicing the raw list
+    // instead meant that mid-draft — with seventy names already gone from the
+    // top of it — "top 40" was really "the eleven of the top 40 nobody has
+    // taken", and hiding taken players emptied the board out. Taken names are
+    // still carried, in place, because reading who went just ahead of you is
+    // half of what a board is for.
+    let availableSoFar = 0;
+    const inScope: MarketPlayerRow[] = [];
+    for (const row of rows) {
+      const player = findPlayer(row.playerId, row.name, row.pos);
+      const status = availabilityOf(
+        row.playerId ?? player?.id ?? null,
+        row.name,
+        pos,
+        drafted,
+        rostered,
+      );
+      if (status === 'available') {
+        if (availableSoFar >= boardLimit) break;
+        availableSoFar += 1;
+      }
+      inScope.push(row);
+    }
+
+    const board: BoardEntry[] = inScope.map((row, i) => {
       const player = findPlayer(row.playerId, row.name, row.pos);
       return {
         key: row.fpId || nameKey(row.name, row.pos),
