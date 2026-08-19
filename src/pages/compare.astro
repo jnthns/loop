@@ -1,0 +1,69 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import CompareApp from '~/components/compare/CompareApp';
+import {
+  depth,
+  depthRankById,
+  market,
+  news,
+  players,
+  profiles,
+  team,
+  trending,
+} from '~/lib/data';
+import { buildDossiers, FAMILIES } from '~/lib/compare/compare';
+import { DATA_SOURCES } from '~/lib/data/sources';
+import { href } from '~/lib/url';
+
+/**
+ * Kickers and defenses are dropped rather than rendered as four rows of blanks:
+ * no source on this page ranks them in a way that compares to a skill player.
+ */
+const COMPARABLE = new Set(['QB', 'RB', 'WR', 'TE']);
+
+const dossiers = buildDossiers({
+  players: players.filter((p) => COMPARABLE.has(p.pos)),
+  market,
+  trending,
+  news,
+  profiles,
+  depthRankById,
+  team,
+}).sort((a, b) => (a.ecr ?? Infinity) - (b.ecr ?? Infinity));
+
+/**
+ * Open on the decision the manager has already written down: the two highest
+ * priority targets on the team page. Falling back to the top of the consensus
+ * board keeps the page useful before any targets exist.
+ */
+const targetIds = [...team.targets]
+  .sort((a, b) => a.priority - b.priority)
+  .map((t) => t.playerId)
+  .filter((id) => dossiers.some((d) => d.id === id));
+
+const initialIds = (targetIds.length >= 2 ? targetIds : dossiers.map((d) => d.id)).slice(0, 2);
+
+const usedSourceIds = new Set(FAMILIES.flatMap((family) => family.sourceIds));
+const sources = DATA_SOURCES.filter((source) => usedSourceIds.has(source.id));
+
+const links = { team: href('/team'), picks: href('/picks'), knowledge: href('/knowledge') };
+
+const lede =
+  'Hold two to four players against every source this site pulls — the analyst consensus, Sleeper’s own managers, the NFL depth chart, the cited scouting profile, and the news that moved them — with the sources grouped by who they actually came from, so two columns sharing an upstream never read as two opinions agreeing.';
+---
+
+<BaseLayout title="Compare" lede={lede} tone="amber">
+  <CompareApp
+    client:load
+    dossiers={dossiers}
+    options={{ superflex: team.format.superflex, lookbackHours: trending.lookbackHours }}
+    initialIds={initialIds}
+    sources={sources}
+    capturedAt={{
+      market: market.capturedAt,
+      trending: trending.capturedAt,
+      depth: depth.capturedAt,
+    }}
+    links={links}
+  />
+</BaseLayout>

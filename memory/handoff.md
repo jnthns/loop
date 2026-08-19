@@ -1,30 +1,38 @@
 # Handoff
 
-## Last run — Phase 16, roster health panel
+## Last run — `/compare` replaces `/builds`
 
-Replaced the `/team` pick schedule and draft shortlist with a **Where this
-roster is weak** panel. It grades the current roster against 2026 superflex
-criteria from cited web and YouTube sources, then lists weak/watch rooms first.
+Deleted the builds page and its whole support tree (component, `src/lib/builds`,
+the `builds` content collection, four test suites) and shipped `/compare` in its
+place: a player-vs-player page that holds two to four players against every
+source this site pulls.
 
 New surface area:
-- `src/lib/team/health.ts` — `diagnoseRosterHealth()`, RSJ 0–40 window bands
-- `src/components/RosterHealthPanel.tsx`
-- `tests/roster-health.test.tsx`
+- `src/lib/compare/compare.ts` — `buildDossiers()` (build-time join of market,
+  Sleeper, nflverse, news, profiles) and `compare()` (pure, runs in the browser)
+- `src/components/compare/CompareApp.tsx`
+- `src/pages/compare.astro`
+- `tests/compare.test.ts`, `tests/compare-app.test.tsx`
 
-`DraftPanel` still exists and is unit-tested in isolation; TeamApp no longer
-mounts it.
-
-Evidence: typecheck 0 errors, vitest **652/652**, build 28 pages.
+Evidence: typecheck 0 errors, vitest **663/663**, build 28 pages.
 
 ## What the next run should know
 
-- Click **Refresh from Sleeper** first so the health panel sees live roster
-  assignments, not an empty committed file.
-- Grades use stored `tier` / `age` / injury — defaulted tiers from the sync
-  are still coarse (BACKLOG P0).
-- DraftPanel remains in the tree for now; delete it in a later pass if unused.
+- Rows are grouped by upstream family on purpose. FantasyPros ECR and the
+  DynastyProcess value share a provenance and are badged as such; Sleeper is the
+  only independent read. Do not "simplify" the page into one flat ranking table —
+  that is the exact failure the grouping exists to prevent.
+- `compare()` returns `agreement: 'unknown'` whenever a read saw fewer than two
+  of the selected players. A one-horse race is not agreement.
+- The page ships a dossier per skill-position player (~350KB of JSON, in line
+  with `/team` and `/picks`). If that becomes a problem, trim the news objects
+  first — only title, url, source, and publishedAt are rendered.
+- The positional-builds knowledge article survived the deletion and is still
+  linked from `DraftPanel`; only the page machinery went.
 
 ## Open items — candidates for BACKLOG, not yet scheduled
 
+- A shareable `?players=a,b` query param for a comparison (nothing persists the
+  selection today).
 - Delete unused `DraftPanel` once nothing imports it except its own tests.
 - PicksApp still does not listen for the live Sleeper refresh event.

@@ -436,3 +436,32 @@ Remove the comment markers only when the build is truly finished.)
 - **Evidence:** `npm run typecheck` → 0 errors; `npm run test` → **652/652**;
   `npm run build` → 28 pages. Coverage in `tests/roster-health.test.tsx`.
 
+
+### Pass 17 — `/builds` removed, `/compare` replaces it
+
+- **Removed:** the `/builds` page and everything that existed only to serve it —
+  `src/components/builds/`, `src/lib/builds/` (archetypes, fit, picks, types),
+  the `builds` content collection and its seven archetype markdown files, and
+  the four `tests/builds-*` suites. The positional-builds *knowledge article*
+  stays: it is cited prose, not page machinery.
+- **Added:** `/compare` — hold two to four players against every upstream this
+  site pulls, at once. `src/lib/compare/compare.ts` joins the sources onto a
+  dossier per player at build time (`buildDossiers`) and compares a chosen
+  subset in the browser (`compare`); `src/components/compare/CompareApp.tsx`
+  renders it.
+- **The point of the design:** rows are grouped by *upstream family*, not laid
+  out flat. FantasyPros ECR and the DynastyProcess value are shown together and
+  badged `SHARES AN UPSTREAM`, because the value curve is derived from the same
+  consensus — a flat table of four columns manufactures agreement that is not
+  there. Sleeper's search rank and add/drop counts are the only independent
+  read, so the page's headline verdict is built from exactly that comparison,
+  and it reports `unknown` rather than a winner when only one read saw both
+  players.
+- **Absence is rendered, not implied:** every missing number is an em dash, and
+  each dossier names the sources that had nothing on the player, so a blank
+  depth-chart cell never reads as "third string".
+- **Also updated:** nav (`Builds` → `Compare`), the route tone table, and the
+  picks page's cross-link.
+- **Evidence:** `npm run typecheck` → 0 errors; `npm run test` → **663/663**
+  (39 files); `npm run build` → 28 pages; `check.sh passed.` New coverage in
+  `tests/compare.test.ts` (14) and `tests/compare-app.test.tsx` (9).
