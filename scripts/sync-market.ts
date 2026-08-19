@@ -38,14 +38,28 @@ const MIN_PLAYERS = 400;
 const MIN_PICKS = 40;
 const MIN_MATCH_RATE = 0.6;
 
+/**
+ * What this snapshot is actually built from.
+ *
+ * Only the first entry is fetched: three public CSVs from DynastyProcess's
+ * GitHub repo. The second is the upstream those CSVs are derived from —
+ * DynastyProcess computes both `ecr_*` and `value_*` from FantasyPros
+ * consensus, which is why the two must never be cited as independent
+ * agreement.
+ *
+ * KeepTradeCut is deliberately *not* listed. Nothing here reads KTC: no
+ * request is ever made to keeptradecut.com, and `values-players.csv` has no
+ * KTC column. The `ktc_id` in `db_playerids.csv` is an id crosswalk we use to
+ * build deep links to KTC player pages, which is linking, not sourcing. Listing
+ * it as a data source claimed provenance we do not have.
+ */
 const SOURCES: Source[] = [
   { label: 'DynastyProcess dynasty values', url: 'https://github.com/dynastyprocess/data', kind: 'dataset' },
   {
-    label: 'FantasyPros dynasty rankings',
+    label: 'FantasyPros dynasty rankings (upstream of the DynastyProcess ECR and value columns)',
     url: 'https://www.fantasypros.com/nfl/rankings/dynasty-overall.php',
     kind: 'rankings',
   },
-  { label: 'KeepTradeCut dynasty rankings', url: 'https://keeptradecut.com/dynasty-rankings', kind: 'market' },
 ];
 
 function readData(file: string): unknown {
