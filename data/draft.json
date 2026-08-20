@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -994,6 +994,72 @@
       "playerName": "Jordan Addison",
       "pos": "WR",
       "nflTeam": "MIN",
+      "mine": false
+    },
+    {
+      "pick": 88,
+      "round": 8,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "c-j-stroud",
+      "playerName": "C.J. Stroud",
+      "pos": "QB",
+      "nflTeam": "HOU",
+      "mine": true
+    },
+    {
+      "pick": 89,
+      "round": 8,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "david-montgomery",
+      "playerName": "David Montgomery",
+      "pos": "RB",
+      "nflTeam": "HOU",
+      "mine": false
+    },
+    {
+      "pick": 90,
+      "round": 8,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "kyler-murray",
+      "playerName": "Kyler Murray",
+      "pos": "QB",
+      "nflTeam": "MIN",
+      "mine": false
+    },
+    {
+      "pick": 91,
+      "round": 8,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "jake-ferguson",
+      "playerName": "Jake Ferguson",
+      "pos": "TE",
+      "nflTeam": "DAL",
+      "mine": false
+    },
+    {
+      "pick": 92,
+      "round": 8,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "kyle-monangai",
+      "playerName": "Kyle Monangai",
+      "pos": "RB",
+      "nflTeam": "CHI",
+      "mine": false
+    },
+    {
+      "pick": 93,
+      "round": 8,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "michael-wilson",
+      "playerName": "Michael Wilson",
+      "pos": "WR",
+      "nflTeam": "ARI",
       "mine": false
     }
   ]
