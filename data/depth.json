@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-20T01:50:36.037Z",
+  "capturedAt": "2026-08-20T07:05:28.631Z",
   "snapshotAt": "2026-08-19T07:43:54Z",
   "season": "2026",
   "entries": [
@@ -428,14 +428,6 @@
       "sleeperId": "12457"
     },
     {
-      "id": "malik-davis",
-      "name": "Malik Davis",
-      "pos": "RB",
-      "nflTeam": "DAL",
-      "depthRank": 4,
-      "sleeperId": "8800"
-    },
-    {
       "id": "jake-ferguson",
       "name": "Jake Ferguson",
       "pos": "TE",
@@ -700,6 +692,14 @@
       "sleeperId": "12484"
     },
     {
+      "id": "xavier-hutchinson",
+      "name": "Xavier Hutchinson",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "depthRank": 3,
+      "sleeperId": "10218"
+    },
+    {
       "id": "jaylin-noel",
       "name": "Jaylin Noel",
       "pos": "WR",
@@ -716,6 +716,14 @@
       "sleeperId": "9502"
     },
     {
+      "id": "lewis-bond",
+      "name": "Lewis Bond",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "depthRank": 7,
+      "sleeperId": "13541"
+    },
+    {
       "id": "daniel-jones",
       "name": "Daniel Jones",
       "pos": "QB",
@@ -730,6 +738,14 @@
       "nflTeam": "IND",
       "depthRank": 1,
       "sleeperId": "6813"
+    },
+    {
+      "id": "dj-giddens",
+      "name": "DJ Giddens",
+      "pos": "RB",
+      "nflTeam": "IND",
+      "depthRank": 2,
+      "sleeperId": "12471"
     },
     {
       "id": "tyler-warren",
@@ -882,14 +898,6 @@
       "nflTeam": "KC",
       "depthRank": 2,
       "sleeperId": "11624"
-    },
-    {
-      "id": "tyquan-thornton",
-      "name": "Tyquan Thornton",
-      "pos": "WR",
-      "nflTeam": "KC",
-      "depthRank": 3,
-      "sleeperId": "8188"
     },
     {
       "id": "cyrus-allen",
@@ -1508,14 +1516,6 @@
       "sleeperId": "13276"
     },
     {
-      "id": "isaiah-williams",
-      "name": "Isaiah Williams",
-      "pos": "WR",
-      "nflTeam": "NYJ",
-      "depthRank": 4,
-      "sleeperId": "11608"
-    },
-    {
       "id": "jalen-hurts",
       "name": "Jalen Hurts",
       "pos": "QB",
@@ -1572,12 +1572,12 @@
       "sleeperId": "13294"
     },
     {
-      "id": "drew-allar",
-      "name": "Drew Allar",
+      "id": "aaron-rodgers",
+      "name": "Aaron Rodgers",
       "pos": "QB",
       "nflTeam": "PIT",
-      "depthRank": 4,
-      "sleeperId": "13289"
+      "depthRank": 1,
+      "sleeperId": "96"
     },
     {
       "id": "jaylen-warren",

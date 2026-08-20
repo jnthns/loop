@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -884,6 +884,105 @@
       "playerName": "Cam Ward",
       "pos": "QB",
       "nflTeam": "TEN",
+      "mine": false
+    },
+    {
+      "pick": 78,
+      "round": 7,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "bucky-irving",
+      "playerName": "Bucky Irving",
+      "pos": "RB",
+      "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 79,
+      "round": 7,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "derrick-henry",
+      "playerName": "Derrick Henry",
+      "pos": "RB",
+      "nflTeam": "BAL",
+      "mine": false
+    },
+    {
+      "pick": 80,
+      "round": 7,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "brian-thomas",
+      "playerName": "Brian Thomas",
+      "pos": "WR",
+      "nflTeam": "JAX",
+      "mine": false
+    },
+    {
+      "pick": 81,
+      "round": 7,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "jameson-williams",
+      "playerName": "Jameson Williams",
+      "pos": "WR",
+      "nflTeam": "DET",
+      "mine": true
+    },
+    {
+      "pick": 82,
+      "round": 7,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "christian-watson",
+      "playerName": "Christian Watson",
+      "pos": "WR",
+      "nflTeam": "GB",
+      "mine": false
+    },
+    {
+      "pick": 83,
+      "round": 7,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "bhayshul-tuten",
+      "playerName": "Bhayshul Tuten",
+      "pos": "RB",
+      "nflTeam": "JAX",
+      "mine": false
+    },
+    {
+      "pick": 84,
+      "round": 7,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "dj-moore",
+      "playerName": "DJ Moore",
+      "pos": "WR",
+      "nflTeam": "BUF",
+      "mine": false
+    },
+    {
+      "pick": 85,
+      "round": 8,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "d-andre-swift",
+      "playerName": "D'Andre Swift",
+      "pos": "RB",
+      "nflTeam": "CHI",
+      "mine": false
+    },
+    {
+      "pick": 86,
+      "round": 8,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "parker-washington",
+      "playerName": "Parker Washington",
+      "pos": "WR",
+      "nflTeam": "JAX",
       "mine": false
     }
   ]

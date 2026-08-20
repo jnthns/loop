@@ -1,5 +1,143 @@
 [
   {
+    "id": "g22tkx18vm0yt",
+    "title": "Recent legal developments could open the door for Diego Pavia to play college football again",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/recent-legal-developments-could-open-the-door-for-diego-pavia-to-play-college-football-again",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-20T03:38:30.000Z",
+    "summary": "There has been no news about 2025 Heisman Trophy runner-up Diego Pavia since the Ravens released him shortly before the opening of training camp.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "BAL"
+    ],
+    "players": [],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
+    "id": "g50lxh12qxwtn",
+    "title": "Jason Licht: Vita Vea is the type of player and person we want to build around",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jason-licht-vita-vea-is-the-type-of-player-and-person-we-want-to-build-around",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-20T03:02:01.000Z",
+    "summary": "The Buccaneers announced the one-year extension for defensive lineman Vita Vea on Wednesday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "TB"
+    ],
+    "players": [],
+    "teams": [
+      "TB"
+    ]
+  },
+  {
+    "id": "bo597b1mogq9f",
+    "title": "Source: Commanders DL Newton has surgery to repair torn pec",
+    "url": "https://www.espn.com/nfl/story/_/id/49665858/source-commanders-dl-newton-surgery-repair-torn-pec",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-20T02:56:59.000Z",
+    "summary": "Commanders defensive lineman Jer'Zhan Newton underwent surgery Wednesday to repair a torn pectoral muscle, a source confirmed.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS",
+      "WSH"
+    ],
+    "players": [],
+    "teams": [
+      "WAS",
+      "WSH"
+    ]
+  },
+  {
+    "id": "36e1xo19kbwp8",
+    "title": "Texans WR Jayden Higgins tears ACL in training camp, will miss 2026 NFL season",
+    "url": "https://sports.yahoo.com/nfl/article/texans-wr-jayden-higgins-tears-acl-in-training-camp-will-miss-2026-nfl-season-025228261.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T02:52:28.000Z",
+    "summary": "Jayden Higgins went down with a torn ACL in a joint practice with the Raiders on Tuesday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "HOU",
+      "LV"
+    ],
+    "players": [
+      "jayden-higgins"
+    ],
+    "teams": [
+      "HOU",
+      "LV"
+    ]
+  },
+  {
+    "id": "10x6ev619oebiy",
+    "title": "Commanders RB Rachaad White tweaked his hamstring",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-rb-rachaad-white-tweaked-his-hamstring",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-20T02:34:55.000Z",
+    "summary": "Commanders running back Rachaad White has missed the past few days with an undisclosed injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [
+      "rachaad-white"
+    ],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "olt1a53gylxl",
+    "title": "Chargers put on blast by former tackle amid Tyler Biadasz’s devastating injury",
+    "url": "https://sports.yahoo.com/articles/chargers-put-blast-former-tackle-023150781.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T02:31:50.000Z",
+    "summary": "The Los Angeles Chargers' biggest offseason need was bolstering the offensive line.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAC"
+    ],
+    "players": [],
+    "teams": [
+      "LAC"
+    ]
+  },
+  {
+    "id": "gkd4tj1553uph",
+    "title": "Colts reportedly receive positive news on TE Tyler Warren’s groin injury",
+    "url": "https://sports.yahoo.com/articles/colts-reportedly-receive-positive-news-021646520.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T02:16:46.000Z",
+    "summary": "According to NFL Insider Jordan Schultz, the Indianapolis Colts have received positive news on Tyler Warren’s groin injury suffered during Wednesday’s joint training camp practice against the Atlanta Falcons at Grand Park: The Colts’ 2nd-year tight end left Wednesday’s practice during 11-on-11 drills against the Falcons defense, returning in uniform (albeit without a helmet), but […]",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL",
+      "IND"
+    ],
+    "players": [
+      "tyler-warren"
+    ],
+    "teams": [
+      "ATL",
+      "IND"
+    ]
+  },
+  {
     "id": "1jf3z473ndutd",
     "title": "Sources: #Colts TE Tyler Warren suffered an abductor strain during practice today, but in the words of a source, he “is going to be fine” and is not expected to miss much time, if any. Should be back next week.",
     "url": "https://www.reddit.com/r/DynastyFF/comments/1vt5jqc/sources_colts_te_tyler_warren_suffered_an",
@@ -159,6 +297,27 @@
     ]
   },
   {
+    "id": "5541lbyzsm4d",
+    "title": "Seahawks ‘probably’ would have cut Terrion Arnold if new corner was on roster before kidnapping arrest",
+    "url": "https://sports.yahoo.com/articles/seahawks-probably-cut-terrion-arnold-001112138.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T00:11:12.000Z",
+    "summary": "The Lions released Arnold in June following his arrest stemming from an alleged February incident. He's facing charges that could lead to a life sentence in jail.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "roster-move",
+      "DET",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "DET",
+      "SEA"
+    ]
+  },
+  {
     "id": "1mabluc1goiagu",
     "title": "Vita Vea, Buccaneers agree to $30 million extension after trade request, per report",
     "url": "https://www.cbssports.com/nfl/news/vita-vea-contract-buccaneers-extension-trade",
@@ -178,6 +337,22 @@
     ]
   },
   {
+    "id": "1aydwdl16mnjc9",
+    "title": "Former Ole Miss DL Zxavian Harris to enter NCAA Transfer Portal",
+    "url": "https://sports.yahoo.com/articles/former-ole-miss-dl-zxavian-000002444.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T00:00:02.000Z",
+    "summary": "Zxavian Harris, a defensive lineman who played for Ole Miss, is expected to enter the NCAA Transfer Portal, according to Matt Zeintz of CBS Sports. This comes after Harris played for the Rebels for four seasons and went undrafted in this year’s NFL Draft. Zeintz pointed out that Harris hasn’t ruled out a return to […]",
+    "tags": [
+      "league-news",
+      "rookie",
+      "availability"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
     "id": "6t6cdo12dxst4",
     "title": "Ravens center Danny Pinter carted off during joint practice with Vikings",
     "url": "https://sports.yahoo.com/articles/ravens-center-danny-pinter-carted-235949523.html",
@@ -195,6 +370,28 @@
     "teams": [
       "BAL",
       "MIN"
+    ]
+  },
+  {
+    "id": "133yw6nsvpxe",
+    "title": "Saints lose Alvin Kamara for at least a month in injury blow",
+    "url": "https://sports.yahoo.com/articles/saints-lose-alvin-kamara-least-233938941.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-19T23:39:38.000Z",
+    "summary": "The star suffered an MCL sprain during a joint practice with the Cowboys on Tuesday and is expected to miss at least one month, ESPN reported Wednesday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DAL",
+      "NO"
+    ],
+    "players": [
+      "alvin-kamara"
+    ],
+    "teams": [
+      "DAL",
+      "NO"
     ]
   },
   {
@@ -937,7 +1134,8 @@
       "injury"
     ],
     "players": [
-      "baker-mayfield"
+      "baker-mayfield",
+      "aaron-rodgers"
     ],
     "teams": []
   },
@@ -7411,196 +7609,6 @@
     ],
     "teams": [
       "CAR"
-    ]
-  },
-  {
-    "id": "12yj3my1lcyegg",
-    "title": "Barion Brown or Malik Benson?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vpuk03/barion_brown_or_malik_benson",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-16T11:25:17.000Z",
-    "summary": "Both are available on waivers. Both were sixth round picks who didn’t blow anyone away with college production. But also both have shown flashes in preseason and training camp already, and both don’t have much competition for targets if Tyson is out. Who would you rather pick up off waivers as a rookie dart throw stash? &#32; submitted by &#32; /u/Spare_Notice_2251 [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "rookie"
-    ],
-    "players": [
-      "barion-brown",
-      "malik-benson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "tlefy8b5ve4e",
-    "title": "Green Bay Packers Depth Chart: What Week 1 of the preseason taught us",
-    "url": "https://sports.yahoo.com/articles/green-bay-packers-depth-chart-100000179.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T10:00:00.000Z",
-    "summary": "Karl Brooks is probably going to start in Week 1, based on when the Packers pulled him out of action",
-    "tags": [
-      "league-news",
-      "usage",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "z213bupyvxna",
-    "title": "Cleveland Browns news: QBs struggle in preseason Game 1, injuries, and other notes",
-    "url": "https://sports.yahoo.com/articles/cleveland-browns-news-qbs-struggle-100000582.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T10:00:00.000Z",
-    "summary": "The first preseason game is in the books for Todd Monken’s Cleveland Browns. Sunday morning Dawg Chow follows it up",
-    "tags": [
-      "league-news",
-      "injury",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "1dj2p2btiana3",
-    "title": "Cowboys undrafted receiver Camden Brown follows strong training camp with two preseason TDs",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-undrafted-receiver-camden-brown-follows-strong-training-camp-with-two-preseason-tds",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-16T07:52:31.000Z",
-    "summary": "It's always an uphill battle for an undrafted rookie to make the team, but Cowboys wide receiver Camden Brown may be forcing his way onto the regular-season roster with his performance this summer.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1vpl30y116h11w",
-    "title": "Cowboys undrafted receiver Camden Brown follows strong training camp with two preseason TDs",
-    "url": "https://sports.yahoo.com/articles/cowboys-undrafted-receiver-camden-brown-075231340.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T07:52:31.000Z",
-    "summary": "It's always an uphill battle for an undrafted rookie to make the team, but Cowboys wide receiver Camden Brown may be forcing his way onto the regular-season roster with his performance this summer.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "3liqzi1isrb92",
-    "title": "Winners and Losers from Seahawks vs. Cowboys: Yeesh, that o-line",
-    "url": "https://sports.yahoo.com/articles/winners-losers-seahawks-vs-cowboys-045631358.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T04:56:31.000Z",
-    "summary": "The good news is that Seahawks first-team football is back on Sept. 9!",
-    "tags": [
-      "league-news",
-      "usage",
-      "DAL",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "DAL",
-      "SEA"
-    ]
-  },
-  {
-    "id": "idb5rl1smp3wv",
-    "title": "Brown stands out for Cowboys with 2 TD catches in 17-7 win over Seahawks",
-    "url": "https://www.espn.com/nfl/recap?gameId=401873279",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-16T04:48:29.000Z",
-    "summary": "— Rookie Camden Brown had two touchdown catches, including a diving, one-handed snag, to help lead the Dallas Cowboys past the Super Bowl champion Seattle Seahawks 17-7 on Saturday night in the preseason opener for both team.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "DAL",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "DAL",
-      "SEA"
-    ]
-  },
-  {
-    "id": "phkxuu7tcpu0",
-    "title": "Green Bay Packers cut former Virginia Tech starting quarterback",
-    "url": "https://sports.yahoo.com/articles/green-bay-packers-cut-former-035734121.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T03:57:34.000Z",
-    "summary": "The Packers move on from former Hokies QB Kyron Drones.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "18ypkpu1v9riu8",
-    "title": "Giants position battles: Who impressed most in preseason opener?",
-    "url": "https://sports.yahoo.com/articles/giants-position-battles-impressed-most-031130208.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T03:11:30.000Z",
-    "summary": "Saturday's preseason opener against the Minnesota Vikings may have revealed some early status updates on key position battles across the New York Giants depth chart, especially at WR, DT, and CB.",
-    "tags": [
-      "league-news",
-      "usage",
-      "MIN",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "MIN",
-      "NYG"
-    ]
-  },
-  {
-    "id": "1k42klqb45f1s",
-    "title": "Zach Wilson stands out for the Saints in a 24-20 preseason loss to the Jaguars",
-    "url": "https://www.espn.com/nfl/recap?gameId=401873281",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-16T01:53:30.000Z",
-    "summary": "— Zach Wilson, saddled with the “draft bust” label as he tries to salvage his NFL career, is giving the New Orleans Saints reasons to take him seriously as a potential backup to Tyler Shough.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "JAX",
-      "NO"
-    ],
-    "players": [
-      "tyler-shough"
-    ],
-    "teams": [
-      "JAX",
-      "NO"
     ]
   }
 ]
