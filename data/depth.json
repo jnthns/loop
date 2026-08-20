@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-20T07:05:28.631Z",
-  "snapshotAt": "2026-08-19T07:43:54Z",
+  "capturedAt": "2026-08-20T13:10:23.544Z",
+  "snapshotAt": "2026-08-20T07:36:02Z",
   "season": "2026",
   "entries": [
     {
@@ -1300,27 +1300,27 @@
       "sleeperId": "4035"
     },
     {
-      "id": "devin-neal",
-      "name": "Devin Neal",
-      "pos": "RB",
-      "nflTeam": "NO",
-      "depthRank": 3,
-      "sleeperId": "12476"
-    },
-    {
       "id": "kendre-miller",
       "name": "Kendre Miller",
       "pos": "RB",
       "nflTeam": "NO",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "9757"
+    },
+    {
+      "id": "devin-neal",
+      "name": "Devin Neal",
+      "pos": "RB",
+      "nflTeam": "NO",
+      "depthRank": 4,
+      "sleeperId": "12476"
     },
     {
       "id": "audric-estime",
       "name": "Audric Estime",
       "pos": "RB",
       "nflTeam": "NO",
-      "depthRank": 6,
+      "depthRank": 5,
       "sleeperId": "11579"
     },
     {
@@ -1720,7 +1720,7 @@
       "name": "Kaelon Black",
       "pos": "RB",
       "nflTeam": "SF",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "13414"
     },
     {

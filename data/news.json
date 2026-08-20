@@ -1,5 +1,151 @@
 [
   {
+    "id": "0wwqozjoe3zd",
+    "title": "The Phinsider Mailbag: Willie Gay roster status, Safety position battle",
+    "url": "https://sports.yahoo.com/articles/phinsider-mailbag-willie-gay-roster-130000087.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T13:00:00.000Z",
+    "summary": "Our mailbag is full and it is time to answer your questions",
+    "tags": [
+      "league-news"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "3vwk2txzkwoz",
+    "title": "Replacing Higgins: Sign or Trade?",
+    "url": "https://sports.yahoo.com/articles/replacing-higgins-sign-trade-130000121.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T13:00:00.000Z",
+    "summary": "Yesterday’s news about the ACL injury to 2nd year receiver Jayden Higgins was a significant blow to the Houston Texans hopes for 2026. Most considered Higgins as the lock for WR2. And while the Texans have a solid receiver room, none of the players behind him look like viable replacements. Next man up is a […]",
+    "tags": [
+      "league-news",
+      "injury",
+      "trade",
+      "contract",
+      "HOU"
+    ],
+    "players": [
+      "jayden-higgins"
+    ],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "lttsp8e4hqmq",
+    "title": "Commanders DT Johnny Newton to miss significant time after pec surgery",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-dt-johnny-newton-to-miss-significant-time-after-pec-surgery",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-20T12:25:12.000Z",
+    "summary": "Commanders defensive tackle Johnny Newton went to see a specialist in New York this week about his pectoral injury and the result of that meeting will be an extended absence from the lineup.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "mzxld5x68mf3",
+    "title": "Commanders DT Johnny Newton to miss significant time after pec surgery",
+    "url": "https://sports.yahoo.com/articles/commanders-dt-johnny-newton-miss-122512159.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T12:25:12.000Z",
+    "summary": "Commanders defensive tackle Johnny Newton went to see a specialist in New York this week about his pectoral injury and the result of that meeting will be an extended absence from the lineup.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "3g01qseykica",
+    "title": "Commanders injury concerns pile up heading into second preseason game - Daily Slop",
+    "url": "https://sports.yahoo.com/articles/commanders-injury-concerns-pile-heading-113000850.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T11:30:00.000Z",
+    "summary": "News of Johnny Newton’s pectoral surgery is simply the grimmest of the injury news this week",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "728ymx26xusz",
+    "title": "Vic Fangio is concerned that Jonathan Greenard won’t be available for Week 1",
+    "url": "https://sports.yahoo.com/articles/vic-fangio-concerned-jonathan-greenard-112605762.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T11:26:05.000Z",
+    "summary": "The Eagles DC doesn’t know when Greenard will be back from his pec injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "cp2t2s1tde2k2",
+    "title": "Tennessee Titans news: How concerning is the offense?",
+    "url": "https://sports.yahoo.com/articles/tennessee-titans-news-concerning-offense-110000207.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T11:00:00.000Z",
+    "summary": "Tennessee Titans quarterback Will Levis is entering the final year of his rookie deal, which opens up the possibility of a trade.",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "8gye851t8krin",
+    "title": "Tampa Bay Buccaneers news: Vita Vea signs contract extension",
+    "url": "https://sports.yahoo.com/articles/tampa-bay-buccaneers-news-vita-110000933.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-20T11:00:00.000Z",
+    "summary": "The Tampa Bay Buccaneers are keeping Vita Vea on the roster after signing an extension just weeks after requesting a trade.",
+    "tags": [
+      "league-news",
+      "trade",
+      "contract",
+      "TB"
+    ],
+    "players": [],
+    "teams": [
+      "TB"
+    ]
+  },
+  {
     "id": "g22tkx18vm0yt",
     "title": "Recent legal developments could open the door for Diego Pavia to play college football again",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/recent-legal-developments-could-open-the-door-for-diego-pavia-to-play-college-football-again",
@@ -7463,152 +7609,6 @@
     "teams": [
       "MIA",
       "WAS"
-    ]
-  },
-  {
-    "id": "9q4nlg1hfclqk",
-    "title": "Joe Pisapia's Take on Bo Nix: Over- or Underrated?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vpzi4d/joe_pisapias_take_on_bo_nix_over_or_underrated",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-16T15:09:39.000Z",
-    "summary": "The IDP Center hosted Joe Pisapia on YT, and they dived into Bo Nix. Nix led the league in pass attempts last year and gains a sharp new weapon in Waddle... however only 6.4 yards per pass attempt and potentially lessened rushing upside due to end of season ankle injury last year. Finished last year as qb11 per game, current adp has him as QB15 in redraft, qb12 in dynasty... is that too high, too ",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "bo-nix"
-    ],
-    "teams": []
-  },
-  {
-    "id": "izkhzy1eskcym",
-    "title": "Dan Campbell speaks on Seattle Seahawks agreeing to sign Terrion Arnold",
-    "url": "https://sports.yahoo.com/articles/dan-campbell-speaks-seattle-seahawks-143142533.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T14:31:42.000Z",
-    "summary": "Detroit Lions coach Dan Campbell reacted to the news that the Seattle Seahawks have agreed to sign Terrion Arnold.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "DET",
-      "SEA"
-    ]
-  },
-  {
-    "id": "1k3g37k9t12dm",
-    "title": "Silver Minings: Raiders sign DT Folorunso Fatukasi",
-    "url": "https://sports.yahoo.com/articles/silver-minings-raiders-sign-dt-140000238.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T14:00:00.000Z",
-    "summary": "Las Vegas Raiders add depth to the defensive tackle position signing Foley Fatukasi",
-    "tags": [
-      "league-news",
-      "contract",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "1di0pasvlc2fo",
-    "title": "Devon Witherspoon is latest Seahawks player from Russell Wilson trade to secure the bag",
-    "url": "https://sports.yahoo.com/articles/devon-witherspoon-latest-seahawks-player-140000078.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T14:00:00.000Z",
-    "summary": "The effects of the Russell Wilson trade can still be felt even after the Seahawks quarterback retired.",
-    "tags": [
-      "league-news",
-      "trade",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "gfkrfd1d160ux",
-    "title": "Jamal Adams injury could set the stage for Harrison Smith's return",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamal-adams-injury-could-set-the-stage-for-harrison-smiths-return",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-16T13:50:18.000Z",
-    "summary": "Even before Saturday's non-contact knee injury suffered by Jamal Adams, a sense lingered that veteran safety Harrison Smith could return to Minnesota for a fifteenth season.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "19i92l11ilgawv",
-    "title": "Pre-Snap Reads: Seahawks sign Devon Witherspoon, lose to Cowboys",
-    "url": "https://sports.yahoo.com/articles/pre-snap-reads-seahawks-sign-130700133.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T13:07:00.000Z",
-    "summary": "Get it together, Jalen!",
-    "tags": [
-      "league-news",
-      "contract",
-      "DAL",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "DAL",
-      "SEA"
-    ]
-  },
-  {
-    "id": "s2b84f18crbr5",
-    "title": "ESPN: Witherspoon signs record $132 million extension with Seahawks",
-    "url": "https://sports.yahoo.com/articles/espn-witherspoon-signs-record-132-122457455.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-16T12:24:57.000Z",
-    "summary": "Seattle secures its defensive superstar.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1t9v5uahxctik",
-    "title": "Panthers RB Jonathon Brooks saw his first game action since his second torn ACL in 2024",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-rb-jonathon-brooks-saw-his-first-game-action-since-his-second-torn-acl-in-2024",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-16T11:52:07.000Z",
-    "summary": "In Saturday's preseason game, Panthers running back Jonathon Brooks took his biggest step yet in his long road to recovery from his second serious knee injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CAR"
-    ],
-    "players": [
-      "jonathon-brooks"
-    ],
-    "teams": [
-      "CAR"
     ]
   }
 ]

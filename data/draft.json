@@ -984,6 +984,17 @@
       "pos": "WR",
       "nflTeam": "JAX",
       "mine": false
+    },
+    {
+      "pick": 87,
+      "round": 8,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "jordan-addison",
+      "playerName": "Jordan Addison",
+      "pos": "WR",
+      "nflTeam": "MIN",
+      "mine": false
     }
   ]
 }
