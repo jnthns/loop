@@ -780,7 +780,7 @@
       "pick": 68,
       "round": 6,
       "slot": 8,
-      "rosterId": 9,
+      "rosterId": 6,
       "playerId": "fernando-mendoza",
       "playerName": "Fernando Mendoza",
       "pos": "QB",
@@ -851,6 +851,39 @@
       "playerName": "Marvin Harrison",
       "pos": "WR",
       "nflTeam": "ARI",
+      "mine": false
+    },
+    {
+      "pick": 75,
+      "round": 7,
+      "slot": 10,
+      "rosterId": 9,
+      "playerId": "baker-mayfield",
+      "playerName": "Baker Mayfield",
+      "pos": "QB",
+      "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 76,
+      "round": 7,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "josh-jacobs",
+      "playerName": "Josh Jacobs",
+      "pos": "RB",
+      "nflTeam": "GB",
+      "mine": false
+    },
+    {
+      "pick": 77,
+      "round": 7,
+      "slot": 8,
+      "rosterId": 6,
+      "playerId": "cam-ward",
+      "playerName": "Cam Ward",
+      "pos": "QB",
+      "nflTeam": "TEN",
       "mine": false
     }
   ]
