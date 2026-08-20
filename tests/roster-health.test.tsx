@@ -20,6 +20,7 @@ const midDraft: Draft = {
   rounds: 30,
   myDraftSlot: 4,
   myPicks: [4, 21, 28, 45, 52],
+  reversalRound: 0,
   picks: [
     {
       pick: 4,

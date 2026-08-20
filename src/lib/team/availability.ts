@@ -113,6 +113,15 @@ export interface DraftProgress {
   myPicksMade: number;
   nextPickNumber: number | null;
   picksUntilNextTurn: number | null;
+  /**
+   * Picks other managers make before this manager is up — `picksUntilNextTurn`
+   * minus the manager's own pick. 0 means on the clock. This is the number a
+   * human means by "how long until my turn"; `picksUntilNextTurn` counts the
+   * manager's own pick too and is kept for callers that already read it.
+   */
+  picksAhead: number | null;
+  /** Every pick this manager still owns, ascending. Empty when the draft is done. */
+  upcomingPicks: number[];
 }
 
 /**
@@ -134,5 +143,7 @@ export function getDraftProgress(draft?: Draft): DraftProgress {
     myPicksMade,
     nextPickNumber,
     picksUntilNextTurn,
+    picksAhead: picksUntilNextTurn === null ? null : Math.max(0, picksUntilNextTurn - 1),
+    upcomingPicks,
   };
 }

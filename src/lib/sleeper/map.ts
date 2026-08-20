@@ -10,6 +10,7 @@ import type {
 } from '~/lib/schemas/team';
 import { eligiblePositions as eligibleFor } from '~/lib/schemas/team';
 import type { Draft, DraftPick, DraftStatus } from '~/lib/schemas/draft';
+import { inferReversalRound, pickNumbersForSlot } from '~/lib/picks/pick-math';
 import type {
   SleeperDraft,
   SleeperDraftPick,
@@ -266,29 +267,13 @@ export function rosterToEntries(
 /**
  * Overall pick numbers for a given draft slot.
  *
- * Snake drafts reverse every other round, which is exactly the arithmetic people
- * get wrong under pressure — and in a startup, knowing that your picks are
- * 7, 18, 31, 42 rather than 7, 19, 31, 43 changes who you plan to take.
- * Linear drafts do not reverse. Auctions have no pick numbers at all.
+ * Re-exported from `~/lib/picks/pick-math`, which owns the arithmetic so the
+ * sync, the coaching headline and the picks page all say the same pick numbers.
+ * Snake drafts reverse every other round — except in a league with a reversal
+ * round, where they do not, which is why the pattern is read from the picks
+ * already made rather than assumed (see `toDraft`).
  */
-export function pickNumbersForSlot(
-  slot: number,
-  teams: number,
-  rounds: number,
-  type: string,
-): number[] {
-  if (slot < 1 || slot > teams || teams < 1 || rounds < 1) return [];
-  if (type.includes('auction')) return [];
-
-  const snake = !type.includes('linear');
-  const picks: number[] = [];
-  for (let round = 1; round <= rounds; round += 1) {
-    const reversed = snake && round % 2 === 0;
-    const positionInRound = reversed ? teams - slot + 1 : slot;
-    picks.push((round - 1) * teams + positionInRound);
-  }
-  return picks;
-}
+export { pickNumbersForSlot } from '~/lib/picks/pick-math';
 
 const DRAFT_STATUS_MAP: Record<string, DraftStatus> = {
   pre_draft: 'pre_draft',
@@ -339,6 +324,24 @@ export function toDraft(input: DraftInput): Draft {
     }))
     .sort((a, b) => a.pick - b.pick);
 
+  // Sleeper reports the reversal round in `settings` when it is set, but the
+  // picks already made are the stronger evidence: they are the draft actually
+  // happening. Trust them, and fall back to the setting before the draft opens.
+  const observedReversal = inferReversalRound(mappedPicks, teams);
+  const reversalRound = observedReversal || Number(draft.settings.reversal_round ?? 0) || 0;
+
+  // Arithmetic owns the future; the completed picks own the past. Reading
+  // ownership off the picks that exist means a traded pick shows up under
+  // whoever actually used it instead of whoever the snake says should have.
+  const scheduled = myDraftSlot
+    ? pickNumbersForSlot(myDraftSlot, teams, rounds, type, reversalRound)
+    : [];
+  const lastMade = mappedPicks.length > 0 ? mappedPicks[mappedPicks.length - 1].pick : 0;
+  const myPicks = [
+    ...mappedPicks.filter((p) => p.mine).map((p) => p.pick),
+    ...scheduled.filter((n) => n > lastMade),
+  ].sort((a, b) => a - b);
+
   return {
     draftId: draft.draft_id,
     status: DRAFT_STATUS_MAP[draft.status] ?? 'none',
@@ -350,7 +353,8 @@ export function toDraft(input: DraftInput): Draft {
     teams,
     rounds,
     myDraftSlot,
-    myPicks: myDraftSlot ? pickNumbersForSlot(myDraftSlot, teams, rounds, type) : [],
+    myPicks,
+    reversalRound,
     picks: mappedPicks,
   };
 }

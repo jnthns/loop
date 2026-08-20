@@ -3,6 +3,11 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { pickNumbersForSlot, toDraft, teamNameFor } from '~/lib/sleeper/map';
 import {
+  formatPickNumber,
+  inferReversalRound,
+  roundIsReversed,
+} from '~/lib/picks/pick-math';
+import {
   SleeperDraftPickSchema,
   SleeperDraftSchema,
   SleeperLeagueUserSchema,
@@ -188,5 +193,132 @@ describe('teamNameFor', () => {
       { user_id: 'u3', display_name: 'fallback', metadata: { team_name: '   ' } },
     ]);
     expect(teamNameFor(blank, 'u3')).toBe('fallback');
+  });
+});
+
+describe('reversal rounds — the league this app actually tracks', () => {
+  /** Slots for one full round, in the order they pick. */
+  const roundSlots = (round: number, teams: number, reversed: boolean) =>
+    Array.from({ length: teams }, (_, i) => ({
+      pick: (round - 1) * teams + i + 1,
+      round,
+      slot: reversed ? teams - i : i + 1,
+    }));
+
+  /** A draft with third-round reversal: rounds 1,4,6,8 forward; 2,3,5,7 reverse. */
+  const thirdRoundReversal = (rounds: number, teams = 12) =>
+    Array.from({ length: rounds }, (_, i) => i + 1).flatMap((round) =>
+      roundSlots(round, teams, roundIsReversed(round, { type: 'snake', reversalRound: 3 })),
+    );
+
+  it('repeats the previous round’s direction in the reversal round', () => {
+    expect(roundIsReversed(2, { type: 'snake', reversalRound: 3 })).toBe(true);
+    expect(roundIsReversed(3, { type: 'snake', reversalRound: 3 })).toBe(true);
+    expect(roundIsReversed(4, { type: 'snake', reversalRound: 3 })).toBe(false);
+    expect(roundIsReversed(5, { type: 'snake', reversalRound: 3 })).toBe(true);
+  });
+
+  it('moves every pick from the reversal round on', () => {
+    // Slot 4 of 12: identical for two rounds, then four picks earlier from R3.
+    expect(pickNumbersForSlot(4, 12, 6, 'snake', 3)).toEqual([4, 21, 33, 40, 57, 64]);
+    expect(pickNumbersForSlot(4, 12, 6, 'snake')).toEqual([4, 21, 28, 45, 52, 69]);
+  });
+
+  it('still covers every pick exactly once', () => {
+    const flat = Array.from({ length: 12 }, (_, i) => pickNumbersForSlot(i + 1, 12, 4, 'snake', 3)).flat();
+    expect(flat.sort((a, b) => a - b)).toEqual(Array.from({ length: 48 }, (_, i) => i + 1));
+  });
+
+  it('infers the reversal round from the picks already made', () => {
+    expect(inferReversalRound(thirdRoundReversal(8), 12)).toBe(3);
+  });
+
+  it('reads a plain snake as no reversal', () => {
+    const plain = Array.from({ length: 8 }, (_, i) => i + 1).flatMap((round) =>
+      roundSlots(round, 12, round % 2 === 0),
+    );
+    expect(inferReversalRound(plain, 12)).toBe(0);
+  });
+
+  it('guesses nothing from a draft too thin to read', () => {
+    expect(inferReversalRound([{ pick: 1, round: 1, slot: 1 }], 12)).toBe(0);
+    expect(inferReversalRound([], 12)).toBe(0);
+  });
+
+  it('labels a pick with the slot it truly lands on', () => {
+    expect(formatPickNumber(33, { teams: 12, type: 'snake', reversalRound: 3 })).toBe('3.04 (#33)');
+    expect(formatPickNumber(33, { teams: 12, type: 'snake' })).toBe('3.09 (#33)');
+  });
+
+  it('trusts the picks made over the draft settings', () => {
+    const picks = thirdRoundReversal(4).map((p) => ({
+      pick_no: p.pick,
+      round: p.round,
+      draft_slot: p.slot,
+      roster_id: p.slot,
+      player_id: null,
+      metadata: null,
+    }));
+    const draft = toDraft({
+      draft: {
+        ...rawDraft,
+        status: 'drafting',
+        settings: { teams: 12, rounds: 30 },
+        draft_order: { u1: 4 },
+        slot_to_roster_id: { '4': 4 },
+      },
+      picks,
+      userId: 'u1',
+      rosterId: 4,
+    });
+
+    expect(draft.reversalRound).toBe(3);
+    expect(draft.myPicks.slice(0, 6)).toEqual([4, 21, 33, 40, 57, 64]);
+  });
+
+  it('keeps a pick that was made out of slot under whoever used it', () => {
+    // Roster 4 used pick 2 as well as its own slot-4 pick.
+    const draft = toDraft({
+      draft: {
+        ...rawDraft,
+        status: 'drafting',
+        settings: { teams: 12, rounds: 3 },
+        draft_order: { u1: 4 },
+        slot_to_roster_id: { '4': 4 },
+      },
+      picks: [
+        { pick_no: 1, round: 1, draft_slot: 1, roster_id: 1, player_id: null, metadata: null },
+        { pick_no: 2, round: 1, draft_slot: 2, roster_id: 4, player_id: null, metadata: null },
+        { pick_no: 3, round: 1, draft_slot: 3, roster_id: 3, player_id: null, metadata: null },
+        { pick_no: 4, round: 1, draft_slot: 4, roster_id: 4, player_id: null, metadata: null },
+      ],
+      userId: 'u1',
+      rosterId: 4,
+    });
+
+    expect(draft.myPicks.slice(0, 3)).toEqual([2, 4, 21]);
+  });
+});
+
+describe('the committed draft snapshot', () => {
+  const committed = DraftSchema.parse(
+    JSON.parse(readFileSync(join(process.cwd(), 'data/draft.json'), 'utf8')),
+  );
+
+  it('agrees with the picks Sleeper has already recorded', () => {
+    const observed = inferReversalRound(committed.picks, committed.teams);
+    expect(committed.reversalRound).toBe(observed);
+  });
+
+  it('never claims a pick another roster already used', () => {
+    const takenByOthers = new Set(
+      committed.picks.filter((p) => !p.mine).map((p) => p.pick),
+    );
+    expect(committed.myPicks.filter((n) => takenByOthers.has(n))).toEqual([]);
+  });
+
+  it('claims every pick this manager has actually made', () => {
+    const mine = committed.picks.filter((p) => p.mine).map((p) => p.pick);
+    expect(mine.every((n) => committed.myPicks.includes(n))).toBe(true);
   });
 });

@@ -251,3 +251,22 @@ Legend: `- [ ]` not done · `- [x]` done · each task ends with `(check: ...)`.
       longer mounts `draft-panel` or `shortlist`)
 
 ---
+
+## Phase 17 — Pick numbers that match the real draft
+
+- [x] `src/lib/picks/pick-math.ts` — one owner for pick arithmetic, honoring
+      Sleeper's reversal round (3rd-round reversal), with the pattern inferred
+      from the picks already made rather than assumed.
+      (check: `tests/draft.test.ts`)
+- [x] `toDraft` records `reversalRound` and reconciles `myPicks` — completed
+      picks own the past (so a traded pick sits with whoever used it), the
+      arithmetic owns the future. (check: same file, plus assertions against the
+      committed `data/draft.json`)
+- [x] `getDraftProgress` reports `picksAhead` (picks by others before your
+      turn), fixing the off-by-one in the coaching headline.
+      (check: `tests/team-draft-availability.test.tsx`)
+- [x] `/picks` shows a next-picks strip that re-derives on every live Sleeper
+      refresh: next pick, how far away, and the wait between the turns after it.
+      (check: `tests/next-picks.test.tsx`)
+
+---

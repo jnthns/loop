@@ -493,3 +493,34 @@ Remove the comment markers only when the build is truly finished.)
   outlets became one. On the committed feed: 400 items -> 217.
 - **Evidence:** `check.sh passed` — typecheck 0 errors, vitest **689/689** (40
   files), build 28 pages.
+
+### Pass 19 — the app was naming the wrong picks as yours
+
+- **Live Sleeper data:** `api.sleeper.app` is still refused at this
+  environment's egress proxy (403 on CONNECT), so no live fetch was possible
+  from here. The app runs on the newest committed snapshot, written by the
+  scheduled data job — `data/sleeper.json` `lastSyncedAt` 2026-08-20T18:57Z,
+  93 picks into the 12-team, 30-round startup.
+- **This league uses third-round reversal, and the app did not know it.**
+  `pickNumbersForSlot` assumed every even round turns. Rounds 2 *and* 3 both run
+  backwards here, which moves every pick from round three on: the manager's own
+  picks are 4, 21, **33, 40, 57, 64, 81, 88** — not the 28, 45, 52, 69, 76, 93
+  the committed draft claimed. Six of those wrong numbers belonged to other
+  managers, and the "next pick" the page advertised (#100) does not belong to
+  this roster at all. It is #105.
+- **The pattern is read from the draft, not assumed.** `inferReversalRound`
+  takes the direction of each completed round from its own first and last pick
+  and looks for the round that repeats its predecessor — evidence over a
+  `settings` field that may not be in the payload. The setting is the fallback
+  before a draft opens.
+- **Completed picks now own the past.** `myPicks` is the picks actually made by
+  this roster plus the scheduled ones still ahead, so a pick used out of slot
+  sits with whoever used it instead of with the snake.
+- **`/picks` says when, not just who.** A next-picks strip names the next pick
+  (`9.04 (#105)`), how many managers pick first, and the gap before each turn
+  after it — re-derived on every live Sleeper refresh, like the board.
+- **Off-by-one fixed:** `picksAhead` counts the picks *other* managers make
+  before your turn; the coaching headline counted your own pick in that wait.
+- **Evidence:** `check.sh passed` — typecheck 0 errors, vitest **708/708**
+  (41 files), build 28 pages. New coverage in `tests/draft.test.ts` (+11) and
+  `tests/next-picks.test.tsx` (6).

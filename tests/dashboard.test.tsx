@@ -213,6 +213,7 @@ describe('Dashboard', () => {
         rounds: 26,
         myDraftSlot: 7,
         myPicks: [7, 18],
+        reversalRound: 0,
         picks: [],
       },
     });

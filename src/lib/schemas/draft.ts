@@ -39,6 +39,12 @@ export const DraftSchema = z.object({
   myDraftSlot: z.number().int().positive().nullable().default(null),
   /** Overall pick numbers this manager owns, ascending. */
   myPicks: z.array(z.number().int().positive()).default([]),
+  /**
+   * Sleeper's reversal round — the round that repeats the previous round's
+   * direction instead of turning ("3rd round reversal" is `3`). 0 is a plain
+   * snake. Every pick number from this round on depends on it.
+   */
+  reversalRound: z.number().int().nonnegative().default(0),
   /** Picks already made. Empty before the draft starts. */
   picks: z.array(DraftPickSchema).default([]),
 });
@@ -56,6 +62,7 @@ export const NO_DRAFT: Draft = {
   rounds: 1,
   myDraftSlot: null,
   myPicks: [],
+  reversalRound: 0,
   picks: [],
 };
 

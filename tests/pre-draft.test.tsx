@@ -25,6 +25,7 @@ const preDraft: Draft = {
   rounds: 26,
   myDraftSlot: 7,
   myPicks: [7, 18, 31, 42],
+  reversalRound: 0,
   picks: [],
 };
 

@@ -10,6 +10,7 @@
 import type { Draft } from '~/lib/schemas/draft';
 import type { Player, Position } from '~/lib/schemas/players';
 import type { Team } from '~/lib/schemas/team';
+import { formatPickNumber } from '~/lib/picks/pick-math';
 import { getDraftProgress, getTargetAvailability } from '~/lib/team/availability';
 import type { HealthFacet, HealthFacetId, RosterHealth } from '~/lib/team/health';
 
@@ -84,16 +85,6 @@ export function rosteredPlayersIncludingDraft(
   return out;
 }
 
-function formatPickNumber(overall: number, draft: Draft): string {
-  const teams = draft.teams;
-  const round = Math.ceil(overall / teams);
-  const slot =
-    round % 2 === 1
-      ? ((overall - 1) % teams) + 1
-      : teams - ((overall - 1) % teams);
-  return `${round}.${String(slot).padStart(2, '0')} (#${overall})`;
-}
-
 function buildPositionPriority(health: RosterHealth): PositionDraftPriority[] {
   const positional = health.priorities.filter((f) => POSITION_FACETS.has(f.id));
   const weakFirst = [...positional].sort((a, b) => a.score - b.score || a.title.localeCompare(b.title));
@@ -154,7 +145,7 @@ function buildHeadline(
   suggestions: DraftPickSuggestion[],
   myPicksTotal: number,
 ): string {
-  const { nextPickNumber, picksUntilNextTurn, myPicksMade } = progress;
+  const { nextPickNumber, picksAhead, myPicksMade } = progress;
   const remaining = myPicksTotal - myPicksMade;
 
   if (nextPickNumber === null || remaining <= 0) {
@@ -163,12 +154,12 @@ function buildHeadline(
 
   const pickLabel = formatPickNumber(nextPickNumber, draft);
   const turn =
-    picksUntilNextTurn === 0
+    picksAhead === 0
       ? 'You are on the clock.'
-      : picksUntilNextTurn === 1
+      : picksAhead === 1
         ? 'One pick until you are on the clock.'
-        : picksUntilNextTurn !== null
-          ? `${picksUntilNextTurn} picks until your turn.`
+        : picksAhead !== null
+          ? `${picksAhead} picks until your turn.`
           : 'Your next pick is coming up.';
 
   const need =
@@ -230,7 +221,7 @@ export function buildDraftCoaching(
     myPicksTotal,
     myPicksRemaining,
     nextPickNumber: progress.nextPickNumber,
-    picksUntilNext: progress.picksUntilNextTurn,
+    picksUntilNext: progress.picksAhead,
     headline: buildHeadline(draft, progress, positionPriority, suggestions, myPicksTotal),
     positionPriority,
     suggestions,

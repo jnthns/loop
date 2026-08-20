@@ -13,6 +13,7 @@ import {
   loadLiveSnapshot,
   mergePlayerPatches,
 } from '~/lib/team/live-storage';
+import NextPicks from '~/components/NextPicks';
 import PicksApp from '~/components/PicksApp';
 import SleeperRefreshButton from '~/components/SleeperRefreshButton';
 
@@ -168,6 +169,8 @@ export function LivePicks({
           <SleeperRefreshButton config={sleeperConfig} team={committedTeam} players={committedPlayers} />
         </div>
       </div>
+
+      <NextPicks draft={draft} />
 
       <PicksApp data={boards} recs={recs} links={links} />
     </div>

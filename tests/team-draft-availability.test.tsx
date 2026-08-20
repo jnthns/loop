@@ -20,6 +20,7 @@ const activeDraft: Draft = {
   rounds: 26,
   myDraftSlot: 4,
   myPicks: [4, 21, 28, 45],
+  reversalRound: 0,
   picks: [
     {
       pick: 1,
@@ -140,6 +141,8 @@ describe('getDraftProgress & getMyDraftedPicks', () => {
     expect(stats.myPicksMade).toBe(1);
     expect(stats.nextPickNumber).toBe(21);
     expect(stats.picksUntilNextTurn).toBe(14); // 21 - 7
+    // Thirteen other managers pick before this one is up.
+    expect(stats.picksAhead).toBe(13);
   });
 
   it('returns my drafted picks', () => {
