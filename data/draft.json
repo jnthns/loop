@@ -38,6 +38,7 @@
     345,
     352
   ],
+  "reversalRound": 3,
   "picks": [
     {
       "pick": 1,
@@ -1061,7 +1062,28 @@
       "pos": "WR",
       "nflTeam": "ARI",
       "mine": false
+    },
+    {
+      "pick": 94,
+      "round": 8,
+      "slot": 10,
+      "rosterId": 9,
+      "playerId": "wan-dale-robinson",
+      "playerName": "Wan'Dale Robinson",
+      "pos": "WR",
+      "nflTeam": "TEN",
+      "mine": false
+    },
+    {
+      "pick": 95,
+      "round": 8,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "isaiah-likely",
+      "playerName": "Isaiah Likely",
+      "pos": "TE",
+      "nflTeam": "NYG",
+      "mine": false
     }
-  ],
-  "reversalRound": 3
+  ]
 }
