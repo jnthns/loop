@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -1083,6 +1083,182 @@
       "playerName": "Isaiah Likely",
       "pos": "TE",
       "nflTeam": "NYG",
+      "mine": false
+    },
+    {
+      "pick": 96,
+      "round": 8,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "travis-kelce",
+      "playerName": "Travis Kelce",
+      "pos": "TE",
+      "nflTeam": "KC",
+      "mine": false
+    },
+    {
+      "pick": 97,
+      "round": 9,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "matthew-stafford",
+      "playerName": "Matthew Stafford",
+      "pos": "QB",
+      "nflTeam": "LAR",
+      "mine": false
+    },
+    {
+      "pick": 98,
+      "round": 9,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "jonathon-brooks",
+      "playerName": "Jonathon Brooks",
+      "pos": "RB",
+      "nflTeam": "CAR",
+      "mine": false
+    },
+    {
+      "pick": 99,
+      "round": 9,
+      "slot": 10,
+      "rosterId": 9,
+      "playerId": "blake-corum",
+      "playerName": "Blake Corum",
+      "pos": "RB",
+      "nflTeam": "LAR",
+      "mine": false
+    },
+    {
+      "pick": 100,
+      "round": 9,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "davante-adams",
+      "playerName": "Davante Adams",
+      "pos": "WR",
+      "nflTeam": "LAR",
+      "mine": false
+    },
+    {
+      "pick": 101,
+      "round": 9,
+      "slot": 8,
+      "rosterId": 6,
+      "playerId": "tyler-shough",
+      "playerName": "Tyler Shough",
+      "pos": "QB",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 102,
+      "round": 9,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "malik-willis",
+      "playerName": "Malik Willis",
+      "pos": "QB",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 103,
+      "round": 9,
+      "slot": 6,
+      "rosterId": 8,
+      "playerId": "josh-downs",
+      "playerName": "Josh Downs",
+      "pos": "WR",
+      "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 104,
+      "round": 9,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "kenyon-sadiq",
+      "playerName": "Kenyon Sadiq",
+      "pos": "TE",
+      "nflTeam": "NYJ",
+      "mine": false
+    },
+    {
+      "pick": 105,
+      "round": 9,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "eli-stowers",
+      "playerName": "Eli Stowers",
+      "pos": "TE",
+      "nflTeam": "PHI",
+      "mine": true
+    },
+    {
+      "pick": 106,
+      "round": 9,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "sam-darnold",
+      "playerName": "Sam Darnold",
+      "pos": "QB",
+      "nflTeam": "SEA",
+      "mine": false
+    },
+    {
+      "pick": 107,
+      "round": 9,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "matthew-golden",
+      "playerName": "Matthew Golden",
+      "pos": "WR",
+      "nflTeam": "GB",
+      "mine": false
+    },
+    {
+      "pick": 108,
+      "round": 9,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "george-kittle",
+      "playerName": "George Kittle",
+      "pos": "TE",
+      "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 109,
+      "round": 10,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "michael-pittman",
+      "playerName": "Michael Pittman",
+      "pos": "WR",
+      "nflTeam": "PIT",
+      "mine": false
+    },
+    {
+      "pick": 110,
+      "round": 10,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "de-zhaun-stribling",
+      "playerName": "De'Zhaun Stribling",
+      "pos": "WR",
+      "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 111,
+      "round": 10,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "dk-metcalf",
+      "playerName": "DK Metcalf",
+      "pos": "WR",
+      "nflTeam": "PIT",
       "mine": false
     }
   ]

@@ -48,7 +48,7 @@
     "notes": "",
     "sleeperId": "11563",
     "rosteredInLeague": false,
-    "rank": 40,
+    "rank": 41,
     "status": "Active"
   },
   {
@@ -61,7 +61,7 @@
     "notes": "",
     "sleeperId": "8183",
     "rosteredInLeague": false,
-    "rank": 48,
+    "rank": 49,
     "status": "Active"
   },
   {
@@ -74,7 +74,7 @@
     "notes": "",
     "sleeperId": "9228",
     "rosteredInLeague": false,
-    "rank": 116,
+    "rank": 115,
     "status": "Active"
   },
   {
@@ -100,7 +100,7 @@
     "notes": "",
     "sleeperId": "11560",
     "rosteredInLeague": false,
-    "rank": 18,
+    "rank": 19,
     "status": "Active"
   },
   {
@@ -113,7 +113,7 @@
     "notes": "",
     "sleeperId": "12522",
     "rosteredInLeague": false,
-    "rank": 90,
+    "rank": 91,
     "status": "Active"
   },
   {
@@ -139,7 +139,7 @@
     "notes": "",
     "sleeperId": "5870",
     "rosteredInLeague": false,
-    "rank": 123,
+    "rank": 124,
     "status": "Active"
   },
   {
@@ -152,7 +152,7 @@
     "notes": "",
     "sleeperId": "11564",
     "rosteredInLeague": false,
-    "rank": 5,
+    "rank": 6,
     "status": "Active"
   },
   {
@@ -178,7 +178,7 @@
     "notes": "",
     "sleeperId": "1373",
     "rosteredInLeague": false,
-    "rank": 189,
+    "rank": 188,
     "status": "Active"
   },
   {
@@ -191,7 +191,7 @@
     "notes": "",
     "sleeperId": "3257",
     "rosteredInLeague": false,
-    "rank": 184,
+    "rank": 183,
     "status": "Active"
   },
   {
@@ -204,7 +204,7 @@
     "notes": "",
     "sleeperId": "6904",
     "rosteredInLeague": false,
-    "rank": 30,
+    "rank": 29,
     "status": "Active"
   },
   {
@@ -243,7 +243,7 @@
     "notes": "",
     "sleeperId": "11566",
     "rosteredInLeague": false,
-    "rank": 16,
+    "rank": 17,
     "status": "Active"
   },
   {
@@ -269,7 +269,7 @@
     "notes": "",
     "sleeperId": "6804",
     "rosteredInLeague": false,
-    "rank": 63,
+    "rank": 62,
     "status": "Active"
   },
   {
@@ -282,7 +282,7 @@
     "notes": "",
     "sleeperId": "4984",
     "rosteredInLeague": false,
-    "rank": 3,
+    "rank": 4,
     "status": "Active"
   },
   {
@@ -295,7 +295,7 @@
     "notes": "",
     "sleeperId": "6797",
     "rosteredInLeague": false,
-    "rank": 29,
+    "rank": 30,
     "status": "Active"
   },
   {
@@ -308,7 +308,7 @@
     "notes": "",
     "sleeperId": "5849",
     "rosteredInLeague": false,
-    "rank": 97,
+    "rank": 98,
     "status": "Active"
   },
   {
@@ -321,7 +321,7 @@
     "notes": "",
     "sleeperId": "4881",
     "rosteredInLeague": false,
-    "rank": 10,
+    "rank": 12,
     "status": "Active"
   },
   {
@@ -347,7 +347,7 @@
     "notes": "",
     "sleeperId": "421",
     "rosteredInLeague": false,
-    "rank": 77,
+    "rank": 76,
     "status": "Active"
   },
   {
@@ -374,7 +374,7 @@
     "notes": "",
     "sleeperId": "12500",
     "rosteredInLeague": false,
-    "rank": 429,
+    "rank": 472,
     "status": "Active",
     "injuryStatus": "Questionable"
   },
@@ -388,7 +388,7 @@
     "notes": "",
     "sleeperId": "4943",
     "rosteredInLeague": false,
-    "rank": 93,
+    "rank": 94,
     "status": "Active"
   },
   {
@@ -414,7 +414,7 @@
     "notes": "",
     "sleeperId": "7523",
     "rosteredInLeague": false,
-    "rank": 38,
+    "rank": 37,
     "status": "Active"
   },
   {
@@ -427,7 +427,7 @@
     "notes": "",
     "sleeperId": "12545",
     "rosteredInLeague": false,
-    "rank": 86,
+    "rank": 84,
     "status": "Active"
   },
   {
@@ -467,7 +467,7 @@
     "notes": "",
     "sleeperId": "12527",
     "rosteredInLeague": false,
-    "rank": 11,
+    "rank": 12,
     "status": "Active"
   },
   {
@@ -612,7 +612,7 @@
     "notes": "",
     "sleeperId": "9224",
     "rosteredInLeague": false,
-    "rank": 16,
+    "rank": 17,
     "status": "Active"
   },
   {
@@ -638,7 +638,7 @@
     "notes": "",
     "sleeperId": "10219",
     "rosteredInLeague": false,
-    "rank": 139,
+    "rank": 138,
     "status": "Active"
   },
   {
@@ -770,22 +770,8 @@
     "notes": "",
     "sleeperId": "6130",
     "rosteredInLeague": false,
-    "rank": 665,
+    "rank": 660,
     "status": "Active"
-  },
-  {
-    "id": "dj-giddens",
-    "name": "DJ Giddens",
-    "pos": "RB",
-    "nflTeam": "IND",
-    "age": 22,
-    "tier": "starter",
-    "notes": "",
-    "sleeperId": "12471",
-    "rosteredInLeague": false,
-    "rank": 569,
-    "status": "Active",
-    "injuryStatus": "Questionable"
   },
   {
     "id": "dylan-sampson",
@@ -876,7 +862,7 @@
     "notes": "",
     "sleeperId": "11571",
     "rosteredInLeague": false,
-    "rank": 472,
+    "rank": 478,
     "status": "Active",
     "injuryStatus": "Questionable"
   },
@@ -930,7 +916,7 @@
     "notes": "",
     "sleeperId": "13286",
     "rosteredInLeague": false,
-    "rank": 62,
+    "rank": 61,
     "status": "Active"
   },
   {
@@ -1089,7 +1075,7 @@
     "notes": "",
     "sleeperId": "11583",
     "rosteredInLeague": false,
-    "rank": 92,
+    "rank": 90,
     "status": "Active"
   },
   {
@@ -1120,19 +1106,6 @@
     "injuryStatus": "Questionable"
   },
   {
-    "id": "justice-hill",
-    "name": "Justice Hill",
-    "pos": "RB",
-    "nflTeam": "BAL",
-    "age": 28,
-    "tier": "depth",
-    "notes": "",
-    "sleeperId": "5995",
-    "rosteredInLeague": false,
-    "rank": 244,
-    "status": "Active"
-  },
-  {
     "id": "kaelon-black",
     "name": "Kaelon Black",
     "pos": "RB",
@@ -1142,7 +1115,7 @@
     "notes": "",
     "sleeperId": "13414",
     "rosteredInLeague": false,
-    "rank": 207,
+    "rank": 208,
     "status": "Active"
   },
   {
@@ -1207,7 +1180,7 @@
     "notes": "",
     "sleeperId": "8151",
     "rosteredInLeague": false,
-    "rank": 17,
+    "rank": 18,
     "status": "Active"
   },
   {
@@ -1227,13 +1200,13 @@
     "id": "khalil-herbert",
     "name": "Khalil Herbert",
     "pos": "RB",
-    "nflTeam": "FA",
+    "nflTeam": "SF",
     "age": 28,
     "tier": "depth",
     "notes": "",
     "sleeperId": "7608",
     "rosteredInLeague": false,
-    "rank": 470,
+    "rank": 647,
     "status": "Active"
   },
   {
@@ -1286,7 +1259,7 @@
     "notes": "",
     "sleeperId": "11581",
     "rosteredInLeague": false,
-    "rank": 182,
+    "rank": 180,
     "status": "Active"
   },
   {
@@ -1313,8 +1286,7 @@
     "sleeperId": "7528",
     "rosteredInLeague": false,
     "rank": 170,
-    "status": "Active",
-    "injuryStatus": "Questionable"
+    "status": "Active"
   },
   {
     "id": "nicholas-singleton",
@@ -1432,7 +1404,7 @@
     "notes": "",
     "sleeperId": "13418",
     "rosteredInLeague": false,
-    "rank": 332,
+    "rank": 360,
     "status": "Active"
   },
   {
@@ -1445,7 +1417,7 @@
     "notes": "",
     "sleeperId": "10235",
     "rosteredInLeague": false,
-    "rank": 479,
+    "rank": 532,
     "status": "Active"
   },
   {
@@ -1659,6 +1631,19 @@
     "status": "Active"
   },
   {
+    "id": "brock-wright",
+    "name": "Brock Wright",
+    "pos": "TE",
+    "nflTeam": "DET",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "7891",
+    "rosteredInLeague": false,
+    "rank": 520,
+    "status": "Active"
+  },
+  {
     "id": "cade-otton",
     "name": "Cade Otton",
     "pos": "TE",
@@ -1760,7 +1745,7 @@
     "notes": "",
     "sleeperId": "2505",
     "rosteredInLeague": false,
-    "rank": 424,
+    "rank": 425,
     "status": "Active"
   },
   {
@@ -1931,7 +1916,7 @@
     "notes": "",
     "sleeperId": "7553",
     "rosteredInLeague": false,
-    "rank": 69,
+    "rank": 68,
     "status": "Active"
   },
   {
@@ -1945,6 +1930,19 @@
     "sleeperId": "5012",
     "rosteredInLeague": false,
     "rank": 96,
+    "status": "Active"
+  },
+  {
+    "id": "marlin-klein",
+    "name": "Marlin Klein",
+    "pos": "TE",
+    "nflTeam": "HOU",
+    "age": 23,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "13307",
+    "rosteredInLeague": false,
+    "rank": 526,
     "status": "Active"
   },
   {
@@ -1970,7 +1968,7 @@
     "notes": "",
     "sleeperId": "13324",
     "rosteredInLeague": false,
-    "rank": 525,
+    "rank": 541,
     "status": "Active"
   },
   {
@@ -2009,8 +2007,9 @@
     "notes": "",
     "sleeperId": "10859",
     "rosteredInLeague": false,
-    "rank": 59,
-    "status": "Active"
+    "rank": 60,
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "t-j-hockenson",
@@ -2225,19 +2224,6 @@
     "status": "Active"
   },
   {
-    "id": "andrei-iosivas",
-    "name": "Andrei Iosivas",
-    "pos": "WR",
-    "nflTeam": "CIN",
-    "age": 26,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "10226",
-    "rosteredInLeague": false,
-    "rank": 496,
-    "status": "Active"
-  },
-  {
     "id": "antonio-brown",
     "name": "Antonio Brown",
     "pos": "WR",
@@ -2273,7 +2259,7 @@
     "notes": "",
     "sleeperId": "13533",
     "rosteredInLeague": false,
-    "rank": 538,
+    "rank": 537,
     "status": "Active"
   },
   {
@@ -2313,7 +2299,7 @@
     "notes": "",
     "sleeperId": "11631",
     "rosteredInLeague": false,
-    "rank": 71,
+    "rank": 69,
     "status": "Active"
   },
   {
@@ -2340,7 +2326,7 @@
     "notes": "",
     "sleeperId": "13420",
     "rosteredInLeague": false,
-    "rank": 452,
+    "rank": 446,
     "status": "Active"
   },
   {
@@ -2354,6 +2340,19 @@
     "sleeperId": "13296",
     "rosteredInLeague": false,
     "rank": 237,
+    "status": "Active"
+  },
+  {
+    "id": "calvin-austin",
+    "name": "Calvin Austin",
+    "pos": "WR",
+    "nflTeam": "NYG",
+    "age": 27,
+    "tier": "win-now",
+    "notes": "",
+    "sleeperId": "8125",
+    "rosteredInLeague": false,
+    "rank": 698,
     "status": "Active"
   },
   {
@@ -2432,7 +2431,7 @@
     "notes": "",
     "sleeperId": "8144",
     "rosteredInLeague": false,
-    "rank": 29,
+    "rank": 30,
     "status": "Active"
   },
   {
@@ -2471,7 +2470,7 @@
     "notes": "",
     "sleeperId": "13413",
     "rosteredInLeague": false,
-    "rank": 183,
+    "rank": 181,
     "status": "Active"
   },
   {
@@ -2510,7 +2509,7 @@
     "notes": "",
     "sleeperId": "13417",
     "rosteredInLeague": false,
-    "rank": 142,
+    "rank": 139,
     "status": "Active"
   },
   {
@@ -2523,7 +2522,7 @@
     "notes": "",
     "sleeperId": "5872",
     "rosteredInLeague": false,
-    "rank": 129,
+    "rank": 130,
     "status": "Active"
   },
   {
@@ -2562,7 +2561,7 @@
     "notes": "",
     "sleeperId": "7525",
     "rosteredInLeague": false,
-    "rank": 34,
+    "rank": 35,
     "status": "Active",
     "injuryStatus": "Questionable"
   },
@@ -2577,8 +2576,7 @@
     "sleeperId": "4983",
     "rosteredInLeague": false,
     "rank": 56,
-    "status": "Active",
-    "injuryStatus": "Questionable"
+    "status": "Active"
   },
   {
     "id": "dk-metcalf",
@@ -2630,7 +2628,7 @@
     "notes": "",
     "sleeperId": "12514",
     "rosteredInLeague": false,
-    "rank": 40,
+    "rank": 39,
     "status": "Active",
     "injuryStatus": "Questionable"
   },
@@ -2657,7 +2655,7 @@
     "notes": "",
     "sleeperId": "8137",
     "rosteredInLeague": false,
-    "rank": 24,
+    "rank": 23,
     "status": "Active"
   },
   {
@@ -2709,8 +2707,22 @@
     "notes": "",
     "sleeperId": "13293",
     "rosteredInLeague": false,
-    "rank": 165,
+    "rank": 162,
     "status": "Active"
+  },
+  {
+    "id": "ja-lynn-polk",
+    "name": "Ja'Lynn Polk",
+    "pos": "WR",
+    "nflTeam": "FA",
+    "age": 24,
+    "tier": "starter",
+    "notes": "",
+    "sleeperId": "11619",
+    "rosteredInLeague": false,
+    "rank": 999,
+    "status": "Active",
+    "injuryStatus": "NA"
   },
   {
     "id": "ja-marr-chase",
@@ -2775,7 +2787,7 @@
     "notes": "",
     "sleeperId": "8180",
     "rosteredInLeague": false,
-    "rank": 166,
+    "rank": 165,
     "status": "Active"
   },
   {
@@ -2814,7 +2826,7 @@
     "notes": "",
     "sleeperId": "9488",
     "rosteredInLeague": false,
-    "rank": 5,
+    "rank": 6,
     "status": "Active"
   },
   {
@@ -2934,7 +2946,7 @@
     "notes": "",
     "sleeperId": "9500",
     "rosteredInLeague": false,
-    "rank": 111,
+    "rank": 110,
     "status": "Active"
   },
   {
@@ -2947,7 +2959,7 @@
     "notes": "",
     "sleeperId": "6794",
     "rosteredInLeague": false,
-    "rank": 12,
+    "rank": 11,
     "status": "Active"
   },
   {
@@ -3000,7 +3012,8 @@
     "sleeperId": "8134",
     "rosteredInLeague": false,
     "rank": 120,
-    "status": "Active"
+    "status": "Active",
+    "injuryStatus": "Questionable"
   },
   {
     "id": "kyle-williams",
@@ -3025,7 +3038,7 @@
     "notes": "",
     "sleeperId": "11635",
     "rosteredInLeague": false,
-    "rank": 38,
+    "rank": 39,
     "status": "Active"
   },
   {
@@ -3079,7 +3092,7 @@
     "notes": "",
     "sleeperId": "13329",
     "rosteredInLeague": false,
-    "rank": 476,
+    "rank": 507,
     "status": "Active"
   },
   {
@@ -3106,7 +3119,7 @@
     "notes": "",
     "sleeperId": "11610",
     "rosteredInLeague": false,
-    "rank": 199,
+    "rank": 191,
     "status": "Active"
   },
   {
@@ -3146,7 +3159,7 @@
     "notes": "",
     "sleeperId": "12501",
     "rosteredInLeague": false,
-    "rank": 123,
+    "rank": 122,
     "status": "Active"
   },
   {
@@ -3181,12 +3194,12 @@
     "name": "Mike Evans",
     "pos": "WR",
     "nflTeam": "SF",
-    "age": 32,
+    "age": 33,
     "tier": "depth",
     "notes": "",
     "sleeperId": "2216",
     "rosteredInLeague": false,
-    "rank": 59,
+    "rank": 60,
     "status": "Active",
     "injuryStatus": "Questionable"
   },
@@ -3267,7 +3280,7 @@
     "notes": "",
     "sleeperId": "9754",
     "rosteredInLeague": false,
-    "rank": 102,
+    "rank": 103,
     "status": "Active",
     "injuryStatus": "Questionable"
   },
@@ -3281,7 +3294,7 @@
     "notes": "",
     "sleeperId": "10229",
     "rosteredInLeague": false,
-    "rank": 28,
+    "rank": 27,
     "status": "Active"
   },
   {
@@ -3294,7 +3307,7 @@
     "notes": "",
     "sleeperId": "8676",
     "rosteredInLeague": false,
-    "rank": 150,
+    "rank": 151,
     "status": "Active"
   },
   {
@@ -3320,7 +3333,7 @@
     "notes": "",
     "sleeperId": "11620",
     "rosteredInLeague": false,
-    "rank": 62,
+    "rank": 63,
     "status": "Active"
   },
   {
@@ -3372,7 +3385,7 @@
     "notes": "",
     "sleeperId": "9502",
     "rosteredInLeague": false,
-    "rank": 177,
+    "rank": 176,
     "status": "Active",
     "injuryStatus": "Questionable"
   },
@@ -3482,19 +3495,6 @@
     "status": "Active"
   },
   {
-    "id": "treylon-burks",
-    "name": "Treylon Burks",
-    "pos": "WR",
-    "nflTeam": "WAS",
-    "age": 26,
-    "tier": "win-now",
-    "notes": "",
-    "sleeperId": "8135",
-    "rosteredInLeague": false,
-    "rank": 473,
-    "status": "Active"
-  },
-  {
     "id": "troy-franklin",
     "name": "Troy Franklin",
     "pos": "WR",
@@ -3583,7 +3583,7 @@
     "notes": "",
     "sleeperId": "10218",
     "rosteredInLeague": false,
-    "rank": 306,
+    "rank": 343,
     "status": "Active"
   },
   {
@@ -3596,7 +3596,7 @@
     "notes": "",
     "sleeperId": "11624",
     "rosteredInLeague": false,
-    "rank": 121,
+    "rank": 122,
     "status": "Active",
     "injuryStatus": "Questionable"
   },

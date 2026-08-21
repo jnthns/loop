@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-21T01:56:33.270Z",
+  "capturedAt": "2026-08-21T07:06:11.598Z",
   "snapshotAt": "2026-08-20T07:36:02Z",
   "season": "2026",
   "entries": [
@@ -122,14 +122,6 @@
       "nflTeam": "BAL",
       "depthRank": 1,
       "sleeperId": "3198"
-    },
-    {
-      "id": "justice-hill",
-      "name": "Justice Hill",
-      "pos": "RB",
-      "nflTeam": "BAL",
-      "depthRank": 2,
-      "sleeperId": "5995"
     },
     {
       "id": "mark-andrews",
@@ -348,14 +340,6 @@
       "sleeperId": "6801"
     },
     {
-      "id": "andrei-iosivas",
-      "name": "Andrei Iosivas",
-      "pos": "WR",
-      "nflTeam": "CIN",
-      "depthRank": 3,
-      "sleeperId": "10226"
-    },
-    {
       "id": "quinshon-judkins",
       "name": "Quinshon Judkins",
       "pos": "RB",
@@ -564,6 +548,14 @@
       "sleeperId": "10859"
     },
     {
+      "id": "brock-wright",
+      "name": "Brock Wright",
+      "pos": "TE",
+      "nflTeam": "DET",
+      "depthRank": 2,
+      "sleeperId": "7891"
+    },
+    {
       "id": "amon-ra-st-brown",
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
@@ -676,6 +668,14 @@
       "sleeperId": "5001"
     },
     {
+      "id": "marlin-klein",
+      "name": "Marlin Klein",
+      "pos": "TE",
+      "nflTeam": "HOU",
+      "depthRank": 5,
+      "sleeperId": "13307"
+    },
+    {
       "id": "nico-collins",
       "name": "Nico Collins",
       "pos": "WR",
@@ -738,14 +738,6 @@
       "nflTeam": "IND",
       "depthRank": 1,
       "sleeperId": "6813"
-    },
-    {
-      "id": "dj-giddens",
-      "name": "DJ Giddens",
-      "pos": "RB",
-      "nflTeam": "IND",
-      "depthRank": 2,
-      "sleeperId": "12471"
     },
     {
       "id": "tyler-warren",
@@ -1436,6 +1428,14 @@
       "sleeperId": "11632"
     },
     {
+      "id": "calvin-austin",
+      "name": "Calvin Austin",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "depthRank": 3,
+      "sleeperId": "8125"
+    },
+    {
       "id": "darnell-mooney",
       "name": "Darnell Mooney",
       "pos": "WR",
@@ -1994,14 +1994,6 @@
       "nflTeam": "WAS",
       "depthRank": 4,
       "sleeperId": "13301"
-    },
-    {
-      "id": "treylon-burks",
-      "name": "Treylon Burks",
-      "pos": "WR",
-      "nflTeam": "WAS",
-      "depthRank": 5,
-      "sleeperId": "8135"
     },
     {
       "id": "jaylin-lane",
