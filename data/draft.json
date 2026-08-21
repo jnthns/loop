@@ -1260,6 +1260,17 @@
       "pos": "WR",
       "nflTeam": "PIT",
       "mine": false
+    },
+    {
+      "pick": 112,
+      "round": 10,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "denzel-boston",
+      "playerName": "Denzel Boston",
+      "pos": "WR",
+      "nflTeam": "CLE",
+      "mine": true
     }
   ]
 }

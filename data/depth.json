@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-21T07:06:11.598Z",
-  "snapshotAt": "2026-08-20T07:36:02Z",
+  "capturedAt": "2026-08-21T13:09:39.757Z",
+  "snapshotAt": "2026-08-21T07:40:57Z",
   "season": "2026",
   "entries": [
     {
@@ -1088,7 +1088,7 @@
       "name": "Malik Benson",
       "pos": "WR",
       "nflTeam": "LV",
-      "depthRank": 3,
+      "depthRank": 4,
       "sleeperId": "13329"
     },
     {
@@ -1722,6 +1722,14 @@
       "nflTeam": "SF",
       "depthRank": 2,
       "sleeperId": "13414"
+    },
+    {
+      "id": "khalil-herbert",
+      "name": "Khalil Herbert",
+      "pos": "RB",
+      "nflTeam": "SF",
+      "depthRank": 7,
+      "sleeperId": "7608"
     },
     {
       "id": "george-kittle",
