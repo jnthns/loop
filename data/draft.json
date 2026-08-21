@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -1271,6 +1271,61 @@
       "pos": "WR",
       "nflTeam": "CLE",
       "mine": true
+    },
+    {
+      "pick": 113,
+      "round": 10,
+      "slot": 5,
+      "rosterId": 1,
+      "playerId": "daniel-jones",
+      "playerName": "Daniel Jones",
+      "pos": "QB",
+      "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 114,
+      "round": 10,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "bryce-young",
+      "playerName": "Bryce Young",
+      "pos": "QB",
+      "nflTeam": "CAR",
+      "mine": false
+    },
+    {
+      "pick": 115,
+      "round": 10,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "jacoby-brissett",
+      "playerName": "Jacoby Brissett",
+      "pos": "QB",
+      "nflTeam": "ARI",
+      "mine": false
+    },
+    {
+      "pick": 116,
+      "round": 10,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": null,
+      "playerName": "Ty Simpson",
+      "pos": "QB",
+      "nflTeam": "LAR",
+      "mine": false
+    },
+    {
+      "pick": 117,
+      "round": 10,
+      "slot": 9,
+      "rosterId": 5,
+      "playerId": "rj-harvey",
+      "playerName": "RJ Harvey",
+      "pos": "RB",
+      "nflTeam": "DEN",
+      "mine": false
     }
   ]
 }
