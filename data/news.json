@@ -1,5 +1,158 @@
 [
   {
+    "id": "1caadkp17cimav",
+    "title": "Broncos' Bo Nix throws for TD in return from ankle injury",
+    "url": "https://www.espn.com/nfl/story/_/id/49687942/broncos-qb-bo-nix-throws-td-preseason-return-ankle-surgery",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-22T06:06:40.000Z",
+    "summary": "Broncos quarterback Bo Nix, who underwent two offseason surgeries to repair a fractured right ankle, made his first preseason appearance Friday night, playing 14 snaps and finishing 6-of-9 passing for 76 yards and a touchdown.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DEN"
+    ],
+    "players": [
+      "bo-nix"
+    ],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "14qiflr5erchh",
+    "title": "Packers CB Brandon Cisse says injury vs. Broncos is ‘nothing serious’",
+    "url": "https://sports.yahoo.com/articles/packers-cb-brandon-cisse-says-054115827.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T05:41:15.000Z",
+    "summary": "Cisse went down with a knee injury, after ending up on the wrong side of a double team as a punt gunner vs. Denver",
+    "tags": [
+      "league-news",
+      "injury",
+      "DEN",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "DEN",
+      "GB"
+    ]
+  },
+  {
+    "id": "1h3iimascrio0",
+    "title": "Will Howard's two picks could jeopardize his roster spot in Pittsburgh",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-howards-two-picks-could-jeopardize-his-roster-spot-in-pittsburgh",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-22T05:21:27.000Z",
+    "summary": "Howard's rough night comes as decision time looms for the team's QB depth chart.",
+    "tags": [
+      "league-news",
+      "usage"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "173uq2jrd7tvd",
+    "title": "Kayshon Boutte to Texans?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vv2x13/kayshon_boutte_to_texans",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-22T04:52:56.000Z",
+    "summary": "If Boutte is traded to the Texans how much does that affect his value? I am assuming he would increase in value. He would be the bonafide second receiving option behind Collins Instead of a more ambiguous 2/3/4 behind AJ Brown/Doubs/Douglas. He’d get a downgrade at the QB position but have a clear role. Neither team is built to air it out or to have to. &#32; submitted by &#32; /u/-RDDTtothemoon- ",
+    "tags": [
+      "dynasty",
+      "trade",
+      "HOU"
+    ],
+    "players": [
+      "kayshon-boutte"
+    ],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "1mmjg2fvgjnyt",
+    "title": "Bo Nix shines in Broncos preseason return: Instant analysis, grades",
+    "url": "https://sports.yahoo.com/articles/bo-nix-shines-broncos-preseason-030440261.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T03:04:40.000Z",
+    "summary": "Bo Nix was back in the Broncos lineup for the first time since suffering a fractured ankle in the playoffs. Here's a breakdown of how he played.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DEN"
+    ],
+    "players": [
+      "bo-nix"
+    ],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "kmazq1or6aob",
+    "title": "Jets' Geno Smith silencing critics of his QB1 status with impressive drive in first preseason start",
+    "url": "https://sports.yahoo.com/articles/jets-geno-smith-silencing-critics-025814463.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T02:58:14.000Z",
+    "summary": "After a couple of weeks of iffy practice play and missing a preseason start due to injury, Geno Smith showed why he's the Jets' QB1 on Friday night against the Steelers.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYJ",
+      "PIT"
+    ],
+    "players": [
+      "geno-smith"
+    ],
+    "teams": [
+      "NYJ",
+      "PIT"
+    ]
+  },
+  {
+    "id": "kcd5ww126pjgu",
+    "title": "Broncos QB Bo Nix plays first game since ankle surgery and looks sharp",
+    "url": "https://sports.yahoo.com/nfl/article/broncos-qb-bo-nix-plays-first-game-since-ankle-surgery-and-looks-sharp-020306481.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T02:03:06.000Z",
+    "summary": "Bo Nix didn't play in the Broncos' first preseason game.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DEN"
+    ],
+    "players": [
+      "bo-nix"
+    ],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "th9mac1ao3rna",
+    "title": "Four-time Pro Bowl RB Nick Chubb announces retirement after 8 NFL seasons",
+    "url": "https://www.cbssports.com/nfl/news/nick-chubb-announces-retirement-after-8-nfl-seasons",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-22T01:49:59.000Z",
+    "summary": "One of the NFL&#039;s most dynamic running backs of the 2020&#039;s hangs it up after multiple lower body injuries cut his career short",
+    "tags": [
+      "league-news",
+      "injury",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
     "id": "9vy67u1gu493k",
     "title": "NFL reviewing Ravens' Bateman over domestic violence arrest",
     "url": "https://www.espn.com/nfl/story/_/id/49685741/nfl-reviewing-ravens-wr-bateman-june-arrest-domestic-case",
@@ -7472,157 +7625,6 @@
     "players": [],
     "teams": [
       "ATL"
-    ]
-  },
-  {
-    "id": "1o4wb1l9g0z9j",
-    "title": "Falcons sign WR Beaux Collins",
-    "url": "https://sports.yahoo.com/articles/falcons-sign-wr-beaux-collins-184133979.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-17T18:41:33.000Z",
-    "summary": "The Falcons are signing free agent wide receiver Beaux Collins, Mike Garafolo of NFL Media reports.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "gah6hirmkcgy",
-    "title": "Source: Commanders to cut struggling placekicker Jake Moody",
-    "url": "https://www.espn.com/nfl/story/_/id/49640649/source-commanders-cut-struggling-placekicker-jake-moody",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-17T18:37:06.000Z",
-    "summary": "The Washington Commanders are set to release placekicker Jake Moody and go with undrafted rookie Drew Stevens, a source confirmed to ESPN.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "roster-move",
-      "WAS",
-      "WSH"
-    ],
-    "players": [],
-    "teams": [
-      "WAS",
-      "WSH"
-    ]
-  },
-  {
-    "id": "1mcrpf31522vhp",
-    "title": "DeMarcus Ware on Von Miller to Cowboys: 'This is all he wanted'",
-    "url": "https://www.espn.com/nfl/story/_/id/49640032/nfl-dallas-cowboys-von-miller-demarcus-ware",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-17T18:35:51.000Z",
-    "summary": "Signing with the Cowboys, Miller is headed back home to Texas, where he grew up and played for Texas A&M.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "znb3qe4zsh98",
-    "title": "Commanders to release K Jake Moody",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-to-release-k-jake-moody",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T18:27:37.000Z",
-    "summary": "Jake Moody's bid to become the Commanders' kicker for the 2026 season is coming to an end.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "WAS"
-    ],
-    "players": [],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "pt4hu26lsrjw",
-    "title": "Commanders to release K Jake Moody",
-    "url": "https://sports.yahoo.com/articles/commanders-release-k-jake-moody-182737096.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-17T18:27:37.000Z",
-    "summary": "Jake Moody's bid to become the Commanders' kicker for the 2026 season is coming to an end.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "WAS"
-    ],
-    "players": [],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "bi1ooj1tbhjn9",
-    "title": "Report – Chicago Bears Expected to Sign Marcus Davenport",
-    "url": "https://sports.yahoo.com/articles/report-chicago-bears-expected-sign-181708878.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-17T18:17:08.000Z",
-    "summary": "The veteran defensive lineman reunites with Dennis Allen in Chicago. @EDuerrwaechter with the quick story here:",
-    "tags": [
-      "league-news",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "gsplon5n9p49",
-    "title": "Nielsen's new 'Fandom Index' ranks Bills fans first; Giants, Jets fans last",
-    "url": "https://sports.yahoo.com/articles/nielsens-fandom-index-ranks-bills-181336195.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-17T18:13:36.000Z",
-    "summary": "Media audience firm Nielsen released its inaugural \"NFL Fandom Index\" on Aug. 17. Here's how each fanbase ranked.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "BUF",
-      "NYG",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "BUF",
-      "NYG",
-      "NYJ"
-    ]
-  },
-  {
-    "id": "17zc6a5mcocxp",
-    "title": "Cowboys roster move: Traeshon Holden cut to make room for Von Miller",
-    "url": "https://sports.yahoo.com/articles/cowboys-roster-move-traeshon-holden-181255990.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-17T18:12:55.000Z",
-    "summary": "The Cowboys have cut Traeshon Holden to make room for Von Miller",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
     ]
   }
 ]

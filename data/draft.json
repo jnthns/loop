@@ -1348,6 +1348,61 @@
       "pos": "RB",
       "nflTeam": "PIT",
       "mine": false
+    },
+    {
+      "pick": 120,
+      "round": 10,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "mike-evans",
+      "playerName": "Mike Evans",
+      "pos": "WR",
+      "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 121,
+      "round": 11,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "omar-cooper",
+      "playerName": "Omar Cooper",
+      "pos": "WR",
+      "nflTeam": "NYJ",
+      "mine": false
+    },
+    {
+      "pick": 122,
+      "round": 11,
+      "slot": 11,
+      "rosterId": 11,
+      "playerId": "geno-smith",
+      "playerName": "Geno Smith",
+      "pos": "QB",
+      "nflTeam": "NYJ",
+      "mine": false
+    },
+    {
+      "pick": 123,
+      "round": 11,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": "alec-pierce",
+      "playerName": "Alec Pierce",
+      "pos": "WR",
+      "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 124,
+      "round": 11,
+      "slot": 9,
+      "rosterId": 5,
+      "playerId": "quentin-johnston",
+      "playerName": "Quentin Johnston",
+      "pos": "WR",
+      "nflTeam": "LAC",
+      "mine": false
     }
   ]
 }
