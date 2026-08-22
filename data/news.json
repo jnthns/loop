@@ -1,5 +1,187 @@
 [
   {
+    "id": "0ff6vo8t5yde",
+    "title": "Seahawks place WR Bobo on season-ending IR, re-sign WR Hicks",
+    "url": "https://www.espn.com/nfl/story/_/id/49693366/seahawks-place-wr-bobo-season-ending-ir-re-sign-wr-hicks",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-22T18:44:52.000Z",
+    "summary": "The Seahawks have placed receiver Jake Bobo on season-ending injured reserve with a serios knee injury, the team announced Saturday, and re-signed wideout Julian Hicks.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "10erhx9nzhpqp",
+    "title": "No more Bobo: Seahawks receiver’s season is over after knee injury",
+    "url": "https://sports.yahoo.com/articles/no-more-bobo-seahawks-receiver-183713414.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T18:37:13.000Z",
+    "summary": "After suffering a “serious knee” injury in joint practice, Bobo’s season is officially over.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "17h56na1afk626",
+    "title": "See the grade Cowboys fans gave for Von Miller’s signing",
+    "url": "https://sports.yahoo.com/articles/see-grade-cowboys-fans-gave-183000000.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T18:30:00.000Z",
+    "summary": "Cowboys fans are quite pleased about the Von Miller signing.",
+    "tags": [
+      "league-news",
+      "contract",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "oqpqmvwjpmcv",
+    "title": "Seahawks put WR Jake Bobo (knee) on injured reserve",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-put-wr-jake-bobo-knee-on-injured-reserve",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-22T17:51:59.000Z",
+    "summary": "Key Seattle backup is lost for the year.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "vj1ysy1riq812",
+    "title": "Seahawks put WR Jake Bobo (knee) on injured reserve",
+    "url": "https://sports.yahoo.com/articles/seahawks-put-wr-jake-bobo-175159393.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T17:51:59.000Z",
+    "summary": "Key Seattle backup is lost for the year.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "ugj8ux1vjhxh9",
+    "title": "Which 3 Rams landed on NFL’s Top 100 players list?",
+    "url": "https://sports.yahoo.com/articles/3-rams-landed-nfl-top-150508334.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T15:05:08.000Z",
+    "summary": "The Rams are the only team to land 3 players inside the top 10, no other team had more than 1…",
+    "tags": [
+      "league-news",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "1mzveqc6cr85o",
+    "title": "Browns vs. Bills live updates: Shedeur Sanders start resumes after lightning delay",
+    "url": "https://sports.yahoo.com/articles/browns-vs-bills-live-updates-150102462.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T15:01:02.000Z",
+    "summary": "Shedeur Sanders will start for the Browns in their second preseason game as his competition with Deshaun Watson continues.",
+    "tags": [
+      "league-news",
+      "BUF",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "BUF",
+      "CLE"
+    ]
+  },
+  {
+    "id": "0zo329eysfd1",
+    "title": "NFL is investigating the allegations against Rashod Bateman",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-is-investigating-the-allegations-against-rashod-bateman",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-22T14:43:14.000Z",
+    "summary": "A June 3 arrest of Ravens receiver Rashod Bateman came to light on Friday.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "BAL"
+    ],
+    "players": [],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
+    "id": "16oqd1e1totkbe",
+    "title": "NFL is investigating the allegations against Rashod Bateman",
+    "url": "https://sports.yahoo.com/articles/nfl-investigating-allegations-against-rashod-144314252.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T14:43:14.000Z",
+    "summary": "A June 3 arrest of Ravens receiver Rashod Bateman came to light on Friday.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "BAL"
+    ],
+    "players": [],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
+    "id": "4df1cap8dhoc",
+    "title": "Packers second-rounder Brandon Cisse says knee injury is \"nothing serious\"",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-second-rounder-brandon-cisse-says-knee-injury-is-nothing-serious",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-22T13:18:15.000Z",
+    "summary": "Packers rookie cornerback Brandon Cisse had to leave Friday night's game with a knee injury, but it doesn't look like he should miss much more time.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
     "id": "1in0pab1fsd9yv",
     "title": "Detroit Lions updated depth chart: Preseason Game 2 vs. Commanders",
     "url": "https://sports.yahoo.com/articles/detroit-lions-updated-depth-chart-120000373.html",
@@ -7441,193 +7623,6 @@
     ],
     "teams": [
       "NYJ"
-    ]
-  },
-  {
-    "id": "1blzinf129ffh5",
-    "title": "Za'Darius Smith works out for Falcons after he was expected to sign with Browns",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zadarius-smith-works-out-for-falcons-after-he-was-expected-to-sign-with-browns",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T21:43:38.000Z",
-    "summary": "The Falcons worked out veteran pass rusher Za'Darius Smith on Monday, according to the NFL's personnel notice.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "ATL",
-      "CLE"
-    ]
-  },
-  {
-    "id": "6ic0su1riy4fy",
-    "title": "Za'Darius Smith works out for Falcons after he was expected to sign with Browns",
-    "url": "https://sports.yahoo.com/articles/zadarius-smith-works-falcons-expected-214338064.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-17T21:43:38.000Z",
-    "summary": "The Falcons worked out veteran pass rusher Za'Darius Smith on Monday, according to the NFL's personnel notice.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "ATL",
-      "CLE"
-    ]
-  },
-  {
-    "id": "d8mfln1871cfr",
-    "title": "49ers sign DL Victor Dimukeje, OL Nick Zakelj",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sign-dl-victor-dimukeje-ol-nick-zakelj",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T21:26:59.000Z",
-    "summary": "The 49ers signed defensive lineman Victor Dimukeje and offensive lineman Nick Zakelj to one-year deals, the team announced Monday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "2t8jnkvius1o",
-    "title": "49ers sign DL Victor Dimukeje, OL Nick Zakelj",
-    "url": "https://sports.yahoo.com/articles/49ers-sign-dl-victor-dimukeje-212659849.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-17T21:26:59.000Z",
-    "summary": "The 49ers signed defensive lineman Victor Dimukeje and offensive lineman Nick Zakelj to one-year deals, the team announced Monday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "aysf86wo29yy",
-    "title": "Giants&#039; Malik Nabers says his soul has &#039;come back to life&#039; after return to team drills",
-    "url": "https://www.cbssports.com/nfl/news/giants-malik-nabers-return-to-team-drills",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-17T21:22:41.000Z",
-    "summary": "Nabers is still working his way back from a torn ACL",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYG"
-    ],
-    "players": [
-      "malik-nabers"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1sk9o2k56sd6o",
-    "title": "Patriots sign Greg Van Roten, address sudden lack of guard depth",
-    "url": "https://sports.yahoo.com/articles/patriots-sign-greg-van-roten-210924808.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-17T21:09:24.000Z",
-    "summary": "The Patriots added a veteran offensive lineman on Monday, signing Greg Van Roten.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "75vrbtb25q4h",
-    "title": "In response to the latest post about TreVeyon and Rhamondre being a 50/50 split, I wanted to share a calculation I had done for myself months ago breaking down the stats for the 3 portions of the season for TreVeyon (pre-Rhamondre injury, Rhamondre out weeks, post-Rhamondre return)",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vr4wrs/in_response_to_the_latest_post_about_treveyon_and",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-17T21:07:08.000Z",
-    "summary": "Saw a lot of comments there saying it was just cope for TreVeyon owners to say they'd be happy with that being the case, and I will not stand for being told I'm coping (I am), so I wanted to share the numbers, especially since the weeks they played together after Rhamondre returned, it was nearly an exact 50/50 split (Note: I excluded the Week 16 game against Baltimore due to TreVeyon leaving the ",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "d4xwez1fdgxr5",
-    "title": "Sean McVay: Myles Garrett, Puka Nacua likely to return to practice next week",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-myles-garrett-puka-nacua-likely-to-return-to-practice-next-week",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T21:05:40.000Z",
-    "summary": "Rams stars Myles Garrett and Puka Nacua remained sidelined by their injuries, but they should be able to return to the field sooner than later — though it may not be this week.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAR"
-    ],
-    "players": [
-      "puka-nacua"
-    ],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "vm16iprswetp",
-    "title": "Participation in Bills vs. Panthers gave us hints at Buffalo’s actual depth chart",
-    "url": "https://sports.yahoo.com/articles/participation-bills-vs-panthers-gave-210435766.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-17T21:04:35.000Z",
-    "summary": "Digging into what we could learn about Bills depth chart from opening preseason game",
-    "tags": [
-      "league-news",
-      "usage",
-      "BUF",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "BUF",
-      "CAR"
-    ]
-  },
-  {
-    "id": "1apav2u1tu1nte",
-    "title": "Dolphins sign DL Cam Rice",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-dl-cam-rice",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T20:37:17.000Z",
-    "summary": "The Dolphins made an addition to their defensive line group on Monday afternoon.",
-    "tags": [
-      "league-news",
-      "contract",
-      "MIA"
-    ],
-    "players": [],
-    "teams": [
-      "MIA"
     ]
   }
 ]
