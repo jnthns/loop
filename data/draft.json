@@ -1326,6 +1326,28 @@
       "pos": "RB",
       "nflTeam": "DEN",
       "mine": false
+    },
+    {
+      "pick": 118,
+      "round": 10,
+      "slot": 10,
+      "rosterId": 9,
+      "playerId": "oronde-gadsden",
+      "playerName": "Oronde Gadsden",
+      "pos": "TE",
+      "nflTeam": "LAC",
+      "mine": false
+    },
+    {
+      "pick": 119,
+      "round": 10,
+      "slot": 11,
+      "rosterId": 11,
+      "playerId": "jaylen-warren",
+      "playerName": "Jaylen Warren",
+      "pos": "RB",
+      "nflTeam": "PIT",
+      "mine": false
     }
   ]
 }
