@@ -1,5 +1,207 @@
 [
   {
+    "id": "1in0pab1fsd9yv",
+    "title": "Detroit Lions updated depth chart: Preseason Game 2 vs. Commanders",
+    "url": "https://sports.yahoo.com/articles/detroit-lions-updated-depth-chart-120000373.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T12:00:00.000Z",
+    "summary": "An updated look at the 2026 Detroit Lions’ depth chart heading into Preseason Game 2 against the Commanders.",
+    "tags": [
+      "league-news",
+      "usage",
+      "DET",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "DET",
+      "WAS"
+    ]
+  },
+  {
+    "id": "uyugsb1mc60jr",
+    "title": "New NFL blocking, pass rush win rate formulas and takeaways",
+    "url": "https://www.espn.com/nfl/story/_/id/49672562/nfl-new-pass-block-push-rush-win-rates-formula-takeaways-analytics",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-22T10:31:26.000Z",
+    "summary": "After eight years, ESPN tweaked the formula for pass rush win rate and pass block win rate. What's new for 2026? Which players saw their stats impacted the most?",
+    "tags": [
+      "league-news",
+      "injury",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "1nekqdyy884am",
+    "title": "Cleveland Browns news: Is today the day the QB battle concludes?",
+    "url": "https://sports.yahoo.com/articles/cleveland-browns-news-today-day-103000125.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T10:30:00.000Z",
+    "summary": "The latest Cleveland Browns news and notes from around the NFL in the August 22 edition of the Saturday Dawg Chow.",
+    "tags": [
+      "league-news",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "1yq5chl147j9ep",
+    "title": "Xavier Legette misses Panthers' preseason game with foot/ankle injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/xavier-legette-misses-panthers-preseason-game-with-foot-ankle-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-22T10:11:54.000Z",
+    "summary": "Panthers wide receiver Xavier Legette missed Friday night's preseason game with what head coach Dave Canales described as a foot and ankle injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "edcl7z1vbbk49",
+    "title": "6 NFL QBs who could be traded or released before Week 1 of 2026 season",
+    "url": "https://sports.yahoo.com/articles/6-nfl-qbs-could-traded-100420398.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T10:04:20.000Z",
+    "summary": "NFL rosters cuts are rapidly approaching. Several prominent quarterbacks could find themselves traded or released before then.",
+    "tags": [
+      "league-news",
+      "trade",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "16svrg1rrfdzs",
+    "title": "Would you cut electric Robert Henry or physical Kaytron Allen? Commanders fans have voted",
+    "url": "https://sports.yahoo.com/articles/cut-electric-robert-henry-physical-090000314.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T09:00:00.000Z",
+    "summary": "Hogs Haven readers vote on the brutal math of a 53-man roster crunch, with a tough choice at running back",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "WAS"
+    ],
+    "players": [
+      "kaytron-allen",
+      "robert-henry"
+    ],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "2b92n51p6x4t9",
+    "title": "Riley Moss left Week 2 preseason game with rib injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/riley-moss-left-week-2-preseason-game-with-rib-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-22T08:04:01.000Z",
+    "summary": "The best outcome of any preseason game is to emerge with as few injuries as possible.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "9h8cgk1ogsnsm",
+    "title": "Riley Moss left Week 2 preseason game with rib injury",
+    "url": "https://sports.yahoo.com/articles/riley-moss-left-week-2-080401208.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T08:04:01.000Z",
+    "summary": "The best outcome of any preseason game is to emerge with as few injuries as possible.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1s9opvjldwlp",
+    "title": "Matt LaFleur feels great about rookie kicker Trey Smack",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-lafleur-feels-great-about-rookie-kicker-trey-smack",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-22T07:38:36.000Z",
+    "summary": "The Packers drafted kicker Trey Smack in the sixth round this year, then cut veterans Brandon McManus and Lucas Havrisik to leave Smack as the only kicker on the roster.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "roster-move",
+      "GB"
+    ],
+    "players": [
+      "trey-smack"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "17vyzeq1jiomjw",
+    "title": "Matt LaFleur feels great about rookie kicker Trey Smack",
+    "url": "https://sports.yahoo.com/articles/matt-lafleur-feels-great-rookie-073836334.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T07:38:36.000Z",
+    "summary": "The Packers drafted kicker Trey Smack in the sixth round this year, then cut veterans Brandon McManus and Lucas Havrisik to leave Smack as the only kicker on the roster.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "roster-move",
+      "GB"
+    ],
+    "players": [
+      "trey-smack"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "7ymtnhddvfcd",
+    "title": "Packers Depth Chart: Who played for Green Bay’s 1s and 2s vs. the Broncos?",
+    "url": "https://sports.yahoo.com/articles/packers-depth-chart-played-green-065759178.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-22T06:57:59.000Z",
+    "summary": "Packers DB Kamal Hadden quickly overtook Kitan Oladapo as Javon Bullard’s backup upon returning to the field",
+    "tags": [
+      "league-news",
+      "usage",
+      "DEN",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "DEN",
+      "GB"
+    ]
+  },
+  {
     "id": "1caadkp17cimav",
     "title": "Broncos' Bo Nix throws for TD in return from ankle injury",
     "url": "https://www.espn.com/nfl/story/_/id/49687942/broncos-qb-bo-nix-throws-td-preseason-return-ankle-surgery",
@@ -7426,205 +7628,6 @@
     "players": [],
     "teams": [
       "MIA"
-    ]
-  },
-  {
-    "id": "p00kqu1kh2kcm",
-    "title": "Raiders OL Jackson Powers-Johnson exited Monday's practice with apparent injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-ol-jackson-powers-johnson-exited-mondays-practice-with-apparent-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T20:23:45.000Z",
-    "summary": "It appears Raiders offensive lineman Jackson Powers-Johnson has another injury concern.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "1wow52fo5yj4h",
-    "title": "James Pearce Jr. will play in the preseason before his eight-game suspension starts",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-pearce-jr-will-play-in-the-preseason-before-his-eight-game-suspension-starts",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T20:09:12.000Z",
-    "summary": "Falcons head coach Kevin Stefanski addressed linebacker James Pearce's suspension on Monday.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "1vupg02nfa8m",
-    "title": "Jamal Adams tore his quad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamal-adams-tore-his-quad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T19:29:08.000Z",
-    "summary": "The Vikings placed safety/linebacker Jamal Adams on season-ending injured reserve on Monday and head coach Kevin O'Connell detailed the specific injury that landed him on the list a little later in the day.",
-    "tags": [
-      "league-news",
-      "injury",
-      "MIN"
-    ],
-    "players": [],
-    "teams": [
-      "MIN"
-    ]
-  },
-  {
-    "id": "hj0rge1ipzwrk",
-    "title": "Report: Bears to sign Marcus Davenport",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-bears-to-sign-marcus-davenport",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T19:24:31.000Z",
-    "summary": "Marcus Davenport is headed elsewhere in the NFC North.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "k4j7tkmgvmfo",
-    "title": "Todd Bowles described both Emeka Egbuka and Jalen McMillan as considered \"day-to-day, week-to-week,\" with Egbuka dealing with a toe-sprain and McMillan dealing with what he called a \"banged up knee\"",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vr1u76/todd_bowles_described_both_emeka_egbuka_and_jalen",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-17T19:14:50.000Z",
-    "summary": "I know the post about Egbuka's injury was already just posted earlier today, but saw a couple of comments mention how that is somehow a good thing for McMillan, so maybe people are not aware that Egbuka and McMillan have been given the same exact injury return timeline from Bowles? McMillan hasn't practiced in nearly 2 full weeks with the knee injury. I haven't seen him comment on Jalen's status f",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "emeka-egbuka",
-      "jalen-mcmillan"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1knroe02et1ye",
-    "title": "Vikings sign LB Kenny Dyson",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-sign-lb-kenny-dyson",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T19:11:09.000Z",
-    "summary": "The Vikings swapped out one linebacker for another on Monday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "MIN"
-    ],
-    "players": [],
-    "teams": [
-      "MIN"
-    ]
-  },
-  {
-    "id": "x1qgma1yxfj08",
-    "title": "Kyle Monangai Injury Update. Appears he's going to be fine",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vr1k96/kyle_monangai_injury_update_appears_hes_going_to",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-17T19:05:00.000Z",
-    "summary": "Didn't want to bury the lede, now just gotta hit the minimum text requirement. While I know this isn't huge news for a lot of you, he actually won me a 'ship last year in a league I expected to be about 2yrs out. So, it's big news for me after yesterday's \"down holding his knee\" thing... God my RB room is terrible &#32; submitted by &#32; /u/stl_ball [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "kyle-monangai"
-    ],
-    "teams": []
-  },
-  {
-    "id": "ub9aks1ast9e2",
-    "title": "Bears set to sign former first round pick to help bolster defense: Chicago might also be eyeing a big trade",
-    "url": "https://www.cbssports.com/nfl/news/bears-set-to-sign-former-first-round-pick-to-help-bolster-defense",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-17T19:01:14.000Z",
-    "summary": "The Bears are taking a low-risk gamble on former first-round pick Marcus Davenport to help boost a pass rush that struggled significantly last season",
-    "tags": [
-      "league-news",
-      "trade",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "1lvuuwo1smofam",
-    "title": "Cowboys cut WR Traeshon Holden to make room for Von Miller",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-cut-wr-traeshon-holden-to-make-room-for-von-miller",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T18:59:49.000Z",
-    "summary": "The Cowboys waived wide receiver Traeshon Holden to make room for the signing of outside linebacker Von Miller, according to multiple reports.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "s9mxt318gnqb5",
-    "title": "Titans QB Mitchell Trubisky being evaluated for a biceps injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-qb-mitchell-trubisky-being-evaluated-for-a-biceps-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T18:50:02.000Z",
-    "summary": "Titans backup quarterback Mitchell Trubisky made an early exit from practice on Monday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
-    ]
-  },
-  {
-    "id": "17hkuhb1k70eed",
-    "title": "Falcons sign WR Beaux Collins",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-sign-wr-beaux-collins",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-17T18:41:33.000Z",
-    "summary": "The Falcons are signing free agent wide receiver Beaux Collins, Mike Garafolo of NFL Media reports.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
     ]
   }
 ]

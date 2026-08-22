@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-22T06:58:09.645Z",
-  "snapshotAt": "2026-08-21T07:40:57Z",
+  "capturedAt": "2026-08-22T12:59:31.245Z",
+  "snapshotAt": "2026-08-22T07:26:29Z",
   "season": "2026",
   "entries": [
     {
@@ -122,6 +122,14 @@
       "nflTeam": "BAL",
       "depthRank": 1,
       "sleeperId": "3198"
+    },
+    {
+      "id": "justice-hill",
+      "name": "Justice Hill",
+      "pos": "RB",
+      "nflTeam": "BAL",
+      "depthRank": 2,
+      "sleeperId": "5995"
     },
     {
       "id": "mark-andrews",
@@ -276,14 +284,6 @@
       "sleeperId": "12534"
     },
     {
-      "id": "roschon-johnson",
-      "name": "Roschon Johnson",
-      "pos": "RB",
-      "nflTeam": "CHI",
-      "depthRank": 3,
-      "sleeperId": "10235"
-    },
-    {
       "id": "colston-loveland",
       "name": "Colston Loveland",
       "pos": "TE",
@@ -410,6 +410,14 @@
       "nflTeam": "DAL",
       "depthRank": 2,
       "sleeperId": "12457"
+    },
+    {
+      "id": "malik-davis",
+      "name": "Malik Davis",
+      "pos": "RB",
+      "nflTeam": "DAL",
+      "depthRank": 4,
+      "sleeperId": "8800"
     },
     {
       "id": "jake-ferguson",
@@ -548,14 +556,6 @@
       "sleeperId": "10859"
     },
     {
-      "id": "brock-wright",
-      "name": "Brock Wright",
-      "pos": "TE",
-      "nflTeam": "DET",
-      "depthRank": 2,
-      "sleeperId": "7891"
-    },
-    {
       "id": "amon-ra-st-brown",
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
@@ -684,19 +684,11 @@
       "sleeperId": "7569"
     },
     {
-      "id": "jayden-higgins",
-      "name": "Jayden Higgins",
-      "pos": "WR",
-      "nflTeam": "HOU",
-      "depthRank": 2,
-      "sleeperId": "12484"
-    },
-    {
       "id": "xavier-hutchinson",
       "name": "Xavier Hutchinson",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "10218"
     },
     {
@@ -704,7 +696,7 @@
       "name": "Jaylin Noel",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "12536"
     },
     {
@@ -712,7 +704,7 @@
       "name": "Tank Dell",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 5,
+      "depthRank": 4,
       "sleeperId": "9502"
     },
     {
@@ -720,8 +712,16 @@
       "name": "Lewis Bond",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 7,
+      "depthRank": 6,
       "sleeperId": "13541"
+    },
+    {
+      "id": "jayden-higgins",
+      "name": "Jayden Higgins",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "depthRank": 15,
+      "sleeperId": "12484"
     },
     {
       "id": "daniel-jones",
@@ -1012,6 +1012,14 @@
       "sleeperId": "4033"
     },
     {
+      "id": "charlie-kolar",
+      "name": "Charlie Kolar",
+      "pos": "TE",
+      "nflTeam": "LAC",
+      "depthRank": 3,
+      "sleeperId": "8127"
+    },
+    {
       "id": "ladd-mcconkey",
       "name": "Ladd McConkey",
       "pos": "WR",
@@ -1082,14 +1090,6 @@
       "nflTeam": "LV",
       "depthRank": 2,
       "sleeperId": "8180"
-    },
-    {
-      "id": "malik-benson",
-      "name": "Malik Benson",
-      "pos": "WR",
-      "nflTeam": "LV",
-      "depthRank": 4,
-      "sleeperId": "13329"
     },
     {
       "id": "malik-willis",
@@ -1348,14 +1348,6 @@
       "sleeperId": "11834"
     },
     {
-      "id": "bryce-lance",
-      "name": "Bryce Lance",
-      "pos": "WR",
-      "nflTeam": "NO",
-      "depthRank": 4,
-      "sleeperId": "13420"
-    },
-    {
       "id": "barion-brown",
       "name": "Barion Brown",
       "pos": "WR",
@@ -1572,14 +1564,6 @@
       "sleeperId": "13294"
     },
     {
-      "id": "aaron-rodgers",
-      "name": "Aaron Rodgers",
-      "pos": "QB",
-      "nflTeam": "PIT",
-      "depthRank": 1,
-      "sleeperId": "96"
-    },
-    {
       "id": "jaylen-warren",
       "name": "Jaylen Warren",
       "pos": "RB",
@@ -1722,14 +1706,6 @@
       "nflTeam": "SF",
       "depthRank": 2,
       "sleeperId": "13414"
-    },
-    {
-      "id": "khalil-herbert",
-      "name": "Khalil Herbert",
-      "pos": "RB",
-      "nflTeam": "SF",
-      "depthRank": 7,
-      "sleeperId": "7608"
     },
     {
       "id": "george-kittle",
