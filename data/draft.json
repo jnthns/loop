@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -1556,6 +1556,17 @@
       "playerName": "Rashid Shaheed",
       "pos": "WR",
       "nflTeam": "SEA",
+      "mine": false
+    },
+    {
+      "pick": 139,
+      "round": 12,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "dallas-goedert",
+      "playerName": "Dallas Goedert",
+      "pos": "TE",
+      "nflTeam": "PHI",
       "mine": false
     }
   ]

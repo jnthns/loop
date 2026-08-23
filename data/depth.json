@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-23T06:59:49.791Z",
-  "snapshotAt": "2026-08-22T07:26:29Z",
+  "capturedAt": "2026-08-23T13:00:33.913Z",
+  "snapshotAt": "2026-08-23T07:28:22Z",
   "season": "2026",
   "entries": [
     {
@@ -68,6 +68,14 @@
       "sleeperId": "10232"
     },
     {
+      "id": "jack-strand",
+      "name": "Jack Strand",
+      "pos": "QB",
+      "nflTeam": "ATL",
+      "depthRank": 4,
+      "sleeperId": "13602"
+    },
+    {
       "id": "bijan-robinson",
       "name": "Bijan Robinson",
       "pos": "RB",
@@ -122,14 +130,6 @@
       "nflTeam": "BAL",
       "depthRank": 1,
       "sleeperId": "3198"
-    },
-    {
-      "id": "justice-hill",
-      "name": "Justice Hill",
-      "pos": "RB",
-      "nflTeam": "BAL",
-      "depthRank": 2,
-      "sleeperId": "5995"
     },
     {
       "id": "mark-andrews",
@@ -210,6 +210,14 @@
       "nflTeam": "BUF",
       "depthRank": 2,
       "sleeperId": "8134"
+    },
+    {
+      "id": "keon-coleman",
+      "name": "Keon Coleman",
+      "pos": "WR",
+      "nflTeam": "BUF",
+      "depthRank": 3,
+      "sleeperId": "11637"
     },
     {
       "id": "bryce-young",
@@ -1012,14 +1020,6 @@
       "sleeperId": "4033"
     },
     {
-      "id": "charlie-kolar",
-      "name": "Charlie Kolar",
-      "pos": "TE",
-      "nflTeam": "LAC",
-      "depthRank": 3,
-      "sleeperId": "8127"
-    },
-    {
       "id": "ladd-mcconkey",
       "name": "Ladd McConkey",
       "pos": "WR",
@@ -1434,6 +1434,14 @@
       "nflTeam": "NYG",
       "depthRank": 4,
       "sleeperId": "7090"
+    },
+    {
+      "id": "odell-beckham",
+      "name": "Odell Beckham",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "depthRank": 6,
+      "sleeperId": "2078"
     },
     {
       "id": "geno-smith",
@@ -1940,14 +1948,6 @@
       "sleeperId": "13405"
     },
     {
-      "id": "robert-henry",
-      "name": "Robert Henry",
-      "pos": "RB",
-      "nflTeam": "WAS",
-      "depthRank": 5,
-      "sleeperId": "13418"
-    },
-    {
       "id": "chig-okonkwo",
       "name": "Chig Okonkwo",
       "pos": "TE",
@@ -1978,14 +1978,6 @@
       "nflTeam": "WAS",
       "depthRank": 4,
       "sleeperId": "13301"
-    },
-    {
-      "id": "jaylin-lane",
-      "name": "Jaylin Lane",
-      "pos": "WR",
-      "nflTeam": "WAS",
-      "depthRank": 7,
-      "sleeperId": "12641"
     }
   ],
   "unmatched": []
