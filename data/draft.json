@@ -1403,6 +1403,72 @@
       "pos": "WR",
       "nflTeam": "LAC",
       "mine": false
+    },
+    {
+      "pick": 125,
+      "round": 11,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "jacory-croskey-merritt",
+      "playerName": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "nflTeam": "WAS",
+      "mine": false
+    },
+    {
+      "pick": 126,
+      "round": 11,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "chuba-hubbard",
+      "playerName": "Chuba Hubbard",
+      "pos": "RB",
+      "nflTeam": "CAR",
+      "mine": false
+    },
+    {
+      "pick": 127,
+      "round": 11,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "courtland-sutton",
+      "playerName": "Courtland Sutton",
+      "pos": "WR",
+      "nflTeam": "DEN",
+      "mine": false
+    },
+    {
+      "pick": 128,
+      "round": 11,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "jayden-higgins",
+      "playerName": "Jayden Higgins",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "mine": false
+    },
+    {
+      "pick": 129,
+      "round": 11,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "rico-dowdle",
+      "playerName": "Rico Dowdle",
+      "pos": "RB",
+      "nflTeam": "PIT",
+      "mine": true
+    },
+    {
+      "pick": 130,
+      "round": 11,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "rhamondre-stevenson",
+      "playerName": "Rhamondre Stevenson",
+      "pos": "RB",
+      "nflTeam": "NE",
+      "mine": false
     }
   ]
 }
