@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -1567,6 +1567,72 @@
       "playerName": "Dallas Goedert",
       "pos": "TE",
       "nflTeam": "PHI",
+      "mine": false
+    },
+    {
+      "pick": 140,
+      "round": 12,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "jalen-coker",
+      "playerName": "Jalen Coker",
+      "pos": "WR",
+      "nflTeam": "CAR",
+      "mine": false
+    },
+    {
+      "pick": 141,
+      "round": 12,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "nicholas-singleton",
+      "playerName": "Nicholas Singleton",
+      "pos": "RB",
+      "nflTeam": "TEN",
+      "mine": false
+    },
+    {
+      "pick": 142,
+      "round": 12,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": "germie-bernard",
+      "playerName": "Germie Bernard",
+      "pos": "WR",
+      "nflTeam": "PIT",
+      "mine": false
+    },
+    {
+      "pick": 143,
+      "round": 12,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "tyler-allgeier",
+      "playerName": "Tyler Allgeier",
+      "pos": "RB",
+      "nflTeam": "ARI",
+      "mine": false
+    },
+    {
+      "pick": 144,
+      "round": 12,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": null,
+      "playerName": "Tua Tagovailoa",
+      "pos": "QB",
+      "nflTeam": "ATL",
+      "mine": false
+    },
+    {
+      "pick": 145,
+      "round": 13,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "stefon-diggs",
+      "playerName": "Stefon Diggs",
+      "pos": "WR",
+      "nflTeam": "WAS",
       "mine": false
     }
   ]
