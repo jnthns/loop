@@ -1,5 +1,119 @@
 [
   {
+    "id": "tw1dlak0foda",
+    "title": "Cowboys injury news: Julius Wood leaves Cardinals game, in concussion protocol",
+    "url": "https://sports.yahoo.com/articles/cowboys-injury-news-julius-wood-043635281.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T04:36:35.000Z",
+    "summary": "Julius Wood left Saturday’s game and is in concussion protocol",
+    "tags": [
+      "league-news",
+      "injury",
+      "ARI",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "ARI",
+      "DAL"
+    ]
+  },
+  {
+    "id": "1aywzps1n4k9qu",
+    "title": "Eagles' Ja'Quinden Jackson taken to hospital after tackle, has movement",
+    "url": "https://www.espn.com/nfl/story/_/id/49697364/eagles-jaquinden-jackson-taken-hospital-tackle-movement",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-23T03:41:13.000Z",
+    "summary": "Philadelphia Eagles running back Ja'Quinden Jackson left the field by ambulance after being injured on the opening kickoff in Saturday's preseason game against the New England Patriots.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "NE",
+      "PHI"
+    ]
+  },
+  {
+    "id": "w2epur15lq6rd",
+    "title": "Patriots react to ‘very tough situation’ after Ja’Quinden Jackson injury in Eagles preseason game",
+    "url": "https://sports.yahoo.com/articles/patriots-react-very-tough-situation-033548043.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T03:35:48.000Z",
+    "summary": "The Eagles running back left the game in an ambulance after a collision on the opening kickoff.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "NE",
+      "PHI"
+    ]
+  },
+  {
+    "id": "1v0zjfy72vtck",
+    "title": "Andy Reid gives 2 injury updates after Saturday’s preseason loss",
+    "url": "https://sports.yahoo.com/articles/andy-reid-gives-2-injury-033000846.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T03:30:00.000Z",
+    "summary": "Kansas City saw a defensive starter scratched before Saturday’s game even started.",
+    "tags": [
+      "league-news",
+      "injury",
+      "usage"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "pgbd3jlqx2kh",
+    "title": "Jalon Daniels continues to prove he belongs on the Buccaneers roster",
+    "url": "https://sports.yahoo.com/articles/jalon-daniels-continues-prove-belongs-032550520.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T03:25:50.000Z",
+    "summary": "The Tampa Bay Buccaneers improved to 2-0 in the preseason Saturday night with a 16-15 comeback win over the Kansas City Chiefs, and rookie quarterback Jalon Daniels once again made his case for a roster spot. After Tampa Bay was held scoreless in the first half, Daniels helped provide the spark. The undrafted rookie out […]",
+    "tags": [
+      "league-news",
+      "rookie",
+      "KC",
+      "TB"
+    ],
+    "players": [],
+    "teams": [
+      "KC",
+      "TB"
+    ]
+  },
+  {
+    "id": "1r0zsbo18xkkvy",
+    "title": "San Francisco 49ers injury list: Ranking most concerning roster issues",
+    "url": "https://sports.yahoo.com/articles/san-francisco-49ers-injury-list-021653758.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T02:16:53.000Z",
+    "summary": "The San Francisco 49ers have been banged up. These are most concerning injuries they face.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "xuaqrvq0abef",
     "title": "Browns QB Deshaun Watson laments ‘disrespectful’ booing by team’s own fans",
     "url": "https://sports.yahoo.com/articles/browns-qb-deshaun-watson-says-004635341.html",
@@ -1637,6 +1751,26 @@
     "teams": [
       "ATL"
     ]
+  },
+  {
+    "id": "1q1vu7v9c5ez",
+    "title": "NFL preseason injuries tracker: Updates on Sam LaPorta, Breece Hall, Jeremiyah Love, Alvin Kamara",
+    "url": "https://www.cbssports.com/nfl/news/nfl-training-camp-injury-tracker",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-21T13:43:57.000Z",
+    "summary": "We track the biggest injury updates and recovery timelines as teams navigate a brutal start to the NFL preseason",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "alvin-kamara",
+      "breece-hall",
+      "jeremiyah-love",
+      "sam-laporta"
+    ],
+    "teams": []
   },
   {
     "id": "g303g99svq9j",
@@ -7489,134 +7623,6 @@
     ],
     "teams": [
       "SF"
-    ]
-  },
-  {
-    "id": "1pptjqqorwpuk",
-    "title": "Patriots up-to-date depth chart: Who is on the roster right now?",
-    "url": "https://sports.yahoo.com/articles/patriots-date-depth-chart-roster-202222083.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T01:04:46.000Z",
-    "summary": "An updated look at the Patriots’ roster in 2026.",
-    "tags": [
-      "league-news",
-      "usage",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "115t92r1beahd",
-    "title": "Patriots to sign veteran offensive lineman Greg Van Roten, per report",
-    "url": "https://sports.yahoo.com/articles/patriots-sign-veteran-offensive-lineman-005537951.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T00:55:37.000Z",
-    "summary": "In light of some injuries, the Patriots will be adding to their offensive line.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "cxf5qw1sh7egc",
-    "title": "Bears RB Kyle Monangai (knee) expected to miss multiple weeks, source says",
-    "url": "https://www.espn.com/nfl/story/_/id/49643703/bears-rb-kyle-monangai-knee-expected-miss-multiple-weeks-source-says",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-18T00:48:15.000Z",
-    "summary": "Bears running back Kyle Monangai is expected to miss multiple weeks after sustaining a knee injury during practice on Sunday, sources told ESPN's Jeremy Fowler.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI"
-    ],
-    "players": [
-      "kyle-monangai"
-    ],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "or9xit1w5cvif",
-    "title": "Jaguars OG Patrick Mekari recently underwent back procedure",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-og-patrick-mekari-recently-underwent-back-procedure",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T00:35:51.000Z",
-    "summary": "Jaguars right guard Patrick Mekari recently underwent surgery on his back and will miss some time, NFL Media reports.",
-    "tags": [
-      "league-news",
-      "injury",
-      "JAX"
-    ],
-    "players": [],
-    "teams": [
-      "JAX"
-    ]
-  },
-  {
-    "id": "p639k413ar2s2",
-    "title": "Jaguars OG Patrick Mekari recently underwent back procedure",
-    "url": "https://sports.yahoo.com/articles/jaguars-og-patrick-mekari-recently-003551762.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T00:35:51.000Z",
-    "summary": "Jaguars right guard Patrick Mekari recently underwent surgery on his back and will miss some time, NFL Media reports.",
-    "tags": [
-      "league-news",
-      "injury",
-      "JAX"
-    ],
-    "players": [],
-    "teams": [
-      "JAX"
-    ]
-  },
-  {
-    "id": "1olpumtzk50g1",
-    "title": "For first anniversary of release, Big Shield ebook is free on Tuesday",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-first-anniversary-of-release-big-shield-ebook-is-free-on-tuesday",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T00:30:07.000Z",
-    "summary": "A year ago, Big Shield arrived as a cautionary tale regarding pro sports and legalized betting.",
-    "tags": [
-      "league-news",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "mwxiyi89k8vu",
-    "title": "New grass field held up well in opener, Bills president says",
-    "url": "https://www.espn.com/nfl/story/_/id/49643423/new-grass-field-held-well-opener-bills-president-says",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-18T00:10:25.000Z",
-    "summary": "When the Bills opened Highmark Stadium last week, the field showed signs of wear in a preseason win over the Panthers, but president Pete Guelli told The Associated Press on Monday that \"from a playability and safety perspective, everybody's very happy.\"",
-    "tags": [
-      "league-news",
-      "contract",
-      "BUF",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "BUF",
-      "CAR"
     ]
   }
 ]

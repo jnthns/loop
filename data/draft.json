@@ -1469,6 +1469,94 @@
       "pos": "RB",
       "nflTeam": "NE",
       "mine": false
+    },
+    {
+      "pick": 131,
+      "round": 11,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "jonah-coleman",
+      "playerName": "Jonah Coleman",
+      "pos": "RB",
+      "nflTeam": "DEN",
+      "mine": false
+    },
+    {
+      "pick": 132,
+      "round": 11,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "jordan-mason",
+      "playerName": "Jordan Mason",
+      "pos": "RB",
+      "nflTeam": "MIN",
+      "mine": false
+    },
+    {
+      "pick": 133,
+      "round": 12,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "juwan-johnson",
+      "playerName": "Juwan Johnson",
+      "pos": "TE",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 134,
+      "round": 12,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "dalton-kincaid",
+      "playerName": "Dalton Kincaid",
+      "pos": "TE",
+      "nflTeam": "BUF",
+      "mine": false
+    },
+    {
+      "pick": 135,
+      "round": 12,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "chris-godwin",
+      "playerName": "Chris Godwin",
+      "pos": "WR",
+      "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 136,
+      "round": 12,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "jayden-reed",
+      "playerName": "Jayden Reed",
+      "pos": "WR",
+      "nflTeam": "GB",
+      "mine": true
+    },
+    {
+      "pick": 137,
+      "round": 12,
+      "slot": 5,
+      "rosterId": 1,
+      "playerId": "j-k-dobbins",
+      "playerName": "J.K. Dobbins",
+      "pos": "RB",
+      "nflTeam": "DEN",
+      "mine": false
+    },
+    {
+      "pick": 138,
+      "round": 12,
+      "slot": 6,
+      "rosterId": 8,
+      "playerId": "rashid-shaheed",
+      "playerName": "Rashid Shaheed",
+      "pos": "WR",
+      "nflTeam": "SEA",
+      "mine": false
     }
   ]
 }
