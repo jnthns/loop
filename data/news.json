@@ -1,5 +1,601 @@
 [
   {
+    "id": "180vwppiumvgf",
+    "title": "Seahawks 2nd-round pick Bud Clark carted off with leg injury",
+    "url": "https://www.espn.com/nfl/story/_/id/49707406/seahawks-bud-clark-carted-right-leg-injury-preseason-game-titans",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-24T01:51:35.000Z",
+    "summary": "Seahawks rookie safety Bud Clark was carted off the field after injuring his right leg during Sunday's preseason game at Tennessee.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "objpznr4iy0p",
+    "title": "Seahawks second-round S Bud Clark carted off with leg injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-second-round-s-bud-clark-carted-off-with-leg-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-24T01:45:32.000Z",
+    "summary": "Seahawks rookie safety Bud Clark was carted off with a right leg injury in Sunday night's preseason game against the Titans.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "kk0j5leb4thv",
+    "title": "Bud Clark injury update after Seahawks safety carted off in air cast",
+    "url": "https://sports.yahoo.com/articles/bud-clark-injury-seahawks-safety-004454773.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T00:44:54.000Z",
+    "summary": "Bud Clark, the Seahawks' second-round pick out of TCU, suffered an injury against the Titans and had to be carted off in an air cast.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "19f3rnp15r5r3z",
+    "title": "Another injury: Seahawks rookie Bud Clark carted off Titans game with air cast",
+    "url": "https://sports.yahoo.com/articles/another-injury-seahawks-rookie-bud-004349681.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T00:43:49.000Z",
+    "summary": "The second-round pick went down on the first defensive play of Seattle’s second preseason game.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "1wokdh311qykv7",
+    "title": "Rams Depth Chart Reset: Jarquez Hunter makes his move",
+    "url": "https://sports.yahoo.com/articles/rams-depth-chart-reset-jarquez-000100790.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T00:01:00.000Z",
+    "summary": "How the Rams depth chart shuffles after L.A.’s second preseason game, including QB2 and RB3",
+    "tags": [
+      "league-news",
+      "usage",
+      "LAR"
+    ],
+    "players": [
+      "jarquez-hunter"
+    ],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "g4xx2r1p0kt5",
+    "title": "Could Deshaun Watson get a two-game audition for the starting job?",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/could-deshaun-watson-get-a-two-game-audition-for-the-starting-job",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-23T23:24:23.000Z",
+    "summary": "Browns coach Todd Monken surely knows which quarterback he'll name as the team's starter on Monday.",
+    "tags": [
+      "league-news",
+      "usage",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "1cleabxhrfbpr",
+    "title": "NFL preseason Week 2 overreactions: Shedeur Sanders will start for Browns, Jets&#039; defense is fixed",
+    "url": "https://www.cbssports.com/nfl/news/nfl-preseason-week-2-overreactions-shedeur-sanders-browns-jets-defense",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-23T23:15:08.000Z",
+    "summary": "Not everything that unfolded in the second batch of preseason action is worth reading into",
+    "tags": [
+      "league-news",
+      "CLE",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "CLE",
+      "NYJ"
+    ]
+  },
+  {
+    "id": "hi0183fpmb9r",
+    "title": "No team wants to trade for Stetson Bennett",
+    "url": "https://sports.yahoo.com/articles/no-team-wants-trade-stetson-225106612.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T22:51:06.000Z",
+    "summary": "Bennett’s pass-to-pass breakdown shows a quarterback who isn’t suitable to make an NFL 53-man roster",
+    "tags": [
+      "league-news",
+      "trade"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "3euy43bwz3ox",
+    "title": "Raiders' Ashton Jeanty exits practice with apparent knee injury",
+    "url": "https://www.espn.com/nfl/story/_/id/49705650/raiders-ashton-jeanty-exits-practice-apparent-knee-injury",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-23T22:46:52.000Z",
+    "summary": "Raiders running back Ashton Jeanty left Sunday's training camp practice early after suffering an apparent right knee injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "3xh8231aghf1h",
+    "title": "Agents: Dae'Quan Wright to be waived by Browns, set to join LSU",
+    "url": "https://www.espn.com/college-football/story/_/id/49705433/agents-daequan-wright-waived-browns-set-join-lsu",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-23T22:38:03.000Z",
+    "summary": "The Browns are waiving tight end Dae'Quan Wright, who has an agreement in place for the 2026 season to play for LSU if he clears waivers, agents Drew Rosenhaus and Kyle Lincoln told ESPN's Adam Schefter.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "CLE",
+      "LSU"
+    ],
+    "players": [],
+    "teams": [
+      "CLE",
+      "LSU"
+    ]
+  },
+  {
+    "id": "1ir44oz1uv3z4r",
+    "title": "Raiders&#039; Ashton Jeanty injured, helped off practice field after landing awkwardly",
+    "url": "https://www.cbssports.com/nfl/news/raiders-ashton-jeanty-injured-helped-off-practice-field",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-23T22:24:57.000Z",
+    "summary": "The second-year running back was unable to put any weight on his right leg",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "6999c9g295vp",
+    "title": "Raiders news: Ashton Jeanty injured",
+    "url": "https://sports.yahoo.com/articles/raiders-news-ashton-jeanty-injured-220226064.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T22:02:26.000Z",
+    "summary": "2nd year running back suffered right leg injury",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "13w1ylzs1lhsb",
+    "title": "Ashton Jeanty exits Sunday's practice with apparent leg injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ashton-jeanty-exits-sundays-practice-with-apparent-leg-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-23T21:43:26.000Z",
+    "summary": "Jeanty went down after diving to make a catch during the day's session.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1v3detl15i59uf",
+    "title": "Ashton Jeanty exits Sunday's practice with apparent leg injury",
+    "url": "https://sports.yahoo.com/articles/ashton-jeanty-exits-sundays-practice-214326605.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T21:43:26.000Z",
+    "summary": "Jeanty went down after diving to make a catch during the day's session.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1uvje8apa7gva",
+    "title": "Ashton Jeanty injury update as Raiders RB leaves practice after awkward landing",
+    "url": "https://sports.yahoo.com/articles/ashton-jeanty-injury-raiders-rb-214028229.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T21:40:28.000Z",
+    "summary": "Raiders running back Ashton Jeanty suffered an injury during the team's practice on Sunday, Aug. 23. Here's the latest on his status moving forward.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "1hhy76q1m4028o",
+    "title": "NFL tight end to join LSU to play college football if he clears waivers",
+    "url": "https://sports.yahoo.com/articles/nfl-tight-end-join-lsu-212839331.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T21:28:39.000Z",
+    "summary": "Dae'Quan Wright, who signed NFL training camp deals with the Saints and Browns, is set to join LSU if he clears waivers.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CLE",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "CLE",
+      "NO"
+    ]
+  },
+  {
+    "id": "fz61h0tjr5j2",
+    "title": "Bad news: Ashton Jeanty got hurt in practice today, could not put pressure on his leg when leaving the field. Afterward, the @Raiders gathered as a team to acknowledge the injury with a moment",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vwjfud/bad_news_ashton_jeanty_got_hurt_in_practice_today",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-23T21:23:16.000Z",
+    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "i7ago9i7z8c1",
+    "title": "Ashton Jeanty helped off practice field after colliding with teammate while running route, per @samwarren83.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vwjesb/ashton_jeanty_helped_off_practice_field_after",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-23T21:22:06.000Z",
+    "summary": "&#32; submitted by &#32; /u/BuckyMcFly99 [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": []
+  },
+  {
+    "id": "vziczuugeuoc",
+    "title": "Browns will waive Dae’Quan Wright, who has agreed to play for LSU",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-will-waive-daequan-wright-who-has-agreed-to-play-for-lsu",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-23T21:08:05.000Z",
+    "summary": "Browns tight end Dae’Quan Wright is poised to do something that once would have been unthinkable: Leave the NFL and go play in the NCAA.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "u2sd5ipkn5f6",
+    "title": "Cowboys depth chart becomes clearer in win at Cardinals",
+    "url": "https://sports.yahoo.com/articles/cowboys-depth-chart-becomes-clearer-210000999.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T21:00:00.000Z",
+    "summary": "The Cowboys learned more about players they can trust in Saturday’s win.",
+    "tags": [
+      "league-news",
+      "usage",
+      "ARI",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "ARI",
+      "DAL"
+    ]
+  },
+  {
+    "id": "1b0mrdteu39bb",
+    "title": "Browns lose $33 million pass rusher for season as they sign a replacement",
+    "url": "https://sports.yahoo.com/articles/browns-lose-33-million-pass-202258581.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T20:22:58.000Z",
+    "summary": "The Browns will be without their starting defensive end after he suffered a ruptured Achilles during a joint practice with the Bills.",
+    "tags": [
+      "league-news",
+      "contract",
+      "BUF",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "BUF",
+      "CLE"
+    ]
+  },
+  {
+    "id": "1ywz151p78yxt",
+    "title": "5 Las Vegas Raiders players who stepped up against the Texans",
+    "url": "https://sports.yahoo.com/articles/5-las-vegas-raiders-players-202200180.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T20:22:00.000Z",
+    "summary": "Kirk Cousins is the starter, Fernando Mendoza is the future, but Aidan O’Connell refuses to be cut.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "usage",
+      "HOU",
+      "LV"
+    ],
+    "players": [
+      "fernando-mendoza"
+    ],
+    "teams": [
+      "HOU",
+      "LV"
+    ]
+  },
+  {
+    "id": "o7m4xj1kpr321",
+    "title": "Jaguars sign DT Tommy Akingbesote, waive CB Devon Marshall",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-sign-dt-tommy-akingbesote-waive-cb-devon-marshall",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-23T20:18:33.000Z",
+    "summary": "The Jaguars have made a pair of roster moves on Sunday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "JAX"
+    ],
+    "players": [],
+    "teams": [
+      "JAX"
+    ]
+  },
+  {
+    "id": "1uns1931coh1h7",
+    "title": "Jaguars sign DT Tommy Akingbesote, waive CB Devon Marshall",
+    "url": "https://sports.yahoo.com/articles/jaguars-sign-dt-tommy-akingbesote-201833694.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T20:18:33.000Z",
+    "summary": "The Jaguars have made a pair of roster moves on Sunday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "JAX"
+    ],
+    "players": [],
+    "teams": [
+      "JAX"
+    ]
+  },
+  {
+    "id": "1stybvi1ao63bi",
+    "title": "Josh Ezeudu ‘OK’ after injury scare; Sisi Mauigoa, Colton Hood to practice",
+    "url": "https://sports.yahoo.com/articles/josh-ezeudu-ok-injury-scare-200329576.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T20:03:29.000Z",
+    "summary": "Good news for the Giants on the injury front … so far.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1ut991n54q5il",
+    "title": "Cowboys rookie Shiyazh Pete gets standing ovation from Navajo Nation after blocking for late TD vs. Cardinals",
+    "url": "https://sports.yahoo.com/nfl/article/cowboys-rookie-shiyazh-pete-gets-standing-ovation-from-navajo-nation-after-blocking-for-late-td-vs-cardinals-194323239.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T19:43:23.000Z",
+    "summary": "Pete is the first Navajo to ever sign with an NFL team.",
+    "tags": [
+      "league-news",
+      "contract",
+      "rookie",
+      "ARI",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "ARI",
+      "DAL"
+    ]
+  },
+  {
+    "id": "1uljuwv150bxnt",
+    "title": "George Kittle injury update: Latest on 49ers star&#039;s status, potential return",
+    "url": "https://www.cbssports.com/nfl/news/george-kittle-injury-update-latest-on-49ers-stars-status-potential-return",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-23T19:41:04.000Z",
+    "summary": "Kittle has been working his way back from a torn Achilles",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "h8tdt81a6opew",
+    "title": "Five Steelers on the roster bubble ahead of preseason finale",
+    "url": "https://sports.yahoo.com/articles/five-steelers-roster-bubble-ahead-193221888.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T19:32:21.000Z",
+    "summary": "These Steelers are on cut watch.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "f5c8b9ab1lw5",
+    "title": "A day after signing with Dolphins, LB Stephen Dix Jr. was making defensive calls in a game",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-day-after-signing-with-dolphins-lb-stephen-dix-jr-was-making-defensive-calls-in-a-game",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-23T19:14:33.000Z",
+    "summary": "The preseason is often about figuring out the contours of the roster.",
+    "tags": [
+      "league-news",
+      "contract",
+      "MIA"
+    ],
+    "players": [],
+    "teams": [
+      "MIA"
+    ]
+  },
+  {
+    "id": "sxkbm61aafq1s",
+    "title": "Raiders' Ashton Jeanty suffers apparent injury during practice",
+    "url": "https://sports.yahoo.com/articles/raiders-ashton-jeanty-suffers-apparent-191307375.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T19:13:07.000Z",
+    "summary": "Las Vegas Raiders running back Ashton Jeanty had to be helped off the field after apparently being injured late in Sunday's practice.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "1nimjmedyug4i",
+    "title": "JJ McCarthy ‘banged up’ during rough Vikings showing after losing starting job",
+    "url": "https://sports.yahoo.com/articles/jj-mccarthy-banged-during-rough-184217749.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T18:42:17.000Z",
+    "summary": "The injury-plagued QB's latest preseason showcase ended earlier than expected.",
+    "tags": [
+      "league-news",
+      "injury",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "MIN"
+    ]
+  },
+  {
     "id": "fv3zxztcfeit",
     "title": "49ers activate George Kittle from PUP list. Will he play Week 1?",
     "url": "https://sports.yahoo.com/articles/49ers-activate-george-kittle-pup-183722079.html",
@@ -7047,608 +7643,5 @@
       "quentin-johnston"
     ],
     "teams": []
-  },
-  {
-    "id": "2dnu191ei5b4j",
-    "title": "Chargers C Tyler Biadasz carted off with lower-leg injury",
-    "url": "https://sports.yahoo.com/articles/chargers-c-tyler-biadasz-carted-175436377.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T17:54:36.000Z",
-    "summary": "Chargers starting center Tyler Biadasz went down with a lower-body injury and was carted off the field.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "twzaifyqqafv",
-    "title": "Keenan Allen signs with Colts on 1-year deal",
-    "url": "https://sports.yahoo.com/articles/keenan-allen-signs-colts-1-174116585.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T17:41:16.000Z",
-    "summary": "After returning for his second stint with the Chargers in 2025, Keenan Allen will now go east and play for the Colts.",
-    "tags": [
-      "league-news",
-      "contract",
-      "IND",
-      "LAC"
-    ],
-    "players": [
-      "keenan-allen"
-    ],
-    "teams": [
-      "IND",
-      "LAC"
-    ]
-  },
-  {
-    "id": "12agf6b1k7linr",
-    "title": "C Tyler Biadasz carted off at Chargers practice",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-tyler-biadasz-carted-off-at-chargers-practice",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T17:38:36.000Z",
-    "summary": "The Chargers saw one of their starting offensive linemen go down with an injury on Tuesday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "1unpar2no8qbu",
-    "title": "C Tyler Biadasz carted off at Chargers practice",
-    "url": "https://sports.yahoo.com/articles/c-tyler-biadasz-carted-off-173836628.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T17:38:36.000Z",
-    "summary": "The Chargers saw one of their starting offensive linemen go down with an injury on Tuesday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "1cucsjchdqsfe",
-    "title": "Giants sign Najee Harris to one-year deal: What does it mean for New York&#039;s backfield?",
-    "url": "https://www.cbssports.com/nfl/news/giants-signing-najee-harris-what-does-it-mean-for-new-yorks-backfield",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-18T17:32:51.000Z",
-    "summary": "Harris missed most of last season with a torn Achilles",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "NYG"
-    ],
-    "players": [
-      "najee-harris"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "4e9tzxccc0d1",
-    "title": "Why the Seahawks still haven’t signed Terrion Arnold",
-    "url": "https://sports.yahoo.com/articles/why-seahawks-still-haven-t-173033965.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T17:30:33.000Z",
-    "summary": "The Seahawks and the former first-round pick are working through terms of a deal.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "16nzubcd494ac",
-    "title": "Calais Campbell on mother's death, brother's arrest: 'Continue praying for us'",
-    "url": "https://sports.yahoo.com/articles/calais-campbell-mothers-death-brothers-173022558.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T17:30:22.000Z",
-    "summary": "Longtime Ravens defensive lineman Calais Campbell said the last few months have been \"tough.\" Here's what we know about his mother's tragic death.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "l8cv521k1bqbq",
-    "title": "Predicting Cowboys’ OLB depth chart after Von Miller addition",
-    "url": "https://sports.yahoo.com/articles/predicting-cowboys-olb-depth-chart-173000836.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T17:30:00.000Z",
-    "summary": "Can you believe the Cowboys signed Von Miller?",
-    "tags": [
-      "league-news",
-      "contract",
-      "usage",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1clcquo1ul1jpy",
-    "title": "Report: Keon Coleman suffered sprained foot/toe in preseason game",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-keon-coleman-suffered-sprained-foot-toe-in-preseason-game",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T17:16:41.000Z",
-    "summary": "There is some new information on Bills receiver Keon Coleman, who did not practice on Tuesday and was spotted in a walking boot.",
-    "tags": [
-      "league-news",
-      "injury",
-      "BUF"
-    ],
-    "players": [],
-    "teams": [
-      "BUF"
-    ]
-  },
-  {
-    "id": "1ixepzzws0m49",
-    "title": "Giants sign Najee Harris ahead of Dolphins preseason game",
-    "url": "https://sports.yahoo.com/articles/giants-sign-najee-harris-ahead-171637665.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T17:16:37.000Z",
-    "summary": "The New York Giants added running back Najee Harris ahead of the team’s preseason game at the Miami Dolphins.",
-    "tags": [
-      "league-news",
-      "contract",
-      "MIA",
-      "NYG"
-    ],
-    "players": [
-      "najee-harris"
-    ],
-    "teams": [
-      "MIA",
-      "NYG"
-    ]
-  },
-  {
-    "id": "oa9el2k9h7fa",
-    "title": "49ers sign DL Evan Anderson",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sign-dl-evan-anderson",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T17:16:03.000Z",
-    "summary": "The 49ers waived defensive lineman Evan Anderson in July, but they brought him back to the team on Tuesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1az900fx22uw5",
-    "title": "49ers sign DL Evan Anderson",
-    "url": "https://sports.yahoo.com/articles/49ers-sign-dl-evan-anderson-171603635.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T17:16:03.000Z",
-    "summary": "The 49ers waived defensive lineman Evan Anderson in July, but they brought him back to the team on Tuesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1yrcnaa18mq6bc",
-    "title": "Houston Texans receiver Jayden Higgins injured in practice session",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vrvj13/houston_texans_receiver_jayden_higgins_injured_in",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-18T17:14:35.000Z",
-    "summary": "Houston Texans wide receiver Jayden Higgins left practice Tuesday with what appeared to be a lower-body injury suffered during team drills against the Las Vegas Raiders. Higgins fell to the ground on a red-zone play and appeared to be in pain. Trainers checked on him for several seconds before he got up under his own power and left the field without needing a cart. &#32; submitted by &#32; /u/Hedg",
-    "tags": [
-      "dynasty",
-      "injury",
-      "HOU",
-      "LV"
-    ],
-    "players": [
-      "jayden-higgins"
-    ],
-    "teams": [
-      "HOU",
-      "LV"
-    ]
-  },
-  {
-    "id": "1oplek7oaahjp",
-    "title": "NFL will put Terrion Arnold on exempt list when and if Seahawks sign him",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-will-put-terrion-arnold-on-exempt-list-when-and-if-seahawks-sign-him",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T17:07:53.000Z",
-    "summary": "The Seahawks have not signed free agent cornerback Terrion Arnold.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1b0taky19lm23o",
-    "title": "NFL will put Terrion Arnold on exempt list when and if Seahawks sign him",
-    "url": "https://sports.yahoo.com/articles/nfl-put-terrion-arnold-exempt-170753355.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T17:07:53.000Z",
-    "summary": "The Seahawks have not signed free agent cornerback Terrion Arnold.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1l9siam169j2gc",
-    "title": "The 49ers are bringing back DT Evan Anderson; Kaelon Black returns to practice",
-    "url": "https://sports.yahoo.com/articles/49ers-bringing-back-dt-evan-164855334.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T16:48:55.000Z",
-    "summary": "The 49ers waived/injured Titus Leo",
-    "tags": [
-      "league-news",
-      "injury",
-      "roster-move",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "19b2s8b1yu0nal",
-    "title": "Najee Harris signing: Giants add four-time 1,000-yard rusher",
-    "url": "https://sports.yahoo.com/articles/najee-harris-signing-giants-add-162821420.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T16:37:38.000Z",
-    "summary": "The Giants make a big move to add to their offense.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [
-      "najee-harris"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "16usipfrwcsgx",
-    "title": "Former 49ers head coach doubts George Kittle will be ready for Week 1",
-    "url": "https://sports.yahoo.com/articles/former-49ers-head-coach-doubts-163000454.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T16:30:00.000Z",
-    "summary": "Steve Mariucci spent time with Kittle",
-    "tags": [
-      "league-news",
-      "availability",
-      "SF"
-    ],
-    "players": [
-      "george-kittle"
-    ],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1lro20p1qtv0eb",
-    "title": "Former Steelers RB Najee Harris signs with Giants",
-    "url": "https://sports.yahoo.com/articles/former-steelers-rb-najee-harris-162914836.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T16:29:14.000Z",
-    "summary": "Former Steelers RB Najee Harris signing with NFC East team.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG",
-      "PIT"
-    ],
-    "players": [
-      "najee-harris"
-    ],
-    "teams": [
-      "NYG",
-      "PIT"
-    ]
-  },
-  {
-    "id": "5ip7jm124heee",
-    "title": "Fernando Mendoza gets first-team reps, impresses at joint practice with Texans",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/fernando-mendoza-gets-first-team-reps-impresses-at-joint-practice-with-texans",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T16:21:05.000Z",
-    "summary": "Kirk Cousins has been quarterbacking the Raiders' first string offense throughout training camp, but today rookie Fernando Mendoza got some first-team work at the joint practice with the Texans.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "usage",
-      "HOU",
-      "LV"
-    ],
-    "players": [
-      "fernando-mendoza"
-    ],
-    "teams": [
-      "HOU",
-      "LV"
-    ]
-  },
-  {
-    "id": "s7esaurlgvya",
-    "title": "Fernando Mendoza gets first-team reps, impresses at joint practice with Texans",
-    "url": "https://sports.yahoo.com/articles/fernando-mendoza-gets-first-team-162105469.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T16:21:05.000Z",
-    "summary": "Kirk Cousins has been quarterbacking the Raiders' first string offense throughout training camp, but today rookie Fernando Mendoza got some first-team work at the joint practice with the Texans.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "usage",
-      "HOU",
-      "LV"
-    ],
-    "players": [
-      "fernando-mendoza"
-    ],
-    "teams": [
-      "HOU",
-      "LV"
-    ]
-  },
-  {
-    "id": "yf6r1d1pdeg03",
-    "title": "Jets&#039; Breece Hall could be on track for Week 1 after groin injury",
-    "url": "https://www.cbssports.com/nfl/news/breece-hall-groin-injury-jets-aaron-glenn",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-18T16:17:57.000Z",
-    "summary": "Hall is expected to miss two to three weeks after suffering a minor groin injury, putting him on track to return for the regular-season opener",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYJ"
-    ],
-    "players": [
-      "breece-hall"
-    ],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "qwpq4ans2i26",
-    "title": "Najee Harris signs with Giants: How RB fits in New York depth chart",
-    "url": "https://sports.yahoo.com/articles/najee-harris-signs-giants-rb-161458352.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T16:14:58.000Z",
-    "summary": "Najee Harris has agreed to a deal with the Giants, boosting the team's RB depth chart with another veteran presence. Here's how he fits.",
-    "tags": [
-      "league-news",
-      "contract",
-      "usage",
-      "NYG"
-    ],
-    "players": [
-      "najee-harris"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "hvfddy1yvexsa",
-    "title": "Giants signing RB Najee Harris to one-year deal, planning to release WR JuJu Smith-Schuster",
-    "url": "https://sports.yahoo.com/articles/giants-signing-rb-najee-harris-161200051.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T16:12:00.000Z",
-    "summary": "The Giants are signing running back Najee Harris, adding a veteran presence to their running back room.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [
-      "najee-harris"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "h8cbb9mjevz7",
-    "title": "Sources: Former Pro Bowl RB Najee Harris is signing with the #Giants.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vrtmnq/sources_former_pro_bowl_rb_najee_harris_is",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-18T16:10:39.000Z",
-    "summary": "&#32; submitted by &#32; /u/BuckyMcFly99 [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "contract",
-      "NYG"
-    ],
-    "players": [
-      "najee-harris"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "u8uk2v86zxxl",
-    "title": "Fantasy Football: Hayden Winks' notable rankings shifts after Week 1 of preseason",
-    "url": "https://sports.yahoo.com/fantasy/article/fantasy-football-hayden-winks-notable-rankings-shifts-after-week-1-of-preseason-160745405.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T16:07:45.000Z",
-    "summary": "With Week 1 of preseason in the books, Hayden Winks lays out some key updates to his fantasy football draft rankings.",
-    "tags": [
-      "league-news",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1rirg4a1q3zp7u",
-    "title": "Chargers DB Genesis Smith isn’t thinking like a rookie",
-    "url": "https://sports.yahoo.com/articles/chargers-db-genesis-smith-isn-160000813.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T16:00:00.000Z",
-    "summary": "The Los Angeles Chargers are getting their rookies up to speed quickly in training camp and the preseason.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "6dcrpq170dinw",
-    "title": "Tyquan Thornton injured. Walked to sidelines and then carted to facility.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vrt25j/tyquan_thornton_injured_walked_to_sidelines_and",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-18T15:53:09.000Z",
-    "summary": "&#32; submitted by &#32; /u/schmatty23 [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "tyquan-thornton"
-    ],
-    "teams": []
-  },
-  {
-    "id": "kkz6s6gk9g0s",
-    "title": "What are some of your best and worst trades?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vrs2y3/what_are_some_of_your_best_and_worst_trades",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-18T15:16:26.000Z",
-    "summary": "Was on dynasty trade generator looking through all the trades i've made in the last eight years of playing fantasy football and came across some gems and some absolute duds. It's amazing how little I knew and how bad the trades were. It's no wonder I didn't start winning consistently until a few years ago. With that being said I'm having a hard time figuring out how to do a complete rebuild..lol. ",
-    "tags": [
-      "dynasty",
-      "trade"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "sv7pftns2pr5",
-    "title": "Breece Hall out 2-3 weeks, should be ready for Week 1",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/breece-hall-out-2-3-weeks-should-be-ready-for-week-1",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T15:13:29.000Z",
-    "summary": "Jets HC Aaron Glenn told reporters on Tuesday that Hall is expected back for the start of the season after suffering a groin injury on Monday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability",
-      "NYJ"
-    ],
-    "players": [
-      "breece-hall"
-    ],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "2cuamlw6satb",
-    "title": "Josh Jacobs set to return to practice on Tuesday",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-set-to-return-to-practice-on-tuesday",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T14:55:56.000Z",
-    "summary": "The Packers have some positive news on the injury front.",
-    "tags": [
-      "league-news",
-      "injury",
-      "GB"
-    ],
-    "players": [
-      "josh-jacobs"
-    ],
-    "teams": [
-      "GB"
-    ]
   }
 ]
