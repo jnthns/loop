@@ -1,5 +1,356 @@
 [
   {
+    "id": "1kipzkqwdzinw",
+    "title": "Sources: Raiders RB Jeanty believed to have sprained ankle",
+    "url": "https://www.espn.com/nfl/story/_/id/49708202/raiders-rb-jeanty-believed-sprained-ankle",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-24T04:32:50.000Z",
+    "summary": "Las Vegas running back Ashton Jeanty, who had to be helped off the practice field Sunday, is believed to have sprained his ankle, sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport, and the Raiders still are unsure how long he will be out.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "l110uuebpy5s",
+    "title": "Seahawks vs Titans score: Seattle loses game and loses players to major injuries",
+    "url": "https://sports.yahoo.com/articles/seahawks-vs-titans-score-seattle-043002904.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T04:30:02.000Z",
+    "summary": "The Seahawks took another preseason loss, but the main story was two players left with injuries, including a promising defensive rookie.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "41n75gyp5ze0",
+    "title": "Sources: 49ers trade Zamir White to Saints for Deion Jones",
+    "url": "https://www.espn.com/nfl/story/_/id/49707873/sources-49ers-trade-zamir-white-saints-deion-jones",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-24T04:20:14.000Z",
+    "summary": "The Saints acquired RB Zamir White in a trade that sent veteran LB Deion Jones to the 49ers, sources told ESPN's Adam Schefter on Sunday night.",
+    "tags": [
+      "league-news",
+      "trade",
+      "NO",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "NO",
+      "SF"
+    ]
+  },
+  {
+    "id": "l5dhp91fmq94b",
+    "title": "Titans overcome 13-point deficit to beat starter-less Seahawks, 19-16",
+    "url": "https://www.espn.com/nfl/recap?gameId=401873297",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-24T04:15:29.000Z",
+    "summary": "— The Tennessee Titans are undefeated this preseason with new coach Robert Saleh. They also have a lot to work on before the season opener.",
+    "tags": [
+      "league-news",
+      "usage",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "336je7wz60f7",
+    "title": "Another injury: Seahawks offensive lineman feared to have ‘a long-term injury’",
+    "url": "https://sports.yahoo.com/articles/another-injury-seahawks-offensive-lineman-040242877.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T04:02:42.000Z",
+    "summary": "The second-year Seahawks offensive lineman went down during Seattle’s opening drive against the Titans.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "1awgm6wrvtf04",
+    "title": "Winners and Losers from Seahawks-Titans: Some good, some bad, some bad injuries",
+    "url": "https://sports.yahoo.com/articles/winners-losers-seahawks-titans-good-035105505.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T03:51:05.000Z",
+    "summary": "The Seahawks lost another preseason game, but the performance was better. Sort of.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "1khs5hfkv9mpl",
+    "title": "S Bud Clark, OL Mason Richman out for months after being injured Sunday night",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/s-bud-clark-ol-mason-richman-out-for-months-after-being-injured-sunday-night",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-24T03:47:37.000Z",
+    "summary": "The Seahawks have taken three big losses before the season even starts.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1os27w41pjou44",
+    "title": "S Bud Clark, OL Mason Richman out for months after being injured Sunday night",
+    "url": "https://sports.yahoo.com/articles/bud-clark-ol-mason-richman-034737376.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T03:47:37.000Z",
+    "summary": "The Seahawks have taken three big losses before the season even starts.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "17vh7n4h7fxea",
+    "title": "Bud Clark injury update: Seahawks rookie out ‘multiple months’",
+    "url": "https://sports.yahoo.com/articles/bud-clark-injury-seahawks-rookie-033525558.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T03:35:25.000Z",
+    "summary": "Clark’s season is most likely over after a horrific ankle injury against the Titans.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "dvcqv0qvtbl0",
+    "title": "Raiders RB Ashton Jeanty diagnosed with sprained ankle",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-rb-ashton-jeanty-diagnosed-with-sprained-ankle",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-24T03:25:03.000Z",
+    "summary": "Raiders running back Ashton Jeanty needed help off the practice field on Sunday after injuring his right leg.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "1r08skl1gcgqyd",
+    "title": "Raiders RB Ashton Jeanty diagnosed with sprained ankle",
+    "url": "https://sports.yahoo.com/articles/raiders-rb-ashton-jeanty-diagnosed-032503843.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T03:25:03.000Z",
+    "summary": "Raiders running back Ashton Jeanty needed help off the practice field on Sunday after injuring his right leg.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "1fhskfp1wna8xv",
+    "title": "Saints-49ers trade grades: New Orleans adds Zamir White after onslaught of RB injuries",
+    "url": "https://www.cbssports.com/nfl/news/saints-49ers-trade-grades-zamir-white",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-24T03:21:21.000Z",
+    "summary": "The Saints bolstered a running back group that saw Alvin Kamara and two others suffer preseason injuries",
+    "tags": [
+      "league-news",
+      "injury",
+      "trade",
+      "NO",
+      "SF"
+    ],
+    "players": [
+      "alvin-kamara"
+    ],
+    "teams": [
+      "NO",
+      "SF"
+    ]
+  },
+  {
+    "id": "fvnav71y4kkt9",
+    "title": "Looking for a Co-Commissioner for a Custom 14-Team Salary Cap Dynasty League",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vwqzm9/looking_for_a_cocommissioner_for_a_custom_14team",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-24T03:01:59.000Z",
+    "summary": "I’ve spent a lot of time designing a 14-team dynasty-keeper league that leans heavily into: building a roster over multiple years, managing a real salary cap, making contract decisions, drafting rookies, and long term consequences. It has a $200 cap, multi-year contracts, a rookie draft and wage scale, a developmental Taxi Squad, and a few NFL-inspired mechanisms. I’m looking for a co-commissioner",
+    "tags": [
+      "dynasty",
+      "contract",
+      "rookie"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1kpzjugi39uk8",
+    "title": "Raiders RB Ashton Jeanty, who had to be helped off the practice field today, is believed to have sprained his ankle. The Raiders still are unsure how long he will be out, but it is not considered a long-term injury and the organization is breathing a sigh of relief tonight.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vwqw8b/raiders_rb_ashton_jeanty_who_had_to_be_helped_off",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-24T02:57:37.000Z",
+    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "nj4famh9vb88",
+    "title": "49ers, Saints make trade heading into final week of NFL preseason",
+    "url": "https://sports.yahoo.com/articles/49ers-saints-trade-heading-final-024524306.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T02:45:24.000Z",
+    "summary": "The 49ers and Saints made a deal involving some depth pieces heading into the final week of the NFL preseason. Here are the details.",
+    "tags": [
+      "league-news",
+      "trade",
+      "NO",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "NO",
+      "SF"
+    ]
+  },
+  {
+    "id": "10gypcu1ah385c",
+    "title": "49ers trade for veteran linebacker who played under Kyle Shanahan and Raheem Morris",
+    "url": "https://sports.yahoo.com/articles/49ers-trade-veteran-linebacker-played-023213025.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T02:42:45.000Z",
+    "summary": "Deion Jones is headed to the 49ers in exchange for Zamir White",
+    "tags": [
+      "league-news",
+      "trade",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "uh3flq1fgvez2",
+    "title": "Saints trade LB Deion Jones for RB Zamir White",
+    "url": "https://sports.yahoo.com/articles/saints-trade-lb-deion-jones-023722227.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T02:37:22.000Z",
+    "summary": "New Orleans does the rare player-for-player swap.",
+    "tags": [
+      "league-news",
+      "trade",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "2mltdk18unv22",
+    "title": "Trade: the Saints are sending veteran LB Deion Jones to San Francisco in exchange for RB Zamir White, per sources.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vwpyl8/trade_the_saints_are_sending_veteran_lb_deion",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-24T02:12:27.000Z",
+    "summary": "&#32; submitted by &#32; /u/Ma1ikNabers [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "trade",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
     "id": "180vwppiumvgf",
     "title": "Seahawks 2nd-round pick Bud Clark carted off with leg injury",
     "url": "https://www.espn.com/nfl/story/_/id/49707406/seahawks-bud-clark-carted-right-leg-injury-preseason-game-titans",
@@ -24,6 +375,27 @@
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-second-round-s-bud-clark-carted-off-with-leg-injury",
     "source": "Pro Football Talk",
     "sourceId": "pft",
+    "publishedAt": "2026-08-24T01:45:32.000Z",
+    "summary": "Seahawks rookie safety Bud Clark was carted off with a right leg injury in Sunday night's preseason game against the Titans.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "8g0jfw19meifu",
+    "title": "Seahawks second-round S Bud Clark carted off with leg injury",
+    "url": "https://sports.yahoo.com/articles/seahawks-second-round-bud-clark-014532416.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
     "publishedAt": "2026-08-24T01:45:32.000Z",
     "summary": "Seahawks rookie safety Bud Clark was carted off with a right leg injury in Sunday night's preseason game against the Titans.",
     "tags": [
@@ -138,6 +510,26 @@
     ]
   },
   {
+    "id": "15oc5bl11shqzv",
+    "title": "Raiders RB Ashton Jeanty reportedly leaves practice Sunday with sprained ankle",
+    "url": "https://sports.yahoo.com/nfl/article/raiders-rb-ashton-jeanty-reportedly-leaves-practice-sunday-with-sprained-ankle-230345889.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T23:03:45.000Z",
+    "summary": "Specifics on Ashton Jeanty's ankle injury are not yet known, though it's reportedly not expected to be a long-term issue at this point.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
     "id": "hi0183fpmb9r",
     "title": "No team wants to trade for Stetson Bennett",
     "url": "https://sports.yahoo.com/articles/no-team-wants-trade-stetson-225106612.html",
@@ -194,7 +586,7 @@
   },
   {
     "id": "1ir44oz1uv3z4r",
-    "title": "Raiders&#039; Ashton Jeanty injured, helped off practice field after landing awkwardly",
+    "title": "Raiders&#039; Ashton Jeanty injured after landing awkwardly, has sprained ankle according to reports",
     "url": "https://www.cbssports.com/nfl/news/raiders-ashton-jeanty-injured-helped-off-practice-field",
     "source": "CBS Sports NFL",
     "sourceId": "cbs-nfl",
@@ -214,12 +606,32 @@
   },
   {
     "id": "6999c9g295vp",
-    "title": "Raiders news: Ashton Jeanty injured",
+    "title": "Raiders news: Ashton Jeanty avoids major injury",
     "url": "https://sports.yahoo.com/articles/raiders-news-ashton-jeanty-injured-220226064.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
     "publishedAt": "2026-08-23T22:02:26.000Z",
     "summary": "2nd year running back suffered right leg injury",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "34phqvcq9e2h",
+    "title": "Raiders RB Ashton Jeanty suffers ankle injury, helped off field as stunned team looks on",
+    "url": "https://sports.yahoo.com/articles/raiders-rb-ashton-jeanty-suffers-214737644.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-23T21:47:37.000Z",
+    "summary": "LAS VEGAS — An ominous silence fell over Raiders practice Sunday after running back Ashton Jeanty went down with an apparent ankle sprain. Jeanty was unable to put any weight...",
     "tags": [
       "league-news",
       "injury",
@@ -7249,399 +7661,5 @@
     "teams": [
       "SEA"
     ]
-  },
-  {
-    "id": "uu8p8r1n0l1a5",
-    "title": "Von Miller wants to wear No. 40, has offers out to FB Hunter Luepke",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/von-miller-wants-to-wear-no-40-has-offers-out-to-fb-hunter-luepke",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T20:55:23.000Z",
-    "summary": "Von Miller doesn't currently have a number on the Cowboys' official roster, and a day after signing a one-year deal with the team, he doesn't know what his number will be.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1ovkxn01rq4xoo",
-    "title": "Von Miller wants to wear No. 40, has offers out to FB Hunter Luepke",
-    "url": "https://sports.yahoo.com/articles/von-miller-wants-wear-no-205523250.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T20:55:23.000Z",
-    "summary": "Von Miller doesn't currently have a number on the Cowboys' official roster, and a day after signing a one-year deal with the team, he doesn't know what his number will be.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "epokgj1rvfu8x",
-    "title": "Falcons list Jawaan Taylor as their starting right tackle",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-list-jawaan-taylor-as-their-starting-right-tackle",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T20:49:03.000Z",
-    "summary": "A week after he was activated from the physically unable to perform list, Jawaan Taylor is listed as the Falcons' starting right tackle.",
-    "tags": [
-      "league-news",
-      "availability",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "p8bwildcyb4l",
-    "title": "Rams sign WR Alex Bachman",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-sign-wr-alex-bachman",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T20:41:17.000Z",
-    "summary": "The Rams have brought in a veteran receiver who started his career with the club.",
-    "tags": [
-      "league-news",
-      "contract",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "1i4lbha1rhg0k4",
-    "title": "Rams sign WR Alex Bachman",
-    "url": "https://sports.yahoo.com/articles/rams-sign-wr-alex-bachman-204117966.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T20:41:17.000Z",
-    "summary": "The Rams have brought in a veteran receiver who started his career with the club.",
-    "tags": [
-      "league-news",
-      "contract",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "160wsyocx0msa",
-    "title": "When should we expect Jordyn Tyson to return from his injury?",
-    "url": "https://sports.yahoo.com/articles/expect-jordyn-tyson-return-injury-203321944.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T20:33:21.000Z",
-    "summary": "A set timetable is good, but things could change.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "jordyn-tyson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "11e3rv21nvisli",
-    "title": "Baker Mayfield says Buccaneers are ready to surprise critics in 2026, why he could be right",
-    "url": "https://www.cbssports.com/nfl/news/baker-mayfield-buccaneers-2026-nfl-season",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-18T20:24:33.000Z",
-    "summary": "Tampa Bay enters 2026 facing widespread doubt, but Mayfield is leaning into the familiar role of underdog as he plays out the final year of his contract",
-    "tags": [
-      "league-news",
-      "contract",
-      "TB"
-    ],
-    "players": [
-      "baker-mayfield"
-    ],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "1pclkyc7vl9j8",
-    "title": "Ravens sign OT David Sharpe",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-sign-ot-david-sharpe",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T20:10:48.000Z",
-    "summary": "Veteran offensive tackle David Sharpe is back for a second stint with the Ravens.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1r8y7sm1f4vqoc",
-    "title": "Kyle Shanahan: Christian McCaffrey's absence is not contract-related",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-christian-mccaffreys-absence-is-not-contract-related",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T19:49:26.000Z",
-    "summary": "Shanahan told reporters on Tuesday that McCaffrey would play if it were a regular-season game week.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [
-      "christian-mccaffrey"
-    ],
-    "teams": []
-  },
-  {
-    "id": "35x0lh11s3x9f",
-    "title": "Colts sign three players, put TE Carson Towt on IR",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-three-players-put-te-carson-towt-on-ir",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T19:45:29.000Z",
-    "summary": "The Colts announced a number of roster moves on Tuesday afternoon.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "IND"
-    ],
-    "players": [],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1rtew4n1xd095n",
-    "title": "49ers HC Kyle Shanahan said RB Christian McCaffrey, who has missed some time due to muscle tightness, would have practiced Tuesday if it weren’t a joint practice vs. the Chargers. 49ers also have no reason to believe that McCaffrey’s missed practice time is contract related.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vryypr/49ers_hc_kyle_shanahan_said_rb_christian",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-18T19:14:46.000Z",
-    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "contract",
-      "availability",
-      "LAC",
-      "SF"
-    ],
-    "players": [
-      "christian-mccaffrey"
-    ],
-    "teams": [
-      "LAC",
-      "SF"
-    ]
-  },
-  {
-    "id": "fwmrpkzcbdtu",
-    "title": "Ravens hope Nnamdi Madubuike will start contact work in \"next couple of weeks\"",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-hope-nnamdi-madubuike-will-start-contact-work-in-next-couple-of-weeks",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T19:11:55.000Z",
-    "summary": "Ravens defensive tackle Nnamdi Madubuike came off the physically unable to perform list early in training camp, but he has not returned to a full practice workload.",
-    "tags": [
-      "league-news",
-      "usage",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1qrbkr52r1xmj",
-    "title": "Chargers' Tyler Biadasz carted off from practice with leg injury",
-    "url": "https://sports.yahoo.com/articles/chargers-tyler-biadasz-carted-off-184326492.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T18:43:26.000Z",
-    "summary": "The Los Angeles Chargers can't seem to leave behind their offensive line injury issues, with center Tyler Biadasz being carted off from practice.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "5fjo3oxef6mo",
-    "title": "Report: Giants to release JuJu Smith-Schuster",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-to-release-juju-smith-schuster",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-18T18:31:39.000Z",
-    "summary": "The Giants are set to sign running back Najee Harris and his arrival will reportedly result in the departure of one of his former Steelers teammates from the NFC East team's roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "NYG",
-      "PIT"
-    ],
-    "players": [
-      "najee-harris"
-    ],
-    "teams": [
-      "NYG",
-      "PIT"
-    ]
-  },
-  {
-    "id": "mf8si31pn7ybl",
-    "title": "Report: Giants to release JuJu Smith-Schuster",
-    "url": "https://sports.yahoo.com/articles/report-giants-release-juju-smith-183139847.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T18:31:39.000Z",
-    "summary": "The Giants are set to sign running back Najee Harris and his arrival will reportedly result in the departure of one of his former Steelers teammates from the NFC East team's roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "NYG",
-      "PIT"
-    ],
-    "players": [
-      "najee-harris"
-    ],
-    "teams": [
-      "NYG",
-      "PIT"
-    ]
-  },
-  {
-    "id": "56bdaf114ox5",
-    "title": "2026 Fantasy Football Instant Mock Draft, No. 1 Pick: Analysis, key takeaways and full roster",
-    "url": "https://sports.yahoo.com/fantasy/article/2026-fantasy-football-instant-mock-draft-no-1-pick-analysis-key-takeaways-and-full-roster-182559389.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T18:25:59.000Z",
-    "summary": "We kick off our Yahoo Fantasy Football Instant Mock Draft series with the No. 1 pick. Check out the full recap.",
-    "tags": [
-      "league-news",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "hmwv8dnvvqt9",
-    "title": "Jets expect injured Breece Hall to be ready to play Week 1",
-    "url": "https://sports.yahoo.com/articles/jets-expect-injured-breece-hall-182522669.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T18:25:22.000Z",
-    "summary": "Breece Hall suffered a minor groin injury in Jets practice on Monday. Head coach Aaron Glenn did not sound very concerned initially. Glenn followed up on Tuesday by noting that the team expects Hall to be ready for the regular season opener against the Tennessee Titans a few weeks down the line. I think there […]",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYJ",
-      "TEN"
-    ],
-    "players": [
-      "breece-hall"
-    ],
-    "teams": [
-      "NYJ",
-      "TEN"
-    ]
-  },
-  {
-    "id": "1bupk6uevk2p4",
-    "title": "Badgers quarterback returns to practice in limited fashion",
-    "url": "https://sports.yahoo.com/articles/badgers-quarterback-returns-practice-limited-182347375.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T18:23:47.000Z",
-    "summary": "One Wisconsin quarterback has made his way back from a major injury to the practice field.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "10hgqcd5ivutf",
-    "title": "Chargers' Tyler Biadasz carted off with left leg injury",
-    "url": "https://www.espn.com/nfl/story/_/id/49650712/chargers-tyler-biadasz-carted-left-leg-injury",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-18T18:15:47.000Z",
-    "summary": "Chargers center Tyler Biadasz was carted off the field after 49ers defensive tackle Sebastian Valdez fell into his left leg during Tuesday's joint practice.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAC",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "LAC",
-      "SF"
-    ]
-  },
-  {
-    "id": "14zxugw17xm1jy",
-    "title": "Lions rookie LB Jimmy Rolder provides very optimistic injury update",
-    "url": "https://sports.yahoo.com/articles/lions-rookie-lb-jimmy-rolder-180454540.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-18T18:04:54.000Z",
-    "summary": "Detroit Lions rookie linebacker Jimmy Rolder provided a very good update on his hamstring injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "k30ncp15qov6t",
-    "title": "Quentin Johnston just came up limping after an attempting to make a leaping catch on the sideline. Trainers working on with him now, appears to be a lower body injury",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vrwyep/quentin_johnston_just_came_up_limping_after_an",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-18T18:04:28.000Z",
-    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "quentin-johnston"
-    ],
-    "teams": []
   }
 ]
