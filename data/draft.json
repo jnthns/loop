@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -1831,6 +1831,28 @@
       "playerName": "Tank Bigsby",
       "pos": "RB",
       "nflTeam": "PHI",
+      "mine": false
+    },
+    {
+      "pick": 164,
+      "round": 14,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "mike-washington",
+      "playerName": "Mike Washington",
+      "pos": "RB",
+      "nflTeam": "LV",
+      "mine": false
+    },
+    {
+      "pick": 165,
+      "round": 14,
+      "slot": 9,
+      "rosterId": 5,
+      "playerId": "khalil-shakir",
+      "playerName": "Khalil Shakir",
+      "pos": "WR",
+      "nflTeam": "BUF",
       "mine": false
     }
   ]
