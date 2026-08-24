@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-24T07:18:55.485Z",
-  "snapshotAt": "2026-08-23T07:28:22Z",
+  "capturedAt": "2026-08-24T13:11:59.294Z",
+  "snapshotAt": "2026-08-24T07:53:13Z",
   "season": "2026",
   "entries": [
     {
@@ -212,14 +212,6 @@
       "sleeperId": "8134"
     },
     {
-      "id": "keon-coleman",
-      "name": "Keon Coleman",
-      "pos": "WR",
-      "nflTeam": "BUF",
-      "depthRank": 3,
-      "sleeperId": "11637"
-    },
-    {
       "id": "bryce-young",
       "name": "Bryce Young",
       "pos": "QB",
@@ -348,6 +340,14 @@
       "sleeperId": "6801"
     },
     {
+      "id": "colbie-young",
+      "name": "Colbie Young",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "depthRank": 4,
+      "sleeperId": "13477"
+    },
+    {
       "id": "quinshon-judkins",
       "name": "Quinshon Judkins",
       "pos": "RB",
@@ -402,6 +402,14 @@
       "nflTeam": "DAL",
       "depthRank": 1,
       "sleeperId": "3294"
+    },
+    {
+      "id": "joe-milton",
+      "name": "Joe Milton",
+      "pos": "QB",
+      "nflTeam": "DAL",
+      "depthRank": 2,
+      "sleeperId": "11557"
     },
     {
       "id": "javonte-williams",
@@ -676,14 +684,6 @@
       "sleeperId": "5001"
     },
     {
-      "id": "marlin-klein",
-      "name": "Marlin Klein",
-      "pos": "TE",
-      "nflTeam": "HOU",
-      "depthRank": 5,
-      "sleeperId": "13307"
-    },
-    {
       "id": "nico-collins",
       "name": "Nico Collins",
       "pos": "WR",
@@ -716,19 +716,11 @@
       "sleeperId": "9502"
     },
     {
-      "id": "lewis-bond",
-      "name": "Lewis Bond",
-      "pos": "WR",
-      "nflTeam": "HOU",
-      "depthRank": 6,
-      "sleeperId": "13541"
-    },
-    {
       "id": "jayden-higgins",
       "name": "Jayden Higgins",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 15,
+      "depthRank": 14,
       "sleeperId": "12484"
     },
     {
@@ -746,6 +738,14 @@
       "nflTeam": "IND",
       "depthRank": 1,
       "sleeperId": "6813"
+    },
+    {
+      "id": "seth-mcgowan",
+      "name": "Seth McGowan",
+      "pos": "RB",
+      "nflTeam": "IND",
+      "depthRank": 3,
+      "sleeperId": "13424"
     },
     {
       "id": "tyler-warren",
@@ -1068,6 +1068,22 @@
       "sleeperId": "13305"
     },
     {
+      "id": "dylan-laube",
+      "name": "Dylan Laube",
+      "pos": "RB",
+      "nflTeam": "LV",
+      "depthRank": 3,
+      "sleeperId": "11574"
+    },
+    {
+      "id": "roman-hemby",
+      "name": "Roman Hemby",
+      "pos": "RB",
+      "nflTeam": "LV",
+      "depthRank": 5,
+      "sleeperId": "13416"
+    },
+    {
       "id": "brock-bowers",
       "name": "Brock Bowers",
       "pos": "TE",
@@ -1098,14 +1114,6 @@
       "nflTeam": "MIA",
       "depthRank": 1,
       "sleeperId": "8161"
-    },
-    {
-      "id": "quinn-ewers",
-      "name": "Quinn Ewers",
-      "pos": "QB",
-      "nflTeam": "MIA",
-      "depthRank": 2,
-      "sleeperId": "12500"
     },
     {
       "id": "de-von-achane",
@@ -1420,14 +1428,6 @@
       "sleeperId": "11632"
     },
     {
-      "id": "calvin-austin",
-      "name": "Calvin Austin",
-      "pos": "WR",
-      "nflTeam": "NYG",
-      "depthRank": 3,
-      "sleeperId": "8125"
-    },
-    {
       "id": "darnell-mooney",
       "name": "Darnell Mooney",
       "pos": "WR",
@@ -1570,6 +1570,14 @@
       "nflTeam": "PHI",
       "depthRank": 3,
       "sleeperId": "13294"
+    },
+    {
+      "id": "aaron-rodgers",
+      "name": "Aaron Rodgers",
+      "pos": "QB",
+      "nflTeam": "PIT",
+      "depthRank": 1,
+      "sleeperId": "96"
     },
     {
       "id": "jaylen-warren",
