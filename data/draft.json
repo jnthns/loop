@@ -1854,6 +1854,94 @@
       "pos": "WR",
       "nflTeam": "BUF",
       "mine": false
+    },
+    {
+      "pick": 166,
+      "round": 14,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": "emmett-johnson",
+      "playerName": "Emmett Johnson",
+      "pos": "RB",
+      "nflTeam": "KC",
+      "mine": false
+    },
+    {
+      "pick": 167,
+      "round": 14,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "tyjae-spears",
+      "playerName": "Tyjae Spears",
+      "pos": "RB",
+      "nflTeam": "TEN",
+      "mine": false
+    },
+    {
+      "pick": 168,
+      "round": 14,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "najee-harris",
+      "playerName": "Najee Harris",
+      "pos": "RB",
+      "nflTeam": "NYG",
+      "mine": false
+    },
+    {
+      "pick": 169,
+      "round": 15,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": null,
+      "playerName": "Deshaun Watson",
+      "pos": "QB",
+      "nflTeam": "CLE",
+      "mine": false
+    },
+    {
+      "pick": 170,
+      "round": 15,
+      "slot": 11,
+      "rosterId": 1,
+      "playerId": "aj-barner",
+      "playerName": "AJ Barner",
+      "pos": "TE",
+      "nflTeam": "SEA",
+      "mine": false
+    },
+    {
+      "pick": 171,
+      "round": 15,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": "zachariah-branch",
+      "playerName": "Zachariah Branch",
+      "pos": "WR",
+      "nflTeam": "ATL",
+      "mine": false
+    },
+    {
+      "pick": 172,
+      "round": 15,
+      "slot": 9,
+      "rosterId": 8,
+      "playerId": null,
+      "playerName": "Malachi Fields",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "mine": false
+    },
+    {
+      "pick": 173,
+      "round": 15,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "t-j-hockenson",
+      "playerName": "T.J. Hockenson",
+      "pos": "TE",
+      "nflTeam": "MIN",
+      "mine": false
     }
   ]
 }
