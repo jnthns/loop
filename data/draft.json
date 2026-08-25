@@ -2085,6 +2085,17 @@
       "pos": "WR",
       "nflTeam": "JAX",
       "mine": false
+    },
+    {
+      "pick": 187,
+      "round": 16,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": null,
+      "playerName": "Justin Joly",
+      "pos": "TE",
+      "nflTeam": "DEN",
+      "mine": false
     }
   ]
 }

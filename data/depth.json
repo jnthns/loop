@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-25T07:07:22.192Z",
-  "snapshotAt": "2026-08-24T07:53:13Z",
+  "capturedAt": "2026-08-25T13:10:12.852Z",
+  "snapshotAt": "2026-08-25T07:39:23Z",
   "season": "2026",
   "entries": [
     {
@@ -34,14 +34,6 @@
       "nflTeam": "ARI",
       "depthRank": 3,
       "sleeperId": "4137"
-    },
-    {
-      "id": "trey-benson",
-      "name": "Trey Benson",
-      "pos": "RB",
-      "nflTeam": "ARI",
-      "depthRank": 4,
-      "sleeperId": "11589"
     },
     {
       "id": "trey-mcbride",
@@ -708,11 +700,19 @@
       "sleeperId": "12536"
     },
     {
+      "id": "kayshon-boutte",
+      "name": "Kayshon Boutte",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "depthRank": 4,
+      "sleeperId": "9504"
+    },
+    {
       "id": "tank-dell",
       "name": "Tank Dell",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 4,
+      "depthRank": 5,
       "sleeperId": "9502"
     },
     {
@@ -1004,20 +1004,20 @@
       "sleeperId": "11647"
     },
     {
-      "id": "oronde-gadsden",
-      "name": "Oronde Gadsden",
-      "pos": "TE",
-      "nflTeam": "LAC",
-      "depthRank": 1,
-      "sleeperId": "12493"
-    },
-    {
       "id": "david-njoku",
       "name": "David Njoku",
       "pos": "TE",
       "nflTeam": "LAC",
       "depthRank": 2,
       "sleeperId": "4033"
+    },
+    {
+      "id": "oronde-gadsden",
+      "name": "Oronde Gadsden",
+      "pos": "TE",
+      "nflTeam": "LAC",
+      "depthRank": 3,
+      "sleeperId": "12493"
     },
     {
       "id": "ladd-mcconkey",
@@ -1260,19 +1260,11 @@
       "sleeperId": "8121"
     },
     {
-      "id": "kayshon-boutte",
-      "name": "Kayshon Boutte",
-      "pos": "WR",
-      "nflTeam": "NE",
-      "depthRank": 4,
-      "sleeperId": "9504"
-    },
-    {
       "id": "kyle-williams",
       "name": "Kyle Williams",
       "pos": "WR",
       "nflTeam": "NE",
-      "depthRank": 6,
+      "depthRank": 5,
       "sleeperId": "12547"
     },
     {
@@ -1380,11 +1372,19 @@
       "sleeperId": "12481"
     },
     {
+      "id": "najee-harris",
+      "name": "Najee Harris",
+      "pos": "RB",
+      "nflTeam": "NYG",
+      "depthRank": 2,
+      "sleeperId": "7528"
+    },
+    {
       "id": "tyrone-tracy",
       "name": "Tyrone Tracy",
       "pos": "RB",
       "nflTeam": "NYG",
-      "depthRank": 2,
+      "depthRank": 3,
       "sleeperId": "11655"
     },
     {
@@ -1392,16 +1392,8 @@
       "name": "Devin Singletary",
       "pos": "RB",
       "nflTeam": "NYG",
-      "depthRank": 3,
-      "sleeperId": "6130"
-    },
-    {
-      "id": "najee-harris",
-      "name": "Najee Harris",
-      "pos": "RB",
-      "nflTeam": "NYG",
       "depthRank": 4,
-      "sleeperId": "7528"
+      "sleeperId": "6130"
     },
     {
       "id": "isaiah-likely",

@@ -1,5 +1,277 @@
 [
   {
+    "id": "c08hlzq5hanh",
+    "title": "Rap: Ashton Jeanty sprained ankle believed to be “more low than high.” Raiders remain hopeful he will be available Week 1 but there’s a chance he won’t be ready.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vxz7gx/rap_ashton_jeanty_sprained_ankle_believed_to_be",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-25T13:01:06.000Z",
+    "summary": "&#32; submitted by &#32; /u/BuckyMcFly99 [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "1xhzo4c1pv5ffw",
+    "title": "Dolphins news: Depth concerns, injury updates, roster moves",
+    "url": "https://sports.yahoo.com/articles/dolphins-news-depth-concerns-injury-123110420.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T12:31:10.000Z",
+    "summary": "The latest from the Miami Dolphins: Roster moves, Trey Moore injury, Chris Bell upgrade, and depth concerns",
+    "tags": [
+      "league-news",
+      "injury",
+      "MIA"
+    ],
+    "players": [],
+    "teams": [
+      "MIA"
+    ]
+  },
+  {
+    "id": "1azdypb151luhp",
+    "title": "Panthers expect Chuba Hubbard back for Week 1",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-expect-chuba-hubbard-back-for-week-1",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-25T11:57:21.000Z",
+    "summary": "Panthers running back Chuba Hubbard has been sidelined by a hamstring injury for the last couple of weeks, but the team is not concerned about his absence stretching into the regular season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CAR"
+    ],
+    "players": [
+      "chuba-hubbard"
+    ],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "hhe49j1rdz6ul",
+    "title": "Washington Commanders sign former DC Defenders pass rusher",
+    "url": "https://sports.yahoo.com/articles/washington-commanders-sign-former-dc-115356230.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T11:53:56.000Z",
+    "summary": "Boogie Basham should help a Commanders position group get through the preseason’s final week",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "b59h4hlbkc2v",
+    "title": "Study finds that one in four former NFL players suffers from degenerative brain disease CTE",
+    "url": "https://sports.yahoo.com/articles/study-finds-one-four-former-113645879.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T11:36:45.000Z",
+    "summary": "At least one in four former NFL players who died between 2016 and 2021 was found to have had chronic ⁠traumatic encephalopathy (CTE), according to a study released on Tuesday. Out of the 878 former players who died during that time frame, 235 donated their brains for study, researchers said, with 215 ⁠of those donated brains ⁠found to have CTE, ​a degenerative disease that can only definitively be",
+    "tags": [
+      "league-news",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "xjpr89s7gtmp",
+    "title": "Commanders to sign LB Boogie Basham",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-to-sign-lb-boogie-basham",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-25T11:34:25.000Z",
+    "summary": "The Commanders are adding a veteran edge rusher to their roster.",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "1vlufmoagzc0s",
+    "title": "Commanders to sign LB Boogie Basham",
+    "url": "https://sports.yahoo.com/articles/commanders-sign-lb-boogie-basham-113425664.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T11:34:25.000Z",
+    "summary": "The Commanders are adding a veteran edge rusher to their roster.",
+    "tags": [
+      "league-news",
+      "contract",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "0wnxy6pz6r8c",
+    "title": "Tennessee Titans news: Training camp battles continue to heat up",
+    "url": "https://sports.yahoo.com/articles/tennessee-titans-news-training-camp-110000864.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T11:00:00.000Z",
+    "summary": "The Tennessee Titans are getting closer to the final cut down, which means players have to be on their A game.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "auhvvwjdy0a8",
+    "title": "Ravens offer injury updates on C Danny Pinter, DT Nnamdi Madubuike",
+    "url": "https://sports.yahoo.com/articles/ravens-offer-injury-updates-c-110000844.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T11:00:00.000Z",
+    "summary": "Ravens C Danny Pinter has been ruled out for the season, while DT Nnamdi Madubuike is making progress in his ramp-up.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "BAL"
+    ],
+    "players": [],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
+    "id": "pckc3t11w9iaj",
+    "title": "Asante Samuel Sr critical of Joey Porter Jr’s contract hold in",
+    "url": "https://sports.yahoo.com/articles/asante-samuel-sr-critical-joey-110000677.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T11:00:00.000Z",
+    "summary": "Asante Samuel voices criticism aimed at Joey Porter Jr",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "u514ai13eb6fe",
+    "title": "The Bear’s Den: Questions abound as Bears look to finalize the 53-man roster amid injuries",
+    "url": "https://sports.yahoo.com/articles/bear-den-questions-abound-bears-100000343.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T10:00:00.000Z",
+    "summary": "All the latest Chicago Bears news you need to know to get your day started",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "in4h1r19z3st7",
+    "title": "Saints lose cornerback and special teamer Rejzohn Wright to season-ending hip injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-25T08:07:02.000Z",
+    "summary": "Saints cornerback and special teams contributor Rejzohn Wright will miss the entire 2026 season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "1ylfl7b1i4p5qb",
+    "title": "Saints lose cornerback and special teamer Rejzohn Wright to season-ending hip injury",
+    "url": "https://sports.yahoo.com/articles/saints-lose-cornerback-special-teamer-080702902.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T08:07:02.000Z",
+    "summary": "Saints cornerback and special teams contributor Rejzohn Wright will miss the entire 2026 season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "19pqq1izujtwg",
+    "title": "Smyth to have more competition for Saints role",
+    "url": "https://sports.yahoo.com/articles/smyth-more-competition-saints-role-070749379.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T07:15:43.000Z",
+    "summary": "The New Orleans Saints sign two-time All-Pro kicker Daniel Carlson to compete with Charlie Smyth for the side's starting kicker position.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "j4y9at1mcysnj",
+    "title": "Makai Lemon is finally back and doesn't believe long layoff set him back",
+    "url": "https://sports.yahoo.com/articles/makai-lemon-finally-back-doesnt-070000282.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T07:00:00.000Z",
+    "summary": "After missing three weeks with a hamstring injury, Eagles rookie Makai Lemon returned to practice Monday and says he hasn’t fallen behind.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "PHI"
+    ],
+    "players": [
+      "makai-lemon"
+    ],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
     "id": "g4ipe61dvw97k",
     "title": "Cleveland Browns Training Camp Recap: Day 18 – Watson’s first day as the starter",
     "url": "https://sports.yahoo.com/articles/cleveland-browns-training-camp-recap-040448288.html",
@@ -7317,290 +7589,5 @@
     "teams": [
       "TB"
     ]
-  },
-  {
-    "id": "1q76peka7atey",
-    "title": "Tracking 2026 NFL hold-ins: Vita Vea resolves contract situation",
-    "url": "https://www.espn.com/nfl/story/_/id/49490010/2026-training-camp-holdin-tracking-updates-bijan-robinson-jahmyr-gibbs-vita-vea-tuli-tuipulotu",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-20T00:51:16.000Z",
-    "summary": "More on the four players who sat out portions of camp during their contract situations.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL",
-      "DET",
-      "TB",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "ATL",
-      "DET",
-      "TB",
-      "LAC"
-    ]
-  },
-  {
-    "id": "1b4u6f9141ch97",
-    "title": "Will the Seahawks ever finalize their agreement to sign Terrion Arnold?",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-the-seahawks-ever-finalize-their-agreement-to-sign-terrion-arnold",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-20T00:47:19.000Z",
-    "summary": "It's been six days since the Seahawks reached an agreement to sign cornerback Terrion Arnold.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1r9ojg2tpk50q",
-    "title": "The compounding issue that could derail the Rams’ entire season",
-    "url": "https://sports.yahoo.com/articles/compounding-issue-could-derail-rams-003726020.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-20T00:37:26.000Z",
-    "summary": "Alaric Jackson’s possible suspension, Keagen Trost’s injury and David Quessenberry as the next man up is a growing issue",
-    "tags": [
-      "league-news",
-      "injury",
-      "discipline",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "1bkteyv1x0fkhj",
-    "title": "Colts TE Tyler Warren injures groin in practice",
-    "url": "https://www.espn.com/nfl/story/_/id/49664278/colts-tight-end-tyler-warren-injures-groin-practice",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-20T00:33:53.000Z",
-    "summary": "Colts star tight end Tyler Warren sustained a groin injury in Wednesday's joint practice and did not return.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "tyler-warren"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "5541lbyzsm4d",
-    "title": "Seahawks ‘probably’ would have cut Terrion Arnold if new corner was on roster before kidnapping arrest",
-    "url": "https://sports.yahoo.com/articles/seahawks-probably-cut-terrion-arnold-001112138.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-20T00:11:12.000Z",
-    "summary": "The Lions released Arnold in June following his arrest stemming from an alleged February incident. He's facing charges that could lead to a life sentence in jail.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "roster-move",
-      "DET",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "DET",
-      "SEA"
-    ]
-  },
-  {
-    "id": "1mabluc1goiagu",
-    "title": "Vita Vea, Buccaneers agree to $30 million extension after trade request, per report",
-    "url": "https://www.cbssports.com/nfl/news/vita-vea-contract-buccaneers-extension-trade",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-20T00:10:54.000Z",
-    "summary": "Vea&#039;s new contract ends a contentious stretch that included a hold-in, a trade request and public doubt that he would remain in Tampa Bay",
-    "tags": [
-      "league-news",
-      "trade",
-      "contract",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "1aydwdl16mnjc9",
-    "title": "Former Ole Miss DL Zxavian Harris to enter NCAA Transfer Portal",
-    "url": "https://sports.yahoo.com/articles/former-ole-miss-dl-zxavian-000002444.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-20T00:00:02.000Z",
-    "summary": "Zxavian Harris, a defensive lineman who played for Ole Miss, is expected to enter the NCAA Transfer Portal, according to Matt Zeintz of CBS Sports. This comes after Harris played for the Rebels for four seasons and went undrafted in this year’s NFL Draft. Zeintz pointed out that Harris hasn’t ruled out a return to […]",
-    "tags": [
-      "league-news",
-      "rookie",
-      "availability"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "6t6cdo12dxst4",
-    "title": "Ravens center Danny Pinter carted off during joint practice with Vikings",
-    "url": "https://sports.yahoo.com/articles/ravens-center-danny-pinter-carted-235949523.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T23:59:49.000Z",
-    "summary": "During Wednesday’s joint practice against the Minnesota Vikings, Baltimore Ravens’ center Danny Pinter was carted off the field after suffering a knee injury. The Athletic’s Jeff Zrebiec reported that Pinter appeared to get rolled up on and was seen wearing a brace on his right leg. While being loaded onto the cart, Pinter was surrounded […]",
-    "tags": [
-      "league-news",
-      "injury",
-      "BAL",
-      "MIN"
-    ],
-    "players": [],
-    "teams": [
-      "BAL",
-      "MIN"
-    ]
-  },
-  {
-    "id": "133yw6nsvpxe",
-    "title": "Saints lose Alvin Kamara for at least a month in injury blow",
-    "url": "https://sports.yahoo.com/articles/saints-lose-alvin-kamara-least-233938941.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T23:39:38.000Z",
-    "summary": "The star suffered an MCL sprain during a joint practice with the Cowboys on Tuesday and is expected to miss at least one month, ESPN reported Wednesday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL",
-      "NO"
-    ],
-    "players": [
-      "alvin-kamara"
-    ],
-    "teams": [
-      "DAL",
-      "NO"
-    ]
-  },
-  {
-    "id": "psr6bq1i4xc5m",
-    "title": "Kansas City Chiefs roster",
-    "url": "https://sports.yahoo.com/articles/kansas-city-chiefs-roster-003019778.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T23:30:00.000Z",
-    "summary": "The up-to-date team roster, including contract and salary cap information.",
-    "tags": [
-      "league-news",
-      "contract",
-      "KC"
-    ],
-    "players": [],
-    "teams": [
-      "KC"
-    ]
-  },
-  {
-    "id": "1crqa871xlmar1",
-    "title": "Buccaneers, Vita Vea reach an agreement on a new deal",
-    "url": "https://sports.yahoo.com/articles/buccaneers-vita-vea-reach-agreement-232639177.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T23:26:39.000Z",
-    "summary": "The Tampa Bay Buccaneers and defensive tackle Vita Vea have put an end to weeks of uncertainty by agreeing to a new deal, keeping one of the franchise’s most important defensive players in Tampa Bay. ESPN’s Adam Schefter reported the agreement Wednesday, a dramatic turnaround after Vea requested a trade in late July when extension […]",
-    "tags": [
-      "league-news",
-      "trade",
-      "contract",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "iwuzh71k4fx5",
-    "title": "Seahawks work out recently waived Buffalo Bills fullback",
-    "url": "https://sports.yahoo.com/articles/seahawks-recently-waived-buffalo-bills-231943330.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T23:19:43.000Z",
-    "summary": "With Robbie Ouzts out, the Seahawks continue to look for fullback options.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "BUF",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "BUF",
-      "SEA"
-    ]
-  },
-  {
-    "id": "7zao5ptstmjp",
-    "title": "Vita Vea, Bucs agree to extension to quell trade demand: Contract details",
-    "url": "https://sports.yahoo.com/articles/vita-vea-bucs-agree-extension-230828999.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T23:08:28.000Z",
-    "summary": "The Tampa Bay Buccaneers and Vita Vea have agreed on a one-year contract extension.",
-    "tags": [
-      "league-news",
-      "trade",
-      "contract",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "29fqq81x5xyxk",
-    "title": "Report: One-year extension for Bucs DT Vita Vea",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-one-year-extension-for-bucs-dt-vita-vea",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-19T23:01:58.000Z",
-    "summary": "Vea gets a $6 million raise for 2026.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "15kzhmz1m4001f",
-    "title": "Report: One-year extension for Bucs DT Vita Vea",
-    "url": "https://sports.yahoo.com/articles/report-one-extension-bucs-dt-230158560.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T23:01:58.000Z",
-    "summary": "Vea gets a $6 million raise for 2026.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
   }
 ]
