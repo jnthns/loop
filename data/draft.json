@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -1941,6 +1941,149 @@
       "playerName": "T.J. Hockenson",
       "pos": "TE",
       "nflTeam": "MIN",
+      "mine": false
+    },
+    {
+      "pick": 174,
+      "round": 15,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "caleb-douglas",
+      "playerName": "Caleb Douglas",
+      "pos": "WR",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 175,
+      "round": 15,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "deebo-samuel",
+      "playerName": "Deebo Samuel",
+      "pos": "WR",
+      "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 176,
+      "round": 15,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Michael Penix",
+      "pos": "QB",
+      "nflTeam": "ATL",
+      "mine": false
+    },
+    {
+      "pick": 177,
+      "round": 15,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "tyrone-tracy",
+      "playerName": "Tyrone Tracy",
+      "pos": "RB",
+      "nflTeam": "NYG",
+      "mine": true
+    },
+    {
+      "pick": 178,
+      "round": 15,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "rachaad-white",
+      "playerName": "Rachaad White",
+      "pos": "RB",
+      "nflTeam": "WAS",
+      "mine": false
+    },
+    {
+      "pick": 179,
+      "round": 15,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "Carson Beck",
+      "pos": "QB",
+      "nflTeam": "ARI",
+      "mine": false
+    },
+    {
+      "pick": 180,
+      "round": 15,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "ted-hurst",
+      "playerName": "Ted Hurst",
+      "pos": "WR",
+      "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 181,
+      "round": 16,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Max Klare",
+      "pos": "TE",
+      "nflTeam": "LAR",
+      "mine": false
+    },
+    {
+      "pick": 182,
+      "round": 16,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "dylan-sampson",
+      "playerName": "Dylan Sampson",
+      "pos": "RB",
+      "nflTeam": "CLE",
+      "mine": false
+    },
+    {
+      "pick": 183,
+      "round": 16,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "hunter-henry",
+      "playerName": "Hunter Henry",
+      "pos": "TE",
+      "nflTeam": "NE",
+      "mine": false
+    },
+    {
+      "pick": 184,
+      "round": 16,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "isaac-teslaa",
+      "playerName": "Isaac TeSlaa",
+      "pos": "WR",
+      "nflTeam": "DET",
+      "mine": true
+    },
+    {
+      "pick": 185,
+      "round": 16,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "braelon-allen",
+      "playerName": "Braelon Allen",
+      "pos": "RB",
+      "nflTeam": "NYJ",
+      "mine": false
+    },
+    {
+      "pick": 186,
+      "round": 16,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "jakobi-meyers",
+      "playerName": "Jakobi Meyers",
+      "pos": "WR",
+      "nflTeam": "JAX",
       "mine": false
     }
   ]

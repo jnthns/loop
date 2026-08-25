@@ -1,5 +1,117 @@
 [
   {
+    "id": "g4ipe61dvw97k",
+    "title": "Cleveland Browns Training Camp Recap: Day 18 – Watson’s first day as the starter",
+    "url": "https://sports.yahoo.com/articles/cleveland-browns-training-camp-recap-040448288.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T04:04:48.000Z",
+    "summary": "What happened on Day 18 of Cleveland Browns training camp?",
+    "tags": [
+      "league-news",
+      "usage",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "1armtqa1jl3600",
+    "title": "Deshaun Watson beating Shedeur Sanders as Browns' Week 1 starter is just the beginning. Now, a tenuous reality awaits",
+    "url": "https://sports.yahoo.com/nfl/article/deshaun-watson-beating-shedeur-sanders-as-browns-week-1-starter-is-just-the-beginning-now-a-tenuous-reality-awaits-024219720.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T02:42:19.000Z",
+    "summary": "Multiple sources with knowledge of the Browns' decision-making factors suggest: The decision to name Watson rather than Sanders did not arrive via a landslide. This was not a decision about who is \"good\" or \"bad.\"",
+    "tags": [
+      "league-news",
+      "usage",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "1pk1dnefvv8se",
+    "title": "SEC: Pro athletes should not 'return to college competition'",
+    "url": "https://www.espn.com/college-football/story/_/id/49716985/pro-athletes-not-return-college-competition",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-25T02:19:56.000Z",
+    "summary": "As LSU hopes to sign NFL tight end Dae'Quan Wright, if he clears waivers, the SEC on Monday issued a statement emphasizing its belief that athletes who choose to leave to sign pro contracts \"should not then be permitted to return to college competition.\"",
+    "tags": [
+      "league-news",
+      "contract",
+      "LSU",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "LSU",
+      "CLE"
+    ]
+  },
+  {
+    "id": "6kwu8t1veptwn",
+    "title": "One more Seahawks 53-man roster projection entering preseason finale",
+    "url": "https://sports.yahoo.com/articles/one-more-seahawks-53-man-020354648.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T02:03:54.000Z",
+    "summary": "The projection changes following several Seahawks injuries against the Tennessee Titans.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "SEA",
+      "TEN"
+    ]
+  },
+  {
+    "id": "10kuxr2lxrhk2",
+    "title": "Jed York prostitution arrest sends 49ers fans into savage social media frenzy",
+    "url": "https://sports.yahoo.com/articles/jed-york-prostitution-arrest-sends-011821284.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T01:18:21.000Z",
+    "summary": "San Francisco 49ers owner Jed York was arrested in Ohio for allegedly trying to pay $140 for sex, sparking a wave of brutal memes from NFL fans.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "csyopg14n62mg",
+    "title": "Is tyreek hill droppable in dynasty?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vxlcnk/is_tyreek_hill_droppable_in_dynasty",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-25T01:03:42.000Z",
+    "summary": "Curious what yall think. As title says is he? I mean he’s going to be most likely 33 when he’s going to be full speed. And even then, when has a 33 year old player known for his speed ever came back from an injury that horrific? On sleeper, he’s like 80% rostered still but I’d argue he should be dropped not just in dynasty but in all formats. And also, probably not even touched in redraft. &#32; s",
+    "tags": [
+      "dynasty",
+      "injury",
+      "availability"
+    ],
+    "players": [
+      "tyreek-hill"
+    ],
+    "teams": []
+  },
+  {
     "id": "14wrghj1279rf9",
     "title": "Cardinals activate edge rusher Josh Sweat from PUP list",
     "url": "https://www.espn.com/nfl/story/_/id/49717013/cardinals-activate-edge-rusher-josh-sweat-pup-list",
@@ -69,6 +181,24 @@
     "teams": [
       "DEN",
       "GB"
+    ]
+  },
+  {
+    "id": "19gtsofba9rsj",
+    "title": "49ers predicted to miss playoffs amid offseason drama headlined by owner’s arrest",
+    "url": "https://sports.yahoo.com/articles/49ers-predicted-miss-playoffs-amid-001009882.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T00:10:09.000Z",
+    "summary": "The San Francisco 49ers have endured a painful offseason — and everyone knows it. Colin Cowherd didn’t mince words when discussing the team, and made it clear that the 49ers...",
+    "tags": [
+      "league-news",
+      "discipline",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
     ]
   },
   {
@@ -241,6 +371,25 @@
     ]
   },
   {
+    "id": "md3zzn3jgpoh",
+    "title": "Jed York humiliated again as 49ers merch drop features Disney villain with ‘faithful’ branding",
+    "url": "https://sports.yahoo.com/articles/jed-york-humiliated-again-49ers-225756374.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T22:57:56.000Z",
+    "summary": "The 49ers released \"faithful\" shirts featuring \"Toy Story 2\" villain Stinky Pete right after owner Jed York's prostitution arrest.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "roster-move",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "myvl021t14phk",
     "title": "Detroit Lions place 2 players on IR; sign injury replacements",
     "url": "https://sports.yahoo.com/articles/detroit-lions-place-2-players-225215430.html",
@@ -295,6 +444,24 @@
     "players": [],
     "teams": [
       "SF"
+    ]
+  },
+  {
+    "id": "jgbjjdosgu3f",
+    "title": "Jelani Woods making case for Jets roster spot after starting camp as longshot",
+    "url": "https://sports.yahoo.com/articles/jelani-woods-making-case-jets-223344974.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T22:33:44.000Z",
+    "summary": "For the past two years, he has been robbed by injuries and betrayed by his body.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
     ]
   },
   {
@@ -445,6 +612,30 @@
     "teams": [
       "DAL",
       "PIT"
+    ]
+  },
+  {
+    "id": "1hfnzgb1w25sb9",
+    "title": "Texans acquire Kayshon Boutte from Patriots after crushing Jayden Higgins injury",
+    "url": "https://sports.yahoo.com/articles/texans-acquire-kayshon-boutte-patriots-213650792.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-24T21:36:50.000Z",
+    "summary": "He is coming off a season where he started 10 games for the Patriots, recording 33 catches for 551 yards and six touchdowns.",
+    "tags": [
+      "league-news",
+      "injury",
+      "trade",
+      "HOU",
+      "NE"
+    ],
+    "players": [
+      "jayden-higgins",
+      "kayshon-boutte"
+    ],
+    "teams": [
+      "HOU",
+      "NE"
     ]
   },
   {
@@ -7405,193 +7596,6 @@
     "sourceId": "yahoo-nfl",
     "publishedAt": "2026-08-19T23:01:58.000Z",
     "summary": "Vea gets a $6 million raise for 2026.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1rxbip9yutt75",
-    "title": "Buccaneers, DT Vita Vea agree to 1-year, $30 million extension",
-    "url": "https://sports.yahoo.com/nfl/breaking-news/article/buccaneers-dt-vita-vea-agree-to-1-year-30-million-extension-225010846.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T22:50:10.000Z",
-    "summary": "Vea is now under contract with the Buccaneers through the 2027 season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "9j8otk1aunwd0",
-    "title": "Rachaad White was fine prior to this ice bucket challenge on 8/17 he’s mysteriously missed the last 2 days of practice since the Commanders posted this video (8/18, 8/19) did he injure himself right here?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vt1pjq/rachaad_white_was_fine_prior_to_this_ice_bucket",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-19T22:45:25.000Z",
-    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "WAS"
-    ],
-    "players": [
-      "rachaad-white"
-    ],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "ybbaag2szd9g",
-    "title": "Dr. Tom Christ regarding Tyler Warren and groin injuries in general.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vt15am/dr_tom_christ_regarding_tyler_warren_and_groin",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-19T22:22:46.000Z",
-    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "tyler-warren"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1uzv89h1tn0o8h",
-    "title": "Colts' offense takes another hit as TE Tyler Warren suffers groin injury",
-    "url": "https://sports.yahoo.com/nfl/article/colts-offense-takes-another-hit-as-te-tyler-warren-suffers-groin-injury-221859645.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T22:18:59.000Z",
-    "summary": "Warren joins Alec Pierce as two important members of the Colts' offense dealing with injuries.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "tyler-warren",
-      "alec-pierce"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "4i28v18dbu43",
-    "title": "Colts' Tyler Warren reportedly out for a week with groin injury",
-    "url": "https://sports.yahoo.com/nfl/article/colts-tyler-warren-reportedly-out-for-a-week-with-groin-injury-221859645.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T22:18:59.000Z",
-    "summary": "Warren joins Alec Pierce as two important members of the Colts' offense dealing with injuries.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "tyler-warren",
-      "alec-pierce"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "x4122m1r7lqqg",
-    "title": "Favorite Deep Rookie Sleepers?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vt0q06/favorite_deep_rookie_sleepers",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-19T22:06:12.000Z",
-    "summary": "Time for some peak offseason discussions! Yeah yeah all I hear about is Cyrus Allen and I need some new opinions here. Who are some of your favorite picks for underrated rookies? I’m talking about players who will most likely have gone undrafted in your average 4-round rookie draft. Been hearing some positive preseason and training camp buzz about players like Malik Benson, Barion Brown, and Matt ",
-    "tags": [
-      "dynasty",
-      "rookie"
-    ],
-    "players": [
-      "barion-brown",
-      "cyrus-allen",
-      "malik-benson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "10a7kd133mq0d",
-    "title": "4 players the Rams could target for their next blockbuster trade",
-    "url": "https://sports.yahoo.com/articles/4-players-rams-could-target-220200359.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T22:02:00.000Z",
-    "summary": "The Rams are never shy about making trades, so who will be their next target?",
-    "tags": [
-      "league-news",
-      "trade",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "bgrn5g1xo0td2",
-    "title": "4 takeaways from Lions training camp Day 15: Derrick Moore breaks out",
-    "url": "https://sports.yahoo.com/articles/4-takeaways-lions-training-camp-220027570.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T22:00:27.000Z",
-    "summary": "Detroit Lions second-round rookie Derrick Moore made a huge impression on Day 15 of training camp.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "xae2t7547kyl",
-    "title": "Rams have easy trade partner if they must move a tight end",
-    "url": "https://sports.yahoo.com/articles/rams-easy-trade-partner-must-215258922.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-19T21:52:58.000Z",
-    "summary": "The Packers need a tight end, the Rams have too many of them",
-    "tags": [
-      "league-news",
-      "trade",
-      "GB",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "GB",
-      "LAR"
-    ]
-  },
-  {
-    "id": "1qcngm21l9ljf8",
-    "title": "NFL rookies returning to college? Some are looking into it amid NCAA eligibility ruling in Colorado",
-    "url": "https://www.cbssports.com/college-football/news/nfl-rookies-returning-college-football-ncaa-eligibility",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-19T21:31:09.000Z",
-    "summary": "Some players who signed NFL contracts are exploring a return to college football as roster cuts loom, sources tell CBS Sports",
     "tags": [
       "league-news",
       "contract"
