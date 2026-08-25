@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-25T13:10:12.852Z",
+  "capturedAt": "2026-08-25T18:56:03.837Z",
   "snapshotAt": "2026-08-25T07:39:23Z",
   "season": "2026",
   "entries": [
@@ -122,6 +122,14 @@
       "nflTeam": "BAL",
       "depthRank": 1,
       "sleeperId": "3198"
+    },
+    {
+      "id": "justice-hill",
+      "name": "Justice Hill",
+      "pos": "RB",
+      "nflTeam": "BAL",
+      "depthRank": 2,
+      "sleeperId": "5995"
     },
     {
       "id": "mark-andrews",
@@ -340,6 +348,22 @@
       "sleeperId": "13477"
     },
     {
+      "id": "deshaun-watson",
+      "name": "Deshaun Watson",
+      "pos": "QB",
+      "nflTeam": "CLE",
+      "depthRank": 1,
+      "sleeperId": "4017"
+    },
+    {
+      "id": "shedeur-sanders",
+      "name": "Shedeur Sanders",
+      "pos": "QB",
+      "nflTeam": "CLE",
+      "depthRank": 2,
+      "sleeperId": "12524"
+    },
+    {
       "id": "quinshon-judkins",
       "name": "Quinshon Judkins",
       "pos": "RB",
@@ -394,14 +418,6 @@
       "nflTeam": "DAL",
       "depthRank": 1,
       "sleeperId": "3294"
-    },
-    {
-      "id": "joe-milton",
-      "name": "Joe Milton",
-      "pos": "QB",
-      "nflTeam": "DAL",
-      "depthRank": 2,
-      "sleeperId": "11557"
     },
     {
       "id": "javonte-williams",
@@ -714,14 +730,6 @@
       "nflTeam": "HOU",
       "depthRank": 5,
       "sleeperId": "9502"
-    },
-    {
-      "id": "jayden-higgins",
-      "name": "Jayden Higgins",
-      "pos": "WR",
-      "nflTeam": "HOU",
-      "depthRank": 14,
-      "sleeperId": "12484"
     },
     {
       "id": "daniel-jones",
@@ -1068,22 +1076,6 @@
       "sleeperId": "13305"
     },
     {
-      "id": "dylan-laube",
-      "name": "Dylan Laube",
-      "pos": "RB",
-      "nflTeam": "LV",
-      "depthRank": 3,
-      "sleeperId": "11574"
-    },
-    {
-      "id": "roman-hemby",
-      "name": "Roman Hemby",
-      "pos": "RB",
-      "nflTeam": "LV",
-      "depthRank": 5,
-      "sleeperId": "13416"
-    },
-    {
       "id": "brock-bowers",
       "name": "Brock Bowers",
       "pos": "TE",
@@ -1426,14 +1418,6 @@
       "nflTeam": "NYG",
       "depthRank": 4,
       "sleeperId": "7090"
-    },
-    {
-      "id": "odell-beckham",
-      "name": "Odell Beckham",
-      "pos": "WR",
-      "nflTeam": "NYG",
-      "depthRank": 6,
-      "sleeperId": "2078"
     },
     {
       "id": "geno-smith",

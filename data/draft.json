@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -1442,7 +1442,7 @@
       "round": 11,
       "slot": 5,
       "rosterId": 5,
-      "playerId": "jayden-higgins",
+      "playerId": null,
       "playerName": "Jayden Higgins",
       "pos": "WR",
       "nflTeam": "HOU",
@@ -1893,7 +1893,7 @@
       "round": 15,
       "slot": 12,
       "rosterId": 12,
-      "playerId": null,
+      "playerId": "deshaun-watson",
       "playerName": "Deshaun Watson",
       "pos": "QB",
       "nflTeam": "CLE",
@@ -2095,6 +2095,50 @@
       "playerName": "Justin Joly",
       "pos": "TE",
       "nflTeam": "DEN",
+      "mine": false
+    },
+    {
+      "pick": 188,
+      "round": 16,
+      "slot": 8,
+      "rosterId": 6,
+      "playerId": "travis-hunter",
+      "playerName": "Travis Hunter",
+      "pos": "WR",
+      "nflTeam": "JAX",
+      "mine": false
+    },
+    {
+      "pick": 189,
+      "round": 16,
+      "slot": 9,
+      "rosterId": 8,
+      "playerId": "kayshon-boutte",
+      "playerName": "Kayshon Boutte",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "mine": false
+    },
+    {
+      "pick": 190,
+      "round": 16,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": "jalen-mcmillan",
+      "playerName": "Jalen McMillan",
+      "pos": "WR",
+      "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 191,
+      "round": 16,
+      "slot": 11,
+      "rosterId": 1,
+      "playerId": "tre-harris",
+      "playerName": "Tre' Harris",
+      "pos": "WR",
+      "nflTeam": "LAC",
       "mine": false
     }
   ]
