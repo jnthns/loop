@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -1893,7 +1893,7 @@
       "round": 15,
       "slot": 12,
       "rosterId": 12,
-      "playerId": "deshaun-watson",
+      "playerId": null,
       "playerName": "Deshaun Watson",
       "pos": "QB",
       "nflTeam": "CLE",
@@ -2168,7 +2168,7 @@
       "round": 17,
       "slot": 11,
       "rosterId": 8,
-      "playerId": "shedeur-sanders",
+      "playerId": null,
       "playerName": "Shedeur Sanders",
       "pos": "QB",
       "nflTeam": "CLE",
@@ -2227,6 +2227,83 @@
       "playerName": "Aaron Jones",
       "pos": "RB",
       "nflTeam": "MIN",
+      "mine": false
+    },
+    {
+      "pick": 200,
+      "round": 17,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Ricky Pearsall",
+      "pos": "WR",
+      "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 201,
+      "round": 17,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "DJ Giddens",
+      "pos": "RB",
+      "nflTeam": "IND",
+      "mine": true
+    },
+    {
+      "pick": 202,
+      "round": 17,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "tank-dell",
+      "playerName": "Tank Dell",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "mine": false
+    },
+    {
+      "pick": 203,
+      "round": 17,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "keaton-mitchell",
+      "playerName": "Keaton Mitchell",
+      "pos": "RB",
+      "nflTeam": "LAC",
+      "mine": false
+    },
+    {
+      "pick": 204,
+      "round": 17,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "jalen-nailor",
+      "playerName": "Jalen Nailor",
+      "pos": "WR",
+      "nflTeam": "LV",
+      "mine": false
+    },
+    {
+      "pick": 205,
+      "round": 18,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "brian-robinson",
+      "playerName": "Brian Robinson",
+      "pos": "RB",
+      "nflTeam": "ATL",
+      "mine": false
+    },
+    {
+      "pick": 206,
+      "round": 18,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "mason-taylor",
+      "playerName": "Mason Taylor",
+      "pos": "TE",
+      "nflTeam": "NYJ",
       "mine": false
     }
   ]

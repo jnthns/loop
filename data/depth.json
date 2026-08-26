@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-26T13:15:31.717Z",
+  "capturedAt": "2026-08-26T20:01:41.927Z",
   "snapshotAt": "2026-08-26T07:41:22Z",
   "season": "2026",
   "entries": [
@@ -348,28 +348,20 @@
       "sleeperId": "6801"
     },
     {
+      "id": "andrei-iosivas",
+      "name": "Andrei Iosivas",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "depthRank": 3,
+      "sleeperId": "10226"
+    },
+    {
       "id": "colbie-young",
       "name": "Colbie Young",
       "pos": "WR",
       "nflTeam": "CIN",
       "depthRank": 4,
       "sleeperId": "13477"
-    },
-    {
-      "id": "deshaun-watson",
-      "name": "Deshaun Watson",
-      "pos": "QB",
-      "nflTeam": "CLE",
-      "depthRank": 1,
-      "sleeperId": "4017"
-    },
-    {
-      "id": "shedeur-sanders",
-      "name": "Shedeur Sanders",
-      "pos": "QB",
-      "nflTeam": "CLE",
-      "depthRank": 2,
-      "sleeperId": "12524"
     },
     {
       "id": "quinshon-judkins",
@@ -1428,12 +1420,28 @@
       "sleeperId": "11632"
     },
     {
+      "id": "calvin-austin",
+      "name": "Calvin Austin",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "depthRank": 3,
+      "sleeperId": "8125"
+    },
+    {
       "id": "darnell-mooney",
       "name": "Darnell Mooney",
       "pos": "WR",
       "nflTeam": "NYG",
       "depthRank": 4,
       "sleeperId": "7090"
+    },
+    {
+      "id": "odell-beckham",
+      "name": "Odell Beckham",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "depthRank": 6,
+      "sleeperId": "2078"
     },
     {
       "id": "geno-smith",
