@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -2194,6 +2194,39 @@
       "playerName": "Chris Rodriguez",
       "pos": "RB",
       "nflTeam": "JAX",
+      "mine": false
+    },
+    {
+      "pick": 197,
+      "round": 17,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "malik-washington",
+      "playerName": "Malik Washington",
+      "pos": "WR",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 198,
+      "round": 17,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": null,
+      "playerName": "Cade Klubnik",
+      "pos": "QB",
+      "nflTeam": "NYJ",
+      "mine": false
+    },
+    {
+      "pick": 199,
+      "round": 17,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "aaron-jones",
+      "playerName": "Aaron Jones",
+      "pos": "RB",
+      "nflTeam": "MIN",
       "mine": false
     }
   ]

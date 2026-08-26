@@ -1,5 +1,118 @@
 [
   {
+    "id": "1u63bbisj2eym",
+    "title": "Marvin Harrison vs Marvin Harrison Jr. through their first two NFL seasons",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vympx6/marvin_harrison_vs_marvin_harrison_jr_through",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-26T04:23:48.000Z",
+    "summary": "MHS Year 1: 16 games 7.4 Tgt/game 4.0 Rec/game 52.3 Yds/game 0.5 Tds/game 2.7 1Ds/game MHJ Year 1 (Excluding @GB when he left the game early due to a concussion): 16 games 7.1 Tgt/game 3.9 Rec/game 55.3 Yds/game 0.5 Tds/game 2.7 1Ds/game _ MHS Year 2: 16 games 7.4 Tgt/game 4.6 Rec/game 54.1 Yds/game 0.4 Tds/game 2.9 1Ds/game MHJ Year 2 (Excluding @IND when he left the game early due to a concussio",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [
+      "marvin-harrison"
+    ],
+    "teams": []
+  },
+  {
+    "id": "zf4qip1v0lbur",
+    "title": "No Trade Deadline vs End of Regular Season Trade Deadline",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1vym36u/no_trade_deadline_vs_end_of_regular_season_trade",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-26T03:53:24.000Z",
+    "summary": "Creating a Dynasty league with some buddies of mine. One of the policies that is creating a good amount of buzz is whether or not we should have a trade deadline in our league. Some people don’t think trading in the playoffs should be allowed. While others think that it can be a good opportunity for the lower level teams to gain some leverage in trades. That leverage can then help balance the leag",
+    "tags": [
+      "dynasty",
+      "trade"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "m9i5b8j6sndm",
+    "title": "Giants trade Josh Ezeudu to Chiefs for 2028 seventh-round pick",
+    "url": "https://sports.yahoo.com/articles/giants-trade-josh-ezeudu-chiefs-024145911.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-26T02:41:45.000Z",
+    "summary": "Josh Ezeudu is leaving the Giants five months later than expected.",
+    "tags": [
+      "league-news",
+      "trade",
+      "KC",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "KC",
+      "NYG"
+    ]
+  },
+  {
+    "id": "1dswechyuxxql",
+    "title": "‘Hard Knocks’ captures emotional moments after Seahawks rookie broke his ankle",
+    "url": "https://sports.yahoo.com/articles/hard-knocks-captures-emotional-moments-024050948.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-26T02:40:50.000Z",
+    "summary": "Clark’s positive attitude and young family makes his injury even more heartbreaking, but more eager to see him back on the field in 2027.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "7s9qth12ybw85",
+    "title": "Chiefs add Patrick Mahomes protection in low-risk trade with Giants",
+    "url": "https://sports.yahoo.com/articles/chiefs-add-patrick-mahomes-protection-022013895.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-26T02:20:13.000Z",
+    "summary": "The Kansas City Chiefs are adding to Patrick Mahomes' protection detail with a low-risk trade for a former third-round pick. Here's what to know.",
+    "tags": [
+      "league-news",
+      "trade",
+      "KC",
+      "NYG"
+    ],
+    "players": [
+      "patrick-mahomes"
+    ],
+    "teams": [
+      "KC",
+      "NYG"
+    ]
+  },
+  {
+    "id": "15ij6ws1fzt7g4",
+    "title": "Frank Reich admits to Jets’ Kenyon Sadiq rookie reality",
+    "url": "https://sports.yahoo.com/articles/frank-reich-admits-jets-kenyon-011302498.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-26T01:13:02.000Z",
+    "summary": "Frank Reich admitted the obvious: Rookie tight end Kenyon Sadiq’s extremely limited training camp is going to impact how much the Jets can use him, at least early on.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "NYJ"
+    ],
+    "players": [
+      "kenyon-sadiq"
+    ],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
     "id": "1968t6b1gddye3",
     "title": "Giants trade OG Joshua Ezeudu to the Chiefs",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-trade-og-joshua-ezeudu-to-the-chiefs",
@@ -219,6 +332,24 @@
     "teams": []
   },
   {
+    "id": "1v0q1rqnjysmg",
+    "title": "Kyle Shanahan says Jed York’s arrest won’t impact 49ers. He’s wrong.",
+    "url": "https://sports.yahoo.com/articles/kyle-shanahan-says-jed-york-232555596.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T23:25:55.000Z",
+    "summary": "SANTA CLARA — Kyle Shanahan fielded 15 questions, and maybe it convinced him that what he was about to say in response to the 16th would manifest itself into the...",
+    "tags": [
+      "league-news",
+      "discipline",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "1ec6axnwq6nrz",
     "title": "NFL trades: 3 roster positions the Browns should be looking to upgrade",
     "url": "https://sports.yahoo.com/articles/nfl-trades-3-roster-positions-231828274.html",
@@ -234,6 +365,24 @@
     "players": [],
     "teams": [
       "CLE"
+    ]
+  },
+  {
+    "id": "kp1tb01ucxs3o",
+    "title": "Myles Garrett’s mysterious knee injury is starting to raise eyebrows at Rams camp",
+    "url": "https://sports.yahoo.com/articles/myles-garrett-mysterious-knee-injury-224654580.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T22:46:54.000Z",
+    "summary": "Myles Garrett has barely practiced with the Rams since training camp began, and his lingering knee soreness is starting to raise questions ahead of the season opener.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
     ]
   },
   {
@@ -256,7 +405,7 @@
   },
   {
     "id": "rl9h7n16o0cn",
-    "title": "Report: Bears fielding trade calls on DT Gervon Dexter",
+    "title": "Report: Chicago Bears fielding trade calls on DT Gervon Dexter",
     "url": "https://sports.yahoo.com/articles/report-bears-fielding-trade-calls-224023821.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
@@ -290,6 +439,24 @@
     ],
     "teams": [
       "CAR"
+    ]
+  },
+  {
+    "id": "arf2as1q4ydz0",
+    "title": "49ers star LB Fred Warner shows ‘love’ for Jed York amid prostitution scandal",
+    "url": "https://sports.yahoo.com/articles/49ers-star-lb-fred-warner-220626413.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-25T22:06:26.000Z",
+    "summary": "49ers linebacker Fred Warner shared support for owner Jed York following York’s arrest in Ohio for allegedly soliciting prostitution.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
     ]
   },
   {
@@ -1497,6 +1664,26 @@
       "CLE",
       "NE"
     ]
+  },
+  {
+    "id": "1q1vu7v9c5ez",
+    "title": "NFL preseason injuries tracker: Updates on Sam LaPorta, Breece Hall, Jeremiyah Love, Alvin Kamara",
+    "url": "https://www.cbssports.com/nfl/news/nfl-training-camp-injury-tracker",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-25T15:54:46.000Z",
+    "summary": "We track the biggest injury updates and recovery timelines as teams navigate a brutal start to the NFL preseason",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "alvin-kamara",
+      "breece-hall",
+      "jeremiyah-love",
+      "sam-laporta"
+    ],
+    "teams": []
   },
   {
     "id": "8lk1b21fezqdw",
@@ -7376,184 +7563,5 @@
     ],
     "players": [],
     "teams": []
-  },
-  {
-    "id": "tohwr3ocy6ol",
-    "title": "Those of you that have acquired Stribling via trade over this last week, what did you pay?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vumzsu/those_of_you_that_have_acquired_stribling_via",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-21T17:34:39.000Z",
-    "summary": "The Stribling hype is at a new high, especially after last nights game, and I am trying to buy. This seems like a classic case of the gap of what people are willing to pay and what people are willing to sell is pretty large. His target share per routes run in the preseason are above St. brown and JSN their rookie years. What has it taken for you to get trades accepted for this guy? &#32; submitted",
-    "tags": [
-      "dynasty",
-      "trade",
-      "rookie",
-      "usage"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "12abdn91cfrgbb",
-    "title": "Seahawks’ Jake Bobo carted off with ‘bad-looking leg injury’ during joint practice",
-    "url": "https://sports.yahoo.com/articles/seahawks-jake-bobo-carted-off-170909307.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-21T17:09:09.000Z",
-    "summary": "Potentially very bad news concerning the fourth-year Seahawks receiver.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1ng5smb1g41arb",
-    "title": "Jake Bobo carted off with apparent leg injury at Seahawks-Titans joint practice",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jake-bobo-carted-off-with-apparent-leg-injury-at-seahawks-titans-joint-practice",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-21T17:08:36.000Z",
-    "summary": "The Seahawks may have a significant injury concern with one of their key contributors.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SEA",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "SEA",
-      "TEN"
-    ]
-  },
-  {
-    "id": "1ksim5g41nxq6",
-    "title": "Jake Bobo carted off with apparent leg injury at Seahawks-Titans joint practice",
-    "url": "https://sports.yahoo.com/articles/jake-bobo-carted-off-apparent-170836413.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-21T17:08:36.000Z",
-    "summary": "The Seahawks may have a significant injury concern with one of their key contributors.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SEA",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "SEA",
-      "TEN"
-    ]
-  },
-  {
-    "id": "1u00xle78vvku",
-    "title": "What’s your worst rookie draft class ever?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vum70d/whats_your_worst_rookie_draft_class_ever",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-21T17:05:50.000Z",
-    "summary": "Rookie drafts are usually really difficult because it’s impossible to predict how much playing time some random day 3 TE is gonna get long term and not all of your picks end up working out. However, sometimes you get super unlucky and end up with a class full of absolute bums. What was your worst rookie draft performance of all time? For me it’s gotta be 2025. I only had 3 picks cause I went to th",
-    "tags": [
-      "dynasty",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "16b7oe4zpeu6a",
-    "title": "NFL Training Camp News Roundup: Injuries to Sam LaPorta, Jayden Higgins among other top stories to note for fantasy football",
-    "url": "https://sports.yahoo.com/fantasy/article/nfl-training-camp-news-roundup-injuries-to-sam-laporta-jayden-higgins-among-other-top-stories-to-note-for-fantasy-football-163421355.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-21T16:34:21.000Z",
-    "summary": "It's time to break down all the fantasy relevant happenings from around the NFL.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "sam-laporta",
-      "jayden-higgins"
-    ],
-    "teams": []
-  },
-  {
-    "id": "sfaph84lu34k",
-    "title": "NFL Preseason Week 2 Fantasy Football Takeaways: Ashton Jeanty injury uncertainty dominates headlines",
-    "url": "https://sports.yahoo.com/fantasy/article/nfl-preseason-week-2-fantasy-football-takeaways-ashton-jeanty-injury-uncertainty-dominates-headlines-161815224.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-21T16:18:15.000Z",
-    "summary": "Hayden Winks shares his top fantasy football takeaways coming out of Week 2's preseason action.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "ashton-jeanty"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1aodvrj3qq3vf",
-    "title": "Titans sign DE Tanoh Kpassagnon, LB Milo Eifler",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-sign-de-tanoh-kpassagnon-lb-milo-eifler",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-21T15:50:56.000Z",
-    "summary": "The Titans signed a pair of defensive players on Friday morning.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
-    ]
-  },
-  {
-    "id": "2ntpkpg5o5jd",
-    "title": "Titans sign DE Tanoh Kpassagnon, LB Milo Eifler",
-    "url": "https://sports.yahoo.com/articles/titans-sign-tanoh-kpassagnon-lb-155056443.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-21T15:50:56.000Z",
-    "summary": "The Titans signed a pair of defensive players on Friday morning.",
-    "tags": [
-      "league-news",
-      "contract",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
-    ]
-  },
-  {
-    "id": "194w0przy6vi1",
-    "title": "Do Jake Kubas, Evan Neal have a chance with NY Giants? Let’s look at the film",
-    "url": "https://sports.yahoo.com/articles/jake-kubas-evan-neal-chance-154839511.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-21T15:48:39.000Z",
-    "summary": "Can Evan Neal and Jake Kubas make a push to replace Daniel Faalele on the NY Giants depth chart?",
-    "tags": [
-      "league-news",
-      "usage",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
   }
 ]
