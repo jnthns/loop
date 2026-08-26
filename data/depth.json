@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-26T07:07:33.629Z",
-  "snapshotAt": "2026-08-25T07:39:23Z",
+  "capturedAt": "2026-08-26T13:15:31.717Z",
+  "snapshotAt": "2026-08-26T07:41:22Z",
   "season": "2026",
   "entries": [
     {
@@ -34,6 +34,14 @@
       "nflTeam": "ARI",
       "depthRank": 3,
       "sleeperId": "4137"
+    },
+    {
+      "id": "trey-benson",
+      "name": "Trey Benson",
+      "pos": "RB",
+      "nflTeam": "ARI",
+      "depthRank": 8,
+      "sleeperId": "11589"
     },
     {
       "id": "trey-mcbride",
@@ -916,6 +924,14 @@
       "sleeperId": "13413"
     },
     {
+      "id": "jeff-caldwell",
+      "name": "Jeff Caldwell",
+      "pos": "WR",
+      "nflTeam": "KC",
+      "depthRank": 14,
+      "sleeperId": "13392"
+    },
+    {
       "id": "matthew-stafford",
       "name": "Matthew Stafford",
       "pos": "QB",
@@ -1736,7 +1752,7 @@
       "name": "De'Zhaun Stribling",
       "pos": "WR",
       "nflTeam": "SF",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "13417"
     },
     {
