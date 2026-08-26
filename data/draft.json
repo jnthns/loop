@@ -2140,6 +2140,61 @@
       "pos": "WR",
       "nflTeam": "LAC",
       "mine": false
+    },
+    {
+      "pick": 192,
+      "round": 16,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": null,
+      "playerName": "Elijah Sarratt",
+      "pos": "WR",
+      "nflTeam": "BAL",
+      "mine": false
+    },
+    {
+      "pick": 193,
+      "round": 17,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "colbie-young",
+      "playerName": "Colbie Young",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "mine": false
+    },
+    {
+      "pick": 194,
+      "round": 17,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "shedeur-sanders",
+      "playerName": "Shedeur Sanders",
+      "pos": "QB",
+      "nflTeam": "CLE",
+      "mine": false
+    },
+    {
+      "pick": 195,
+      "round": 17,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Drew Allar",
+      "pos": "QB",
+      "nflTeam": "PIT",
+      "mine": false
+    },
+    {
+      "pick": 196,
+      "round": 17,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "chris-rodriguez",
+      "playerName": "Chris Rodriguez",
+      "pos": "RB",
+      "nflTeam": "JAX",
+      "mine": false
     }
   ]
 }
