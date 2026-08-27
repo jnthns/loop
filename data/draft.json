@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -2304,6 +2304,127 @@
       "playerName": "Mason Taylor",
       "pos": "TE",
       "nflTeam": "NYJ",
+      "mine": false
+    },
+    {
+      "pick": 207,
+      "round": 18,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "isiah-pacheco",
+      "playerName": "Isiah Pacheco",
+      "pos": "RB",
+      "nflTeam": "DET",
+      "mine": false
+    },
+    {
+      "pick": 208,
+      "round": 18,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Dontayvion Wicks",
+      "pos": "WR",
+      "nflTeam": "PHI",
+      "mine": true
+    },
+    {
+      "pick": 209,
+      "round": 18,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "pat-bryant",
+      "playerName": "Pat Bryant",
+      "pos": "WR",
+      "nflTeam": "DEN",
+      "mine": false
+    },
+    {
+      "pick": 210,
+      "round": 18,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "jauan-jennings",
+      "playerName": "Jauan Jennings",
+      "pos": "WR",
+      "nflTeam": "MIN",
+      "mine": false
+    },
+    {
+      "pick": 211,
+      "round": 18,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": null,
+      "playerName": "Riley Leonard",
+      "pos": "QB",
+      "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 212,
+      "round": 18,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "adonai-mitchell",
+      "playerName": "Adonai Mitchell",
+      "pos": "WR",
+      "nflTeam": "NYJ",
+      "mine": false
+    },
+    {
+      "pick": 213,
+      "round": 18,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": null,
+      "playerName": "Oscar Delp",
+      "pos": "TE",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 214,
+      "round": 18,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Elijah Arroyo",
+      "pos": "TE",
+      "nflTeam": "SEA",
+      "mine": false
+    },
+    {
+      "pick": 215,
+      "round": 18,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": null,
+      "playerName": "Pat Freiermuth",
+      "pos": "TE",
+      "nflTeam": "PIT",
+      "mine": false
+    },
+    {
+      "pick": 216,
+      "round": 18,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "dalton-schultz",
+      "playerName": "Dalton Schultz",
+      "pos": "TE",
+      "nflTeam": "HOU",
+      "mine": false
+    },
+    {
+      "pick": 217,
+      "round": 19,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "kaytron-allen",
+      "playerName": "Kaytron Allen",
+      "pos": "RB",
+      "nflTeam": "WAS",
       "mine": false
     }
   ]
