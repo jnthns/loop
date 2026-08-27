@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-27T09:44:53.745Z",
-  "snapshotAt": "2026-08-26T07:41:22Z",
+  "capturedAt": "2026-08-27T22:14:42.547Z",
+  "snapshotAt": "2026-08-27T18:05:02Z",
   "season": "2026",
   "entries": [
     {
@@ -34,14 +34,6 @@
       "nflTeam": "ARI",
       "depthRank": 3,
       "sleeperId": "4137"
-    },
-    {
-      "id": "trey-benson",
-      "name": "Trey Benson",
-      "pos": "RB",
-      "nflTeam": "ARI",
-      "depthRank": 8,
-      "sleeperId": "11589"
     },
     {
       "id": "trey-mcbride",
@@ -348,20 +340,20 @@
       "sleeperId": "6801"
     },
     {
-      "id": "andrei-iosivas",
-      "name": "Andrei Iosivas",
-      "pos": "WR",
-      "nflTeam": "CIN",
-      "depthRank": 3,
-      "sleeperId": "10226"
-    },
-    {
       "id": "colbie-young",
       "name": "Colbie Young",
       "pos": "WR",
       "nflTeam": "CIN",
       "depthRank": 4,
       "sleeperId": "13477"
+    },
+    {
+      "id": "dohnte-meyers",
+      "name": "Dohnte Meyers",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "depthRank": 12,
+      "sleeperId": "13264"
     },
     {
       "id": "quinshon-judkins",
@@ -634,6 +626,14 @@
       "nflTeam": "GB",
       "depthRank": 1,
       "sleeperId": "9484"
+    },
+    {
+      "id": "jonnu-smith",
+      "name": "Jonnu Smith",
+      "pos": "TE",
+      "nflTeam": "GB",
+      "depthRank": 2,
+      "sleeperId": "4144"
     },
     {
       "id": "christian-watson",
@@ -914,14 +914,6 @@
       "nflTeam": "KC",
       "depthRank": 5,
       "sleeperId": "13413"
-    },
-    {
-      "id": "jeff-caldwell",
-      "name": "Jeff Caldwell",
-      "pos": "WR",
-      "nflTeam": "KC",
-      "depthRank": 14,
-      "sleeperId": "13392"
     },
     {
       "id": "matthew-stafford",
@@ -1372,20 +1364,20 @@
       "sleeperId": "12481"
     },
     {
-      "id": "najee-harris",
-      "name": "Najee Harris",
-      "pos": "RB",
-      "nflTeam": "NYG",
-      "depthRank": 2,
-      "sleeperId": "7528"
-    },
-    {
       "id": "tyrone-tracy",
       "name": "Tyrone Tracy",
       "pos": "RB",
       "nflTeam": "NYG",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "11655"
+    },
+    {
+      "id": "najee-harris",
+      "name": "Najee Harris",
+      "pos": "RB",
+      "nflTeam": "NYG",
+      "depthRank": 3,
+      "sleeperId": "7528"
     },
     {
       "id": "devin-singletary",
@@ -1420,19 +1412,11 @@
       "sleeperId": "11632"
     },
     {
-      "id": "calvin-austin",
-      "name": "Calvin Austin",
-      "pos": "WR",
-      "nflTeam": "NYG",
-      "depthRank": 3,
-      "sleeperId": "8125"
-    },
-    {
       "id": "darnell-mooney",
       "name": "Darnell Mooney",
       "pos": "WR",
       "nflTeam": "NYG",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "7090"
     },
     {
@@ -1440,8 +1424,16 @@
       "name": "Odell Beckham",
       "pos": "WR",
       "nflTeam": "NYG",
-      "depthRank": 6,
+      "depthRank": 5,
       "sleeperId": "2078"
+    },
+    {
+      "id": "calvin-austin",
+      "name": "Calvin Austin",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "depthRank": 11,
+      "sleeperId": "8125"
     },
     {
       "id": "geno-smith",
@@ -1476,20 +1468,20 @@
       "sleeperId": "11571"
     },
     {
-      "id": "kenyon-sadiq",
-      "name": "Kenyon Sadiq",
-      "pos": "TE",
-      "nflTeam": "NYJ",
-      "depthRank": 1,
-      "sleeperId": "13330"
-    },
-    {
       "id": "mason-taylor",
       "name": "Mason Taylor",
       "pos": "TE",
       "nflTeam": "NYJ",
-      "depthRank": 2,
+      "depthRank": 1,
       "sleeperId": "12498"
+    },
+    {
+      "id": "kenyon-sadiq",
+      "name": "Kenyon Sadiq",
+      "pos": "TE",
+      "nflTeam": "NYJ",
+      "depthRank": 2,
+      "sleeperId": "13330"
     },
     {
       "id": "garrett-wilson",
@@ -1552,7 +1544,7 @@
       "name": "Eli Stowers",
       "pos": "TE",
       "nflTeam": "PHI",
-      "depthRank": 2,
+      "depthRank": 3,
       "sleeperId": "13349"
     },
     {
