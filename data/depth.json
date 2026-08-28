@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-28T11:21:15.213Z",
-  "snapshotAt": "2026-08-27T18:05:02Z",
+  "capturedAt": "2026-08-28T22:17:44.021Z",
+  "snapshotAt": "2026-08-28T19:13:13Z",
   "season": "2026",
   "entries": [
     {
@@ -212,6 +212,14 @@
       "sleeperId": "8134"
     },
     {
+      "id": "skyler-bell",
+      "name": "Skyler Bell",
+      "pos": "WR",
+      "nflTeam": "BUF",
+      "depthRank": 5,
+      "sleeperId": "13402"
+    },
+    {
       "id": "bryce-young",
       "name": "Bryce Young",
       "pos": "QB",
@@ -340,20 +348,28 @@
       "sleeperId": "6801"
     },
     {
-      "id": "colbie-young",
-      "name": "Colbie Young",
-      "pos": "WR",
-      "nflTeam": "CIN",
-      "depthRank": 4,
-      "sleeperId": "13477"
-    },
-    {
       "id": "dohnte-meyers",
       "name": "Dohnte Meyers",
       "pos": "WR",
       "nflTeam": "CIN",
       "depthRank": 12,
       "sleeperId": "13264"
+    },
+    {
+      "id": "dillon-gabriel",
+      "name": "Dillon Gabriel",
+      "pos": "QB",
+      "nflTeam": "CLE",
+      "depthRank": 3,
+      "sleeperId": "12486"
+    },
+    {
+      "id": "taylen-green",
+      "name": "Taylen Green",
+      "pos": "QB",
+      "nflTeam": "CLE",
+      "depthRank": 4,
+      "sleeperId": "13306"
     },
     {
       "id": "quinshon-judkins",
@@ -432,7 +448,7 @@
       "name": "Malik Davis",
       "pos": "RB",
       "nflTeam": "DAL",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "8800"
     },
     {
@@ -700,14 +716,6 @@
       "sleeperId": "7569"
     },
     {
-      "id": "xavier-hutchinson",
-      "name": "Xavier Hutchinson",
-      "pos": "WR",
-      "nflTeam": "HOU",
-      "depthRank": 2,
-      "sleeperId": "10218"
-    },
-    {
       "id": "jaylin-noel",
       "name": "Jaylin Noel",
       "pos": "WR",
@@ -940,14 +948,6 @@
       "sleeperId": "11586"
     },
     {
-      "id": "jarquez-hunter",
-      "name": "Jarquez Hunter",
-      "pos": "RB",
-      "nflTeam": "LA",
-      "depthRank": 4,
-      "sleeperId": "11569"
-    },
-    {
       "id": "colby-parkinson",
       "name": "Colby Parkinson",
       "pos": "TE",
@@ -978,6 +978,14 @@
       "nflTeam": "LA",
       "depthRank": 2,
       "sleeperId": "2133"
+    },
+    {
+      "id": "tutu-atwell",
+      "name": "Tutu Atwell",
+      "pos": "WR",
+      "nflTeam": "LA",
+      "depthRank": 5,
+      "sleeperId": "7562"
     },
     {
       "id": "justin-herbert",
@@ -1100,6 +1108,14 @@
       "sleeperId": "8180"
     },
     {
+      "id": "malik-benson",
+      "name": "Malik Benson",
+      "pos": "WR",
+      "nflTeam": "LV",
+      "depthRank": 4,
+      "sleeperId": "13329"
+    },
+    {
       "id": "malik-willis",
       "name": "Malik Willis",
       "pos": "QB",
@@ -1122,6 +1138,14 @@
       "nflTeam": "MIA",
       "depthRank": 2,
       "sleeperId": "11643"
+    },
+    {
+      "id": "jarquez-hunter",
+      "name": "Jarquez Hunter",
+      "pos": "RB",
+      "nflTeam": "MIA",
+      "depthRank": 4,
+      "sleeperId": "11569"
     },
     {
       "id": "malik-washington",
@@ -1432,7 +1456,7 @@
       "name": "Calvin Austin",
       "pos": "WR",
       "nflTeam": "NYG",
-      "depthRank": 11,
+      "depthRank": 12,
       "sleeperId": "8125"
     },
     {
@@ -1458,14 +1482,6 @@
       "nflTeam": "NYJ",
       "depthRank": 2,
       "sleeperId": "11576"
-    },
-    {
-      "id": "isaiah-davis",
-      "name": "Isaiah Davis",
-      "pos": "RB",
-      "nflTeam": "NYJ",
-      "depthRank": 3,
-      "sleeperId": "11571"
     },
     {
       "id": "mason-taylor",
@@ -1610,14 +1626,6 @@
       "nflTeam": "PIT",
       "depthRank": 2,
       "sleeperId": "6819"
-    },
-    {
-      "id": "roman-wilson",
-      "name": "Roman Wilson",
-      "pos": "WR",
-      "nflTeam": "PIT",
-      "depthRank": 3,
-      "sleeperId": "11630"
     },
     {
       "id": "germie-bernard",

@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -2157,7 +2157,7 @@
       "round": 17,
       "slot": 12,
       "rosterId": 12,
-      "playerId": "colbie-young",
+      "playerId": null,
       "playerName": "Colbie Young",
       "pos": "WR",
       "nflTeam": "CIN",
@@ -2531,7 +2531,7 @@
       "round": 19,
       "slot": 2,
       "rosterId": 10,
-      "playerId": null,
+      "playerId": "skyler-bell",
       "playerName": "Skyler Bell",
       "pos": "WR",
       "nflTeam": "BUF",
@@ -2667,6 +2667,127 @@
       "playerName": "Jack Bech",
       "pos": "WR",
       "nflTeam": "LV",
+      "mine": false
+    },
+    {
+      "pick": 240,
+      "round": 20,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "devaughn-vele",
+      "playerName": "Devaughn Vele",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 241,
+      "round": 21,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "seth-mcgowan",
+      "playerName": "Seth McGowan",
+      "pos": "RB",
+      "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 242,
+      "round": 21,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "darren-waller",
+      "playerName": "Darren Waller",
+      "pos": "TE",
+      "nflTeam": "CAR",
+      "mine": false
+    },
+    {
+      "pick": 243,
+      "round": 21,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Chris Brazzell",
+      "pos": "WR",
+      "nflTeam": "CAR",
+      "mine": false
+    },
+    {
+      "pick": 244,
+      "round": 21,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "elic-ayomanor",
+      "playerName": "Elic Ayomanor",
+      "pos": "WR",
+      "nflTeam": "TEN",
+      "mine": false
+    },
+    {
+      "pick": 245,
+      "round": 21,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "ray-davis",
+      "playerName": "Ray Davis",
+      "pos": "RB",
+      "nflTeam": "BUF",
+      "mine": false
+    },
+    {
+      "pick": 246,
+      "round": 21,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "kyle-williams",
+      "playerName": "Kyle Williams",
+      "pos": "WR",
+      "nflTeam": "NE",
+      "mine": false
+    },
+    {
+      "pick": 247,
+      "round": 21,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "jerry-jeudy",
+      "playerName": "Jerry Jeudy",
+      "pos": "WR",
+      "nflTeam": "CLE",
+      "mine": false
+    },
+    {
+      "pick": 248,
+      "round": 21,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Adam Randall",
+      "pos": "RB",
+      "nflTeam": "BAL",
+      "mine": false
+    },
+    {
+      "pick": 249,
+      "round": 21,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Bryce Lance",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "mine": true
+    },
+    {
+      "pick": 250,
+      "round": 21,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "david-njoku",
+      "playerName": "David Njoku",
+      "pos": "TE",
+      "nflTeam": "LAC",
       "mine": false
     }
   ]
