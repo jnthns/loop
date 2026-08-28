@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -2491,6 +2491,182 @@
       "playerName": "Aaron Rodgers",
       "pos": "QB",
       "nflTeam": "PIT",
+      "mine": false
+    },
+    {
+      "pick": 224,
+      "round": 19,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "alvin-kamara",
+      "playerName": "Alvin Kamara",
+      "pos": "RB",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 225,
+      "round": 19,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Mac Jones",
+      "pos": "QB",
+      "nflTeam": "SF",
+      "mine": true
+    },
+    {
+      "pick": 226,
+      "round": 19,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "kimani-vidal",
+      "playerName": "Kimani Vidal",
+      "pos": "RB",
+      "nflTeam": "LAC",
+      "mine": false
+    },
+    {
+      "pick": 227,
+      "round": 19,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "Skyler Bell",
+      "pos": "WR",
+      "nflTeam": "BUF",
+      "mine": false
+    },
+    {
+      "pick": 228,
+      "round": 19,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": "tyreek-hill",
+      "playerName": "Tyreek Hill",
+      "pos": "WR",
+      "nflTeam": "",
+      "mine": false
+    },
+    {
+      "pick": 229,
+      "round": 20,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Michael Mayer",
+      "pos": "TE",
+      "nflTeam": "LV",
+      "mine": false
+    },
+    {
+      "pick": 230,
+      "round": 20,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "jaylin-noel",
+      "playerName": "Jaylin Noel",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "mine": false
+    },
+    {
+      "pick": 231,
+      "round": 20,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": null,
+      "playerName": "Kirk Cousins",
+      "pos": "QB",
+      "nflTeam": "LV",
+      "mine": false
+    },
+    {
+      "pick": 232,
+      "round": 20,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "tory-horton",
+      "playerName": "Tory Horton",
+      "pos": "WR",
+      "nflTeam": "SEA",
+      "mine": true
+    },
+    {
+      "pick": 233,
+      "round": 20,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "cade-otton",
+      "playerName": "Cade Otton",
+      "pos": "TE",
+      "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 234,
+      "round": 20,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": null,
+      "playerName": "Cooper Kupp",
+      "pos": "WR",
+      "nflTeam": "SEA",
+      "mine": false
+    },
+    {
+      "pick": 235,
+      "round": 20,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": null,
+      "playerName": "Reggie Virgil",
+      "pos": "WR",
+      "nflTeam": "ARI",
+      "mine": false
+    },
+    {
+      "pick": 236,
+      "round": 20,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "ryan-flournoy",
+      "playerName": "Ryan Flournoy",
+      "pos": "WR",
+      "nflTeam": "DAL",
+      "mine": false
+    },
+    {
+      "pick": 237,
+      "round": 20,
+      "slot": 9,
+      "rosterId": 8,
+      "playerId": null,
+      "playerName": "J.J. McCarthy",
+      "pos": "QB",
+      "nflTeam": "MIN",
+      "mine": false
+    },
+    {
+      "pick": 238,
+      "round": 20,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Greg Dulcich",
+      "pos": "TE",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 239,
+      "round": 20,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": null,
+      "playerName": "Jack Bech",
+      "pos": "WR",
+      "nflTeam": "LV",
       "mine": false
     }
   ]
