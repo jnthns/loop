@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-29T07:02:48.783Z",
-  "snapshotAt": "2026-08-28T19:13:13Z",
+  "capturedAt": "2026-08-29T16:42:03.907Z",
+  "snapshotAt": "2026-08-29T12:56:08Z",
   "season": "2026",
   "entries": [
     {
@@ -1388,19 +1388,11 @@
       "sleeperId": "12481"
     },
     {
-      "id": "tyrone-tracy",
-      "name": "Tyrone Tracy",
-      "pos": "RB",
-      "nflTeam": "NYG",
-      "depthRank": 2,
-      "sleeperId": "11655"
-    },
-    {
       "id": "najee-harris",
       "name": "Najee Harris",
       "pos": "RB",
       "nflTeam": "NYG",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "7528"
     },
     {
@@ -1408,8 +1400,16 @@
       "name": "Devin Singletary",
       "pos": "RB",
       "nflTeam": "NYG",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "6130"
+    },
+    {
+      "id": "tyrone-tracy",
+      "name": "Tyrone Tracy",
+      "pos": "RB",
+      "nflTeam": "NYG",
+      "depthRank": 4,
+      "sleeperId": "11655"
     },
     {
       "id": "isaiah-likely",
@@ -1984,7 +1984,7 @@
       "name": "Antonio Williams",
       "pos": "WR",
       "nflTeam": "WAS",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "13301"
     }
   ],

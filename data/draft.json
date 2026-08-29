@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -2909,6 +2909,28 @@
       "playerName": "Marlin Klein",
       "pos": "TE",
       "nflTeam": "HOU",
+      "mine": false
+    },
+    {
+      "pick": 262,
+      "round": 22,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Tanner Koziol",
+      "pos": "TE",
+      "nflTeam": "JAX",
+      "mine": false
+    },
+    {
+      "pick": 263,
+      "round": 22,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "devin-neal",
+      "playerName": "Devin Neal",
+      "pos": "RB",
+      "nflTeam": "NO",
       "mine": false
     }
   ]
