@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -2788,6 +2788,127 @@
       "playerName": "David Njoku",
       "pos": "TE",
       "nflTeam": "LAC",
+      "mine": false
+    },
+    {
+      "pick": 251,
+      "round": 21,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": "malik-benson",
+      "playerName": "Malik Benson",
+      "pos": "WR",
+      "nflTeam": "LV",
+      "mine": false
+    },
+    {
+      "pick": 252,
+      "round": 21,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Kevin Coleman",
+      "pos": "WR",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 253,
+      "round": 22,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Justin Fields",
+      "pos": "QB",
+      "nflTeam": "KC",
+      "mine": false
+    },
+    {
+      "pick": 254,
+      "round": 22,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "Brenen Thompson",
+      "pos": "WR",
+      "nflTeam": "LAC",
+      "mine": false
+    },
+    {
+      "pick": 255,
+      "round": 22,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": "jake-tonges",
+      "playerName": "Jake Tonges",
+      "pos": "TE",
+      "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 256,
+      "round": 22,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "troy-franklin",
+      "playerName": "Troy Franklin",
+      "pos": "WR",
+      "nflTeam": "DEN",
+      "mine": true
+    },
+    {
+      "pick": 257,
+      "round": 22,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "keenan-allen",
+      "playerName": "Keenan Allen",
+      "pos": "WR",
+      "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 258,
+      "round": 22,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": null,
+      "playerName": "Ollie Gordon",
+      "pos": "RB",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 259,
+      "round": 22,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": null,
+      "playerName": "Zavion Thomas",
+      "pos": "WR",
+      "nflTeam": "CHI",
+      "mine": false
+    },
+    {
+      "pick": 260,
+      "round": 22,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "colby-parkinson",
+      "playerName": "Colby Parkinson",
+      "pos": "TE",
+      "nflTeam": "LAR",
+      "mine": false
+    },
+    {
+      "pick": 261,
+      "round": 22,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": null,
+      "playerName": "Marlin Klein",
+      "pos": "TE",
+      "nflTeam": "HOU",
       "mine": false
     }
   ]
