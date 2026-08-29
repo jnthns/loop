@@ -2932,6 +2932,83 @@
       "pos": "RB",
       "nflTeam": "NO",
       "mine": false
+    },
+    {
+      "pick": 264,
+      "round": 22,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": null,
+      "playerName": "Eli Heidenreich",
+      "pos": "RB",
+      "nflTeam": "PIT",
+      "mine": false
+    },
+    {
+      "pick": 265,
+      "round": 23,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": null,
+      "playerName": "J'Mari Taylor",
+      "pos": "RB",
+      "nflTeam": "JAX",
+      "mine": false
+    },
+    {
+      "pick": 266,
+      "round": 23,
+      "slot": 11,
+      "rosterId": 1,
+      "playerId": null,
+      "playerName": "Keon Coleman",
+      "pos": "WR",
+      "nflTeam": "BUF",
+      "mine": false
+    },
+    {
+      "pick": 267,
+      "round": 23,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Matt Hibner",
+      "pos": "TE",
+      "nflTeam": "BAL",
+      "mine": false
+    },
+    {
+      "pick": 268,
+      "round": 23,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": null,
+      "playerName": "Jordan James",
+      "pos": "RB",
+      "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 269,
+      "round": 23,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "taylen-green",
+      "playerName": "Taylen Green",
+      "pos": "QB",
+      "nflTeam": "CLE",
+      "mine": false
+    },
+    {
+      "pick": 270,
+      "round": 23,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": null,
+      "playerName": "Isaiah Davis",
+      "pos": "RB",
+      "nflTeam": "NYJ",
+      "mine": false
     }
   ]
 }
