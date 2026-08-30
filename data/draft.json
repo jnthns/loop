@@ -3119,6 +3119,17 @@
       "pos": "RB",
       "nflTeam": "CAR",
       "mine": true
+    },
+    {
+      "pick": 281,
+      "round": 24,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Jam Miller",
+      "pos": "RB",
+      "nflTeam": "",
+      "mine": false
     }
   ]
 }
