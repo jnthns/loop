@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-08-30T11:52:56.003Z",
-  "snapshotAt": "2026-08-29T12:56:08Z",
+  "capturedAt": "2026-08-30T16:39:25.689Z",
+  "snapshotAt": "2026-08-30T12:30:54Z",
   "season": "2026",
   "entries": [
     {
@@ -728,7 +728,7 @@
       "name": "Seth McGowan",
       "pos": "RB",
       "nflTeam": "IND",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "13424"
     },
     {
@@ -770,6 +770,14 @@
       "nflTeam": "JAX",
       "depthRank": 1,
       "sleeperId": "7523"
+    },
+    {
+      "id": "quinn-ewers",
+      "name": "Quinn Ewers",
+      "pos": "QB",
+      "nflTeam": "JAX",
+      "depthRank": 2,
+      "sleeperId": "12500"
     },
     {
       "id": "bhayshul-tuten",
@@ -1082,14 +1090,6 @@
       "nflTeam": "MIA",
       "depthRank": 1,
       "sleeperId": "8161"
-    },
-    {
-      "id": "quinn-ewers",
-      "name": "Quinn Ewers",
-      "pos": "QB",
-      "nflTeam": "MIA",
-      "depthRank": 2,
-      "sleeperId": "12500"
     },
     {
       "id": "de-von-achane",
