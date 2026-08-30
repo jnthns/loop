@@ -2531,7 +2531,7 @@
       "round": 19,
       "slot": 2,
       "rosterId": 10,
-      "playerId": "skyler-bell",
+      "playerId": null,
       "playerName": "Skyler Bell",
       "pos": "WR",
       "nflTeam": "BUF",
@@ -2883,7 +2883,7 @@
       "round": 22,
       "slot": 7,
       "rosterId": 4,
-      "playerId": null,
+      "playerId": "zavion-thomas",
       "playerName": "Zavion Thomas",
       "pos": "WR",
       "nflTeam": "CHI",
@@ -2993,7 +2993,7 @@
       "round": 23,
       "slot": 8,
       "rosterId": 9,
-      "playerId": "taylen-green",
+      "playerId": null,
       "playerName": "Taylen Green",
       "pos": "QB",
       "nflTeam": "CLE",
@@ -3009,6 +3009,116 @@
       "pos": "RB",
       "nflTeam": "NYJ",
       "mine": false
+    },
+    {
+      "pick": 271,
+      "round": 23,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "sean-tucker",
+      "playerName": "Sean Tucker",
+      "pos": "RB",
+      "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 272,
+      "round": 23,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Jack Strand",
+      "pos": "QB",
+      "nflTeam": "ATL",
+      "mine": false
+    },
+    {
+      "pick": 273,
+      "round": 23,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": "barion-brown",
+      "playerName": "Barion Brown",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "mine": true
+    },
+    {
+      "pick": 274,
+      "round": 23,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": null,
+      "playerName": "Samaje Perine",
+      "pos": "RB",
+      "nflTeam": "CIN",
+      "mine": false
+    },
+    {
+      "pick": 275,
+      "round": 23,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "CJ Daniels",
+      "pos": "WR",
+      "nflTeam": "LAR",
+      "mine": false
+    },
+    {
+      "pick": 276,
+      "round": 23,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Will Kacmarek",
+      "pos": "TE",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 277,
+      "round": 24,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Tyson Bagent",
+      "pos": "QB",
+      "nflTeam": "CHI",
+      "mine": false
+    },
+    {
+      "pick": 278,
+      "round": 24,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "Erick All",
+      "pos": "TE",
+      "nflTeam": "CIN",
+      "mine": false
+    },
+    {
+      "pick": 279,
+      "round": 24,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": null,
+      "playerName": "Jameis Winston",
+      "pos": "QB",
+      "nflTeam": "NYG",
+      "mine": false
+    },
+    {
+      "pick": 280,
+      "round": 24,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Trevor Etienne",
+      "pos": "RB",
+      "nflTeam": "CAR",
+      "mine": true
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-29T20:54:09.594Z",
+  "capturedAt": "2026-08-30T05:22:10.741Z",
   "snapshotAt": "2026-08-29T12:56:08Z",
   "season": "2026",
   "entries": [
@@ -60,14 +60,6 @@
       "sleeperId": "10232"
     },
     {
-      "id": "jack-strand",
-      "name": "Jack Strand",
-      "pos": "QB",
-      "nflTeam": "ATL",
-      "depthRank": 4,
-      "sleeperId": "13602"
-    },
-    {
       "id": "bijan-robinson",
       "name": "Bijan Robinson",
       "pos": "RB",
@@ -122,14 +114,6 @@
       "nflTeam": "BAL",
       "depthRank": 1,
       "sleeperId": "3198"
-    },
-    {
-      "id": "justice-hill",
-      "name": "Justice Hill",
-      "pos": "RB",
-      "nflTeam": "BAL",
-      "depthRank": 2,
-      "sleeperId": "5995"
     },
     {
       "id": "mark-andrews",
@@ -210,14 +194,6 @@
       "nflTeam": "BUF",
       "depthRank": 2,
       "sleeperId": "8134"
-    },
-    {
-      "id": "skyler-bell",
-      "name": "Skyler Bell",
-      "pos": "WR",
-      "nflTeam": "BUF",
-      "depthRank": 5,
-      "sleeperId": "13402"
     },
     {
       "id": "bryce-young",
@@ -316,6 +292,14 @@
       "sleeperId": "12519"
     },
     {
+      "id": "zavion-thomas",
+      "name": "Zavion Thomas",
+      "pos": "WR",
+      "nflTeam": "CHI",
+      "depthRank": 5,
+      "sleeperId": "13411"
+    },
+    {
       "id": "joe-burrow",
       "name": "Joe Burrow",
       "pos": "QB",
@@ -354,22 +338,6 @@
       "nflTeam": "CIN",
       "depthRank": 12,
       "sleeperId": "13264"
-    },
-    {
-      "id": "dillon-gabriel",
-      "name": "Dillon Gabriel",
-      "pos": "QB",
-      "nflTeam": "CLE",
-      "depthRank": 3,
-      "sleeperId": "12486"
-    },
-    {
-      "id": "taylen-green",
-      "name": "Taylen Green",
-      "pos": "QB",
-      "nflTeam": "CLE",
-      "depthRank": 4,
-      "sleeperId": "13306"
     },
     {
       "id": "quinshon-judkins",
@@ -980,14 +948,6 @@
       "sleeperId": "2133"
     },
     {
-      "id": "tutu-atwell",
-      "name": "Tutu Atwell",
-      "pos": "WR",
-      "nflTeam": "LA",
-      "depthRank": 5,
-      "sleeperId": "7562"
-    },
-    {
       "id": "justin-herbert",
       "name": "Justin Herbert",
       "pos": "QB",
@@ -1122,6 +1082,14 @@
       "nflTeam": "MIA",
       "depthRank": 1,
       "sleeperId": "8161"
+    },
+    {
+      "id": "quinn-ewers",
+      "name": "Quinn Ewers",
+      "pos": "QB",
+      "nflTeam": "MIA",
+      "depthRank": 2,
+      "sleeperId": "12500"
     },
     {
       "id": "de-von-achane",
@@ -1450,14 +1418,6 @@
       "nflTeam": "NYG",
       "depthRank": 5,
       "sleeperId": "2078"
-    },
-    {
-      "id": "calvin-austin",
-      "name": "Calvin Austin",
-      "pos": "WR",
-      "nflTeam": "NYG",
-      "depthRank": 12,
-      "sleeperId": "8125"
     },
     {
       "id": "geno-smith",

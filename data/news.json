@@ -1,5 +1,752 @@
 [
   {
+    "id": "l4ikyvccrcm9",
+    "title": "Report: Saints will keep Spencer Rattler despite trade interest",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-will-keep-spencer-rattler-despite-trade-interest",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-30T02:42:06.000Z",
+    "summary": "The Saints waived fourth quarterback Hunter Dekkers on Saturday, leaving Spencer Rattler and Zach Wilson behind Tyler Shough.",
+    "tags": [
+      "league-news",
+      "trade",
+      "roster-move",
+      "NO"
+    ],
+    "players": [
+      "tyler-shough"
+    ],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "103dsfjxg7gc3",
+    "title": "Report: Saints will keep Spencer Rattler despite trade interest",
+    "url": "https://sports.yahoo.com/articles/report-saints-keep-spencer-rattler-024206201.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-30T02:42:06.000Z",
+    "summary": "The Saints waived fourth quarterback Hunter Dekkers on Saturday, leaving Spencer Rattler and Zach Wilson behind Tyler Shough.",
+    "tags": [
+      "league-news",
+      "trade",
+      "roster-move",
+      "NO"
+    ],
+    "players": [
+      "tyler-shough"
+    ],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "ivg5e51ah84s7",
+    "title": "Sources: Cowboys acquire OT Jones in exchange for two draft picks",
+    "url": "https://www.espn.com/nfl/story/_/id/49766398/sources-cowboys-acquire-ot-jones-exchange-two-draft-picks",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-08-30T02:26:08.000Z",
+    "summary": "The Steelers are sending 2023 first-round pick Broderick Jones and a fourth-round pick in 2027 to the Cowboys in exchange for a 2027 third- and sixth-round pick, sources told ESPN.",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "DAL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "1plhkgmq9g9zy",
+    "title": "Steelers trade Broderick Jones to Cowboys: Pick compensation, trade grades",
+    "url": "https://www.cbssports.com/nfl/news/cowboys-steelers-trade-broderick-jones",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-30T01:38:59.000Z",
+    "summary": "Pittsburgh is moving on from Jones after declining his fifth-year option and selecting Max Ihenachor in the first round",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "9s49bh16f9jxx",
+    "title": "Titans roster cut tracker",
+    "url": "https://sports.yahoo.com/articles/titans-roster-cut-tracker-010856517.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-30T01:08:56.000Z",
+    "summary": "Following all of the Titans roster cuts as they happen.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "1nghevk1ytud8c",
+    "title": "Cowboys acquire former first-round draft pick Broderick Jones to beef up offensive line",
+    "url": "https://sports.yahoo.com/articles/cowboys-acquire-former-first-round-000741132.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-30T00:07:41.000Z",
+    "summary": "The Cowboys are bolstering their offensive line headed into the season.",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "lr89hjinox95",
+    "title": "How it works: NFL Practice Squad rules, eligibility, salary, waiver wire, and more",
+    "url": "https://sports.yahoo.com/articles/works-nfl-practice-squad-rules-000000589.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-30T00:00:00.000Z",
+    "summary": "Who’s eligible and how many players can be signed?",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "9z1y1a1xtqz0w",
+    "title": "Dolphins trade QB Quinn Ewers to Jaguars: Miami, Jacksonville earn middling grades",
+    "url": "https://www.cbssports.com/nfl/news/dolphins-trade-qb-quinn-ewers-jaguars",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-29T23:48:02.000Z",
+    "summary": "Miami is sending Ewers to Jacksonville for a Day 3 selection in the 2028 NFL Draft",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "JAX",
+      "MIA"
+    ],
+    "players": [
+      "quinn-ewers"
+    ],
+    "teams": [
+      "JAX",
+      "MIA"
+    ]
+  },
+  {
+    "id": "otkt31k0gry7",
+    "title": "Isaiah Hodgins headlines first 8 cuts by Giants",
+    "url": "https://sports.yahoo.com/articles/ny-giants-cut-8-including-233509837.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T23:35:09.000Z",
+    "summary": "The Giants cut a former key piece of their offense as they trim their roster to 53 men.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1rd3ixmbd34ba",
+    "title": "Bills releasing former Super Bowl champion Mecole Hardman",
+    "url": "https://sports.yahoo.com/articles/bills-releasing-former-super-bowl-233428144.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T23:34:28.000Z",
+    "summary": "The Buffalo Bills released wide receiver Mecole Hardman, a three-time Super Bowl champion, as they finalized their 53-man roster for Week 1.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "tc68py1h7pq8k",
+    "title": "Giants cut eight, including WR Isaiah Hodgins",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-cut-eight-including-wr-isaiah-hodgins",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-29T23:13:35.000Z",
+    "summary": "The Giants have begun reducing their roster to 53 players.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1sz48e29nwly4",
+    "title": "Giants cut eight, including WR Isaiah Hodgins",
+    "url": "https://sports.yahoo.com/articles/giants-cut-eight-including-wr-231335678.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T23:13:35.000Z",
+    "summary": "The Giants have begun reducing their roster to 53 players.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "b2yuf4tiq2fm",
+    "title": "Raiders cut tracker 2026: News and rumors on cutdown day",
+    "url": "https://sports.yahoo.com/articles/raiders-cut-tracker-2026-news-052700161.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T23:03:42.000Z",
+    "summary": "All the latest roster moves here",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "LV"
+    ],
+    "players": [],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "1q2vb2k11hv7ec",
+    "title": "Kick/punt returner for each team?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w20qc0/kickpunt_returner_for_each_team",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-29T22:59:34.000Z",
+    "summary": "For those of us who are in leagues with points for Punt/kick return yards, who is likely to be the starter for each team? In rookie drafts I picked up Zavion Thomas who just had that 98yrd return and Kaden Wetjen for the Steelers who has looked great. Any other rookies we should know about? Or just in general other no named guys who's role has transitioned across to more of a special teams positio",
+    "tags": [
+      "dynasty",
+      "rookie",
+      "usage",
+      "PIT"
+    ],
+    "players": [
+      "zavion-thomas"
+    ],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "14bckkj4pieob",
+    "title": "Breaking Down The Jaguars Trade for Dolphins QB Quinn Ewers",
+    "url": "https://sports.yahoo.com/articles/breaking-down-jaguars-trade-dolphins-225608693.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T22:56:08.000Z",
+    "summary": "The Jacksonville Jaguars have acquired Quinn Ewers from the Miami Dolphins, adding a young developmental quarterback with starting experience ahead of Sunday's 53-man roster deadline. We break down the move.",
+    "tags": [
+      "league-news",
+      "trade",
+      "JAX",
+      "MIA"
+    ],
+    "players": [
+      "jacksonville-jaguars",
+      "quinn-ewers"
+    ],
+    "teams": [
+      "JAX",
+      "MIA"
+    ]
+  },
+  {
+    "id": "18fjzaj1gge9f5",
+    "title": "Report: Jets waive DT Mazi Smith",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jets-waive-dt-mazi-smith",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-29T22:50:27.000Z",
+    "summary": "The Jets are releasing defensive tackle Mazi Smith, Adam Schefter of ESPN reports.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "mgbzp9nbgv2z",
+    "title": "Report: Jets waive DT Mazi Smith",
+    "url": "https://sports.yahoo.com/articles/report-jets-waive-dt-mazi-225027368.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T22:50:27.000Z",
+    "summary": "The Jets are releasing defensive tackle Mazi Smith, Adam Schefter of ESPN reports.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "1ejo5v739ic1n",
+    "title": "The Saints waived WR Bub Means, according to a source.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w20cqe/the_saints_waived_wr_bub_means_according_to_a",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-08-29T22:42:54.000Z",
+    "summary": "&#32; submitted by &#32; /u/Ma1ikNabers [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "roster-move",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "w2tlm2jr7uvc",
+    "title": "Predicting the Jets’ 53-man roster for 2026 as cut day looms",
+    "url": "https://sports.yahoo.com/articles/predicting-jets-53-man-roster-223124649.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T22:31:24.000Z",
+    "summary": "The Jets don’t have many spots up for grabs. That doesn’t mean it will be easy for coach Aaron Glenn and general manager Darren Mougey.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "11pebe11ydinqn",
+    "title": "Grade the trade: Cowboys take a chance on former Steelers first-round pick, OT Broderick Jones",
+    "url": "https://sports.yahoo.com/nfl/article/grade-the-trade-cowboys-take-a-chance-on-former-steelers-first-round-pick-ot-broderick-jones-221448814.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T22:14:48.000Z",
+    "summary": "The Cowboys got some insurance behind their offensive tackles.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "u6vut8rfnstw",
+    "title": "BREAKING: Cowboys trade with Steelers for OT Broderick Jones",
+    "url": "https://sports.yahoo.com/articles/breaking-cowboys-trade-steelers-ot-221320673.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T22:13:20.000Z",
+    "summary": "The Cowboys have made a trade for tackle help.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "1fgvyh9a95kjt",
+    "title": "Steelers trade Broderick Jones to Cowboys",
+    "url": "https://sports.yahoo.com/articles/steelers-trade-broderick-jones-cowboys-221148870.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T22:11:48.000Z",
+    "summary": "The Steelers have traded their 2023 first-round pick to the Dallas Cowboys.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "l9fp711tcbruh",
+    "title": "Cowboys acquire former first-round pick in trade with Steelers",
+    "url": "https://sports.yahoo.com/articles/cowboys-acquire-former-first-round-220840320.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T22:08:40.000Z",
+    "summary": "The Cowboys traded for former Steelers offensive tackle Broderick Jones on eve of the 2026 NFL season to shore up their tackle depth.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "1ifa8ax18zeh0z",
+    "title": "Steelers trade Broderick Jones to Cowboys",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-trade-broderick-jones-to-cowboys",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-29T22:03:56.000Z",
+    "summary": "After three seasons in Pittsburgh, offensive tackle Broderick Jones will be moving to Dallas.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "avp4kzw5j5qh",
+    "title": "Steelers trade Broderick Jones to Cowboys",
+    "url": "https://sports.yahoo.com/articles/steelers-trade-broderick-jones-cowboys-220356375.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T22:03:56.000Z",
+    "summary": "After three seasons in Pittsburgh, offensive tackle Broderick Jones will be moving to Dallas.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "1tool6pdg30cp",
+    "title": "Colts backup QB battle heads to split decision after preseason finale",
+    "url": "https://sports.yahoo.com/articles/colts-backup-qb-battle-heads-220106390.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T22:01:06.000Z",
+    "summary": "There are just 24 hours until all 32 NFL franchises must decrease their rosters from 90 players to a final 53-man roster, by Sunday at 6 p.m.",
+    "tags": [
+      "league-news",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "od1o9ossgo8o",
+    "title": "Jets release Bailey Zappe as backup quarterback competition gets clearer",
+    "url": "https://sports.yahoo.com/articles/jets-release-bailey-zappe-backup-215952019.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T21:59:52.000Z",
+    "summary": "If such a competition ever really existed.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "13xu6iyhgzu6c",
+    "title": "Raiders expected to name Kirk Cousins Week 1 starter over No. 1 pick Fernando Mendoza",
+    "url": "https://www.cbssports.com/nfl/news/raiders-starting-qb-kirk-cousins-fernando-mendoza",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-08-29T21:56:23.000Z",
+    "summary": "The Raiders plan to open the season with the 38-year-old Cousins under center while Mendoza begins his NFL career as a backup",
+    "tags": [
+      "league-news",
+      "usage",
+      "LV"
+    ],
+    "players": [
+      "fernando-mendoza"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "1u4ldakuwqy8a",
+    "title": "NFL waiver wire rules and order",
+    "url": "https://sports.yahoo.com/articles/nfl-waiver-wire-rules-order-214731010.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T21:47:31.000Z",
+    "summary": "NFL waiver wire rules and what the Denver Broncos might do on cut day.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "DEN"
+    ],
+    "players": [],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "1ur1hph9snu8d",
+    "title": "Denver Broncos have waived cornerback Ricardo Hallman",
+    "url": "https://sports.yahoo.com/articles/denver-broncos-waived-cornerback-ricardo-214505388.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T21:45:05.000Z",
+    "summary": "According to Mike Klis if 9News, the Denver Broncos have waived defensive back Ricardo Hallman.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "DEN"
+    ],
+    "players": [],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "15rtjj51vnq5ml",
+    "title": "Chiefs are reportedly trading for a left tackle from the Ravens",
+    "url": "https://sports.yahoo.com/articles/chiefs-reportedly-trading-left-tackle-214500415.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T21:45:00.000Z",
+    "summary": "Kansas City made another preseason trade to acquire an offensive lineman on Saturday night.",
+    "tags": [
+      "league-news",
+      "trade",
+      "BAL",
+      "KC"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "KC"
+    ]
+  },
+  {
+    "id": "1u71sy0hi7ct4",
+    "title": "Ravens trade UDFA OT Diego Pounds to Chiefs",
+    "url": "https://sports.yahoo.com/articles/ravens-trade-udfa-ot-diego-214428921.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T21:44:28.000Z",
+    "summary": "The Ravens are making another trade before 53-man roster cuts, sending preseason standout Diego Pounds to the Chiefs.",
+    "tags": [
+      "league-news",
+      "trade",
+      "BAL",
+      "KC"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "KC"
+    ]
+  },
+  {
+    "id": "13f68371k8d0db",
+    "title": "Ravens agree to trade OT Diego Pounds to the Chiefs",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-agree-to-trade-ot-diego-pounds-to-the-chiefs",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-29T21:43:26.000Z",
+    "summary": "The Ravens and Chiefs have agreed to a trade ahead of Sunday's deadline for teams to set their initial 53-man rosters.",
+    "tags": [
+      "league-news",
+      "trade",
+      "BAL",
+      "KC"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "KC"
+    ]
+  },
+  {
+    "id": "d257ejlzz5hf",
+    "title": "Ravens agree to trade OT Diego Pounds to the Chiefs",
+    "url": "https://sports.yahoo.com/articles/ravens-agree-trade-ot-diego-214326648.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T21:43:26.000Z",
+    "summary": "The Ravens and Chiefs have agreed to a trade ahead of Sunday's deadline for teams to set their initial 53-man rosters.",
+    "tags": [
+      "league-news",
+      "trade",
+      "BAL",
+      "KC"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "KC"
+    ]
+  },
+  {
+    "id": "1pv5qol1yt7mzj",
+    "title": "Jets roster cutdown tracker with news and live updates",
+    "url": "https://sports.yahoo.com/articles/jets-roster-cutdown-tracker-news-214137259.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-29T21:41:37.000Z",
+    "summary": "Cutdown day is upon us. The Jets have until 6:00 pm Sunday evening to cut their roster from 90 players down to 53. With the final preseason game in the books, the Jets will get to work. I think it is fair to say that most of the cuts will not come as a surprise. […]",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "1yvo9twu1t89q",
+    "title": "Patriots release RB Hassan Haskins",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-release-rb-hassan-haskins",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-29T21:30:21.000Z",
+    "summary": "The Patriots traded for running back Corey Kiner on Saturday and they made space for him by parting ways with another back.",
+    "tags": [
+      "league-news",
+      "trade",
+      "roster-move",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "jegpbk1mdxblo",
+    "title": "Steelers release LB Jamin Davis",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-release-lb-jamin-davis",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-29T21:18:04.000Z",
+    "summary": "Linebacker Jamin Davis did not make it past final cuts with the Steelers.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "sr7e9rzt4gxd",
+    "title": "Falcons waive seven players, release three others",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-waive-seven-players-release-three-others",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-29T21:02:51.000Z",
+    "summary": "The Falcons have started making moves ahead of Sunday's deadline to cut their roster to 53 players.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "1xykpgdcvvygf",
+    "title": "Report: 49ers cut Adrian Martinez as Kurtis Rourke wins No. 3 QB job",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-49ers-cut-adrian-martinez-as-kurtis-rourke-wins-no-3-qb-job",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-29T21:02:46.000Z",
+    "summary": "The 49ers didn't see much of Curtis Rourke in the preseason as he missed the final two games with fractured ribs.",
+    "tags": [
+      "league-news",
+      "injury",
+      "roster-move",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "jhxamz1l8yusb",
     "title": "Dolphins trade QB Quinn Ewers to Jaguars",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-trade-qb-quinn-ewers-to-jaguars",
@@ -13,7 +760,9 @@
       "JAX",
       "MIA"
     ],
-    "players": [],
+    "players": [
+      "quinn-ewers"
+    ],
     "teams": [
       "JAX",
       "MIA"
@@ -2601,7 +3350,7 @@
   },
   {
     "id": "1b8wqmdputumd",
-    "title": "2026 NFL offseason trade grades: Tutu Atwell, Kayshon Boutte",
+    "title": "2026 NFL offseason trade grades: Broderick Jones, Tutu Atwell",
     "url": "https://www.espn.com/nfl/story/_/id/48915601/2026-nfl-offseason-trade-grades-best-worst-moves-training-camp-preseason",
     "source": "ESPN",
     "sourceId": "espn-api",
@@ -2617,7 +3366,9 @@
       "PHI",
       "ATL",
       "KC",
-      "MIA"
+      "MIA",
+      "DAL",
+      "PIT"
     ],
     "players": [
       "kayshon-boutte"
@@ -2630,7 +3381,9 @@
       "PHI",
       "ATL",
       "KC",
-      "MIA"
+      "MIA",
+      "DAL",
+      "PIT"
     ]
   },
   {
@@ -6748,719 +7501,6 @@
     "players": [],
     "teams": [
       "ARI"
-    ]
-  },
-  {
-    "id": "1tjed1lt7jcop",
-    "title": "Cardinals sign S Josh Minkins, P Jack Browning",
-    "url": "https://sports.yahoo.com/articles/cardinals-sign-josh-minkins-p-155418045.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T15:54:18.000Z",
-    "summary": "The Cardinals will be cutting their roster to 53 players this weekend, but that didn't stop them from adding a pair of players on Tuesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "s4fa4ctwwi7w",
-    "title": "Arizona Cardinals sign pair of players ahead of final preseason matchup",
-    "url": "https://sports.yahoo.com/articles/arizona-cardinals-sign-pair-players-154254974.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T15:42:54.000Z",
-    "summary": "Cardinals make a pair of moves to get ready for the final preseason game.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "1b1kempukl1kf",
-    "title": "Alec Pierce may return to practice this week",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alec-pierce-may-return-to-practice-this-week",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T15:39:28.000Z",
-    "summary": "There is some positive news on the injury front for the Colts.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "alec-pierce"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "zwekmun3uggi",
-    "title": "Alec Pierce may return to practice this week",
-    "url": "https://sports.yahoo.com/articles/alec-pierce-may-return-practice-153928271.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T15:39:28.000Z",
-    "summary": "There is some positive news on the injury front for the Colts.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "alec-pierce"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1c2djeh5onrwh",
-    "title": "Aaron Banks, the Packers, and the sunk cost fallacy",
-    "url": "https://sports.yahoo.com/articles/aaron-banks-packers-sunk-cost-153500935.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T15:35:00.000Z",
-    "summary": "The Packers moved on from one failed free agent signing this spring; might they do so again next offseason?",
-    "tags": [
-      "league-news",
-      "contract",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "fegpkrrp26wf",
-    "title": "Steelers sign DB Brandon Hill, release WR Joaquin Davis",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-sign-db-brandon-hill-release-wr-joaquin-davis",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T15:10:16.000Z",
-    "summary": "The Steelers have added a piece to their secondary.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "1dk7n5ze9xaz5",
-    "title": "Jets cut Cade York, leaving Jason Sanders as only kicker on the roster",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-cut-cade-york-leaving-jason-sanders-as-only-kicker-on-the-roster",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T14:56:10.000Z",
-    "summary": "Cade York has lost the Jets' kicking competition.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "1jt9nxoc1obk2",
-    "title": "East Palestine trailer park owner clears the air on Jed York arrest",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/east-palestine-trailer-park-owner-clears-the-air-on-jed-york-arrest",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T14:21:50.000Z",
-    "summary": "One of the most stunning aspects of the news regarding 49ers owner Jed York's recent prostitution-related arrest was that it happened at a trailer park.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "44blp4fbmn3k",
-    "title": "Dynasty Trade Calculator: 4 Massive Flaws & How to Exploit Them",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vy0u6i/dynasty_trade_calculator_4_massive_flaws_how_to",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-25T14:05:54.000Z",
-    "summary": "Getting a KTC screenshot to justify a garbage trade offer is the fantasy football equivalent of an unsolicited d*** pic. You didn't ask for it, it makes zero sense, and somehow the guy sending it thinks it's a flex. A lot of guys pride themselves on never touching trade calculators. That's fine. But let's be real, half your league uses them religiously. Ignoring them completely doesn't make you su",
-    "tags": [
-      "dynasty",
-      "trade"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1herf3k83k1ym",
-    "title": "Dolphins rookie Trey Moore to undergo ankle surgery",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-rookie-trey-moore-to-undergo-ankle-surgery",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T13:59:38.000Z",
-    "summary": "The Dolphins will be missing one of their rookies for an extended stretch.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "MIA"
-    ],
-    "players": [],
-    "teams": [
-      "MIA"
-    ]
-  },
-  {
-    "id": "1o1rndzaoexut",
-    "title": "Commanders release S Will Harris, put LB Drake Jackson on IR",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-release-s-will-harris-put-lb-drake-jackson-on-ir",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T13:39:38.000Z",
-    "summary": "The Commanders announced the previously reported signing of linebacker Boogie Basham on Tuesday morning and they also made a number of other roster moves.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "roster-move",
-      "WAS"
-    ],
-    "players": [],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "29qjap1xcbxtf",
-    "title": "New CTE study shines a brighter light on the \"dynamic\" kickoff",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/new-cte-study-shines-a-brighter-light-on-the-dynamic-kickoff",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T13:35:09.000Z",
-    "summary": "With the touchback moved to the 35, concussions dramatically increased in 2025.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "c08hlzq5hanh",
-    "title": "Rap: Ashton Jeanty sprained ankle believed to be “more low than high.” Raiders remain hopeful he will be available Week 1 but there’s a chance he won’t be ready.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vxz7gx/rap_ashton_jeanty_sprained_ankle_believed_to_be",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-25T13:01:06.000Z",
-    "summary": "&#32; submitted by &#32; /u/BuckyMcFly99 [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "LV"
-    ],
-    "players": [
-      "ashton-jeanty"
-    ],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "1xhzo4c1pv5ffw",
-    "title": "Dolphins news: Depth concerns, injury updates, roster moves",
-    "url": "https://sports.yahoo.com/articles/dolphins-news-depth-concerns-injury-123110420.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T12:31:10.000Z",
-    "summary": "The latest from the Miami Dolphins: Roster moves, Trey Moore injury, Chris Bell upgrade, and depth concerns",
-    "tags": [
-      "league-news",
-      "injury",
-      "MIA"
-    ],
-    "players": [],
-    "teams": [
-      "MIA"
-    ]
-  },
-  {
-    "id": "1azdypb151luhp",
-    "title": "Panthers expect Chuba Hubbard back for Week 1",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-expect-chuba-hubbard-back-for-week-1",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T11:57:21.000Z",
-    "summary": "Panthers running back Chuba Hubbard has been sidelined by a hamstring injury for the last couple of weeks, but the team is not concerned about his absence stretching into the regular season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CAR"
-    ],
-    "players": [
-      "chuba-hubbard"
-    ],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "hhe49j1rdz6ul",
-    "title": "Washington Commanders sign former DC Defenders pass rusher",
-    "url": "https://sports.yahoo.com/articles/washington-commanders-sign-former-dc-115356230.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T11:53:56.000Z",
-    "summary": "Boogie Basham should help a Commanders position group get through the preseason’s final week",
-    "tags": [
-      "league-news",
-      "contract",
-      "WAS"
-    ],
-    "players": [],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "b59h4hlbkc2v",
-    "title": "Study finds that one in four former NFL players suffers from degenerative brain disease CTE",
-    "url": "https://sports.yahoo.com/articles/study-finds-one-four-former-113645879.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T11:36:45.000Z",
-    "summary": "At least one in four former NFL players who died between 2016 and 2021 was found to have had chronic ⁠traumatic encephalopathy (CTE), according to a study released on Tuesday. Out of the 878 former players who died during that time frame, 235 donated their brains for study, researchers said, with 215 ⁠of those donated brains ⁠found to have CTE, ​a degenerative disease that can only definitively be",
-    "tags": [
-      "league-news",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "xjpr89s7gtmp",
-    "title": "Commanders to sign LB Boogie Basham",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-to-sign-lb-boogie-basham",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T11:34:25.000Z",
-    "summary": "The Commanders are adding a veteran edge rusher to their roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "WAS"
-    ],
-    "players": [],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "1vlufmoagzc0s",
-    "title": "Commanders to sign LB Boogie Basham",
-    "url": "https://sports.yahoo.com/articles/commanders-sign-lb-boogie-basham-113425664.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T11:34:25.000Z",
-    "summary": "The Commanders are adding a veteran edge rusher to their roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "WAS"
-    ],
-    "players": [],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "0wnxy6pz6r8c",
-    "title": "Tennessee Titans news: Training camp battles continue to heat up",
-    "url": "https://sports.yahoo.com/articles/tennessee-titans-news-training-camp-110000864.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T11:00:00.000Z",
-    "summary": "The Tennessee Titans are getting closer to the final cut down, which means players have to be on their A game.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
-    ]
-  },
-  {
-    "id": "auhvvwjdy0a8",
-    "title": "Ravens offer injury updates on C Danny Pinter, DT Nnamdi Madubuike",
-    "url": "https://sports.yahoo.com/articles/ravens-offer-injury-updates-c-110000844.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T11:00:00.000Z",
-    "summary": "Ravens C Danny Pinter has been ruled out for the season, while DT Nnamdi Madubuike is making progress in his ramp-up.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "pckc3t11w9iaj",
-    "title": "Asante Samuel Sr critical of Joey Porter Jr’s contract hold in",
-    "url": "https://sports.yahoo.com/articles/asante-samuel-sr-critical-joey-110000677.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T11:00:00.000Z",
-    "summary": "Asante Samuel voices criticism aimed at Joey Porter Jr",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "u514ai13eb6fe",
-    "title": "The Bear’s Den: Questions abound as Bears look to finalize the 53-man roster amid injuries",
-    "url": "https://sports.yahoo.com/articles/bear-den-questions-abound-bears-100000343.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T10:00:00.000Z",
-    "summary": "All the latest Chicago Bears news you need to know to get your day started",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "in4h1r19z3st7",
-    "title": "Saints lose cornerback and special teamer Rejzohn Wright to season-ending hip injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T08:07:02.000Z",
-    "summary": "Saints cornerback and special teams contributor Rejzohn Wright will miss the entire 2026 season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "1ylfl7b1i4p5qb",
-    "title": "Saints lose cornerback and special teamer Rejzohn Wright to season-ending hip injury",
-    "url": "https://sports.yahoo.com/articles/saints-lose-cornerback-special-teamer-080702902.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T08:07:02.000Z",
-    "summary": "Saints cornerback and special teams contributor Rejzohn Wright will miss the entire 2026 season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "19pqq1izujtwg",
-    "title": "Smyth to have more competition for Saints role",
-    "url": "https://sports.yahoo.com/articles/smyth-more-competition-saints-role-070749379.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T07:15:43.000Z",
-    "summary": "The New Orleans Saints sign two-time All-Pro kicker Daniel Carlson to compete with Charlie Smyth for the side's starting kicker position.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "j4y9at1mcysnj",
-    "title": "Makai Lemon is finally back and doesn't believe long layoff set him back",
-    "url": "https://sports.yahoo.com/articles/makai-lemon-finally-back-doesnt-070000282.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T07:00:00.000Z",
-    "summary": "After missing three weeks with a hamstring injury, Eagles rookie Makai Lemon returned to practice Monday and says he hasn’t fallen behind.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "PHI"
-    ],
-    "players": [
-      "makai-lemon"
-    ],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "g4ipe61dvw97k",
-    "title": "Cleveland Browns Training Camp Recap: Day 18 – Watson’s first day as the starter",
-    "url": "https://sports.yahoo.com/articles/cleveland-browns-training-camp-recap-040448288.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T04:04:48.000Z",
-    "summary": "What happened on Day 18 of Cleveland Browns training camp?",
-    "tags": [
-      "league-news",
-      "usage",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "1armtqa1jl3600",
-    "title": "Deshaun Watson beating Shedeur Sanders as Browns' Week 1 starter is just the beginning. Now, a tenuous reality awaits",
-    "url": "https://sports.yahoo.com/nfl/article/deshaun-watson-beating-shedeur-sanders-as-browns-week-1-starter-is-just-the-beginning-now-a-tenuous-reality-awaits-024219720.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T02:42:19.000Z",
-    "summary": "Multiple sources with knowledge of the Browns' decision-making factors suggest: The decision to name Watson rather than Sanders did not arrive via a landslide. This was not a decision about who is \"good\" or \"bad.\"",
-    "tags": [
-      "league-news",
-      "usage",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "1pk1dnefvv8se",
-    "title": "SEC: Pro athletes should not 'return to college competition'",
-    "url": "https://www.espn.com/college-football/story/_/id/49716985/pro-athletes-not-return-college-competition",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-25T02:19:56.000Z",
-    "summary": "As LSU hopes to sign NFL tight end Dae'Quan Wright, if he clears waivers, the SEC on Monday issued a statement emphasizing its belief that athletes who choose to leave to sign pro contracts \"should not then be permitted to return to college competition.\"",
-    "tags": [
-      "league-news",
-      "contract",
-      "LSU",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "LSU",
-      "CLE"
-    ]
-  },
-  {
-    "id": "6kwu8t1veptwn",
-    "title": "One more Seahawks 53-man roster projection entering preseason finale",
-    "url": "https://sports.yahoo.com/articles/one-more-seahawks-53-man-020354648.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T02:03:54.000Z",
-    "summary": "The projection changes following several Seahawks injuries against the Tennessee Titans.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SEA",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "SEA",
-      "TEN"
-    ]
-  },
-  {
-    "id": "10kuxr2lxrhk2",
-    "title": "Jed York prostitution arrest sends 49ers fans into savage social media frenzy",
-    "url": "https://sports.yahoo.com/articles/jed-york-prostitution-arrest-sends-011821284.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T01:18:21.000Z",
-    "summary": "San Francisco 49ers owner Jed York was arrested in Ohio for allegedly trying to pay $140 for sex, sparking a wave of brutal memes from NFL fans.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "csyopg14n62mg",
-    "title": "Is tyreek hill droppable in dynasty?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vxlcnk/is_tyreek_hill_droppable_in_dynasty",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-25T01:03:42.000Z",
-    "summary": "Curious what yall think. As title says is he? I mean he’s going to be most likely 33 when he’s going to be full speed. And even then, when has a 33 year old player known for his speed ever came back from an injury that horrific? On sleeper, he’s like 80% rostered still but I’d argue he should be dropped not just in dynasty but in all formats. And also, probably not even touched in redraft. &#32; s",
-    "tags": [
-      "dynasty",
-      "injury",
-      "availability"
-    ],
-    "players": [
-      "tyreek-hill"
-    ],
-    "teams": []
-  },
-  {
-    "id": "14wrghj1279rf9",
-    "title": "Cardinals activate edge rusher Josh Sweat from PUP list",
-    "url": "https://www.espn.com/nfl/story/_/id/49717013/cardinals-activate-edge-rusher-josh-sweat-pup-list",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-25T00:57:35.000Z",
-    "summary": "Cardinals pass rusher Josh Sweat was activated off the physically unable to perform list Monday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "wq6xr21po2z1e",
-    "title": "Aaron Glenn explains Jets’ decision to take David Bailey over Arvell Reese in NFL Draft",
-    "url": "https://sports.yahoo.com/articles/aaron-glenn-explains-jets-decision-005653515.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T00:56:53.000Z",
-    "summary": "With the two set to go head-to-head Friday, Jets head coach Aaron Glenn was asked following Monday’s practice what went into the team taking David Bailey over Arvell Reese in the NFL Draft.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "nsbg5s1dpa99e",
-    "title": "Do We Ever Look For Players Tendency To \"Self Sabotage\"?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1vxkoi9/do_we_ever_look_for_players_tendency_to_self",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-25T00:34:14.000Z",
-    "summary": "Was just thinking about some of the NFL players that have been absurdly mental things. I know these would be considered \"character traits.\" Any rookies this year that carry that trade? My favorite is Trigg. He could be a dude or he could be playing the USFL for the Louisville Kings. Anyone else you have your radar up on? I don't come from any of those fields of science. &#32; submitted by &#32; /u",
-    "tags": [
-      "dynasty",
-      "trade"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "iu0pya1uf8mm6",
-    "title": "Sean Payton on the signing of safety Taylor Rapp: ‘It was more availability than necessity’",
-    "url": "https://sports.yahoo.com/articles/sean-payton-signing-safety-taylor-003343932.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T00:33:43.000Z",
-    "summary": "The Broncos announced that they signed veteran safety Taylor Rapp last week ahead of their Week 2 preseason matchup vs. the Green Bay Packers to add some depth to their safety room. Today, Denver Broncos Head Coach Sean Payton met with the media and explained their reasoning behind signing the veteran safety. He was basically […]",
-    "tags": [
-      "league-news",
-      "contract",
-      "DEN",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "DEN",
-      "GB"
-    ]
-  },
-  {
-    "id": "19gtsofba9rsj",
-    "title": "49ers predicted to miss playoffs amid offseason drama headlined by owner’s arrest",
-    "url": "https://sports.yahoo.com/articles/49ers-predicted-miss-playoffs-amid-001009882.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T00:10:09.000Z",
-    "summary": "The San Francisco 49ers have endured a painful offseason — and everyone knows it. Colin Cowherd didn’t mince words when discussing the team, and made it clear that the 49ers...",
-    "tags": [
-      "league-news",
-      "discipline",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1p63rhiwmyh14",
-    "title": "Jets’ Breece Hall, Kenyon Sadiq, D’Angelo Ponds remain on track for Week 1",
-    "url": "https://sports.yahoo.com/articles/jets-breece-hall-kenyon-sadiq-000948485.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T00:09:48.000Z",
-    "summary": "Jets head coach Aaron Glenn had a handful of positive injury updates following Monday's practice.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYJ"
-    ],
-    "players": [
-      "breece-hall",
-      "kenyon-sadiq"
-    ],
-    "teams": [
-      "NYJ"
     ]
   }
 ]
