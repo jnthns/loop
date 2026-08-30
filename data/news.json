@@ -1,5 +1,59 @@
 [
   {
+    "id": "1h285de5wb23a",
+    "title": "An Aaron Donald comeback could create costly contract dilemma for Rams",
+    "url": "https://sports.yahoo.com/articles/aaron-donald-comeback-could-create-113000209.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-30T11:30:00.000Z",
+    "summary": "Rams defensive standouts Kobie Turner and Braden Fiske could benefit from Aaron Donald's return to the Rams, or see their playing time decrease.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "ahq77e1ynj2x0",
+    "title": "Cowboys news: Cowboys trade for veteran OT",
+    "url": "https://sports.yahoo.com/articles/cowboys-news-cowboys-trade-veteran-110000153.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-30T11:00:00.000Z",
+    "summary": "Here is today’s Dallas Cowboys news.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "ffqzja1txonzu",
+    "title": "Cincinnati Bengals practice squad tracker",
+    "url": "https://sports.yahoo.com/articles/cincinnati-bengals-practice-squad-tracker-094500709.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-30T09:45:00.000Z",
+    "summary": "Here’s who the Bengals have been able to sign to their practice squad.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CIN"
+    ],
+    "players": [],
+    "teams": [
+      "CIN"
+    ]
+  },
+  {
     "id": "l4ikyvccrcm9",
     "title": "Report: Saints will keep Spencer Rattler despite trade interest",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-will-keep-spencer-rattler-despite-trade-interest",
@@ -60,6 +114,28 @@
     "teams": [
       "DAL",
       "PIT"
+    ]
+  },
+  {
+    "id": "lgt13m18y9iiq",
+    "title": "Dolphins trade former Texas star QB Quinn Ewers to Jaguars",
+    "url": "https://sports.yahoo.com/articles/dolphins-trade-former-texas-star-015417530.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-08-30T01:54:17.000Z",
+    "summary": "Quinn Ewers is in for a quick trip up I-95 come next season.",
+    "tags": [
+      "league-news",
+      "trade",
+      "JAX",
+      "MIA"
+    ],
+    "players": [
+      "quinn-ewers"
+    ],
+    "teams": [
+      "JAX",
+      "MIA"
     ]
   },
   {
@@ -7419,88 +7495,6 @@
     "players": [],
     "teams": [
       "TEN"
-    ]
-  },
-  {
-    "id": "189a58wqwd8i6",
-    "title": "Dillon Gabriel will start, Taylen Green will back him up in Browns' preseason finale",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dillon-gabriel-will-start-taylen-green-will-back-him-up-in-browns-preseason-finale",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T16:02:42.000Z",
-    "summary": "With Deshaun Watson anointed as the Browns' starting quarterback and Shedeur Sanders his backup, neither will play in the preseason finale on Thursday against the Patriots.",
-    "tags": [
-      "league-news",
-      "CLE",
-      "NE"
-    ],
-    "players": [
-      "deshaun-watson",
-      "shedeur-sanders"
-    ],
-    "teams": [
-      "CLE",
-      "NE"
-    ]
-  },
-  {
-    "id": "1f5wb8217i3plw",
-    "title": "Dillon Gabriel will start, Taylen Green will back him up in Browns' preseason finale",
-    "url": "https://sports.yahoo.com/articles/dillon-gabriel-start-taylen-green-160242561.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-25T16:02:42.000Z",
-    "summary": "With Deshaun Watson anointed as the Browns' starting quarterback and Shedeur Sanders his backup, neither will play in the preseason finale on Thursday against the Patriots.",
-    "tags": [
-      "league-news",
-      "CLE",
-      "NE"
-    ],
-    "players": [
-      "deshaun-watson",
-      "shedeur-sanders"
-    ],
-    "teams": [
-      "CLE",
-      "NE"
-    ]
-  },
-  {
-    "id": "1q1vu7v9c5ez",
-    "title": "NFL preseason injuries tracker: Updates on Sam LaPorta, Breece Hall, Jeremiyah Love, Alvin Kamara",
-    "url": "https://www.cbssports.com/nfl/news/nfl-training-camp-injury-tracker",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-25T15:54:46.000Z",
-    "summary": "We track the biggest injury updates and recovery timelines as teams navigate a brutal start to the NFL preseason",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "alvin-kamara",
-      "breece-hall",
-      "jeremiyah-love",
-      "sam-laporta"
-    ],
-    "teams": []
-  },
-  {
-    "id": "8lk1b21fezqdw",
-    "title": "Cardinals sign S Josh Minkins, P Jack Browning",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-sign-s-josh-minkins-p-jack-browning",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-25T15:54:18.000Z",
-    "summary": "The Cardinals will be cutting their roster to 53 players this weekend, but that didn't stop them from adding a pair of players on Tuesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
     ]
   }
 ]
