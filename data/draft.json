@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3195,6 +3195,28 @@
       "playerName": "Emanuel Wilson",
       "pos": "RB",
       "nflTeam": "SEA",
+      "mine": false
+    },
+    {
+      "pick": 288,
+      "round": 24,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "calvin-ridley",
+      "playerName": "Calvin Ridley",
+      "pos": "WR",
+      "nflTeam": "TEN",
+      "mine": false
+    },
+    {
+      "pick": 289,
+      "round": 25,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": "darnell-mooney",
+      "playerName": "Darnell Mooney",
+      "pos": "WR",
+      "nflTeam": "NYG",
       "mine": false
     }
   ]
