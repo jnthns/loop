@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3184,6 +3184,17 @@
       "playerName": "Jalon Daniels",
       "pos": "QB",
       "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 287,
+      "round": 24,
+      "slot": 11,
+      "rosterId": 11,
+      "playerId": "emanuel-wilson",
+      "playerName": "Emanuel Wilson",
+      "pos": "RB",
+      "nflTeam": "SEA",
       "mine": false
     }
   ]
