@@ -3383,6 +3383,28 @@
       "pos": "WR",
       "nflTeam": "DAL",
       "mine": true
+    },
+    {
+      "pick": 305,
+      "round": 26,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Isaiah Bond",
+      "pos": "WR",
+      "nflTeam": "CLE",
+      "mine": false
+    },
+    {
+      "pick": 306,
+      "round": 26,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": null,
+      "playerName": "Mike Gesicki",
+      "pos": "TE",
+      "nflTeam": "CIN",
+      "mine": false
     }
   ]
 }
