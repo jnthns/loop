@@ -3218,6 +3218,160 @@
       "pos": "WR",
       "nflTeam": "NYG",
       "mine": false
+    },
+    {
+      "pick": 290,
+      "round": 25,
+      "slot": 11,
+      "rosterId": 11,
+      "playerId": "chimere-dike",
+      "playerName": "Chimere Dike",
+      "pos": "WR",
+      "nflTeam": "TEN",
+      "mine": false
+    },
+    {
+      "pick": 291,
+      "round": 25,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Anthony Richardson",
+      "pos": "QB",
+      "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 292,
+      "round": 25,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": null,
+      "playerName": "George Holani",
+      "pos": "RB",
+      "nflTeam": "SEA",
+      "mine": false
+    },
+    {
+      "pick": 293,
+      "round": 25,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": "theo-johnson",
+      "playerName": "Theo Johnson",
+      "pos": "TE",
+      "nflTeam": "NYG",
+      "mine": false
+    },
+    {
+      "pick": 294,
+      "round": 25,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": null,
+      "playerName": "Sam Howell",
+      "pos": "QB",
+      "nflTeam": "DAL",
+      "mine": false
+    },
+    {
+      "pick": 295,
+      "round": 25,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": null,
+      "playerName": "Rashod Bateman",
+      "pos": "WR",
+      "nflTeam": "BAL",
+      "mine": false
+    },
+    {
+      "pick": 296,
+      "round": 25,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Christian Kirk",
+      "pos": "WR",
+      "nflTeam": "SF",
+      "mine": false
+    },
+    {
+      "pick": 297,
+      "round": 25,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Garrett Nussmeier",
+      "pos": "QB",
+      "nflTeam": "KC",
+      "mine": true
+    },
+    {
+      "pick": 298,
+      "round": 25,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": null,
+      "playerName": "Evan Engram",
+      "pos": "TE",
+      "nflTeam": "DEN",
+      "mine": false
+    },
+    {
+      "pick": 299,
+      "round": 25,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "LeQuint Allen",
+      "pos": "RB",
+      "nflTeam": "JAX",
+      "mine": false
+    },
+    {
+      "pick": 300,
+      "round": 25,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Cedric Tillman",
+      "pos": "WR",
+      "nflTeam": "",
+      "mine": false
+    },
+    {
+      "pick": 301,
+      "round": 26,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Dean Connors",
+      "pos": "RB",
+      "nflTeam": "",
+      "mine": false
+    },
+    {
+      "pick": 302,
+      "round": 26,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "Charlie Kolar",
+      "pos": "TE",
+      "nflTeam": "LAC",
+      "mine": false
+    },
+    {
+      "pick": 303,
+      "round": 26,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": null,
+      "playerName": "Jalen Milroe",
+      "pos": "QB",
+      "nflTeam": "SEA",
+      "mine": false
     }
   ]
 }
