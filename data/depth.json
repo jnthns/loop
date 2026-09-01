@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-09-01T11:37:10.355Z",
-  "snapshotAt": "2026-08-31T14:44:50Z",
+  "capturedAt": "2026-09-01T16:37:54.227Z",
+  "snapshotAt": "2026-09-01T12:20:07Z",
   "season": "2026",
   "entries": [
     {
@@ -224,7 +224,7 @@
       "name": "Darren Waller",
       "pos": "TE",
       "nflTeam": "CAR",
-      "depthRank": 2,
+      "depthRank": 3,
       "sleeperId": "2505"
     },
     {
@@ -588,19 +588,11 @@
       "sleeperId": "6804"
     },
     {
-      "id": "josh-jacobs",
-      "name": "Josh Jacobs",
-      "pos": "RB",
-      "nflTeam": "GB",
-      "depthRank": 1,
-      "sleeperId": "5850"
-    },
-    {
       "id": "marshawn-lloyd",
       "name": "MarShawn Lloyd",
       "pos": "RB",
       "nflTeam": "GB",
-      "depthRank": 2,
+      "depthRank": 1,
       "sleeperId": "11581"
     },
     {
@@ -608,7 +600,7 @@
       "name": "Chris Brooks",
       "pos": "RB",
       "nflTeam": "GB",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "11370"
     },
     {
@@ -616,8 +608,16 @@
       "name": "Kaleb Johnson",
       "pos": "RB",
       "nflTeam": "GB",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "12504"
+    },
+    {
+      "id": "josh-jacobs",
+      "name": "Josh Jacobs",
+      "pos": "RB",
+      "nflTeam": "GB",
+      "depthRank": 4,
+      "sleeperId": "5850"
     },
     {
       "id": "tucker-kraft",
@@ -720,7 +720,7 @@
       "name": "Tank Dell",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 9,
+      "depthRank": 6,
       "sleeperId": "9502"
     },
     {
@@ -864,7 +864,7 @@
       "name": "Emmett Johnson",
       "pos": "RB",
       "nflTeam": "KC",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "13337"
     },
     {
@@ -872,7 +872,7 @@
       "name": "Brashard Smith",
       "pos": "RB",
       "nflTeam": "KC",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "12455"
     },
     {
@@ -1116,6 +1116,14 @@
       "sleeperId": "11643"
     },
     {
+      "id": "justin-joly",
+      "name": "Justin Joly",
+      "pos": "TE",
+      "nflTeam": "MIA",
+      "depthRank": 4,
+      "sleeperId": "13400"
+    },
+    {
       "id": "malik-washington",
       "name": "Malik Washington",
       "pos": "WR",
@@ -1328,7 +1336,7 @@
       "name": "Jordyn Tyson",
       "pos": "WR",
       "nflTeam": "NO",
-      "depthRank": 7,
+      "depthRank": 5,
       "sleeperId": "13281"
     },
     {
@@ -1348,20 +1356,20 @@
       "sleeperId": "12481"
     },
     {
-      "id": "najee-harris",
-      "name": "Najee Harris",
-      "pos": "RB",
-      "nflTeam": "NYG",
-      "depthRank": 2,
-      "sleeperId": "7528"
-    },
-    {
       "id": "tyrone-tracy",
       "name": "Tyrone Tracy",
       "pos": "RB",
       "nflTeam": "NYG",
-      "depthRank": 4,
+      "depthRank": 2,
       "sleeperId": "11655"
+    },
+    {
+      "id": "najee-harris",
+      "name": "Najee Harris",
+      "pos": "RB",
+      "nflTeam": "NYG",
+      "depthRank": 3,
+      "sleeperId": "7528"
     },
     {
       "id": "isaiah-likely",
@@ -1592,7 +1600,7 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "nflTeam": "SEA",
-      "depthRank": 7,
+      "depthRank": 4,
       "sleeperId": "9753"
     },
     {
@@ -1704,7 +1712,7 @@
       "name": "Brandon Aiyuk",
       "pos": "WR",
       "nflTeam": "SF",
-      "depthRank": 13,
+      "depthRank": 8,
       "sleeperId": "6803"
     },
     {

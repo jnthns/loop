@@ -1,5 +1,608 @@
 [
   {
+    "id": "1qr8toi1j49owi",
+    "title": "Tony Romo pleads no contest to OWI following arrest: 'I own this completely'",
+    "url": "https://sports.yahoo.com/nfl/breaking-news/article/tony-romo-pleads-no-contest-to-owi-following-arrest-i-own-this-completely-162547509.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T16:25:47.000Z",
+    "summary": "Romo was arrested in July and has since been placed on leave by CBS Sports.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "19ykgy1vcdsn",
+    "title": "The 49ers are hopeful Mike Evans can return to practice next week",
+    "url": "https://sports.yahoo.com/articles/49ers-hopeful-mike-evans-return-162020215.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T16:20:20.000Z",
+    "summary": "Plus injury updates for George Kittle and Nick Bosa",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "george-kittle",
+      "mike-evans"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "eh4awb1se6ph5",
+    "title": "Ashton Jeanty Injury: Working with trainers Tuesday",
+    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4gnjg/ashton_jeanty_injury_working_with_trainers_tuesday",
+    "source": "r/fantasyfootball",
+    "sourceId": "reddit-fantasyfootball",
+    "publishedAt": "2026-09-01T16:16:58.000Z",
+    "summary": "&#32; submitted by &#32; /u/ZebraPuzzleheaded422 [link] &#32; [comments]",
+    "tags": [
+      "fantasy",
+      "injury"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1xt7ndmsreo40",
+    "title": "Keenan Allen expected to play Week 1 after OVWI arrest",
+    "url": "https://sports.yahoo.com/articles/keenan-allen-expected-play-week-161539462.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T16:15:39.000Z",
+    "summary": "Keenan Allen is expected to play Week 1 as the Colts let his DUI case move through the legal process.",
+    "tags": [
+      "league-news",
+      "discipline",
+      "IND"
+    ],
+    "players": [
+      "keenan-allen"
+    ],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "ss48tf1kbkjin",
+    "title": "Sam Williams signs with Browns after Cowboys release",
+    "url": "https://sports.yahoo.com/articles/sam-williams-signs-browns-cowboys-161420046.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T16:14:20.000Z",
+    "summary": "It appears that Sam Williams has found a new home.",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "CLE",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "CLE",
+      "DAL"
+    ]
+  },
+  {
+    "id": "10t7g958cwypz",
+    "title": "Emeka Egbuka (sprained toe) and Jalen McMillan (knee bruise) have “lingering issues” and aren’t locks to play in Week 1. Walsh says McMillan is running routes and is “getting there,” and there’s optimism he and Egbuka could play Week 1.",
+    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4gjqi/emeka_egbuka_sprained_toe_and_jalen_mcmillan_knee",
+    "source": "r/fantasyfootball",
+    "sourceId": "reddit-fantasyfootball",
+    "publishedAt": "2026-09-01T16:13:28.000Z",
+    "summary": "&#32; submitted by &#32; /u/DanceHallRiddem [link] &#32; [comments]",
+    "tags": [
+      "fantasy",
+      "injury"
+    ],
+    "players": [
+      "emeka-egbuka",
+      "jalen-mcmillan"
+    ],
+    "teams": []
+  },
+  {
+    "id": "b9fk7s1tjkha4",
+    "title": "Reports: Browns plan to sign DE Sam Williams",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-browns-plan-to-sign-de-sam-williams",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-01T16:07:52.000Z",
+    "summary": "The Browns are planning to make an addition to their defensive line.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "m3dt331mfpkmd",
+    "title": "Reports: Browns plan to sign DE Sam Williams",
+    "url": "https://sports.yahoo.com/articles/reports-browns-plan-sign-sam-160752349.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T16:07:52.000Z",
+    "summary": "The Browns are planning to make an addition to their defensive line.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "rfpw79bqy0pp",
+    "title": "Texans won't negotiate with Stroud during season, GM says",
+    "url": "https://www.espn.com/nfl/story/_/id/49794128/texans-negotiate-stroud-season-gm-says",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-01T16:06:48.000Z",
+    "summary": "The Texans have set a Week 1 deadline for agreeing to a contract extension with quarterback C.J. Stroud this year, general manager Nick Caserio said.",
+    "tags": [
+      "league-news",
+      "contract",
+      "HOU"
+    ],
+    "players": [
+      "c-j-stroud"
+    ],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "14d1c90jfxbm6",
+    "title": "RB Chuba Hubbard (hamstring) is back at practice on Tuesday. Per Mike Kaye.",
+    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4fy4o/rb_chuba_hubbard_hamstring_is_back_at_practice_on",
+    "source": "r/fantasyfootball",
+    "sourceId": "reddit-fantasyfootball",
+    "publishedAt": "2026-09-01T15:52:36.000Z",
+    "summary": "&#32; submitted by &#32; /u/mvanigan [link] &#32; [comments]",
+    "tags": [
+      "fantasy",
+      "injury"
+    ],
+    "players": [
+      "chuba-hubbard"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1n6o9f4sjp6w4",
+    "title": "Panthers sign LB Tyrel Dodson to practice squad",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-sign-lb-tyrel-dodson-to-practice-squad",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-01T15:44:15.000Z",
+    "summary": "Veteran linebacker Tyrel Dodson has found a new home in Carolina.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "19ctmcg10eears",
+    "title": "Panthers sign LB Tyrel Dodson to practice squad",
+    "url": "https://sports.yahoo.com/articles/panthers-sign-lb-tyrel-dodson-154415808.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T15:44:15.000Z",
+    "summary": "Veteran linebacker Tyrel Dodson has found a new home in Carolina.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "xkczlt154fbgl",
+    "title": "Chicago Bears Roster Moves: Coby Bryant to IR, Jack Sanborn signed",
+    "url": "https://sports.yahoo.com/articles/chicago-bears-roster-moves-coby-154108363.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T15:41:08.000Z",
+    "summary": "The Chicago Bears have shuffled their roster and @wiltfongjr has the details here.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "kj2bzr1040ed5",
+    "title": "Texans put Braden Smith on IR, re-sign Brevin Jordan and Dominique Robinson",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-put-braden-smith-on-ir-re-sign-brevin-jordan-and-dominique-robinson",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-01T15:35:43.000Z",
+    "summary": "Texans General Manager Nick Caserio shared a handful of roster moves that the team made during a press conference on Tuesday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "vopw3ufrp9g0",
+    "title": "Texans put Braden Smith on IR, re-sign Brevin Jordan and Dominique Robinson",
+    "url": "https://sports.yahoo.com/articles/texans-put-braden-smith-ir-153543132.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T15:35:43.000Z",
+    "summary": "Texans General Manager Nick Caserio shared a handful of roster moves that the team made during a press conference on Tuesday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "h39t331lelwkd",
+    "title": "Did the 49ers sign their Sky Moore of 2026 on the practice squad?",
+    "url": "https://sports.yahoo.com/articles/did-49ers-sign-sky-moore-153423220.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T15:34:23.000Z",
+    "summary": "Brandon Codrington could be the 49ers annual buy low in August move that pays off all season.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "lmgphpmzpa3p",
+    "title": "Source: Chargers sign TE Patrick Herbert, brother of starting QB",
+    "url": "https://www.espn.com/nfl/story/_/id/49794019/source-chargers-sign-te-patrick-herbert-brother-starting-qb",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-01T15:27:43.000Z",
+    "summary": "The Chargers have signed tight end Patrick Herbert, younger brother of starting quarterback Justin, to their practice squad, a source told the NFL Network's Mike Garafolo.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LAC"
+    ],
+    "players": [],
+    "teams": [
+      "LAC"
+    ]
+  },
+  {
+    "id": "1fwz4201ypglkq",
+    "title": "We tracked 73,300+ real dynasty trades this past week the Packers backfield broke our most-traded board",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w4f3i0/we_tracked_73300_real_dynasty_trades_this_past",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-01T15:22:13.000Z",
+    "summary": "Welcome back to the trade roundup. Over the last 7 days we tracked 73,304 completed dynasty trades across 140,215 active leagues. What changed since our last roundup The Green Bay backfield blew up the board. MarShawn Lloyd is the No. 1 most-traded player with 2,265 trades nearly double anyone else, and the highest single-player count we've recorded. His commissioner exempt list teammate Josh Jaco",
+    "tags": [
+      "dynasty",
+      "trade",
+      "GB"
+    ],
+    "players": [
+      "marshawn-lloyd"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "14dw4ca1q5xizo",
+    "title": "Former Broncos RB Jaleel McLaughlin has signed to the Cleveland Browns’ practice squad",
+    "url": "https://sports.yahoo.com/articles/former-broncos-rb-jaleel-mclaughlin-151603724.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T15:16:03.000Z",
+    "summary": "According to 850 ESPN Cleveland’s Tony Grossi, who covers the Cleveland Browns, former Denver Broncos running back Jaleel McLaughlin has signed to the Cleveland Browns’ practice squad. McLaughlin was waived by the Broncos on Sunday and, surprisingly, went unclaimed on the waiver wire. He was not among the 17 players the Broncos signed to their […]",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "CLE",
+      "DEN"
+    ],
+    "players": [],
+    "teams": [
+      "CLE",
+      "DEN"
+    ]
+  },
+  {
+    "id": "1poi7777xsr1t",
+    "title": "What does Keyron Crawford injury mean?",
+    "url": "https://sports.yahoo.com/articles/does-keyron-crawford-injury-mean-150700541.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T15:07:00.000Z",
+    "summary": "Rookie pass-rusher will miss entire season",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "dol4gcbjbe80",
+    "title": "Steelers put hard deadline on Joey Porter Jr contract negotiations",
+    "url": "https://sports.yahoo.com/articles/steelers-put-hard-deadline-joey-150151482.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T15:01:51.000Z",
+    "summary": "Steelers running out of time to get Joey Porter Jr deal done.",
+    "tags": [
+      "league-news",
+      "contract",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "rv6wcu16jhgek",
+    "title": "Steelers' outdated contract rule complicates Joey Porter Jr. situation",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-outdated-contract-rule-complicates-joey-porter-jr-situation",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-01T14:53:33.000Z",
+    "summary": "The Pittsburgh Steelers do many things right.",
+    "tags": [
+      "league-news",
+      "contract",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "qxgwzd1jruapv",
+    "title": "Steelers' outdated contract rule complicates Joey Porter Jr. situation",
+    "url": "https://sports.yahoo.com/articles/steelers-outdated-contract-rule-complicates-145333691.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T14:53:33.000Z",
+    "summary": "The Pittsburgh Steelers do many things right.",
+    "tags": [
+      "league-news",
+      "contract",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "ddpino1jjgvg6",
+    "title": "For Leagues that count return yards, who provides the best returns* in the draft?",
+    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4e7er/for_leagues_that_count_return_yards_who_provides",
+    "source": "r/fantasyfootball",
+    "sourceId": "reddit-fantasyfootball",
+    "publishedAt": "2026-09-01T14:51:01.000Z",
+    "summary": "Dike was pretty amazing last year and Myles Price did some good work, but Zachariah Branch is lightning fast and could carve out a small gadget role. Wondering if there’s anyone else to get excited about. *pun intended &#32; submitted by &#32; /u/Urbane_Cowboy [link] &#32; [comments]",
+    "tags": [
+      "fantasy",
+      "rookie"
+    ],
+    "players": [
+      "zachariah-branch"
+    ],
+    "teams": []
+  },
+  {
+    "id": "zzfut11y44eix",
+    "title": "6 best Joe Milton landing spots after Cowboys waive backup QB",
+    "url": "https://sports.yahoo.com/articles/6-best-joe-milton-landing-144955156.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T14:49:55.000Z",
+    "summary": "The Cowboys parted ways with backup QB Joe Milton after initially including him on their 53-man roster. Here's where he could play next.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "5fw17h1db05vr",
+    "title": "Packers expect Luke Musgrave to recover from his neck injury and play this season",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-expect-luke-musgrave-to-recover-from-his-neck-injury-and-play-this-season",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-01T14:48:54.000Z",
+    "summary": "The Packers put tight end Luke Musgrave on the reserve/physically unable to perform list to start the season, but they believe he'll be on the field before the season is over.",
+    "tags": [
+      "league-news",
+      "injury",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "7jfaxfx6wi1r",
+    "title": "Packers expect Luke Musgrave to recover from his neck injury and play this season",
+    "url": "https://sports.yahoo.com/articles/packers-expect-luke-musgrave-recover-144854229.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-01T14:48:54.000Z",
+    "summary": "The Packers put tight end Luke Musgrave on the reserve/physically unable to perform list to start the season, but they believe he'll be on the field before the season is over.",
+    "tags": [
+      "league-news",
+      "injury",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "1onsmj1pjdt1h",
+    "title": "I scored KeepTradeCut, FantasyCalc, RosterAudit, and StatsGuyFantasy against 4,461 Reddit trade threads",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w4dxpm/i_scored_keeptradecut_fantasycalc_rosteraudit_and",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-01T14:41:07.000Z",
+    "summary": "I collected 4,461 trade threads from this subreddit and r/DynastyFFTradeAdvice to test how often these dynasty trade calculators agree with how real managers judge real trades. Disclaimer: StatsGuyFantasy is my site. Its calculator logic was frozen before the study, and the rules for evaluating threads were locked before any calculator was scored. The data The sample covers the r/DynastyFF trade m",
+    "tags": [
+      "dynasty",
+      "trade"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "qmglf1qzjp5j",
+    "title": "Packers GM Brian Gutekunst when asked whether they’ll release RB Josh Jacobs: “We’ll let the process play out before making any kind of those decisions but we’ll see”",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w4db1c/packers_gm_brian_gutekunst_when_asked_whether",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-01T14:17:30.000Z",
+    "summary": "&#32; submitted by &#32; /u/bigaudra [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "roster-move",
+      "GB"
+    ],
+    "players": [
+      "josh-jacobs"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "14g2s0o1ne8mxi",
+    "title": "Zay Flowers, who is recovering from a lower-body injury, is expected to return to practice in full capacity next week and suit up for the Ravens' Sept. 13 season opener versus the Colts",
+    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4cdlv/zay_flowers_who_is_recovering_from_a_lowerbody",
+    "source": "r/fantasyfootball",
+    "sourceId": "reddit-fantasyfootball",
+    "publishedAt": "2026-09-01T13:42:37.000Z",
+    "summary": "&#32; submitted by &#32; /u/My_Chat_Account [link] &#32; [comments]",
+    "tags": [
+      "fantasy",
+      "injury",
+      "BAL",
+      "IND"
+    ],
+    "players": [
+      "zay-flowers"
+    ],
+    "teams": [
+      "BAL",
+      "IND"
+    ]
+  },
+  {
+    "id": "129iz121w4koz8",
+    "title": "4 Dynasty Rookie Preseason Value Swings",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w4anym/4_dynasty_rookie_preseason_value_swings",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-01T12:33:50.000Z",
+    "summary": "If your timeline on Twitter/X is like mine, you’ve been seeing major reactions to what happened during training camp and preseason. People are actually encouraged by a rookie playing well against third-string DBs. During training camp, I only care about 3 things for the most part: injury/recovery news, negative coach speak/reports, and who they’re running on the field with. I break down my thought",
+    "tags": [
+      "dynasty",
+      "injury",
+      "rookie"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "18h575p5g9dbb",
+    "title": "IR Stashes",
+    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4ajhg/ir_stashes",
+    "source": "r/fantasyfootball",
+    "sourceId": "reddit-fantasyfootball",
+    "publishedAt": "2026-09-01T12:28:21.000Z",
+    "summary": "Since cut day a lot of things have happened and there’s clarity who will start the season on IR/PUP and who’s not. Who are the best IR stashes / eligible for IR to have an extra roster spot for a lottery ticket. Charbonnet/Jordyn Tyson come to mind. Who else? How would you rank them &#32; submitted by &#32; /u/Fischi8888 [link] &#32; [comments]",
+    "tags": [
+      "fantasy",
+      "injury",
+      "roster-move"
+    ],
+    "players": [
+      "jordyn-tyson"
+    ],
+    "teams": []
+  },
+  {
+    "id": "kou52ivsrgbu",
+    "title": "Howie Roseman: Zach Ertz one of the greatest tight ends, but love what we have",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/howie-roseman-zach-ertz-one-of-the-greatest-tight-ends-but-love-what-we-have",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-01T11:53:43.000Z",
+    "summary": "Word in early August was that tight end Zach Ertz has been cleared for all football activities after tearing his ACL last December, but the veteran remains a free agent with the start of the regular season a little over a week away.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
     "id": "8utkyg1wiailm",
     "title": "Dolphins news: Youngest roster, waiver claims, practice squad, and more",
     "url": "https://sports.yahoo.com/articles/dolphins-news-youngest-roster-waiver-111425783.html",
@@ -34,6 +637,21 @@
     "teams": [
       "DET"
     ]
+  },
+  {
+    "id": "n1tkbv1ujubbh",
+    "title": "Official: [Index] - For All Your Team/League Questions - Tue 09/01/2026",
+    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w48n26/official_index_for_all_your_teamleague_questions",
+    "source": "r/fantasyfootball",
+    "sourceId": "reddit-fantasyfootball",
+    "publishedAt": "2026-09-01T11:02:02.000Z",
+    "summary": "PLEASE READ How to post a Player Discussion or Injury Thread Sub Rules and Guidelines Our Wiki with tons of great content! FAQ Official Reddit FanDuel league We've partnered with FanDuel to host a series of redditor-only free contests with $2,800 in cash prizes! During Weeks 1-20, there will be a free play contest with $125 in cash prizes. Other /r/fantasyfootball Contests Official Reddit r/fantas",
+    "tags": [
+      "fantasy",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
   },
   {
     "id": "1t4lrmcyb59x0",
@@ -1341,6 +1959,24 @@
     ]
   },
   {
+    "id": "oeud1019taxto",
+    "title": "Jets plan to stick with Cade Klubnik as their backup QB",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-plan-to-stick-with-cade-klubnik-as-their-backup-qb",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-08-31T18:58:31.000Z",
+    "summary": "The Jets did not claim a quarterback off of waivers on Monday and it doesn't sound like they plan to make a move to acquire one via another avenue.",
+    "tags": [
+      "league-news",
+      "trade",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
     "id": "15z4c3r19dgcx3",
     "title": "Deshaun Watson hasn&#039;t been good since 2020, why the Browns still need a 2027 QB plan",
     "url": "https://www.cbssports.com/nfl/news/why-the-browns-still-need-a-2027-qb-plan-deshaun-watson-shedeur-sanders",
@@ -1454,6 +2090,24 @@
     ],
     "players": [
       "justin-joly"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1tta3yr558tav",
+    "title": "Jadarian Price set for heavy workload with Zach Charbonnet out to start the season",
+    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w3fty0/jadarian_price_set_for_heavy_workload_with_zach",
+    "source": "r/fantasyfootball",
+    "sourceId": "reddit-fantasyfootball",
+    "publishedAt": "2026-08-31T14:42:39.000Z",
+    "summary": "&#32; submitted by &#32; /u/BreakfastTop6899 [link] &#32; [comments]",
+    "tags": [
+      "fantasy",
+      "usage"
+    ],
+    "players": [
+      "jadarian-price",
+      "zach-charbonnet"
     ],
     "teams": []
   },
@@ -6822,672 +7476,5 @@
     "teams": [
       "TEN"
     ]
-  },
-  {
-    "id": "1mzicjxxjh5j9",
-    "title": "Man who posed as 49ers player is arrested for fraud",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/man-who-posed-as-49ers-player-is-arrested-for-fraud",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-28T17:52:11.000Z",
-    "summary": "The week began with news of the arrest of the 49ers' owner posing as a man named \"Joe.\"",
-    "tags": [
-      "league-news",
-      "discipline",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1cw8afz1ir3v2v",
-    "title": "How can Tony Romo accept \"full responsibility\" in a statement from an unnamed spokesperson?",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/how-can-tony-romo-accept-full-responsibility-in-a-statement-from-an-unnamed-spokesperson",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-28T17:25:56.000Z",
-    "summary": "Confusion was the first reaction to the TMZ item in which former Cowboys quarterback and CBS broadcaster Tony Romo accepted \"full responsibility\" for his recent OWI arrest in Milwaukee, in a statement issued by an unnamed spokesperson.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "11p23ot1iaw47j",
-    "title": "Charbonnet or Corum, who has more upside short to medium term.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w0vmp4/charbonnet_or_corum_who_has_more_upside_short_to",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-28T16:38:57.000Z",
-    "summary": "Both have a lot of potential imo in their situations, but also with some concerns. Price and kyren blocking them hurts and injury concern for charb and I can't get that video of Corum counting to ten but only being at four seconds lol. For the next season or within 3 years who would be a safer pick? Thanks &#32; submitted by &#32; /u/bongoman100 [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "lad8x9t02nq1",
-    "title": "Mike Vrabel on trading Kayshoun Boutte: \"He probably would have been inactive\" on game days",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-trading-kayshoun-boutte-he-probably-would-have-been-inactive-on-game-days",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-28T16:31:22.000Z",
-    "summary": "The Patriots recently traded receiver Kayshon Boutte to the Texans.",
-    "tags": [
-      "league-news",
-      "trade",
-      "HOU",
-      "NE"
-    ],
-    "players": [
-      "kayshon-boutte"
-    ],
-    "teams": [
-      "HOU",
-      "NE"
-    ]
-  },
-  {
-    "id": "1iael4ch0nm70",
-    "title": "Alec Pierce: Week 1 is the goal",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alec-pierce-week-1-is-the-goal",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-28T16:00:34.000Z",
-    "summary": "Colts receiver Alec Pierce got back to practice on Thursday, having come off the physically unable to perform list after undergoing offseason ankle surgery.",
-    "tags": [
-      "league-news",
-      "injury",
-      "IND"
-    ],
-    "players": [
-      "alec-pierce"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1fgwudp1a0nxan",
-    "title": "One team&#039;s healthy scratch is another&#039;s treasure: Making sense of why Patriots traded Kayshon Boutte to Texans",
-    "url": "https://www.cbssports.com/nfl/news/kayshon-boutte-trade-analysis-patriots-texans",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-28T15:41:35.000Z",
-    "summary": "Boutte led all Patriots wide receivers in touchdowns last year, but didn&#039;t fit into New England&#039;s plans this season",
-    "tags": [
-      "league-news",
-      "trade",
-      "HOU",
-      "NE"
-    ],
-    "players": [
-      "kayshon-boutte"
-    ],
-    "teams": [
-      "HOU",
-      "NE"
-    ]
-  },
-  {
-    "id": "dxvza814p0s3w",
-    "title": "The Ja&#039;Kobi Lane hype is real: Ravens rookie could quickly become Lamar Jackson&#039;s WR2",
-    "url": "https://www.cbssports.com/nfl/news/jakobi-lane-ravens-rookie-lamar-jackson-wr2",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-28T15:40:39.000Z",
-    "summary": "The mid-round rookie has already earned a starting role in three-receiver sets, and uncertainty surrounding Rashod Bateman could create an even bigger opportunity",
-    "tags": [
-      "league-news",
-      "rookie",
-      "usage",
-      "BAL"
-    ],
-    "players": [
-      "lamar-jackson"
-    ],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "10lihg9p8oo9x",
-    "title": "Rare change: Why the NFL&#039;s 2026 cut deadline is being held on a Sunday for the first time in 22 years",
-    "url": "https://www.cbssports.com/nfl/news/why-nfls-2026-cut-deadline-is-being-held-on-a-sunday-for-the-first-time-in-22-years",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-28T15:23:31.000Z",
-    "summary": "The league shifted the 53-man roster deadline to Sunday for the first time since 2004 to accommodate the 49ers and Rams traveling to Australia for their Week 1 matchup",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "LAR",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "LAR",
-      "SF"
-    ]
-  },
-  {
-    "id": "1kulxp11w4zzkn",
-    "title": "DitD & Open Post - 8/28/26: Trade Request Edition",
-    "url": "https://sports.yahoo.com/articles/ditd-open-post-8-28-110000539.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-28T11:00:00.000Z",
-    "summary": "New Jersey Devils & Related Hockey Links for 8/28/26",
-    "tags": [
-      "league-news",
-      "trade"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1j2v0no1orplvi",
-    "title": "Sir Matt Busby's £750 Man Utd contract",
-    "url": "https://sports.yahoo.com/articles/sir-matt-busbys-750-man-105541049.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-28T10:55:41.000Z",
-    "summary": "A fascinating interview with Sir Matt Busby from 1979 has been unearthed by Manchester United expert Wayne Barton. Barton has written over 20 books on United. Tyrrell, who was still working when I started covering the club in 2002, died in 2017.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "o10p5dzyg7fb",
-    "title": "Canadiens: The Goalie Market May Start Heating Up",
-    "url": "https://sports.yahoo.com/articles/canadiens-goalie-market-may-start-105155401.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-28T10:51:55.000Z",
-    "summary": "Connor Hellebuyck has turned up the pressure on the Winnipeg Jets and that may impact the Montreal Canadiens' ability to trade Samuel Montembeault.",
-    "tags": [
-      "league-news",
-      "trade",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "qda1fzridlg3",
-    "title": "Late-round QBs who could carry you to a fantasy football title",
-    "url": "https://sports.yahoo.com/articles/round-qbs-could-carry-fantasy-100342626.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-28T10:03:42.000Z",
-    "summary": "Waiting to draft your starting quarterback is a proven strategy in fantasy football. Here are six to target after everyone else has their starter.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "usage"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "dg7kzr6tfqbx",
-    "title": "Mike Vrabel on Christian Gonzalez's frustration: Players always free to feel how they feel",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-christian-gonzalezs-frustration-players-always-free-to-feel-how-they-feel",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-28T03:30:23.000Z",
-    "summary": "Patriots cornerback Christian Gonzalez expressed frustration at the pace of contract talks earlier this week, and the sides don't appear close on an extension.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "mwszkhxk5q0v",
-    "title": "Tony Romo addresses his OWI arrest, through a spokesperson",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tony-romo-addresses-his-owi-arrest-through-a-spokesperson",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-28T03:13:16.000Z",
-    "summary": "In more than a month since former Cowboys quarterback and CBS broadcaster Tony Romo was arrested for suspicion of operating while intoxicated, Romo has said nothing.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "r70mex1pf9tgz",
-    "title": "Steelers QB Will Howard being evaluated for a head injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-qb-will-howard-being-evaluated-for-a-head-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-28T03:09:28.000Z",
-    "summary": "Steelers backup quarterback Will Howard is being evaluated for a head injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "lhtzfh1dm0edp",
-    "title": "Christian Gonzalez landing spots: Cowboys, Giants among trade candidates as Patriots CB seeks record contract",
-    "url": "https://www.cbssports.com/nfl/news/christian-gonzalez-landing-spots-cowboys-giants",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-28T02:16:16.000Z",
-    "summary": "Gonzalez and the Patriots are reportedly not close to striking a long-term deal",
-    "tags": [
-      "league-news",
-      "trade",
-      "contract",
-      "DAL",
-      "NE",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "DAL",
-      "NE",
-      "NYG"
-    ]
-  },
-  {
-    "id": "1xzxnjpsz4okx",
-    "title": "Tony Romo faces three new citations from last month's OWI arrest in Milwaukee",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tony-romo-faces-three-new-citations-from-last-months-owi-arrest-in-milwaukee",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-28T01:14:24.000Z",
-    "summary": "More than a month after former Cowboys quarterback and CBS broadcaster Tony Romo was arrested for suspicion of operating while intoxicated in Milwaukee, the authorities have filed three new citations against him.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "rshals1dh5nbg",
-    "title": "Kirk Cousins plays two series, leads Raiders to two FGs",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-plays-two-series-leads-raiders-to-two-fgs",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-28T00:40:34.000Z",
-    "summary": "Kirk Cousins and the Raiders' first-team offense were surprise starters in the team's final preseason game on Thursday night.",
-    "tags": [
-      "league-news",
-      "usage",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "tx2us16uvpai",
-    "title": "8 Devy/NFL Draft Prospects Who Need to Prove It in 2026",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w0b6mf/8_devynfl_draft_prospects_who_need_to_prove_it_in",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-28T00:15:12.000Z",
-    "summary": "Football is finally almost here, which means we’re about to get actual answers on some of the guys we’ve spent all offseason yapping about and debating about. Chris and I went through 8 prospects who I think have quite a bit riding on this season. Not necessarily because we’re out on them, either. Some of these guys have a ton of talent.. But at some point the projection has to turn into productio",
-    "tags": [
-      "dynasty",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1d68vbothf466",
-    "title": "Some believe Jed York will \"self-suspend,\" regardless of league action",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/some-believe-jed-york-will-self-suspend-regardless-of-league-action",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-27T23:28:42.000Z",
-    "summary": "When it comes to the NFL's potential discipline of 49ers owner Jed York for his no-contest plea resulting from an attempt to pay for sex at an Ohio trailer park, the widespread public humiliation (which has crossed the Atlantic Ocean due to his partial ownership of two English soccer clubs) could be punishment enough.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1u6djqeyjxgj6",
-    "title": "Latest NFL injury updates: Ashton Jeanty avoids major injury, other running backs uncertain for Week 1",
-    "url": "https://www.cbssports.com/nfl/news/latest-nfl-injury-updates",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-27T23:03:55.000Z",
-    "summary": "Who will be ready for season openers, and who&#039;s trying to get there?",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "ashton-jeanty"
-    ],
-    "teams": []
-  },
-  {
-    "id": "o8puu6130601g",
-    "title": "Titans WR Wan'Dale Robinson evaluated for concussion after sustaining 'cheap' hit in joint practice with Bears",
-    "url": "https://sports.yahoo.com/nfl/article/titans-wr-wandale-robinson-evaluated-for-concussion-after-sustaining-cheap-hit-in-joint-practice-with-bears-221005662.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-27T22:10:05.000Z",
-    "summary": "Tennessee head coach Robert Saleh didn't hesitate when asked about the play that caused Robinson to exit Thursday's practice early.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI",
-      "TEN"
-    ],
-    "players": [
-      "wan-dale-robinson"
-    ],
-    "teams": [
-      "CHI",
-      "TEN"
-    ]
-  },
-  {
-    "id": "14doatp186i3a5",
-    "title": "Packers RB Josh Jacobs charged after May arrest for domestic incident, could face NFL suspension",
-    "url": "https://sports.yahoo.com/nfl/article/packers-rb-josh-jacobs-charged-after-may-arrest-for-domestic-incident-could-face-nfl-suspension-220829493.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-27T22:08:29.000Z",
-    "summary": "Josh Jacobs was charged with misdemeanor battery and criminal damage to property.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "GB"
-    ],
-    "players": [
-      "josh-jacobs"
-    ],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "15mtml8pe1i10",
-    "title": "Jays Roster Moves: Michael Lorenzen Signed",
-    "url": "https://sports.yahoo.com/articles/jays-roster-moves-michael-lorenzen-215943986.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-27T21:59:43.000Z",
-    "summary": "I knew, when Chad Dallas was so good last night, that he would be on his way back to Buffalo today. Thanks for the 2.2 scoreless innings, here is a bus ticket back to Buffalo. That is is fifth option of the year, so if he’s back, he’s back to stay. The Jays signed Michael […]",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1xjck4m1oxrvi6",
-    "title": "Leonard Williams 'grateful' for extension with Seahawks",
-    "url": "https://www.espn.com/video/clip/_/id/49746631/leonard-williams-grateful-extension-seahawks",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-27T21:57:24.000Z",
-    "summary": "Leonard Williams 'grateful' for extension with Seahawks",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "wm7z0ydwo7b0",
-    "title": "Dolphins trade Tutu Atwell to Rams",
-    "url": "https://sports.yahoo.com/articles/dolphins-trade-tutu-atwell-rams-215214786.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-27T21:52:14.000Z",
-    "summary": "The Miami Dolphins are sending Tutu Atwell back to the Rams in exchange for a running back.",
-    "tags": [
-      "league-news",
-      "trade",
-      "LAR",
-      "MIA"
-    ],
-    "players": [],
-    "teams": [
-      "LAR",
-      "MIA"
-    ]
-  },
-  {
-    "id": "l7szq21ob6jd8",
-    "title": "Giants place WR Calvin Austin on injured reserve",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-place-wr-calvin-austin-on-injured-reserve",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-27T21:44:53.000Z",
-    "summary": "The Giants officially ended Calvin Austin's season on Thursday by placing the wide receiver on injured reserve.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYG"
-    ],
-    "players": [
-      "calvin-austin"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1kyzann59vf7h",
-    "title": "Giants place WR Calvin Austin on injured reserve",
-    "url": "https://sports.yahoo.com/articles/giants-place-wr-calvin-austin-214453222.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-27T21:44:53.000Z",
-    "summary": "The Giants officially ended Calvin Austin's season on Thursday by placing the wide receiver on injured reserve.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYG"
-    ],
-    "players": [
-      "calvin-austin"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "m5dt7cohbov4",
-    "title": "Injury updates: Lions very shorthanded at center",
-    "url": "https://sports.yahoo.com/articles/injury-updates-lions-very-shorthanded-213108888.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-27T21:31:08.000Z",
-    "summary": "The Detroit Lions are going through a lot of injuries at center and safety as training camp comes to a close.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DET"
-    ],
-    "players": [
-      "detroit-lions"
-    ],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "1aql4le11h63k4",
-    "title": "What&#039;s next for Shedeur Sanders? NFL sources question whether Browns QB has a starting future",
-    "url": "https://www.cbssports.com/nfl/news/shedeur-sanders-future-browns-qb-job-deshaun-watson",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-27T21:29:58.000Z",
-    "summary": "After Deshaun Watson won Cleveland&#039;s starting job, NFL coaches and front-office officials explain why Sanders faces an uncertain future -- and why some teams wouldn&#039;t trade for him even if he became available",
-    "tags": [
-      "league-news",
-      "trade",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "1fu9lpdtayntl",
-    "title": "Packers&#039; Josh Jacobs charged with two misdemeanors after May arrest; GM addresses possible NFL suspension",
-    "url": "https://www.cbssports.com/nfl/news/packers-josh-jacobs-charged-misdemeanors-suspension-possible",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-27T21:25:32.000Z",
-    "summary": "Green Bay&#039;s star running back was charged with battery and damage to property stemming from a May arrest",
-    "tags": [
-      "league-news",
-      "discipline",
-      "GB"
-    ],
-    "players": [
-      "josh-jacobs"
-    ],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "1mmimw9u20uh3",
-    "title": "Connor Hellebuyck Makes Trade Request Public, But Could Florida Panthers Explore Potential Deal",
-    "url": "https://sports.yahoo.com/articles/connor-hellebuyck-makes-trade-request-212239998.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-27T21:22:39.000Z",
-    "summary": "Connor Hellebuyck is still looking for a new home, as the elite netminder's public demand could spark a trade frenzy across the NHL.",
-    "tags": [
-      "league-news",
-      "trade",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "eg42831es3y83",
-    "title": "Titans WR Robinson evaluated for concussion after 'cheap' hit",
-    "url": "https://www.espn.com/nfl/story/_/id/49745927/titans-wr-robinson-evaluated-concussion-cheap-hit",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-27T21:21:00.000Z",
-    "summary": "Titans wide receiver Wan'Dale Robinson is being evaluated for a concussion after taking a big hit from Bears safety Xavier Woods during joint practice Thursday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI",
-      "TEN"
-    ],
-    "players": [
-      "wan-dale-robinson"
-    ],
-    "teams": [
-      "CHI",
-      "TEN"
-    ]
-  },
-  {
-    "id": "1vczjr6bbd7tg",
-    "title": "Lions put DE Payton Turner on IR",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-put-de-payton-turner-on-ir",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-27T21:12:53.000Z",
-    "summary": "Defensive end Payton Turner did not play in any games during the 2025 season and he won't be getting back into regular season action with the Lions.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "11ugdypdf1d9l",
-    "title": "Lions put DE Payton Turner on IR",
-    "url": "https://sports.yahoo.com/articles/lions-put-payton-turner-ir-211253327.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-27T21:12:53.000Z",
-    "summary": "Defensive end Payton Turner did not play in any games during the 2025 season and he won't be getting back into regular season action with the Lions.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "0h89lfx9vcld",
-    "title": "Dodgers 2026 injured list tracker",
-    "url": "https://sports.yahoo.com/articles/dodgers-2026-injured-list-tracker-193821483.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-27T21:11:27.000Z",
-    "summary": "This is your one-stop shop for every Dodgers stint on the injured list during the 2026 season. We’ll also include every time a player misses time on the paternity list, bereavement leave, or is on the family medical emergency list as well. Basically any time a player misses time that requires a roster move, we’ll […]",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
   }
 ]
