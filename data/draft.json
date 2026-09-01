@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -1376,7 +1376,7 @@
       "round": 11,
       "slot": 11,
       "rosterId": 11,
-      "playerId": "geno-smith",
+      "playerId": null,
       "playerName": "Geno Smith",
       "pos": "QB",
       "nflTeam": "NYJ",
@@ -2146,7 +2146,7 @@
       "round": 16,
       "slot": 12,
       "rosterId": 12,
-      "playerId": null,
+      "playerId": "elijah-sarratt",
       "playerName": "Elijah Sarratt",
       "pos": "WR",
       "nflTeam": "BAL",
@@ -2575,7 +2575,7 @@
       "round": 20,
       "slot": 3,
       "rosterId": 2,
-      "playerId": "kirk-cousins",
+      "playerId": null,
       "playerName": "Kirk Cousins",
       "pos": "QB",
       "nflTeam": "LV",
@@ -2927,7 +2927,7 @@
       "round": 22,
       "slot": 11,
       "rosterId": 8,
-      "playerId": "devin-neal",
+      "playerId": null,
       "playerName": "Devin Neal",
       "pos": "RB",
       "nflTeam": "NO",
@@ -3169,7 +3169,7 @@
       "round": 24,
       "slot": 9,
       "rosterId": 1,
-      "playerId": null,
+      "playerId": "chris-brooks",
       "playerName": "Chris Brooks",
       "pos": "RB",
       "nflTeam": "GB",
@@ -3372,6 +3372,17 @@
       "pos": "QB",
       "nflTeam": "SEA",
       "mine": false
+    },
+    {
+      "pick": 304,
+      "round": 26,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Camden Brown",
+      "pos": "WR",
+      "nflTeam": "DAL",
+      "mine": true
     }
   ]
 }
