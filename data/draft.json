@@ -3405,6 +3405,39 @@
       "pos": "TE",
       "nflTeam": "CIN",
       "mine": false
+    },
+    {
+      "pick": 307,
+      "round": 26,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": null,
+      "playerName": "Jack Endries",
+      "pos": "TE",
+      "nflTeam": "CIN",
+      "mine": false
+    },
+    {
+      "pick": 308,
+      "round": 26,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": null,
+      "playerName": "DeMario Douglas",
+      "pos": "WR",
+      "nflTeam": "NE",
+      "mine": false
+    },
+    {
+      "pick": 309,
+      "round": 26,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "jacob-saylors",
+      "playerName": "Jacob Saylors",
+      "pos": "RB",
+      "nflTeam": "DET",
+      "mine": false
     }
   ]
 }
