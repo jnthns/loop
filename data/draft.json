@@ -3482,6 +3482,61 @@
       "pos": "TE",
       "nflTeam": "DAL",
       "mine": false
+    },
+    {
+      "pick": 314,
+      "round": 27,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": null,
+      "playerName": "Deion Burks",
+      "pos": "WR",
+      "nflTeam": "IND",
+      "mine": false
+    },
+    {
+      "pick": 315,
+      "round": 27,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Cole Payton",
+      "pos": "QB",
+      "nflTeam": "PHI",
+      "mine": false
+    },
+    {
+      "pick": 316,
+      "round": 27,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": "dohnte-meyers",
+      "playerName": "Dohnte Meyers",
+      "pos": "WR",
+      "nflTeam": "CIN",
+      "mine": false
+    },
+    {
+      "pick": 317,
+      "round": 27,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": null,
+      "playerName": "Jahan Dotson",
+      "pos": "WR",
+      "nflTeam": "ATL",
+      "mine": false
+    },
+    {
+      "pick": 318,
+      "round": 27,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": null,
+      "playerName": "Quinn Ewers",
+      "pos": "QB",
+      "nflTeam": "JAX",
+      "mine": false
     }
   ]
 }
