@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-09-02T11:15:30.782Z",
-  "snapshotAt": "2026-09-01T12:20:07Z",
+  "capturedAt": "2026-09-02T16:33:08.249Z",
+  "snapshotAt": "2026-09-02T11:55:28Z",
   "season": "2026",
   "entries": [
     {
@@ -532,20 +532,28 @@
       "sleeperId": "9221"
     },
     {
-      "id": "isiah-pacheco",
-      "name": "Isiah Pacheco",
+      "id": "sione-vaki",
+      "name": "Sione Vaki",
       "pos": "RB",
       "nflTeam": "DET",
       "depthRank": 2,
-      "sleeperId": "8205"
+      "sleeperId": "11729"
     },
     {
       "id": "jacob-saylors",
       "name": "Jacob Saylors",
       "pos": "RB",
       "nflTeam": "DET",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "11237"
+    },
+    {
+      "id": "isiah-pacheco",
+      "name": "Isiah Pacheco",
+      "pos": "RB",
+      "nflTeam": "DET",
+      "depthRank": 5,
+      "sleeperId": "8205"
     },
     {
       "id": "sam-laporta",
@@ -594,14 +602,6 @@
       "nflTeam": "GB",
       "depthRank": 1,
       "sleeperId": "11581"
-    },
-    {
-      "id": "chris-brooks",
-      "name": "Chris Brooks",
-      "pos": "RB",
-      "nflTeam": "GB",
-      "depthRank": 2,
-      "sleeperId": "11370"
     },
     {
       "id": "kaleb-johnson",
@@ -682,14 +682,6 @@
       "nflTeam": "HOU",
       "depthRank": 1,
       "sleeperId": "5001"
-    },
-    {
-      "id": "marlin-klein",
-      "name": "Marlin Klein",
-      "pos": "TE",
-      "nflTeam": "HOU",
-      "depthRank": 4,
-      "sleeperId": "13307"
     },
     {
       "id": "nico-collins",
@@ -1404,6 +1396,14 @@
       "sleeperId": "7090"
     },
     {
+      "id": "malachi-fields",
+      "name": "Malachi Fields",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "depthRank": 4,
+      "sleeperId": "13285"
+    },
+    {
       "id": "odell-beckham",
       "name": "Odell Beckham",
       "pos": "WR",
@@ -1724,14 +1724,6 @@
       "sleeperId": "4892"
     },
     {
-      "id": "jalon-daniels",
-      "name": "Jalon Daniels",
-      "pos": "QB",
-      "nflTeam": "TB",
-      "depthRank": 2,
-      "sleeperId": "13425"
-    },
-    {
       "id": "bucky-irving",
       "name": "Bucky Irving",
       "pos": "RB",
@@ -1834,6 +1826,14 @@
       "nflTeam": "TEN",
       "depthRank": 1,
       "sleeperId": "12502"
+    },
+    {
+      "id": "daniel-bellinger",
+      "name": "Daniel Bellinger",
+      "pos": "TE",
+      "nflTeam": "TEN",
+      "depthRank": 2,
+      "sleeperId": "8225"
     },
     {
       "id": "carnell-tate",
