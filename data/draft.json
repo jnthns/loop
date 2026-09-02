@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3437,6 +3437,39 @@
       "playerName": "Jacob Saylors",
       "pos": "RB",
       "nflTeam": "DET",
+      "mine": false
+    },
+    {
+      "pick": 310,
+      "round": 26,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Joe Milton",
+      "pos": "QB",
+      "nflTeam": "DAL",
+      "mine": false
+    },
+    {
+      "pick": 311,
+      "round": 26,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": "kendre-miller",
+      "playerName": "Kendre Miller",
+      "pos": "RB",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 312,
+      "round": 26,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": null,
+      "playerName": "Andrei Iosivas",
+      "pos": "WR",
+      "nflTeam": "CIN",
       "mine": false
     }
   ]

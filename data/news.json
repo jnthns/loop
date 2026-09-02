@@ -1,5 +1,122 @@
 [
   {
+    "id": "1jp31kf11mici3",
+    "title": "Facts vs. Feelings: In on Ladd McConkey? Out on Bucky Irving? What about Lamar Jackson?",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49798112/2026-fantasy-football-facts-vs-feelings-ladd-mcconkey-bucky-irving-lamar-jackson-colston-loveland",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-02T11:00:49.000Z",
+    "summary": "In advance of the biggest draft weekend, Liz Loza reveals her strongest thoughts to help you have a successful draft.",
+    "tags": [
+      "league-news",
+      "rookie"
+    ],
+    "players": [
+      "lamar-jackson",
+      "bucky-irving",
+      "ladd-mcconkey"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1o728npem6fbt",
+    "title": "Bengals film room: Offensive rookies vs. Eagles",
+    "url": "https://sports.yahoo.com/articles/bengals-film-room-offensive-rookies-101500360.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-02T10:15:00.000Z",
+    "summary": "Brian Parker II will unfortunately begin the year on IR, but he had a strong preseason.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CIN",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "CIN",
+      "PHI"
+    ]
+  },
+  {
+    "id": "1ldrix2al87mu",
+    "title": "Mike Vrabel gives intel into Patriots’ waiver wire pickups",
+    "url": "https://sports.yahoo.com/articles/mike-vrabel-gives-intel-patriots-100000705.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-02T10:00:00.000Z",
+    "summary": "The Patriots claimed two players after the roster cuts deadline.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "z5qkqt17rd5op",
+    "title": "Jon-Eric Sullivan on Quinn Ewers: This is a performance business and it was not getting done",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jon-eric-sullivan-on-quinn-ewers-this-is-a-performance-business-and-it-was-not-getting-done",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-02T08:02:36.000Z",
+    "summary": "The Dolphins traded Ewers to the Jaguars for a 2028 sixth-round draft pick.",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "JAX",
+      "MIA"
+    ],
+    "players": [],
+    "teams": [
+      "JAX",
+      "MIA"
+    ]
+  },
+  {
+    "id": "1upv85ji7moxd",
+    "title": "Jon-Eric Sullivan on Quinn Ewers: This is a performance business and it was not getting done",
+    "url": "https://sports.yahoo.com/articles/jon-eric-sullivan-quinn-ewers-080236497.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-02T08:02:36.000Z",
+    "summary": "The Dolphins traded Ewers to the Jaguars for a 2028 sixth-round draft pick.",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "JAX",
+      "MIA"
+    ],
+    "players": [],
+    "teams": [
+      "JAX",
+      "MIA"
+    ]
+  },
+  {
+    "id": "d7jca26imgsw",
+    "title": "Bears GM not sure if $40 million star Kyler Gordon will play at all this season in injury mystery",
+    "url": "https://sports.yahoo.com/articles/bears-gm-not-sure-40-031302342.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-02T03:13:02.000Z",
+    "summary": "The Bears have \"hope\" that one of the key pieces to their defensive backs corps will play again.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
     "id": "t71ir717hz8w9",
     "title": "2026 NFC North Season Forecast: Detroit Lions",
     "url": "https://sports.yahoo.com/articles/2026-nfc-north-season-forecast-020852061.html",
@@ -88,6 +205,24 @@
     "players": [],
     "teams": [
       "NO"
+    ]
+  },
+  {
+    "id": "1mclh7b1y7o27t",
+    "title": "Joey Porter Jr.’s Week 1 status unclear as Steelers contract dispute takes bizarre turn",
+    "url": "https://sports.yahoo.com/articles/joey-porter-jr-week-1-011345660.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-02T01:13:45.000Z",
+    "summary": "Joey Porter Jr. is officially back on the practice field. Whether he's on the game field for Week 1 is another story altogether.",
+    "tags": [
+      "league-news",
+      "contract",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
     ]
   },
   {
@@ -7384,143 +7519,6 @@
     "teams": [
       "CIN",
       "PIT"
-    ]
-  },
-  {
-    "id": "rf10fu1iq1w1k",
-    "title": "Eagles reportedly cut preseason fan favorite",
-    "url": "https://sports.yahoo.com/articles/eagles-reportedly-cut-preseason-fan-181911530.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-29T18:19:11.000Z",
-    "summary": "He did not Steele a roster spot.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "ccc1xv3hhrab",
-    "title": "Todd Monken continues wrestling \"somewhat\" with fates of Dillon Gabriel and Taylen Green",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-continues-wrestling-somewhat-with-fates-of-dillon-gabriel-and-taylen-green",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-29T18:18:14.000Z",
-    "summary": "The Browns know what they'll be doing as to the top two quarterbacks on the depth chart.",
-    "tags": [
-      "league-news",
-      "usage",
-      "CLE"
-    ],
-    "players": [
-      "dillon-gabriel",
-      "taylen-green"
-    ],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "blm4s1emlh8r",
-    "title": "Todd Monken continues wrestling \"somewhat\" with fates of Dillon Gabriel and Taylen Green",
-    "url": "https://sports.yahoo.com/articles/todd-monken-continues-wrestling-somewhat-181814605.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-29T18:18:14.000Z",
-    "summary": "The Browns know what they'll be doing as to the top two quarterbacks on the depth chart.",
-    "tags": [
-      "league-news",
-      "usage",
-      "CLE"
-    ],
-    "players": [
-      "dillon-gabriel",
-      "taylen-green"
-    ],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "d53yjxs2dold",
-    "title": "Cardinals trade RB Corey Kiner to Patriots for a 2028 seventh-round pick",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-trade-rb-corey-kiner-to-patriots-for-a-2028-seventh-round-pick",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-29T17:53:09.000Z",
-    "summary": "The Patriots have added some depth at running back through a trade with the Cardinals.",
-    "tags": [
-      "league-news",
-      "trade",
-      "ARI",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "ARI",
-      "NE"
-    ]
-  },
-  {
-    "id": "h9zzmrk52zdj",
-    "title": "Chris Olave's new deal has guarantee waiver for career-ending concussion",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-olaves-new-deal-has-guarantee-waiver-for-career-ending-concussion",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-29T16:51:25.000Z",
-    "summary": "The new contract recently signed by Saints receiver Chris Olave comes with an important caveat.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "NO"
-    ],
-    "players": [
-      "chris-olave"
-    ],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "i0afl1d0f0mf",
-    "title": "FYI, sleeper has given Tyreek Hill the OUT designation",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w1rkr2/fyi_sleeper_has_given_tyreek_hill_the_out",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-29T16:51:22.000Z",
-    "summary": "Sorry for another Tyreek thread, but I figured managers with IR slots can finally take advantage this season of him having 1 functional leg. Given he’s not currently signed with a team, I’m not sure how/why he got this designation but feel free to use this as an opportunity in the meantime. &#32; submitted by &#32; /u/MinatureRascal [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "contract"
-    ],
-    "players": [
-      "tyreek-hill"
-    ],
-    "teams": []
-  },
-  {
-    "id": "fazyglej5lsf",
-    "title": "Dolphins begin roster cuts, waive 12 players",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-begin-roster-cuts-waive-12-players",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-29T16:38:59.000Z",
-    "summary": "The Dolphins have announced a wave of cuts, with all clubs set to reduce their rosters to 53 players this weekend.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "MIA"
-    ],
-    "players": [],
-    "teams": [
-      "MIA"
     ]
   }
 ]
