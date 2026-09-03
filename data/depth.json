@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-09-03T11:11:54.446Z",
-  "snapshotAt": "2026-09-02T11:55:28Z",
+  "capturedAt": "2026-09-03T16:24:02.247Z",
+  "snapshotAt": "2026-09-03T11:53:47Z",
   "season": "2026",
   "entries": [
     {
@@ -552,7 +552,7 @@
       "name": "Isiah Pacheco",
       "pos": "RB",
       "nflTeam": "DET",
-      "depthRank": 5,
+      "depthRank": 4,
       "sleeperId": "8205"
     },
     {
