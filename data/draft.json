@@ -3537,6 +3537,61 @@
       "pos": "QB",
       "nflTeam": "JAX",
       "mine": false
+    },
+    {
+      "pick": 319,
+      "round": 27,
+      "slot": 6,
+      "rosterId": 8,
+      "playerId": null,
+      "playerName": "Tez Johnson",
+      "pos": "WR",
+      "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 320,
+      "round": 27,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Haynes King",
+      "pos": "QB",
+      "nflTeam": "CAR",
+      "mine": false
+    },
+    {
+      "pick": 321,
+      "round": 27,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Tyquan Thornton",
+      "pos": "WR",
+      "nflTeam": "KC",
+      "mine": true
+    },
+    {
+      "pick": 322,
+      "round": 27,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": null,
+      "playerName": "Luke McCaffrey",
+      "pos": "WR",
+      "nflTeam": "WAS",
+      "mine": false
+    },
+    {
+      "pick": 323,
+      "round": 27,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "Jalen Royals",
+      "pos": "WR",
+      "nflTeam": "KC",
+      "mine": false
     }
   ]
 }
