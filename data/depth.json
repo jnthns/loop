@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-03T16:24:02.247Z",
+  "capturedAt": "2026-09-03T21:00:31.423Z",
   "snapshotAt": "2026-09-03T11:53:47Z",
   "season": "2026",
   "entries": [
@@ -1028,6 +1028,14 @@
       "sleeperId": "12509"
     },
     {
+      "id": "kirk-cousins",
+      "name": "Kirk Cousins",
+      "pos": "QB",
+      "nflTeam": "LV",
+      "depthRank": 1,
+      "sleeperId": "1166"
+    },
+    {
       "id": "fernando-mendoza",
       "name": "Fernando Mendoza",
       "pos": "QB",
@@ -1082,14 +1090,6 @@
       "nflTeam": "MIA",
       "depthRank": 1,
       "sleeperId": "8161"
-    },
-    {
-      "id": "kyle-mccord",
-      "name": "Kyle McCord",
-      "pos": "QB",
-      "nflTeam": "MIA",
-      "depthRank": 2,
-      "sleeperId": "12494"
     },
     {
       "id": "de-von-achane",
@@ -1826,14 +1826,6 @@
       "nflTeam": "TEN",
       "depthRank": 1,
       "sleeperId": "12502"
-    },
-    {
-      "id": "daniel-bellinger",
-      "name": "Daniel Bellinger",
-      "pos": "TE",
-      "nflTeam": "TEN",
-      "depthRank": 2,
-      "sleeperId": "8225"
     },
     {
       "id": "carnell-tate",

@@ -2575,7 +2575,7 @@
       "round": 20,
       "slot": 3,
       "rosterId": 2,
-      "playerId": null,
+      "playerId": "kirk-cousins",
       "playerName": "Kirk Cousins",
       "pos": "QB",
       "nflTeam": "LV",
@@ -3477,7 +3477,7 @@
       "round": 27,
       "slot": 12,
       "rosterId": 12,
-      "playerId": "michael-trigg",
+      "playerId": null,
       "playerName": "Michael Trigg",
       "pos": "TE",
       "nflTeam": "DAL",
@@ -3613,6 +3613,17 @@
       "playerName": "Nate Boerkircher",
       "pos": "TE",
       "nflTeam": "JAX",
+      "mine": false
+    },
+    {
+      "pick": 326,
+      "round": 28,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "Will Howard",
+      "pos": "QB",
+      "nflTeam": "PIT",
       "mine": false
     }
   ]

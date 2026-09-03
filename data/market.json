@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-03T16:24:01.391Z",
+  "capturedAt": "2026-09-03T21:00:30.529Z",
   "scrapeDate": "2026-08-28",
   "sources": [
     {
@@ -4371,7 +4371,7 @@
       "sleeperId": "1166",
       "ktcId": "396",
       "espnId": "14880",
-      "playerId": null,
+      "playerId": "kirk-cousins",
       "name": "Kirk Cousins",
       "pos": "QB",
       "nflTeam": "LV",
@@ -5918,7 +5918,7 @@
       "sleeperId": "13401",
       "ktcId": "2008",
       "espnId": "4594749",
-      "playerId": "michael-trigg",
+      "playerId": null,
       "name": "Michael Trigg",
       "pos": "TE",
       "nflTeam": "DAL",
@@ -7516,7 +7516,7 @@
       "sleeperId": "8225",
       "ktcId": "1322",
       "espnId": "4361516",
-      "playerId": "daniel-bellinger",
+      "playerId": null,
       "name": "Daniel Bellinger",
       "pos": "TE",
       "nflTeam": "TEN",
@@ -7771,7 +7771,7 @@
       "sleeperId": "12494",
       "ktcId": "1738",
       "espnId": "4433971",
-      "playerId": "kyle-mccord",
+      "playerId": null,
       "name": "Kyle McCord",
       "pos": "QB",
       "nflTeam": "GB",
