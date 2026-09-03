@@ -1,5 +1,119 @@
 [
   {
+    "id": "jne28hbm6cc1",
+    "title": "Cardinals make small roster adjustments",
+    "url": "https://sports.yahoo.com/articles/cardinals-small-roster-adjustments-110000914.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-03T11:00:00.000Z",
+    "summary": "Mostly injured players",
+    "tags": [
+      "league-news",
+      "injury",
+      "ARI"
+    ],
+    "players": [],
+    "teams": [
+      "ARI"
+    ]
+  },
+  {
+    "id": "2p9dff1u67ppt",
+    "title": "Patriots rookie found out he made the roster via Instagram",
+    "url": "https://sports.yahoo.com/articles/patriots-rookie-found-made-roster-100000062.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-03T10:00:00.000Z",
+    "summary": "Quintayvious Hutchins is part of New England’s initial 53-man team.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "a2uwhu1gkxhba",
+    "title": "The Bear’s Den: Chicago is hot, and so are the Bears",
+    "url": "https://sports.yahoo.com/articles/bear-den-chicago-hot-bears-100000423.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-03T10:00:00.000Z",
+    "summary": "The heat is on at Halas Hall, and the heat is also on Kyler Gordon. Also, is a trade brewing for the Chicago Bears?",
+    "tags": [
+      "league-news",
+      "trade",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1xf8jgu12xiuqu",
+    "title": "Kayshon Boutte opens up about trade from Patriots to Texans",
+    "url": "https://sports.yahoo.com/articles/kayshon-boutte-opens-trade-patriots-092235719.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-03T09:22:35.000Z",
+    "summary": "The wide receiver was sent to Houston last month.",
+    "tags": [
+      "league-news",
+      "trade",
+      "HOU",
+      "NE"
+    ],
+    "players": [
+      "kayshon-boutte"
+    ],
+    "teams": [
+      "HOU",
+      "NE"
+    ]
+  },
+  {
+    "id": "feam0b19dxdrv",
+    "title": "49ers DE Sam Okuayinonu not on team flight to Australia, questionable with foot injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-de-sam-okuayinonu-not-on-team-flight-to-australia-questionable-with-foot-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-03T09:18:00.000Z",
+    "summary": "The 49ers are on their way to Australia, but defensive end Sam Okuayinonu is not with them.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1oijpao179lw3y",
+    "title": "49ers DE Sam Okuayinonu not on team flight to Australia, questionable with foot injury",
+    "url": "https://sports.yahoo.com/articles/49ers-sam-okuayinonu-not-team-091800500.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-03T09:18:00.000Z",
+    "summary": "The 49ers are on their way to Australia, but defensive end Sam Okuayinonu is not with them.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "eunpwkdt6zyg",
     "title": "In honor of Kawhi Leonard, is there a trade in your league that destroyed a team?",
     "url": "https://www.reddit.com/r/DynastyFF/comments/1w5wqm3/in_honor_of_kawhi_leonard_is_there_a_trade_in",
@@ -7393,122 +7507,6 @@
     "players": [],
     "teams": [
       "BUF"
-    ]
-  },
-  {
-    "id": "tc68py1h7pq8k",
-    "title": "Giants cut eight, including WR Isaiah Hodgins",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-cut-eight-including-wr-isaiah-hodgins",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-29T23:13:35.000Z",
-    "summary": "The Giants have begun reducing their roster to 53 players.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1sz48e29nwly4",
-    "title": "Giants cut eight, including WR Isaiah Hodgins",
-    "url": "https://sports.yahoo.com/articles/giants-cut-eight-including-wr-231335678.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-29T23:13:35.000Z",
-    "summary": "The Giants have begun reducing their roster to 53 players.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "b2yuf4tiq2fm",
-    "title": "Raiders cut tracker 2026: News and rumors on cutdown day",
-    "url": "https://sports.yahoo.com/articles/raiders-cut-tracker-2026-news-052700161.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-29T23:03:42.000Z",
-    "summary": "All the latest roster moves here",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "1q2vb2k11hv7ec",
-    "title": "Kick/punt returner for each team?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w20qc0/kickpunt_returner_for_each_team",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-29T22:59:34.000Z",
-    "summary": "For those of us who are in leagues with points for Punt/kick return yards, who is likely to be the starter for each team? In rookie drafts I picked up Zavion Thomas who just had that 98yrd return and Kaden Wetjen for the Steelers who has looked great. Any other rookies we should know about? Or just in general other no named guys who's role has transitioned across to more of a special teams positio",
-    "tags": [
-      "dynasty",
-      "rookie",
-      "usage",
-      "PIT"
-    ],
-    "players": [
-      "zavion-thomas"
-    ],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "14bckkj4pieob",
-    "title": "Breaking Down The Jaguars Trade for Dolphins QB Quinn Ewers",
-    "url": "https://sports.yahoo.com/articles/breaking-down-jaguars-trade-dolphins-225608693.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-29T22:56:08.000Z",
-    "summary": "The Jacksonville Jaguars have acquired Quinn Ewers from the Miami Dolphins, adding a young developmental quarterback with starting experience ahead of Sunday's 53-man roster deadline. We break down the move.",
-    "tags": [
-      "league-news",
-      "trade",
-      "JAX",
-      "MIA"
-    ],
-    "players": [
-      "jacksonville-jaguars",
-      "quinn-ewers"
-    ],
-    "teams": [
-      "JAX",
-      "MIA"
-    ]
-  },
-  {
-    "id": "18fjzaj1gge9f5",
-    "title": "Report: Jets waive DT Mazi Smith",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jets-waive-dt-mazi-smith",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-29T22:50:27.000Z",
-    "summary": "The Jets are releasing defensive tackle Mazi Smith, Adam Schefter of ESPN reports.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ"
     ]
   }
 ]

@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3591,6 +3591,28 @@
       "playerName": "Jalen Royals",
       "pos": "WR",
       "nflTeam": "KC",
+      "mine": false
+    },
+    {
+      "pick": 324,
+      "round": 27,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Jamal Haynes",
+      "pos": "RB",
+      "nflTeam": "",
+      "mine": false
+    },
+    {
+      "pick": 325,
+      "round": 28,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Nate Boerkircher",
+      "pos": "TE",
+      "nflTeam": "JAX",
       "mine": false
     }
   ]
