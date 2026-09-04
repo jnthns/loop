@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-09-04T11:16:25.598Z",
-  "snapshotAt": "2026-09-03T11:53:47Z",
+  "capturedAt": "2026-09-04T16:20:06.084Z",
+  "snapshotAt": "2026-09-04T11:57:41Z",
   "season": "2026",
   "entries": [
     {
@@ -476,20 +476,20 @@
       "sleeperId": "13345"
     },
     {
-      "id": "courtland-sutton",
-      "name": "Courtland Sutton",
-      "pos": "WR",
-      "nflTeam": "DEN",
-      "depthRank": 1,
-      "sleeperId": "5045"
-    },
-    {
       "id": "jaylen-waddle",
       "name": "Jaylen Waddle",
       "pos": "WR",
       "nflTeam": "DEN",
-      "depthRank": 2,
+      "depthRank": 1,
       "sleeperId": "7526"
+    },
+    {
+      "id": "courtland-sutton",
+      "name": "Courtland Sutton",
+      "pos": "WR",
+      "nflTeam": "DEN",
+      "depthRank": 2,
+      "sleeperId": "5045"
     },
     {
       "id": "troy-franklin",

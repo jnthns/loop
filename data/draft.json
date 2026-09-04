@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3647,6 +3647,17 @@
       "pos": "TE",
       "nflTeam": "KC",
       "mine": true
+    },
+    {
+      "pick": 329,
+      "round": 28,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Sam Roush",
+      "pos": "TE",
+      "nflTeam": "CHI",
+      "mine": false
     }
   ]
 }
