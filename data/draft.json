@@ -3658,6 +3658,17 @@
       "pos": "TE",
       "nflTeam": "CHI",
       "mine": false
+    },
+    {
+      "pick": 330,
+      "round": 28,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": null,
+      "playerName": "Xavier Legette",
+      "pos": "WR",
+      "nflTeam": "CAR",
+      "mine": false
     }
   ]
 }

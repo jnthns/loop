@@ -1,5 +1,163 @@
 [
   {
+    "id": "93ly6m1hc3cjk",
+    "title": "Sean McVay: I look at Stetson Bennett, Ty Simpson as \"2A, 2B\"",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-i-look-at-stetson-bennett-ty-simpson-as-2a-2b",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-04T20:41:36.000Z",
+    "summary": "The Rams released a depth chart that shows Stetson Bennett as the team's second quarterback and first-round pick Ty Simpson as their third quarterback, but head coach Sean McVay said things are less clear cut than that would make it appear.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "usage",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "mu7k4614wwloi",
+    "title": "Cowboys' captains: Kenny Clark, Quinnen Williams, Dak Prescott, Brandon Aubrey",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-captains-kenny-clark-quinnen-williams-dak-prescott-brandon-aubrey",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-04T19:11:52.000Z",
+    "summary": "The Cowboys have two defensive captains this season, and both were acquired by trading Micah Parsons.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL"
+    ],
+    "players": [
+      "dak-prescott"
+    ],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "7ft9bj9x1gvv",
+    "title": "Cowboys' captains: Kenny Clark, Quinnen Williams, Dak Prescott, Brandon Aubrey",
+    "url": "https://sports.yahoo.com/articles/cowboys-captains-kenny-clark-quinnen-191152563.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T19:11:52.000Z",
+    "summary": "The Cowboys have two defensive captains this season, and both were acquired by trading Micah Parsons.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL"
+    ],
+    "players": [
+      "dak-prescott"
+    ],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "1bqdrsw1u5dhfw",
+    "title": "Shaq Mason won't be disciplined after 2025 arrest, remains a free agent",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shaq-mason-wont-be-disciplined-after-2025-arrest-remains-a-free-agent",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-04T18:58:25.000Z",
+    "summary": "Shaq Mason is ready to resume his career.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1x7eiwliy4gi9",
+    "title": "Shaq Mason won't be disciplined after 2025 arrest, remains a free agent",
+    "url": "https://sports.yahoo.com/articles/shaq-mason-wont-disciplined-2025-185825362.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T18:58:25.000Z",
+    "summary": "Shaq Mason is ready to resume his career.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "z8zgjwq63hze",
+    "title": "Report: Clemson tells LSU that use of former NFL players could breach game contract",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-clemson-tells-lsu-that-use-of-former-nfl-players-could-breach-game-contract",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-04T18:54:44.000Z",
+    "summary": "As the SEC and LSU continue to battle over whether the Tigers will use former NFL players in Saturday night's regular-season opener, LSU's opponent has chimed in.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "15xcd001n45r4a",
+    "title": "Chicago Bears Restructure Multiple Contracts, Gain $17M in Cap Space",
+    "url": "https://sports.yahoo.com/articles/chicago-bears-restructure-multiple-contracts-172838833.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T17:28:38.000Z",
+    "summary": "The latest movement of monies allow for the Bears to get under the salary cap for this upcoming 2026 regular season.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "0hg3nfsxe6m1",
+    "title": "Seahawks bringing in undrafted offensive tackle for workout",
+    "url": "https://sports.yahoo.com/articles/seahawks-bringing-undrafted-offensive-tackle-165420362.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T16:54:20.000Z",
+    "summary": "Leigh was a three-year starter at offensive tackle for Clemson.",
+    "tags": [
+      "league-news",
+      "usage",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "dgaq7lj18irz",
+    "title": "Devin Singletary as a potential backup to Skattebo?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w79s9f/devin_singletary_as_a_potential_backup_to_skattebo",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-04T16:48:16.000Z",
+    "summary": "I haven't seen much discussion about Singletary here. The Giants' depth chart currently lists Harris OR Tracy OR Singletary behind Skat. Singetary rested in some of the preseason games while Harris and Tracy played. Harris might be washed and Tracy's fumble + blown up pass protection seemed to harm his standing. Is Singletary worth a dart throw in deep leagues? &#32; submitted by &#32; /u/NinjaSoo",
+    "tags": [
+      "dynasty",
+      "usage",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
     "id": "1ttlscddzg71v",
     "title": "Brian Schottenheimer says he's \"elated\" to have Joe Milton on Cowboys' practice squad",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-says-hes-elated-to-have-joe-milton-on-cowboys-practice-squad",
@@ -7309,172 +7467,6 @@
     "players": [],
     "teams": [
       "ARI"
-    ]
-  },
-  {
-    "id": "e76stmm4652y",
-    "title": "Aaron Donald unretires, rejoins Rams after Myles Garrett trade",
-    "url": "https://sports.yahoo.com/articles/aaron-donald-unretires-rejoins-rams-200759719.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:07:59.000Z",
-    "summary": "The Rams won't just be adding Myles Garrett to their defensive line. Aaron Donald is back from a two-year retirement after weeks of speculation.",
-    "tags": [
-      "league-news",
-      "trade",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "2ojjteo6v5e8",
-    "title": "Packers trade for Rams TE Mark Redman",
-    "url": "https://sports.yahoo.com/articles/packers-trade-rams-te-mark-184738242.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:05:55.000Z",
-    "summary": "Mark Redman caught six passes for 63 yards this preseason",
-    "tags": [
-      "league-news",
-      "trade",
-      "GB",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "GB",
-      "LAR"
-    ]
-  },
-  {
-    "id": "1pobxhlstbnmj",
-    "title": "Report: Giants to release Braxton Berrios, but plan to bring him back",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-to-release-braxton-berrios-but-plan-to-bring-him-back",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T20:03:31.000Z",
-    "summary": "Veteran wide receiver Braxton Berrios won't be on the Giants' initial 53-man roster, but he will reportedly be back with the team in September.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1bbx79t1atq7yb",
-    "title": "Report: Giants to release Braxton Berrios, but plan to bring him back",
-    "url": "https://sports.yahoo.com/articles/report-giants-release-braxton-berrios-200331765.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:03:31.000Z",
-    "summary": "Veteran wide receiver Braxton Berrios won't be on the Giants' initial 53-man roster, but he will reportedly be back with the team in September.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1vy2ms4rq7buy",
-    "title": "Patriots reportedly release veteran lineman James Hudson III ahead of 53-man deadline",
-    "url": "https://sports.yahoo.com/articles/patriots-reportedly-release-veteran-lineman-200157116.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:01:57.000Z",
-    "summary": "James Hudson III had arrived in Foxborough on a one-year deal in March.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "1h9ljd916f2pu5",
-    "title": "Broncos waive rookie tight end Justin Joly",
-    "url": "https://sports.yahoo.com/articles/broncos-waive-rookie-tight-end-200134617.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:01:34.000Z",
-    "summary": "That’s a surprise! According to 9NEWS Denver’s Mike Klis, the Denver Broncos have waived rookie tight end Justin Joly. He was selected in the 5th round of the 2026 NFL Draft and was expected to make the 53-man roster. Now he will hit the waiver wire, and we will have to see whether he clears […]",
-    "tags": [
-      "league-news",
-      "rookie",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "ir498m1j3wdxk",
-    "title": "Denver Broncos have waived offensive tackle Tyler Miller",
-    "url": "https://sports.yahoo.com/articles/denver-broncos-waived-offensive-tackle-200048150.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:00:48.000Z",
-    "summary": "According to Parker Gabriel of The Denver Post, the Denver Broncos have waived rookie offensive lineman Tyler Miller.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "cnl2y52q0osz",
-    "title": "Denver Broncos have waived long snapper Luke Basso",
-    "url": "https://sports.yahoo.com/articles/denver-broncos-waived-long-snapper-195852379.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T19:58:52.000Z",
-    "summary": "According to Chris Tomasson of the Denver Gazette, the Denver Broncos have waived long snapper Luke Basso.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "17d50011ldotz1",
-    "title": "Giants also cut QB Jake Haener",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-also-cut-qb-jake-haener",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T19:55:45.000Z",
-    "summary": "Brandon Allen isn't the only quarterback the Giants are cutting.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
     ]
   }
 ]
