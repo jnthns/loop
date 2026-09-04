@@ -1,5 +1,79 @@
 [
   {
+    "id": "1oswx2t12ukisj",
+    "title": "What the media is saying about the Cardinals inking WR Michael Wilson’s extension",
+    "url": "https://sports.yahoo.com/articles/media-saying-cardinals-inking-wr-110000474.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T11:00:00.000Z",
+    "summary": "The talented receiver has proven why he is now WR1 for Arizona",
+    "tags": [
+      "league-news",
+      "contract",
+      "ARI"
+    ],
+    "players": [
+      "michael-wilson"
+    ],
+    "teams": [
+      "ARI"
+    ]
+  },
+  {
+    "id": "xik1gb1ownn17",
+    "title": "49ers’ depth at key spot takes hit as likely starter ruled out for Week 1",
+    "url": "https://sports.yahoo.com/articles/49ers-depth-key-spot-takes-103355297.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T10:33:55.000Z",
+    "summary": "The 49ers’ dire situation at defensive end just got even worse.",
+    "tags": [
+      "league-news",
+      "usage",
+      "availability",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "19bc2r74xbz2d",
+    "title": "'I love the eyes on me.' Giants' Cam Skattebo back after brutal injury",
+    "url": "https://sports.yahoo.com/articles/love-eyes-giants-cam-skattebo-093116628.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T09:31:16.000Z",
+    "summary": "Giants RB Cam Skattebo explored what life looked like outside of football as he rehabbed his dislocated ankle. Now he's ready to return to the field.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYG"
+    ],
+    "players": [
+      "cam-skattebo"
+    ],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1lgwi7boxmorb",
+    "title": "Surviving Camp with Markel Bell, Part 4: The reality of the NFL",
+    "url": "https://sports.yahoo.com/articles/surviving-camp-markel-bell-part-070000632.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T07:00:00.000Z",
+    "summary": "In our final installment of Surviving Camp, Markel Bell learns the reality of the NFL and prepares for his rookie regular season.",
+    "tags": [
+      "league-news",
+      "rookie"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
     "id": "nfmpyc1ukzygy",
     "title": "SEC: We disagree with the court's decision, expect our rules to be followed",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sec-we-disagree-with-the-courts-decision-expect-our-rules-to-be-followed",
@@ -105,6 +179,24 @@
     "teams": [
       "LV",
       "NYG"
+    ]
+  },
+  {
+    "id": "1tw12ki1dsvjoy",
+    "title": "John Lynch reveals what 49ers must do to earn blockbuster trade",
+    "url": "https://sports.yahoo.com/articles/john-lynch-reveals-49ers-must-003040362.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T00:30:40.000Z",
+    "summary": "John Lynch isn’t promising the 49ers another blockbuster trade. He is leaving the door conspicuously open. With San Francisco preparing to begin a season carrying legitimate Super Bowl expectations, Lynch...",
+    "tags": [
+      "league-news",
+      "trade",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
     ]
   },
   {
@@ -7383,111 +7475,6 @@
     "players": [],
     "teams": [
       "WAS"
-    ]
-  },
-  {
-    "id": "jllplywfgt5i",
-    "title": "Kaleb Johnson trade grades: Packers gain Josh Jacobs insurance by acquiring former Steelers RB",
-    "url": "https://www.cbssports.com/nfl/news/kaleb-johnson-traded-to-packers-josh-jacobs-insurance",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-30T19:19:44.000Z",
-    "summary": "Johnson was selected by Pittsburgh in the third round of the 2025 NFL Draft out of Iowa",
-    "tags": [
-      "league-news",
-      "trade",
-      "rookie",
-      "GB",
-      "PIT"
-    ],
-    "players": [
-      "josh-jacobs",
-      "kaleb-johnson"
-    ],
-    "teams": [
-      "GB",
-      "PIT"
-    ]
-  },
-  {
-    "id": "ga1vx1m0fh55",
-    "title": "Puka Nacua, Alaric Jackson won't be placed on paid leave today",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-alaric-jackson-wont-be-placed-on-paid-leave-today",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T19:13:13.000Z",
-    "summary": "On Sunday, the league has placed two players on paid leave: Packers running back Josh Jacobs and Broncos linebacker Jonathon Cooper.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DEN",
-      "GB"
-    ],
-    "players": [
-      "josh-jacobs",
-      "puka-nacua"
-    ],
-    "teams": [
-      "DEN",
-      "GB"
-    ]
-  },
-  {
-    "id": "1qplrsbgk4nhd",
-    "title": "Titans to waive QB Will Levis",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-to-waive-qb-will-levis",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T19:10:32.000Z",
-    "summary": "The Titans are waiving quarterback Will Levis, Paul Kuharsky of paulkuharsky.com reports.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
-    ]
-  },
-  {
-    "id": "dn2hogp88n2g",
-    "title": "Josh Jacobs placed on commissioner&#039;s exempt list after Packers RB charged with two misdemeanors",
-    "url": "https://www.cbssports.com/nfl/news/packers-rb-josh-jacobs-commissioners-exempt-list",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-08-30T18:57:51.000Z",
-    "summary": "Green Bay&#039;s backfield is facing uncertainty entering Week 1, with Jacobs prohibited from practicing or attending games",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "GB"
-    ],
-    "players": [
-      "josh-jacobs"
-    ],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "erbu3s25d3ts",
-    "title": "Rams trade TE Mark Redman to Packers",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-traded-te-mark-redman-to-packers",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T18:47:06.000Z",
-    "summary": "The Rams are trading tight end Mark Redman to the Packers, according to Jordan Schultz of The Schultz Report.",
-    "tags": [
-      "league-news",
-      "trade",
-      "GB",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "GB",
-      "LAR"
     ]
   }
 ]
