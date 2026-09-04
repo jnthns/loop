@@ -3625,6 +3625,28 @@
       "pos": "QB",
       "nflTeam": "PIT",
       "mine": false
+    },
+    {
+      "pick": 327,
+      "round": 28,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": null,
+      "playerName": "Emari Demercado",
+      "pos": "RB",
+      "nflTeam": "DAL",
+      "mine": false
+    },
+    {
+      "pick": 328,
+      "round": 28,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Noah Gray",
+      "pos": "TE",
+      "nflTeam": "KC",
+      "mine": true
     }
   ]
 }
