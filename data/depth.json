@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-04T20:44:21.049Z",
+  "capturedAt": "2026-09-05T04:24:40.812Z",
   "snapshotAt": "2026-09-04T11:57:41Z",
   "season": "2026",
   "entries": [
@@ -266,6 +266,14 @@
       "nflTeam": "CHI",
       "depthRank": 2,
       "sleeperId": "12534"
+    },
+    {
+      "id": "roschon-johnson",
+      "name": "Roschon Johnson",
+      "pos": "RB",
+      "nflTeam": "CHI",
+      "depthRank": 3,
+      "sleeperId": "10235"
     },
     {
       "id": "colston-loveland",
@@ -732,14 +740,6 @@
       "sleeperId": "6813"
     },
     {
-      "id": "seth-mcgowan",
-      "name": "Seth McGowan",
-      "pos": "RB",
-      "nflTeam": "IND",
-      "depthRank": 2,
-      "sleeperId": "13424"
-    },
-    {
       "id": "tyler-warren",
       "name": "Tyler Warren",
       "pos": "TE",
@@ -1108,14 +1108,6 @@
       "sleeperId": "11643"
     },
     {
-      "id": "justin-joly",
-      "name": "Justin Joly",
-      "pos": "TE",
-      "nflTeam": "MIA",
-      "depthRank": 4,
-      "sleeperId": "13400"
-    },
-    {
       "id": "malik-washington",
       "name": "Malik Washington",
       "pos": "WR",
@@ -1130,6 +1122,14 @@
       "nflTeam": "MIA",
       "depthRank": 3,
       "sleeperId": "13296"
+    },
+    {
+      "id": "chris-bell",
+      "name": "Chris Bell",
+      "pos": "WR",
+      "nflTeam": "MIA",
+      "depthRank": 4,
+      "sleeperId": "13311"
     },
     {
       "id": "kyler-murray",
@@ -1316,14 +1316,6 @@
       "sleeperId": "11834"
     },
     {
-      "id": "barion-brown",
-      "name": "Barion Brown",
-      "pos": "WR",
-      "nflTeam": "NO",
-      "depthRank": 4,
-      "sleeperId": "13533"
-    },
-    {
       "id": "jordyn-tyson",
       "name": "Jordyn Tyson",
       "pos": "WR",
@@ -1402,14 +1394,6 @@
       "nflTeam": "NYG",
       "depthRank": 4,
       "sleeperId": "13285"
-    },
-    {
-      "id": "odell-beckham",
-      "name": "Odell Beckham",
-      "pos": "WR",
-      "nflTeam": "NYG",
-      "depthRank": 5,
-      "sleeperId": "2078"
     },
     {
       "id": "breece-hall",

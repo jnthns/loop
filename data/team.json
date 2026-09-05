@@ -250,8 +250,8 @@
     },
     {
       "slotId": "bn-9",
-      "playerId": "barion-brown",
-      "acquired": "Startup 23.04",
+      "playerId": null,
+      "acquired": "",
       "notes": ""
     },
     {

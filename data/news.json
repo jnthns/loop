@@ -1,10 +1,233 @@
 [
   {
+    "id": "p61lug1btik5o",
+    "title": "49ers poach former 5th-round pick from the Falcons’ practice squad; place Sam Okuayinonu on the IR",
+    "url": "https://sports.yahoo.com/articles/49ers-poach-former-5th-round-221140520.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T01:48:36.000Z",
+    "summary": "The 49ers are adding Khalid Kareem as a Sam Okuayinonu replacement.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "ATL",
+      "SF"
+    ]
+  },
+  {
+    "id": "rdj3rk173vdnq",
+    "title": "49ers are facing adversity before season even begins",
+    "url": "https://sports.yahoo.com/articles/49ers-facing-adversity-season-even-235654957.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T23:56:54.000Z",
+    "summary": "The 49ers have a December injury report in September",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1gww1j07eg7fk",
+    "title": "Chiefs sign international tight end, release 3 from IR",
+    "url": "https://sports.yahoo.com/articles/chiefs-sign-international-tight-end-221647852.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T22:16:47.000Z",
+    "summary": "Kansas City continues to tinker with the roster ahead of Week 1.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "roster-move",
+      "KC"
+    ],
+    "players": [],
+    "teams": [
+      "KC"
+    ]
+  },
+  {
+    "id": "1n9dddl1sa05u3",
+    "title": "Report: 49ers to sign DE Khalid Kareem to active roster",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-49ers-to-sign-de-khalid-kareem-to-active-roster",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-04T21:59:11.000Z",
+    "summary": "The 49ers are adding some help at defensive end ahead of their season opener in Australia.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "sn3vi1faf19v",
+    "title": "Report: 49ers to sign DE Khalid Kareem to active roster",
+    "url": "https://sports.yahoo.com/articles/report-49ers-sign-khalid-kareem-215911003.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T21:59:11.000Z",
+    "summary": "The 49ers are adding some help at defensive end ahead of their season opener in Australia.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "jm28cs1nskfzi",
+    "title": "Michael Wilson: I wanted to stay in Arizona to be a centerpiece of turnaround",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-wilson-i-wanted-to-stay-in-arizona-to-be-a-centerpiece-of-turnaround",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-04T21:54:17.000Z",
+    "summary": "Cardinals wide receiver Michael Wilson got his long-awaited contract extension this week, keeping him under contract through the 2029 season.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ARI"
+    ],
+    "players": [
+      "michael-wilson"
+    ],
+    "teams": [
+      "ARI"
+    ]
+  },
+  {
+    "id": "12ubppwujs55g",
+    "title": "S Taylor Rapp worked out for the Broncos",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/s-taylor-rapp-worked-out-for-the-broncos",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-04T21:07:46.000Z",
+    "summary": "When safety Taylor Rapp was released by the Broncos in August, the team left the door open for a return.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "DEN"
+    ],
+    "players": [],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "b5myv41cmuny0",
+    "title": "S Taylor Rapp worked out for the Broncos",
+    "url": "https://sports.yahoo.com/articles/taylor-rapp-worked-broncos-210746819.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T21:07:46.000Z",
+    "summary": "When safety Taylor Rapp was released by the Broncos in August, the team left the door open for a return.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "DEN"
+    ],
+    "players": [],
+    "teams": [
+      "DEN"
+    ]
+  },
+  {
+    "id": "122agqkh3ghs8",
+    "title": "Should Terrance Ferguson be kept on the Taxi Squad?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w7gl4x/should_terrance_ferguson_be_kept_on_the_taxi_squad",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-04T20:54:24.000Z",
+    "summary": "Hearing a lot of reports about how T Ferg has the potential to leapfrog the current TE room to be the main pass catcher in the TE corps. But does the hype warrant him to NOT be a taxi squad candidate this year? There is obviously the injury risk factor for Davante and Puka. But with a crowded TE room, would Ferguson really have the opportunity to garner a large target share? Or would he only be a ",
+    "tags": [
+      "dynasty",
+      "injury",
+      "usage"
+    ],
+    "players": [
+      "terrance-ferguson"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1iztkgj1r8vaz3",
+    "title": "Falcons sign LB Bralen Trice back to practice squad",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-sign-lb-bralen-trice-back-to-practice-squad",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-04T20:44:11.000Z",
+    "summary": "The Falcons signed linebacker Bralen Trice to the practice squad, the team announced.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "4n7jjl1xzu73t",
+    "title": "Falcons sign LB Bralen Trice back to practice squad",
+    "url": "https://sports.yahoo.com/articles/falcons-sign-lb-bralen-trice-204411077.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T20:44:11.000Z",
+    "summary": "The Falcons signed linebacker Bralen Trice to the practice squad, the team announced.",
+    "tags": [
+      "league-news",
+      "contract",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
     "id": "93ly6m1hc3cjk",
     "title": "Sean McVay: I look at Stetson Bennett, Ty Simpson as \"2A, 2B\"",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-i-look-at-stetson-bennett-ty-simpson-as-2a-2b",
     "source": "Pro Football Talk",
     "sourceId": "pft",
+    "publishedAt": "2026-09-04T20:41:36.000Z",
+    "summary": "The Rams released a depth chart that shows Stetson Bennett as the team's second quarterback and first-round pick Ty Simpson as their third quarterback, but head coach Sean McVay said things are less clear cut than that would make it appear.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "usage",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "13v4l41ib44x",
+    "title": "Sean McVay: I look at Stetson Bennett, Ty Simpson as \"2A, 2B\"",
+    "url": "https://sports.yahoo.com/articles/sean-mcvay-look-stetson-bennett-204136352.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
     "publishedAt": "2026-09-04T20:41:36.000Z",
     "summary": "The Rams released a depth chart that shows Stetson Bennett as the team's second quarterback and first-round pick Ty Simpson as their third quarterback, but head coach Sean McVay said things are less clear cut than that would make it appear.",
     "tags": [
@@ -102,6 +325,24 @@
     ],
     "players": [],
     "teams": []
+  },
+  {
+    "id": "1jxwonk1fo9zu4",
+    "title": "Michael Irvin makes impassioned defense of 49ers owner Jed York after prostitution arrest",
+    "url": "https://sports.yahoo.com/articles/michael-irvin-makes-impassioned-defense-182844758.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-04T18:28:44.000Z",
+    "summary": "Jed York has one Hall of Famer on his side. Michael Irvin believes York’s prostitution arrest was blown out of proportion and downplayed the severity of the crime. “He got...",
+    "tags": [
+      "league-news",
+      "discipline",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
   },
   {
     "id": "15xcd001n45r4a",
@@ -7227,246 +7468,6 @@
     "teams": [
       "DAL",
       "HOU"
-    ]
-  },
-  {
-    "id": "1wt8pqs1jwdnwo",
-    "title": "Texans to trade OL Jarrett Patterson to 49ers",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-to-trade-ol-jarrett-patterson-to-49ers",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T20:39:15.000Z",
-    "summary": "The 49ers are making a trade to add to their offensive line depth.",
-    "tags": [
-      "league-news",
-      "trade",
-      "HOU",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "HOU",
-      "SF"
-    ]
-  },
-  {
-    "id": "dqf1gczl4w9u",
-    "title": "Texans to trade OL Jarrett Patterson to 49ers",
-    "url": "https://sports.yahoo.com/articles/texans-trade-ol-jarrett-patterson-203915425.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:39:15.000Z",
-    "summary": "The 49ers are making a trade to add to their offensive line depth.",
-    "tags": [
-      "league-news",
-      "trade",
-      "HOU",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "HOU",
-      "SF"
-    ]
-  },
-  {
-    "id": "17klf66gg824g",
-    "title": "Chargers waive QB DJ Uiagalelei",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-waive-qb-dj-uiagalelei",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T20:22:40.000Z",
-    "summary": "It appears Trey Lance has won the Chargers' backup quarterback competition.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "idf85b10u19c9",
-    "title": "Chargers waive QB DJ Uiagalelei",
-    "url": "https://sports.yahoo.com/articles/chargers-waive-qb-dj-uiagalelei-202240864.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:22:40.000Z",
-    "summary": "It appears Trey Lance has won the Chargers' backup quarterback competition.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "17ewivc1apl3u8",
-    "title": "Seahawks Nick Emmanwori ‘iffy’ for Week 1",
-    "url": "https://sports.yahoo.com/articles/seahawks-nick-emmanwori-iffy-week-202120153.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:21:20.000Z",
-    "summary": "The second year safety may not be ready for the season opener after ankle surgery in July.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "153lcfdhtqgev",
-    "title": "Broncos waive fifth-round rookie Justin Joly",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-waive-fifth-round-rookie-justin-joly",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T20:19:21.000Z",
-    "summary": "The vast majority of fifth-round draft picks make the 53-man roster as rookies.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "1r6f128u2dlv6",
-    "title": "Broncos waive fifth-round rookie Justin Joly",
-    "url": "https://sports.yahoo.com/articles/broncos-waive-fifth-round-rookie-201921774.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:19:21.000Z",
-    "summary": "The vast majority of fifth-round draft picks make the 53-man roster as rookies.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "1tqhwx21u5sm0c",
-    "title": "Denver Broncos have waived inside linebacker Red Murdock",
-    "url": "https://sports.yahoo.com/articles/denver-broncos-waived-inside-linebacker-201822448.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:18:22.000Z",
-    "summary": "The Denver Broncos have another surprise in their roster cutdowns. They have waived inside linebacker Red Murdock.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "mudnpkklm89e",
-    "title": "Packers place Micah Parsons on injured reserve to start regular season while pass rusher recovers from ACL tear",
-    "url": "https://sports.yahoo.com/nfl/article/packers-place-micah-parsons-on-injured-reserve-to-start-regular-season-while-pass-rusher-recovers-from-acl-tear-201813885.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:18:13.000Z",
-    "summary": "Parsons started training camp on the PUP list after tearing his ACL in December, and has been aiming for an October return.",
-    "tags": [
-      "league-news",
-      "injury",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "1a0cewldutui7",
-    "title": "Packers move Micah Parsons to reserve/PUP to open season",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-move-micah-parsons-to-reserve-pup-to-open-season",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T20:12:05.000Z",
-    "summary": "We've known for some time that Packers defensive end Micah Parsons would not be ready to play at the start of the regular season and the team made it official on Sunday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "wulghs11azz5c",
-    "title": "Packers move Micah Parsons to reserve/PUP to open season",
-    "url": "https://sports.yahoo.com/articles/packers-move-micah-parsons-pup-201205006.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:12:05.000Z",
-    "summary": "We've known for some time that Packers defensive end Micah Parsons would not be ready to play at the start of the regular season and the team made it official on Sunday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "63v4op1xdieoz",
-    "title": "Cardinals to waive QB Kedon Slovis",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-to-waive-qb-kedon-slovis",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T20:08:21.000Z",
-    "summary": "The Cardinals are waiving quarterback Kedon Slovis, Mike Garafolo of NFL Media reports.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "1micbk8g9m0eg",
-    "title": "Cardinals to waive QB Kedon Slovis",
-    "url": "https://sports.yahoo.com/articles/cardinals-waive-qb-kedon-slovis-200821500.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:08:21.000Z",
-    "summary": "The Cardinals are waiving quarterback Kedon Slovis, Mike Garafolo of NFL Media reports.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
     ]
   }
 ]
