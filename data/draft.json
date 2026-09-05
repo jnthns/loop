@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3800,6 +3800,17 @@
       "playerName": "Bauer Sharp",
       "pos": "TE",
       "nflTeam": "TB",
+      "mine": false
+    },
+    {
+      "pick": 343,
+      "round": 29,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": "marvin-mims",
+      "playerName": "Marvin Mims",
+      "pos": "WR",
+      "nflTeam": "DEN",
       "mine": false
     }
   ]
