@@ -1,5 +1,124 @@
 [
   {
+    "id": "ljcy9yzgzor0",
+    "title": "Maxx Crosby trade deadline chatter already starting",
+    "url": "https://sports.yahoo.com/articles/maxx-crosby-trade-deadline-chatter-140000029.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T14:00:00.000Z",
+    "summary": "B/R includes pass rusher in “bold trade predictions” before season even starts",
+    "tags": [
+      "league-news",
+      "trade"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "4t1pks1ovkjjc",
+    "title": "Steelers QB watch: Five draft-eligible passers to watch Saturday",
+    "url": "https://sports.yahoo.com/articles/steelers-qb-watch-five-draft-140000855.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T14:00:00.000Z",
+    "summary": "We don’t know how the 2027 quarterback class will turn out, but here are some names to start with.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "19vh85csiqp0e",
+    "title": "Detroit Lions fans pick favorite for RB2 role",
+    "url": "https://sports.yahoo.com/articles/detroit-lions-fans-pick-favorite-140000294.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T14:00:00.000Z",
+    "summary": "Detroit Lions fans discuss who they expect to take on the majority of RB2 snaps now that Isiah Pacheco is on IR.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DET"
+    ],
+    "players": [
+      "detroit-lions",
+      "isiah-pacheco"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "1oxkhqt1emmwoh",
+    "title": "Pre-Snap Reads: UFDA to trade canditate, Avery Smith surprised to join ‘Hawks",
+    "url": "https://sports.yahoo.com/articles/pre-snap-reads-ufda-trade-134844086.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T13:48:44.000Z",
+    "summary": "Must be something to it.",
+    "tags": [
+      "league-news",
+      "trade"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "38t6fn1qyhvxl",
+    "title": "Malachi Fields has big-time potential during rookie season with Giants",
+    "url": "https://sports.yahoo.com/articles/malachi-fields-big-time-potential-134401059.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T13:44:01.000Z",
+    "summary": "Watch out for Giants rookie wide receiver Malachi Fields.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "NYG"
+    ],
+    "players": [
+      "malachi-fields"
+    ],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "0q2jphwnj27j",
+    "title": "Thoughts on Michael Penix?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w808vo/thoughts_on_michael_penix",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-05T13:04:44.000Z",
+    "summary": "How are we valuing and feeling about Michael Penix going into the season? Lots of reports that Tua has looked horrendous here As well as reports that Penix will start eventually (assuming when he is totally healthy) here Strand has also looked good but of course is quite a long shot compared to a former first round pick here Knowing all of the above, and with such a depressed price relatively if y",
+    "tags": [
+      "dynasty"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "90hzo1nq3tcv",
+    "title": "Malachi Toney (2028) goes for 200+ and 3 TDs, Maiava + Mensah have 10 TDs and 9 Incompletions this szn + USC's true freshmen dominate Friday... Which Prospects to Watch on Saturday?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1w7z8sj/malachi_toney_2028_goes_for_200_and_3_tds_maiava",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-05T12:18:46.000Z",
+    "summary": "Every week on Tuesday I release a Risers, Fallers, Mock Draft, and Weekly Preview for the upcoming week in College Football, with an audio version on the Fantasy for Real podcast. Here are sections from this upcoming week's additional notes (Friday Reactions) as well as last week's Weekly Preview: Friday : Malachi Toney remains my favorite to watch in College Football On Friday, Malachi Toney caug",
+    "tags": [
+      "dynasty",
+      "rookie",
+      "roster-move"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
     "id": "p61lug1btik5o",
     "title": "49ers poach former 5th-round pick from the Falcons’ practice squad; place Sam Okuayinonu on the IR",
     "url": "https://sports.yahoo.com/articles/49ers-poach-former-5th-round-221140520.html",
@@ -7332,142 +7451,6 @@
     "teams": [
       "HOU",
       "SF"
-    ]
-  },
-  {
-    "id": "84sts71b0trwf",
-    "title": "Browns put Dillon Gabriel on IR as they set initial 53-man roster",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-put-dillon-gabriel-on-ir-as-they-set-initial-53-man-roster",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T20:49:05.000Z",
-    "summary": "Sunday's report that quarterback Dillon Gabriel would make the 53-man roster in Cleveland was incorrect, but he has not been waived by the Browns.",
-    "tags": [
-      "league-news",
-      "injury",
-      "roster-move",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "93awv114rtbq9",
-    "title": "Browns put Dillon Gabriel on IR as they set initial 53-man roster",
-    "url": "https://sports.yahoo.com/articles/browns-put-dillon-gabriel-ir-204905393.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:49:05.000Z",
-    "summary": "Sunday's report that quarterback Dillon Gabriel would make the 53-man roster in Cleveland was incorrect, but he has not been waived by the Browns.",
-    "tags": [
-      "league-news",
-      "injury",
-      "roster-move",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "19lkyzx1tqp0nd",
-    "title": "Patriots captain Brenden Schooler to begin year on non-football injury list, per report",
-    "url": "https://sports.yahoo.com/articles/patriots-captain-brenden-schooler-begin-204540728.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:45:40.000Z",
-    "summary": "Brenden Schooler missed the duration of training camp.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "1mbwemdyj09n1",
-    "title": "Cowboys trade OT Nate Thomas to Texans",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-trade-ot-nate-thomas-to-texans",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T20:44:23.000Z",
-    "summary": "Nate Thomas began training camp competing with Tyler Guyton for the starting left tackle job in Dallas.",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "DAL",
-      "HOU"
-    ]
-  },
-  {
-    "id": "12r63b3n0khl9",
-    "title": "Cowboys trade OT Nate Thomas to Texans",
-    "url": "https://sports.yahoo.com/articles/cowboys-trade-ot-nate-thomas-204423981.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:44:23.000Z",
-    "summary": "Nate Thomas began training camp competing with Tyler Guyton for the starting left tackle job in Dallas.",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "DAL",
-      "HOU"
-    ]
-  },
-  {
-    "id": "1x424dvg0d7nz",
-    "title": "Source: Dallas Cowboys to waive running back Jaydon Blue",
-    "url": "https://www.espn.com/nfl/story/_/id/49775363/dallas-cowboys-waive-running-back-jaydon-blue",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-30T20:43:16.000Z",
-    "summary": "The Dallas Cowboys are waiving running back Jaydon Blue, a source told ESPN's Adam Schefter.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [
-      "jaydon-blue"
-    ],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "0825fwj7hp11",
-    "title": "Cowboys trade OT Nate Thomas to Texans for 2027 seventh-round pick",
-    "url": "https://sports.yahoo.com/articles/cowboys-trade-ot-nate-thomas-204156461.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T20:41:56.000Z",
-    "summary": "The Cowboys are trading Nate Thomas to the Texans for a seventh-round pick.",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "DAL",
-      "HOU"
     ]
   }
 ]

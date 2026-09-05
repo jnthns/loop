@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "drafting",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3812,6 +3812,28 @@
       "pos": "WR",
       "nflTeam": "DEN",
       "mine": false
+    },
+    {
+      "pick": 344,
+      "round": 29,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": null,
+      "playerName": "Josh Cuevas",
+      "pos": "TE",
+      "nflTeam": "BAL",
+      "mine": false
+    },
+    {
+      "pick": 345,
+      "round": 29,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Xavier Hutchinson",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "mine": true
     }
   ]
 }
