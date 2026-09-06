@@ -1,5 +1,222 @@
 [
   {
+    "id": "q81raz1egrhtl",
+    "title": "Jameis Winston, Giants reportedly agree to 2-year extension worth $13 million",
+    "url": "https://sports.yahoo.com/nfl/article/jameis-winston-giants-reportedly-agree-to-2-year-extension-worth-13-million-200659515.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T20:06:59.000Z",
+    "summary": "Winston, 32, is now tied to the Giants through the 2028 season.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1dhbh2q10yoktu",
+    "title": "Goodell Contract Extended After $270B Team Value Gain Since 2006",
+    "url": "https://sports.yahoo.com/articles/goodell-contract-extended-270b-team-192304054.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T19:23:04.000Z",
+    "summary": "Roger Goodell reached an agreement on a four-year contract extension, the league announced Sunday. The deal runs through March 2031 and would mark 25 seasons with Goodell in charge, if he completes the contract. The compensation committee headed by New England Patriots owner Robert Kraft informed the full ownership regarding the extension. The memo, reviewed …",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [
+      "new-england-patriots"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1faod60jk5t8g",
+    "title": "Packers Preview: Get ready for Edgerrin Cooper playing on the edge",
+    "url": "https://sports.yahoo.com/articles/packers-preview-ready-edgerrin-cooper-191158538.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T19:11:58.000Z",
+    "summary": "At least until Micah Parsons returns from the PUP list",
+    "tags": [
+      "league-news",
+      "injury",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "mo5vdt1rx9ckx",
+    "title": "Why these three Cowboys players made the cut – and what to expect",
+    "url": "https://sports.yahoo.com/articles/why-three-cowboys-players-made-190000104.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T19:00:00.000Z",
+    "summary": "Cowboys roster bubble guys now must contribute",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "e6i9rr19mf1ap",
+    "title": "NFL commissioner Roger Goodell agrees to four-year extension",
+    "url": "https://www.espn.com/nfl/story/_/id/49850050/nfl-commissioner-roger-goodell-finalizes-four-year-extension",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-06T18:38:46.000Z",
+    "summary": "NFL commissioner Roger Goodell has finalized a new four-season extension that runs through the 2030 season.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1bivfh9ua2eo9",
+    "title": "Seahawks contract breakdown: The details of Leonard Williams’ extension",
+    "url": "https://sports.yahoo.com/articles/seahawks-contract-breakdown-details-leonard-174905560.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T17:49:05.000Z",
+    "summary": "Williams has been a lightning rod for the Seattle defense since arriving from New York, and his contract says he’s here to stay.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "15g7sxw1x5rvqw",
+    "title": "NFL commissioner Roger Goodell's contract extended through 2030 season",
+    "url": "https://sports.yahoo.com/articles/nfl-commissioner-roger-goodells-contract-174649552.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T17:46:49.000Z",
+    "summary": "Commissioner Roger Goodell is poised to lead the NFL through 2030 after agreeing with owners on a four-year contract extension.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1e3madm1xp8bta",
+    "title": "NFL locks in Roger Goodell with new four-year contract extension through 2031",
+    "url": "https://sports.yahoo.com/articles/nfl-locks-roger-goodell-four-172857918.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T17:28:57.000Z",
+    "summary": "Roger Goodell has signed a new multi-year contract extension that will extend his term as NFL commissioner into 2031.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "19lbbcqd91kw0",
+    "title": "Roger Goodell extended as NFL commissioner for four more years, through 2030 season",
+    "url": "https://www.cbssports.com/nfl/news/roger-goodell-extended-as-nfl-commissioner-four-more-years",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-06T17:25:00.000Z",
+    "summary": "Goodell is now under contract through what will be his 24th season as the league&#039;s commissioner",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "ptv8zkc0ui56",
+    "title": "NFL announces new contract for Roger Goodell",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-announces-new-contract-for-roger-goodell",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-06T17:20:26.000Z",
+    "summary": "Goodell is now signed through March 31, 2031.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1kr3r2fdivcvz",
+    "title": "NFL announces new contract for Roger Goodell",
+    "url": "https://sports.yahoo.com/articles/nfl-announces-contract-roger-goodell-172026050.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T17:20:26.000Z",
+    "summary": "Goodell is now signed through March 31, 2031.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1d49623169mfmf",
+    "title": "NFL commissioner Roger Goodell finalizes 4-year extension through 2030 season",
+    "url": "https://sports.yahoo.com/nfl/article/nfl-commissioner-roger-goodell-finalizes-4-year-extension-through-2030-season-171938990.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T17:19:38.000Z",
+    "summary": "Goodell's new contract will end on March 31, 2031; the NFL's current CBA will expire the same month.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1bc5qtn4fo0n9",
+    "title": "49ers player gets cut after flying 16 hours to Australia: Why he might be sent home and why they made the move",
+    "url": "https://www.cbssports.com/nfl/news/49ers-player-gets-cut-after-flying-16-hours-to-australia",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-06T15:22:23.000Z",
+    "summary": "San Francisco made room for long snapper Jon Weeks ahead of the opener in Melbourne, a move that could signal George Kittle is ready to return from an Achilles tear.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "SF"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "1xzysyxxf43cr",
     "title": "Where did the players the Cardinals released end up?",
     "url": "https://sports.yahoo.com/articles/where-did-players-cardinals-released-150000491.html",
@@ -46,6 +263,21 @@
       "dynasty",
       "contract",
       "rookie"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1ilks391ovewvf",
+    "title": "NFL Commissioner Roger Goodell agrees to 4-year extension through 2030 season",
+    "url": "https://sports.yahoo.com/articles/nfl-commissioner-roger-goodell-agrees-143046499.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-06T14:30:46.000Z",
+    "summary": "Goodell's current contract was due to expire next March, but he's now committed until March 31, 2031.",
+    "tags": [
+      "league-news",
+      "contract"
     ],
     "players": [],
     "teams": []
@@ -7163,284 +7395,6 @@
     "players": [],
     "teams": [
       "ATL"
-    ]
-  },
-  {
-    "id": "3lko0fbh8qs7",
-    "title": "Who will be the Packers’ third quarterback?",
-    "url": "https://sports.yahoo.com/articles/packers-third-quarterback-043052519.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T04:30:52.000Z",
-    "summary": "The Packers will eventually want to sign a third quarterback to their practice squad",
-    "tags": [
-      "league-news",
-      "contract",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "1z0ju8tthwtal",
-    "title": "2026 NFL Roster Cutdown Day Fantasy Reaction: Josh Jacobs and Jaydon Blue fallout",
-    "url": "https://sports.yahoo.com/articles/2026-nfl-roster-cutdown-day-042314078.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T04:23:14.000Z",
-    "summary": "Josh Jacobs was placed on the Commissioner's Exempt List and Jaydon Blue was waived by the Cowboys, shaking up the fantasy football landscape as NFL teams cut down to their 53-man rosters.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [
-      "jaydon-blue",
-      "josh-jacobs"
-    ],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "bke2i34abdhx",
-    "title": "Los Angeles Chargers' 53-man roster: Who was cut before deadline?",
-    "url": "https://sports.yahoo.com/articles/los-angeles-chargers-53-man-033157427.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T03:31:57.000Z",
-    "summary": "The Los Angeles Chargers made several decisions to help construct the required 53-man roster for the 2026 season. Here's who was cut.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "ohw09j1kw4gkt",
-    "title": "Ravens place rookie RB Adam Randall on injured reserve; Will miss 4 games",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w320fb/ravens_place_rookie_rb_adam_randall_on_injured",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-31T03:26:18.000Z",
-    "summary": "&#32; submitted by &#32; /u/pot8odragon [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "rookie",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1kcruzd14r4hz9",
-    "title": "John Schneider on Terrion Arnold: \"The character didn't really fit with the allegations\"",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-schneider-on-terrion-arnold-the-character-didnt-really-fit-with-the-allegations",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T02:54:43.000Z",
-    "summary": "The Seahawks finally signed cornerback Terrion Arnold, more than two weeks after agreeing to a deal with him.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1fpyj211v1b9o7",
-    "title": "Chiefs waive RB Emari Demercado",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w30hf3/chiefs_waive_rb_emari_demercado",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-31T02:14:42.000Z",
-    "summary": "&#32; submitted by &#32; /u/ClintonWrong [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "roster-move",
-      "KC"
-    ],
-    "players": [],
-    "teams": [
-      "KC"
-    ]
-  },
-  {
-    "id": "13dwcem86i8hu",
-    "title": "Notes on Vikings Cutdown Day",
-    "url": "https://sports.yahoo.com/articles/notes-vikings-cutdown-day-020940528.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T02:09:40.000Z",
-    "summary": "The Minnesota Vikings have cut their roster from 90 to 53 players per league requirements as they prepare for the start of the regular season. There will likely be more moves in the coming days as they navigate waivers and potential trade and free agent options. Here are some notes on who they cut and […]",
-    "tags": [
-      "league-news",
-      "trade",
-      "roster-move",
-      "MIN"
-    ],
-    "players": [],
-    "teams": [
-      "MIN"
-    ]
-  },
-  {
-    "id": "13w7fex1g707l",
-    "title": "Seahawks' Zach Charbonnet still on PUP list, out 1st 4 games",
-    "url": "https://www.espn.com/nfl/story/_/id/49778534/seahawks-zach-charbonnet-remains-pup-list-miss-least-first-four-games",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-31T02:02:39.000Z",
-    "summary": "Seahawks running back Zach Charbonnet remains on the physically unable to perform list, meaning he will miss at least Seattle's first four games. Meanwhile, the team released cornerback Trevon Diggs but expects to sign him to the practice squad.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "roster-move",
-      "SEA"
-    ],
-    "players": [
-      "zach-charbonnet"
-    ],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "8xp3yy2ae8ty",
-    "title": "NFL Cutdowns: Former Packers pre-draft visitors released on Sunday",
-    "url": "https://sports.yahoo.com/articles/nfl-cutdowns-former-packers-pre-004310793.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T01:47:28.000Z",
-    "summary": "The Panthers waived linebacker Trevin Wallace, who was a starter for them last year, on Sunday",
-    "tags": [
-      "league-news",
-      "rookie",
-      "roster-move",
-      "usage",
-      "CAR",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "CAR",
-      "GB"
-    ]
-  },
-  {
-    "id": "ivppk41xi73eo",
-    "title": "Packers trade for RB Kaleb Johnson at cutdown deadline",
-    "url": "https://sports.yahoo.com/articles/packers-trade-rb-kaleb-johnson-174742119.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T01:45:20.000Z",
-    "summary": "Kaleb Johnson was the 83rd overall pick in the 2025 draft",
-    "tags": [
-      "league-news",
-      "trade",
-      "rookie",
-      "GB"
-    ],
-    "players": [
-      "kaleb-johnson"
-    ],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "c415651gcdugb",
-    "title": "Bucs announce moves to finalize their 53-man roster",
-    "url": "https://sports.yahoo.com/articles/bucs-announce-moves-finalize-53-014038941.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T01:40:38.000Z",
-    "summary": "The Tampa Bay Buccaneers have officially reached the NFL’s 53-man roster limit ahead of the 2026 regular season. Tampa Bay completed its final round of roster moves Sunday, trimming the preseason roster while also shifting a pair of players to injured reserve with designations to return. Among the more notable moves were the releases of […]",
-    "tags": [
-      "league-news",
-      "injury",
-      "roster-move",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "geqh3o1v3bra2",
-    "title": "Raiders place DE Keyron Crawford (ankle) on season-ending IR",
-    "url": "https://www.espn.com/nfl/story/_/id/49778514/raiders-place-de-keyron-crawford-ankle-season-ending-ir",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-31T01:33:13.000Z",
-    "summary": "Las Vegas Raiders rookie defensive end Keyron Crawford was placed on the season-ending injured reserve list because of an ankle injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "roster-move",
-      "LV"
-    ],
-    "players": [
-      "las-vegas-raiders"
-    ],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "1u0sz769fxb3m",
-    "title": "Your initial 2026 New York Jets roster",
-    "url": "https://sports.yahoo.com/articles/initial-2026-york-jets-roster-012508823.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T01:25:08.000Z",
-    "summary": "The Jets have revealed their initial 53 man roster for the 2026 season, sort of. The initial 2026 roster released by the team only has 52 players. The list does not include offensive lineman Jordan Meredith who was reportedly acquired in a trade with the Las Vegas Raiders on Sunday. If we are going to […]",
-    "tags": [
-      "league-news",
-      "trade",
-      "roster-move",
-      "LV",
-      "NYJ"
-    ],
-    "players": [
-      "las-vegas-raiders"
-    ],
-    "teams": [
-      "LV",
-      "NYJ"
-    ]
-  },
-  {
-    "id": "psr6bq1i4xc5m",
-    "title": "Kansas City Chiefs roster",
-    "url": "https://sports.yahoo.com/articles/kansas-city-chiefs-roster-003019778.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T01:15:00.000Z",
-    "summary": "The up-to-date team roster, including contract and salary cap information.",
-    "tags": [
-      "league-news",
-      "contract",
-      "KC"
-    ],
-    "players": [],
-    "teams": [
-      "KC"
     ]
   }
 ]
