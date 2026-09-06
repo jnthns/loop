@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3899,6 +3899,28 @@
       "playerName": "Joe Flacco",
       "pos": "QB",
       "nflTeam": "CIN",
+      "mine": false
+    },
+    {
+      "pick": 352,
+      "round": 30,
+      "slot": 4,
+      "rosterId": 7,
+      "playerId": null,
+      "playerName": "Roman Wilson",
+      "pos": "WR",
+      "nflTeam": "PIT",
+      "mine": true
+    },
+    {
+      "pick": 353,
+      "round": 30,
+      "slot": 5,
+      "rosterId": 5,
+      "playerId": "sione-vaki",
+      "playerName": "Sione Vaki",
+      "pos": "RB",
+      "nflTeam": "DET",
       "mine": false
     }
   ]
