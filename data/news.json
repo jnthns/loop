@@ -1,5 +1,169 @@
 [
   {
+    "id": "bqh4cy1qartt0",
+    "title": "Harrison Smith returns to Vikings after Minnesota's safety crisis",
+    "url": "https://sports.yahoo.com/articles/harrison-smith-returns-vikings-minnesotas-235622065.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T23:56:22.000Z",
+    "summary": "The move fills the hole Jamal Adams left behind, five months after Minnesota released the longtime Vikings' safety.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "MIN"
+    ]
+  },
+  {
+    "id": "rvuvrksgiud6",
+    "title": "Harrison Smith returns to Minnesota on one-year deal",
+    "url": "https://sports.yahoo.com/articles/harrison-smith-returns-minnesota-one-234120922.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T23:41:20.000Z",
+    "summary": "Vikings S Harrison Smith to sign a one-year deal and return to Minnesota in 2026",
+    "tags": [
+      "league-news",
+      "contract",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "MIN"
+    ]
+  },
+  {
+    "id": "j0uuwida6n7g",
+    "title": "Vikings reportedly bring back Harrison Smith for 15th season on 1-year, $12.3 million deal",
+    "url": "https://sports.yahoo.com/nfl/article/vikings-reportedly-bring-back-harrison-smith-for-15th-season-on-1-year-123-million-deal-232732903.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T23:27:32.000Z",
+    "summary": "Minnesota released the veteran safety in March and is now bringing him back at a significant price.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "MIN"
+    ]
+  },
+  {
+    "id": "16oh41z1n38gk5",
+    "title": "Vikings sign S Harrison Smith ahead of Week 1 matchup with Packers",
+    "url": "https://sports.yahoo.com/articles/vikings-sign-harrison-smith-ahead-232650578.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T23:26:50.000Z",
+    "summary": "Minnesota will be getting back their former All-Pro safety before the start of the regular season",
+    "tags": [
+      "league-news",
+      "contract",
+      "GB",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "GB",
+      "MIN"
+    ]
+  },
+  {
+    "id": "s40x0nwcx8rh",
+    "title": "49ers waive Brayden Willis to make room for their long snapper",
+    "url": "https://sports.yahoo.com/articles/49ers-waive-brayden-willis-room-212817103.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T21:28:17.000Z",
+    "summary": "The 49ers officially signed Khalid Kareem and placed Sam Okuayinonu on the Injured Reserve",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "roster-move",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1f9qj332x0dhz",
+    "title": "DJ Lagway injury update: Baylor QB playing through ankle pain vs Auburn",
+    "url": "https://sports.yahoo.com/articles/dj-lagway-injury-updates-latest-211850152.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T21:18:50.000Z",
+    "summary": "Baylor's DJ Lagway injured his ankle in the first half against Auburn, and reentered the game with it taped. He was later carried off the field.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "yqj4vh1s5dh49",
+    "title": "Lynch: ‘We didn’t foresee tendonitis” with Nick Bosa ACL injury",
+    "url": "https://sports.yahoo.com/articles/lynch-didn-t-foresee-tendonitis-203236001.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T20:32:36.000Z",
+    "summary": "The Niners defensive end is finally overcoming the setback that kept him out for much of the last month.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1x7eb8q1potfe8",
+    "title": "49ers place DE Sam Okuayinonu on IR",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-place-de-sam-okuayinonu-on-ir",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-05T20:25:28.000Z",
+    "summary": "49ers defensive end Sam Okuayinonu won't play against the Rams on Thursday and he will miss at least three more games as well.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAR",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "LAR",
+      "SF"
+    ]
+  },
+  {
+    "id": "1ucjw78oxta12",
+    "title": "49ers place DE Sam Okuayinonu on IR",
+    "url": "https://sports.yahoo.com/articles/49ers-place-sam-okuayinonu-ir-202528121.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T20:25:28.000Z",
+    "summary": "49ers defensive end Sam Okuayinonu won't play against the Rams on Thursday and he will miss at least three more games as well.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAR",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "LAR",
+      "SF"
+    ]
+  },
+  {
     "id": "1oh4gu5cvbkvl",
     "title": "Christian Gonzalez doesn't commit to playing season opener",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-gonzalez-doesnt-commit-to-playing-season-opener",
@@ -73,6 +237,25 @@
     ],
     "teams": [
       "NE"
+    ]
+  },
+  {
+    "id": "hzcdy2hivbf8",
+    "title": "Sean McVay’s recent response gives puzzling thoughts on Rams backup quarterback situation",
+    "url": "https://sports.yahoo.com/articles/sean-mcvay-recent-response-gives-191234356.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-05T19:12:34.000Z",
+    "summary": "Earlier this week, the Los Angeles Rams released their depth chart for the upcoming season and have veteran quarterback Stetson Bennett as the team's backup quarterback.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "usage",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
     ]
   },
   {
@@ -288,7 +471,7 @@
     "source": "r/DynastyFF",
     "sourceId": "reddit-dynastyff",
     "publishedAt": "2026-09-05T12:18:46.000Z",
-    "summary": "Every week on Tuesday I release a Risers, Fallers, Mock Draft, and Weekly Preview for the upcoming week in College Football, with an audio version on the Fantasy for Real podcast. Here are sections from this upcoming week's additional notes (Friday Reactions) as well as last week's Weekly Preview: Friday : Malachi Toney remains my favorite to watch in College Football On Friday, Malachi Toney caug",
+    "summary": "Every week on Tuesday I release a Risers, Fallers, Mock Draft, and Weekly Preview for the upcoming week in College Football, with an audio version on the Fantasy for Real podcast. Here are sections from this upcoming week's additional notes (Friday Reactions) as well as last week's Weekly Preview: FULL WEEK 1 RISERS POST: https://open.spotify.com/episode/1z5eKT35mt8h6NaCVL2BMP Friday : Malachi Ton",
     "tags": [
       "dynasty",
       "rookie",
@@ -7258,191 +7441,6 @@
     "players": [],
     "teams": [
       "KC"
-    ]
-  },
-  {
-    "id": "dvugd9cm7t1p",
-    "title": "4 burning questions after Cowboys cut down to 53",
-    "url": "https://sports.yahoo.com/articles/4-burning-questions-cowboys-cut-003000674.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T00:30:00.000Z",
-    "summary": "These are our biggest questions about the new 53-man roster.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "18ggz5b80nar9",
-    "title": "6 things we learned from the Rams’ 53-man roster",
-    "url": "https://sports.yahoo.com/articles/6-things-learned-rams-53-000000371.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T00:00:00.000Z",
-    "summary": "Rams 53-man roster instant reaction: LA wins Tutu Atwell trade, Wesley Bailey makes it, and more",
-    "tags": [
-      "league-news",
-      "trade",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "1ulx4y111lxfzv",
-    "title": "John Schneider says Seahawks plan to add Trevon Diggs to practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-schneider-says-seahawks-plan-to-add-trevon-diggs-to-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T23:56:08.000Z",
-    "summary": "The Seahawks cut cornerback Trevon Diggs on Sunday.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "9bbmxeql8nhw",
-    "title": "Seahawks cut Trevon Diggs, but they have a plan for him",
-    "url": "https://sports.yahoo.com/articles/seahawks-cut-trevon-diggs-plan-235425910.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-30T23:54:25.000Z",
-    "summary": "Diggs was cut by the Seahawks on deadline day.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1nt70qrehnr3t",
-    "title": "Chargers didn't cut Tony Jefferson after all",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-didnt-cut-tony-jefferson-after-all",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T23:39:09.000Z",
-    "summary": "Tony Jefferson remains a Charger.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "ylqf6j12rcaeb",
-    "title": "Broncos cuts include RB Jaleel McLaughlin",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-cuts-include-rb-jaleel-mclaughlin",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T23:12:08.000Z",
-    "summary": "The Broncos' reduction to 53 includes the release of a fourth-year running back who has appeared in 41 games with nine starts.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "4g1be913s7saf",
-    "title": "49ers move Mykel Williams to reserve/PUP and Christian Kirk to IR during cut to 53-man roster",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-move-mykel-williams-to-reserve-pup-and-christian-kirk-to-ir-during-cut-to-53-man-roster",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T23:05:28.000Z",
-    "summary": "Defensive end Mykel Williams will not play in at least the first four games of the 49ers' season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "roster-move",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "d9ldevrbjdff",
-    "title": "Packers cut roster to 53, confirm placement of Micah Parsons on reserve/PUP",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-cut-roster-to-53-confirm-placement-of-micah-parsons-on-reserve-pup",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T23:01:29.000Z",
-    "summary": "To get to 53 players on the roster, the Packers continue to keep linebacker Micah Parsons off the roster.",
-    "tags": [
-      "league-news",
-      "injury",
-      "roster-move",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "itb0hm1yehp6u",
-    "title": "Seahawks cut CB Trevon Diggs, place RB Zach Charbonnet on PUP among moves to 53",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-cut-cb-trevon-diggs-place-rb-zach-charbonnet-on-pup-among-moves-to-53",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T23:00:48.000Z",
-    "summary": "Cornerback Trevon Diggs' time with the Seahawks did not last long.",
-    "tags": [
-      "league-news",
-      "injury",
-      "roster-move",
-      "SEA"
-    ],
-    "players": [
-      "zach-charbonnet"
-    ],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1guozkf14roent",
-    "title": "Titans waive Hendon Hooker and Will Levis as they drop to 53 players",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-waive-hendon-hooker-and-will-levis-as-they-drop-to-53-players",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-30T22:53:39.000Z",
-    "summary": "The Titans confirmed that they waived quarterback Will Levis on Sunday afternoon and they also announced the departure of Hendon Hooker.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
     ]
   }
 ]

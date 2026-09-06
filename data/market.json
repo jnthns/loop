@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-05T20:18:34.992Z",
+  "capturedAt": "2026-09-06T04:36:01.210Z",
   "scrapeDate": "2026-09-04",
   "sources": [
     {
@@ -3334,7 +3334,7 @@
       "sleeperId": "9486",
       "ktcId": "1448",
       "espnId": "4428850",
-      "playerId": null,
+      "playerId": "dontayvion-wicks",
       "name": "Dontayvion Wicks",
       "pos": "WR",
       "nflTeam": "PHI",
@@ -4099,7 +4099,7 @@
       "sleeperId": "1166",
       "ktcId": "396",
       "espnId": "14880",
-      "playerId": "kirk-cousins",
+      "playerId": null,
       "name": "Kirk Cousins",
       "pos": "QB",
       "nflTeam": "LV",
@@ -4898,7 +4898,7 @@
       "sleeperId": "13411",
       "ktcId": "1983",
       "espnId": "4869748",
-      "playerId": "zavion-thomas",
+      "playerId": null,
       "name": "Zavion Thomas",
       "pos": "WR",
       "nflTeam": "CHI",

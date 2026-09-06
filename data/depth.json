@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-05T20:18:36.079Z",
+  "capturedAt": "2026-09-06T04:36:02.178Z",
   "snapshotAt": "2026-09-05T11:25:48Z",
   "season": "2026",
   "entries": [
@@ -298,14 +298,6 @@
       "nflTeam": "CHI",
       "depthRank": 2,
       "sleeperId": "12519"
-    },
-    {
-      "id": "zavion-thomas",
-      "name": "Zavion Thomas",
-      "pos": "WR",
-      "nflTeam": "CHI",
-      "depthRank": 4,
-      "sleeperId": "13411"
     },
     {
       "id": "joe-burrow",
@@ -1028,14 +1020,6 @@
       "sleeperId": "12509"
     },
     {
-      "id": "kirk-cousins",
-      "name": "Kirk Cousins",
-      "pos": "QB",
-      "nflTeam": "LV",
-      "depthRank": 1,
-      "sleeperId": "1166"
-    },
-    {
       "id": "fernando-mendoza",
       "name": "Fernando Mendoza",
       "pos": "QB",
@@ -1498,6 +1482,14 @@
       "nflTeam": "PHI",
       "depthRank": 1,
       "sleeperId": "7525"
+    },
+    {
+      "id": "dontayvion-wicks",
+      "name": "Dontayvion Wicks",
+      "pos": "WR",
+      "nflTeam": "PHI",
+      "depthRank": 2,
+      "sleeperId": "9486"
     },
     {
       "id": "makai-lemon",

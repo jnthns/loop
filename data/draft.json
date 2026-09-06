@@ -2322,7 +2322,7 @@
       "round": 18,
       "slot": 4,
       "rosterId": 7,
-      "playerId": null,
+      "playerId": "dontayvion-wicks",
       "playerName": "Dontayvion Wicks",
       "pos": "WR",
       "nflTeam": "PHI",
@@ -2575,7 +2575,7 @@
       "round": 20,
       "slot": 3,
       "rosterId": 2,
-      "playerId": "kirk-cousins",
+      "playerId": null,
       "playerName": "Kirk Cousins",
       "pos": "QB",
       "nflTeam": "LV",
@@ -2883,7 +2883,7 @@
       "round": 22,
       "slot": 7,
       "rosterId": 4,
-      "playerId": "zavion-thomas",
+      "playerId": null,
       "playerName": "Zavion Thomas",
       "pos": "WR",
       "nflTeam": "CHI",
@@ -3834,6 +3834,72 @@
       "pos": "WR",
       "nflTeam": "HOU",
       "mine": true
+    },
+    {
+      "pick": 346,
+      "round": 29,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": null,
+      "playerName": "James Conner",
+      "pos": "RB",
+      "nflTeam": "ARI",
+      "mine": false
+    },
+    {
+      "pick": 347,
+      "round": 29,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "Ben Sinnott",
+      "pos": "TE",
+      "nflTeam": "WAS",
+      "mine": false
+    },
+    {
+      "pick": 348,
+      "round": 29,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "CJ Donaldson",
+      "pos": "RB",
+      "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 349,
+      "round": 30,
+      "slot": 1,
+      "rosterId": 3,
+      "playerId": null,
+      "playerName": "Jalen Tolbert",
+      "pos": "WR",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 350,
+      "round": 30,
+      "slot": 2,
+      "rosterId": 10,
+      "playerId": null,
+      "playerName": "Kyle McCord",
+      "pos": "QB",
+      "nflTeam": "MIA",
+      "mine": false
+    },
+    {
+      "pick": 351,
+      "round": 30,
+      "slot": 3,
+      "rosterId": 2,
+      "playerId": null,
+      "playerName": "Joe Flacco",
+      "pos": "QB",
+      "nflTeam": "CIN",
+      "mine": false
     }
   ]
 }
