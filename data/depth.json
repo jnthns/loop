@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-06T20:22:53.322Z",
+  "capturedAt": "2026-09-07T04:37:42.617Z",
   "snapshotAt": "2026-09-06T11:29:30Z",
   "season": "2026",
   "entries": [
@@ -332,14 +332,6 @@
       "sleeperId": "6801"
     },
     {
-      "id": "dohnte-meyers",
-      "name": "Dohnte Meyers",
-      "pos": "WR",
-      "nflTeam": "CIN",
-      "depthRank": 5,
-      "sleeperId": "13264"
-    },
-    {
       "id": "quinshon-judkins",
       "name": "Quinshon Judkins",
       "pos": "RB",
@@ -530,14 +522,6 @@
       "nflTeam": "DET",
       "depthRank": 1,
       "sleeperId": "9221"
-    },
-    {
-      "id": "sione-vaki",
-      "name": "Sione Vaki",
-      "pos": "RB",
-      "nflTeam": "DET",
-      "depthRank": 2,
-      "sleeperId": "11729"
     },
     {
       "id": "jacob-saylors",
@@ -1482,14 +1466,6 @@
       "nflTeam": "PHI",
       "depthRank": 1,
       "sleeperId": "7525"
-    },
-    {
-      "id": "dontayvion-wicks",
-      "name": "Dontayvion Wicks",
-      "pos": "WR",
-      "nflTeam": "PHI",
-      "depthRank": 2,
-      "sleeperId": "9486"
     },
     {
       "id": "makai-lemon",

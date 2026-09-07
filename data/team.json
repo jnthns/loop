@@ -238,20 +238,20 @@
     },
     {
       "slotId": "bn-7",
-      "playerId": "dontayvion-wicks",
-      "acquired": "Startup 18.04",
-      "notes": ""
-    },
-    {
-      "slotId": "bn-8",
       "playerId": "tory-horton",
       "acquired": "Startup 20.04",
       "notes": ""
     },
     {
-      "slotId": "bn-9",
+      "slotId": "bn-8",
       "playerId": "troy-franklin",
       "acquired": "Startup 22.04",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-9",
+      "playerId": null,
+      "acquired": "",
       "notes": ""
     },
     {

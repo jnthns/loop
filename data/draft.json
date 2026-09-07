@@ -2322,7 +2322,7 @@
       "round": 18,
       "slot": 4,
       "rosterId": 7,
-      "playerId": "dontayvion-wicks",
+      "playerId": null,
       "playerName": "Dontayvion Wicks",
       "pos": "WR",
       "nflTeam": "PHI",
@@ -3510,7 +3510,7 @@
       "round": 27,
       "slot": 9,
       "rosterId": 1,
-      "playerId": "dohnte-meyers",
+      "playerId": null,
       "playerName": "Dohnte Meyers",
       "pos": "WR",
       "nflTeam": "CIN",
@@ -3917,10 +3917,32 @@
       "round": 30,
       "slot": 5,
       "rosterId": 5,
-      "playerId": "sione-vaki",
+      "playerId": null,
       "playerName": "Sione Vaki",
       "pos": "RB",
       "nflTeam": "DET",
+      "mine": false
+    },
+    {
+      "pick": 354,
+      "round": 30,
+      "slot": 6,
+      "rosterId": 11,
+      "playerId": null,
+      "playerName": "Ty Johnson",
+      "pos": "RB",
+      "nflTeam": "BUF",
+      "mine": false
+    },
+    {
+      "pick": 355,
+      "round": 30,
+      "slot": 7,
+      "rosterId": 4,
+      "playerId": "audric-estime",
+      "playerName": "Audric Estime",
+      "pos": "RB",
+      "nflTeam": "NO",
       "mine": false
     }
   ]

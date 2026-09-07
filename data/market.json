@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-06T20:22:52.346Z",
+  "capturedAt": "2026-09-07T04:37:41.692Z",
   "scrapeDate": "2026-09-04",
   "sources": [
     {
@@ -3334,7 +3334,7 @@
       "sleeperId": "9486",
       "ktcId": "1448",
       "espnId": "4428850",
-      "playerId": "dontayvion-wicks",
+      "playerId": null,
       "name": "Dontayvion Wicks",
       "pos": "WR",
       "nflTeam": "PHI",
@@ -8077,7 +8077,7 @@
       "sleeperId": "11729",
       "ktcId": "1627",
       "espnId": "4912274",
-      "playerId": "sione-vaki",
+      "playerId": null,
       "name": "Sione Vaki",
       "pos": "RB",
       "nflTeam": "DET",
@@ -8876,7 +8876,7 @@
       "sleeperId": "13264",
       "ktcId": "2070",
       "espnId": "4384852",
-      "playerId": "dohnte-meyers",
+      "playerId": null,
       "name": "Dohnte Meyers",
       "pos": "WR",
       "nflTeam": "CIN",
