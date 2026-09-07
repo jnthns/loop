@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "drafting",
+  "status": "paused",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3943,6 +3943,39 @@
       "playerName": "Audric Estime",
       "pos": "RB",
       "nflTeam": "NO",
+      "mine": false
+    },
+    {
+      "pick": 356,
+      "round": 30,
+      "slot": 8,
+      "rosterId": 9,
+      "playerId": null,
+      "playerName": "Cole Kmet",
+      "pos": "TE",
+      "nflTeam": "CHI",
+      "mine": false
+    },
+    {
+      "pick": 357,
+      "round": 30,
+      "slot": 9,
+      "rosterId": 1,
+      "playerId": null,
+      "playerName": "Trey Benson",
+      "pos": "RB",
+      "nflTeam": "ARI",
+      "mine": false
+    },
+    {
+      "pick": 358,
+      "round": 30,
+      "slot": 10,
+      "rosterId": 6,
+      "playerId": null,
+      "playerName": "Marcus Mariota",
+      "pos": "QB",
+      "nflTeam": "WAS",
       "mine": false
     }
   ]

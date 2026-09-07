@@ -1,5 +1,175 @@
 [
   {
+    "id": "sle2cgt6jb32",
+    "title": "And the Falcons’ starting QB for Week 1 is … Tua Tagovailoa",
+    "url": "https://sports.yahoo.com/articles/falcons-starting-qb-week-1-121840649.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T12:18:40.000Z",
+    "summary": "We finally have an answer: Tua Tagovailoa is the Atlanta Falcons’ Week 1 starter.",
+    "tags": [
+      "league-news",
+      "usage",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "38wwyicvps84",
+    "title": "Falcons choose Tua Tagovailoa over Michael Penix Jr. as Week 1 starter vs. Steelers",
+    "url": "https://sports.yahoo.com/nfl/breaking-news/article/falcons-choose-tua-tagovailoa-over-michael-penix-jr-as-week-1-starter-vs-steelers-121355701.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T12:13:55.000Z",
+    "summary": "Atlanta turns to the veteran as Michael Penix Jr. continues working back from injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "usage",
+      "ATL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "ATL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "nawp7y1sy7xcc",
+    "title": "- Daily Slop",
+    "url": "https://sports.yahoo.com/articles/daily-slop-120000619.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "summary": "The Athletic: “The Commanders missed their opportunity to build a contender during Jayden Daniels’ rookie contract window”",
+    "tags": [
+      "league-news",
+      "contract",
+      "rookie",
+      "WAS"
+    ],
+    "players": [
+      "jayden-daniels"
+    ],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "1352af63lwtts",
+    "title": "The Optimist: Taxing depth early as a sign of progress",
+    "url": "https://sports.yahoo.com/articles/optimist-taxing-depth-early-sign-120000748.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "summary": "It won't be a smooth road, but the Panthers might actually have a car capable of driving on dirt for the first time in years",
+    "tags": [
+      "league-news",
+      "contract",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "14uc3p9169nxnb",
+    "title": "Ravens news: DT Nnamdi Madubuike could be ready for Week 1",
+    "url": "https://sports.yahoo.com/articles/ravens-news-dt-nnamdi-madubuike-110000660.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T11:00:00.000Z",
+    "summary": "Rounding up the latest news and analysis about the Baltimore Ravens!",
+    "tags": [
+      "league-news",
+      "availability",
+      "BAL"
+    ],
+    "players": [],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
+    "id": "p2end11abstzt",
+    "title": "C.J. Stroud confident ahead of the biggest season of his life",
+    "url": "https://www.espn.com/nfl/story/_/id/49826332/houston-texans-cj-stroud-confident-contract-year-4",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-07T10:00:01.000Z",
+    "summary": "After a rocky end in the playoffs last season, it appears Stroud will play Year 4 without a new contract.",
+    "tags": [
+      "league-news",
+      "contract",
+      "HOU"
+    ],
+    "players": [
+      "c-j-stroud"
+    ],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "1vb7n0ziloisx",
+    "title": "Packers Depth Chart: We still don’t know who will start at cornerback",
+    "url": "https://sports.yahoo.com/articles/packers-depth-chart-still-don-100000073.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T10:00:00.000Z",
+    "summary": "The competition is between Carrington Valentine and Brandon Cisse, not Keisean Nixon",
+    "tags": [
+      "league-news",
+      "usage",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "xi27gs1yay7dq",
+    "title": "49ers' Sam Okuayinonu has \"bad injury\" to his foot, hopes to play by end of season",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sam-okuayinonu-has-bad-injury-to-his-foot-hopes-to-play-by-end-of-season",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-07T08:00:48.000Z",
+    "summary": "When 49ers defensive lineman Sam Okuayinonu hurt his foot in the final practice before the team flight to Australia, there was hope that he could make a later flight and still play in the opener.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "z0h92trd9ng7",
+    "title": "49ers' Sam Okuayinonu has \"bad injury\" to his foot, hopes to play by end of season",
+    "url": "https://sports.yahoo.com/articles/49ers-sam-okuayinonu-bad-injury-080048666.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T08:00:48.000Z",
+    "summary": "When 49ers defensive lineman Sam Okuayinonu hurt his foot in the final practice before the team flight to Australia, there was hope that he could make a later flight and still play in the opener.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
     "id": "1y6j0cu1kpnbt2",
     "title": "Vikings 2026 Season Forecast",
     "url": "https://sports.yahoo.com/articles/vikings-2026-season-forecast-041918552.html",
@@ -7217,177 +7387,6 @@
     ],
     "teams": [
       "MIA"
-    ]
-  },
-  {
-    "id": "ned2wk1n0404g",
-    "title": "Cowboys waive QB Joe Milton",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-waive-qb-joe-milton",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T20:07:00.000Z",
-    "summary": "The Cowboys kept three quarterbacks on their initial 53-man roster, but they dropped to two on Monday, They have waived Joe Milton, which leaves Sam Howell as the only backup to Dak Prescott.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [
-      "dak-prescott"
-    ],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1pzt5ma7morek",
-    "title": "Saints waive WR Kevin Austin, TE Treyton Welch",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-waive-wr-kevin-austin-te-treyton-welch",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T19:58:05.000Z",
-    "summary": "The Saints have announced their corresponding roster moves after adding two players off of waivers on Monday.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "thyq2y14bxp6q",
-    "title": "Colts cut OL Luke Tenuta",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-cut-ol-luke-tenuta",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T19:43:52.000Z",
-    "summary": "The Colts needed a roster spot after claiming cornerback Kapena Gushiken off waivers from the Eagles.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "IND",
-      "PHI"
-    ],
-    "players": [],
-    "teams": [
-      "IND",
-      "PHI"
-    ]
-  },
-  {
-    "id": "1yfwysz1ors3sr",
-    "title": "Cowboys coach Brian Schottenheimer said he was as open and honest as he could be with the players they cut. In regards to RBs Jaydon Blue and Phil Mafah, they were told that the Cowboys are not sure if they will want either back on the practice squad",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w3ojlb/cowboys_coach_brian_schottenheimer_said_he_was_as",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-31T19:41:24.000Z",
-    "summary": "&#32; submitted by &#32; /u/GhostDeck [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [
-      "jaydon-blue"
-    ],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "gxf9e01w0gmwu",
-    "title": "Panthers waive G Chandler Zavala",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-waive-g-chandler-zavala",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T19:37:48.000Z",
-    "summary": "The Panthers claimed Corey Bullock off of waivers on Monday and that led to the departure of another offensive lineman.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "186m4qm1xmwd18",
-    "title": "Vikings to waive QB Max Brosmer",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-to-waive-qb-max-brosmer",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T19:36:15.000Z",
-    "summary": "The Vikings came out of cut-down day with four quarterbacks on their 53-man roster.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "MIN"
-    ],
-    "players": [],
-    "teams": [
-      "MIN"
-    ]
-  },
-  {
-    "id": "1gaytq5ln0v53",
-    "title": "Jets LB Joseph Ossai week-to-week with foot injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-lb-joseph-ossai-week-to-week-with-foot-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T19:31:06.000Z",
-    "summary": "The Jets signed Joseph Ossai this offseason to help their pass rush, but he may not be available for their Week 1 game in Tennessee.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "NYJ"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ"
-    ]
-  },
-  {
-    "id": "1t2tlfp19mljv",
-    "title": "Ravens sign K Jake Moody to practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-sign-k-jake-moody-to-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T19:17:16.000Z",
-    "summary": "The Ravens have brought in some potential competition at kicker for Tyler Loop.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL"
-    ],
-    "players": [
-      "tyler-loop"
-    ],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1aqxoqgmh444o",
-    "title": "Nick Mullens, Joey Aguilar return to Jaguars practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-mullens-joey-aguilar-return-to-jaguars-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T19:15:10.000Z",
-    "summary": "The Jaguars cut three quarterbacks on Sunday and two of them returned to the practice squad on Monday.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "JAX"
-    ],
-    "players": [],
-    "teams": [
-      "JAX"
     ]
   }
 ]
