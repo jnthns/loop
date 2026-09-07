@@ -178,20 +178,20 @@
     },
     {
       "slotId": "te-1",
-      "playerId": "eli-stowers",
-      "acquired": "Startup 9.04",
+      "playerId": "brenton-strange",
+      "acquired": "",
       "notes": ""
     },
     {
       "slotId": "flex-1",
-      "playerId": "denzel-boston",
-      "acquired": "Startup 10.04",
+      "playerId": "rico-dowdle",
+      "acquired": "",
       "notes": ""
     },
     {
       "slotId": "flex-2",
-      "playerId": "rico-dowdle",
-      "acquired": "Startup 11.04",
+      "playerId": "jayden-reed",
+      "acquired": "",
       "notes": ""
     },
     {
@@ -208,55 +208,55 @@
     },
     {
       "slotId": "bn-2",
-      "playerId": "jayden-reed",
-      "acquired": "Startup 12.04",
+      "playerId": "troy-franklin",
+      "acquired": "",
       "notes": ""
     },
     {
       "slotId": "bn-3",
-      "playerId": "brenton-strange",
-      "acquired": "Startup 13.04",
-      "notes": ""
-    },
-    {
-      "slotId": "bn-4",
       "playerId": "zach-charbonnet",
       "acquired": "Startup 14.04",
       "notes": ""
     },
     {
-      "slotId": "bn-5",
+      "slotId": "bn-4",
       "playerId": "tyrone-tracy",
-      "acquired": "Startup 15.04",
+      "acquired": "",
       "notes": ""
     },
     {
-      "slotId": "bn-6",
-      "playerId": "isaac-teslaa",
-      "acquired": "Startup 16.04",
-      "notes": ""
-    },
-    {
-      "slotId": "bn-7",
-      "playerId": "tory-horton",
-      "acquired": "Startup 20.04",
-      "notes": ""
-    },
-    {
-      "slotId": "bn-8",
-      "playerId": "troy-franklin",
-      "acquired": "Startup 22.04",
-      "notes": ""
-    },
-    {
-      "slotId": "bn-9",
+      "slotId": "bn-5",
       "playerId": null,
       "acquired": "",
       "notes": ""
     },
     {
-      "slotId": "bn-10",
+      "slotId": "bn-6",
+      "playerId": "tory-horton",
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-7",
       "playerId": null,
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-8",
+      "playerId": "isaac-teslaa",
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-9",
+      "playerId": "denzel-boston",
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-10",
+      "playerId": "eli-stowers",
       "acquired": "",
       "notes": ""
     },

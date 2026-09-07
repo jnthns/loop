@@ -1,6 +1,6 @@
 {
   "draftId": "1355043174896136192",
-  "status": "paused",
+  "status": "complete",
   "type": "snake",
   "startTime": "2026-08-14T17:00:50.811Z",
   "teams": 12,
@@ -3976,6 +3976,28 @@
       "playerName": "Marcus Mariota",
       "pos": "QB",
       "nflTeam": "WAS",
+      "mine": false
+    },
+    {
+      "pick": 359,
+      "round": 30,
+      "slot": 11,
+      "rosterId": 8,
+      "playerId": null,
+      "playerName": "Tyler Huntley",
+      "pos": "QB",
+      "nflTeam": "BAL",
+      "mine": false
+    },
+    {
+      "pick": 360,
+      "round": 30,
+      "slot": 12,
+      "rosterId": 12,
+      "playerId": null,
+      "playerName": "Darnell Washington",
+      "pos": "TE",
+      "nflTeam": "PIT",
       "mine": false
     }
   ]
