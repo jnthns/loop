@@ -1,5 +1,262 @@
 [
   {
+    "id": "bfhijw1llhxcg",
+    "title": "NFL Injury Report, Week 1: Latest player news, updates for fantasy football",
+    "url": "https://sports.yahoo.com/fantasy/article/nfl-injury-report-week-1-latest-player-news-updates-for-fantasy-football-154233236.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T15:42:33.000Z",
+    "summary": "Here's a look at all the most notable injuries you need to know for fantasy football in Week 1.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "bmw6li1a42vww",
+    "title": "Three Rivers Report: Could Steelers sign recently released WR?",
+    "url": "https://sports.yahoo.com/articles/three-rivers-report-could-steelers-153029909.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T15:30:29.000Z",
+    "summary": "Should Steelers sign WR Darius Slayton?",
+    "tags": [
+      "league-news",
+      "contract",
+      "roster-move",
+      "PIT"
+    ],
+    "players": [
+      "darius-slayton"
+    ],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "6ybuj1i1rqp9",
+    "title": "Titans LB Cedric Gray suffers concussion in UTV accident",
+    "url": "https://sports.yahoo.com/articles/titans-lb-cedric-gray-suffers-152920715.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T15:29:20.000Z",
+    "summary": "Not a great start to week 1 for the Titans",
+    "tags": [
+      "league-news",
+      "injury",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "9oxuqd1a1evr7",
+    "title": "Cowboys have 'serious' financial room to make a trade, says Jones",
+    "url": "https://www.espn.com/nfl/story/_/id/49869284/cowboys-serious-financial-room-make-trade-says-jones",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-08T15:29:12.000Z",
+    "summary": "Cowboys owner Jerry Jones told 105.3 The Fan on Tuesday that the team has \"serious room financially\" to make a trade after restructuring several veteran contracts last week.",
+    "tags": [
+      "league-news",
+      "trade",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "1rr5dwu15ofnxw",
+    "title": "Makai Lemon listed as punt returner on Eagles depth chart.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1warlj2/makai_lemon_listed_as_punt_returner_on_eagles",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-08T15:28:24.000Z",
+    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "usage",
+      "PHI"
+    ],
+    "players": [
+      "makai-lemon"
+    ],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "115089k1ngqo7i",
+    "title": "Matthew Golden vs. Jalen Coker - how are we feeling?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wari0a/matthew_golden_vs_jalen_coker_how_are_we_feeling",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-08T15:24:54.000Z",
+    "summary": "Their 2025 stats are remarkably similar: Games Played : Coker -11 Golden - 14 Receptions : Coker - 33 Golden - 29 Receiving Yards: Coker - 394 Golden - 361 Yards Per Reception : Coker - 11.9 Golden - 12.4 Receiving Touchdowns: Coker - 3 Golden - 0 Coker signed a contract and has shown good report with Bryce, while Golden has a bunch of vacated targets in front of him in what should be a better off",
+    "tags": [
+      "dynasty",
+      "contract"
+    ],
+    "players": [
+      "jalen-coker",
+      "matthew-golden"
+    ],
+    "teams": []
+  },
+  {
+    "id": "uim51fwyswd3",
+    "title": "Eagles depth chart doesn't name a backup to Jalen Hurts",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-depth-chart-doesnt-name-a-backup-to-jalen-hurts",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T15:10:17.000Z",
+    "summary": "Eagles General Manager Howie Roseman declined to say who the team has installed as Jalen Hurts' backup quarterback last week and the team isn't sharing that information this week either.",
+    "tags": [
+      "league-news",
+      "usage",
+      "PHI"
+    ],
+    "players": [
+      "jalen-hurts"
+    ],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "icbqge9epoho",
+    "title": "Eagles depth chart doesn't name a backup to Jalen Hurts",
+    "url": "https://sports.yahoo.com/articles/eagles-depth-chart-doesnt-name-151017361.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T15:10:17.000Z",
+    "summary": "Eagles General Manager Howie Roseman declined to say who the team has installed as Jalen Hurts' backup quarterback last week and the team isn't sharing that information this week either.",
+    "tags": [
+      "league-news",
+      "usage",
+      "PHI"
+    ],
+    "players": [
+      "jalen-hurts"
+    ],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "18d1ygj7fjyrn",
+    "title": "Use FanDuel promo code to get $350 bonus bets by targeting Patriots-Seahawks, 49ers-Rams, Week 1 NFL betting",
+    "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-350-bonus-bets-patriots-seahawks-49ers-rams-week-1-nfl-betting",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-08T14:34:46.000Z",
+    "summary": "Sign up and bet with the latest FanDuel promo code on Tuesday to get your bonus bets",
+    "tags": [
+      "league-news",
+      "contract",
+      "LAR",
+      "NE",
+      "SEA",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "LAR",
+      "NE",
+      "SEA",
+      "SF"
+    ]
+  },
+  {
+    "id": "zvz21m1kfo5z8",
+    "title": "NFL Week 1 picks and score predictions: Seahawks destroy Patriots in Super Bowl rematch, Rams prevail",
+    "url": "https://www.cbssports.com/nfl/news/nfl-week-1-picks-and-predictions-chiefs-seahawks-patriots",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-08T14:19:08.000Z",
+    "summary": "Here&#039;s your weekly dose of John Breech&#039;s NFL picks for every game as Seattle hosts a Super Bowl rematch and Patrick Mahomes returns from injury",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAR",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "patrick-mahomes"
+    ],
+    "teams": [
+      "LAR",
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "1ohokpg1y5g2qq",
+    "title": "We tracked 67,800+ real dynasty trades this past week. Contested backfields have taken over the most-traded board",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wapi17/we_tracked_67800_real_dynasty_trades_this_past",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-08T14:10:50.000Z",
+    "summary": "Welcome back to the trade roundup. Over the last 7 days we tracked 67,888 completed dynasty trades across 147,339 active leagues. What changed since our last roundup Running backs have swallowed the board. Seven of the top ten, the most RB-heavy list we've tracked. And it isn't random: it's specific rooms getting repriced. Both Packers backs are top three (MarShawn Lloyd No. 1, Josh Jacobs No. 3) ",
+    "tags": [
+      "dynasty",
+      "trade",
+      "GB"
+    ],
+    "players": [
+      "josh-jacobs",
+      "marshawn-lloyd"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "7b1np2tv2wn6",
+    "title": "Jerry Jones: Creating cap space gives us room to make a trade",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-creating-cap-space-gives-us-room-to-make-a-trade",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T14:03:21.000Z",
+    "summary": "After the Cowboys signed Von Miller last month, their owner Jerry Jones said that he would be open to making a trade \"if we saw an opportunity to take a little of the future and put it on this team.\"",
+    "tags": [
+      "league-news",
+      "trade",
+      "contract",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "k53aqf1hlj91n",
+    "title": "Jerry Jones: Creating cap space gives us room to make a trade",
+    "url": "https://sports.yahoo.com/articles/jerry-jones-creating-cap-space-140321843.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T14:03:21.000Z",
+    "summary": "After the Cowboys signed Von Miller last month, their owner Jerry Jones said that he would be open to making a trade \"if we saw an opportunity to take a little of the future and put it on this team.\"",
+    "tags": [
+      "league-news",
+      "trade",
+      "contract",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
     "id": "8djgwo6m8490",
     "title": "Todd Monken, QBs, the Browns and a lifetime in pursuit",
     "url": "https://www.espn.com/nfl/story/_/id/49860607/todd-monken-cleveland-browns-quarterbacks-life-pursuit-2026-head-coach",
@@ -1402,6 +1659,30 @@
     ],
     "teams": [
       "ATL"
+    ]
+  },
+  {
+    "id": "jcohoo1bd4x5g",
+    "title": "NFL news, live updates: Patriots CB Christian Gonzalez agrees to record-setting extension; Falcons name Tua Tagovailoa their starter",
+    "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-week-1-fantasy-football-142542967.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T14:25:42.000Z",
+    "summary": "Follow along with the latest NFL news and injury updates approaching Week 1.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "usage",
+      "ATL",
+      "NE"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL",
+      "NE"
     ]
   },
   {
@@ -7162,265 +7443,6 @@
     "players": [],
     "teams": [
       "CLE"
-    ]
-  },
-  {
-    "id": "rfpw79bqy0pp",
-    "title": "Texans won't negotiate with Stroud during season, GM says",
-    "url": "https://www.espn.com/nfl/story/_/id/49794128/texans-negotiate-stroud-season-gm-says",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-09-01T16:06:48.000Z",
-    "summary": "The Texans have set a Week 1 deadline for agreeing to a contract extension with quarterback C.J. Stroud this year, general manager Nick Caserio said.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [
-      "c-j-stroud"
-    ],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "14d1c90jfxbm6",
-    "title": "RB Chuba Hubbard (hamstring) is back at practice on Tuesday. Per Mike Kaye.",
-    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4fy4o/rb_chuba_hubbard_hamstring_is_back_at_practice_on",
-    "source": "r/fantasyfootball",
-    "sourceId": "reddit-fantasyfootball",
-    "publishedAt": "2026-09-01T15:52:36.000Z",
-    "summary": "&#32; submitted by &#32; /u/mvanigan [link] &#32; [comments]",
-    "tags": [
-      "fantasy",
-      "injury"
-    ],
-    "players": [
-      "chuba-hubbard"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1n6o9f4sjp6w4",
-    "title": "Panthers sign LB Tyrel Dodson to practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-sign-lb-tyrel-dodson-to-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T15:44:15.000Z",
-    "summary": "Veteran linebacker Tyrel Dodson has found a new home in Carolina.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "19ctmcg10eears",
-    "title": "Panthers sign LB Tyrel Dodson to practice squad",
-    "url": "https://sports.yahoo.com/articles/panthers-sign-lb-tyrel-dodson-154415808.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T15:44:15.000Z",
-    "summary": "Veteran linebacker Tyrel Dodson has found a new home in Carolina.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "xkczlt154fbgl",
-    "title": "Chicago Bears Roster Moves: Coby Bryant to IR, Jack Sanborn signed",
-    "url": "https://sports.yahoo.com/articles/chicago-bears-roster-moves-coby-154108363.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T15:41:08.000Z",
-    "summary": "The Chicago Bears have shuffled their roster and @wiltfongjr has the details here.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "kj2bzr1040ed5",
-    "title": "Texans put Braden Smith on IR, re-sign Brevin Jordan and Dominique Robinson",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-put-braden-smith-on-ir-re-sign-brevin-jordan-and-dominique-robinson",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T15:35:43.000Z",
-    "summary": "Texans General Manager Nick Caserio shared a handful of roster moves that the team made during a press conference on Tuesday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "vopw3ufrp9g0",
-    "title": "Texans put Braden Smith on IR, re-sign Brevin Jordan and Dominique Robinson",
-    "url": "https://sports.yahoo.com/articles/texans-put-braden-smith-ir-153543132.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T15:35:43.000Z",
-    "summary": "Texans General Manager Nick Caserio shared a handful of roster moves that the team made during a press conference on Tuesday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "h39t331lelwkd",
-    "title": "Did the 49ers sign their Sky Moore of 2026 on the practice squad?",
-    "url": "https://sports.yahoo.com/articles/did-49ers-sign-sky-moore-153423220.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T15:34:23.000Z",
-    "summary": "Brandon Codrington could be the 49ers annual buy low in August move that pays off all season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "lmgphpmzpa3p",
-    "title": "Source: Chargers sign TE Patrick Herbert, brother of starting QB",
-    "url": "https://www.espn.com/nfl/story/_/id/49794019/source-chargers-sign-te-patrick-herbert-brother-starting-qb",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-09-01T15:27:43.000Z",
-    "summary": "The Chargers have signed tight end Patrick Herbert, younger brother of starting quarterback Justin, to their practice squad, a source told the NFL Network's Mike Garafolo.",
-    "tags": [
-      "league-news",
-      "contract",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "1fwz4201ypglkq",
-    "title": "We tracked 73,300+ real dynasty trades this past week the Packers backfield broke our most-traded board",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w4f3i0/we_tracked_73300_real_dynasty_trades_this_past",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-01T15:22:13.000Z",
-    "summary": "Welcome back to the trade roundup. Over the last 7 days we tracked 73,304 completed dynasty trades across 140,215 active leagues. What changed since our last roundup The Green Bay backfield blew up the board. MarShawn Lloyd is the No. 1 most-traded player with 2,265 trades nearly double anyone else, and the highest single-player count we've recorded. His commissioner exempt list teammate Josh Jaco",
-    "tags": [
-      "dynasty",
-      "trade",
-      "GB"
-    ],
-    "players": [
-      "marshawn-lloyd"
-    ],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "14dw4ca1q5xizo",
-    "title": "Former Broncos RB Jaleel McLaughlin has signed to the Cleveland Browns’ practice squad",
-    "url": "https://sports.yahoo.com/articles/former-broncos-rb-jaleel-mclaughlin-151603724.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T15:16:03.000Z",
-    "summary": "According to 850 ESPN Cleveland’s Tony Grossi, who covers the Cleveland Browns, former Denver Broncos running back Jaleel McLaughlin has signed to the Cleveland Browns’ practice squad. McLaughlin was waived by the Broncos on Sunday and, surprisingly, went unclaimed on the waiver wire. He was not among the 17 players the Broncos signed to their […]",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "CLE",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "CLE",
-      "DEN"
-    ]
-  },
-  {
-    "id": "1poi7777xsr1t",
-    "title": "What does Keyron Crawford injury mean?",
-    "url": "https://sports.yahoo.com/articles/does-keyron-crawford-injury-mean-150700541.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T15:07:00.000Z",
-    "summary": "Rookie pass-rusher will miss entire season",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "dol4gcbjbe80",
-    "title": "Steelers put hard deadline on Joey Porter Jr contract negotiations",
-    "url": "https://sports.yahoo.com/articles/steelers-put-hard-deadline-joey-150151482.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T15:01:51.000Z",
-    "summary": "Steelers running out of time to get Joey Porter Jr deal done.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "rv6wcu16jhgek",
-    "title": "Steelers' outdated contract rule complicates Joey Porter Jr. situation",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-outdated-contract-rule-complicates-joey-porter-jr-situation",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T14:53:33.000Z",
-    "summary": "The Pittsburgh Steelers do many things right.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
     ]
   }
 ]

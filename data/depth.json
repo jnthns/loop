@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-09-08T11:16:03.550Z",
-  "snapshotAt": "2026-09-07T13:13:25Z",
+  "capturedAt": "2026-09-08T16:36:37.895Z",
+  "snapshotAt": "2026-09-08T11:56:57Z",
   "season": "2026",
   "entries": [
     {
@@ -2036,19 +2036,11 @@
       "sleeperId": "11632"
     },
     {
-      "id": "darius-slayton",
-      "name": "Darius Slayton",
-      "pos": "WR",
-      "nflTeam": "NYG",
-      "depthRank": 2,
-      "sleeperId": "6149"
-    },
-    {
       "id": "darnell-mooney",
       "name": "Darnell Mooney",
       "pos": "WR",
       "nflTeam": "NYG",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "7090"
     },
     {
@@ -2056,7 +2048,7 @@
       "name": "Malachi Fields",
       "pos": "WR",
       "nflTeam": "NYG",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "13285"
     },
     {
@@ -2064,7 +2056,7 @@
       "name": "Odell Beckham",
       "pos": "WR",
       "nflTeam": "NYG",
-      "depthRank": 5,
+      "depthRank": 4,
       "sleeperId": "2078"
     },
     {
