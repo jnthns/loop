@@ -1,12 +1,150 @@
 [
   {
-    "id": "1cwdmt5j6rg67",
-    "title": "Cardinals optimistic rookie RB Love will be ready for opener",
-    "url": "https://www.espn.com/nfl/story/_/id/49862561/cardinals-optimistic-rookie-rb-love-ready-opener",
+    "id": "69vhkv16hj2cj",
+    "title": "49ers' Nick Bosa set to face Rams; George Kittle 'looks good'",
+    "url": "https://www.espn.com/nfl/story/_/id/49865098/49ers-nick-bosa-set-face-rams-george-kittle-looks-good",
     "source": "ESPN",
     "sourceId": "espn-api",
-    "publishedAt": "2026-09-07T21:21:16.000Z",
-    "summary": "Cardinals coach Mike LaFleur is optimistic that rookie running back Jeremiyah Love will be able to play Sunday at the Chargers, about four weeks after suffering a high-ankle sprain in a preseason game.",
+    "publishedAt": "2026-09-08T04:10:55.000Z",
+    "summary": "All signs point toward San Francisco's Nick Bosa and George Kittle playing in Thursday's season opener versus the Rams.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LAR",
+      "SF"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "LAR",
+      "SF"
+    ]
+  },
+  {
+    "id": "1u7chvm13iw2bo",
+    "title": "George Kittle \"in good shape\" to play season opener",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/george-kittle-in-good-shape-to-play-season-opener",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T03:16:06.000Z",
+    "summary": "Tight end George Kittle traveled with the 49ers to Australia, which was a sign he would play in Thursday night's season opener.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "yq2ogjlk6bt3",
+    "title": "George Kittle \"in good shape\" to play season opener",
+    "url": "https://sports.yahoo.com/articles/george-kittle-good-shape-play-031606633.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T03:16:06.000Z",
+    "summary": "Tight end George Kittle traveled with the 49ers to Australia, which was a sign he would play in Thursday night's season opener.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1w9lf2zjzhjep",
+    "title": "Raheem Morris confirms Nick Bosa will play season opener",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raheem-morris-confirms-nick-bosa-will-play-season-opener",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T02:13:47.000Z",
+    "summary": "The 49ers defensive end tore his ACL in a Sept. 21 game against the Cardinals and underwent surgery Sept. 26.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ARI",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "ARI",
+      "SF"
+    ]
+  },
+  {
+    "id": "1d963e4o6ar8s",
+    "title": "Raheem Morris confirms Nick Bosa will play season opener",
+    "url": "https://sports.yahoo.com/articles/raheem-morris-confirms-nick-bosa-021347425.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T02:13:47.000Z",
+    "summary": "The 49ers defensive end tore his ACL in a Sept. 21 game against the Cardinals and underwent surgery Sept. 26.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ARI",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "ARI",
+      "SF"
+    ]
+  },
+  {
+    "id": "lp05f05s3al6",
+    "title": "Titans LB Cedric Gray in concussion protocol ahead of season opener after UTV crash",
+    "url": "https://sports.yahoo.com/nfl/article/titans-lb-cedric-gray-in-concussion-protocol-ahead-of-season-opener-after-utv-crash-002030789.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T00:20:30.000Z",
+    "summary": "Cedric Gray suffered a concussion and other minor injuries while driving a UTV over the holiday weekend.",
+    "tags": [
+      "league-news",
+      "injury",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "eo5cn124372x",
+    "title": "Report: Three teams have reached out to Darius Slayton",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-three-teams-have-reached-out-to-darius-slayton",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-07T23:56:38.000Z",
+    "summary": "The Giants released wide receiver Darius Slayton on Monday, making him a free agent.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1fir3lb1tbn33x",
+    "title": "Cardinals hopeful RB Jeremiyah Love can play vs. Chargers in Week 1 after preseason ankle injury",
+    "url": "https://sports.yahoo.com/nfl/article/cardinals-hopeful-rb-jeremiyah-love-can-play-vs-chargers-in-week-1-after-preseason-ankle-injury-234733540.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T23:47:33.000Z",
+    "summary": "Jeremiyah Love, who the Cardinals took with the No. 3 overall pick in the draft, went down with an ankle sprain earlier in the preseason and has been sidelined ever since.",
     "tags": [
       "league-news",
       "injury",
@@ -20,6 +158,273 @@
     "teams": [
       "ARI",
       "LAC"
+    ]
+  },
+  {
+    "id": "5dzzg31du367h",
+    "title": "Titans' leading tackler may miss time after UTV accident, concussion",
+    "url": "https://sports.yahoo.com/articles/titans-leading-tackler-may-miss-233443672.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T23:34:43.000Z",
+    "summary": "The Tennessee Titans' leading tackler from a year ago, Cedric Gray, is now in the NFL's concussion protocol following a UTV accident.",
+    "tags": [
+      "league-news",
+      "injury",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "1vmk9201uk41uw",
+    "title": "Colts WR Alec Pierce expected to be ready for regular season opener against Ravens",
+    "url": "https://sports.yahoo.com/articles/colts-wr-alec-pierce-expected-233054603.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T23:30:54.000Z",
+    "summary": "The Colts received some promising injury news on returning lead wideout Alec Pierce—although not unexpected.",
+    "tags": [
+      "league-news",
+      "injury",
+      "BAL",
+      "IND"
+    ],
+    "players": [
+      "alec-pierce"
+    ],
+    "teams": [
+      "BAL",
+      "IND"
+    ]
+  },
+  {
+    "id": "1ityqoxrh6vt7",
+    "title": "Giants release Darius Slayton: Possible landing spots for veteran receiver",
+    "url": "https://www.cbssports.com/nfl/news/giants-release-darius-slayton-landing-spots",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-07T23:02:27.000Z",
+    "summary": "The longtime Giant will play somewhere else in 2026",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "2fk3o61y8wxb0",
+    "title": "Jacoby Brissett among Cardinals' team captains",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jacoby-brissett-among-cardinals-team-captains",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-07T22:36:25.000Z",
+    "summary": "Jacoby Brissett who is in his first season as a starter for the Cardinals, was named one of five captains for the team this season.",
+    "tags": [
+      "league-news",
+      "usage",
+      "ARI"
+    ],
+    "players": [
+      "jacoby-brissett"
+    ],
+    "teams": [
+      "ARI"
+    ]
+  },
+  {
+    "id": "1nwv7lb1amn6n3",
+    "title": "Titans' Cedric Gray in concussion protocol after UTV accident",
+    "url": "https://www.espn.com/nfl/story/_/id/49862818/titans-cedric-gray-concussion-protocol-utv-accident",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-07T22:25:09.000Z",
+    "summary": "Titans placed LB Cedric Gray under the NFL's concussion protocol after he was involved in a UTV accident in Tennessee over the weekend.",
+    "tags": [
+      "league-news",
+      "injury",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "1vezth115xw3k9",
+    "title": "New York Giants release Darius Slayton, their longest-tenured player",
+    "url": "https://sports.yahoo.com/articles/york-giants-release-darius-slayton-222149372.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T22:21:49.000Z",
+    "summary": "Darius Slayton had been the longest tenured player on the Giants roster before the team announced his release on Monday.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "1wlbyiqqfypcq",
+    "title": "Giants release veteran WR Darius Slayton ahead of season opener vs. Cowboys",
+    "url": "https://sports.yahoo.com/nfl/article/giants-release-veteran-wr-darius-slayton-ahead-of-season-opener-vs-cowboys-221545049.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T22:15:45.000Z",
+    "summary": "Darius Slayton, drafted in 2019, was the longest-tenured player on the Giants' roster.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "DAL",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "NYG"
+    ]
+  },
+  {
+    "id": "20kh91q5gh7r",
+    "title": "Titans LB Cedric Gray injured in off-road vehicle accident",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-lb-cedric-gray-injured-in-off-road-vehicle-accident",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-07T22:01:11.000Z",
+    "summary": "Titans linebacker Cedric Gray has entered the NFL's concussion protocol after being injured in an off-field accident over the weekend.",
+    "tags": [
+      "league-news",
+      "injury",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "1jjclo21o0g030",
+    "title": "Titans LB Cedric Gray injured in off-road vehicle accident",
+    "url": "https://sports.yahoo.com/articles/titans-lb-cedric-gray-injured-220111544.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T22:01:11.000Z",
+    "summary": "Titans linebacker Cedric Gray has entered the NFL's concussion protocol after being injured in an off-field accident over the weekend.",
+    "tags": [
+      "league-news",
+      "injury",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "TEN"
+    ]
+  },
+  {
+    "id": "eql46sgyl7n6",
+    "title": "Seahawks-Patriots Monday injury report: Seahawks short on healthy safeties",
+    "url": "https://sports.yahoo.com/articles/seahawks-patriots-monday-injury-report-214550741.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T21:45:50.000Z",
+    "summary": "Seattle currently has just one healthy safety on its active roster.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "1nm67cs1mf508u",
+    "title": "Seahawks S Nick Emmanwori remains limited, S Ty Okada DNP again on Monday",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-s-nick-emmanwori-remains-limited-s-ty-okada-dnp-again-on-monday",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-07T21:40:29.000Z",
+    "summary": "Seahawks safety Nick Emmanwori remained limited in Monday's practice.",
+    "tags": [
+      "league-news",
+      "availability",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1xgurmn13uu7up",
+    "title": "Seahawks S Nick Emmanwori remains limited, S Ty Okada DNP again on Monday",
+    "url": "https://sports.yahoo.com/articles/seahawks-nick-emmanwori-remains-limited-214029037.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T21:40:29.000Z",
+    "summary": "Seahawks safety Nick Emmanwori remained limited in Monday's practice.",
+    "tags": [
+      "league-news",
+      "availability",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1cwdmt5j6rg67",
+    "title": "Cards' Mike LaFleur optimistic Jeremiyah Love plays in Week 1",
+    "url": "https://www.espn.com/nfl/story/_/id/49862561/cardinals-optimistic-rookie-rb-love-ready-opener",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-07T21:21:16.000Z",
+    "summary": "Cardinals coach Mike LaFleur is optimistic that rookie running back Jeremiyah Love will be able to play Sunday at the Chargers, about four weeks after suffering a high ankle sprain in a preseason game.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "ARI",
+      "LAC"
+    ],
+    "players": [
+      "jeremiyah-love"
+    ],
+    "teams": [
+      "ARI",
+      "LAC"
+    ]
+  },
+  {
+    "id": "1o6fvtn1s7pzvh",
+    "title": "Giants release WR Darius Slayton after seven seasons",
+    "url": "https://sports.yahoo.com/articles/giants-release-wr-darius-slayton-212039201.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T21:20:39.000Z",
+    "summary": "After seven seasons, Darius Slayton's time with the Giants is over.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
     ]
   },
   {
@@ -45,13 +450,53 @@
     ]
   },
   {
+    "id": "1xlytjj1uf9wm7",
+    "title": "Mike LaFleur says he feels \"good\" about Jeremiyah Love's chances for Week 1",
+    "url": "https://sports.yahoo.com/articles/mike-lafleur-says-feels-good-211813771.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T21:18:13.000Z",
+    "summary": "Cardinals running back Jeremiyah Love injured his ankle in an Aug. 13 preseason game against the Raiders.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ARI",
+      "LV"
+    ],
+    "players": [
+      "jeremiyah-love"
+    ],
+    "teams": [
+      "ARI",
+      "LV"
+    ]
+  },
+  {
     "id": "rnd0jx1svuz25",
-    "title": "Giants release WR Darius Slayton",
+    "title": "Darius Slayton, team’s longest-tenured player, released by Giants",
     "url": "https://sports.yahoo.com/articles/giants-release-wr-darius-slayton-211733760.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
     "publishedAt": "2026-09-07T21:17:33.000Z",
     "summary": "The NY Giants part with their longest-tenured veteran",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "NYG"
+    ]
+  },
+  {
+    "id": "zdks16qo25f6",
+    "title": "Giants release veteran Darius Slayton days before season opener",
+    "url": "https://sports.yahoo.com/articles/giants-release-veteran-darius-slayton-211647804.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-07T21:16:47.000Z",
+    "summary": "Darius Slayton initially made the 53-man roster after surviving the final round of cuts, but he didn’t make it to Week 1.",
     "tags": [
       "league-news",
       "roster-move",
@@ -6959,439 +7404,6 @@
     "players": [],
     "teams": [
       "TEN"
-    ]
-  },
-  {
-    "id": "c1yi5x1ijcupr",
-    "title": "Cowboys news: New addition at RB, possible new starter at RT",
-    "url": "https://sports.yahoo.com/articles/cowboys-news-addition-rb-possible-110000297.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T11:00:00.000Z",
-    "summary": "Here is today’s Dallas Cowboys news.",
-    "tags": [
-      "league-news",
-      "usage",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1vjiwktz7xpud",
-    "title": "Chiefs News: Chiefs looking to take advantage of tough cut for 49ers",
-    "url": "https://sports.yahoo.com/articles/chiefs-news-chiefs-looking-advantage-103000366.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T10:30:00.000Z",
-    "summary": "The latest Chiefs news, brought fresh to you every morning!",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "KC",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "KC",
-      "SF"
-    ]
-  },
-  {
-    "id": "wd5gfwyn14i4",
-    "title": "What’s the Steelers’ plan at safety?",
-    "url": "https://sports.yahoo.com/articles/steelers-plan-safety-100000853.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T10:00:00.000Z",
-    "summary": "With DeShon Elliott starting the season on injured reserve, Pittsburgh has some decisions to make.",
-    "tags": [
-      "league-news",
-      "injury",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "hy81hhjiklv7",
-    "title": "Rebels in the Pros: Who survived NFL Cut Day",
-    "url": "https://sports.yahoo.com/articles/rebels-pros-survived-nfl-cut-034248174.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T03:42:48.000Z",
-    "summary": "Most casual fans likely don’t know when the official cut day is for NFL teams to trim their rosters down to 53 active players. Due to the insanity that is college football, TROs and certain programs, more people might have been tuned in this season. Most Rebel fans likely know where Jaxson Dart, AJ Brown […]",
-    "tags": [
-      "league-news",
-      "roster-move"
-    ],
-    "players": [
-      "jaxson-dart"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1as5amq1gdd22k",
-    "title": "Marshawn Lloyd - Buy, Sell, or Hold?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w401d6/marshawn_lloyd_buy_sell_or_hold",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-01T03:16:14.000Z",
-    "summary": "Bull case: 4 star HS recruit, ~RB3-4 prospect in '24 draft class, top 100 draft capital Good size and rushing/receiving efficiency in college Part of his injury luck included a fluke event of appendicitis; went through offseason training program at Meyer Institute of Sport to fix potentially predisposing muscle imbalances; he hasn't had any injury concerns all summer Jacobs may not play this seaso",
-    "tags": [
-      "dynasty",
-      "injury",
-      "rookie"
-    ],
-    "players": [
-      "marshawn-lloyd"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1jayfvd26uns3",
-    "title": "Myles Garrett knee injury receives timeline with a specific ‘goal’ for Rams",
-    "url": "https://sports.yahoo.com/articles/myles-garrett-knee-injury-receives-030002974.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T03:00:02.000Z",
-    "summary": "Just about everybody has been talking about the pairing of Aaron Donald and Myles Garrett on the Rams’ defensive line, but there’s a chance neither plays Week 1. Garrett has...",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "6v1k311f1cbm1",
-    "title": "Rams sign 17 players to practice squad",
-    "url": "https://sports.yahoo.com/articles/rams-practice-squad-tracker-164859316.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T03:00:00.000Z",
-    "summary": "Rams begin signing players to practice squad, add to RB depth first",
-    "tags": [
-      "league-news",
-      "contract",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "5acg011we3pzx",
-    "title": "Eagles to add RB Jaydon Blue to their practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-to-add-rb-jaydon-blue-to-their-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T02:31:18.000Z",
-    "summary": "Running back Jaydon Blue, who the Cowboys waived on Sunday, is signing with the Eagles' practice squad, Adam Schefter of ESPN reports.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "DAL",
-      "PHI"
-    ],
-    "players": [
-      "jaydon-blue"
-    ],
-    "teams": [
-      "DAL",
-      "PHI"
-    ]
-  },
-  {
-    "id": "1hti6ec15lvry4",
-    "title": "Eagles to add RB Jaydon Blue to their practice squad",
-    "url": "https://sports.yahoo.com/articles/eagles-add-rb-jaydon-blue-023118562.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T02:31:18.000Z",
-    "summary": "Running back Jaydon Blue, who the Cowboys waived on Sunday, is signing with the Eagles' practice squad, Adam Schefter of ESPN reports.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "DAL",
-      "PHI"
-    ],
-    "players": [
-      "jaydon-blue"
-    ],
-    "teams": [
-      "DAL",
-      "PHI"
-    ]
-  },
-  {
-    "id": "4ucfrb1wgrzvh",
-    "title": "Buccaneers announce practice squad signings",
-    "url": "https://sports.yahoo.com/articles/buccaneers-announce-practice-squad-signings-010830467.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T01:08:30.000Z",
-    "summary": "The Tampa Bay Buccaneers today signed the following players 16 players to the practice squad: TE Devin Culp WR Garrett Greene OLB Yasir Holmes DL Jayson Jones G Henry Lutovsky S Ifeatu Melifonwu CB Roman Parodie WR Dean Patterson IV WR Eric Rivers Jr. S J.J. Roberts T Paul Rubelt G Ben Scott QB Easton […]",
-    "tags": [
-      "league-news",
-      "contract",
-      "TB"
-    ],
-    "players": [],
-    "teams": [
-      "TB"
-    ]
-  },
-  {
-    "id": "129d6p0tbzlqy",
-    "title": "Key Takeaways from cut downs + signings?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w3x5t6/key_takeaways_from_cut_downs_signings",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-01T01:05:38.000Z",
-    "summary": "Anyone have a link to a good summary of the fantasy/dynasty impact from all the action the last few days? Dynasty impact in particular. Looking to churn the last few bench spots with some new scrubs, so we're talking projects, backup QBs, 3rd string RBs. Hoping there's someone out there who's written a good recap. &#32; submitted by &#32; /u/thetindoor [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "8s0mnzj7mr93",
-    "title": "Falcons sign LB Josh Woods to active roster, place LB JD Bertrand on IR",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-sign-lb-josh-woods-to-active-roster-place-lb-jd-bertrand-on-ir",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T01:03:30.000Z",
-    "summary": "The Falcons signed veteran linebacker Josh Woods from their practice squad to their 53-player roster on Monday night, the team announced.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "1yj7m3vfpmog9",
-    "title": "Falcons sign LB Josh Woods to active roster, place LB JD Bertrand on IR",
-    "url": "https://sports.yahoo.com/articles/falcons-sign-lb-josh-woods-010330907.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T01:03:30.000Z",
-    "summary": "The Falcons signed veteran linebacker Josh Woods from their practice squad to their 53-player roster on Monday night, the team announced.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "1ena37s15bfjmw",
-    "title": "San Francisco 49ers initial 53-man roster winners and losers",
-    "url": "https://sports.yahoo.com/articles/san-francisco-49ers-initial-53-005753619.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T00:57:53.000Z",
-    "summary": "The San Francisco 49ers released their initial 53-man roster. Here are the takeaways including winners and losers.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "4qaknz7i8bln",
-    "title": "RB Jaydon Blue is signing with the Eagles practice squad, per @AdamSchefter",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w3w9rv/rb_jaydon_blue_is_signing_with_the_eagles",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-01T00:26:46.000Z",
-    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "contract",
-      "PHI"
-    ],
-    "players": [
-      "jaydon-blue"
-    ],
-    "teams": [
-      "PHI"
-    ]
-  },
-  {
-    "id": "i8rpildq3pwf",
-    "title": "Eagles sign former Cowboys running back to practice squad",
-    "url": "https://sports.yahoo.com/articles/eagles-sign-former-cowboys-running-002226518.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T00:22:26.000Z",
-    "summary": "RB Jaydon Blue is staying in the NFC East, but is heading to Philly to start the season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DAL",
-      "PHI"
-    ],
-    "players": [
-      "jaydon-blue"
-    ],
-    "teams": [
-      "DAL",
-      "PHI"
-    ]
-  },
-  {
-    "id": "1reswj1apa4vj",
-    "title": "Dax Hill returns to practice",
-    "url": "https://sports.yahoo.com/articles/dax-hill-returns-practice-001127442.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T00:11:27.000Z",
-    "summary": "The cornerback had been nursing a hamstring injury since early August.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "9h5wkm1v50g76",
-    "title": "Chicago Bears Sign 1 More Player to 2026 Practice Squad, 1 Spot Remains",
-    "url": "https://sports.yahoo.com/articles/chicago-bears-signed-11-players-000535834.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T00:05:35.000Z",
-    "summary": "The Chicago Bears have announced their first signings for the 16-man practice squad for the 2026 season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "l2actm10g36q",
-    "title": "Patriots’ initial practice squad includes several familiar faces, possible Week 1 punter",
-    "url": "https://sports.yahoo.com/articles/patriots-initial-practice-squad-includes-231828595.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T23:18:28.000Z",
-    "summary": "The Patriots announced signing 12 players to their practice squad on Monday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "13193ty4uh4be",
-    "title": "Houston Texan Wide Receiver Room Update",
-    "url": "https://sports.yahoo.com/articles/houston-texan-wide-receiver-room-230000458.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-08-31T23:00:00.000Z",
-    "summary": "The Houston Texans are in the process of finalizing their 53-man roster, and one notable name was cut: rookie wide receiver Lewis Bond. Bond received rave reviews throughout the offseason, so it was somewhat surprising to see him not make the initial roster, especially considering the injuries Houston is dealing with in the wide receiver […]",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "roster-move",
-      "HOU"
-    ],
-    "players": [],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "fu812z1xypl5v",
-    "title": "Ravens WR Zay Flowers didn’t practice today due to an undisclosed lower body injury, per @jamisonhensley",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w3u3m0/ravens_wr_zay_flowers_didnt_practice_today_due_to",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-08-31T22:59:47.000Z",
-    "summary": "&#32; submitted by &#32; /u/HookFL [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "BAL"
-    ],
-    "players": [
-      "zay-flowers"
-    ],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1d4mplhcyifgz",
-    "title": "Broderick Jones will compete for the Cowboys' right tackle job",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broderick-jones-will-compete-for-the-cowboys-right-tackle-job",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-08-31T22:42:30.000Z",
-    "summary": "Cowboys head coach Brian Schottenheimer shared the team's plan for the newly acquired Broderick Jones during a Monday press conference.",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1w4cqwp1kp1n7",
-    "title": "Minter backs Loop as Ravens add kicker competition in Moody",
-    "url": "https://www.espn.com/nfl/story/_/id/49787595/minter-backs-loop-ravens-add-kicker-competition-moody",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-08-31T22:41:22.000Z",
-    "summary": "Baltimore signed Jake Moody to the practice squad three days after Tyler Loop missed two kicks in the preseason finale.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL"
-    ],
-    "players": [
-      "tyler-loop"
-    ],
-    "teams": [
-      "BAL"
     ]
   }
 ]

@@ -214,49 +214,49 @@
     },
     {
       "slotId": "bn-3",
-      "playerId": "zach-charbonnet",
-      "acquired": "Startup 14.04",
-      "notes": ""
-    },
-    {
-      "slotId": "bn-4",
       "playerId": "tyrone-tracy",
       "acquired": "",
       "notes": ""
     },
     {
-      "slotId": "bn-5",
-      "playerId": null,
-      "acquired": "",
+      "slotId": "bn-4",
+      "playerId": "zach-charbonnet",
+      "acquired": "Startup 14.04",
       "notes": ""
     },
     {
-      "slotId": "bn-6",
+      "slotId": "bn-5",
       "playerId": "tory-horton",
       "acquired": "",
       "notes": ""
     },
     {
-      "slotId": "bn-7",
+      "slotId": "bn-6",
       "playerId": null,
       "acquired": "",
       "notes": ""
     },
     {
-      "slotId": "bn-8",
+      "slotId": "bn-7",
       "playerId": "isaac-teslaa",
       "acquired": "",
       "notes": ""
     },
     {
-      "slotId": "bn-9",
+      "slotId": "bn-8",
       "playerId": "denzel-boston",
       "acquired": "",
       "notes": ""
     },
     {
-      "slotId": "bn-10",
+      "slotId": "bn-9",
       "playerId": "eli-stowers",
+      "acquired": "",
+      "notes": ""
+    },
+    {
+      "slotId": "bn-10",
+      "playerId": null,
       "acquired": "",
       "notes": ""
     },
