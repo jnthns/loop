@@ -1,5 +1,527 @@
 [
   {
+    "id": "1izw9p51mhwf1x",
+    "title": "Patriots rule RB TreVeyon Henderson out for Wednesday's Super Bowl rematch vs. Seahawks",
+    "url": "https://sports.yahoo.com/nfl/article/patriots-rule-rb-treveyon-henderson-out-for-wednesdays-super-bowl-rematch-vs-seahawks-210409267.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T21:04:09.000Z",
+    "summary": "Henderson has been dealing with an ankle injury throughout the preseason.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "treveyon-henderson"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "s9n5zetxt7vs",
+    "title": "Colts release unofficial depth chart for Week 1 opener versus Ravens—with a few takeaways",
+    "url": "https://sports.yahoo.com/articles/colts-release-unofficial-depth-chart-205807932.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T20:58:07.000Z",
+    "summary": "Nothing earth-shattering on the Colts depth chart unveil, but there are a few key takeaways.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "usage",
+      "BAL",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "IND"
+    ]
+  },
+  {
+    "id": "rn3fjw1rsgqom",
+    "title": "Nick Emmanwori questionable, Ty Okada out for Wednesday's season opener",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-emmanwori-questionable-ty-okada-out-for-wednesdays-season-opener",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T20:57:42.000Z",
+    "summary": "The Seahawks will be without one member of their secondary while another may not be able to play in Wednesday's season opener against the Patriots.",
+    "tags": [
+      "league-news",
+      "availability",
+      "NE",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "63rhx31sasqrb",
+    "title": "Nick Emmanwori questionable, Ty Okada out for Wednesday's season opener",
+    "url": "https://sports.yahoo.com/articles/nick-emmanwori-questionable-ty-okada-205742939.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T20:57:42.000Z",
+    "summary": "The Seahawks will be without one member of their secondary while another may not be able to play in Wednesday's season opener against the Patriots.",
+    "tags": [
+      "league-news",
+      "availability",
+      "NE",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "16jmy2n1c8mfnr",
+    "title": "Vikings officially sign Harrison Smith",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-officially-sign-harrison-smith",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T20:56:45.000Z",
+    "summary": "Safety Harrison Smith agreed to a one-year deal to return to the Vikings over the weekend and he officially rejoined the team on Tuesday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "MIN"
+    ]
+  },
+  {
+    "id": "2nvhe518mmf7z",
+    "title": "Vikings officially sign Harrison Smith",
+    "url": "https://sports.yahoo.com/articles/vikings-officially-sign-harrison-smith-205645351.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T20:56:45.000Z",
+    "summary": "Safety Harrison Smith agreed to a one-year deal to return to the Vikings over the weekend and he officially rejoined the team on Tuesday.",
+    "tags": [
+      "league-news",
+      "contract",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "MIN"
+    ]
+  },
+  {
+    "id": "1jhi83s1w30zs2",
+    "title": "Cardinals list Tyler Allgeier as RB1, Jeremiyah Love as RB2 on Week 1 depth chart",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-list-tyler-allgeier-as-rb1-jeremiyah-love-as-rb2-on-week-1-depth-chart",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T20:40:22.000Z",
+    "summary": "Cardinals head coach Mike LaFleur said this week that he feels good about running back Jeremiyah Love being in the lineup against the Chargers in Week 1, but it remains to be seen what kind of role the rookie will play coming off of an ankle injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "usage",
+      "ARI",
+      "LAC"
+    ],
+    "players": [
+      "jeremiyah-love",
+      "tyler-allgeier"
+    ],
+    "teams": [
+      "ARI",
+      "LAC"
+    ]
+  },
+  {
+    "id": "5ku05hp8sl17",
+    "title": "Falcons depth chart: Rookies Kendal Daniels, Avieon Terrell listed as starters for Week 1",
+    "url": "https://sports.yahoo.com/articles/falcons-depth-chart-rookies-kendal-203618826.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T20:36:18.000Z",
+    "summary": "The Falcons will have two rookies in their starting lineup for Week 1.",
+    "tags": [
+      "league-news",
+      "usage",
+      "ATL"
+    ],
+    "players": [],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "eruh7q1isgb9k",
+    "title": "The Chiefs’ offensive line will be ‘the five best guys’ in Week 1",
+    "url": "https://sports.yahoo.com/articles/chiefs-offensive-line-five-best-203000744.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T20:30:00.000Z",
+    "summary": "Kansas City’s latest injury on the offensive line could be harder to patch up than usual.",
+    "tags": [
+      "league-news",
+      "injury",
+      "KC"
+    ],
+    "players": [],
+    "teams": [
+      "KC"
+    ]
+  },
+  {
+    "id": "12xwdjb1iobcif",
+    "title": "Braxton Jones will start at left tackle for the Bears",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/braxton-jones-will-start-at-left-tackle-for-the-bears",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T20:28:32.000Z",
+    "summary": "The Bears have settled on a starting left tackle.",
+    "tags": [
+      "league-news",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "293slgvlnlos",
+    "title": "Braxton Jones will start at left tackle for the Bears",
+    "url": "https://sports.yahoo.com/articles/braxton-jones-start-left-tackle-202832237.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T20:28:32.000Z",
+    "summary": "The Bears have settled on a starting left tackle.",
+    "tags": [
+      "league-news",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "eq38ek151xzue",
+    "title": "2026 NFL Week 1 Injury Report: Updates on George Kittle, Patrick Mahomes, more",
+    "url": "https://sports.yahoo.com/articles/2026-nfl-week-1-injury-201842686.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T20:18:42.000Z",
+    "summary": "Track the injuries to know around the NFL all in one place.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "patrick-mahomes",
+      "george-kittle"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1puqjjb1cauxwn",
+    "title": "Bears' Braxton Jones to start at left tackle in season opener",
+    "url": "https://www.espn.com/nfl/story/_/id/49871513/bears-braxton-jones-start-left-tackle-season-opener",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-08T20:10:23.000Z",
+    "summary": "The Bears will be starting Braxton Jones at left tackle for their season opener Sunday after the veteran won the training camp position battle.",
+    "tags": [
+      "league-news",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "7369o32q6sh7",
+    "title": "Aaron Donald ruled out for Week 1",
+    "url": "https://sports.yahoo.com/articles/aaron-donald-ruled-week-1-200824440.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T20:08:24.000Z",
+    "summary": "Donald is not traveling to Australia with the Rams",
+    "tags": [
+      "league-news",
+      "availability",
+      "LAR"
+    ],
+    "players": [],
+    "teams": [
+      "LAR"
+    ]
+  },
+  {
+    "id": "0a1pcst3kt49",
+    "title": "Ravens list Kyle Hamilton as a defensive back rather than a safety on depth chart",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-list-kyle-hamilton-as-a-defensive-back-rather-than-a-safety-on-depth-chart",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T20:00:44.000Z",
+    "summary": "Kyle Hamilton is listed as a safety on the Ravens' roster, but the team has him in a different spot on their Week 1 depth chart.",
+    "tags": [
+      "league-news",
+      "usage",
+      "BAL"
+    ],
+    "players": [],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
+    "id": "17xnotk1rybb2k",
+    "title": "Joe Schad on X: \"Miami Dolphins depth chart for Week 1 at Raiders *Chris Bell, Caleb Douglas, Malik Washington starting WRs",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1waz9s8/joe_schad_on_x_miami_dolphins_depth_chart_for",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-08T19:58:33.000Z",
+    "summary": "&#32; submitted by &#32; /u/OkBaby4377 [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "usage",
+      "LV",
+      "MIA"
+    ],
+    "players": [
+      "caleb-douglas",
+      "chris-bell",
+      "malik-washington"
+    ],
+    "teams": [
+      "LV",
+      "MIA"
+    ]
+  },
+  {
+    "id": "1mdmmu2eozfmo",
+    "title": "Buffalo Bills 1st unofficial depth chart ahead of Week 1 at Houston Texans",
+    "url": "https://sports.yahoo.com/articles/buffalo-bills-1st-unofficial-depth-191711627.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T19:17:11.000Z",
+    "summary": "The Buffalo Bills have begun preparing their starting roster for Week 1 against the Houston Texans.",
+    "tags": [
+      "league-news",
+      "usage",
+      "BUF",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "BUF",
+      "HOU"
+    ]
+  },
+  {
+    "id": "314dhh1wpiyn",
+    "title": "Report: Kyler Gordon away from the Bears as he works to recover from calf injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kyler-gordon-away-from-the-bears-working-on-his-own-to-recover-from-calf-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T18:48:27.000Z",
+    "summary": "Bears General Manager Ryan Poles said recently that he doesn't know if cornerback Kyler Gordon will play for the team again and Gordon reportedly isn't with the team as he tries to work his way back from a calf injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1vche0916er9xj",
+    "title": "Report: Kyler Gordon away from the Bears as he works to recover from calf injury",
+    "url": "https://sports.yahoo.com/articles/report-kyler-gordon-away-bears-184827122.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T18:48:27.000Z",
+    "summary": "Bears General Manager Ryan Poles said recently that he doesn't know if cornerback Kyler Gordon will play for the team again and Gordon reportedly isn't with the team as he tries to work his way back from a calf injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "gicw5b5ohglv",
+    "title": "Kyler Gordon Injury Update: He ‘should’ be back with the Bears soon",
+    "url": "https://sports.yahoo.com/articles/kyler-gordon-injury-back-bears-183000915.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T18:30:00.000Z",
+    "summary": "While the Bears didn’t address the Kyler Gordon situation, we still got an update on Chicago’s nickelback. Details here from @wiltfongjr.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "2rb7cd1ci3q9r",
+    "title": "Andy Reid says he's confident undrafted rookie Kahlil Benson can protect Patrick Mahomes",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-says-hes-confident-undrafted-rookie-kahlil-benson-can-protect-patrick-mahomes",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T18:20:22.000Z",
+    "summary": "Patrick Mahomes has recovered well enough from last year's torn ACL to start on Monday night.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie"
+    ],
+    "players": [
+      "patrick-mahomes"
+    ],
+    "teams": []
+  },
+  {
+    "id": "n2vmd1ziu3b7",
+    "title": "Colts sign OT Luke Tenuta off of their practice squad",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-sign-ot-luke-tenuta-off-of-their-practice-squad",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T18:19:17.000Z",
+    "summary": "The Colts made a change to their roster ahead of their season opener against the Ravens.",
+    "tags": [
+      "league-news",
+      "contract",
+      "BAL",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "IND"
+    ]
+  },
+  {
+    "id": "o0sazi1mqr534",
+    "title": "What was your best offseason move?",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wavw4q/what_was_your_best_offseason_move",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-08T18:00:47.000Z",
+    "summary": "Now that the season kicks off tomorrow, let’s talk about our biggest moves this offseason. Mine involved Rashee Rice immediately following the news of him going to jail. I traded: Rome Odunze I received: Rashee Rice + a 2028 third That alone I thought was decent enough and I liked the upside. Then a league mate, a Chiefs fan, put Drake London on the trade block. Out of curiosity I asked what he wa",
+    "tags": [
+      "dynasty",
+      "trade",
+      "KC"
+    ],
+    "players": [
+      "drake-london",
+      "rashee-rice",
+      "rome-odunze"
+    ],
+    "teams": [
+      "KC"
+    ]
+  },
+  {
+    "id": "15470hvywjb4d",
+    "title": "Member of Iowa marching band is removed from life support after suffering cardiac arrest at game",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/member-of-iowa-marching-band-is-removed-from-life-support-after-suffering-cardiac-arrest-at-game",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T17:38:50.000Z",
+    "summary": "A member of the Iowa marching band was removed from life support on Monday, two days after collapsing shortly before halftime of a game against Northern Illinois.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1m98xef1t4zqhh",
+    "title": "Andy Reid: Patrick Mahomes will \"most likely\" start Week 1",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-patrick-mahomes-will-most-likely-start-week-1",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T17:38:04.000Z",
+    "summary": "Though he suffered a torn ACL in December, Mahomes is in line to return for the start of the 2026 season.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "patrick-mahomes"
+    ],
+    "teams": []
+  },
+  {
+    "id": "z6yc521jteqj4",
+    "title": "Rome Odunze dealing with foot injury, Bears hopeful he'll play Week 1",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rome-odunze-dealing-with-foot-injury-bears-hopeful-hell-play-week-1",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T17:13:34.000Z",
+    "summary": "Bears receiver Rome Odunze is dealing with a foot injury, but he may still be able to play in Sunday’s season opener against the Panthers.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CAR",
+      "CHI"
+    ],
+    "players": [
+      "rome-odunze"
+    ],
+    "teams": [
+      "CAR",
+      "CHI"
+    ]
+  },
+  {
+    "id": "1xhan8hhl2lnp",
+    "title": "Bhayshul Tuten, Chris Rodriguez Jr. Listed as Co-Starters at RB - NFL News | Fantasy Football",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wau73i/bhayshul_tuten_chris_rodriguez_jr_listed_as",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-08T17:01:57.000Z",
+    "summary": "On the Jacksonville Jaguars' unofficial depth chart heading into Week 1 of the 2026 regular season this Sunday against the Cleveland Browns, running backs Bhayshul Tuten and Chris Rodriguez Jr. are listed as co-starters at the RB position. Tuten, a second-year back who had 307 rushing yards and five rushing touchdowns in his rookie campaign last year, is expected to see most of the early-down rush",
+    "tags": [
+      "dynasty",
+      "rookie",
+      "usage",
+      "CLE",
+      "JAX"
+    ],
+    "players": [
+      "jacksonville-jaguars",
+      "bhayshul-tuten",
+      "chris-rodriguez"
+    ],
+    "teams": [
+      "CLE",
+      "JAX"
+    ]
+  },
+  {
     "id": "bfhijw1llhxcg",
     "title": "NFL Injury Report, Week 1: Latest player news, updates for fantasy football",
     "url": "https://sports.yahoo.com/fantasy/article/nfl-injury-report-week-1-latest-player-news-updates-for-fantasy-football-154233236.html",
@@ -1663,7 +2185,7 @@
   },
   {
     "id": "jcohoo1bd4x5g",
-    "title": "NFL news, live updates: Patriots CB Christian Gonzalez agrees to record-setting extension; Falcons name Tua Tagovailoa their starter",
+    "title": "NFL news, live updates: Aaron Donald out vs. 49ers, Patrick Mahomes will 'most likely' start Week 1; Patriots CB Christian Gonzalez agrees to record-setting extension",
     "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-week-1-fantasy-football-142542967.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
@@ -1675,14 +2197,17 @@
       "contract",
       "usage",
       "ATL",
-      "NE"
+      "NE",
+      "SF"
     ],
     "players": [
-      "tua-tagovailoa"
+      "tua-tagovailoa",
+      "patrick-mahomes"
     ],
     "teams": [
       "ATL",
-      "NE"
+      "NE",
+      "SF"
     ]
   },
   {
@@ -6936,513 +7461,6 @@
     "players": [],
     "teams": [
       "NE"
-    ]
-  },
-  {
-    "id": "18wd4fp159u9x7",
-    "title": "Rebels in the Pros: NFL Cut Day casualties",
-    "url": "https://sports.yahoo.com/articles/rebels-pros-nfl-cut-day-200208160.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T20:02:08.000Z",
-    "summary": "There are always two sides to every coin. While we celebrate our former Rebels who made the 53 man rosters, there are those that found themselves on the outside looking in. Many will land on practice squads keeping the dream in reach, while others may even get claimed (Kapena Gushiken). This list is still changing […]",
-    "tags": [
-      "league-news",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "19wpfx107vnsf",
-    "title": "Cowboys want Joe Milton back on the practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-want-joe-milton-back-on-the-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T20:01:24.000Z",
-    "summary": "In a bit of a surprise move, the Cowboys waived quarterback Joe Milton on Monday.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "5wt1wttg0tq7",
-    "title": "Cowboys want Joe Milton back on the practice squad",
-    "url": "https://sports.yahoo.com/articles/cowboys-want-joe-milton-back-200124885.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T20:01:24.000Z",
-    "summary": "In a bit of a surprise move, the Cowboys waived quarterback Joe Milton on Monday.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "quc36occvk2s",
-    "title": "Colts GM defends WR Keenan Allen after DWI arrest, say he will play in season opener: 'Give him some grace'",
-    "url": "https://sports.yahoo.com/nfl/article/colts-gm-defends-wr-keenan-allen-after-dwi-arrest-say-he-will-play-in-season-opener-give-him-some-grace-195844728.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T19:58:44.000Z",
-    "summary": "Keenan Allen was arrested on DWI charges on Sunday morning in downtown Indianapolis.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "IND"
-    ],
-    "players": [
-      "keenan-allen"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "gk24uadm740i",
-    "title": "Ja'Marr Chase will be limited at Bengals practice this week after last week's knee injury scare",
-    "url": "https://sports.yahoo.com/nfl/article/jamarr-chase-will-be-limited-at-bengals-practice-this-week-after-last-weeks-knee-injury-scare-193633659.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T19:36:33.000Z",
-    "summary": "While Chase and head coach Zac Taylor have downplayed the injury, it remains a situation to watch as Cincinnati's season opener approaches.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CIN"
-    ],
-    "players": [
-      "ja-marr-chase"
-    ],
-    "teams": [
-      "CIN"
-    ]
-  },
-  {
-    "id": "14mepck15etlxi",
-    "title": "Former Seahawks cornerback Noah Igbinoghene signs with Cleveland Browns",
-    "url": "https://sports.yahoo.com/articles/former-seahawks-cornerback-noah-igbinoghene-193608546.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T19:36:08.000Z",
-    "summary": "Another Seahawks roster cut finds work elsewhere.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "CLE",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "CLE",
-      "SEA"
-    ]
-  },
-  {
-    "id": "1ap0ica6siveu",
-    "title": "New Orleans Saints 2026 Practice Squad Tracker",
-    "url": "https://sports.yahoo.com/articles/orleans-saints-2026-practice-squad-180804438.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T19:33:10.000Z",
-    "summary": "The Saints can start signing players to their practice squad at 11:00 a.m. CT today. Stay up to date with all the latest here.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "1fca2x1lqvvjz",
-    "title": "Saints sign WR Cedric Tillman to their practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-sign-wr-cedric-tillman-to-their-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T19:20:28.000Z",
-    "summary": "The Saints won't have first-round pick Jordyn Tyson for at least the first four games of the regular season and they added an option to help fill in for him to their practice squad on Tuesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NO"
-    ],
-    "players": [
-      "jordyn-tyson"
-    ],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "1nr368uexu3fo",
-    "title": "Saints sign WR Cedric Tillman to their practice squad",
-    "url": "https://sports.yahoo.com/articles/saints-sign-wr-cedric-tillman-192028244.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T19:20:28.000Z",
-    "summary": "The Saints won't have first-round pick Jordyn Tyson for at least the first four games of the regular season and they added an option to help fill in for him to their practice squad on Tuesday.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NO"
-    ],
-    "players": [
-      "jordyn-tyson"
-    ],
-    "teams": [
-      "NO"
-    ]
-  },
-  {
-    "id": "1ds4kuzytmma5",
-    "title": "Ryan Poles: I don't know if Kyler Gordon will play for the Bears again",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ryan-poles-i-dont-know-if-kyler-gordon-will-play-for-the-bears-again",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T18:42:59.000Z",
-    "summary": "Bears cornerback Kyler Gordon has been ruled out for at least the first four games of the season, but he might be out a lot longer than that.",
-    "tags": [
-      "league-news",
-      "availability",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "13fxofz1r5losf",
-    "title": "Ryan Poles: I don't know if Kyler Gordon will play for the Bears again",
-    "url": "https://sports.yahoo.com/articles/ryan-poles-dont-know-kyler-184259632.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T18:42:59.000Z",
-    "summary": "Bears cornerback Kyler Gordon has been ruled out for at least the first four games of the season, but he might be out a lot longer than that.",
-    "tags": [
-      "league-news",
-      "availability",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "12stiex6icdgv",
-    "title": "Where are we on Caleb Douglas?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w4kr1a/where_are_we_on_caleb_douglas",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-01T18:37:00.000Z",
-    "summary": "As the title is asking, I'm curious how people are feeling about Douglas in Miami? He's gotten a lot of training camp hype and praise from the coaches and the Dolphins have a wide open WR room. It seems as though the team already sees him as one of their top 2 WRs already. I understand that Chris Bell gets more love as a prospect compared to Douglas, however I think there's probably a good amount ",
-    "tags": [
-      "dynasty",
-      "rookie",
-      "MIA"
-    ],
-    "players": [
-      "caleb-douglas"
-    ],
-    "teams": [
-      "MIA"
-    ]
-  },
-  {
-    "id": "17ldyed193ewlv",
-    "title": "Texans won't have extension talks with C.J. Stroud during season",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-wont-have-extension-talks-with-c-j-stroud-during-season",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T18:17:38.000Z",
-    "summary": "The Texans are taking a page from the Steelers' book on contract negotiations.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU",
-      "PIT"
-    ],
-    "players": [
-      "c-j-stroud"
-    ],
-    "teams": [
-      "HOU",
-      "PIT"
-    ]
-  },
-  {
-    "id": "19v45wyt5dn0a",
-    "title": "Texans won't have extension talks with C.J. Stroud during season",
-    "url": "https://sports.yahoo.com/articles/texans-wont-extension-talks-c-181738689.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T18:17:38.000Z",
-    "summary": "The Texans are taking a page from the Steelers' book on contract negotiations.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU",
-      "PIT"
-    ],
-    "players": [
-      "c-j-stroud"
-    ],
-    "teams": [
-      "HOU",
-      "PIT"
-    ]
-  },
-  {
-    "id": "5z3bt3wbh92r",
-    "title": "GM has 'hope' CB Kyler Gordon (calf) plays with Bears again",
-    "url": "https://www.espn.com/nfl/story/_/id/49795043/gm-hope-cb-kyler-gordon-calf-plays-bears-again",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-09-01T18:05:37.000Z",
-    "summary": "GM Ryan Poles said Tuesday he didn't know if CB Kyler Gordon, who is on the PUP list as he recovers from a calf injury, will play for the Bears again.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "5bakikv0fpsm",
-    "title": "Bears put Coby Bryant and Hayden Large on IR, re-sign James Lynch and Jack Sanborn",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-put-coby-bryant-and-hayden-large-on-ir-re-sign-james-lynch-and-jack-sanborn",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T18:05:09.000Z",
-    "summary": "Bears General Manager Ryan Poles announced several roster moves during a press conference on Tuesday.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "10d2jdfu6c58v",
-    "title": "Browns sign CB Noah Igbinoghene, DE Sam Williams",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-sign-cb-noah-igbinoghene-de-sam-williams",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T17:55:28.000Z",
-    "summary": "The Browns announced the signing of defensive end Sam Williams on Tuesday and they also announced the addition of a veteran cornerback.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "m5unrq13vdcv0",
-    "title": "Chris Ballard had a colorful description of the NFL-to-college transfer portal",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-ballard-had-a-colorful-description-of-the-nfl-to-college-transfer-portal",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T17:51:22.000Z",
-    "summary": "As the chaos continues over whether certain players released by NFL teams can return to college football, various NFL figures have been asked for their views on the situation.",
-    "tags": [
-      "league-news",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1u1z4wpdtqhk9",
-    "title": "Chris Ballard: Anthony Richardson will be a Colt this year",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-ballard-anthony-richardson-will-be-a-colt-this-year",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T17:07:29.000Z",
-    "summary": "Back in February, Colts quarterback Anthony Richardson requested a trade.",
-    "tags": [
-      "league-news",
-      "trade",
-      "IND"
-    ],
-    "players": [],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1qr8toi1j49owi",
-    "title": "Tony Romo pleads no contest to OWI following arrest: 'I own this completely'",
-    "url": "https://sports.yahoo.com/nfl/breaking-news/article/tony-romo-pleads-no-contest-to-owi-following-arrest-i-own-this-completely-162547509.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T16:25:47.000Z",
-    "summary": "Romo was arrested in July and has since been placed on leave by CBS Sports.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "19ykgy1vcdsn",
-    "title": "The 49ers are hopeful Mike Evans can return to practice next week",
-    "url": "https://sports.yahoo.com/articles/49ers-hopeful-mike-evans-return-162020215.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T16:20:20.000Z",
-    "summary": "Plus injury updates for George Kittle and Nick Bosa",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [
-      "george-kittle",
-      "mike-evans"
-    ],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "eh4awb1se6ph5",
-    "title": "Ashton Jeanty Injury: Working with trainers Tuesday",
-    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4gnjg/ashton_jeanty_injury_working_with_trainers_tuesday",
-    "source": "r/fantasyfootball",
-    "sourceId": "reddit-fantasyfootball",
-    "publishedAt": "2026-09-01T16:16:58.000Z",
-    "summary": "&#32; submitted by &#32; /u/ZebraPuzzleheaded422 [link] &#32; [comments]",
-    "tags": [
-      "fantasy",
-      "injury"
-    ],
-    "players": [
-      "ashton-jeanty"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1xt7ndmsreo40",
-    "title": "Keenan Allen expected to play Week 1 after OVWI arrest",
-    "url": "https://sports.yahoo.com/articles/keenan-allen-expected-play-week-161539462.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T16:15:39.000Z",
-    "summary": "Keenan Allen is expected to play Week 1 as the Colts let his DUI case move through the legal process.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "IND"
-    ],
-    "players": [
-      "keenan-allen"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "ss48tf1kbkjin",
-    "title": "Sam Williams signs with Browns after Cowboys release",
-    "url": "https://sports.yahoo.com/articles/sam-williams-signs-browns-cowboys-161420046.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T16:14:20.000Z",
-    "summary": "It appears that Sam Williams has found a new home.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "CLE",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "CLE",
-      "DAL"
-    ]
-  },
-  {
-    "id": "10t7g958cwypz",
-    "title": "Emeka Egbuka (sprained toe) and Jalen McMillan (knee bruise) have “lingering issues” and aren’t locks to play in Week 1. Walsh says McMillan is running routes and is “getting there,” and there’s optimism he and Egbuka could play Week 1.",
-    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4gjqi/emeka_egbuka_sprained_toe_and_jalen_mcmillan_knee",
-    "source": "r/fantasyfootball",
-    "sourceId": "reddit-fantasyfootball",
-    "publishedAt": "2026-09-01T16:13:28.000Z",
-    "summary": "&#32; submitted by &#32; /u/DanceHallRiddem [link] &#32; [comments]",
-    "tags": [
-      "fantasy",
-      "injury"
-    ],
-    "players": [
-      "emeka-egbuka",
-      "jalen-mcmillan"
-    ],
-    "teams": []
-  },
-  {
-    "id": "b9fk7s1tjkha4",
-    "title": "Reports: Browns plan to sign DE Sam Williams",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-browns-plan-to-sign-de-sam-williams",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T16:07:52.000Z",
-    "summary": "The Browns are planning to make an addition to their defensive line.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "m3dt331mfpkmd",
-    "title": "Reports: Browns plan to sign DE Sam Williams",
-    "url": "https://sports.yahoo.com/articles/reports-browns-plan-sign-sam-160752349.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T16:07:52.000Z",
-    "summary": "The Browns are planning to make an addition to their defensive line.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
     ]
   }
 ]
