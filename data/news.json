@@ -1,5 +1,255 @@
 [
   {
+    "id": "8djgwo6m8490",
+    "title": "Todd Monken, QBs, the Browns and a lifetime in pursuit",
+    "url": "https://www.espn.com/nfl/story/_/id/49860607/todd-monken-cleveland-browns-quarterbacks-life-pursuit-2026-head-coach",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-08T10:00:12.000Z",
+    "summary": "At age 60, the first-time head coach brings to Cleveland a gritty resolve, an ability to cut through to QBs and a dream that this will be \"my last job.\"",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "9ll68ll8srp5",
+    "title": "Panthers banking on RBs Hubbard, Brooks despite injury histories",
+    "url": "https://www.espn.com/nfl/story/_/id/49860263/carolina-panthers-banking-running-backs-chuba-hubbard-jonathon-brooks-injury-histories",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-08T10:00:02.000Z",
+    "summary": "Carolina wants to run the ball more, but how will each back -- including AJ Dillon -- handle the workload?",
+    "tags": [
+      "league-news",
+      "injury",
+      "usage",
+      "CAR"
+    ],
+    "players": [],
+    "teams": [
+      "CAR"
+    ]
+  },
+  {
+    "id": "1n39oyx1hyt3c7",
+    "title": "What the Christian Gonzalez extension means for the Patriots",
+    "url": "https://sports.yahoo.com/articles/christian-gonzalez-extension-means-patriots-094421949.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T09:44:21.000Z",
+    "summary": "The star cornerback agreed to a four-year deal on Monday night.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1fl33yulf7c4g",
+    "title": "Tony Romo's arrest turned the one-time CBS star into a bigger question mark",
+    "url": "https://sports.yahoo.com/articles/tony-romos-arrest-turned-one-093627252.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T09:36:27.000Z",
+    "summary": "Tony Romo's arrest following an operating while intoxicated incident makes his timetable to return to the broadcast booth – and his CBS future – murky.",
+    "tags": [
+      "league-news",
+      "discipline"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "cmztl616q0kjs",
+    "title": "Fake wide receivers to undercover stings: did the 49ers have the wildest NFL preseason of all time?",
+    "url": "https://sports.yahoo.com/articles/fake-wide-receivers-undercover-stings-080031251.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T08:00:31.000Z",
+    "summary": "A large part of San Francisco’s summer was a literal car crash. On the positive side, they have so far avoided their usual list of crushing injuries",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "16z242ba97775",
+    "title": "Patriots, Christian Gonzalez agree to four-year, $135 million extension to reset the cornerback market",
+    "url": "https://www.cbssports.com/nfl/news/patriots-christian-gonzalez-extension-cornerback",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-08T07:31:49.000Z",
+    "summary": "The record deal includes $102 million guaranteed and makes Gonzalez the highest-paid Patriot ever",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "15e9rds1p7livg",
+    "title": "Patriots, Christian Gonzalez agree to record-setting extension: Report",
+    "url": "https://sports.yahoo.com/articles/patriots-christian-gonzalez-agree-record-070245601.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T07:02:45.000Z",
+    "summary": "Gonzalez is now the highest-paid cornerback in the NFL.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "yljfxgy6j0bm",
+    "title": "Christian Gonzalez resets CB market as Joey Porter Jr. looks for extension",
+    "url": "https://sports.yahoo.com/articles/christian-gonzalez-resets-cb-market-053136399.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T05:31:36.000Z",
+    "summary": "Did the Steelers’ price tag for Joey Porter Jr. go up again after another cornerback mega deal?",
+    "tags": [
+      "league-news",
+      "contract",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "n0pq53198upzr",
+    "title": "Christian Gonzalez inks contract extension with Patriots: What to know",
+    "url": "https://sports.yahoo.com/articles/christian-gonzalez-inks-contract-extension-052010100.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T05:20:10.000Z",
+    "summary": "Christian Gonzalez and the Patriots have agreed to a contract extension. Here's a look at the details of the agreement.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "14c7pavzrrz5l",
+    "title": "Christian Gonzalez, Patriots agree to four-year extension",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-gonzalez-patriots-agree-to-four-year-extension",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-08T05:11:16.000Z",
+    "summary": "Gonzalez has agreed to a deal that will make him the league's highest-paid corner, ending a contract dispute.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1r9romm4kwfw0",
+    "title": "Christian Gonzalez, Patriots agree to four-year extension",
+    "url": "https://sports.yahoo.com/articles/christian-gonzalez-patriots-agree-four-051116673.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T05:11:16.000Z",
+    "summary": "Gonzalez has agreed to a deal that will make him the league's highest-paid corner, ending a contract dispute.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1iwdf7q1b0is8s",
+    "title": "Christian Gonzalez replaces Super Bowl champ Devon Witherspoon as NFL’s highest paid corner",
+    "url": "https://sports.yahoo.com/articles/christian-gonzalez-replaces-super-bowl-050808494.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T05:08:08.000Z",
+    "summary": "The second domino in the cornerback market has fallen, three weeks after Devon Witherspoon and the Seahawks agreed to an extension.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SEA"
+    ],
+    "players": [],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "6hwhwi5wihes",
+    "title": "Christian Gonzalez signs record-breaking contract extension with Patriots",
+    "url": "https://sports.yahoo.com/articles/christian-gonzalez-signs-record-breaking-050657218.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T05:06:57.000Z",
+    "summary": "The Patriots and the star cornerback have reportedly reached an agreement.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "649dze1tyd4im",
+    "title": "Patriots' CB Christian Gonzalez reportedly signs record-setting 4-year, $135 million extension",
+    "url": "https://sports.yahoo.com/nfl/breaking-news/article/patriots-cb-christian-gonzalez-reportedly-signs-record-setting-4-year-135-million-extension-050259905.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T05:02:59.000Z",
+    "summary": "Christian Gonzalez was an All-Pro in 2024 and a Pro Bowler last season.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
     "id": "69vhkv16hj2cj",
     "title": "49ers' Nick Bosa set to face Rams; George Kittle 'looks good'",
     "url": "https://www.espn.com/nfl/story/_/id/49865098/49ers-nick-bosa-set-face-rams-george-kittle-looks-good",
@@ -19,6 +269,26 @@
     "teams": [
       "LAR",
       "SF"
+    ]
+  },
+  {
+    "id": "1clnmk4zbbgso",
+    "title": "Cowboys Pro Bowl lineman Tyler Smith to miss Week 1 Giants matchup after thumb surgery",
+    "url": "https://sports.yahoo.com/articles/cowboys-pro-bowl-lineman-tyler-032657902.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T03:26:57.000Z",
+    "summary": "The Giants' defense can breathe a small sigh of relief.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DAL",
+      "NYG"
+    ],
+    "players": [],
+    "teams": [
+      "DAL",
+      "NYG"
     ]
   },
   {
@@ -132,7 +402,9 @@
       "roster-move",
       "NYG"
     ],
-    "players": [],
+    "players": [
+      "darius-slayton"
+    ],
     "teams": [
       "NYG"
     ]
@@ -213,7 +485,9 @@
       "roster-move",
       "NYG"
     ],
-    "players": [],
+    "players": [
+      "darius-slayton"
+    ],
     "teams": [
       "NYG"
     ]
@@ -539,7 +813,9 @@
       "roster-move",
       "NYG"
     ],
-    "players": [],
+    "players": [
+      "darius-slayton"
+    ],
     "teams": [
       "NYG"
     ]
@@ -557,7 +833,9 @@
       "roster-move",
       "NYG"
     ],
-    "players": [],
+    "players": [
+      "darius-slayton"
+    ],
     "teams": [
       "NYG"
     ]
@@ -1119,7 +1397,8 @@
       "ATL"
     ],
     "players": [
-      "christian-mccaffrey"
+      "christian-mccaffrey",
+      "tua-tagovailoa"
     ],
     "teams": [
       "ATL"
@@ -3347,7 +3626,9 @@
       "trade",
       "IND"
     ],
-    "players": [],
+    "players": [
+      "anthony-richardson"
+    ],
     "teams": [
       "IND"
     ]
@@ -7140,270 +7421,6 @@
     "players": [],
     "teams": [
       "PIT"
-    ]
-  },
-  {
-    "id": "qxgwzd1jruapv",
-    "title": "Steelers' outdated contract rule complicates Joey Porter Jr. situation",
-    "url": "https://sports.yahoo.com/articles/steelers-outdated-contract-rule-complicates-145333691.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T14:53:33.000Z",
-    "summary": "The Pittsburgh Steelers do many things right.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "ddpino1jjgvg6",
-    "title": "For Leagues that count return yards, who provides the best returns* in the draft?",
-    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4e7er/for_leagues_that_count_return_yards_who_provides",
-    "source": "r/fantasyfootball",
-    "sourceId": "reddit-fantasyfootball",
-    "publishedAt": "2026-09-01T14:51:01.000Z",
-    "summary": "Dike was pretty amazing last year and Myles Price did some good work, but Zachariah Branch is lightning fast and could carve out a small gadget role. Wondering if there’s anyone else to get excited about. *pun intended &#32; submitted by &#32; /u/Urbane_Cowboy [link] &#32; [comments]",
-    "tags": [
-      "fantasy",
-      "rookie"
-    ],
-    "players": [
-      "zachariah-branch"
-    ],
-    "teams": []
-  },
-  {
-    "id": "zzfut11y44eix",
-    "title": "6 best Joe Milton landing spots after Cowboys waive backup QB",
-    "url": "https://sports.yahoo.com/articles/6-best-joe-milton-landing-144955156.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T14:49:55.000Z",
-    "summary": "The Cowboys parted ways with backup QB Joe Milton after initially including him on their 53-man roster. Here's where he could play next.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "5fw17h1db05vr",
-    "title": "Packers expect Luke Musgrave to recover from his neck injury and play this season",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-expect-luke-musgrave-to-recover-from-his-neck-injury-and-play-this-season",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T14:48:54.000Z",
-    "summary": "The Packers put tight end Luke Musgrave on the reserve/physically unable to perform list to start the season, but they believe he'll be on the field before the season is over.",
-    "tags": [
-      "league-news",
-      "injury",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "7jfaxfx6wi1r",
-    "title": "Packers expect Luke Musgrave to recover from his neck injury and play this season",
-    "url": "https://sports.yahoo.com/articles/packers-expect-luke-musgrave-recover-144854229.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T14:48:54.000Z",
-    "summary": "The Packers put tight end Luke Musgrave on the reserve/physically unable to perform list to start the season, but they believe he'll be on the field before the season is over.",
-    "tags": [
-      "league-news",
-      "injury",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "1onsmj1pjdt1h",
-    "title": "I scored KeepTradeCut, FantasyCalc, RosterAudit, and StatsGuyFantasy against 4,461 Reddit trade threads",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w4dxpm/i_scored_keeptradecut_fantasycalc_rosteraudit_and",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-01T14:41:07.000Z",
-    "summary": "I collected 4,461 trade threads from this subreddit and r/DynastyFFTradeAdvice to test how often these dynasty trade calculators agree with how real managers judge real trades. Disclaimer: StatsGuyFantasy is my site. Its calculator logic was frozen before the study, and the rules for evaluating threads were locked before any calculator was scored. The data The sample covers the r/DynastyFF trade m",
-    "tags": [
-      "dynasty",
-      "trade"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "qmglf1qzjp5j",
-    "title": "Packers GM Brian Gutekunst when asked whether they’ll release RB Josh Jacobs: “We’ll let the process play out before making any kind of those decisions but we’ll see”",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w4db1c/packers_gm_brian_gutekunst_when_asked_whether",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-01T14:17:30.000Z",
-    "summary": "&#32; submitted by &#32; /u/bigaudra [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "roster-move",
-      "GB"
-    ],
-    "players": [
-      "josh-jacobs"
-    ],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "14g2s0o1ne8mxi",
-    "title": "Zay Flowers, who is recovering from a lower-body injury, is expected to return to practice in full capacity next week and suit up for the Ravens' Sept. 13 season opener versus the Colts",
-    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4cdlv/zay_flowers_who_is_recovering_from_a_lowerbody",
-    "source": "r/fantasyfootball",
-    "sourceId": "reddit-fantasyfootball",
-    "publishedAt": "2026-09-01T13:42:37.000Z",
-    "summary": "&#32; submitted by &#32; /u/My_Chat_Account [link] &#32; [comments]",
-    "tags": [
-      "fantasy",
-      "injury",
-      "BAL",
-      "IND"
-    ],
-    "players": [
-      "zay-flowers"
-    ],
-    "teams": [
-      "BAL",
-      "IND"
-    ]
-  },
-  {
-    "id": "129iz121w4koz8",
-    "title": "4 Dynasty Rookie Preseason Value Swings",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w4anym/4_dynasty_rookie_preseason_value_swings",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-01T12:33:50.000Z",
-    "summary": "If your timeline on Twitter/X is like mine, you’ve been seeing major reactions to what happened during training camp and preseason. People are actually encouraged by a rookie playing well against third-string DBs. During training camp, I only care about 3 things for the most part: injury/recovery news, negative coach speak/reports, and who they’re running on the field with. I break down my thought",
-    "tags": [
-      "dynasty",
-      "injury",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "18h575p5g9dbb",
-    "title": "IR Stashes",
-    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w4ajhg/ir_stashes",
-    "source": "r/fantasyfootball",
-    "sourceId": "reddit-fantasyfootball",
-    "publishedAt": "2026-09-01T12:28:21.000Z",
-    "summary": "Since cut day a lot of things have happened and there’s clarity who will start the season on IR/PUP and who’s not. Who are the best IR stashes / eligible for IR to have an extra roster spot for a lottery ticket. Charbonnet/Jordyn Tyson come to mind. Who else? How would you rank them &#32; submitted by &#32; /u/Fischi8888 [link] &#32; [comments]",
-    "tags": [
-      "fantasy",
-      "injury",
-      "roster-move"
-    ],
-    "players": [
-      "jordyn-tyson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "kou52ivsrgbu",
-    "title": "Howie Roseman: Zach Ertz one of the greatest tight ends, but love what we have",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/howie-roseman-zach-ertz-one-of-the-greatest-tight-ends-but-love-what-we-have",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-01T11:53:43.000Z",
-    "summary": "Word in early August was that tight end Zach Ertz has been cleared for all football activities after tearing his ACL last December, but the veteran remains a free agent with the start of the regular season a little over a week away.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "8utkyg1wiailm",
-    "title": "Dolphins news: Youngest roster, waiver claims, practice squad, and more",
-    "url": "https://sports.yahoo.com/articles/dolphins-news-youngest-roster-waiver-111425783.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T11:14:25.000Z",
-    "summary": "The latest news from the Miami Dolphins as waiver claims are made and the practice squad is signed.",
-    "tags": [
-      "league-news",
-      "contract",
-      "MIA"
-    ],
-    "players": [],
-    "teams": [
-      "MIA"
-    ]
-  },
-  {
-    "id": "f9dbwtvvnpkr",
-    "title": "Detroit Lions signing versatile offensive lineman to practice squad",
-    "url": "https://sports.yahoo.com/articles/detroit-lions-signing-versatile-offensive-111343680.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T11:13:43.000Z",
-    "summary": "The Detroit Lions are signing Elijah Klein to their practice squad, an offensive lineman with experience at nearly every position.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "n1tkbv1ujubbh",
-    "title": "Official: [Index] - For All Your Team/League Questions - Tue 09/01/2026",
-    "url": "https://www.reddit.com/r/fantasyfootball/comments/1w48n26/official_index_for_all_your_teamleague_questions",
-    "source": "r/fantasyfootball",
-    "sourceId": "reddit-fantasyfootball",
-    "publishedAt": "2026-09-01T11:02:02.000Z",
-    "summary": "PLEASE READ How to post a Player Discussion or Injury Thread Sub Rules and Guidelines Our Wiki with tons of great content! FAQ Official Reddit FanDuel league We've partnered with FanDuel to host a series of redditor-only free contests with $2,800 in cash prizes! During Weeks 1-20, there will be a free play contest with $125 in cash prizes. Other /r/fantasyfootball Contests Official Reddit r/fantas",
-    "tags": [
-      "fantasy",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1t4lrmcyb59x0",
-    "title": "Tennessee Titans news: Xavier Restrepo cut after waiver claims",
-    "url": "https://sports.yahoo.com/articles/tennessee-titans-news-xavier-restrepo-110000929.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-01T11:00:00.000Z",
-    "summary": "The Tennessee Titans are leaving wide receiver Xavier Restrepo off of the 53-man roster.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "TEN"
     ]
   }
 ]
