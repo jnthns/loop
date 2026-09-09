@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-09-09T11:20:11.202Z",
-  "snapshotAt": "2026-09-08T11:56:57Z",
+  "capturedAt": "2026-09-09T16:36:50.049Z",
+  "snapshotAt": "2026-09-09T12:06:21Z",
   "season": "2026",
   "entries": [
     {
@@ -72,7 +72,7 @@
       "name": "Reggie Virgil",
       "pos": "WR",
       "nflTeam": "ARI",
-      "depthRank": 5,
+      "depthRank": 6,
       "sleeperId": "13297"
     },
     {
@@ -1016,7 +1016,7 @@
       "name": "Marlin Klein",
       "pos": "TE",
       "nflTeam": "HOU",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "13307"
     },
     {
@@ -1028,11 +1028,19 @@
       "sleeperId": "7569"
     },
     {
+      "id": "kayshon-boutte",
+      "name": "Kayshon Boutte",
+      "pos": "WR",
+      "nflTeam": "HOU",
+      "depthRank": 2,
+      "sleeperId": "9504"
+    },
+    {
       "id": "xavier-hutchinson",
       "name": "Xavier Hutchinson",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 2,
+      "depthRank": 3,
       "sleeperId": "10218"
     },
     {
@@ -1040,16 +1048,8 @@
       "name": "Jaylin Noel",
       "pos": "WR",
       "nflTeam": "HOU",
-      "depthRank": 3,
-      "sleeperId": "12536"
-    },
-    {
-      "id": "kayshon-boutte",
-      "name": "Kayshon Boutte",
-      "pos": "WR",
-      "nflTeam": "HOU",
       "depthRank": 4,
-      "sleeperId": "9504"
+      "sleeperId": "12536"
     },
     {
       "id": "tank-dell",
@@ -1216,7 +1216,7 @@
       "name": "Tanner Koziol",
       "pos": "TE",
       "nflTeam": "JAX",
-      "depthRank": 3,
+      "depthRank": 4,
       "sleeperId": "13408"
     },
     {
@@ -1356,20 +1356,20 @@
       "sleeperId": "8188"
     },
     {
-      "id": "jalen-royals",
-      "name": "Jalen Royals",
-      "pos": "WR",
-      "nflTeam": "KC",
-      "depthRank": 4,
-      "sleeperId": "12505"
-    },
-    {
       "id": "cyrus-allen",
       "name": "Cyrus Allen",
       "pos": "WR",
       "nflTeam": "KC",
-      "depthRank": 5,
+      "depthRank": 4,
       "sleeperId": "13413"
+    },
+    {
+      "id": "jalen-royals",
+      "name": "Jalen Royals",
+      "pos": "WR",
+      "nflTeam": "KC",
+      "depthRank": 5,
+      "sleeperId": "12505"
     },
     {
       "id": "matthew-stafford",
@@ -1692,19 +1692,11 @@
       "sleeperId": "11610"
     },
     {
-      "id": "jalen-tolbert",
-      "name": "Jalen Tolbert",
-      "pos": "WR",
-      "nflTeam": "MIA",
-      "depthRank": 2,
-      "sleeperId": "8117"
-    },
-    {
       "id": "caleb-douglas",
       "name": "Caleb Douglas",
       "pos": "WR",
       "nflTeam": "MIA",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "13296"
     },
     {
@@ -1712,8 +1704,16 @@
       "name": "Chris Bell",
       "pos": "WR",
       "nflTeam": "MIA",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "13311"
+    },
+    {
+      "id": "jalen-tolbert",
+      "name": "Jalen Tolbert",
+      "pos": "WR",
+      "nflTeam": "MIA",
+      "depthRank": 4,
+      "sleeperId": "8117"
     },
     {
       "id": "kevin-coleman",
@@ -1996,20 +1996,20 @@
       "sleeperId": "12481"
     },
     {
-      "id": "tyrone-tracy",
-      "name": "Tyrone Tracy",
-      "pos": "RB",
-      "nflTeam": "NYG",
-      "depthRank": 2,
-      "sleeperId": "11655"
-    },
-    {
       "id": "najee-harris",
       "name": "Najee Harris",
       "pos": "RB",
       "nflTeam": "NYG",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "7528"
+    },
+    {
+      "id": "tyrone-tracy",
+      "name": "Tyrone Tracy",
+      "pos": "RB",
+      "nflTeam": "NYG",
+      "depthRank": 3,
+      "sleeperId": "11655"
     },
     {
       "id": "isaiah-likely",
@@ -2036,20 +2036,20 @@
       "sleeperId": "11632"
     },
     {
-      "id": "darnell-mooney",
-      "name": "Darnell Mooney",
-      "pos": "WR",
-      "nflTeam": "NYG",
-      "depthRank": 2,
-      "sleeperId": "7090"
-    },
-    {
       "id": "malachi-fields",
       "name": "Malachi Fields",
       "pos": "WR",
       "nflTeam": "NYG",
-      "depthRank": 3,
+      "depthRank": 2,
       "sleeperId": "13285"
+    },
+    {
+      "id": "darnell-mooney",
+      "name": "Darnell Mooney",
+      "pos": "WR",
+      "nflTeam": "NYG",
+      "depthRank": 3,
+      "sleeperId": "7090"
     },
     {
       "id": "odell-beckham",
