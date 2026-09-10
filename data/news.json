@@ -1,5 +1,1030 @@
 [
   {
+    "id": "0jzljijfczcn",
+    "title": "Seahawks pick off Drake Maye 3 times to beat Patriots 13-10 in Super Bowl rematch",
+    "url": "https://www.espn.com/nfl/recap?gameId=401872656",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-10T04:31:29.000Z",
+    "summary": "— Sam Darnold left the game injured, the offense was stagnant and sloppy mistakes put Seattle in a hole through three quarters.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "drake-maye",
+      "sam-darnold"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "hkxipctaanpw",
+    "title": "Seahawks take Week 1 win over Patriots, lose QB Darnold early",
+    "url": "https://www.espn.com/nfl/story/_/id/49882128/2026-nfl-week-1-new-england-patriots-seattle-seahawks-drake-maye-sam-darnold",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-10T04:31:14.000Z",
+    "summary": "In a Super Bowl LX rematch, the Seahawks kicked off the NFL season with a win but lost QB Sam Darnold to a hip injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "4poveb1a023a3",
+    "title": "Report: Deshaun Watson was cited for speeding on August 26",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-deshaun-watson-was-cited-for-speeding-on-august-26",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T04:24:16.000Z",
+    "summary": "The eventful month for Browns quarterback Deshaun Watson included a speeding ticket, two days after he was named the starter.",
+    "tags": [
+      "league-news",
+      "usage",
+      "CLE"
+    ],
+    "players": [
+      "deshaun-watson"
+    ],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "xejn9g1s8ga1q",
+    "title": "#Patriots WR A.J. Brown was seen walking out of the locker room wearing a boot on his right foot, per @_AndrewCallahan. HC Mike Vrabel said he had no update regarding Brown’s ankle injury postgame.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wc8i7f/patriots_wr_aj_brown_was_seen_walking_out_of_the",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-10T04:16:59.000Z",
+    "summary": "&#32; submitted by &#32; /u/Ill_Abbreviations660 [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "NE"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1n5bwg1p0vwhk",
+    "title": "Patriots&#039; A.J. Brown injures ankle, misses most of second half in loss to Seahawks",
+    "url": "https://www.cbssports.com/nfl/news/patriots-a-j-brown-injures-ankle-ruled-out",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-10T04:05:15.000Z",
+    "summary": "Brown limped off slowly and went to the locker room for X-rays",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "19mbp2f1iw0y2h",
+    "title": "Mike Macdonald: Sam Darnold did not suffer hip fracture, more tests to come",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-sam-darnold-did-not-suffer-hip-fracture-more-tests-to-come",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T04:04:48.000Z",
+    "summary": "The Seahawks received some positive news on quarterback Sam Darnold, but the extent of his hip injury is still unclear.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "fzrpktsed8ip",
+    "title": "A.J. Brown's debut for Patriots ends with ankle injury",
+    "url": "https://www.espn.com/nfl/story/_/id/49887260/aj-brown-hurts-ankle-leaves-patriots-seahawks-nfl-opener",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-10T04:03:38.000Z",
+    "summary": "Patriots wide receiver A.J. Brown left Wednesday night's 13-10 loss to the Seahawks early in the third quarter with a right ankle injury and did not return.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "d24wq41re1bzq",
+    "title": "A.J. Brown spotted in walking boot after suffering ankle injury",
+    "url": "https://sports.yahoo.com/articles/j-brown-leaving-seahawks-game-021102750.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T03:55:31.000Z",
+    "summary": "Brown suffered the injury in the third quarter.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": []
+  },
+  {
+    "id": "927mng1pdivwe",
+    "title": "Seahawks&#039; Sam Darnold injures hip in win over Patriots, fracture ruled out",
+    "url": "https://www.cbssports.com/nfl/news/sam-darnold-hip-exits-seahawks-patriots-season-opener",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-10T03:53:06.000Z",
+    "summary": "Darnold went back to the locker room and was ruled out just before halftime",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "ymagy41jqyyqw",
+    "title": "Macdonald: Seahawks able to rule out fractured hip for Sam Darnold:\"We got some great news back. Let's just say it's good news right now.\"",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wc7xf8/macdonald_seahawks_able_to_rule_out_fractured_hip",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-10T03:49:22.000Z",
+    "summary": "&#32; submitted by &#32; /u/limitlesshamster [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "iv6q8mv81yjo",
+    "title": "Mike Vrabel had no postgame update on A.J. Brown",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-had-no-postgame-update-on-a-j-brown",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T03:46:52.000Z",
+    "summary": "It's still unclear what kind of injury and recovery Patriots receiver A.J.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "1vune7j1q4tn81",
+    "title": "Mike Vrabel had no postgame update on A.J. Brown",
+    "url": "https://sports.yahoo.com/articles/mike-vrabel-had-no-postgame-034652398.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T03:46:52.000Z",
+    "summary": "It's still unclear what kind of injury and recovery Patriots receiver A.J.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "37zy7pmgqtaj",
+    "title": "Relevant to the Eagles: Two injuries from the Seahawks-Patriots game",
+    "url": "https://sports.yahoo.com/articles/relevant-eagles-two-injuries-seahawks-033942476.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T03:39:42.000Z",
+    "summary": "A.J. Brown got hurt in the first game of the 2026 NFL season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "PHI",
+      "SEA"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "PHI",
+      "SEA"
+    ]
+  },
+  {
+    "id": "1nm68bn7f6893",
+    "title": "NFL Kickoff 2026: Seahawks beat Patriots 13-10, but lose Sam Darnold to hip injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-kickoff-2026-seahawks-beat-patriots-13-10-but-lose-sam-darnold-to-hip-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T03:37:33.000Z",
+    "summary": "Seattle's defense picked off Drake Maye three times, including late in the fourth quarter to clinch the Week 1 victory.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "drake-maye",
+      "sam-darnold"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "1mf1wi61xfxktk",
+    "title": "NFL Kickoff 2026: Seahawks beat Patriots 13-10, but lose Sam Darnold to hip injury",
+    "url": "https://sports.yahoo.com/articles/nfl-kickoff-2026-seahawks-beat-033733738.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T03:37:33.000Z",
+    "summary": "Seattle's defense picked off Drake Maye three times, including late in the fourth quarter to clinch the Week 1 victory.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "drake-maye",
+      "sam-darnold"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "1jb7ksjbhhlj9",
+    "title": "Seahawks-Patriots score: 1-0! Seattle rallies despite Sam Darnold injury",
+    "url": "https://sports.yahoo.com/articles/seahawks-patriots-score-1-0-033554392.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T03:35:54.000Z",
+    "summary": "The Seahawks secondary picked off Drake Maye three times in the fourth quarter to pull off a thrilling but possibly pyrrhic victory on opening night.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "drake-maye",
+      "sam-darnold"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "13417bh1qlkefr",
+    "title": "A.J. Brown downgraded to out with ankle injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-downgraded-to-out-with-ankle-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T02:43:18.000Z",
+    "summary": "The Patriots will not have their star receiver for the rest of Wednesday's season opener against the Seahawks.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "yvh3ta14vr16w",
+    "title": "A.J. Brown downgraded to out with ankle injury",
+    "url": "https://sports.yahoo.com/articles/j-brown-downgraded-ankle-injury-024318370.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T02:43:18.000Z",
+    "summary": "The Patriots will not have their star receiver for the rest of Wednesday's season opener against the Seahawks.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "vbf7k7v0kr8j",
+    "title": "A.J. Browns injures ankle",
+    "url": "https://sports.yahoo.com/articles/j-browns-injures-ankle-022958764.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T02:29:58.000Z",
+    "summary": "Patriots WR A.J. Brown exits the season opener after suffering an ankle injury",
+    "tags": [
+      "league-news",
+      "injury",
+      "CLE",
+      "NE"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "CLE",
+      "NE"
+    ]
+  },
+  {
+    "id": "grkigooxrrvm",
+    "title": "More buzz that the Bengals won’t get any big contract extensions done with 2027 free agents",
+    "url": "https://sports.yahoo.com/articles/more-buzz-bengals-won-t-022827871.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T02:28:27.000Z",
+    "summary": "They’re not a distraction, but it’s still a key question with the Bengals and potential contract extensions.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CIN"
+    ],
+    "players": [],
+    "teams": [
+      "CIN"
+    ]
+  },
+  {
+    "id": "1ueusnsw0nk88",
+    "title": "Colts receive an encouraging injury update regarding starting rookie safety",
+    "url": "https://sports.yahoo.com/articles/colts-receive-encouraging-injury-regarding-021832920.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T02:18:32.000Z",
+    "summary": "The Colts had a few limited participants, including rookie AJ Haulcy who could be trending toward making his Week 1 debut.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "f5euh31tzg4hd",
+    "title": "A.J. Brown injury: Patriots WR ruled out with ankle injury",
+    "url": "https://sports.yahoo.com/articles/j-brown-injury-patriots-wr-021525096.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T02:15:25.000Z",
+    "summary": "Patriots WR A.J. Brown suffered an ankle injury against the Seahawks",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "1wyc48r1pd50a5",
+    "title": "Patriots WR A.J. Brown leaves season-opening loss to Seahawks with ankle injury",
+    "url": "https://sports.yahoo.com/nfl/article/patriots-wr-aj-brown-leaves-season-opening-loss-to-seahawks-with-ankle-injury-020722265.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T02:07:22.000Z",
+    "summary": "The Patriots made a big trade with the Eagles this offseason to acquire A.J. Brown.",
+    "tags": [
+      "league-news",
+      "injury",
+      "trade",
+      "NE",
+      "PHI",
+      "SEA"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "PHI",
+      "SEA"
+    ]
+  },
+  {
+    "id": "yf1q6iety2fi",
+    "title": "A.J. Brown questionable to return with an ankle injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-questionable-to-return-with-an-ankle-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T02:05:52.000Z",
+    "summary": "Patriots receiver A.J.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "NE"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "13gllo21goffoe",
+    "title": "A.J. Brown questionable to return with an ankle injury",
+    "url": "https://sports.yahoo.com/articles/j-brown-questionable-return-ankle-020552596.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T02:05:52.000Z",
+    "summary": "Patriots receiver A.J.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "NE"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "tnt44u1wh40la",
+    "title": "A.J. Brown injury update as Patriots WR seen in walking boot after ankle injury",
+    "url": "https://sports.yahoo.com/articles/j-brown-injury-patriots-wr-020422784.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T02:04:22.000Z",
+    "summary": "Latest injury updates after Patriots wide receiver A.J. Brown injured his right ankle against the Seahawks that forced him out of their Week 1 game.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "3wupa21kmag3e",
+    "title": "AJ Brown concern for right high ankle eversion sprain. Hard to continue effectively",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wc5lvh/aj_brown_concern_for_right_high_ankle_eversion",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-10T02:02:59.000Z",
+    "summary": "&#32; submitted by &#32; /u/limitlesshamster [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "jawus1fgexqy",
+    "title": "Seahawks rule out QB Sam Darnold's return tonight",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-rule-out-qb-sam-darnolds-return-tonight",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T01:44:57.000Z",
+    "summary": "The Seahawks quarterback injured his right hip on the first drive.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "ntvs4z10yua9b",
+    "title": "Seahawks rule out QB Sam Darnold's return tonight",
+    "url": "https://sports.yahoo.com/articles/seahawks-rule-qb-sam-darnolds-014457432.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T01:44:57.000Z",
+    "summary": "The Seahawks quarterback injured his right hip on the first drive.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "5lnapojvjyos",
+    "title": "Sam Darnold injury update: Seahawks quarterback will have ‘off-site’ hip testing",
+    "url": "https://sports.yahoo.com/articles/sam-darnold-injury-seahawks-quarterback-014349125.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T01:43:49.000Z",
+    "summary": "It’s Drew Lock time in Seattle, maybe for the foreseeable future.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1jfj4841lumf8i",
+    "title": "Drew Lock enters at Seattle QB after Sam Darnold injury. What to know about backup",
+    "url": "https://sports.yahoo.com/articles/seahawks-drew-lock-replaces-sam-010109905.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T01:01:09.000Z",
+    "summary": "Drew Lock had been relegated to backup status since being dealt in the Russell Wilson trade, but he stepped into action in the Seahawks' opener.",
+    "tags": [
+      "league-news",
+      "injury",
+      "trade",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "6igz51h7enkr",
+    "title": "Seahawks say QB Sam Darnold is questionable to return tonight due to a hip injury.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wc468s/seahawks_say_qb_sam_darnold_is_questionable_to",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-10T01:00:07.000Z",
+    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "availability",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "ngz9tk1vrths8",
+    "title": "Buccaneers at Bengals: Initial injury report for Week 1",
+    "url": "https://sports.yahoo.com/articles/buccaneers-bengals-initial-injury-report-005729628.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T00:57:29.000Z",
+    "summary": "The Tampa Bay Buccaneers opened Week 1 preparations Wednesday with five players limited or sidelined ahead of Sunday’s matchup against the Cincinnati Bengals. Running back Sean Tucker was the only Buccaneer who did not participate, sitting out with a hamstring injury. Tampa Bay also had four players limited: outside linebacker Rueben Bain Jr. with a […]",
+    "tags": [
+      "league-news",
+      "injury",
+      "CIN",
+      "TB"
+    ],
+    "players": [],
+    "teams": [
+      "CIN",
+      "TB"
+    ]
+  },
+  {
+    "id": "189rurm7jctbs",
+    "title": "Seahawks quarterback Sam Darnold injured, replaced by Drew Lock",
+    "url": "https://sports.yahoo.com/articles/seahawks-quarterback-sam-darnold-injured-004411014.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T00:44:11.000Z",
+    "summary": "Disaster strikes for the Seahawks on the opening series of the season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "u9jtey1mh9uzc",
+    "title": "Sam Darnold ruled out with hip injury after only one drive, replaced by Drew Lock in Seahawks win",
+    "url": "https://sports.yahoo.com/nfl/article/sam-darnold-ruled-out-with-hip-injury-after-only-one-drive-replaced-by-drew-lock-in-seahawks-win-004222706.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T00:42:22.000Z",
+    "summary": "Sam Darnold was sacked and suffered a leg injury early in Wednesday's game.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1tsic7h1p9piw3",
+    "title": "Sam Darnold heads to locker room with hip injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-heads-to-locker-room-with-apparent-leg-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T00:42:05.000Z",
+    "summary": "Drew Lock has come in to replace Darnold midway through the first quarter.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": []
+  },
+  {
+    "id": "yxuvjj1inho6z",
+    "title": "Sam Darnold heads to locker room with hip injury",
+    "url": "https://sports.yahoo.com/articles/sam-darnold-heads-locker-room-004205648.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T00:42:05.000Z",
+    "summary": "Drew Lock has come in to replace Darnold midway through the first quarter.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1rvuc9910lyjq5",
+    "title": "Sam Darnold injury update as Seahawks get 'great news' after QB exits vs. Patriots",
+    "url": "https://sports.yahoo.com/articles/sam-darnold-injury-seahawks-qb-004119869.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T00:41:19.000Z",
+    "summary": "Latest updates after Sam Darnold exited the Seahawks Week 1 game vs. Patriots on Wednesday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "1di72rk6h9fz0",
+    "title": "Sam Darnold injury: Seahawks QB ruled out with hip injury",
+    "url": "https://sports.yahoo.com/articles/sam-darnold-injury-seahawks-qb-004102363.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T00:41:02.000Z",
+    "summary": "Seahawks QB Sam Darnold limped to the locker room after one drive against the Patriots",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "1rpt8r79r7opb",
+    "title": "NFL Week 1 injury report: A rundown of every team&#039;s current injury situation",
+    "url": "https://www.cbssports.com/nfl/news/nfl-week-1-injury-report-a-rundown-of-every-teams-current-injury-situation",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-09T23:58:15.000Z",
+    "summary": "Here&#039;s how each team is faring from an injury standpoint",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [],
+    "teams": []
+  },
+  {
+    "id": "1x2cq711ivtg2h",
+    "title": "49ers DT James Thompson returns to limited work, while Nick Bosa, George Kittle remain limited",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-dt-james-thompson-returns-to-limited-work-while-nick-bosa-george-kittle-remain-limited",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-09T22:49:17.000Z",
+    "summary": "The 49ers had only one change to their injury report Wednesday: Defensive tackle James Thompson (hamstring) returned to limited work.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "0aiq4jo6jbav",
+    "title": "Ashton Jeanty listed as full participant for Raiders",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ashton-jeanty-listed-as-full-participant-for-raiders",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-09T22:21:59.000Z",
+    "summary": "The Raiders only had two players on their first injury report of the 2026 season, but they were both significant ones.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LV"
+    ],
+    "players": [
+      "ashton-jeanty"
+    ],
+    "teams": [
+      "LV"
+    ]
+  },
+  {
+    "id": "1azk7ea1rciaxs",
+    "title": "McBride vs Bowers Right Now...",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wc00of/mcbride_vs_bowers_right_now",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-09T22:08:34.000Z",
+    "summary": "Bowers is about 10-20% more value on KTC, Roster Audit, etc. The injury news might shrink the gap a little, but Bowers still feels like the number one and McBride the number two. How do you see it? Is McBride safer, or is he more likely to regress? Does Bowers have the higher ceiling? Are you worried about the knee? Does the McBride-Brissett connection transcend the Cardinals shitshow, or is the R",
+    "tags": [
+      "dynasty",
+      "injury",
+      "ARI"
+    ],
+    "players": [],
+    "teams": [
+      "ARI"
+    ]
+  },
+  {
+    "id": "10wt64yoqq9fi",
+    "title": "Packers list RT Zach Bako-Bewele, LG Aaron Banks, LT Jordan Morgan as limited in practice",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-list-rt-zach-bako-bewele-lg-aaron-banks-lt-jordan-morgan-as-limited-in-practice",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-09T21:59:04.000Z",
+    "summary": "A pair of starting offensive linemen landed on the Packers' first injury report ahead of Sunday's game in Minnesota.",
+    "tags": [
+      "league-news",
+      "injury",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "877w2116yk14n",
+    "title": "Jacory Croskey-Merritt, K'Lavon Chaisson, Odafe Oweh limited in Commanders practice",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jacory-croskey-merritt-klavon-chaisson-odafe-oweh-limited-in-commanders-practice",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-09T21:49:02.000Z",
+    "summary": "The Commanders listed three of their starters as limited participants in practice on their first injury report of the 2026 season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [
+      "jacory-croskey-merritt"
+    ],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "479v0e12hzm5s",
+    "title": "Inside the new Baker Mayfield deal",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/inside-the-new-baker-mayfield-deal",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-09T21:36:16.000Z",
+    "summary": "Buccaneers quarterback Baker Mayfield has signed his new contract.",
+    "tags": [
+      "league-news",
+      "contract",
+      "TB"
+    ],
+    "players": [
+      "baker-mayfield"
+    ],
+    "teams": [
+      "TB"
+    ]
+  },
+  {
+    "id": "xywg3zezr9pf",
+    "title": "Deshaun Watson relishes \"opportunity\" to prove he can still play",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-relishes-opportunity-to-prove-he-can-still-play",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-09T21:25:46.000Z",
+    "summary": "The Browns quarterback, whose contract expires after this season, has played only 19 games since the trade from Houston.",
+    "tags": [
+      "league-news",
+      "trade",
+      "contract",
+      "CLE"
+    ],
+    "players": [
+      "deshaun-watson"
+    ],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "qs8b1s15pnaiy",
+    "title": "Cowboys backup OG Ajani Cornelius limited in practice",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-backup-og-ajani-cornelius-limited-in-practice",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-09T21:10:23.000Z",
+    "summary": "The Cowboys won't have left guard Tyler Smith for multiple weeks after he underwent thumb surgery this week.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "14y7c9y17sfp8i",
+    "title": "Ja'Marr Chase, Tee Higgins, Shemar Stewart listed as full participants on Wednesday",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-tee-higgins-shemar-stewart-listed-as-full-participants-on-wednesday",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-09T21:05:15.000Z",
+    "summary": "While Bengals head coach Zac Taylor told reporters on Wednesday that defensive end Shemar Stewart was more uncertain to play in Sunday's season opener than receivers Ja'Marr Chase and Tee Higgins, the injury report indicates more optimism.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CIN"
+    ],
+    "players": [
+      "ja-marr-chase",
+      "tee-higgins"
+    ],
+    "teams": [
+      "CIN"
+    ]
+  },
+  {
+    "id": "1cd0v231uxw8pb",
+    "title": "Malik Nabers has full practice, appears \"ready to go\" for season opener",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/malik-nabers-has-full-practice-appears-ready-to-go-for-season-opener",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-09T20:54:05.000Z",
+    "summary": "Wide receiver Malik Nabers has not played in almost a year, since tearing his right ACL in a Sept. 28 game against the Chargers.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAC"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "LAC"
+    ]
+  },
+  {
     "id": "q2scj91ffyzbp",
     "title": "Joey Porter Jr. is listed as limited in practice, due to a back injury",
     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joey-porter-jr-is-listed-as-limited-in-practice-due-to-a-back-injury",
@@ -4030,7 +5055,7 @@
   },
   {
     "id": "8qcvwf1kypfal",
-    "title": "NFL news, live updates: Brock Bowers to miss 'a game or 2' after undergoing knee procedure Tuesday; TreVeyon Henderson ruled out vs. Seahawks, while Malik Nabers practices in full Wednesday",
+    "title": "NFL news, live updates: Seahawks win after losing Sam Darnold, Brock Bowers to miss 'a game or 2' after undergoing knee procedure Tuesday, Malik Nabers practices in full Wednesday",
     "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-week-1-142542967.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
@@ -4045,7 +5070,8 @@
     "players": [
       "treveyon-henderson",
       "brock-bowers",
-      "malik-nabers"
+      "malik-nabers",
+      "sam-darnold"
     ],
     "teams": [
       "SEA"
@@ -6574,944 +7600,6 @@
     "players": [],
     "teams": [
       "LAR"
-    ]
-  },
-  {
-    "id": "1bxavb7kglqft",
-    "title": "Rams' depth chart lists Stetson Bennett as No. 2 QB, Ty Simpson No. 3",
-    "url": "https://sports.yahoo.com/articles/rams-depth-chart-lists-stetson-201731269.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T20:17:31.000Z",
-    "summary": "Ty Simpson was the No. 13 overall pick in the 2026 NFL draft, but he's only the No. 3 quarterback on the Rams.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "usage",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "fcsdpz1fladh7",
-    "title": "Kansas State Football: Depth Chart Grades – Offense",
-    "url": "https://sports.yahoo.com/articles/kansas-state-football-depth-chart-200746762.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T20:07:46.000Z",
-    "summary": "The Wildcats are loaded at quarterback, running back, and tight end, but questions linger at wide receiver and on the offensive line.",
-    "tags": [
-      "league-news",
-      "usage"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1jeqv6d156iphl",
-    "title": "Report: Giants to sign LB Malik Harrison to practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-to-sign-lb-malik-harrison-to-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T19:57:03.000Z",
-    "summary": "Giants head coach John Harbaugh is adding one of his former Ravens players to the team's practice squad.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "BAL",
-      "NYG"
-    ]
-  },
-  {
-    "id": "ag6xsv1lotur5",
-    "title": "Report: Giants to sign LB Malik Harrison to practice squad",
-    "url": "https://sports.yahoo.com/articles/report-giants-sign-lb-malik-195703020.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T19:57:03.000Z",
-    "summary": "Giants head coach John Harbaugh is adding one of his former Ravens players to the team's practice squad.",
-    "tags": [
-      "league-news",
-      "contract",
-      "BAL",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "BAL",
-      "NYG"
-    ]
-  },
-  {
-    "id": "3tpcz5rjbbot",
-    "title": "Overthinking Jadarian Price",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w6i3u0/overthinking_jadarian_price",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-03T19:51:45.000Z",
-    "summary": "Any other year, I'm pretty certain that any other 1st round RB going to the super bowl winner and having some good runway there in the short and long term (ie, Charb's injury and Charb's impending possible free agency) would yield a lot more excitement than what Price currently has. Like, on its surface, I'm wondering why Price isn't consensus in the Tate/Tyson tier. Is this mostly a \"we are worri",
-    "tags": [
-      "dynasty",
-      "injury"
-    ],
-    "players": [
-      "jadarian-price"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1d0v7ss1kgfyza",
-    "title": "Michael Wilson to sign massive extension: Why Cards made him one of NFL&#039;s top-paid No. 2 WRs",
-    "url": "https://www.cbssports.com/nfl/news/cardinals-sign-michael-wilson-to-massive-extension",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-09-03T19:41:58.000Z",
-    "summary": "Arizona made a good move in locking up Wilson, who posted career highs across the board in 2025",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [
-      "michael-wilson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1li7w5v1pdv1tr",
-    "title": "Puka Nacua suspension watch: Will NFL discipline Rams star WR? How might a suspension impact L.A.?",
-    "url": "https://www.cbssports.com/nfl/news/puka-nacua-suspension-watch-will-nfl-discipline-rams-star",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-09-03T19:36:23.000Z",
-    "summary": "The NFL&#039;s handling of Nacua remains a mystery, but it has big implications for the Rams&#039; championship hopes",
-    "tags": [
-      "league-news",
-      "discipline",
-      "LAR"
-    ],
-    "players": [
-      "puka-nacua"
-    ],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "h6us72ow7c0y",
-    "title": "Giants' Cam Skattebo says he mulled retiring after 2025 injury",
-    "url": "https://www.espn.com/nfl/story/_/id/49816937/giants-cam-skattebo-says-mulled-retiring-2025-injury",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-09-03T19:18:47.000Z",
-    "summary": "Giants running back Cam Skattebo said Thursday on the \"Up & Adams Show\" that he briefly contemplated retirement after he suffered an open fracture of his right ankle during his rookie season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "NYG"
-    ],
-    "players": [
-      "cam-skattebo"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1ki7iw410w7pra",
-    "title": "Mike Vrabel responds to The Athletic's Dianna Russini investigation",
-    "url": "https://sports.yahoo.com/articles/mike-vrabel-responds-athletics-dianna-191630515.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T19:16:30.000Z",
-    "summary": "Mike Vrabel was asked about The Athletic's investigation into Dianna Russini on Wednesday, Sept. 3, after the findings were released.",
-    "tags": [
-      "league-news",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1ptroyvmvyxyj",
-    "title": "Chargers sign Caleb Murphy to practice squad, release Nadame Tucker",
-    "url": "https://sports.yahoo.com/articles/chargers-sign-caleb-murphy-practice-190303010.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T19:03:03.000Z",
-    "summary": "The Chargers signed EDGE Caleb Murphy to the practice squad and released EDGE Nadame Tucker.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "LAC"
-    ],
-    "players": [],
-    "teams": [
-      "LAC"
-    ]
-  },
-  {
-    "id": "1wq01br12k639t",
-    "title": "Raiders defense: Kwity Paye’s ascension as complement to Maxx Crosby key",
-    "url": "https://sports.yahoo.com/articles/raiders-defense-kwity-paye-ascension-190200879.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T19:02:00.000Z",
-    "summary": "Signing a high-profile $48-million contract, veteran pass rusher has makings of equal parts sack artist and run stuffer",
-    "tags": [
-      "league-news",
-      "contract",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "c5x8sl1ij4jf9",
-    "title": "Will the 49ers benefit from any Rams suspensions ahead of Week 1?",
-    "url": "https://sports.yahoo.com/articles/49ers-benefit-rams-suspensions-ahead-185126205.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T18:51:26.000Z",
-    "summary": "Puka Nacua and Alaric Jackson of the Rams are potential suspension candidates",
-    "tags": [
-      "league-news",
-      "discipline",
-      "LAR",
-      "SF"
-    ],
-    "players": [
-      "puka-nacua"
-    ],
-    "teams": [
-      "LAR",
-      "SF"
-    ]
-  },
-  {
-    "id": "mn5m6jl95sj5",
-    "title": "Bryant Wesco Jr. 2025 Highlights",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w6g1at/bryant_wesco_jr_2025_highlights",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-03T18:39:32.000Z",
-    "summary": "So excited to watch my twink king play this weekend 🫶 He’s currently my WR3 and is my favorite WR to watch after Jeremiah Smith. Quick and fluid as hell, awesome release package, runs good routes, great deep ball tracker, etc. I really can’t say enough good things about him, hopefully he’s gained some muscle and the back injury didn’t sap his athleticism in any way. His YPRR was also 2.62 last ye",
-    "tags": [
-      "dynasty",
-      "injury",
-      "roster-move"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "14dyao7r46jb7",
-    "title": "What’s your favorite niche dynasty strategy?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w6fq71/whats_your_favorite_niche_dynasty_strategy",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-03T18:28:47.000Z",
-    "summary": "Everyone knows to get the players who score points, have contract insulation, were drafted highly, etc, but I feel that individual managers sometimes have their own weird player strategies they believe in. Stuff like avoiding running backs on bad offenses which itself isn’t some hidden gem strategy. What’s your favorite niche method of acquiring value in dynasty? Personally, I like trading for ben",
-    "tags": [
-      "dynasty",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1tf06fyaao6e2",
-    "title": "Anthony Richardson named Colts backup QB after offseason trade request",
-    "url": "https://sports.yahoo.com/articles/anthony-richardson-named-colts-backup-182319063.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T18:23:19.000Z",
-    "summary": "Anthony Richardson beat Riley Leonard for the Colts' backup quarterback job behind Daniel Jones. Here's more about Shane Steichen's decision.",
-    "tags": [
-      "league-news",
-      "trade",
-      "IND"
-    ],
-    "players": [
-      "daniel-jones"
-    ],
-    "teams": [
-      "IND"
-    ]
-  },
-  {
-    "id": "1supnkb1imvd2p",
-    "title": "Giants' Cam Skattebo thought about retirement after season-ending leg injury: 'Do I really want to do this?'",
-    "url": "https://sports.yahoo.com/nfl/article/giants-cam-skattebo-thought-about-retirement-after-season-ending-leg-injury-do-i-really-want-to-do-this-181738046.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T18:17:38.000Z",
-    "summary": "Skattebo broke his right fibula and dislocated his right ankle in Week 8 last season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYG"
-    ],
-    "players": [
-      "cam-skattebo"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1swdr4ka1if3i",
-    "title": "Cam Skattebo thought about walking away from football after ankle injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-thought-about-walking-away-from-football-after-ankle-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T18:02:13.000Z",
-    "summary": "Giants running back Cam Skattebo is set to make his return to the lineup in Week 1, but it wasn't always a sure thing in his mind that he'd return after dislocating his right ankle in the seventh game of his rookie season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "NYG"
-    ],
-    "players": [
-      "cam-skattebo"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1wzn8n11o254vd",
-    "title": "Giants&#039; Cam Skattebo considered retirement after gruesome injury; explains relationship with John Harbaugh",
-    "url": "https://www.cbssports.com/nfl/news/giants-cam-skattebo-says-he-considered-retirement",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-09-03T18:01:30.000Z",
-    "summary": "Skattebo suffered a nasty injury that derailed his rookie season",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "NYG"
-    ],
-    "players": [
-      "cam-skattebo"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "dn5t3i1q8dsge",
-    "title": "Cardinals shell out big-money extension to breakout wide receiver",
-    "url": "https://sports.yahoo.com/articles/cardinals-shell-big-money-extension-174932586.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T17:49:32.000Z",
-    "summary": "After a breakout season for the Cardinals, Michael Wilson landed an extension that will keep him off the free-agent market in 2027.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ARI"
-    ],
-    "players": [
-      "michael-wilson"
-    ],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "1jeoyzmn1fg2o",
-    "title": "Seattle Seahawks tweak practice squad, release ‘Hard Knocks’ star",
-    "url": "https://sports.yahoo.com/articles/seattle-seahawks-tweak-practice-squad-174544116.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T17:45:44.000Z",
-    "summary": "The Seahawks’ practice squad roster churn has begun.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1tvfqytag6yt7",
-    "title": "Aaron Donald can earn $10 million if Rams win the Super Bowl",
-    "url": "https://sports.yahoo.com/articles/aaron-donald-earn-10-million-174346599.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T17:43:46.000Z",
-    "summary": "Aaron Donald contract details revealed",
-    "tags": [
-      "league-news",
-      "contract",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "1l0cak01l2rgng",
-    "title": "Inside the Leonard Williams deal",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/inside-the-leonard-williams-deal",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T17:43:18.000Z",
-    "summary": "The Seahawks recently signed defensive tackle Leonard to a new deal.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1k72hnu2pvkcw",
-    "title": "Mike Vrabel: I don't have any reaction to Dianna Russini report",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-i-dont-have-any-reaction-to-dianna-russini-report",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T17:32:27.000Z",
-    "summary": "The Athletic published the findings of its internal review of Dianna Russini's reporting on Thursday, several months after the release of pictures that revealed her relationship with Patriots head coach Mike Vrabel.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "6opuvsmretcw",
-    "title": "Cardinals, Michael Wilson agree to three-year extension",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-michael-wilson-agree-to-three-year-extension",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T17:04:10.000Z",
-    "summary": "The WR's new deal is reportedly worth up to $78 million.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ARI"
-    ],
-    "players": [
-      "michael-wilson"
-    ],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "1qg6o1lxnn1hn",
-    "title": "Sources: The Cardinals and standout WR Michael Wilson have agreed to a 3-Year $75M Extension with a Maximum Value of $78M and $47M Guaranteed",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w6d75e/sources_the_cardinals_and_standout_wr_michael",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-03T17:00:37.000Z",
-    "summary": "&#32; submitted by &#32; /u/notquitemytempo___ [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "contract",
-      "ARI"
-    ],
-    "players": [
-      "michael-wilson"
-    ],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "1u2on3hhczqxn",
-    "title": "Mike McCarthy: Joey Porter's doing a good job in return to practice",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-joey-porters-doing-a-good-job-in-return-to-practice",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T16:25:41.000Z",
-    "summary": "Steelers cornerback Joey Porter Jr. wants a new contract and says he might not play in Week One if he doesn't get it.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "13k3m1l1ys3nrb",
-    "title": "Browns exec draws criticism for wearing &#039;Los Angeles made me do it&#039; sweater amid Myles Garrett trade",
-    "url": "https://www.cbssports.com/nfl/news/browns-exec-wears-la-sweater-myles-garrett-trade",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-09-03T15:28:54.000Z",
-    "summary": "The distressed sweater made an unintentional statement and angered Browns fans once again",
-    "tags": [
-      "league-news",
-      "trade",
-      "CLE"
-    ],
-    "players": [],
-    "teams": [
-      "CLE"
-    ]
-  },
-  {
-    "id": "10qhqt9rqxu55",
-    "title": "Ian Cunningham: Falcons still deciding QB battle",
-    "url": "https://sports.yahoo.com/articles/ian-cunningham-falcons-still-deciding-152628111.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T15:26:28.000Z",
-    "summary": "The Falcons are letting this one go down to the wire.",
-    "tags": [
-      "league-news",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "fgekb15sgzqv",
-    "title": "49ers release first official depth chart",
-    "url": "https://sports.yahoo.com/articles/49ers-release-first-official-depth-150100102.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T15:01:00.000Z",
-    "summary": "Where there any surprises?",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "usage",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "6l1n6h183f7ix",
-    "title": "Brad Holmes on Terrion Arnold: \"The kid made a mistake\"",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brad-holmes-on-terrion-arnold-the-kid-made-a-mistake",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T14:58:22.000Z",
-    "summary": "The Lions cut ended the Terrion Arnold experiment five days after he was arrested on eight felony charges arising from an armed robbery and kidnapping in Florida.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "2kk0uf17c6o7t",
-    "title": "Eric DeCosta: When the lights have come on, Trey Hendrickson has brought it",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eric-decosta-when-the-lights-have-come-on-trey-hendrickson-has-brought-it",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T14:33:26.000Z",
-    "summary": "Back in March, it seemed like the Ravens quickly pivoted to signing Trey Hendrickson once they backed out of the trade for Maxx Crosby due to long-term concerns about his knee.",
-    "tags": [
-      "league-news",
-      "trade",
-      "contract",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "nis2a1tjxhf4",
-    "title": "Eric DeCosta: When the lights have come on, Trey Hendrickson has brought it",
-    "url": "https://sports.yahoo.com/articles/eric-decosta-lights-come-trey-143326364.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T14:33:26.000Z",
-    "summary": "Back in March, it seemed like the Ravens quickly pivoted to signing Trey Hendrickson once they backed out of the trade for Maxx Crosby due to long-term concerns about his knee.",
-    "tags": [
-      "league-news",
-      "trade",
-      "contract",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "12iq1qkks7z74",
-    "title": "C.J. Stroud’s contract negotiations with Houston Texans could be a win-win",
-    "url": "https://sports.yahoo.com/articles/c-j-stroud-contract-negotiations-140210038.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T14:02:10.000Z",
-    "summary": "C.J. Stroud has paused contract negotiations with the Houston Texans, banking on himself for a bigger deal next year.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [
-      "c-j-stroud"
-    ],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "p6zy71g7bllr",
-    "title": "6 defensive linemen the NY Giants should consider signing",
-    "url": "https://sports.yahoo.com/articles/6-defensive-linemen-ny-giants-140000322.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T14:00:00.000Z",
-    "summary": "Joe Schoen stated the Giants would add a veteran defensive lineman next week. Here are six options he could consider.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "110vi2o183l5nu",
-    "title": "Sean Payton: We're preparing for Patrick Mahomes at his best",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-were-preparing-for-patrick-mahomes-at-his-best",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T13:56:09.000Z",
-    "summary": "Throughout the offseason program and training camp, all indications have been that Chiefs quarterback Patrick Mahomes would be ready to play Week 1 against the Broncos — despite suffering a torn ACL in December.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DEN",
-      "KC"
-    ],
-    "players": [
-      "patrick-mahomes"
-    ],
-    "teams": [
-      "DEN",
-      "KC"
-    ]
-  },
-  {
-    "id": "kkolvi8twx02",
-    "title": "Sean Payton: We're preparing for Patrick Mahomes at his best",
-    "url": "https://sports.yahoo.com/articles/sean-payton-were-preparing-patrick-135609389.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T13:56:09.000Z",
-    "summary": "Throughout the offseason program and training camp, all indications have been that Chiefs quarterback Patrick Mahomes would be ready to play Week 1 against the Broncos — despite suffering a torn ACL in December.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DEN",
-      "KC"
-    ],
-    "players": [
-      "patrick-mahomes"
-    ],
-    "teams": [
-      "DEN",
-      "KC"
-    ]
-  },
-  {
-    "id": "1j1hov819dlabg",
-    "title": "49ers pass rush takes another hit as starter listed as questionable with a foot injury",
-    "url": "https://sports.yahoo.com/articles/49ers-pass-rush-takes-another-133000964.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T13:30:00.000Z",
-    "summary": "Sam Okuayinonu did not travel with the 49ers to Australia",
-    "tags": [
-      "league-news",
-      "injury",
-      "usage",
-      "availability",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1dipg321qnhbwc",
-    "title": "We have (College) Football Tonight??? Justice Haynes (RB) makes his Georgia Tech debut + prospects who could emerge for Colorado",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w6683r/we_have_college_football_tonight_justice_haynes",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-03T12:38:59.000Z",
-    "summary": "Tuesday's Fantasy for Real podcast covers not only the preview for this game, but the preview for this upcoming Weekend in College Football plus my Weekly Mock Draft. Check it out wherever you get your podcasts (links in the comments) // We have (College) Football Tonight? Colorado @ Georgia Tech at 8:00 PM on ESPN Justice Haynes is the clear top player to watch here. A potential Top RB in the 202",
-    "tags": [
-      "dynasty",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "rhb0b66gys4i",
-    "title": "Ravens GM Eric DeCosta: \"No indication\" how long Rashod Bateman investigation will take",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-gm-eric-decosta-no-indication-how-long-rashod-bateman-investigation-will-take",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T12:05:13.000Z",
-    "summary": "Ravens wide receiver Rashod Bateman was arrested in June after allegedly breaking the windshield and windows of a car with his child and the child's mother inside, but he was not placed on paid leave by the NFL ahead of the cut to 53 players last weekend.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "jne28hbm6cc1",
-    "title": "Cardinals make small roster adjustments",
-    "url": "https://sports.yahoo.com/articles/cardinals-small-roster-adjustments-110000914.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T11:00:00.000Z",
-    "summary": "Mostly injured players",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI"
-    ],
-    "players": [],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "2p9dff1u67ppt",
-    "title": "Patriots rookie found out he made the roster via Instagram",
-    "url": "https://sports.yahoo.com/articles/patriots-rookie-found-made-roster-100000062.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T10:00:00.000Z",
-    "summary": "Quintayvious Hutchins is part of New England’s initial 53-man team.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "a2uwhu1gkxhba",
-    "title": "The Bear’s Den: Chicago is hot, and so are the Bears",
-    "url": "https://sports.yahoo.com/articles/bear-den-chicago-hot-bears-100000423.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T10:00:00.000Z",
-    "summary": "The heat is on at Halas Hall, and the heat is also on Kyler Gordon. Also, is a trade brewing for the Chicago Bears?",
-    "tags": [
-      "league-news",
-      "trade",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "1xf8jgu12xiuqu",
-    "title": "Kayshon Boutte opens up about trade from Patriots to Texans",
-    "url": "https://sports.yahoo.com/articles/kayshon-boutte-opens-trade-patriots-092235719.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T09:22:35.000Z",
-    "summary": "The wide receiver was sent to Houston last month.",
-    "tags": [
-      "league-news",
-      "trade",
-      "HOU",
-      "NE"
-    ],
-    "players": [
-      "kayshon-boutte"
-    ],
-    "teams": [
-      "HOU",
-      "NE"
-    ]
-  },
-  {
-    "id": "feam0b19dxdrv",
-    "title": "49ers DE Sam Okuayinonu not on team flight to Australia, questionable with foot injury",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-de-sam-okuayinonu-not-on-team-flight-to-australia-questionable-with-foot-injury",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T09:18:00.000Z",
-    "summary": "The 49ers are on their way to Australia, but defensive end Sam Okuayinonu is not with them.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1oijpao179lw3y",
-    "title": "49ers DE Sam Okuayinonu not on team flight to Australia, questionable with foot injury",
-    "url": "https://sports.yahoo.com/articles/49ers-sam-okuayinonu-not-team-091800500.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T09:18:00.000Z",
-    "summary": "The 49ers are on their way to Australia, but defensive end Sam Okuayinonu is not with them.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "eunpwkdt6zyg",
-    "title": "In honor of Kawhi Leonard, is there a trade in your league that destroyed a team?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w5wqm3/in_honor_of_kawhi_leonard_is_there_a_trade_in",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-03T04:04:20.000Z",
-    "summary": "It feels like every league has either a failed all-in owner who shuffled off future picks for, oh, let's say, 2023 Chris Godwin and Rachaad White, and regretted it years later, or an impatient cowboy type who got rid of Aaron Rodgers in 2007 because he was just sitting on the bench. Is there a trade that ultimately collapsed a team in your league? &#32; submitted by &#32; /u/BUSean [link] &#32; [c",
-    "tags": [
-      "dynasty",
-      "trade"
-    ],
-    "players": [
-      "aaron-rodgers",
-      "rachaad-white",
-      "chris-godwin"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1faj7gbawenor",
-    "title": "Falcons QB Michael Penix the eventual starter?",
-    "url": "https://sports.yahoo.com/articles/falcons-qb-michael-penix-eventual-014631627.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T01:46:31.000Z",
-    "summary": "Michael Penix Jr. expected to start for Falcons when ready",
-    "tags": [
-      "league-news",
-      "usage",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "18cfyy51bhc0lr",
-    "title": "Report: Cardinals have \"movement\" in talks with WR Michael Wilson",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-cardinals-have-movement-in-talks-with-wr-michael-wilson",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T01:43:28.000Z",
-    "summary": "The Cardinals and the representation for wide receiver Michael Wilson have negotiated a contract extension for awhile.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ARI"
-    ],
-    "players": [
-      "michael-wilson"
-    ],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "98qj2j14lw1zx",
-    "title": "Jed York, 49ers' brass are making plans in advance of potential suspension",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jed-york-49ers-brass-are-making-plans-in-advance-of-potential-suspension",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T01:23:16.000Z",
-    "summary": "With 49ers owner Jed York facing a potential suspension as a result of his recent no-contest plea on charges arising from a recent prostitution arrest in Ohio, the powers-that-be are making plans now in the event York isn't available later.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "160i64h10c1olp",
-    "title": "Jed York, 49ers' brass are making plans in advance of potential suspension",
-    "url": "https://sports.yahoo.com/articles/jed-york-49ers-brass-making-012316011.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T01:23:16.000Z",
-    "summary": "With 49ers owner Jed York facing a potential suspension as a result of his recent no-contest plea on charges arising from a recent prostitution arrest in Ohio, the powers-that-be are making plans now in the event York isn't available later.",
-    "tags": [
-      "league-news",
-      "discipline",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
     ]
   }
 ]
