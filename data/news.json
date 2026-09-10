@@ -1,5 +1,631 @@
 [
   {
+    "id": "19qym0m1ciihy",
+    "title": "Bengals add CB DJ Turner to injury report on Thursday",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-add-cb-dj-turner-to-injury-report-on-thursday",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T20:43:23.000Z",
+    "summary": "Cornerback DJ Turner was added to the Bengals injury report on Thursday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CIN"
+    ],
+    "players": [],
+    "teams": [
+      "CIN"
+    ]
+  },
+  {
+    "id": "rs7kq5fdgwur",
+    "title": "Falcons QB Tua Tagovailoa suffers oblique injury in practice",
+    "url": "https://www.espn.com/nfl/story/_/id/49895564/falcons-qb-tua-tagovailoa-suffers-oblique-injury-practice",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-10T20:37:08.000Z",
+    "summary": "Falcons quarterback Tua Tagovailoa sustained an oblique injury in practice Thursday and was listed as a limited participant.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "ATL"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "19omde21oqixra",
+    "title": "Jets' Breece Hall says he's ready to face Titans in opener",
+    "url": "https://www.espn.com/nfl/story/_/id/49895714/jets-breece-hall-says-ready-face-titans-opener",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-10T20:32:14.000Z",
+    "summary": "Jets RB Breece Hall, who strained his groin Aug. 17, proclaimed himself ready to face the Titans on Sunday at Nissan Stadium.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYJ",
+      "TEN"
+    ],
+    "players": [
+      "breece-hall"
+    ],
+    "teams": [
+      "NYJ",
+      "TEN"
+    ]
+  },
+  {
+    "id": "1d6ibop1vvbccd",
+    "title": "Alec Pierce remains limited in Thursday's practice",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alec-pierce-remains-limited-in-thursdays-practice",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T20:29:29.000Z",
+    "summary": "Colts receiver Alec Pierce continues to be a limited participant in practice this week.",
+    "tags": [
+      "league-news",
+      "availability",
+      "IND"
+    ],
+    "players": [
+      "alec-pierce"
+    ],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "lnsnyr1rxr4hr",
+    "title": "Alec Pierce remains limited in Thursday's practice",
+    "url": "https://sports.yahoo.com/articles/alec-pierce-remains-limited-thursdays-202929030.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T20:29:29.000Z",
+    "summary": "Colts receiver Alec Pierce continues to be a limited participant in practice this week.",
+    "tags": [
+      "league-news",
+      "availability",
+      "IND"
+    ],
+    "players": [
+      "alec-pierce"
+    ],
+    "teams": [
+      "IND"
+    ]
+  },
+  {
+    "id": "1sslvvl1vkcpot",
+    "title": "Tua Tagovailoa injury update as Falcons QB hurts oblique at practice",
+    "url": "https://sports.yahoo.com/articles/tua-tagovailoa-injury-falcons-qb-202803297.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T20:28:03.000Z",
+    "summary": "Tua Tagovailoa went down with an injury during Falcons practice on Thursday, Sept. 10. Here's what to know about his Week 1 status.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "r7wrwj1i07od",
+    "title": "Thursday’s Saints vs. Lions injury report:",
+    "url": "https://sports.yahoo.com/articles/thursday-saints-vs-lions-injury-202744657.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T20:27:44.000Z",
+    "summary": "4 players missed practice for the Saints on Thursday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "DET",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "DET",
+      "NO"
+    ]
+  },
+  {
+    "id": "ivbdktcwrhuh",
+    "title": "Browns G Teven Jenkins out of practice with a back injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-g-teven-jenkins-out-of-practice-with-a-back-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T20:23:53.000Z",
+    "summary": "The Browns may have to make a change to their planned offensive line for Sunday's opener in Jacksonville.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "1lqm5s12kqt2d",
+    "title": "Browns G Teven Jenkins out of practice with a back injury",
+    "url": "https://sports.yahoo.com/articles/browns-g-teven-jenkins-practice-202353297.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T20:23:53.000Z",
+    "summary": "The Browns may have to make a change to their planned offensive line for Sunday's opener in Jacksonville.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "cc5efm1dprml8",
+    "title": "Detroit Lions sign Tom Kennedy to 53-man roster, add new defensive back",
+    "url": "https://sports.yahoo.com/articles/detroit-lions-sign-tom-kennedy-200724801.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T20:07:24.000Z",
+    "summary": "The Lions have filled the final spot on their 53-man roster.",
+    "tags": [
+      "league-news",
+      "contract",
+      "DET"
+    ],
+    "players": [
+      "detroit-lions"
+    ],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "bpscgx12yhe99",
+    "title": "Lions, Saints injury report: 3 limited on Thursday",
+    "url": "https://sports.yahoo.com/articles/lions-saints-injury-report-3-200707830.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T20:07:07.000Z",
+    "summary": "Exploring the Lions Thursday injury report from Week 1 of the 2026 season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DET",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "DET",
+      "NO"
+    ]
+  },
+  {
+    "id": "z1mywb135nkdl",
+    "title": "Tua Tagovailoa suffers injury during Thursday&#039;s practice, added to Falcons&#039; injury report: Who&#039;s up next?",
+    "url": "https://www.cbssports.com/nfl/news/tua-tagovailoa-appears-to-suffer-injury-whos-next-michael-penix",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-10T20:03:27.000Z",
+    "summary": "A look at the Falcons&#039; depth chart if the top two QBs are unavailable against the Steelers",
+    "tags": [
+      "league-news",
+      "injury",
+      "usage",
+      "ATL",
+      "PIT"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "1h4qxeehiva3s",
+    "title": "Falcons say Tua Tagovailoa has an oblique injury",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-say-tua-tagovailoa-has-an-oblique-injury",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T19:59:26.000Z",
+    "summary": "Tagovailoa was named the Week 1 starter prior to Thursday's injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "usage",
+      "ATL"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "qz88c91802w0n",
+    "title": "Falcons say Tua Tagovailoa has an oblique injury",
+    "url": "https://sports.yahoo.com/articles/falcons-tua-tagovailoa-oblique-injury-195926027.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T19:59:26.000Z",
+    "summary": "Tagovailoa was named the Week 1 starter prior to Thursday's injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "usage",
+      "ATL"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "tlm0hk18u7fty",
+    "title": "Patrick Mahomes: I’m a competitor, I signed up for this, I’m going to go out and play football",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-im-a-competitor-i-signed-up-for-this-im-going-to-go-out-and-play-football",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T19:57:01.000Z",
+    "summary": "Patrick Mahomes says he's ready.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [
+      "patrick-mahomes"
+    ],
+    "teams": []
+  },
+  {
+    "id": "8makky17x6glk",
+    "title": "Patrick Mahomes: I’m a competitor, I signed up for this, I’m going to go out and play football",
+    "url": "https://sports.yahoo.com/articles/patrick-mahomes-m-competitor-signed-195701311.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T19:57:01.000Z",
+    "summary": "Patrick Mahomes says he's ready.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [
+      "patrick-mahomes"
+    ],
+    "teams": []
+  },
+  {
+    "id": "182szaa38vv04",
+    "title": "Rome Odunze remains limited at Bears practice",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rome-odunze-remains-limited-at-bears-practice",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T19:46:54.000Z",
+    "summary": "Bears wide receiver Rome Odunze continued to deal with a calf injury at Thursday's practice.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [
+      "rome-odunze"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1bkuitbldhcfp",
+    "title": "Rome Odunze remains limited at Bears practice",
+    "url": "https://sports.yahoo.com/articles/rome-odunze-remains-limited-bears-194654702.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T19:46:54.000Z",
+    "summary": "Bears wide receiver Rome Odunze continued to deal with a calf injury at Thursday's practice.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CHI"
+    ],
+    "players": [
+      "rome-odunze"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "bxogkodwmu9m",
+    "title": "Cooper Rush did all the first-team work for Falcons on Thursday",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cooper-rush-did-all-the-first-team-work-for-falcons-on-thursday",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T19:34:57.000Z",
+    "summary": "The Falcons' plan to start Tua Tagovailoa at quarterback against the Steelers on Sunday may have changed on Thursday.",
+    "tags": [
+      "league-news",
+      "usage",
+      "ATL",
+      "PIT"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "ndqlw8dw4jaq",
+    "title": "Cooper Rush did all the first-team work for Falcons on Thursday",
+    "url": "https://sports.yahoo.com/articles/cooper-rush-did-first-team-193457020.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T19:34:57.000Z",
+    "summary": "The Falcons' plan to start Tua Tagovailoa at quarterback against the Steelers on Sunday may have changed on Thursday.",
+    "tags": [
+      "league-news",
+      "usage",
+      "ATL",
+      "PIT"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "1n5xweom61ato",
+    "title": "Feeling 'fresh' following groin injury, Jets RB Breece Hall has sights set on beating Titans",
+    "url": "https://sports.yahoo.com/articles/feeling-fresh-following-groin-injury-193344859.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T19:33:44.000Z",
+    "summary": "Jets star running back Breece Hall, feeling \"fresh\" after recovering from a preseason groin injury, is eager to face former head coach Robert Saleh and the Tennessee Titans in Week 1 of the 2026 NFL season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYJ",
+      "TEN"
+    ],
+    "players": [
+      "breece-hall"
+    ],
+    "teams": [
+      "NYJ",
+      "TEN"
+    ]
+  },
+  {
+    "id": "1g4fermreeczu",
+    "title": "In Patrick Mahomes' return from torn ACL, Chiefs likely to turn to undrafted rookie left tackle to start",
+    "url": "https://sports.yahoo.com/nfl/article/in-patrick-mahomes-return-from-torn-acl-chiefs-likely-to-turn-to-undrafted-rookie-left-tackle-to-start-190856912.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T19:08:56.000Z",
+    "summary": "Kahlil Benson was a member of Indiana's national championship team.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "KC"
+    ],
+    "players": [
+      "patrick-mahomes"
+    ],
+    "teams": [
+      "KC"
+    ]
+  },
+  {
+    "id": "1omh0bu63vkpg",
+    "title": "Packers&#039; Josh Jacobs pleads no contest to misdemeanor battery with NFL suspension looming",
+    "url": "https://www.cbssports.com/nfl/news/packers-josh-jacobs-pleads-no-contest-nfl-suspension-looming",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-10T18:58:17.000Z",
+    "summary": "The resolution clears the way for the NFL to conclude its investigation and issue a suspension",
+    "tags": [
+      "league-news",
+      "discipline",
+      "GB"
+    ],
+    "players": [
+      "josh-jacobs"
+    ],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "7jaw734f8hbj",
+    "title": "Tua Tagovailoa appears to suffer back discomfort during individual drills",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tua-tagovailoa-appears-to-suffer-back-discomfort-during-individual-drills",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T18:32:07.000Z",
+    "summary": "Falcons quarterback Tua Tagovailoa may have suffered an injury during Thursday's practice.",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL"
+    ]
+  },
+  {
+    "id": "cf52av8yxwu3",
+    "title": "Titans sign CB Jaylon Jones",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-sign-cb-jaylon-jones",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T18:28:37.000Z",
+    "summary": "The Titans did some shuffling of their 53-man roster ahead of Sunday's opener against the Jets.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NYJ",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ",
+      "TEN"
+    ]
+  },
+  {
+    "id": "1twljgtrfl463",
+    "title": "Patriots and Seahawks overreactions: From Drake Maye and Drew Lock, to Will Campbell and Jadarian Price",
+    "url": "https://www.cbssports.com/nfl/news/patriots-and-seahawks-overreactions-drake-maye-drew-lock-will-campbell-jadarian-price",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-10T18:25:16.000Z",
+    "summary": "Drake Maye struggled with three fourth-quarter interceptions as Drew Lock stepped in for an injured Sam Darnold to rally the Seahawks past the Patriots in the NFL Kickoff Game",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "drake-maye",
+      "drew-lock",
+      "sam-darnold",
+      "jadarian-price"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "1doz21o9bosqs",
+    "title": "Tua Tagovailoa limited in practice after injuring oblique just days before Week 1 start",
+    "url": "https://sports.yahoo.com/nfl/breaking-news/article/tua-tagovailoa-appears-to-aggravate-back-injury-during-practice-just-days-before-week-1-start-181740559.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T18:17:40.000Z",
+    "summary": "Tua Tagovailoa needed to sit on the grass after sustaining the injury.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "tua-tagovailoa"
+    ],
+    "teams": []
+  },
+  {
+    "id": "pvykpv1p56onz",
+    "title": "Mike Macdonald: Sam Darnold's hip looks good, but we don't know how long he'll miss",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-sam-darnolds-hip-looks-good-but-we-dont-know-how-long-hell-miss",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T17:00:26.000Z",
+    "summary": "Seahawks quarterback Sam Darnold will miss some time with the hip injury that knocked him out of Wednesday night's game.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1thmtkb1s2pe27",
+    "title": "Super Bowl and NFL MVP predictions for 2026 season, plus 49ers-Rams picks and Sam Darnold injury details",
+    "url": "https://www.cbssports.com/nfl/news/super-bowl-nfl-mvp-predictions-for-2026-season-49ers-rams-picks",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-10T16:54:20.000Z",
+    "summary": "Here&#039;s everything you need to know about the NFL for Sept. 10",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAR",
+      "SF"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "LAR",
+      "SF"
+    ]
+  },
+  {
+    "id": "1h6pf8l1abjsz7",
+    "title": "Report: Sam Darnold is expected to miss time, MRI under review",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-sam-darnold-is-expected-to-miss-time-mri-under-review",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T16:24:42.000Z",
+    "summary": "Signs continue to indicate that Seahawks quarterback Sam Darnold suffered a major injury during Wednesday's season opener.",
+    "tags": [
+      "league-news",
+      "injury",
+      "contract",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1kr9oxk12wfp4u",
+    "title": "Josh Jacobs pleads no contest to two misdemeanor charges",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-jacobs-pleads-no-contest-to-two-misdemeanor-charges",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T16:21:50.000Z",
+    "summary": "Jacobs was placed on paid leave by the NFL last month.",
+    "tags": [
+      "league-news",
+      "roster-move"
+    ],
+    "players": [
+      "josh-jacobs"
+    ],
+    "teams": []
+  },
+  {
     "id": "1prx07inhb3h2",
     "title": "Packers' Josh Jacobs pleads no contest to charges of battery, criminal damage to property",
     "url": "https://sports.yahoo.com/nfl/breaking-news/article/packers-josh-jacobs-pleads-no-contest-to-charges-of-battery-criminal-damage-to-property-161832635.html",
@@ -642,7 +1268,7 @@
   },
   {
     "id": "927mng1pdivwe",
-    "title": "Seahawks&#039; Sam Darnold injures hip in win over Patriots, fracture ruled out",
+    "title": "Seahawks&#039; Sam Darnold undergoes MRI on injured hip, expected to miss &#039;some&#039; time",
     "url": "https://www.cbssports.com/nfl/news/sam-darnold-hip-exits-seahawks-patriots-season-opener",
     "source": "CBS Sports NFL",
     "sourceId": "cbs-nfl",
@@ -5530,7 +6156,7 @@
   },
   {
     "id": "8qcvwf1kypfal",
-    "title": "NFL news, live updates: Seahawks win after losing Sam Darnold, Brock Bowers to miss 'a game or 2' after undergoing knee procedure Tuesday, Malik Nabers practices in full Wednesday",
+    "title": "NFL news, live updates: Sam Darnold expected to miss Week 2, while A.J. Brown's timeline to return uncertain; Josh Jacobs pleads no contest",
     "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-week-1-142542967.html",
     "source": "Yahoo Sports NFL",
     "sourceId": "yahoo-nfl",
@@ -5546,7 +6172,9 @@
       "treveyon-henderson",
       "brock-bowers",
       "malik-nabers",
-      "sam-darnold"
+      "sam-darnold",
+      "josh-jacobs",
+      "a-j-brown"
     ],
     "teams": [
       "SEA"
@@ -7070,565 +7698,5 @@
     "teams": [
       "ARI"
     ]
-  },
-  {
-    "id": "12ubppwujs55g",
-    "title": "S Taylor Rapp worked out for the Broncos",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/s-taylor-rapp-worked-out-for-the-broncos",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T21:07:46.000Z",
-    "summary": "When safety Taylor Rapp was released by the Broncos in August, the team left the door open for a return.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "b5myv41cmuny0",
-    "title": "S Taylor Rapp worked out for the Broncos",
-    "url": "https://sports.yahoo.com/articles/taylor-rapp-worked-broncos-210746819.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T21:07:46.000Z",
-    "summary": "When safety Taylor Rapp was released by the Broncos in August, the team left the door open for a return.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DEN"
-    ],
-    "players": [],
-    "teams": [
-      "DEN"
-    ]
-  },
-  {
-    "id": "122agqkh3ghs8",
-    "title": "Should Terrance Ferguson be kept on the Taxi Squad?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w7gl4x/should_terrance_ferguson_be_kept_on_the_taxi_squad",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-04T20:54:24.000Z",
-    "summary": "Hearing a lot of reports about how T Ferg has the potential to leapfrog the current TE room to be the main pass catcher in the TE corps. But does the hype warrant him to NOT be a taxi squad candidate this year? There is obviously the injury risk factor for Davante and Puka. But with a crowded TE room, would Ferguson really have the opportunity to garner a large target share? Or would he only be a ",
-    "tags": [
-      "dynasty",
-      "injury",
-      "usage"
-    ],
-    "players": [
-      "terrance-ferguson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1iztkgj1r8vaz3",
-    "title": "Falcons sign LB Bralen Trice back to practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-sign-lb-bralen-trice-back-to-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T20:44:11.000Z",
-    "summary": "The Falcons signed linebacker Bralen Trice to the practice squad, the team announced.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "4n7jjl1xzu73t",
-    "title": "Falcons sign LB Bralen Trice back to practice squad",
-    "url": "https://sports.yahoo.com/articles/falcons-sign-lb-bralen-trice-204411077.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T20:44:11.000Z",
-    "summary": "The Falcons signed linebacker Bralen Trice to the practice squad, the team announced.",
-    "tags": [
-      "league-news",
-      "contract",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "93ly6m1hc3cjk",
-    "title": "Sean McVay: I look at Stetson Bennett, Ty Simpson as \"2A, 2B\"",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-i-look-at-stetson-bennett-ty-simpson-as-2a-2b",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T20:41:36.000Z",
-    "summary": "The Rams released a depth chart that shows Stetson Bennett as the team's second quarterback and first-round pick Ty Simpson as their third quarterback, but head coach Sean McVay said things are less clear cut than that would make it appear.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "usage",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "13v4l41ib44x",
-    "title": "Sean McVay: I look at Stetson Bennett, Ty Simpson as \"2A, 2B\"",
-    "url": "https://sports.yahoo.com/articles/sean-mcvay-look-stetson-bennett-204136352.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T20:41:36.000Z",
-    "summary": "The Rams released a depth chart that shows Stetson Bennett as the team's second quarterback and first-round pick Ty Simpson as their third quarterback, but head coach Sean McVay said things are less clear cut than that would make it appear.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "usage",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "mu7k4614wwloi",
-    "title": "Cowboys' captains: Kenny Clark, Quinnen Williams, Dak Prescott, Brandon Aubrey",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-captains-kenny-clark-quinnen-williams-dak-prescott-brandon-aubrey",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T19:11:52.000Z",
-    "summary": "The Cowboys have two defensive captains this season, and both were acquired by trading Micah Parsons.",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL"
-    ],
-    "players": [
-      "dak-prescott"
-    ],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "7ft9bj9x1gvv",
-    "title": "Cowboys' captains: Kenny Clark, Quinnen Williams, Dak Prescott, Brandon Aubrey",
-    "url": "https://sports.yahoo.com/articles/cowboys-captains-kenny-clark-quinnen-191152563.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T19:11:52.000Z",
-    "summary": "The Cowboys have two defensive captains this season, and both were acquired by trading Micah Parsons.",
-    "tags": [
-      "league-news",
-      "trade",
-      "DAL"
-    ],
-    "players": [
-      "dak-prescott"
-    ],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1bqdrsw1u5dhfw",
-    "title": "Shaq Mason won't be disciplined after 2025 arrest, remains a free agent",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shaq-mason-wont-be-disciplined-after-2025-arrest-remains-a-free-agent",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T18:58:25.000Z",
-    "summary": "Shaq Mason is ready to resume his career.",
-    "tags": [
-      "league-news",
-      "discipline"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1x7eiwliy4gi9",
-    "title": "Shaq Mason won't be disciplined after 2025 arrest, remains a free agent",
-    "url": "https://sports.yahoo.com/articles/shaq-mason-wont-disciplined-2025-185825362.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T18:58:25.000Z",
-    "summary": "Shaq Mason is ready to resume his career.",
-    "tags": [
-      "league-news",
-      "discipline"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "z8zgjwq63hze",
-    "title": "Report: Clemson tells LSU that use of former NFL players could breach game contract",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-clemson-tells-lsu-that-use-of-former-nfl-players-could-breach-game-contract",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T18:54:44.000Z",
-    "summary": "As the SEC and LSU continue to battle over whether the Tigers will use former NFL players in Saturday night's regular-season opener, LSU's opponent has chimed in.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1jxwonk1fo9zu4",
-    "title": "Michael Irvin makes impassioned defense of 49ers owner Jed York after prostitution arrest",
-    "url": "https://sports.yahoo.com/articles/michael-irvin-makes-impassioned-defense-182844758.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T18:28:44.000Z",
-    "summary": "Jed York has one Hall of Famer on his side. Michael Irvin believes York’s prostitution arrest was blown out of proportion and downplayed the severity of the crime. “He got...",
-    "tags": [
-      "league-news",
-      "discipline",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "15xcd001n45r4a",
-    "title": "Chicago Bears Restructure Multiple Contracts, Gain $17M in Cap Space",
-    "url": "https://sports.yahoo.com/articles/chicago-bears-restructure-multiple-contracts-172838833.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T17:28:38.000Z",
-    "summary": "The latest movement of monies allow for the Bears to get under the salary cap for this upcoming 2026 regular season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "0hg3nfsxe6m1",
-    "title": "Seahawks bringing in undrafted offensive tackle for workout",
-    "url": "https://sports.yahoo.com/articles/seahawks-bringing-undrafted-offensive-tackle-165420362.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T16:54:20.000Z",
-    "summary": "Leigh was a three-year starter at offensive tackle for Clemson.",
-    "tags": [
-      "league-news",
-      "usage",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "dgaq7lj18irz",
-    "title": "Devin Singletary as a potential backup to Skattebo?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w79s9f/devin_singletary_as_a_potential_backup_to_skattebo",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-04T16:48:16.000Z",
-    "summary": "I haven't seen much discussion about Singletary here. The Giants' depth chart currently lists Harris OR Tracy OR Singletary behind Skat. Singetary rested in some of the preseason games while Harris and Tracy played. Harris might be washed and Tracy's fumble + blown up pass protection seemed to harm his standing. Is Singletary worth a dart throw in deep leagues? &#32; submitted by &#32; /u/NinjaSoo",
-    "tags": [
-      "dynasty",
-      "usage",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1ttlscddzg71v",
-    "title": "Brian Schottenheimer says he's \"elated\" to have Joe Milton on Cowboys' practice squad",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-says-hes-elated-to-have-joe-milton-on-cowboys-practice-squad",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T15:35:48.000Z",
-    "summary": "When the Cowboys waived quarterback Joe Milton, they knew they wanted him back on the practice squad, but they weren't sure if another team would claim him on waivers, or persuade him to join a different practice squad.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "fcc4ce19zazc",
-    "title": "Brian Schottenheimer says he's \"elated\" to have Joe Milton on Cowboys' practice squad",
-    "url": "https://sports.yahoo.com/articles/brian-schottenheimer-says-hes-elated-153548037.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T15:35:48.000Z",
-    "summary": "When the Cowboys waived quarterback Joe Milton, they knew they wanted him back on the practice squad, but they weren't sure if another team would claim him on waivers, or persuade him to join a different practice squad.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1jhxsirbd9j03",
-    "title": "When should the Raiders start Fernando Mendoza? The too-early, too-late and just-right options",
-    "url": "https://sports.yahoo.com/nfl/article/when-should-the-raiders-start-fernando-mendoza-the-too-early-too-late-and-just-right-options-153110075.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T15:31:10.000Z",
-    "summary": "Kirk Cousins will start Week 1. Mendoza must wait for his shot, but how patient will Klint Kubiak be?",
-    "tags": [
-      "league-news",
-      "LV"
-    ],
-    "players": [
-      "fernando-mendoza",
-      "kirk-cousins"
-    ],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "1nz9cmfkhco4j",
-    "title": "The 49ers’ cap space allows them to be aggressive ahead of the trade deadline",
-    "url": "https://sports.yahoo.com/articles/49ers-cap-space-allows-them-153100430.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T15:31:00.000Z",
-    "summary": "According to John Lynch, the 49ers need to put themselves in a position to make a move",
-    "tags": [
-      "league-news",
-      "trade",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "gtkwc1gz7py0",
-    "title": "Raiders News: Evan Neal, Azeez Ojulari, Ronnie Bell sign to practice squad",
-    "url": "https://sports.yahoo.com/articles/raiders-news-evan-neal-azeez-140000082.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T14:00:00.000Z",
-    "summary": "After working out 16 players, three are joining the practice squad",
-    "tags": [
-      "league-news",
-      "contract",
-      "LV"
-    ],
-    "players": [],
-    "teams": [
-      "LV"
-    ]
-  },
-  {
-    "id": "18h92yx1ffjedd",
-    "title": "Chiefs’ Trey Smith: ‘You’re never going to feel 100% playing football’",
-    "url": "https://sports.yahoo.com/articles/chiefs-trey-smith-never-going-133000185.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T13:30:00.000Z",
-    "summary": "Kansas City’s right guard is ready to go after missing part of training camp with a hip injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "KC"
-    ],
-    "players": [],
-    "teams": [
-      "KC"
-    ]
-  },
-  {
-    "id": "1whtckrhcw0v",
-    "title": "Tank Dell agrees to revised contract for 2026",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tank-dell-agrees-to-revised-contract-for-2026",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T13:19:57.000Z",
-    "summary": "Wide receiver Tank Dell and the Texans have worked out a revised contract for the coming season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [
-      "tank-dell"
-    ],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "1kf63tjf180z",
-    "title": "Bears restructure Joe Thuney, Dayo Odeyingbo, T.J. Edwards contracts",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-restructure-joe-thuney-dayo-odeyingbo-t-j-edwards-contracts",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T13:14:54.000Z",
-    "summary": "The Bears have reworked several contracts to free up cap space ahead of the 2026 season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "r0yudbngogs9",
-    "title": "Bears restructure Joe Thuney, Dayo Odeyingbo, T.J. Edwards contracts",
-    "url": "https://sports.yahoo.com/articles/bears-restructure-joe-thuney-dayo-131454982.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T13:14:54.000Z",
-    "summary": "The Bears have reworked several contracts to free up cap space ahead of the 2026 season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "CHI"
-    ],
-    "players": [],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "r6v891thmb1x",
-    "title": "49ers announce defensive end Sam Okuayinonu will not play Thursday vs. Rams",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-announce-defensive-end-sam-okuayinonu-will-not-play-thursday-vs-rams",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T11:36:10.000Z",
-    "summary": "Okuayinonu did not travel with the team to Australia and will not play Week One because of a foot injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAR",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "LAR",
-      "SF"
-    ]
-  },
-  {
-    "id": "1oswx2t12ukisj",
-    "title": "What the media is saying about the Cardinals inking WR Michael Wilson’s extension",
-    "url": "https://sports.yahoo.com/articles/media-saying-cardinals-inking-wr-110000474.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T11:00:00.000Z",
-    "summary": "The talented receiver has proven why he is now WR1 for Arizona",
-    "tags": [
-      "league-news",
-      "contract",
-      "ARI"
-    ],
-    "players": [
-      "michael-wilson"
-    ],
-    "teams": [
-      "ARI"
-    ]
-  },
-  {
-    "id": "xik1gb1ownn17",
-    "title": "49ers’ depth at key spot takes hit as likely starter ruled out for Week 1",
-    "url": "https://sports.yahoo.com/articles/49ers-depth-key-spot-takes-103355297.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T10:33:55.000Z",
-    "summary": "The 49ers’ dire situation at defensive end just got even worse.",
-    "tags": [
-      "league-news",
-      "usage",
-      "availability",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "19bc2r74xbz2d",
-    "title": "'I love the eyes on me.' Giants' Cam Skattebo back after brutal injury",
-    "url": "https://sports.yahoo.com/articles/love-eyes-giants-cam-skattebo-093116628.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T09:31:16.000Z",
-    "summary": "Giants RB Cam Skattebo explored what life looked like outside of football as he rehabbed his dislocated ankle. Now he's ready to return to the field.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NYG"
-    ],
-    "players": [
-      "cam-skattebo"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1lgwi7boxmorb",
-    "title": "Surviving Camp with Markel Bell, Part 4: The reality of the NFL",
-    "url": "https://sports.yahoo.com/articles/surviving-camp-markel-bell-part-070000632.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-04T07:00:00.000Z",
-    "summary": "In our final installment of Surviving Camp, Markel Bell learns the reality of the NFL and prepares for his rookie regular season.",
-    "tags": [
-      "league-news",
-      "rookie"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "nfmpyc1ukzygy",
-    "title": "SEC: We disagree with the court's decision, expect our rules to be followed",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sec-we-disagree-with-the-courts-decision-expect-our-rules-to-be-followed",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-04T02:53:54.000Z",
-    "summary": "The SEC confirmed in a statement that it will appeal the injunction allowing two former NFL players to sign with LSU.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
   }
 ]
