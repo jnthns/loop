@@ -1,5 +1,143 @@
 [
   {
+    "id": "7r38xq5n74xm",
+    "title": "George Kittle, Nick Bosa have no injury designations for Thursday's game",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/george-kittle-nick-bosa-have-no-injury-designations-for-thursdays-game",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-10T10:31:36.000Z",
+    "summary": "The 49ers are set to welcome two of their biggest stars back to the lineup for their first game of the 2026 season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1v3h7nb1btifej",
+    "title": "George Kittle, Nick Bosa have no injury designations for Thursday's game",
+    "url": "https://sports.yahoo.com/articles/george-kittle-nick-bosa-no-103136845.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T10:31:36.000Z",
+    "summary": "The 49ers are set to welcome two of their biggest stars back to the lineup for their first game of the 2026 season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SF"
+    ],
+    "players": [
+      "george-kittle"
+    ],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "1hpr8oe1phzbqm",
+    "title": "Is Ricky Pearsall out for the season? Injury update for 49ers WR",
+    "url": "https://sports.yahoo.com/articles/ricky-pearsall-season-injury-49ers-103120412.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T10:31:20.000Z",
+    "summary": "When will Ricky Pearsall return from his injury? The San Francisco 49ers wide receiver is not playing against the Rams in Week 1.",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAR",
+      "SF"
+    ],
+    "players": [
+      "ricky-pearsall"
+    ],
+    "teams": [
+      "LAR",
+      "SF"
+    ]
+  },
+  {
+    "id": "1q5a2tf3xno0j",
+    "title": "'The best two in the NFL': Backup quarterback Drew Lock rewards Seahawks' faith",
+    "url": "https://sports.yahoo.com/articles/best-two-nfl-backup-quarterback-101045554.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T10:10:45.000Z",
+    "summary": "Sam Darnold's injury in the season opener might have been jarring for the Seahawks, but Seattle knows it has a backup it can count on in Drew Lock.",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1b1iehb2dibkp",
+    "title": "Cleveland Browns news: Injures, QB news, roster building, and more!",
+    "url": "https://sports.yahoo.com/articles/cleveland-browns-news-injures-qb-100000965.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T10:00:00.000Z",
+    "summary": "The latest Cleveland Browns news and notes from around the NFL in the September 10 edition of the Daily Dawg Chow.",
+    "tags": [
+      "league-news",
+      "injury",
+      "CLE"
+    ],
+    "players": [],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "1w4j09s1hwmnoe",
+    "title": "Zay Flowers, Devontez Walker pop up on Ravens’ 1st 2026 injury report",
+    "url": "https://sports.yahoo.com/articles/zay-flowers-devontez-walker-pop-100000895.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T10:00:00.000Z",
+    "summary": "The Ravens released their first injury report of the 2026 regular season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "roster-move",
+      "BAL"
+    ],
+    "players": [
+      "zay-flowers"
+    ],
+    "teams": [
+      "BAL"
+    ]
+  },
+  {
+    "id": "wc6prn7blwoh",
+    "title": "Drew Lock keys comeback win",
+    "url": "https://sports.yahoo.com/articles/drew-lock-keys-comeback-win-061609172.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-10T06:16:09.000Z",
+    "summary": "An early injury to Sam Darnold (hip) put Lock in the spotlight, and he responded with a solid effort in leading Seattle to a comeback win.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "sam-darnold"
+    ],
+    "teams": []
+  },
+  {
     "id": "0jzljijfczcn",
     "title": "Seahawks pick off Drake Maye 3 times to beat Patriots 13-10 in Super Bowl rematch",
     "url": "https://www.espn.com/nfl/recap?gameId=401872656",
@@ -7466,140 +7604,6 @@
     "teams": [
       "NYG",
       "PIT"
-    ]
-  },
-  {
-    "id": "tdkgcm15mmrsu",
-    "title": "Jets work out draft bust Will Levis after Titans release",
-    "url": "https://sports.yahoo.com/articles/jets-draft-bust-levis-titans-205904297.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T20:59:04.000Z",
-    "summary": "The Jets named rookie Cade Klubnik as their backup quarterback this week, but that does not mean they’re done exploring the quarterback market.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "roster-move",
-      "NYJ",
-      "TEN"
-    ],
-    "players": [],
-    "teams": [
-      "NYJ",
-      "TEN"
-    ]
-  },
-  {
-    "id": "l8hqir14bmjgv",
-    "title": "Nnamdi Madubuike did team drills at Ravens practice Thursday",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nnamdi-madubuike-did-team-drills-at-ravens-practice-thursday",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T20:48:58.000Z",
-    "summary": "Ravens head coach Jesse Minter said earlier this week that he does not see defensive tackle Nnamdi Madubuike \"missing that many games\" as he finishes his comeback from last season's neck injury and a development on Thursday suggests he may not miss any games at all.",
-    "tags": [
-      "league-news",
-      "injury",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1ig1ybs1ikoa3g",
-    "title": "Nnamdi Madubuike did team drills at Ravens practice Thursday",
-    "url": "https://sports.yahoo.com/articles/nnamdi-madubuike-did-team-drills-204858143.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T20:48:58.000Z",
-    "summary": "Ravens head coach Jesse Minter said earlier this week that he does not see defensive tackle Nnamdi Madubuike \"missing that many games\" as he finishes his comeback from last season's neck injury and a development on Thursday suggests he may not miss any games at all.",
-    "tags": [
-      "league-news",
-      "injury",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "0dzwzfzivo6r",
-    "title": "Agent&#039;s Take: Why the Patriots and superstar Christian Gonzalez are embroiled in a contract impasse",
-    "url": "https://www.cbssports.com/nfl/news/agents-take-why-the-patriots-and-superstar-christian-gonzalez-are-embroiled-in-a-contract-impasse",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-09-03T20:48:56.000Z",
-    "summary": "Devon Witherspoon&#039;s record-setting deal reset the market, leaving the Patriots to work through cash-flow and guarantee benchmarks for their star cornerback before the season kicks off next week",
-    "tags": [
-      "league-news",
-      "contract",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "1mswnh2eln8wy",
-    "title": "Mike Tomlin explains why Steelers traded George Pickens",
-    "url": "https://sports.yahoo.com/articles/mike-tomlin-explains-why-steelers-204456822.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T20:44:56.000Z",
-    "summary": "Mike Tomlin breaks down reasons for Steelers trading George Pickens.",
-    "tags": [
-      "league-news",
-      "trade",
-      "PIT"
-    ],
-    "players": [
-      "george-pickens"
-    ],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "1ohjf20qsdgro",
-    "title": "Patriots add former Saints safety to practice squad, release defensive tackle",
-    "url": "https://sports.yahoo.com/articles/patriots-add-former-saints-safety-204256727.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-03T20:42:56.000Z",
-    "summary": "A spot on New England’s initial practice squad has changed hands.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NE",
-      "NO"
-    ],
-    "players": [],
-    "teams": [
-      "NE",
-      "NO"
-    ]
-  },
-  {
-    "id": "17u3cj41k7izeo",
-    "title": "Rams' depth chart lists Stetson Bennett as No. 2 QB, Ty Simpson No. 3",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-depth-chart-lists-stetson-bennett-as-no-2-qb-ty-simpson-no-3",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-03T20:17:31.000Z",
-    "summary": "Ty Simpson was the No. 13 overall pick in the 2026 NFL draft, but he's only the No. 3 quarterback on the Rams.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "usage",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
     ]
   }
 ]
