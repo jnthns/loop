@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-09-10T11:16:53.799Z",
-  "snapshotAt": "2026-09-09T12:06:21Z",
+  "capturedAt": "2026-09-10T16:22:49.905Z",
+  "snapshotAt": "2026-09-10T12:01:46Z",
   "season": "2026",
   "entries": [
     {
@@ -130,14 +130,6 @@
       "nflTeam": "ATL",
       "depthRank": 1,
       "sleeperId": "8112"
-    },
-    {
-      "id": "jahan-dotson",
-      "name": "Jahan Dotson",
-      "pos": "WR",
-      "nflTeam": "ATL",
-      "depthRank": 2,
-      "sleeperId": "8119"
     },
     {
       "id": "zachariah-branch",
@@ -796,19 +788,11 @@
       "sleeperId": "5045"
     },
     {
-      "id": "troy-franklin",
-      "name": "Troy Franklin",
-      "pos": "WR",
-      "nflTeam": "DEN",
-      "depthRank": 3,
-      "sleeperId": "11627"
-    },
-    {
       "id": "marvin-mims",
       "name": "Marvin Mims",
       "pos": "WR",
       "nflTeam": "DEN",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "9494"
     },
     {
@@ -816,8 +800,16 @@
       "name": "Pat Bryant",
       "pos": "WR",
       "nflTeam": "DEN",
-      "depthRank": 5,
+      "depthRank": 4,
       "sleeperId": "12492"
+    },
+    {
+      "id": "troy-franklin",
+      "name": "Troy Franklin",
+      "pos": "WR",
+      "nflTeam": "DEN",
+      "depthRank": 5,
+      "sleeperId": "11627"
     },
     {
       "id": "jared-goff",
@@ -1736,7 +1728,7 @@
       "name": "J.J. McCarthy",
       "pos": "QB",
       "nflTeam": "MIN",
-      "depthRank": 2,
+      "depthRank": 3,
       "sleeperId": "11565"
     },
     {
@@ -2308,6 +2300,14 @@
       "sleeperId": "4943"
     },
     {
+      "id": "drew-lock",
+      "name": "Drew Lock",
+      "pos": "QB",
+      "nflTeam": "SEA",
+      "depthRank": 2,
+      "sleeperId": "5854"
+    },
+    {
       "id": "jalen-milroe",
       "name": "Jalen Milroe",
       "pos": "QB",
@@ -2344,7 +2344,7 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "nflTeam": "SEA",
-      "depthRank": 4,
+      "depthRank": 5,
       "sleeperId": "9753"
     },
     {

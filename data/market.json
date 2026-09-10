@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-10T11:16:52.788Z",
+  "capturedAt": "2026-09-10T16:22:48.873Z",
   "scrapeDate": "2026-09-04",
   "sources": [
     {
@@ -5833,7 +5833,7 @@
       "sleeperId": "8119",
       "ktcId": "1272",
       "espnId": "4361409",
-      "playerId": "jahan-dotson",
+      "playerId": null,
       "name": "Jahan Dotson",
       "pos": "WR",
       "nflTeam": "ATL",
@@ -7414,7 +7414,7 @@
       "sleeperId": "5854",
       "ktcId": "33",
       "espnId": "3924327",
-      "playerId": null,
+      "playerId": "drew-lock",
       "name": "Drew Lock",
       "pos": "QB",
       "nflTeam": "SEA",
