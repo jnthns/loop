@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-09-11T11:18:11.047Z",
-  "snapshotAt": "2026-09-10T12:01:46Z",
+  "capturedAt": "2026-09-11T16:26:49.797Z",
+  "snapshotAt": "2026-09-11T12:21:50Z",
   "season": "2026",
   "entries": [
     {
@@ -90,6 +90,14 @@
       "nflTeam": "ATL",
       "depthRank": 2,
       "sleeperId": "11559"
+    },
+    {
+      "id": "cooper-rush",
+      "name": "Cooper Rush",
+      "pos": "QB",
+      "nflTeam": "ATL",
+      "depthRank": 3,
+      "sleeperId": "4574"
     },
     {
       "id": "jack-strand",
@@ -1292,14 +1300,6 @@
       "sleeperId": "13337"
     },
     {
-      "id": "brashard-smith",
-      "name": "Brashard Smith",
-      "pos": "RB",
-      "nflTeam": "KC",
-      "depthRank": 3,
-      "sleeperId": "12455"
-    },
-    {
       "id": "travis-kelce",
       "name": "Travis Kelce",
       "pos": "TE",
@@ -1416,7 +1416,7 @@
       "name": "Max Klare",
       "pos": "TE",
       "nflTeam": "LA",
-      "depthRank": 4,
+      "depthRank": 5,
       "sleeperId": "13278"
     },
     {
@@ -1860,6 +1860,14 @@
       "sleeperId": "9501"
     },
     {
+      "id": "mack-hollins",
+      "name": "Mack Hollins",
+      "pos": "WR",
+      "nflTeam": "NE",
+      "depthRank": 4,
+      "sleeperId": "4177"
+    },
+    {
       "id": "kyle-williams",
       "name": "Kyle Williams",
       "pos": "WR",
@@ -1940,20 +1948,20 @@
       "sleeperId": "11834"
     },
     {
-      "id": "bryce-lance",
-      "name": "Bryce Lance",
-      "pos": "WR",
-      "nflTeam": "NO",
-      "depthRank": 3,
-      "sleeperId": "13420"
-    },
-    {
       "id": "barion-brown",
       "name": "Barion Brown",
       "pos": "WR",
       "nflTeam": "NO",
-      "depthRank": 4,
+      "depthRank": 3,
       "sleeperId": "13533"
+    },
+    {
+      "id": "bryce-lance",
+      "name": "Bryce Lance",
+      "pos": "WR",
+      "nflTeam": "NO",
+      "depthRank": 4,
+      "sleeperId": "13420"
     },
     {
       "id": "jordyn-tyson",
@@ -2344,7 +2352,7 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "nflTeam": "SEA",
-      "depthRank": 5,
+      "depthRank": 4,
       "sleeperId": "9753"
     },
     {
@@ -2476,19 +2484,19 @@
       "sleeperId": "13417"
     },
     {
-      "id": "jordan-watkins",
-      "name": "Jordan Watkins",
+      "id": "demarcus-robinson",
+      "name": "Demarcus Robinson",
       "pos": "WR",
       "nflTeam": "SF",
-      "depthRank": 5,
-      "sleeperId": "12634"
+      "depthRank": 4,
+      "sleeperId": "3286"
     },
     {
       "id": "christian-kirk",
       "name": "Christian Kirk",
       "pos": "WR",
       "nflTeam": "SF",
-      "depthRank": 7,
+      "depthRank": 8,
       "sleeperId": "4950"
     },
     {
@@ -2496,7 +2504,7 @@
       "name": "Ricky Pearsall",
       "pos": "WR",
       "nflTeam": "SF",
-      "depthRank": 9,
+      "depthRank": 10,
       "sleeperId": "11638"
     },
     {
@@ -2530,6 +2538,14 @@
       "nflTeam": "TB",
       "depthRank": 2,
       "sleeperId": "7567"
+    },
+    {
+      "id": "sean-tucker",
+      "name": "Sean Tucker",
+      "pos": "RB",
+      "nflTeam": "TB",
+      "depthRank": 3,
+      "sleeperId": "9506"
     },
     {
       "id": "cade-otton",

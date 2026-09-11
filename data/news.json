@@ -1,5 +1,262 @@
 [
   {
+    "id": "7ktkw310an9yt",
+    "title": "Sources: Patriots to add DaQuan Jones on 1-year deal",
+    "url": "https://www.espn.com/nfl/story/_/id/49904397/sources-patriots-add-daquan-jones-1-year-6m-deal",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-11T16:14:04.000Z",
+    "summary": "The Patriots are expected to sign free agent defensive tackle DaQuan Jones to a one-year deal worth up to $6 million, sources told NFL Network.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "imt80xbosx1d",
+    "title": "Source: Cardinals RB Love (ankle) expected to play in opener",
+    "url": "https://www.espn.com/nfl/story/_/id/49904717/source-cardinals-rb-love-ankle-expected-play-opener",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-11T16:10:11.000Z",
+    "summary": "Cardinals rookie running back, who has been battling an ankle sprain since mid-August, is expected to play Sunday against the Chargers, a source told ESPN.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "ARI",
+      "LAC"
+    ],
+    "players": [],
+    "teams": [
+      "ARI",
+      "LAC"
+    ]
+  },
+  {
+    "id": "1cw2u781l3h5d0",
+    "title": "Jets rule out Joseph Ossai, list second-rounder D'Angelo Ponds as doubtful for Sunday",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-rule-out-joseph-ossai-list-second-rounder-dangelo-ponds-as-doubtful-for-sunday",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T15:49:43.000Z",
+    "summary": "A couple of new Jets will likely have to wait at least another week before making their debut for the team.",
+    "tags": [
+      "league-news",
+      "availability",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "1ldqwvu1lywa3q",
+    "title": "Jets rule out Joseph Ossai, list second-rounder D'Angelo Ponds as doubtful for Sunday",
+    "url": "https://sports.yahoo.com/articles/jets-rule-joseph-ossai-list-154943689.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T15:49:43.000Z",
+    "summary": "A couple of new Jets will likely have to wait at least another week before making their debut for the team.",
+    "tags": [
+      "league-news",
+      "availability",
+      "NYJ"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ"
+    ]
+  },
+  {
+    "id": "16bwcna1lxhahu",
+    "title": "Myles Garrett gets shut out vs. 49ers: What NFL&#039;s best defensive player said after listless Rams debut",
+    "url": "https://www.cbssports.com/nfl/news/myles-garrett-gets-shut-out-vs-49ers-what-he-said-after-listless-debut",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-11T15:41:08.000Z",
+    "summary": "Myles Garrett recorded zero tackles and zero sacks in his Rams debut, citing a lingering knee injury during the season-opening loss to the 49ers",
+    "tags": [
+      "league-news",
+      "injury",
+      "LAR",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "LAR",
+      "SF"
+    ]
+  },
+  {
+    "id": "1uzmwod1ykq6zj",
+    "title": "Liam Coen: I have a lot of confidence in Travis Hunter to go out and compete for us",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/liam-coen-i-have-a-lot-of-confidence-in-travis-hunter-to-go-out-and-compete-for-us",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T15:38:17.000Z",
+    "summary": "On the night of the first round of last year's draft, the Browns and Jaguars made a trade that allowed Jacksonville to select Travis Hunter at No. 2 overall.",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "CLE",
+      "JAX"
+    ],
+    "players": [
+      "travis-hunter"
+    ],
+    "teams": [
+      "CLE",
+      "JAX"
+    ]
+  },
+  {
+    "id": "16tmj8x1h5h4fj",
+    "title": "Liam Coen: I have a lot of confidence in Travis Hunter to go out and compete for us",
+    "url": "https://sports.yahoo.com/articles/liam-coen-lot-confidence-travis-153817906.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T15:38:17.000Z",
+    "summary": "On the night of the first round of last year's draft, the Browns and Jaguars made a trade that allowed Jacksonville to select Travis Hunter at No. 2 overall.",
+    "tags": [
+      "league-news",
+      "trade",
+      "rookie",
+      "CLE",
+      "JAX"
+    ],
+    "players": [
+      "travis-hunter"
+    ],
+    "teams": [
+      "CLE",
+      "JAX"
+    ]
+  },
+  {
+    "id": "14w51m71qg9739",
+    "title": "Commanders release OT D.J. Humphries",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-release-ot-d-j-humphries",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T15:34:13.000Z",
+    "summary": "D.J.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "1mgy2oe1bbwcgi",
+    "title": "Patriots sign DT DaQuan Jones to reported 1-year contract",
+    "url": "https://sports.yahoo.com/articles/patriots-sign-dt-daquan-jones-153306128.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T15:33:06.000Z",
+    "summary": "New England is signing a free agent to their 53-man roster.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "3jbdypggvn9v",
+    "title": "Report: Patriots are expected to sign DL DaQuan Jones",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-patriots-are-expected-to-sign-dl-daquan-jones",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T15:27:00.000Z",
+    "summary": "The Patriots are set to add some defensive line help as they try to avoid an 0-2 start to the season.",
+    "tags": [
+      "league-news",
+      "contract",
+      "NE"
+    ],
+    "players": [],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
+    "id": "9h075v3pgkuh",
+    "title": "Seahawks can keep winning with Drew Lock, but history offers one big warning",
+    "url": "https://www.cbssports.com/nfl/news/seahawks-can-win-with-drew-lock-history-offers-big-warning",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-11T13:57:37.000Z",
+    "summary": "History shows good teams can survive a short-term QB injury — and Seattle has the roster to do it",
+    "tags": [
+      "league-news",
+      "injury",
+      "SEA"
+    ],
+    "players": [
+      "drew-lock"
+    ],
+    "teams": [
+      "SEA"
+    ]
+  },
+  {
+    "id": "1xp3s331mbiasx",
+    "title": "Why DK Metcalf is a great BUY LOW",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wdft6j/why_dk_metcalf_is_a_great_buy_low",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-11T13:07:11.000Z",
+    "summary": "If you’re looking for a cheap WR to fill a W/R/T spot that will produce, look no further. A reunion of (older, I know) Aaron Rodgers with Mike McCarthy all while replacing Arthur Smith in offensive play-calling is the formula for DK Metcalf production. Barring injury, I believe Metcalf will end up being a starter in the rosters that have him for the whole season. I’m willing to be wrong. However, ",
+    "tags": [
+      "dynasty",
+      "injury",
+      "usage"
+    ],
+    "players": [
+      "aaron-rodgers",
+      "dk-metcalf"
+    ],
+    "teams": []
+  },
+  {
+    "id": "18y5nv3efb49d",
+    "title": "Where to watch Colts vs. Ravens: TV channel, live stream, prediction, pick, odds, spread",
+    "url": "https://www.cbssports.com/nfl/news/where-to-watch-colts-vs-ravens-stream-picks-odds",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-11T12:12:21.000Z",
+    "summary": "Lamar Jackson and Daniel Jones look to bounce back from injury-plagued seasons",
+    "tags": [
+      "league-news",
+      "injury",
+      "BAL",
+      "IND"
+    ],
+    "players": [
+      "daniel-jones",
+      "lamar-jackson"
+    ],
+    "teams": [
+      "BAL",
+      "IND"
+    ]
+  },
+  {
     "id": "1pen4do47gv8a",
     "title": "Patriots injury analysis after season opener vs. Seahawks",
     "url": "https://sports.yahoo.com/articles/patriots-injury-analysis-season-opener-110840837.html",
@@ -5409,6 +5666,24 @@
     "teams": []
   },
   {
+    "id": "xzmw271urado9",
+    "title": "NFL injury tracker Week 1: Latest news, fantasy implications as Tua Tagovailoa (oblique) day-to-day, Brock Bowers (knee) expected to miss time",
+    "url": "https://sports.yahoo.com/fantasy/live/nfl-injury-tracker-week-1-latest-news-fantasy-implications-as-tua-tagovailoa-oblique-day-to-day-brock-bowers-knee-expected-to-miss-time-154233236.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T15:42:33.000Z",
+    "summary": "Here's everything you need to know injury-wise for Week 1 of the NFL season.",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "tua-tagovailoa",
+      "brock-bowers"
+    ],
+    "teams": []
+  },
+  {
     "id": "bmw6li1a42vww",
     "title": "Three Rivers Report: Could Steelers sign recently released WR?",
     "url": "https://sports.yahoo.com/articles/three-rivers-report-could-steelers-153029909.html",
@@ -7548,245 +7823,5 @@
     "teams": [
       "NYG"
     ]
-  },
-  {
-    "id": "1d7p4ca178660y",
-    "title": "Giants, QB Jameis Winston agree to two-year extension",
-    "url": "https://sports.yahoo.com/articles/giants-qb-jameis-winston-agree-214851213.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T21:48:51.000Z",
-    "summary": "No. 1 overall pick in 2015 embraces his status as No. 2 on the depth chart.",
-    "tags": [
-      "league-news",
-      "contract",
-      "usage",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1g9qyo11g5h9f3",
-    "title": "Brayden Willis goes unclaimed; set to return to the practice squad",
-    "url": "https://sports.yahoo.com/articles/brayden-willis-goes-unclaimed-set-212124968.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T21:21:24.000Z",
-    "summary": "A look at what the future holds for Brayden Willis and where he tight end depth chart stands for the 49ers",
-    "tags": [
-      "league-news",
-      "usage",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "19ruz481eufj0m",
-    "title": "Extension will keep Jameis Winston with Giants through 2028 season",
-    "url": "https://sports.yahoo.com/articles/extension-keep-jameis-winston-giants-202558741.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T20:25:58.000Z",
-    "summary": "The Giants keep Jameis Winston a Giant through 2028.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "18rjpesge7eho",
-    "title": "Sam Okuayinonu set to have foot surgery, 49ers hope for return late in season",
-    "url": "https://sports.yahoo.com/articles/sam-okuayinonu-set-foot-surgery-201827304.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T20:18:27.000Z",
-    "summary": "San Francisco coach Kyle Shanahan shared the initial outlook for 49ers defensive end Sam Okuayinonu, who is set to undergo surgery for a foot injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "q81raz1egrhtl",
-    "title": "Jameis Winston, Giants reportedly agree to 2-year extension worth $13 million",
-    "url": "https://sports.yahoo.com/nfl/article/jameis-winston-giants-reportedly-agree-to-2-year-extension-worth-13-million-200659515.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T20:06:59.000Z",
-    "summary": "Winston, 32, is now tied to the Giants through the 2028 season.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1dhbh2q10yoktu",
-    "title": "Goodell Contract Extended After $270B Team Value Gain Since 2006",
-    "url": "https://sports.yahoo.com/articles/goodell-contract-extended-270b-team-192304054.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T19:23:04.000Z",
-    "summary": "Roger Goodell reached an agreement on a four-year contract extension, the league announced Sunday. The deal runs through March 2031 and would mark 25 seasons with Goodell in charge, if he completes the contract. The compensation committee headed by New England Patriots owner Robert Kraft informed the full ownership regarding the extension. The memo, reviewed …",
-    "tags": [
-      "league-news",
-      "contract",
-      "NE"
-    ],
-    "players": [
-      "new-england-patriots"
-    ],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "1faod60jk5t8g",
-    "title": "Packers Preview: Get ready for Edgerrin Cooper playing on the edge",
-    "url": "https://sports.yahoo.com/articles/packers-preview-ready-edgerrin-cooper-191158538.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T19:11:58.000Z",
-    "summary": "At least until Micah Parsons returns from the PUP list",
-    "tags": [
-      "league-news",
-      "injury",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "mo5vdt1rx9ckx",
-    "title": "Why these three Cowboys players made the cut – and what to expect",
-    "url": "https://sports.yahoo.com/articles/why-three-cowboys-players-made-190000104.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T19:00:00.000Z",
-    "summary": "Cowboys roster bubble guys now must contribute",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "e6i9rr19mf1ap",
-    "title": "NFL commissioner Roger Goodell agrees to four-year extension",
-    "url": "https://www.espn.com/nfl/story/_/id/49850050/nfl-commissioner-roger-goodell-finalizes-four-year-extension",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-09-06T18:38:46.000Z",
-    "summary": "NFL commissioner Roger Goodell has finalized a new four-season extension that runs through the 2030 season.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1bivfh9ua2eo9",
-    "title": "Seahawks contract breakdown: The details of Leonard Williams’ extension",
-    "url": "https://sports.yahoo.com/articles/seahawks-contract-breakdown-details-leonard-174905560.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T17:49:05.000Z",
-    "summary": "Williams has been a lightning rod for the Seattle defense since arriving from New York, and his contract says he’s here to stay.",
-    "tags": [
-      "league-news",
-      "contract",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "15g7sxw1x5rvqw",
-    "title": "NFL commissioner Roger Goodell's contract extended through 2030 season",
-    "url": "https://sports.yahoo.com/articles/nfl-commissioner-roger-goodells-contract-174649552.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T17:46:49.000Z",
-    "summary": "Commissioner Roger Goodell is poised to lead the NFL through 2030 after agreeing with owners on a four-year contract extension.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1e3madm1xp8bta",
-    "title": "NFL locks in Roger Goodell with new four-year contract extension through 2031",
-    "url": "https://sports.yahoo.com/articles/nfl-locks-roger-goodell-four-172857918.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T17:28:57.000Z",
-    "summary": "Roger Goodell has signed a new multi-year contract extension that will extend his term as NFL commissioner into 2031.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "19lbbcqd91kw0",
-    "title": "Roger Goodell extended as NFL commissioner for four more years, through 2030 season",
-    "url": "https://www.cbssports.com/nfl/news/roger-goodell-extended-as-nfl-commissioner-four-more-years",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-09-06T17:25:00.000Z",
-    "summary": "Goodell is now under contract through what will be his 24th season as the league&#039;s commissioner",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "ptv8zkc0ui56",
-    "title": "NFL announces new contract for Roger Goodell",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-announces-new-contract-for-roger-goodell",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-06T17:20:26.000Z",
-    "summary": "Goodell is now signed through March 31, 2031.",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
   }
 ]
