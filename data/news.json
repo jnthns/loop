@@ -1,5 +1,1295 @@
 [
   {
+    "id": "1q6vk6b150yxvh",
+    "title": "Cowboys' Malik Davis (hip) injured in practice, out for opener",
+    "url": "https://www.espn.com/nfl/story/_/id/49906649/cowboys-malik-davis-hip-injured-practice-opener",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-11T20:55:09.000Z",
+    "summary": "Dallas Cowboys running back Malik Davis was ruled out of Sunday's season opener against the New York Giants and could miss more time because of a hip injury suffered in Friday's practice, according to sources.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "DAL",
+      "NYG"
+    ],
+    "players": [
+      "malik-davis"
+    ],
+    "teams": [
+      "DAL",
+      "NYG"
+    ]
+  },
+  {
+    "id": "941sd39rqfun",
+    "title": "Raiders RB Ashton Jeanty officially is off the injury report and good to go Sunday against the Dolphins. Tight end Brock Bowers officially has been ruled out Sunday.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wdsavc/raiders_rb_ashton_jeanty_officially_is_off_the",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-11T20:47:56.000Z",
+    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury",
+      "availability",
+      "LV",
+      "MIA"
+    ],
+    "players": [
+      "ashton-jeanty",
+      "brock-bowers"
+    ],
+    "teams": [
+      "LV",
+      "MIA"
+    ]
+  },
+  {
+    "id": "1mlqebmlhrybs",
+    "title": "Eagles LB Jonathan Greenard out Week 1 due to pec injury",
+    "url": "https://www.espn.com/nfl/story/_/id/49906739/eagles-lb-jonathan-greenard-week-1-due-pec-injury",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-11T20:47:27.000Z",
+    "summary": "The Eagles have ruled out edge rusher Jonathan Greenard for Week 1 due to a pec injury. Greenard missed all of training camp but was a limited participant in practice this week.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "1o8zn9f14t4a1d",
+    "title": "Giants are listing WR Malik Nabers as questionable for Sunday night’s game against the Cowboys.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wds7t0/giants_are_listing_wr_malik_nabers_as",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-11T20:44:41.000Z",
+    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "availability",
+      "DAL",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "DAL",
+      "NYG"
+    ]
+  },
+  {
+    "id": "18tallr5wxap",
+    "title": "Lions release DL Levi Onwuzurike",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-release-dl-levi-onwuzurike",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T20:41:01.000Z",
+    "summary": "The Lions dropped a player from their active roster on Friday.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "DET"
+    ],
+    "players": [],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "1cxegw8q6726q",
+    "title": "Lions release DL Levi Onwuzurike",
+    "url": "https://sports.yahoo.com/articles/lions-release-dl-levi-onwuzurike-204101510.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:41:01.000Z",
+    "summary": "The Lions dropped a player from their active roster on Friday.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "DET"
+    ],
+    "players": [],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "q8lmzn1so6ogp",
+    "title": "Ravens rule out LB Teddye Buchanan",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-rule-out-lb-teddye-buchanan",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T20:39:49.000Z",
+    "summary": "The Ravens officially ruled out two players for Sunday's season opener against the Colts.",
+    "tags": [
+      "league-news",
+      "availability",
+      "BAL",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "IND"
+    ]
+  },
+  {
+    "id": "aafipkz9zviy",
+    "title": "Ravens rule out LB Teddye Buchanan",
+    "url": "https://sports.yahoo.com/articles/ravens-rule-lb-teddye-buchanan-203949187.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:39:49.000Z",
+    "summary": "The Ravens officially ruled out two players for Sunday's season opener against the Colts.",
+    "tags": [
+      "league-news",
+      "availability",
+      "BAL",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "IND"
+    ]
+  },
+  {
+    "id": "qz5fjr1mjomal",
+    "title": "Sources: Bears, RB Swift agree to 3-year, $33.75M extension",
+    "url": "https://www.espn.com/nfl/story/_/id/49906474/bears-rb-swift-agree-3-year-3375m-extension",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-11T20:38:41.000Z",
+    "summary": "The Chicago Bears and RB D'Andre Swift have reached an agreement on a 3-year, $33.75 million extension that includes $27.5M guaranteed, sources told ESPN's Adam Schefter.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [
+      "d-andre-swift"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1qpioha1wce5nu",
+    "title": "Chiefs-Broncos Week 1 Friday injury report: Chris Jones a limited participant",
+    "url": "https://sports.yahoo.com/articles/chiefs-broncos-week-1-friday-203641362.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:36:41.000Z",
+    "summary": "The latest injury news for the Week 1 game between Kansas City and Denver.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "DEN",
+      "KC"
+    ],
+    "players": [],
+    "teams": [
+      "DEN",
+      "KC"
+    ]
+  },
+  {
+    "id": "mdoluz1d6fzi3",
+    "title": "Baltimore Ravens Week 1 injury report",
+    "url": "https://sports.yahoo.com/articles/baltimore-ravens-week-1-injury-203517260.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:35:17.000Z",
+    "summary": "The Baltimore Ravens have published their Week 1 injury report ahead of their matchup with the Colts.",
+    "tags": [
+      "league-news",
+      "injury",
+      "BAL",
+      "IND"
+    ],
+    "players": [],
+    "teams": [
+      "BAL",
+      "IND"
+    ]
+  },
+  {
+    "id": "16sglmj1ilyhwn",
+    "title": "Giants list Malik Nabers as questionable to play Sunday night",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-list-malik-nabers-as-questionable-to-play-sunday-night",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T20:34:48.000Z",
+    "summary": "Wide receiver Malik Nabers was a full participant in practice again on Friday, but the team isn't ready to say anything definitive about his status for Sunday night's game against the Cowboys.",
+    "tags": [
+      "league-news",
+      "availability",
+      "DAL",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "DAL",
+      "NYG"
+    ]
+  },
+  {
+    "id": "1gba49af1w2ug",
+    "title": "Giants list Malik Nabers as questionable to play Sunday night",
+    "url": "https://sports.yahoo.com/articles/giants-list-malik-nabers-questionable-203448119.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:34:48.000Z",
+    "summary": "Wide receiver Malik Nabers was a full participant in practice again on Friday, but the team isn't ready to say anything definitive about his status for Sunday night's game against the Cowboys.",
+    "tags": [
+      "league-news",
+      "availability",
+      "DAL",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "DAL",
+      "NYG"
+    ]
+  },
+  {
+    "id": "62g22q1hfc1pq",
+    "title": "Detroit Lions release Levi Onwuzurike and rookie DL",
+    "url": "https://sports.yahoo.com/articles/detroit-lions-release-levi-onwuzurike-202952841.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:29:52.000Z",
+    "summary": "Detroit Lions have released DL Levi Onwuzurike, but there could be some roster manipulation at play.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "roster-move",
+      "DET"
+    ],
+    "players": [],
+    "teams": [
+      "DET"
+    ]
+  },
+  {
+    "id": "1srftht18zd67b",
+    "title": "Cowboys injuries: Dallas running back ruled out after Friday injury",
+    "url": "https://sports.yahoo.com/articles/cowboys-injuries-dallas-running-back-202636258.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:26:36.000Z",
+    "summary": "Here is Friday's injury report for the Dallas Cowboys.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "DAL"
+    ],
+    "players": [],
+    "teams": [
+      "DAL"
+    ]
+  },
+  {
+    "id": "13gxpa51kje5wh",
+    "title": "Giants' Malik Nabers listed as questionable for season opener against Cowboys",
+    "url": "https://sports.yahoo.com/articles/giants-malik-nabers-listed-questionable-202317971.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:23:17.000Z",
+    "summary": "The Giants released their injury report for their season opener against the Dallas Cowboys on Sunday night and wide receiver Malik Nabers is listed as questionable.",
+    "tags": [
+      "league-news",
+      "injury",
+      "roster-move",
+      "availability",
+      "DAL",
+      "NYG"
+    ],
+    "players": [
+      "malik-nabers"
+    ],
+    "teams": [
+      "DAL",
+      "NYG"
+    ]
+  },
+  {
+    "id": "7l8kqi1x3as4u",
+    "title": "Steelers&#039; Joey Porter Jr. denies seeking record contract as Week 1 deadline approaches",
+    "url": "https://www.cbssports.com/nfl/news/steelers-joey-porter-contract",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-11T20:21:08.000Z",
+    "summary": "Contract negotiations remain unresolved, but Porter says the business side of the NFL has not changed his desire to stay in Pittsburgh",
+    "tags": [
+      "league-news",
+      "contract",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "PIT"
+    ]
+  },
+  {
+    "id": "1ot45ak1b2xz5s",
+    "title": "Week 1 injury report for the New York Jets",
+    "url": "https://sports.yahoo.com/articles/week-1-injury-report-york-201833795.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:18:33.000Z",
+    "summary": "The Jets have published their Week 1 injury report for their matchup with the Titans.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NYJ",
+      "TEN"
+    ],
+    "players": [],
+    "teams": [
+      "NYJ",
+      "TEN"
+    ]
+  },
+  {
+    "id": "1umv4k8k33fe2",
+    "title": "Texans rookie Kayden McDonald placed on IR with ankle injury",
+    "url": "https://www.espn.com/nfl/story/_/id/49906512/texans-rookie-kayden-mcdonald-placed-ir-ankle-injury",
+    "source": "ESPN",
+    "sourceId": "espn-api",
+    "publishedAt": "2026-09-11T20:18:13.000Z",
+    "summary": "Texans rookie defensive tackle Kayden McDonald (ankle) was placed on injured reserve, meaning he'll have to wait four weeks to make his debut.",
+    "tags": [
+      "league-news",
+      "injury",
+      "rookie",
+      "roster-move",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "axurmg29161i",
+    "title": "Eagles-Commanders Final Injury Report: Jonathan Greenard ruled OUT",
+    "url": "https://sports.yahoo.com/articles/eagles-commanders-final-injury-report-201119390.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:11:19.000Z",
+    "summary": "Week 1 game status updates.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "PHI",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "PHI",
+      "WAS"
+    ]
+  },
+  {
+    "id": "15ffoou1rk0iym",
+    "title": "Rome Odunze: I feel ready to go; I plan on playing",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rome-odunze-i-feel-ready-to-go-i-plan-on-playing",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T20:08:22.000Z",
+    "summary": "Bears wide receiver Rome Odunze is listed as questionable to play in the season opener because of a calf injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "CHI"
+    ],
+    "players": [
+      "rome-odunze"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "e5nigp1121ze5",
+    "title": "Packers list Bako-Bewele & Banks as questionable against Vikings",
+    "url": "https://sports.yahoo.com/articles/packers-list-bako-bewele-banks-200635652.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:06:35.000Z",
+    "summary": "The two starting linemen will be game-time decisions.",
+    "tags": [
+      "league-news",
+      "availability",
+      "GB",
+      "MIN"
+    ],
+    "players": [],
+    "teams": [
+      "GB",
+      "MIN"
+    ]
+  },
+  {
+    "id": "7kgxar1jxin1v",
+    "title": "Eagles rule Jonathan Greenard out for Week 1",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-rule-jonathan-greenard-out-for-week-1",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T20:03:18.000Z",
+    "summary": "Linebacker Jonathan Greenard said on Thursday that he feels \"close\" to being ready to play after missing all of training camp and the preseason with a pectoral injury, but he's not close enough to be in the lineup this weekend.",
+    "tags": [
+      "league-news",
+      "injury",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "1cbywod15tjld1",
+    "title": "Eagles rule Jonathan Greenard out for Week 1",
+    "url": "https://sports.yahoo.com/articles/eagles-rule-jonathan-greenard-week-200318026.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T20:03:18.000Z",
+    "summary": "Linebacker Jonathan Greenard said on Thursday that he feels \"close\" to being ready to play after missing all of training camp and the preseason with a pectoral injury, but he's not close enough to be in the lineup this weekend.",
+    "tags": [
+      "league-news",
+      "injury",
+      "PHI"
+    ],
+    "players": [],
+    "teams": [
+      "PHI"
+    ]
+  },
+  {
+    "id": "104o3t6bimc8w",
+    "title": "NFL Week 1 injuries: Bears wideout Rome Odunze, Saints running back Alvin Kamara listed as questionable",
+    "url": "https://www.cbssports.com/nfl/news/nfl-week-1-injuries-tracker-rome-odunze-alvin-kamara",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-11T20:00:14.000Z",
+    "summary": "Alvin Kamara and Rome Odunze are questionable for the season opener, while Cameron Jordan is ruled out and Jonathon Brooks is cleared to return for the Panthers",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "CAR",
+      "CHI",
+      "NO"
+    ],
+    "players": [
+      "alvin-kamara",
+      "jonathon-brooks",
+      "rome-odunze"
+    ],
+    "teams": [
+      "CAR",
+      "CHI",
+      "NO"
+    ]
+  },
+  {
+    "id": "1gl93vq1y6fj1i",
+    "title": "RB D'Andre Swift becomes latest key Bears player to earn a big extension",
+    "url": "https://sports.yahoo.com/nfl/article/rb-dandre-swift-becomes-latest-key-bears-player-to-earn-a-big-extension-195342263.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:53:42.000Z",
+    "summary": "The Bears and RB D'Andre Swift have agreed to a three-year extension worth $33.75 million.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [
+      "d-andre-swift"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1nljbsw1s11qo6",
+    "title": "Lions-Saints injury report: Only 1 questionable player",
+    "url": "https://sports.yahoo.com/articles/lions-saints-injury-report-only-195042822.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:50:42.000Z",
+    "summary": "The Detroit Lions have just 1 questionable player on their final injury report vs. New Orleans Saints.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "DET",
+      "NO"
+    ],
+    "players": [],
+    "teams": [
+      "DET",
+      "NO"
+    ]
+  },
+  {
+    "id": "qaxrbi17r1bpg",
+    "title": "Bears lock in RB D'Andre Swift with contract extension",
+    "url": "https://sports.yahoo.com/articles/bears-lock-rb-dandre-swift-194806668.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:48:06.000Z",
+    "summary": "D'Andre Swift was entering the final year of his deal with the Chicago Bears. Now he'll be in the Windy City much longer.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [
+      "d-andre-swift"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "1hcu5dz1u88li1",
+    "title": "Bears extend D’Andre Swift to three-year, $33.75 million deal",
+    "url": "https://sports.yahoo.com/articles/bears-extend-d-andre-swift-194738460.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:47:38.000Z",
+    "summary": "The Bears have paid one of their own, signing D’Andre Swift to a three-year contract extension.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "f1hvmbph49zv",
+    "title": "Joey Porter Jr. questionable for Steelers-Falcons",
+    "url": "https://sports.yahoo.com/articles/joey-porter-jr-questionable-steelers-194721383.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:47:21.000Z",
+    "summary": "The Steelers' top cornerback is the only name on Pittsburgh's injury report ahead of Week 1.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "ATL",
+      "PIT"
+    ],
+    "players": [],
+    "teams": [
+      "ATL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "16gong9e3n1gf",
+    "title": "Bears, D'Andre Swift agree to three-year contract extension",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-dandre-swift-agree-to-three-year-contract-extension",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T19:45:18.000Z",
+    "summary": "Bears running back D'Andre Swift will kick off the new season with a new contract.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [
+      "d-andre-swift"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "px27vytabp8y",
+    "title": "Bears, D'Andre Swift agree to three-year contract extension",
+    "url": "https://sports.yahoo.com/articles/bears-dandre-swift-agree-three-194518212.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:45:18.000Z",
+    "summary": "Bears running back D'Andre Swift will kick off the new season with a new contract.",
+    "tags": [
+      "league-news",
+      "contract",
+      "CHI"
+    ],
+    "players": [
+      "d-andre-swift"
+    ],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "fa3rxtz3zms1",
+    "title": "See which Bills and Texans were listed on the first injury report for Week 1",
+    "url": "https://sports.yahoo.com/articles/see-bills-texans-were-listed-221558797.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:43:15.000Z",
+    "summary": "Keep track of what injuries could impact the game day roster",
+    "tags": [
+      "league-news",
+      "injury",
+      "BUF",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "BUF",
+      "HOU"
+    ]
+  },
+  {
+    "id": "11bz1dx113kp8z",
+    "title": "Bears vs Panthers Final Injury Report: 4 Questionable for Chicago",
+    "url": "https://sports.yahoo.com/articles/bears-vs-panthers-final-injury-193858394.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:38:58.000Z",
+    "summary": "The full and final injury report for the Bears and Panthers is here from @wiltfongjr.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "CAR",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CAR",
+      "CHI"
+    ]
+  },
+  {
+    "id": "xu3o4mkksrfe",
+    "title": "Rome Odunze on Week 1 status: \"I'm feeling ready to go, I doubt I'm questionable\"",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wdqfo6/rome_odunze_on_week_1_status_im_feeling_ready_to",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-11T19:38:13.000Z",
+    "summary": "&#32; submitted by &#32; /u/notquitemytempo___ [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "availability"
+    ],
+    "players": [
+      "rome-odunze"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1kyjfrujbg3yk",
+    "title": "Sources: RB D’Andre Swift and the Chicago Bears have reached agreeement on a 3-year, $33.75 million extension that includes $27.5M guaranteed. This is now Swift’s third NFL contract. Trevon Smith and David Mulugheta of Athletes First and the Bears just wrapped up the deal with the regular season’s s",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wdqef4/sources_rb_dandre_swift_and_the_chicago_bears",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-11T19:36:54.000Z",
+    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "contract",
+      "CHI"
+    ],
+    "players": [],
+    "teams": [
+      "CHI"
+    ]
+  },
+  {
+    "id": "0du71zcfur7u",
+    "title": "Malik Davis suffers hip injury, Week 1 status in doubt",
+    "url": "https://sports.yahoo.com/articles/malik-davis-suffers-hip-injury-193004777.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:30:04.000Z",
+    "summary": "Hopefully Malik Davis is alright",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "malik-davis"
+    ],
+    "teams": []
+  },
+  {
+    "id": "gbfnmhqcbbm9",
+    "title": "Texans place second-round pick Kayden McDonald on IR",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-place-second-round-pick-kayden-mcdonald-on-ir",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T19:29:45.000Z",
+    "summary": "Texans second-round pick Kayden McDonald won't be making his NFL debut in September.",
+    "tags": [
+      "league-news",
+      "injury",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "1rtwvd01kb6xa2",
+    "title": "Texans place second-round pick Kayden McDonald on IR",
+    "url": "https://sports.yahoo.com/articles/texans-place-second-round-pick-192945796.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:29:45.000Z",
+    "summary": "Texans second-round pick Kayden McDonald won't be making his NFL debut in September.",
+    "tags": [
+      "league-news",
+      "injury",
+      "HOU"
+    ],
+    "players": [],
+    "teams": [
+      "HOU"
+    ]
+  },
+  {
+    "id": "9e099c1v3f44k",
+    "title": "Shemar Stewart doubtful, Ja'Marr Chase and Tee Higgins set to play Week 1",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shemar-stewart-doubtful-jamarr-chase-and-tee-higgins-set-to-play-week-1",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T19:26:39.000Z",
+    "summary": "The Bengals are unlikely to have defensive end Shemar Stewart for Sunday's season opener against the Buccaneers, but the rest of their 53-man roster is healthy to play — including receivers Ja'Marr Chase and Tee Higgins.",
+    "tags": [
+      "league-news",
+      "availability",
+      "CIN",
+      "TB"
+    ],
+    "players": [
+      "ja-marr-chase",
+      "tee-higgins"
+    ],
+    "teams": [
+      "CIN",
+      "TB"
+    ]
+  },
+  {
+    "id": "kan7f91ms01cz",
+    "title": "Shemar Stewart doubtful, Ja'Marr Chase and Tee Higgins set to play Week 1",
+    "url": "https://sports.yahoo.com/articles/shemar-stewart-doubtful-jamarr-chase-192639224.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:26:39.000Z",
+    "summary": "The Bengals are unlikely to have defensive end Shemar Stewart for Sunday's season opener against the Buccaneers, but the rest of their 53-man roster is healthy to play — including receivers Ja'Marr Chase and Tee Higgins.",
+    "tags": [
+      "league-news",
+      "availability",
+      "CIN",
+      "TB"
+    ],
+    "players": [
+      "ja-marr-chase",
+      "tee-higgins"
+    ],
+    "teams": [
+      "CIN",
+      "TB"
+    ]
+  },
+  {
+    "id": "16lw7zy2jplzs",
+    "title": "RB Malik Davis carted off at Cowboys practice",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rb-malik-davis-carted-off-at-cowboys-practice",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T19:22:46.000Z",
+    "summary": "The Cowboys may need to pivot to a new plan for their offensive backfield ahead of Sunday night's game against the Giants.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DAL",
+      "NYG"
+    ],
+    "players": [
+      "malik-davis"
+    ],
+    "teams": [
+      "DAL",
+      "NYG"
+    ]
+  },
+  {
+    "id": "1w00dmee77e3e",
+    "title": "RB Malik Davis carted off at Cowboys practice",
+    "url": "https://sports.yahoo.com/articles/rb-malik-davis-carted-off-192246769.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:22:46.000Z",
+    "summary": "The Cowboys may need to pivot to a new plan for their offensive backfield ahead of Sunday night's game against the Giants.",
+    "tags": [
+      "league-news",
+      "injury",
+      "DAL",
+      "NYG"
+    ],
+    "players": [
+      "malik-davis"
+    ],
+    "teams": [
+      "DAL",
+      "NYG"
+    ]
+  },
+  {
+    "id": "xk7vnjtjmash",
+    "title": "Packers release WR Bo Melton, intend to retain him on practice squad",
+    "url": "https://sports.yahoo.com/articles/packers-release-wr-bo-melton-191843993.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:18:43.000Z",
+    "summary": "Melton’s release appears to be procedural to open up a roster spot, but the mechanics remain a bit unclear.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "14rvi151iq18p",
+    "title": "Rome Odunze, Xavier Woods questionable for Bears vs. Panthers",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rome-odunze-xavier-woods-questionable-for-bears-vs-panthers",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T19:12:32.000Z",
+    "summary": "Two Bears starters are questionable for Sunday's opener against the Panthers.",
+    "tags": [
+      "league-news",
+      "availability",
+      "CAR",
+      "CHI"
+    ],
+    "players": [
+      "rome-odunze"
+    ],
+    "teams": [
+      "CAR",
+      "CHI"
+    ]
+  },
+  {
+    "id": "bmergdynaw1b",
+    "title": "Rome Odunze, Xavier Woods questionable for Bears vs. Panthers",
+    "url": "https://sports.yahoo.com/articles/rome-odunze-xavier-woods-questionable-191232243.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:12:32.000Z",
+    "summary": "Two Bears starters are questionable for Sunday's opener against the Panthers.",
+    "tags": [
+      "league-news",
+      "availability",
+      "CAR",
+      "CHI"
+    ],
+    "players": [
+      "rome-odunze"
+    ],
+    "teams": [
+      "CAR",
+      "CHI"
+    ]
+  },
+  {
+    "id": "1412uku126kv6s",
+    "title": "Ashton Jeanty will play, Fernando Mendoza No. 2 Sunday against Miami",
+    "url": "https://sports.yahoo.com/articles/ashton-jeanty-play-fernando-mendoza-191036734.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:10:36.000Z",
+    "summary": "Running back has been trending right way with ankle injury",
+    "tags": [
+      "league-news",
+      "injury"
+    ],
+    "players": [
+      "fernando-mendoza",
+      "ashton-jeanty"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1dof13v13himb3",
+    "title": "Packers release Bo Melton, but will bring him back on practice squad",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-release-bo-melton-but-will-bring-him-back-on-practice-squad",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T19:00:15.000Z",
+    "summary": "The Packers have made a surprising roster move on Friday, but there’s more to it than it initially appears.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "1qy83i2qovm1a",
+    "title": "Packers release Bo Melton, but will bring him back on practice squad",
+    "url": "https://sports.yahoo.com/articles/packers-release-bo-melton-bring-190015595.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T19:00:15.000Z",
+    "summary": "The Packers have made a surprising roster move on Friday, but there’s more to it than it initially appears.",
+    "tags": [
+      "league-news",
+      "roster-move",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "ge310e1ug2ujk",
+    "title": "A.J. Brown injury: Patriots place former Eagles receiver on IR",
+    "url": "https://sports.yahoo.com/articles/j-brown-injury-patriots-place-185213904.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T18:52:13.000Z",
+    "summary": "The former Eagles WR will miss at least four games due to a high-ankle sprain.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "PHI"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "PHI"
+    ]
+  },
+  {
+    "id": "56rtuz1ckrhzv",
+    "title": "Malik Davis carted off practice field on Friday, per @clarencehilljr.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wdp3dz/malik_davis_carted_off_practice_field_on_friday",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-11T18:50:41.000Z",
+    "summary": "&#32; submitted by &#32; /u/Ma1ikNabers [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "injury"
+    ],
+    "players": [
+      "malik-davis"
+    ],
+    "teams": []
+  },
+  {
+    "id": "4w35yt100csir",
+    "title": "Jalen McMillan doubtful for Bucs, but Emeka Egbuka is set to play",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-mcmillan-doubtful-for-bucs-but-emeka-egbuka-is-set-to-play",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T18:43:45.000Z",
+    "summary": "The Buccaneers will likely be down one wide receiver when they open the regular season against the Bengals on Sunday.",
+    "tags": [
+      "league-news",
+      "availability",
+      "CIN",
+      "TB"
+    ],
+    "players": [
+      "emeka-egbuka",
+      "jalen-mcmillan"
+    ],
+    "teams": [
+      "CIN",
+      "TB"
+    ]
+  },
+  {
+    "id": "xlf8de520gf2",
+    "title": "Adam Schefter on X: \"Packers have released WR Bo Melton.\" / X",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wdosmt/adam_schefter_on_x_packers_have_released_wr_bo",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-11T18:40:53.000Z",
+    "summary": "&#32; submitted by &#32; /u/Level_East94 [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "roster-move",
+      "GB"
+    ],
+    "players": [],
+    "teams": [
+      "GB"
+    ]
+  },
+  {
+    "id": "1sdmlkqkkqkj6",
+    "title": "Report: Kyle Shanahan quietly signed contract extension with 49ers",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kyle-shanahan-quietly-signed-contract-extension-with-49ers",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T18:36:49.000Z",
+    "summary": "On the heels of San Francisco's dominant victory over the Rams in Australia comes some news about their head coach.",
+    "tags": [
+      "league-news",
+      "contract",
+      "LAR",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "LAR",
+      "SF"
+    ]
+  },
+  {
+    "id": "1d8zc4o1olnk8s",
+    "title": "49ers reportedly signed Kyle Shanahan to extension during offseason, have secured head coach for foreseeable future",
+    "url": "https://sports.yahoo.com/nfl/breaking-news/article/49ers-reportedly-signed-kyle-shanahan-to-extension-during-offseason-have-secured-head-coach-for-foreseeable-future-183636345.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-11T18:36:36.000Z",
+    "summary": "Shanahan's chaotic offseason reportedly included a contract extension.",
+    "tags": [
+      "league-news",
+      "contract",
+      "SF"
+    ],
+    "players": [],
+    "teams": [
+      "SF"
+    ]
+  },
+  {
+    "id": "q2vtrm1tetfms",
+    "title": "DL T.J. Sanders listed as questionable for the Bills",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dl-t-j-sanders-listed-as-questionable-for-the-bills",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T18:32:00.000Z",
+    "summary": "The Bills have three players on their final injury report ahead of Sunday's game in Houston.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "BUF"
+    ],
+    "players": [],
+    "teams": [
+      "BUF"
+    ]
+  },
+  {
+    "id": "eg194e1atzx98",
+    "title": "Saints call Alvin Kamara questionable for Week 1",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-call-alvin-kamara-questionable-for-week-1",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T18:20:56.000Z",
+    "summary": "When Saints running back Alvin Kamara sprained his MCL in mid-August, there was word that he would miss about a month because of the injury.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability",
+      "NO"
+    ],
+    "players": [
+      "alvin-kamara"
+    ],
+    "teams": [
+      "NO"
+    ]
+  },
+  {
+    "id": "1u6j8ldo1xf9h",
+    "title": "Falcons rule out Tua Tagovailoa against Steelers, Cooper Rush to start at quarterback",
+    "url": "https://www.cbssports.com/nfl/news/falcons-rule-out-tua-tagovailoa-vs-steelers-cooper-rush-to-start",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-11T18:07:49.000Z",
+    "summary": "Tagovailoa suffered an oblique injury in practice Thursday",
+    "tags": [
+      "league-news",
+      "injury",
+      "ATL",
+      "PIT"
+    ],
+    "players": [
+      "cooper-rush",
+      "tua-tagovailoa"
+    ],
+    "teams": [
+      "ATL",
+      "PIT"
+    ]
+  },
+  {
+    "id": "ypgwu1ybzr8h",
+    "title": "Agent&#039;s Take: Jayden Daniels, C.J. Stroud and other quarterbacks who are at a crossroads entering 2026 season",
+    "url": "https://www.cbssports.com/nfl/news/jayden-daniels-c-j-stroud-quarterbacks-at-crossroads-2026-nfl-season",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-11T18:04:36.000Z",
+    "summary": "From looming contract decisions for C.J. Stroud to career crossroads for Deshaun Watson and Kyler Murray, several starting passers face pivotal campaigns in 2026.",
+    "tags": [
+      "league-news",
+      "contract"
+    ],
+    "players": [
+      "c-j-stroud",
+      "deshaun-watson",
+      "jayden-daniels",
+      "kyler-murray"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1k7xhs41scjg4u",
+    "title": "Browns will start two rookie OLs with Teven Jenkins ruled out",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-will-start-two-rookie-ols-with-teven-jenkins-ruled-out",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T17:55:19.000Z",
+    "summary": "Deshaun Watson's first start since 2024 just got a little bit tougher.",
+    "tags": [
+      "league-news",
+      "rookie",
+      "availability",
+      "CLE"
+    ],
+    "players": [
+      "deshaun-watson"
+    ],
+    "teams": [
+      "CLE"
+    ]
+  },
+  {
+    "id": "18b4tgk1vy0rsa",
+    "title": "Patriots WR A.J. Brown headed to IR with high ankle sprain, next steps for New England",
+    "url": "https://www.cbssports.com/nfl/news/patriots-a-j-brown-injured-reserve",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-11T17:44:53.000Z",
+    "summary": "Brown suffered the injury in the third quarter of the season opener against the Seahawks",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE",
+      "SEA"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE",
+      "SEA"
+    ]
+  },
+  {
+    "id": "4wjh6j1uu5fn7",
+    "title": "Todd Bowles says Emeka Egbuka is full go for Sunday but Sean Tucker and Jalen McMillan are listed as doubtful.",
+    "url": "https://www.reddit.com/r/DynastyFF/comments/1wdn5pz/todd_bowles_says_emeka_egbuka_is_full_go_for",
+    "source": "r/DynastyFF",
+    "sourceId": "reddit-dynastyff",
+    "publishedAt": "2026-09-11T17:42:10.000Z",
+    "summary": "&#32; submitted by &#32; /u/Hour_Camp1474 [link] &#32; [comments]",
+    "tags": [
+      "dynasty",
+      "availability"
+    ],
+    "players": [
+      "sean-tucker",
+      "emeka-egbuka",
+      "jalen-mcmillan"
+    ],
+    "teams": []
+  },
+  {
+    "id": "1b2pyq7fldarr",
+    "title": "Dan Quinn: All players on 53-man roster cleared to play Week 1",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-all-players-on-53-man-roster-cleared-to-play-week-1",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T17:09:52.000Z",
+    "summary": "Commanders head coach Dan Quinn delivered some positive injury news on Friday.",
+    "tags": [
+      "league-news",
+      "injury",
+      "WAS"
+    ],
+    "players": [],
+    "teams": [
+      "WAS"
+    ]
+  },
+  {
+    "id": "15k7vq12q7yk2",
+    "title": "Patriots to put A.J. Brown on injured reserve",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-patriots-to-put-a-j-brown-on-injured-reserve",
+    "source": "Pro Football Talk",
+    "sourceId": "pft",
+    "publishedAt": "2026-09-11T16:50:02.000Z",
+    "summary": "Brown will miss at least four games with a high-ankle sprain.",
+    "tags": [
+      "league-news",
+      "injury",
+      "NE"
+    ],
+    "players": [
+      "a-j-brown"
+    ],
+    "teams": [
+      "NE"
+    ]
+  },
+  {
     "id": "7ktkw310an9yt",
     "title": "Sources: Patriots to add DaQuan Jones on 1-year deal",
     "url": "https://www.espn.com/nfl/story/_/id/49904397/sources-patriots-add-daquan-jones-1-year-6m-deal",
@@ -33,6 +1323,28 @@
       "LAC"
     ],
     "players": [],
+    "teams": [
+      "ARI",
+      "LAC"
+    ]
+  },
+  {
+    "id": "lyydu4u80in0",
+    "title": "Jeremiyah Love expected to play in Week 1 but questions remain about his workload",
+    "url": "https://www.cbssports.com/nfl/news/jeremiyah-love-injury-update-cardinals-chargers",
+    "source": "CBS Sports NFL",
+    "sourceId": "cbs-nfl",
+    "publishedAt": "2026-09-11T16:00:52.000Z",
+    "summary": "The Cardinals expect their first-round running back to play against the Chargers, but there are still questions to answer",
+    "tags": [
+      "league-news",
+      "usage",
+      "ARI",
+      "LAC"
+    ],
+    "players": [
+      "jeremiyah-love"
+    ],
     "teams": [
       "ARI",
       "LAC"
@@ -5684,6 +6996,25 @@
     "teams": []
   },
   {
+    "id": "1dnsw0r1mbim0z",
+    "title": "NFL injury tracker Week 1: Latest news, fantasy implications as Tua Tagovailoa (oblique) ruled out, Brock Bowers (knee) expected to miss time",
+    "url": "https://sports.yahoo.com/fantasy/live/nfl-injury-tracker-week-1-latest-news-fantasy-implications-as-tua-tagovailoa-oblique-ruled-out-brock-bowers-knee-expected-to-miss-time-154233236.html",
+    "source": "Yahoo Sports NFL",
+    "sourceId": "yahoo-nfl",
+    "publishedAt": "2026-09-08T15:42:33.000Z",
+    "summary": "Here's everything you need to know injury-wise for Week 1 of the NFL season.",
+    "tags": [
+      "league-news",
+      "injury",
+      "availability"
+    ],
+    "players": [
+      "tua-tagovailoa",
+      "brock-bowers"
+    ],
+    "teams": []
+  },
+  {
     "id": "bmw6li1a42vww",
     "title": "Three Rivers Report: Could Steelers sign recently released WR?",
     "url": "https://sports.yahoo.com/articles/three-rivers-report-could-steelers-153029909.html",
@@ -5844,7 +7175,7 @@
   },
   {
     "id": "zvz21m1kfo5z8",
-    "title": "NFL Week 1 picks and score predictions: Seahawks destroy Patriots in Super Bowl rematch, Rams prevail",
+    "title": "NFL Week 1 picks and score predictions: Broncos edge Chiefs, Raiders over Dolphins",
     "url": "https://www.cbssports.com/nfl/news/nfl-week-1-picks-and-predictions-chiefs-seahawks-patriots",
     "source": "CBS Sports NFL",
     "sourceId": "cbs-nfl",
@@ -5855,7 +7186,11 @@
       "injury",
       "LAR",
       "NE",
-      "SEA"
+      "SEA",
+      "DEN",
+      "KC",
+      "LV",
+      "MIA"
     ],
     "players": [
       "patrick-mahomes"
@@ -5863,7 +7198,11 @@
     "teams": [
       "LAR",
       "NE",
-      "SEA"
+      "SEA",
+      "DEN",
+      "KC",
+      "LV",
+      "MIA"
     ]
   },
   {
@@ -6566,1262 +7905,6 @@
     "players": [],
     "teams": [
       "SEA"
-    ]
-  },
-  {
-    "id": "1xgurmn13uu7up",
-    "title": "Seahawks S Nick Emmanwori remains limited, S Ty Okada DNP again on Monday",
-    "url": "https://sports.yahoo.com/articles/seahawks-nick-emmanwori-remains-limited-214029037.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T21:40:29.000Z",
-    "summary": "Seahawks safety Nick Emmanwori remained limited in Monday's practice.",
-    "tags": [
-      "league-news",
-      "availability",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "1cwdmt5j6rg67",
-    "title": "Cards' Mike LaFleur optimistic Jeremiyah Love plays in Week 1",
-    "url": "https://www.espn.com/nfl/story/_/id/49862561/cardinals-optimistic-rookie-rb-love-ready-opener",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-09-07T21:21:16.000Z",
-    "summary": "Cardinals coach Mike LaFleur is optimistic that rookie running back Jeremiyah Love will be able to play Sunday at the Chargers, about four weeks after suffering a high ankle sprain in a preseason game.",
-    "tags": [
-      "league-news",
-      "injury",
-      "rookie",
-      "ARI",
-      "LAC"
-    ],
-    "players": [
-      "jeremiyah-love"
-    ],
-    "teams": [
-      "ARI",
-      "LAC"
-    ]
-  },
-  {
-    "id": "1o6fvtn1s7pzvh",
-    "title": "Giants release WR Darius Slayton after seven seasons",
-    "url": "https://sports.yahoo.com/articles/giants-release-wr-darius-slayton-212039201.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T21:20:39.000Z",
-    "summary": "After seven seasons, Darius Slayton's time with the Giants is over.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "pzh9zh1qfcu7p",
-    "title": "Mike LaFleur says he feels \"good\" about Jeremiyah Love's chances for Week 1",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-says-he-feels-good-about-jeremiyah-loves-chances-for-week-1",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T21:18:13.000Z",
-    "summary": "Cardinals running back Jeremiyah Love injured his ankle in an Aug. 13 preseason game against the Raiders.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI",
-      "LV"
-    ],
-    "players": [
-      "jeremiyah-love"
-    ],
-    "teams": [
-      "ARI",
-      "LV"
-    ]
-  },
-  {
-    "id": "1xlytjj1uf9wm7",
-    "title": "Mike LaFleur says he feels \"good\" about Jeremiyah Love's chances for Week 1",
-    "url": "https://sports.yahoo.com/articles/mike-lafleur-says-feels-good-211813771.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T21:18:13.000Z",
-    "summary": "Cardinals running back Jeremiyah Love injured his ankle in an Aug. 13 preseason game against the Raiders.",
-    "tags": [
-      "league-news",
-      "injury",
-      "ARI",
-      "LV"
-    ],
-    "players": [
-      "jeremiyah-love"
-    ],
-    "teams": [
-      "ARI",
-      "LV"
-    ]
-  },
-  {
-    "id": "rnd0jx1svuz25",
-    "title": "Darius Slayton, team’s longest-tenured player, released by Giants",
-    "url": "https://sports.yahoo.com/articles/giants-release-wr-darius-slayton-211733760.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T21:17:33.000Z",
-    "summary": "The NY Giants part with their longest-tenured veteran",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "zdks16qo25f6",
-    "title": "Giants release veteran Darius Slayton days before season opener",
-    "url": "https://sports.yahoo.com/articles/giants-release-veteran-darius-slayton-211647804.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T21:16:47.000Z",
-    "summary": "Darius Slayton initially made the 53-man roster after surviving the final round of cuts, but he didn’t make it to Week 1.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "buvdr1w4ubpl",
-    "title": "Giants release WR Darius Slayton, team's longest-tenured player",
-    "url": "https://www.espn.com/nfl/story/_/id/49862543/giants-release-wr-darius-slayton-team-longest-tenured-player",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-09-07T21:16:20.000Z",
-    "summary": "The Giants have released wide receiver Darius Slayton, moving on from their longest-tenured player.",
-    "tags": [
-      "league-news",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "16vz8xt1hadhm9",
-    "title": "Giants cut Darius Slayton",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-cut-darius-slayton",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T21:09:45.000Z",
-    "summary": "The veteran wide receiver, who signed a three-year, $36 million contract last season, is out.",
-    "tags": [
-      "league-news",
-      "contract",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [
-      "darius-slayton"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "1hb9qan1h38pbb",
-    "title": "Giants release WR Darious Slayton",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1wa4k1n/giants_release_wr_darious_slayton",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-07T21:09:27.000Z",
-    "summary": "Darius Slayton appeared to be safe during the lead-in to roster cuts. The veteran wideout will not begin 2026 with the Giants, however. Slayton was released on Monday, per a team announcement. This marks an end to his seven-year run in New York. Slayton will immediately become a free agent as he looks to find his next opportunity in time for Week 1. https://www.profootballrumors.com/2026/09/giants",
-    "tags": [
-      "dynasty",
-      "roster-move",
-      "NYG"
-    ],
-    "players": [
-      "darius-slayton"
-    ],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "hcdqbj118nez3",
-    "title": "Ja'Marr Chase, Tee Higgins return to Bengals practice",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-tee-higgins-return-to-bengals-practice",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T21:04:18.000Z",
-    "summary": "The Bengals didn't show concern about wide receivers Ja'Marr Chase and Tee Higgins missing Week 1 when they missed practice last week and the outlook continues to be good as they move closer to Week 1.",
-    "tags": [
-      "league-news",
-      "availability",
-      "CIN"
-    ],
-    "players": [
-      "ja-marr-chase",
-      "tee-higgins"
-    ],
-    "teams": [
-      "CIN"
-    ]
-  },
-  {
-    "id": "i4y4xpuhf5q1",
-    "title": "Ja'Marr Chase, Tee Higgins return to Bengals practice",
-    "url": "https://sports.yahoo.com/articles/jamarr-chase-tee-higgins-return-210418383.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T21:04:18.000Z",
-    "summary": "The Bengals didn't show concern about wide receivers Ja'Marr Chase and Tee Higgins missing Week 1 when they missed practice last week and the outlook continues to be good as they move closer to Week 1.",
-    "tags": [
-      "league-news",
-      "availability",
-      "CIN"
-    ],
-    "players": [
-      "ja-marr-chase",
-      "tee-higgins"
-    ],
-    "teams": [
-      "CIN"
-    ]
-  },
-  {
-    "id": "u3lwv01oad7u6",
-    "title": "Cowboys lose star offensive lineman to injury days before season opener",
-    "url": "https://sports.yahoo.com/articles/cowboys-lose-star-offensive-lineman-204751774.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T20:47:51.000Z",
-    "summary": "With the 2026 NFL season around the corner, the Cowboys were dealt a blow as Tyler Smith will land on injured reserve.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "zpezxf1cpfnpp",
-    "title": "Patriots vs. Seahawks Monday injury report: Ben Brown ruled out ahead of opener",
-    "url": "https://sports.yahoo.com/articles/patriots-vs-seahawks-monday-injury-204744154.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T20:47:44.000Z",
-    "summary": "The second injury report ahead of Week 1 at Lumen Field.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability",
-      "NE",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "NE",
-      "SEA"
-    ]
-  },
-  {
-    "id": "hbnaopoltrzb",
-    "title": "C.J. Stroud hoping to have a big year ahead of future contract talks",
-    "url": "https://www.espn.com/video/clip/_/id/49862136/cj-stroud-hoping-big-year-ahead-future-contract-talks",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-09-07T20:39:22.000Z",
-    "summary": "DJ Bien-Aime breaks down his interview with C.J. Stroud and Stroud's hopes for the season ahead.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [
-      "c-j-stroud"
-    ],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "1gopfrhtl4z93",
-    "title": "Tyler Smith injury a break for Giants prior to Week 1 game vs. Cowboys",
-    "url": "https://sports.yahoo.com/articles/tyler-smith-injury-break-giants-203229661.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T20:32:29.000Z",
-    "summary": "Cowboys get bad news before season-opening game.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "DAL",
-      "NYG"
-    ]
-  },
-  {
-    "id": "1fdgrhc1tlfz6",
-    "title": "Kaytron Allen or Kaleb Johnson?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1wa3hzf/kaytron_allen_or_kaleb_johnson",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-07T20:28:55.000Z",
-    "summary": "If you had to pick between one, which would you do? I believe Kaleb’s value is at its absolute peak that it will ever be. He’s essentially a 4th stringer while also needing a very unique circumstance with the Jacob’s situation emerging at the very end of the roster cut cycle to even make a roster AND 2 head coaches have basically written him off in 2 years. I do understand the concern around Rodge",
-    "tags": [
-      "dynasty",
-      "roster-move"
-    ],
-    "players": [
-      "kaleb-johnson",
-      "kaytron-allen"
-    ],
-    "teams": []
-  },
-  {
-    "id": "ipjjjmzbjo22",
-    "title": "Cowboys three-time Pro Bowler Tyler Smith to undergo thumb surgery, out 4-6 weeks",
-    "url": "https://www.cbssports.com/nfl/news/cowboys-tyler-smith-to-undergo-thumb-surgery",
-    "source": "CBS Sports NFL",
-    "sourceId": "cbs-nfl",
-    "publishedAt": "2026-09-07T20:27:28.000Z",
-    "summary": "Dallas has &#039;a ton of confidence&#039; in Smith&#039;s replacement to hold down the fort in his absence",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "124ksdmj5dre",
-    "title": "Cowboys LG Tyler Smith to undergo thumb surgery, expected to miss 4-6 weeks",
-    "url": "https://sports.yahoo.com/nfl/article/cowboys-lg-tyler-smith-to-undergo-thumb-surgery-expected-to-miss-4-6-weeks-202635725.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T20:26:35.000Z",
-    "summary": "Smith has dealt with a ligament issue in his thumb for some time, according to Cowboys head coach Brian Schottenheimer.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "f8ham216xccda",
-    "title": "Mike McCarthy hopeful that Joey Porter will play Week 1",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-hopeful-that-joey-porter-will-play-week-1",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T20:22:46.000Z",
-    "summary": "The Steelers do not negotiate contract extensions once the season starts.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "p5stzo19vaa1c",
-    "title": "Mike McCarthy hopeful that Joey Porter will play Week 1",
-    "url": "https://sports.yahoo.com/articles/mike-mccarthy-hopeful-joey-porter-202246035.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T20:22:46.000Z",
-    "summary": "The Steelers do not negotiate contract extensions once the season starts.",
-    "tags": [
-      "league-news",
-      "contract",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "PIT"
-    ]
-  },
-  {
-    "id": "xd9sq51vki3e3",
-    "title": "Lions sign LB Joe Bachie to active roster",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-sign-lb-joe-bachie-to-active-roster",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T20:22:16.000Z",
-    "summary": "The Lions have filled one of the openings on their active roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "pvc9f4ynxd1g",
-    "title": "Lions sign LB Joe Bachie to active roster",
-    "url": "https://sports.yahoo.com/articles/lions-sign-lb-joe-bachie-202216510.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T20:22:16.000Z",
-    "summary": "The Lions have filled one of the openings on their active roster.",
-    "tags": [
-      "league-news",
-      "contract",
-      "DET"
-    ],
-    "players": [],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "1w90cvp16f7w1",
-    "title": "Mike Evans downplays missing time: ‘None of my injuries were significant’",
-    "url": "https://sports.yahoo.com/articles/mike-evans-downplays-missing-time-201824651.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T20:18:24.000Z",
-    "summary": "Mike Evans believed he could have practiced in recent weeks had it been a game week",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "mike-evans"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1b55xjq265rxm",
-    "title": "Tyler Smith out at least four weeks",
-    "url": "https://sports.yahoo.com/articles/tyler-smith-least-four-weeks-201228759.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T20:12:28.000Z",
-    "summary": "Cowboys OG Tyler Smith will be placed on Injured Reserve because of thumb injury",
-    "tags": [
-      "league-news",
-      "injury",
-      "roster-move",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "aleffts7lnnb",
-    "title": "Patriots-Christian Gonzalez contract negotiations reportedly ‘nowhere’",
-    "url": "https://sports.yahoo.com/articles/patriots-christian-gonzalez-contract-negotiations-194210392.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T19:42:10.000Z",
-    "summary": "A deal being reached before the regular season seems increasingly unlikely.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NE"
-    ],
-    "players": [],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "1f4yxzc1q95nd0",
-    "title": "Cowboys starting left guard Tyler Smith out 4-6 weeks with thumb injury",
-    "url": "https://sports.yahoo.com/articles/cowboys-starting-left-guard-tyler-193943152.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T19:39:43.000Z",
-    "summary": "The Cowboys are going to be without Tyler Smith for some time.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "0nqeyk62vnho",
-    "title": "Monken doesn't rule out Browns using rookie QB in offensive 'package' Week 1 at Jaguars",
-    "url": "https://sports.yahoo.com/nfl/article/monken-doesnt-rule-out-browns-using-rookie-qb-in-offensive-package-week-1-at-jaguars-193557518.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T19:35:57.000Z",
-    "summary": "It wouldn't be surprising if the Cleveland Browns played multiple quarterbacks this season. In fact, they could even do that in Week 1.",
-    "tags": [
-      "league-news",
-      "rookie",
-      "CLE",
-      "JAX"
-    ],
-    "players": [],
-    "teams": [
-      "CLE",
-      "JAX"
-    ]
-  },
-  {
-    "id": "dha7my1vbv23k",
-    "title": "Cowboys LG Tyler Smith to have thumb surgery, miss 4-6 weeks",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-lg-tyler-smith-to-have-thumb-surgery-miss-4-6-weeks",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T19:30:20.000Z",
-    "summary": "The Cowboys are going to be missing a starting offensive lineman for the first chunk of the regular season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1q6vu7v10pk6g5",
-    "title": "Cowboys LG Tyler Smith to have thumb surgery, miss 4-6 weeks",
-    "url": "https://sports.yahoo.com/articles/cowboys-lg-tyler-smith-thumb-193020689.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T19:30:20.000Z",
-    "summary": "The Cowboys are going to be missing a starting offensive lineman for the first chunk of the regular season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "DAL"
-    ],
-    "players": [],
-    "teams": [
-      "DAL"
-    ]
-  },
-  {
-    "id": "1vodajd1d8hch7",
-    "title": "Jovaughn Gwyn will start at center for Ravens in Week 1",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jovaughn-gwyn-will-start-at-center-for-ravens-in-week-1",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T19:06:41.000Z",
-    "summary": "The Ravens have named a starting center for their first game of the 2026 season.",
-    "tags": [
-      "league-news",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "1mkycyu1ygkkn2",
-    "title": "There is “no sign” of WR Rome Odunze at practice today, per @kfishbain Both D’Andre Swift & Kyle Monangai were practicing.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1wa0tp7/there_is_no_sign_of_wr_rome_odunze_at_practice",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-07T18:50:45.000Z",
-    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "contract"
-    ],
-    "players": [
-      "kyle-monangai",
-      "rome-odunze"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1vy6t8c1eqb7ws",
-    "title": "Rome Odunze didn't practice Monday, but D'Andre Swift and Kyle Monangai did",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rome-odunze-didnt-practice-monday-but-dandre-swift-and-kyle-monangai-did",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T18:45:20.000Z",
-    "summary": "The Bears had some good news and some bad news on the injury front at Monday's practice.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI"
-    ],
-    "players": [
-      "d-andre-swift",
-      "kyle-monangai",
-      "rome-odunze"
-    ],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "mdoaoq19x74f0",
-    "title": "Rome Odunze didn't practice Monday, but D'Andre Swift and Kyle Monangai did",
-    "url": "https://sports.yahoo.com/articles/rome-odunze-didnt-practice-monday-184520955.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T18:45:20.000Z",
-    "summary": "The Bears had some good news and some bad news on the injury front at Monday's practice.",
-    "tags": [
-      "league-news",
-      "injury",
-      "CHI"
-    ],
-    "players": [
-      "d-andre-swift",
-      "kyle-monangai",
-      "rome-odunze"
-    ],
-    "teams": [
-      "CHI"
-    ]
-  },
-  {
-    "id": "1093nchzgti1v",
-    "title": "NFL MVP Odds & Prediction 2026: Josh Allen and Joe Burrow Top Board Ahead of Week 1",
-    "url": "https://sports.yahoo.com/articles/nfl-mvp-odds-josh-allen-182200431.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T18:37:00.000Z",
-    "summary": "Get the 2026-27 NFL MVP odds as Josh Allen and Joe Burrow trade at 11%. See how Lamar Jackson and Justin Herbert stack up for the league’s top individual honor.",
-    "tags": [
-      "league-news",
-      "trade"
-    ],
-    "players": [
-      "joe-burrow",
-      "josh-allen",
-      "justin-herbert",
-      "lamar-jackson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "9nxuk71mebjkh",
-    "title": "2027 Rookie Dynasty Mock Draft Round 1 (Week 1 overreaction)",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1wa0fx2/2027_rookie_dynasty_mock_draft_round_1_week_1",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-07T18:36:48.000Z",
-    "summary": "It's an overreaction. 1.0 PPR Superflex. Don't read too much into this, feedback welcome thanks 1. Jeremiah Smith (WR, Ohio State) 8 catches, 151 yards, and 2 touchdowns. Jeremiah Smith could sit out the rest of this season and still be the #1 pick in your rookie dynasty draft (see Ja'Marr Chase). I guess Smith saw Miami wideout Malachi Toney make some Heisman poses yesterday and decided to respon",
-    "tags": [
-      "dynasty",
-      "rookie"
-    ],
-    "players": [
-      "ja-marr-chase"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1ys76i2apw2gg",
-    "title": "Dan Campbell says Lions' backup running backs will be a two-man committee",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-says-lions-backup-running-backs-will-be-a-two-man-committee",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T17:00:39.000Z",
-    "summary": "The Lions have the highest-paid running back in the NFL, Jahmyr Gibbs, as their starter.",
-    "tags": [
-      "league-news",
-      "usage",
-      "DET"
-    ],
-    "players": [
-      "jahmyr-gibbs"
-    ],
-    "teams": [
-      "DET"
-    ]
-  },
-  {
-    "id": "1yvtk5z1w69981",
-    "title": "Commissioners: If you don’t have a rule about starting your most competitive lineup every week then make one now before the season starts.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w9uwew/commissioners_if_you_dont_have_a_rule_about",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-07T15:14:39.000Z",
-    "summary": "Every year in this sub when we get near the end of the season there are usually 10+ posts about someone intentionally not setting a full lineup in a league, or starting some irrelevant back up RB or WR7 over a legit starter to try and lose a matchup. Commissioners should be proactive and get ahead of this now. I know that having draft order determined with MaxPF should stop people from doing this,",
-    "tags": [
-      "dynasty",
-      "rookie",
-      "usage"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1g129bbzkhqob",
-    "title": "Is League Tycoon Good for IDP Leagues?",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w9tyb8/is_league_tycoon_good_for_idp_leagues",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-07T14:38:01.000Z",
-    "summary": "Some friends and I currently have a dynasty league on sleeper where we have full 53 man rosters because we want as much realism as possible. We are now wanting to expand and do a contract/salary league and I’ve come across League Tycoon. So far in my research it seems really great for a salary/contract league. My only concern so far is I haven’t found much information on IDP leagues or the only po",
-    "tags": [
-      "dynasty",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1asedydqe5jv3",
-    "title": "NFL news, live updates: Falcons name Tua Tagovailoa their starter; Christian McCaffrey, Nick Bosa not spotted at practice",
-    "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-roster-updates-week-1-142542967.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T14:25:42.000Z",
-    "summary": "Follow along with the latest NFL news and injury updates approaching Week 1.",
-    "tags": [
-      "league-news",
-      "injury",
-      "usage",
-      "ATL"
-    ],
-    "players": [
-      "christian-mccaffrey",
-      "tua-tagovailoa"
-    ],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "jcohoo1bd4x5g",
-    "title": "NFL news, live updates: TreVeyon Henderson out vs. Seahawks, Aaron Donald out vs. 49ers; Patrick Mahomes will 'most likely' start Week 1",
-    "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-week-1-fantasy-football-142542967.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T14:25:42.000Z",
-    "summary": "Follow along with the latest NFL news and injury updates approaching Week 1.",
-    "tags": [
-      "league-news",
-      "injury",
-      "contract",
-      "usage",
-      "ATL",
-      "NE",
-      "SF",
-      "SEA"
-    ],
-    "players": [
-      "tua-tagovailoa",
-      "patrick-mahomes",
-      "treveyon-henderson"
-    ],
-    "teams": [
-      "ATL",
-      "NE",
-      "SF",
-      "SEA"
-    ]
-  },
-  {
-    "id": "8qcvwf1kypfal",
-    "title": "NFL news, live updates: Sam Darnold expected to miss Week 2, while A.J. Brown's timeline to return uncertain; Josh Jacobs pleads no contest",
-    "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-week-1-142542967.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T14:25:42.000Z",
-    "summary": "Follow along with the latest NFL news and injury updates approaching Week 1.",
-    "tags": [
-      "league-news",
-      "injury",
-      "availability",
-      "SEA"
-    ],
-    "players": [
-      "treveyon-henderson",
-      "brock-bowers",
-      "malik-nabers",
-      "sam-darnold",
-      "josh-jacobs",
-      "a-j-brown"
-    ],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "sle2cgt6jb32",
-    "title": "And the Falcons’ starting QB for Week 1 is … Tua Tagovailoa",
-    "url": "https://sports.yahoo.com/articles/falcons-starting-qb-week-1-121840649.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T12:18:40.000Z",
-    "summary": "We finally have an answer: Tua Tagovailoa is the Atlanta Falcons’ Week 1 starter.",
-    "tags": [
-      "league-news",
-      "usage",
-      "ATL"
-    ],
-    "players": [],
-    "teams": [
-      "ATL"
-    ]
-  },
-  {
-    "id": "38wwyicvps84",
-    "title": "Falcons choose Tua Tagovailoa over Michael Penix Jr. as Week 1 starter vs. Steelers",
-    "url": "https://sports.yahoo.com/nfl/breaking-news/article/falcons-choose-tua-tagovailoa-over-michael-penix-jr-as-week-1-starter-vs-steelers-121355701.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T12:13:55.000Z",
-    "summary": "Atlanta turns to the veteran as Michael Penix Jr. continues working back from injury.",
-    "tags": [
-      "league-news",
-      "injury",
-      "usage",
-      "ATL",
-      "PIT"
-    ],
-    "players": [],
-    "teams": [
-      "ATL",
-      "PIT"
-    ]
-  },
-  {
-    "id": "nawp7y1sy7xcc",
-    "title": "- Daily Slop",
-    "url": "https://sports.yahoo.com/articles/daily-slop-120000619.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "summary": "The Athletic: “The Commanders missed their opportunity to build a contender during Jayden Daniels’ rookie contract window”",
-    "tags": [
-      "league-news",
-      "contract",
-      "rookie",
-      "WAS"
-    ],
-    "players": [
-      "jayden-daniels"
-    ],
-    "teams": [
-      "WAS"
-    ]
-  },
-  {
-    "id": "1352af63lwtts",
-    "title": "The Optimist: Taxing depth early as a sign of progress",
-    "url": "https://sports.yahoo.com/articles/optimist-taxing-depth-early-sign-120000748.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "summary": "It won't be a smooth road, but the Panthers might actually have a car capable of driving on dirt for the first time in years",
-    "tags": [
-      "league-news",
-      "contract",
-      "CAR"
-    ],
-    "players": [],
-    "teams": [
-      "CAR"
-    ]
-  },
-  {
-    "id": "14uc3p9169nxnb",
-    "title": "Ravens news: DT Nnamdi Madubuike could be ready for Week 1",
-    "url": "https://sports.yahoo.com/articles/ravens-news-dt-nnamdi-madubuike-110000660.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T11:00:00.000Z",
-    "summary": "Rounding up the latest news and analysis about the Baltimore Ravens!",
-    "tags": [
-      "league-news",
-      "availability",
-      "BAL"
-    ],
-    "players": [],
-    "teams": [
-      "BAL"
-    ]
-  },
-  {
-    "id": "p2end11abstzt",
-    "title": "C.J. Stroud confident ahead of the biggest season of his life",
-    "url": "https://www.espn.com/nfl/story/_/id/49826332/houston-texans-cj-stroud-confident-contract-year-4",
-    "source": "ESPN",
-    "sourceId": "espn-api",
-    "publishedAt": "2026-09-07T10:00:01.000Z",
-    "summary": "After a rocky end in the playoffs last season, it appears Stroud will play Year 4 without a new contract.",
-    "tags": [
-      "league-news",
-      "contract",
-      "HOU"
-    ],
-    "players": [
-      "c-j-stroud"
-    ],
-    "teams": [
-      "HOU"
-    ]
-  },
-  {
-    "id": "1vb7n0ziloisx",
-    "title": "Packers Depth Chart: We still don’t know who will start at cornerback",
-    "url": "https://sports.yahoo.com/articles/packers-depth-chart-still-don-100000073.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T10:00:00.000Z",
-    "summary": "The competition is between Carrington Valentine and Brandon Cisse, not Keisean Nixon",
-    "tags": [
-      "league-news",
-      "usage",
-      "GB"
-    ],
-    "players": [],
-    "teams": [
-      "GB"
-    ]
-  },
-  {
-    "id": "xi27gs1yay7dq",
-    "title": "49ers' Sam Okuayinonu has \"bad injury\" to his foot, hopes to play by end of season",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sam-okuayinonu-has-bad-injury-to-his-foot-hopes-to-play-by-end-of-season",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T08:00:48.000Z",
-    "summary": "When 49ers defensive lineman Sam Okuayinonu hurt his foot in the final practice before the team flight to Australia, there was hope that he could make a later flight and still play in the opener.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "z0h92trd9ng7",
-    "title": "49ers' Sam Okuayinonu has \"bad injury\" to his foot, hopes to play by end of season",
-    "url": "https://sports.yahoo.com/articles/49ers-sam-okuayinonu-bad-injury-080048666.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T08:00:48.000Z",
-    "summary": "When 49ers defensive lineman Sam Okuayinonu hurt his foot in the final practice before the team flight to Australia, there was hope that he could make a later flight and still play in the opener.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SF"
-    ],
-    "players": [],
-    "teams": [
-      "SF"
-    ]
-  },
-  {
-    "id": "1y6j0cu1kpnbt2",
-    "title": "Vikings 2026 Season Forecast",
-    "url": "https://sports.yahoo.com/articles/vikings-2026-season-forecast-041918552.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T04:19:18.000Z",
-    "summary": "It’s time for my annual Vikings season forecast. And like my forecasts for the rest of the NFC North teams, I will be looking at roster/coaching changes this offseason, injuries and luck factors from last season, and the change in strength of schedule from last season to this season to guide my forecast. One thing […]",
-    "tags": [
-      "league-news",
-      "injury",
-      "MIN"
-    ],
-    "players": [],
-    "teams": [
-      "MIN"
-    ]
-  },
-  {
-    "id": "11zhftn1bglxs3",
-    "title": "Deuce Alexander injury update: Ole Miss WR returns from locker room after TD catch",
-    "url": "https://sports.yahoo.com/articles/deuce-alexander-injury-ole-miss-023920302.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T02:39:20.000Z",
-    "summary": "Deuce Alexander, moments after catching a 62-yard touchdown, was stretching his leg on the sidelines before walking to the locker room. He later returned",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1mwtj3mwj743",
-    "title": "Kewan Lacy injury update: Ole Miss RB seen icing knee in Louisville game",
-    "url": "https://sports.yahoo.com/articles/kewan-lacy-injury-ole-miss-023614211.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T02:36:14.000Z",
-    "summary": "Ole Miss running has left the Rebels' game vs. Louisville. He was seen icing his left knee, without his helmet on, in the game. Latest injury updates:",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "1fcp0ghkh9q5n",
-    "title": "With opener looming, Rams DE Myles Garrett returns to practice",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-opener-looming-rams-de-myles-garrett-returns-to-practice",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T01:23:57.000Z",
-    "summary": "Knee injury had kept 2025 defensive player of the year out for a while.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "10ofvgu1ev9c8m",
-    "title": "With opener looming, Rams DE Myles Garrett returns to practice",
-    "url": "https://sports.yahoo.com/articles/opener-looming-rams-myles-garrett-012357874.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T01:23:57.000Z",
-    "summary": "Knee injury had kept 2025 defensive player of the year out for a while.",
-    "tags": [
-      "league-news",
-      "injury",
-      "LAR"
-    ],
-    "players": [],
-    "teams": [
-      "LAR"
-    ]
-  },
-  {
-    "id": "1ra3ldg1jlkcg6",
-    "title": "Patriots said RB TreVeyon Henderson officially didn’t practice today due to an ankle injury. He hasn’t practiced in two weeks. New England opens the season Wednesday night in Seattle.",
-    "url": "https://www.reddit.com/r/DynastyFF/comments/1w9e1q5/patriots_said_rb_treveyon_henderson_officially",
-    "source": "r/DynastyFF",
-    "sourceId": "reddit-dynastyff",
-    "publishedAt": "2026-09-07T01:16:58.000Z",
-    "summary": "&#32; submitted by &#32; /u/APizzola [link] &#32; [comments]",
-    "tags": [
-      "dynasty",
-      "injury",
-      "NE"
-    ],
-    "players": [
-      "treveyon-henderson"
-    ],
-    "teams": [
-      "NE"
-    ]
-  },
-  {
-    "id": "1n7cyqt18bagrp",
-    "title": "Seahawks S Nick Emmanwori (ankle) was limited in practice on Sunday",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-s-nick-emmanwori-ankle-was-limited-in-practice-on-sunday",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T00:24:05.000Z",
-    "summary": "The Seahawks have been saying very little about safety Nick Emmanwori's recovery from offseason ankle surgery that happened in July.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "vxb4r51px1v2z",
-    "title": "Seahawks S Nick Emmanwori (ankle) was limited in practice on Sunday",
-    "url": "https://sports.yahoo.com/articles/seahawks-nick-emmanwori-ankle-limited-002405414.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T00:24:05.000Z",
-    "summary": "The Seahawks have been saying very little about safety Nick Emmanwori's recovery from offseason ankle surgery that happened in July.",
-    "tags": [
-      "league-news",
-      "injury",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "SEA"
-    ]
-  },
-  {
-    "id": "6uzwgsiwhhiq",
-    "title": "WSU comes up short in Apple Cup loss, 24-10",
-    "url": "https://sports.yahoo.com/articles/wsu-comes-short-apple-cup-001306300.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T00:13:06.000Z",
-    "summary": "The 2026 opener didn’t end how Washington State wanted. However, the game itself gave signs of encouragement for the rest of the season. The Cougars opened with the 118th edition of the Apple Cup at Husky Stadium and lost to archrival Washington, 24-10. Despite some early offensive woes, WSU (0-1) found themselves in a one-possession […]",
-    "tags": [
-      "league-news",
-      "contract"
-    ],
-    "players": [],
-    "teams": []
-  },
-  {
-    "id": "6axhhlg7pns1",
-    "title": "RB TreVeyon Henderson (ankle) misses practice, three days before Week 1",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rb-treveyon-henderson-ankle-misses-practice-three-days-before-week-1",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-07T00:06:58.000Z",
-    "summary": "Henderson injured ankle nearly two weeks ago.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "treveyon-henderson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1up94zx13la18l",
-    "title": "RB TreVeyon Henderson (ankle) misses practice, three days before Week 1",
-    "url": "https://sports.yahoo.com/articles/rb-treveyon-henderson-ankle-misses-000658334.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-07T00:06:58.000Z",
-    "summary": "Henderson injured ankle nearly two weeks ago.",
-    "tags": [
-      "league-news",
-      "injury"
-    ],
-    "players": [
-      "treveyon-henderson"
-    ],
-    "teams": []
-  },
-  {
-    "id": "1lnrxrq3cvugm",
-    "title": "Seahawks-Patriots injury report: Concerns at safety grow with Ty Okada injury",
-    "url": "https://sports.yahoo.com/articles/seahawks-patriots-injury-report-concerns-235235349.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T23:52:35.000Z",
-    "summary": "The Seahawks’ safety depth is significantly compromised heading into the season opener.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NE",
-      "SEA"
-    ],
-    "players": [],
-    "teams": [
-      "NE",
-      "SEA"
-    ]
-  },
-  {
-    "id": "1nqje5n12hvarf",
-    "title": "Patriots vs. Seahawks Sunday injury report: TreVeyon Henderson among 3 non-participants",
-    "url": "https://sports.yahoo.com/articles/patriots-vs-seahawks-sunday-injury-233858901.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T23:38:58.000Z",
-    "summary": "The first injury report of the 2026 NFL season.",
-    "tags": [
-      "league-news",
-      "injury",
-      "NE",
-      "SEA"
-    ],
-    "players": [
-      "treveyon-henderson"
-    ],
-    "teams": [
-      "NE",
-      "SEA"
-    ]
-  },
-  {
-    "id": "13jqh7x19c3s4j",
-    "title": "Giants, Jon Runyan reach agreement on two-year, $22 million contract extension",
-    "url": "https://sports.yahoo.com/articles/giants-jon-runyan-reach-agreement-215439216.html",
-    "source": "Yahoo Sports NFL",
-    "sourceId": "yahoo-nfl",
-    "publishedAt": "2026-09-06T21:54:39.000Z",
-    "summary": "The Giants agreed to a two-year, $22 million contract extension with guard Jon Runyan on Sunday, reports ESPN's Adam Schefter.",
-    "tags": [
-      "league-news",
-      "contract",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
-    ]
-  },
-  {
-    "id": "iskl5x126o5np",
-    "title": "Giants, QB Jameis Winston agree to two-year extension",
-    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-qb-jameis-winston-agree-to-two-year-extension",
-    "source": "Pro Football Talk",
-    "sourceId": "pft",
-    "publishedAt": "2026-09-06T21:48:51.000Z",
-    "summary": "No. 1 overall pick in 2015 embraces his status as No. 2 on the depth chart.",
-    "tags": [
-      "league-news",
-      "contract",
-      "usage",
-      "NYG"
-    ],
-    "players": [],
-    "teams": [
-      "NYG"
     ]
   }
 ]
